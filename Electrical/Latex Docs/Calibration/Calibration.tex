@@ -1,0 +1,142 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover Electrical Assembly}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+
+\begin{document}
+
+\title{Open Source Rover}
+\author{Calibration}
+
+\makeatletter         
+\def\@maketitle{
+\begin{center}	
+	\makebox[\textwidth][c]{ \includegraphics[width=1.05\paperwidth]{"Pictures/calibration".png}}
+	{\Huge \bfseries \sffamily \@title }\\[4ex] 
+	{\huge \bfseries \sffamily \@author}\\[4ex] 
+	\includegraphics[width=.85\linewidth]{"Pictures/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+% Introduction
+\newpage
+
+
+\tableofcontents
+
+
+
+
+\section{Calibration}
+\label{cal section}
+In order for the motors to all work correctly to drive the rover we must calibrate the motors and encoders. We will use a program called Ion Studio to assist with this, which can be found at 
+\begin{itemize}
+	\item \href{http://www.ionmc.com/downloads}{http://www.ionmc.com/downloads} 
+\end{itemize}
+
+\noindent One at a time we will go through and check the encoders and motors for each RoboClaw, beginning with the Drive motors, which will be RoboClaw \#1
+
+\subsection{RoboClaw Setup}
+\begin{enumerate}
+	\item Connect to the RoboClaw via USB-micro USB cable
+	\item Open Ion Studio
+	\item If necessary update the RoboClaw Firmware
+	\begin{figure}[H]
+ 		\centering
+		\includegraphics[width=.55\textwidth]{"Pictures/Ion Studio 1".PNG}
+ 		\caption{Ion Studio Firmware Update}
+	\end{figure}
+	
+	\item Select Connect Selected Unit in the upper left box
+	\item Under the General Settings Tab you'll need to change the following settings for each RoboClaw:
+	\begin{enumerate}
+		\item \textbf{Setup}:
+		\begin{enumerate}
+			\item Control Mode: Packet Serial
+			\item Multi-Unit: Check Enable Multi-Unit Mode
+		\end{enumerate}
+
+		\item \textbf{Serial}:
+		\begin{enumerate}
+			\item Set the addressed to 128,129,130,131,132 for each respective RoboClaw
+			\item Baudrate: 115200
+		\end{enumerate}
+
+		\item \textbf{Battery}:
+		\begin{enumerate}
+			\item Max Main Batter: 12.5V
+			\item Min Main Batter: 11.5V
+			\item Max Logic Battery: 5.5V
+			\item Min Logic Battery: 4.5V
+		\end{enumerate}
+
+		\item \textbf{Motors}:
+		\begin{enumerate}
+			\item M1 Max Current: 1.05A
+			\item M2 Max Current: 1.05 A
+		\end{enumerate}
+
+		\item \textbf{I/O}:
+		\begin{enumerate}
+			\item Encoder 1 Mode: For addressed 128,129,130 Quadrature, for addresses 131 and 132 Absolute
+			\item Encoder 2 Mode: For addressed 128,129,130 Quadrature, for addresses 131 and 132 Absolute
+		\end{enumerate}
+\subsection{Drive Motor Calibration}
+	\end{enumerate}
+	\item Perform the following for the \textbf{RoboClaw addresses 128,129, and 130}
+	\begin{enumerate}
+		\item Go to the PWM settings tab
+		\item Under the control pane slowly move the slider bar up for M1 and make sure that the M1 Encoder value increases. If it decreases it means that the +/- leads are backwards from the RoboClaw, consult the wiring diagram
+		\item Repeat for M2 motor 
+		\item If once both motors are spinning the correct direction and encoders respond accordingly when commanded through PWM signal tab move on the the next drive motor. 
+	\end{enumerate}
+	
+\subsection{Corner Motor Calibration}
+	\item Perform the following for the \textbf{RoboClaw addresses 131 and 132}
+	\begin{enumerate}
+		\item Perform Calibration steps 6(a) - 6(d)
+		\item Now we need to set the location of the absolute encoders such that the system knows where the corner steering wheels are at:
+		\begin{enumerate}
+			\item Using the Control pane move the slowly motor to its' lower physical limit
+			\item Loosen the set screw attaching the bronze gear to the encoder shaft, just enough to allow the shaft to rotate freely, but that the gear is still held in place
+			\item Rotate the shaft using a pair of pliers until you get an Encoder value of around 100 or 200. It should be almost at the end of the readable encoder values (these will individually depend on resistor values/ voltage division in place at the absolute encoders).
+			\item Using the Physical notches on the 3D printed encoder mount and the physical hard stop align each angle using the PWM settings to move the motor, and record those values. 
+			\begin{figure}[H]
+ 				\centering
+				\includegraphics[width=.55\textwidth]{"Pictures/Electronics/Corner cals".PNG}
+ 				\caption{Calibrating the Corner steering}
+				\label{Corner cals}
+			\end{figure}			
+
+
+			\textbf{Important Note:} If the encoder ticks reaches its' max and resets before the wheel has traveled its' full distance then the shaft has to be rotated further. If it still is happening it could potentially be a voltage issue, check the voltage coming from the Encoder with a multi-meter, it should be a range of roughly 0-2V.
+			\item Input the recorded values into the Encoder Calibration excel sheet to obtain the necessary mathematical calibration equation.
+		\end{enumerate}
+	\item Once all the motors are calibrated and the equations are obtained the calibration process is complete.
+	\end{enumerate}
+\end{enumerate} 
+
+\end{document}

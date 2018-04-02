@@ -1,0 +1,260 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{gensymb}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover Software Install}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+
+\begin{document}
+
+\title{Open Source Rover}
+\author{Software Install Instructions}
+
+\makeatletter         
+\def\@maketitle{
+\begin{center}	
+	\makebox[\textwidth][c]{ \includegraphics[width=1.05\paperwidth]{"Pictures/software title".png}}
+	{\Huge \bfseries \sffamily \@title }\\[4ex] 
+	{\huge \bfseries \sffamily \@author}\\[4ex] 
+	\includegraphics[width=.85\linewidth]{"Pictures/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+% Introduction
+\newpage
+
+
+\tableofcontents
+
+\newpage
+
+
+\section{Downloading the App}
+\textcolor{red}{Need android app install information}
+
+\section{Setting up the Raspberry Pi 3}
+In this section we'll go over setting up the Raspberry Pi and how to get all the code to run the rover going, as well as setting up the bluetooth pairing from the android device.
+\subsection{Getting the Pi online}
+
+\subsubsection{Installing a new OS on the Pi}
+
+For instructions on getting the raspberry pi OS downloaded and installed visit the following link:
+
+\begin{itemize}
+	\item \href{https://www.raspberrypi.org/documentation/installation/noobs.md}{https://www.raspberrypi.org/documentation/installation/noobs.md}
+\end{itemize}
+
+\subsubsection{Getting the Rover code:}
+\textcolor{red}{The following are the instructions on how to get the rover code for the beta groups, this will change for the final release}. 
+\begin{itemize}
+	\item Download id\_rsa text file from the google drive, and move it to ~/.ssh on 
+	\begin{itemize}
+		\item On a Raspberry pi open up a terminal (ctrl + alt + t) and type: 
+		\item cp ~/home/pi/Downloads/id\_rsa ~/.ssh	
+	\end{itemize}
+	\item Open up a terminal (ctrl + alt + t) and type the following commands:
+	\begin{itemize}
+		\item cd ~/home/pi/Desktop
+		\item mkdir osr
+		\item cd osr
+		\item git init
+		\item git pull git@github.com:ericjunkins/OSR.git
+		\item if prompted type "yes"
+		\item Passkey is: rover
+	\end{itemize}
+
+\end{itemize}
+
+\subsubsection{Installing packages}
+Below are the packages you will need to use Bluetooth communication through the raspberry pi. Open up a terminal on the Raspberry Pi \textbf{(ctl + alt + t)} and type the following commands:
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo apt-get update}
+	\item[] \colorbox{lightgray}{sudo apt-get upgrade}
+	\item[] \colorbox{lightgray}{sudo apt-get install python-bluez}
+	\item[] \colorbox{lightgray}{sudo apt-get install python-pip python-dev ipython}
+	\item[] \colorbox{lightgray}{sudo apt-get install bluetooth libbluetooth-dev}
+	\item[] \colorbox{lightgray}{sudo pip install pybluez}
+	\item[] \colorbox{lightgray}{sudo systemctl start bluetooth}
+	\item[] \colorbox{lightgray}{sudo nano /lib/systemd/system/bluetooth.service}
+		\begin{itemize}
+			\item Add "-C" after 'bluetoothd', the file should look like the following:
+			\begin{verbatim}
+				[Unit]
+				Description=Bluetooth service
+				Documentation=man:bluetoothd(8)
+				ConditionPathIsDirectory=/sys/class/bluetooth
+				
+				[Service]
+				Type=dbus
+				BusName=org.bluez
+				ExecStart=/usr/lib/bluetooth/bluetoothd -C
+				NotifyAccess=main
+				#WatchdogSec=10
+				#Restart=on-failure
+				CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+				LimitNPROC=1
+				ProtectHome=true
+				ProtectSystem=full
+				
+				[Install]
+				WantedBy=bluetooth.target
+				Alias=dbus-org.bluez.service
+			\end{verbatim}
+			\item exit and save (ctrl + x, y, enter)
+		\end{itemize}
+	\item[] \colorbox{lightgray}{sudo reboot}
+	\item[] \colorbox{lightgray}{sudo sdptool add SP}
+\end{itemize}
+
+\subsection{Setting up Bluetooth}
+
+There are a few ways to set up the Bluetooth pairing with your android device. For additional help you can follow steps  
+\begin{itemize}
+	\item \href{https://www.cnet.com/how-to/how-to-setup-bluetooth-on-a-raspberry-pi-3/}{https://www.cnet.com/how-to/how-to-setup-bluetooth-on-a-raspberry-pi-3/}
+\end{itemize}
+\subsubsection{Naming the Bluetooth Device}
+
+Create a file that will name the bluetooth device your desired name. \textbf{*NOTE*} This name must also be updated in the Android App such that the App finds the correct device. First on the RPi type \colorbox{lightgray}{sudo nano /etc/machine-info} and name your device by the following, where deviceName is what you want the name of your Raspberry Pi to be:
+\begin{verbatim}
+          PRETTY_HOSTNAME=deviceName
+\end{verbatim}
+
+\noindent Now in \colorbox{lightgray}{sudo nano /etc/bluetooth/main.conf} Uncomment the "Name=" line and add your deviceName. The first couple lines should read:
+
+\begin{verbatim}
+[General]
+
+# Default adapter name
+# Defaults to 'BlueZ X.YZ'
+Name = deviceName
+
+# Default device class. Only the major and minor device class bits are
+# considered. Defaults to '0x000000'.
+#Class = 0x000100
+\end{verbatim}
+
+\subsubsection{Pairing Bluetooth from Commandline}
+We're now ready to pair the device with your android device. Have your android phone discover-able and searching for Bluetooth (for individual phones look up instructions if necessary to do this)
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo bluetoothctl} and do the following commands:
+	\begin{itemize}
+		\item[] \colorbox{lightgray}{agent on}
+		\item[] \colorbox{lightgray}{default-agent}
+		\item[] \colorbox{lightgray}{scan on}
+		\item[] Once your find your device add it from it's address, \colorbox{lightgray}{pair XX:XX:XX:XX:XX:XX} and then type \colorbox{lightgray}{yes}
+	\end{itemize}
+	\item[] You'll be prompted on the phone asking to accept the pairing, select okay
+	\item[] Type \colorbox{lightgray}{quit} to exit the bluetoothctl
+\end{itemize}
+
+
+\subsection{Init Script}
+We will want the code on the rover to run when the pi boots up, so we will add that to an init script, which on Raspberry Pi can be found at /etc/rc.local. In a terminal type \colorbox{lightgray}{sudo nano /etc/rc.local} and then add the following lines after the if statement and before exit, it should look like the following.
+\begin{verbatim}
+		#!/bin/sh -e
+		#
+		# rc.local
+		#
+		# This script is executed at the end of each multiuser runlevel.
+		# Make sure that the script will "exit 0" on success or any other
+		# value on error.
+		#
+		# In order to enable or disable this script just change the execution
+		# bits.
+		#
+		# By default this script does nothing.
+		
+		# Print the IP address
+		_IP=$(hostname -I) || true
+		if [ "$_IP" ]; then
+		  printf "My IP address is %s\n" "$_IP"
+		fi
+		
+		cd /home/pi/Desktop
+		sleep 10
+		sudo python -m osr.rover.main &
+		python -m osr.led.screen &
+		
+		exit 0
+
+\end{verbatim}
+
+\subsection{Setting up serial communication}	
+
+In this project we will be using serial communication to talk to the motor controllers. This is a communication protocol that describes how bits of information will be transfered between one device and another. More information on this can be found at:
+\begin{itemize}
+	\item \href{https://learn.sparkfun.com/tutorials/serial-communication}{https://learn.sparkfun.com/tutorials/serial-communication}
+\end{itemize}
+
+\noindent Do the following to setup/enable the serial communication for the RoboClaws:
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo raspi-config}	
+	\item[]  $Select -> Interface Options -> Serial $
+	\begin{itemize}
+		\item Would you like a login shell to be accessible over serial? $->$ No
+		\item Would you like the serial port hardware to be enabled? $->$ Yes
+		\item Would you like to reboot now? $->$ Yes
+	\end{itemize} 
+	\item[] \colorbox{lightgray}{ls -l /dev/serial*}
+	\begin{itemize}
+		\item Make sure that serial0 -$>$ ttyS0
+	\end{itemize}
+	\item [] \colorbox{lightgray}{sudo nano /boot/cmdline.txt}
+	\begin{itemize}
+		\item Edit \textbf{ONLY} the part with "console = ....", change it to be "console=tty1" and remove any other instance where it references console. The first bit of that line looks like the following:
+\begin{verbatim}
+dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p7\$
+\end{verbatim}  
+	\end{itemize}	
+\end{itemize}
+
+
+
+
+\noindent Here is a link to help with this process if necessary.
+\begin{itemize}
+	\item \href{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}. 
+\end{itemize}
+\noindent Once this is all done then reboot the pi.
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo reboot}
+\end{itemize}
+
+\bigskip
+There are two files in test\_files that will allow you to test the serial connection, use a jumper wire between pin 14 and 15 (see \href{https://www.raspberrypi.org/documentation/usage/gpio-plus-and-raspi2/}{GPIO pinout} if necessary). In two different terminal windows navigate to the desktop and then run the test files by:
+\begin{itemize}
+	\item[] \colorbox{lightgray}{python -m osr.test\_files.serial\_write}  
+	\item[] \colorbox{lightgray}{python -m osr.test\_files.serial\_read}
+\end{itemize}
+
+If the serail communication is working properly then in one terminal you will be printing out a counting number, and in the other you will be reading that number over the serail port. 
+
+\newpage
+
+
+
+
+\end{document}

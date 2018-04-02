@@ -1,0 +1,156 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover Mechanical Assembly Manual}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+
+\begin{document}
+
+
+\title{Open Source Rover}
+\author{Head Assembly Instructions}
+
+\makeatletter         
+\def\@maketitle{
+\begin{center}	
+	\makebox[\textwidth][c]{ \includegraphics[width=0.8\paperwidth]{"Pictures/Head final".png}}
+	{\Huge \bfseries \sffamily \@title }\\[4ex] 
+	{\huge \bfseries \sffamily \@author}\\[4ex] 
+	\includegraphics[width=.65\linewidth]{"Pictures/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+% Introduction
+\newpage
+
+
+\tableofcontents
+
+\newpage
+
+\section{3D printing}
+There are a few components that need to be 3D printed to make the head assembly. Provided are a the STL files necessary for these prints, as well as a few different orientations of printing pads to help with thermal contraction if necessary as shown in Figure \ref{pads}. These pads help hold the corners down and reduce the warping of the pieces. A file is also included with no pads for all files as well. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Head w horz pads".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Head w vert pads".png}
+  \end{minipage}
+  \caption{Printing Pads}
+  \label{pads}
+\end{figure}
+
+If you do not have a 3D printer there are a number of online 3D printing services available, an example of which can be found at:
+
+\begin{itemize}
+	\item \href{https://www.makexyz.com/}{https://www.makexyz.com/}
+\end{itemize}
+
+\section{Mechanical Assembly}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/Parts-Head".PNG}
+\end{figure}
+
+\begin{enumerate}
+
+	\item \textbf{Insert the LED matrix into the head:} Start by taking the LED Matrix \textbf{E8} and inserting it on the ledges in the two sides of the 3D printed head. Using Screws \textbf{B8} screw together the two sides of the head \footnote{The size of the holes should be such that you can use an allen wrench to "thread" the 3D printed holes. If it is too tight you can use a drill/file to very slightly open up the hole if the screw will not thread fit}.
+
+
+\begin{figure}[H]
+	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/Head step 1".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Head step 2".png}
+  	\end{minipage}
+  	\caption{Inserting LED Matrix}
+  	\label{LED}
+\end{figure}
+
+	\item \textbf{Attach the PVC  Clamping Hub:} Using screws \textbf{B2} attach the 1 Inch PVC Clamping Hub \textbf{S24} to the bottom of the head. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.45\textwidth]{"Pictures/Head step 3".PNG}
+	\caption{Attach the PVC Clamping Hub}
+\end{figure}
+
+	\item \textbf{Mounting the Logic Shifter PCB:} Using screws \textbf{B8} and hexnuts \textbf{B12} attach the Logic Shifter PCB to the support structure in the 3D printed head. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.45\textwidth]{"Pictures/Head step 4".PNG}
+	\caption{Mounting the Logic Shifter PCB}
+\end{figure}
+
+	\item \textbf{Connecting to back plane:} Using screws \textbf{B8} attach the two back pieces together. 
+
+\begin{figure}[H]
+	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/Head step 5".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Head step 6".png}
+  	\end{minipage}
+  	\caption{Back Plane connecting}
+  	\label{back}
+\end{figure}
+
+	\item \textbf{Attaching the Back plane:} Using screws \textbf{B8} now attach the back plane to the rest of the head structure. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.45\textwidth]{"Pictures/Head step 7".PNG}
+	\caption{Attaching the Back plane}
+\end{figure}
+
+	\item \textbf{Attach the PVC pipe:} Slide the length of PVC pipe you want for the neck length into the PVC clamping hub and tighten the screws the secure it.
+
+\begin{figure}[H]
+	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/Head step 8".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Head final".png}
+  	\end{minipage}
+  	\caption{Attaching the PVC pipe}
+  	\label{pvc}
+\end{figure}
+
+\end{enumerate}
+
+\end{document}

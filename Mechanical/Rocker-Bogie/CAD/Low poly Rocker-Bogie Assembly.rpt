@@ -1,0 +1,68 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Processor Status Report
+*****************************************************************
+=================================================================
+General Information
+=================================================================
+Sending System Product I.D.  : Low poly Rocker-Bogie Assembly.SLDASM
+Receiving System Product I.D.: Low poly Rocker-Bogie Assembly.SLDASM
+File Name                    : C:\Users\ejunkins\Desktop\open_source_rover\Documentation\Mechanical Assembly\Rocker-Bogie\CAD\Low poly Rocker-Bogie Assembly.IGS
+Sending System               : SolidWorks 2016
+Preprocessor Version         : SolidWorks 2016
+File Creation Date           : 180309.105255
+Model Creation Date          : 180309.105255
+Units                        : IN
+Model Space Scale            : 1
+Author                       : ejunkins
+Organization                 : 
+
+
+=================================================================
+Entity Processing Information
+=================================================================
+
+
+=================================================================
+Precision analysis of IGES file:
+=================================================================
+  Most prevalent number of significant digits:              10
+  Highest number of significant digits:                     10
+  Average number of significant digits:                6.82525
+  Maximum distance to origin:                          67.4029
+  Minimum distance to origin:                                0
+  Effective number of significant digits:                   10
+
+
+=================================================================
+Entity Summary
+=================================================================
+-----------------------------------------------------------------
+Type Name                                         Count Converted
+---- ----                                         ----- ---------
+100  Arc                                           8208      8208
+102  Composite curve                               8944      8944
+110  Line                                         10130     10130
+120  Surface of revolution                         2400      2400
+124  Transformation matrix                         8239      8239
+126  Rational B-spline curve                      16798     16798
+128  Rational B-spline surface                      222       222
+142  Curve on a parametric surface                 4472      4472
+144  Trimmed parametric surface                    2622      2622
+308  Subfigure definition                            16        16
+314  Color definition                                17        17
+408  Singular subfigure instance                    133       133
+_________________________________________________________________
+
+
+=================================================================
+Result Summary
+=================================================================
+SolidWorks Feature Type                Count
+-----------------------                -----
+Solid feature(s)                       19
+Surface feature(s)                     0
+Curve/Sketch feature(s)                0
+--------------------------------------------
+Start time: Friday, March 09, 2018 10:53:00
+Finish time: Friday, March 09, 2018 10:53:43
+Processing time: 0 days, 00 hours, 00 mins, 43 secs
