@@ -1,0 +1,146 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover Mechanical Assembly Manual}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+
+\begin{document}
+
+
+\title{Open Source Rover}
+\author{Rocker-Bogie Assembly Instructions}
+
+\makeatletter         
+\def\@maketitle{
+\begin{center}	
+	\makebox[\textwidth][c]{ \includegraphics[width=0.8\paperwidth]{"Pictures/Corner Title".png}}
+	{\Huge \bfseries \sffamily \@title }\\[4ex] 
+	{\huge \bfseries \sffamily \@author}\\[4ex] 
+	\includegraphics[width=.65\linewidth]{"Pictures/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+% Introduction
+
+\newpage
+
+\tableofcontents
+
+\section{Machining/Fabrication}
+\subsection{Shaft Coupler cuts}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/Parts-Cutting".PNG}
+\end{figure}
+
+Shaft couplers are used to attach the motor shaft to another shaft, in this particular instance it attaches the corner steering motor to a 0.25 in shaft. This system must hold at least the max torque that the corner system can see so that the shafts don't slip and free spin, however there is too much material in these couplers to allow them to deform and fully grab around the two shafts. There is another cut made horizontally in the couplers, which de-couples the clamping done by each screw, allowing you to grab on each shaft independently and reduce slippage. 
+
+
+\begin{figure}[H]
+  	\centering
+  	\begin{minipage}[b]{0.35\textwidth}
+   		 \includegraphics[width=\textwidth]{"Pictures/Shaft Coupler Cut".PNG}		
+	\end{minipage}
+ 	 \hfill
+ 	 \begin{minipage}[b]{0.55\textwidth}
+  		  \includegraphics[width=\textwidth]{"Pictures/Shaft Coupler Cut 2".png}
+  	\end{minipage}
+ 	 \caption{Cutting the Shaft couplers}
+	\label{Shaft coupler cut}
+\end{figure}
+
+Using a Clamp or Vice similar to the clamping hub align the cutting blade with the channel in the shaft couplers \textbf{S23}. Use the drawings in \ref{Shaft coupler cut} to determine how deep to go with the cut.
+
+
+\section{Mechanical/Structural Aseembly} 
+The Corner Steering assembly is what contains the steering motor and allows the rover to perform Ackerman steering. An important aspect of this assembly is the use of the bearing blocks. They are used to react moments against the shaft, allowing you to decouple the motor shaft from these forces that could damage the motor/gearbox. The lever arm for the corner system is much farther away then at the drive motors, where we get away with attaching the load path directly into the motor shaft.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/Corner Steering Parts".PNG}
+\end{figure}
+
+
+\begin{enumerate}
+\item \textbf{Motor Mount:} Begin by mounting the motor \textbf{E6} to the 3 inch channel \textbf{S2} using the motor mount F \textbf{S9} and screws \textbf{B1} as shown. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 1".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 2".PNG}
+  \end{minipage}
+  \caption{Corner Steering Step 1}
+\end{figure}
+
+\item \textbf{Shaft Coupler/Standoffs Attachment:} Using the shaft coupler (S23) attach the motor shaft to the 0.25 inch D-shaft (S15). Also take the 0.75inch long standoffs (T5) and attach to the bottom of the channel centered around the motor using screws (B1) 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 3".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 4".PNG}
+  \end{minipage}
+  \caption{Corner Steering Step 2}
+\end{figure}
+
+\item \textbf{Encoder Mount:} Press the 0.25inch Spacers \textbf{T1} into the 3D printed encoder mount \textbf{S31}. If they do not fit you can drill or file out the holes slightly until they do press fit in. The size/tolerance of the holes will change based on different 3D printers/materials. Then using screws \textbf{B5} and 0.25 inch pillow bearing blocks \textbf{S10} attach the encoder mount/bearings to the threaded standoffs \textbf{T3}.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 5".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 6".PNG}
+  \end{minipage}
+  \caption{Corner Steering Step 3}
+\end{figure}
+
+\item \textbf{Encoder:} Attach the encoder \textbf{E7} to the encoder mount \textbf{S31}, and then attach the 12T gear \textbf{S27} to the encoder shaft. We will worry about it's exact placement later on. This concludes building one Corner Steering assembly. Unlike all the previous assemblies however this assembly isn't identical for all of them. You will need to build two versions where the encoder mount is mirrored about the motor shaft, see picture below for example. Repeat these steps to build the 4 corner steering assemblies. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 7".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/CornerSt Final".PNG}
+  \end{minipage}
+  \caption{Corner Steering Step 4}
+\end{figure}
+
+\end{enumerate}
+
+\end{document}

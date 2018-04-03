@@ -1,0 +1,183 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover Mechanical Assembly Manual}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+
+\begin{document}
+
+
+\title{Open Source Rover}
+\author{Body Assembly Instructions}
+
+\makeatletter         
+\def\@maketitle{
+\begin{center}	
+	\makebox[\textwidth][c]{ \includegraphics[width=0.8\paperwidth]{"Pictures/Differential Pivot".png}}
+	{\Huge \bfseries \sffamily \@title }\\[4ex] 
+	{\huge \bfseries \sffamily \@author}\\[4ex] 
+	\includegraphics[width=.65\linewidth]{"Pictures/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+% Introduction
+\newpage
+
+
+\tableofcontents
+
+\newpage
+
+
+\section{Maching/Fabrication}
+\subsection{Aluminum Rods Cutting}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/Parts-Cutting".PNG}
+\end{figure}
+
+
+Take the 3Ft piece of 0.5 Inch Aluminum Rod \textbf{S16} and cut it into one 15 inch piece and one 13.5 inch piece. These are now the parts \textbf{S16A} and \textbf{S16B} respectively. In addition take two of the 4 inch aluminum rods \textbf{S18} and cut them down to 3 inchs in length as well.  
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/15inch cut".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/3inch cut".png}
+  \end{minipage}
+  \caption{Aluminum Rod cutting}
+  \label{Al dimensions}
+\end{figure}
+
+\subsection{Aluminum Rods Drilling}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/Parts-Drilling".PNG}
+\end{figure}
+
+The turnbuckles must be attached to the differential pivot and rocker-bogie arm, which will be attached with the 5 hole aluminum beam. The rods must be modified to make this connection. 
+
+Using the vice or clamp grab firmly onto the 0.5 x 13.5 inch rod \textbf{S16B} with the end extending out around 2 inches from the edge of the vice/clamp. Mark the dimensions as shown in \ref{diff pivot rod}, and carefully use the center drill to start the center hole for these. It is important that the center hole is as centered as possible to prevent the bit from walking/slipping during drilling, which could result in the bit breaking. Then use drill \# 25 and drill all the way through both sides of the rod. This makes the \textbf{S16B'} part. 
+
+\begin{figure}[H]
+\centering	
+  \includegraphics[width=1\linewidth]{"Pictures/Differential Pivot Cut".png}
+	\caption{Drilling the Differential pivot rod}
+	\label{diff pivot rod}
+\end{figure}
+
+
+Test the cut by taking the 5 Hole Aluminum Beam \textbf{S21} and screws \textbf{B7} and making sure screws go all the way through as shown in \ref{test}. If they do not you can file/drill the hole out until they do pass through \footnote{The hole size on the Aluminum Beam \textbf{S21} is halfway between a \# 4 and \# 6 screw, we used the \# 6 screws and just used an allen key to drive the screw through the holes in beam, effectively tapping them as well.}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{"Pictures/Differential Align".PNG}
+	\caption{Testing the differential pivot holes}
+	\label{test}
+\end{figure}
+
+\noindent Flip the rod around and repeat the steps for the other side, making sure to align the hole's axes as much as possible such that the holes are all parallel to the previous set.
+
+
+\noindent Now take quantity (2) of the 0.5 x 3 inch hallow rods \textbf{S18} and perform the same holes drilled following Figure \ref{dpv} the holes drilled on just one end of each of them, see drawing below. Test each of the sets individually to make sure the beam will attach to each of them. This makes the \textbf{S18B} parts
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{"Pictures/Differential Standoff Cut".PNG}
+	\caption{Testing the differential pivot holes}
+	\label{dpv}
+\end{figure}
+
+\newpage
+
+\section{Mechanical Assembly}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/Parts-Differential".PNG}
+\end{figure}
+
+\begin{enumerate}
+\item \textbf{Attach Clamping Hubs} Use Screws \textbf{B1} to attach the bottom tapped clamping hub \textbf{S20} to the single pattern bracket \textbf{S8}. Then use screws \textbf{B1} to attach the 0.5 inch clamping hub \textbf{S20} to the bottom of the pattern bracket.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Diff Step 1".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Diff Step 2".PNG}
+  \end{minipage}
+  \caption{Attaching clamping hub}
+\end{figure}
+
+\item \textbf{Differential Pivot:} Using modified 3inch aluminum rod \textbf{S18A}, aluminum beams \textbf{S21}, washers \textbf{W2}, screws \textbf{B7} and \textbf{B9}, hex nuts \textbf{B11} and \textbf{B12} attach the turnbuckle \textbf{S32} to the rod as shown. The outtermost screw is the \#4 screw, the others are \#6.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Diff Step 3".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Diff Step 4".png}
+  \end{minipage}
+  \caption{Attaching the turnbuckle}
+\end{figure}
+
+\item \textbf{Differential Pivot Cont:} Pass the 13.5inch rod through the clamping hubs on the differential pivot on the body assembly, making sure to center this as much as possible. Then repeat step 2 for the other side of the differential pivot. If necessary unscrew the turnbuckles in the middle to insert the rods into place, then screw the turnbuckle back together. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Diff Step 5".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Diff Step 6".png}
+  \end{minipage}
+  \caption{Attaching the top of the Differential Pivot}
+\end{figure}
+
+\item \textbf{Differential Pivot Vertical rods:} Perform Step 2 for the the 3 Inch Aluminum Rod \textbf{S18B}. Finally attach all the pieces of the turnbuckles together at the end if necessary. 
+
+\begin{figure}[H]
+\centering	
+  \includegraphics[width=1\linewidth]{"Pictures/Diff Step 7".png}
+	\caption{Final Differential Pivot Assembly}
+	\label{diff pivot rod}
+\end{figure}
+
+
+\end{enumerate}
+
+\end{document} 
