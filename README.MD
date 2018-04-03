@@ -33,7 +33,7 @@ Most of these skills are thing that you can learn and pick up on fairly quickly 
 
 ## Roadmap
 
-![6 Wheel Rover](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/roadmap.png)
+![Rover build roadmap](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/roadmap.PNG)
 
 Here we have a proposed roadmap of how you can build the rover and what part of the build is dependant on the other sections. It is broken down into 5 stages.
 
