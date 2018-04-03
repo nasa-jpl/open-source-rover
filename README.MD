@@ -11,9 +11,9 @@ INSERT LINK TO DISCLAMER AND STATEMENT HERE
 
 ## Feautres
 This rover is designed to function very similar to the 6 wheel rover designs on mars, and employs a few of the major driving mechanics that the mars rovers use to traverse the surface.
- * Rocker-Bogie: Suspension system for the rover, allowing all 6 wheels to continually be in contact with the ground while climibing over obstacles
- * Differential Pivot: Allows weight to be mechanically offloaded from one side of the rover to the other during climbing
- * 6-Wheel Ackerman Steering: Driving and turning mechanism that governs where the wheels point and how fast each of them will move.
+ * __Rocker-Bogie:__ Suspension system for the rover, allowing all 6 wheels to continually be in contact with the ground while climibing over obstacles
+ * __Differential Pivot:__ Allows weight to be mechanically offloaded from one side of the rover to the other during climbing
+ * __6-Wheel Ackerman Steering:__ Driving and turning mechanism that governs where the wheels point and how fast each of them will move.
 
 ## Skills Necessary
 This project has elements in mechanical assembly/fabrication, uses a host of electrical componenets, and has software that will run it all. In order to complete this project you will need to have some experience in the following tasks:
