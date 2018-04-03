@@ -37,5 +37,18 @@ Most of these skills are thing that you can learn and pick up on fairly quickly 
 
 Here we have a proposed roadmap of how you can build the rover and what part of the build is dependant on the other sections. It is broken down into 5 stages.
 
-### Stage 1
+#### Stage 1
 Everything in stage 1 is completely parallelizable. It is highly recommended to start on the electrical testing of components outside the robot before doing any electrical work inside the completed robot body. We can also see that the software can be worked on at any stage between here and the end.
+
+#### Stage 2
+By here the mechanical subassemblies all would be assembled, and there would be various amounts of electrical testing done, as well as various amounts of the software completed. 
+
+#### Stage 3
+The rover is mechanically built and all subassemblies integrated together, here would begin the integration of the electrical components, and the various power and data wires being connected to devices.
+
+#### Stage 4
+With the electronics all powered and communicating you need to test and calibrate all the motors in the system
+
+#### Stage 5
+Once everything has been tested and calibrated, and the software is now complete the robot will be fully functioning and built!
+
