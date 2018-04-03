@@ -1,0 +1,6 @@
+[submodule "Software/osr_rover_code"]
+	path = Software/osr_rover_code
+	url = https://github.jpl.nasa.gov/ejunkins/osr_rover_code
+[submodule "Software/android_app"]
+	path = Software/android_app
+	url = https://github.jpl.nasa.gov/ejunkins/osr_android_app
