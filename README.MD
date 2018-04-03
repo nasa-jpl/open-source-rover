@@ -17,15 +17,15 @@ This rover is designed to function very similar to the 6 wheel rover designs on 
 
 ## Skills Necessary
 This project has elements in mechanical assembly/fabrication, uses a host of electrical componenets, and has software that will run it all. In order to complete this project you will need to have some experience in the following tasks:
- * Fabrication/Machining: Although most the parts are COTS there are a few modifications necessary to adapt them to the project. These will be in the form of 
+ * __Fabrication/Machining:__ Although most the parts are COTS there are a few modifications necessary to adapt them to the project. These will be in the form of 
    * Metal cutting using band saw/dremel
    * Drilling using drill press/hand drill
    * Filling and sanding for part cleanup
- * Electronics: This project uses components like motors, motor controllers, and batteries. It will be important to have experience with the following electrical processes.
+ * __Electronics:__ This project uses components like motors, motor controllers, and batteries. It will be important to have experience with the following electrical processes.
    * Soldering
    * Electrical debugging
    * Wiring
- * The project runs with a Raspberry Pi as the brain of the robot with all the software already written to run it, but a very basic amount of knowledge is required for getting everything up and ready on the Raspberry Pi.
+ * __Software:__ The project runs with a Raspberry Pi as the brain of the robot with all the software already written to run it, but a very basic amount of knowledge is required for getting everything up and ready on the Raspberry Pi.
    * Basic Linux fimilarity
    * Basic Python fimilarity
 
@@ -35,7 +35,7 @@ Most of these skills are thing that you can learn and pick up on fairly quickly 
 
 ## Folder organization
 ![Rover build roadmap](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/folders.PNG)
-This folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections, Mechanical, Electrical, and Software. The [Master Parts List](https://github.jpl.nasa.gov/ejunkins/osr/osr_Master_parts_list.xlsx) contains all the parts necessary to build the entire of the robot as it is in our documentation. We recognize that many of you might want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary only for that section, particularly screws, nuts, bolts, and common hardware should be assessed for totals necessary for the whole project if you are changing subassemblies*
+This folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections, Mechanical, Electrical, and Software. The [Master Parts List](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/osr_Master_parts_list.xlsx) contains all the parts necessary to build the entire of the robot as it is in our documentation. We recognize that many of you might want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary only for that section, particularly screws, nuts, bolts, and common hardware should be assessed for totals necessary for the whole project if you are changing subassemblies*
 
 ## Ordering parts
 
@@ -58,4 +58,3 @@ Here we have a proposed roadmap of how you can build the rover and what part of 
  * __Stage 4:__ With the electronics all powered and communicating you need to test and calibrate all the motors in the system
 
  * __Stage 5:__ Once everything has been tested and calibrated, and the software is now complete the robot will be fully functioning and built!
-
