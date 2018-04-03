@@ -18,17 +18,24 @@ This rover is designed to function very similar to the 6 wheel rover designs on 
 ## Skills Necessary
 This project has elements in mechanical assembly/fabrication, uses a host of electrical componenets, and has software that will run it all. In order to complete this project you will need to have some experience in the following tasks:
  * Fabrication/Machining: Although most the parts are COTS there are a few modifications necessary to adapt them to the project. These will be in the form of 
-  * Metal cutting using band saw/dremel
-  * Drilling using drill press/hand drill
-  * Filling and sanding for part cleanup
+   * Metal cutting using band saw/dremel
+   * Drilling using drill press/hand drill
+   * Filling and sanding for part cleanup
  * Electronics: This project uses components like motors, motor controllers, and batteries. It will be important to have experience with the following electrical processes.
-  * Soldering
-  * Electrical debugging
-  * Wiring
+   * Soldering
+   * Electrical debugging
+   * Wiring
  * The project runs with a Raspberry Pi as the brain of the robot with all the software already written to run it, but a very basic amount of knowledge is required for getting everything up and ready on the Raspberry Pi.
-  * Basic Linux fimilarity
-  * Basic Python fimilarity
+   * Basic Linux fimilarity
+   * Basic Python fimilarity
 
 Most of these skills are thing that you can learn and pick up on fairly quickly from watching vidoes and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well. 
 
+## Roadmap
 
+![6 Wheel Rover](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/roadmap.png)
+
+Here we have a proposed roadmap of how you can build the rover and what part of the build is dependant on the other sections. It is broken down into 5 stages.
+
+### Stage 1
+Everything in stage 1 is completely parallelizable. It is highly recommended to start on the electrical testing of components outside the robot before doing any electrical work inside the completed robot body. We can also see that the software can be worked on at any stage between here and the end.
