@@ -31,6 +31,18 @@ This project has elements in mechanical assembly/fabrication, uses a host of ele
 
 Most of these skills are thing that you can learn and pick up on fairly quickly from watching vidoes and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well. 
 
+# Getting Started
+
+## Folder organization
+![Rover build roadmap](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/folders.PNG)
+This folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections, Mechanical, Electrical, and Software. The [Master Parts List](https://github.jpl.nasa.gov/ejunkins/osr/osr_Master_parts_list.xlsx) contains all the parts necessary to build the entire of the robot as it is in our documentation. We recognize that many of you might want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary only for that section, particularly screws, nuts, bolts, and common hardware should be assessed for totals necessary for the whole project if you are changing subassemblies*
+
+## Ordering parts
+
+__Need information on cart share etc here__
+
+
+
 ## Roadmap
 
 ![Rover build roadmap](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/roadmap.PNG)
