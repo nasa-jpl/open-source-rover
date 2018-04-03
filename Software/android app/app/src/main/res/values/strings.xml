@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rover Controller</string>
+    <string name="title_activity_control_stick">ControlStick</string>
+    <string name="title_activity_socket_runnable">SocketRunnable</string>
+    <string name="title_activity_data_send_thread">DataSendThread</string>
+    <string name="title_activity_right_control_stick">RightControlStick</string>
+    <string name="boost">Boost</string>
+    <string name="normal">Normal</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+</resources>
