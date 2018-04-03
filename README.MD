@@ -1,7 +1,7 @@
 # JPL Open-Source Rover Project
 
 ## Picture
-![6 Wheel Rover](https://github.jpl.nasa.gov/ejunkins/osr/rover.png)
+![6 Wheel Rover](https://github.jpl.nasa.gov/ejunkins/osr/images/rover.png)
 ## Features
 bananananana
 
