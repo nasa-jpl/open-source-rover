@@ -1,7 +1,7 @@
 # JPL Open-Source Rover Project
 The JPL Open-Source Rover is a fully open-source scaled version of the 6 wheel rover design that JPL uses to explore the surface of mars. The robot is designed almost entirely out of consumer off the shelf (COTS) parts.
 
-![6 Wheel Rover](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/rover.png)
+![6 Wheel Rover](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/Software/images/rpi3.png)
 
 ## Disclaimer
 INSERT LINK TO DISCLAMER AND STATEMENT HERE
