@@ -1,20 +1,34 @@
 # JPL Open-Source Rover Project
+The JPL Open-Source Rover is a fully open-source scaled version of the 6 wheel rover design that JPL uses to explore the surface of mars. The robot is designed almost entirely out of consumer off the shelf (COTS) parts.
 
-## Picture
 ![6 Wheel Rover](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/rover.png)
-## Features
-bananananana
 
-## Information about module
+## Motivation
+JPL is always looking at ways to inspire the next generation of sceientists, engineers, and people who will be the next generation we will be exploring the solar system with. We want to give this project as a way to get young engineers a fun robotics project that will get everyone excited about STEM. 
 
-## Skills
+## Disclaimer
+INSERT LINK TO DISCLAMER AND STATEMENT HERE
 
-## Tools
+## Feautres
+This rover is designed to function very similar to the 6 wheel rover designs on mars, and employs a few of the major driving mechanics that the mars rovers use to traverse the surface.
+ * Rocker-Bogie: Suspension system for the rover, allowing all 6 wheels to continually be in contact with the ground while climibing over obstacles
+ * Differential Pivot: Allows weight to be mechanically offloaded from one side of the rover to the other during climbing
+ * 6-Wheel Ackerman Steering: Driving and turning mechanism that governs where the wheels point and how fast each of them will move.
 
-### Manditory 
+## Skills Necessary
+This project has elements in mechanical assembly/fabrication, uses a host of electrical componenets, and has software that will run it all. In order to complete this project you will need to have some experience in the following tasks:
+ * Fabrication/Machining: Although most the parts are COTS there are a few modifications necessary to adapt them to the project. These will be in the form of 
+  * Metal cutting using band saw/dremel
+  * Drilling using drill press/hand drill
+  * Filling and sanding for part cleanup
+ * Electronics: This project uses components like motors, motor controllers, and batteries. It will be important to have experience with the following electrical processes.
+  * Soldering
+  * Electrical debugging
+  * Wiring
+ * The project runs with a Raspberry Pi as the brain of the robot with all the software already written to run it, but a very basic amount of knowledge is required for getting everything up and ready on the Raspberry Pi.
+  * Basic Linux fimilarity
+  * Basic Python fimilarity
 
-### Optional
+Most of these skills are thing that you can learn and pick up on fairly quickly from watching vidoes and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well. 
 
-## Dependancies on Other Modules:
 
-## Mechanical Interface/Attachments to Rover:
