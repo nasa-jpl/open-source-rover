@@ -50,29 +50,43 @@
 
 \newpage
 
-
 \section{Machining/Fabrication Steps}
 \subsection{Front/Back Aluminum Plates cuts}
 
-If you use the 4.5x12 inch aluminum Plates for the front/back plates of the body of the rover then they will need to be cut down to fit the rest of the body. 
+First you need to cut the 4.5x12 inch aluminum plate. Follow Figure \ref{fb panel cut} to cut it correctly to dimensions listed. 
+
+%\begin{figure}[H]
+%  \centering
+%  \begin{minipage}[b]{0.45\textwidth}
+%    \includegraphics[width=\textwidth]{"Pictures/Fabrication/Front panel cut".PNG}
+%  \end{minipage}
+%  \hfill
+%  \begin{minipage}[b]{0.45\textwidth}
+%    \includegraphics[width=\textwidth]{"Pictures/Fabrication/Back panel cut".png}
+%  \end{minipage}
+%  \caption{Cutting the front and back panels of the body}
+%  \label{fb panel cut}
+%\end{figure}
 
 
 \begin{figure}[H]
-  \centering
-  \begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{"Pictures/Fabrication/Front panel cut".PNG}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{"Pictures/Fabrication/Back panel cut".png}
-  \end{minipage}
-  \caption{Cutting the front and back panels of the body}
-  \label{fb panel cut}
+	\centering
+	\includegraphics[width=0.7\textwidth]{"Pictures/Fabrication/Front panel cut".PNG}
+  	\caption{Cutting the front and back panels of the body}
+  	\label{fb panel cut}
 \end{figure}
 
-\subsection{Electronics Board}
 
-In order to mount all the electronics on the inside of the rover we will want to drill some holes in the 8 x 11 Aluminum Plate \textbf{S28}. As it is the same size as a standard piece of paper we suggest the best way to do this is printing out the drawing in \textcolor{red}{add file for print layout} and marking the holes that way. 
+\subsection{Laser Cut parts}
+
+In order to put the electronics inside the robot body we need an electronics board, one easy solution for this is to order a laser cut piece of acrylic. In the Body Assembly there is a folder for Laser cut parts. This contains two .DxF files which are 2D path files for the laser cutter. There are many inexpensive laser cutting website services, one example is:
+
+\begin{itemize}
+	\item \href{https://www.sculpteo.com}{https://www.sculpteo.com}
+\end{itemize}
+
+To get these parts from Sculpteo go to Laser cutting, and then upload these files, with mm selected as units. then hit next. Make sure scale is set to 100\%, change the material to Acrylic, have thickness to 1/8, and then select whatever color you wish. 
+
 
 \subsection{9x12 Aluminum Plate Drilling}
 Next we need to drill a hole in one of the 9x12 Aluminum plates \textbf{S35}. The reason for this is that we will need a hole of slightly greater than 0.5 in diameter for the differential pivot mount. There is already a hole drilled in the location we are wanting to use, it just needs to be widened. Start with the drill \# 23, drill the hole shown by the figure \ref{Drilling the Al plate}. Repeat this with drill sizes stepping up until you get to drill of 0.5 in or slightly greater. Take the 0.5 in hallow rod \textbf{S19} and make sure it spins freely in the hole created. If not drill slightly larger or sand/file until it spins with no resistance \footnote{The 0.5 in hallow rod must free spin while mounted inside the bearing blocks (See step 2.2 Differential pivot for example), it might help to follow 2.2 to test if there is enough clearance} 
@@ -252,7 +266,7 @@ Next is preparing the electronics board. This is where all the electrical compon
   \label{Dual Side Mounts}
 \end{figure}
 
-\item \textbf{Attach the front/back panel: } Attach the 4.5x9 Aluminum Plate (Modified) \textbf{S37B} to the "back" of the body using screws \textbf{B2}, the side with the raspberry pi. The cutout should line up with the USB ports. Repeate this with the front of the body with \textbf{S37A}
+\item \textbf{Attach the front/back panel: } Attach the Acrylic back panel \textbf{S37B} to the "back" of the body using screws \textbf{B2}, the side with the raspberry pi. The cutout should line up with the USB ports. Repeat this with the front of the body with \textbf{S37A}
 
 \begin{figure}[H]
   \centering
