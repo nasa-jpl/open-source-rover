@@ -1,7 +1,7 @@
 # Project Title
 The Rocker-Bogie is the suspension system that enables climbing for the rover. The design allows all 6 wheels to be in contact with the ground as much as possible, increasing traction
 
-![Rocker-Bogie pic](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/Mechanical/Rocker-Bogie/Latex%20Docs/Pictures/Rocker-Bogie/Rocker%20Bogie%20Title.PNG)
+![Rocker-Bogie pic](Latex%20Docs/Pictures/Rocker-Bogie/Rocker%20Bogie%20Title.PNG)
 
 ## Features
   * Modular link legnths to give the ability to customize rover geometry for climbing

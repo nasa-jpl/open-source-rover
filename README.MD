@@ -1,7 +1,7 @@
 # JPL Open-Source Rover Project
 The JPL Open-Source Rover is a fully open-source scaled version of the 6 wheel rover design that JPL uses to explore the surface of mars. The robot is designed almost entirely out of consumer off the shelf (COTS) parts.
 
-![6 Wheel Rover](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/rover.png)
+![6 Wheel Rover](images/rover.png)
 
 ## Motivation
 JPL is always looking at ways to inspire the next generation of sceientists, engineers, and people who will be the next generation we will be exploring the solar system with. We want to give this project as a way to get young engineers a fun robotics project that will get everyone excited about STEM. 
@@ -34,8 +34,8 @@ Most of these skills are thing that you can learn and pick up on fairly quickly 
 # Getting Started
 
 ## Folder organization
-![Rover build roadmap](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/folders.PNG)
-This folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections, Mechanical, Electrical, and Software. The [Master Parts List](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/osr_Master_parts_list.xlsx) contains all the parts necessary to build the entire of the robot as it is in our documentation. We recognize that many of you might want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary only for that section, particularly screws, nuts, bolts, and common hardware should be assessed for totals necessary for the whole project if you are changing subassemblies*
+![Rover build roadmap](images/folders.PNG)
+This folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections, Mechanical, Electrical, and Software. The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts necessary to build the entire of the robot as it is in our documentation. We recognize that many of you might want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary only for that section, particularly screws, nuts, bolts, and common hardware should be assessed for totals necessary for the whole project if you are changing subassemblies*
 
 ## Ordering parts
 
@@ -45,7 +45,7 @@ __Need information on cart share etc here__
 
 ## Roadmap
 
-![Rover build roadmap](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/images/roadmap.PNG)
+![Rover build roadmap](images/roadmap.PNG)
 
 Here we have a proposed roadmap of how you can build the rover and what part of the build is dependant on the other sections. It is broken down into 5 stages.
 

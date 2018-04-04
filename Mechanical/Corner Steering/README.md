@@ -1,7 +1,7 @@
 # Project Title
 The Corner Steering system gives attachment points for coner motors used in Ackerman steering method of driving the rover
 
-![Corner steering pic](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/Mechanical/Corner%20Steering/Latex%20Docs/Pictures/CornerSt%20Step%207.PNG)
+![Corner steering pic](Latex%20Docs/Pictures/CornerSt%20Step%207.PNG)
 
 ## Features
   * Uses absolute encoders to track position of corners without having to recalibrate every time
