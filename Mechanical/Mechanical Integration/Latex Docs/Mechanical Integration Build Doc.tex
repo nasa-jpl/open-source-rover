@@ -1,0 +1,247 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover Mechanical Assembly Manual}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+
+\begin{document}
+
+
+\title{Open Source Rover}
+\author{Final Integration Assembly Instructions}
+
+\makeatletter         
+\def\@maketitle{
+\begin{center}	
+	\makebox[\textwidth][c]{ \includegraphics[width=0.8\paperwidth]{"Pictures/Final Title".png}}
+	{\Huge \bfseries \sffamily \@title }\\[4ex] 
+	{\huge \bfseries \sffamily \@author}\\[4ex] 
+	\includegraphics[width=.65\linewidth]{"Pictures/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+% Introduction
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+
+
+\section{Mechanical/Structural Assembly}
+At this point we have every major sub assembly created and they just need to be linked together to create the rover. Here we will attach all the corner motors and wheels, the rocker-bogie, the differential pivot, and the head. 
+
+
+\begin{figure}[H]
+  	\centering
+  	\begin{minipage}[b]{0.30\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Differential Pivot".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.30\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Head final".PNG}
+  	\end{minipage}
+    	\hfill
+  	\begin{minipage}[b]{0.30\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Wheels Title".PNG}
+  	\end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Rocker Bogie Title".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Finished Body 1".png}
+  \end{minipage}
+  \caption{Mounting the middle wheel}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/Final Assembly Parts".PNG}
+\end{figure}
+
+
+\subsection{Mounting Wheels}
+
+\begin{enumerate}
+
+\item \textbf{Mounting the Middle Wheel: } Using Channel Connectors \textbf{S6} and a 1.5 inch channel \textbf{S1} connect one of the remaining wheel assemblies as shown below. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/RB Step 17".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/RB Step 18".png}
+  \end{minipage}
+  \caption{Mounting the middle wheel}
+\end{figure}
+
+\item \textbf{Mounting the Middle Wheel Cont: } Using Channel Connectors \textbf{S6} connect the 1.5 inch channel to the bottom of the rocker bogie assembly. At this point the Rocker-Bogie assembly is done for one side. \textbf{In order to build the other side it is identical up until step 11, which is mirrored about the assembly} such that you produce the opposite side geometry as shown below. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/RB Step 19".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/RB Final 3".png}
+  \end{minipage}
+  \caption{Final Rocker-Bogie assem}
+\end{figure}
+
+
+\subsection{Attaching Corner Steering Assembly}
+
+\item \textbf{Corner Steering Attachment: } Using channel connectors \textbf{S6} and screws \textbf{B1} attach a corner steering assembly to the rocker bogie assembly. Make sure when doing this that you pick the corner steering assembly that has the encoder facing outwards (same direction as the wheel in rocker bogie assembly.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Final Step 1".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Final Step 2".png}
+  \end{minipage}
+  \caption{Final Assembly Step 1}
+\end{figure}
+
+
+\item \textbf{Corner Steering Attachment Cont: } Repeat step 1 with the other rocker bogie assembly, again making sure to choose the encoder mount that corresponds to outward facing encoder. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Final Step 3".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Final Step 4".png}
+  \end{minipage}
+  \caption{Final Assembly Step 2}
+\end{figure}
+
+\subsection{Attaching Corner Wheels}
+
+\item \textbf{Corner Wheel Attachment: }Take any corner wheel assembly and attach it to any of the corner steering assemblies, they are all symmetric at this point. Spin the encoder gear to mesh with the motor shaft gear if they are not aligned yet. Repeat this process for all 4 corner wheels. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Final Step 5".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Final Step 6".png}
+  \end{minipage}
+  \caption{Final Assembly Step 3}
+\end{figure}
+
+\subsection{Mounting Body to Rocker-Bogie}
+
+\item \textbf{Mounting Body: } Using 15in aluminum rod \textbf{S16A} and collar clamps \textbf{S22} mount the body of the rover to the two separate rocker-bogie legs. Make sure to note the order to put the collar clamps in to fully lock all assemblies along the rod. The rod will go through the pillow blocks on each rocker-bogie leg, and it should pass through the 4th from the back and 2nd up hole on the body, see picture below. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Final Step 7".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Final Step 8".png}
+  \end{minipage}
+  \caption{Final Assembly Step 4}
+\end{figure}
+
+
+\subsection{Attach the Differential Pivot}
+
+\item \textbf{Attaching the Vertical Rod} Place the 0.5 x 2 inch hallow aluminum rod \textbf{S19} through the pillow blocks mounted on the back of the body and secure the bottom with collar clamp \textbf{S22}. Then place all three washers 
+\textbf{W3} followed by the clamping hub around the top of the rod and tighten down on the clamping screw. 
+
+\begin{figure}[H]
+  	\centering
+  	\begin{minipage}[b]{0.35\textwidth}
+   		\includegraphics[width=\textwidth]{"Pictures/Diff step 5".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.35\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Diff Step 6".PNG}
+  	\end{minipage}
+  	\caption{Attaching the pivot rod}
+\end{figure}
+
+	\item \textbf{Attaching the differential pivot:} Attach the clamping hub on the differential pivot to the 0.5 inch aluminum tube above the washers. Also attach the the bottom sections of the differential pivot to the 0.5 inch clamping hubs on each of the Rocker-Bogie attachments. Tighten down each of the screws on the clamping hubs once these have been set in.
+
+\begin{figure}[H]
+  	\centering
+  	\begin{minipage}[b]{0.35\textwidth}
+   		\includegraphics[width=\textwidth]{"Pictures/Diff step 7".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.35\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Diff Step 8".PNG}
+  	\end{minipage}
+  	\caption{Attaching the pivot rod}
+\end{figure}
+
+\subsection{Mounting the Head}
+
+\item \textbf{Mounting the head to the body:} Slid the PVC pipe at the bottom of the head into the PVC clamping hub on the rover body, then tighten down the clamping screws. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Final Step 13".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Final Step 14".png}
+  \end{minipage}
+  \caption{Final Assembly Step 7}
+\end{figure}
+
+\item \textbf{Checkpoint: } Here you should now have the fully assembled Rover! 
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=.85\textwidth]{"Pictures/Final".PNG}
+  \caption{Final Mehcnical Rover}
+\end{figure}
+
+\end{enumerate}
+
+
+\end{document}

@@ -1,8 +1,7 @@
 # Project Title
 This is the base version of the head for ____. It is to house a 16x32 fully programmable 7 color LED matrix used for a display. 
 
-## Picture
-Insert Picture here! :)
+![Head picture](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/Mechanical/Head%20Assembly/Latex%20Docs/Pictures/Head%20final.PNG)
 
 ## Features
   * Ease of assembly using 3D printed components, designed to be mouldar and printed seperately and fit together.

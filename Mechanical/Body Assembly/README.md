@@ -1,7 +1,7 @@
 # Project Title
 The body is the housing of all the electronics for the rover. It is the attachment points for the rocker-bogie systems, as well as the differential pivot system.
 
-## Picture
+![Rover head picture](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/Mechanical/Body%20Assembly/Latex%20Doc/Pictures/Body/Finished%20Body%201.PNG)
 
 ## Features
   * Gives passthrough connections for USB ports on Rasberry Pi

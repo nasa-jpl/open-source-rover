@@ -1,7 +1,7 @@
 # Project Title
 The Differential Pivot helps offload forces from one side of the rocker-bogie to the other during climbing. It also allows another attachment point such that the body does not free rotate about it's center
 
-## Picture
+![Differential Pivot](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/Mechanical/Differential%20Pivot/Latex%20Docs/Pictures/Differential%20Pivot.PNG)
 
 ## Features
   * Uses inexpensive RC turnbuckles to give multi-degree rotation about 2 seperate points, allowing geometry to be simplified

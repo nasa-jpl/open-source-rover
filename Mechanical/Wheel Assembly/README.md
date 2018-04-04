@@ -1,7 +1,7 @@
 # Project Title
 The Wheel assembly attachs the wheels to the motors and mounts the motors to the rest of the robot chassis
 
-## Picture
+![Wheels picture](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/Mechanical/Wheel%20Assembly/Latex%20Docs/Pictures/Wheels/Wheels%20Title.PNG)
 
 ## Features
   * The flexible wheels allow for high traction as they deform around objects, improving climbing performance

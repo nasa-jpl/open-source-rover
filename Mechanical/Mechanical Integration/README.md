@@ -1,8 +1,7 @@
 # Project Title
 This is the final mechanical integration of all subassemblies for the rover. This is specifically to put together all of the base subassemblies.
 
-
-## Picture
+![Mechanical Integration](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/Mechanical/Mechanical%20Integration/Latex%20Docs/Pictures/Final.PNG)
 
 ## Features
   * With only the addition of a very few number of components all subassemblies can be combined together
