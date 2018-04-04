@@ -3,6 +3,8 @@ The JPL Open-Source Rover is a fully open-source scaled version of the 6 wheel r
 
 ![Power Diagram Overview](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/Electrical/Latex%20Docs/Electrical%20Build%20Doc/Pictures/Electronics/power%20diagram.PNG)
 
+![Data Diagram Overview](https://github.jpl.nasa.gov/ejunkins/osr/blob/master/Electrical/Latex%20Docs/Electrical%20Build%20Doc/Pictures/Electronics/data%20diagram.PNG)
+
 ## Disclaimer
 INSERT LINK TO DISCLAMER AND STATEMENT HERE
 
