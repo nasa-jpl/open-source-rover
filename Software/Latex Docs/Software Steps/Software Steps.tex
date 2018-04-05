@@ -52,44 +52,49 @@
 \newpage
 
 
-\section{Downloading the App}
-\textcolor{red}{Need android app install information}
-
 \section{Setting up the Raspberry Pi 3}
 In this section we'll go over setting up the Raspberry Pi and how to get all the code to run the rover going, as well as setting up the bluetooth pairing from the android device.
 \subsection{Getting the Pi online}
 
 \subsubsection{Installing a new OS on the Pi}
 
-For instructions on getting the raspberry pi OS downloaded and installed visit the following link:
+On the Raspberry Pi open up a terminal \textbf{(ctl + alt + t)} and then type the following commands:
 
 \begin{itemize}
-	\item \href{https://www.raspberrypi.org/documentation/installation/noobs.md}{https://www.raspberrypi.org/documentation/installation/noobs.md}
+	\item[] cd /home/pi
+	\item[] git clone https://github.jpl.nasa.gov/ejunkins/osr\_rover\_code
+	\item[] \textcolor{red}{THIS LINK TO CHANGE UPON RELEASE}
 \end{itemize}
 
-\subsubsection{Getting the Rover code:}
-\textcolor{red}{The following are the instructions on how to get the rover code for the beta groups, this will change for the final release}. 
-\begin{itemize}
-	\item Download id\_rsa text file from the google drive, and move it to ~/.ssh on 
-	\begin{itemize}
-		\item On a Raspberry pi open up a terminal (ctrl + alt + t) and type: 
-		\item cp ~/home/pi/Downloads/id\_rsa ~/.ssh	
-	\end{itemize}
-	\item Open up a terminal (ctrl + alt + t) and type the following commands:
-	\begin{itemize}
-		\item cd ~/home/pi/Desktop
-		\item mkdir osr
-		\item cd osr
-		\item git init
-		\item git pull git@github.com:ericjunkins/OSR.git
-		\item if prompted type "yes"
-		\item Passkey is: rover
-	\end{itemize}
-
-\end{itemize}
+%For instructions on getting the raspberry pi OS downloaded and installed visit the following link:
+%
+%\begin{itemize}
+%	\item \href{https://www.raspberrypi.org/documentation/installation/noobs.md}{https://www.raspberrypi.org/documentation/installation/noobs.md}
+%\end{itemize}
+%
+%\subsubsection{Getting the Rover code:}
+%\textcolor{red}{The following are the instructions on how to get the rover code for the beta groups, this will change for the final release}. 
+%\begin{itemize}
+%	\item Download id\_rsa text file from the google drive, and move it to ~/.ssh on 
+%	\begin{itemize}
+%		\item On a Raspberry pi open up a terminal (ctrl + alt + t) and type: 
+%		\item cp ~/home/pi/Downloads/id\_rsa ~/.ssh	
+%	\end{itemize}
+%	\item Open up a terminal (ctrl + alt + t) and type the following commands:
+%	\begin{itemize}
+%		\item cd ~/home/pi/Desktop
+%		\item mkdir osr
+%		\item cd osr
+%		\item git init
+%		\item git pull git@github.com:ericjunkins/OSR.git
+%		\item if prompted type "yes"
+%		\item Passkey is: rover
+%	\end{itemize}
+%
+%\end{itemize}
 
 \subsubsection{Installing packages}
-Below are the packages you will need to use Bluetooth communication through the raspberry pi. Open up a terminal on the Raspberry Pi \textbf{(ctl + alt + t)} and type the following commands:
+Below are the packages you will need to use Bluetooth communication through the raspberry pi. Open up a terminal on the Raspberry Pi  and type the following commands:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo apt-get update}
 	\item[] \colorbox{lightgray}{sudo apt-get upgrade}
@@ -129,7 +134,22 @@ Below are the packages you will need to use Bluetooth communication through the 
 	\item[] \colorbox{lightgray}{sudo sdptool add SP}
 \end{itemize}
 
-\subsection{Setting up Bluetooth}
+\section{Control Method}
+
+The first thing to do is select which control method you want to use. There are two ways that are built into the code already to control the rover, one of which is a bluetooth app run on Android devices, and the other is using a wireless Xbox controller. 
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=.7\textwidth]{"Pictures/control".PNG}
+ 	\caption{Control Methods}
+	\label{controls}
+\end{figure}
+
+\noindent Any way that you can communicate to a Raspberry Pi is a way that you can control the rover, and we fully encourage finding and developing other methods of remote control. For these methods if you decide to use an Android device you will need to follow some steps to get the app loaded on your phone, as we provide the source code so you can edit and change things the next section will walk you through getting the source code.
+
+\subsection{Android App Control}
+
+\subsubsection{Setting up Bluetooth on the RPi}
 
 There are a few ways to set up the Bluetooth pairing with your android device. For additional help you can follow steps  
 \begin{itemize}
@@ -137,7 +157,7 @@ There are a few ways to set up the Bluetooth pairing with your android device. F
 \end{itemize}
 \subsubsection{Naming the Bluetooth Device}
 
-Create a file that will name the bluetooth device your desired name. \textbf{*NOTE*} This name must also be updated in the Android App such that the App finds the correct device. First on the RPi type \colorbox{lightgray}{sudo nano /etc/machine-info} and name your device by the following, where deviceName is what you want the name of your Raspberry Pi to be:
+On the Raspberry Pi create a file that will name the bluetooth device your desired name \footnote{This name must also be updated in the Android App such that the App finds the correct device}. First on the RPi type \colorbox{lightgray}{sudo nano /etc/machine-info} and name your device by the following, where deviceName is what you want the name of your Raspberry Pi to be:
 \begin{verbatim}
           PRETTY_HOSTNAME=deviceName
 \end{verbatim}
@@ -169,6 +189,45 @@ We're now ready to pair the device with your android device. Have your android p
 	\item[] You'll be prompted on the phone asking to accept the pairing, select okay
 	\item[] Type \colorbox{lightgray}{quit} to exit the bluetoothctl
 \end{itemize}
+
+\subsubsection{Downloading the Android App}
+
+To begin you need to download Android Studio, which will allow you to put the source code onto the android device \footnote{This is to be done on a laptop or desktop computer, not the Raspberry Pi}.
+
+\begin{itemize}
+	\item \href{https://developer.android.com/studio/index.html}{https://developer.android.com/studio/index.html}
+\end{itemize}
+
+\noindent In order to allow the android device to be able to have source code loaded onto it you'll need to enable USB debugging, which is going to be different for a lot of different versionf of phones. The best way to figure this out is to google "android usb debugging" for your specific device and follow the steps there. Android studio also provides lots of support information and forums to help getting through any problems and issues had on that end, consult those if there are issues.
+
+\bigskip
+
+\noindent To get the code for the app you can run the following command in a terminal at the location you desire it to be put:
+
+\begin{itemize}
+	\item[] \colorbox{lightgray}{git clone https://github.jpl.nasa.gov/ejunkins/osr\_android\_app}
+	\item[] \textcolor{red}{THIS LINK TO CHANGE UPON RELEASE TO FINAL LINK LOCATION}
+\end{itemize}
+
+\noindent Or you can navigate to the URL at:
+
+\begin{itemize}
+	\item[] \href{https://github.jpl.nasa.gov/ejunkins/osr_android_app}{https://github.jpl.nasa.gov/ejunkins/osr\_android\_app}
+	\item[] \textcolor{red}{THIS LINK TO CHANGE UPON RELEASE TO FINAL LINK LOCATION}
+\end{itemize}
+
+\noindent and under the Clone or download button click Download ZIP and extract the files in that manner. 
+
+\bigskip
+
+\noindent Now open up the source code just downloaded in Android Studio. In order for the App to communicate to the Raspberry Pi you'll need to make sure it selects the correct bluetooth device, on line 198 in the MainActivity.java file change the variable \textit{connection\_name} to be equal to whatever you named the Raspberry Pi in the previous section. Now hit run in the upper panel, and the android app should build and load onto your device. 
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=.7\textwidth]{"Pictures/autorun".PNG}
+ 	\caption{}
+	\label{}
+\end{figure}
 
 
 \subsection{Init Script}
