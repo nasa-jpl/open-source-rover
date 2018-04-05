@@ -51,61 +51,6 @@
 \newpage
 
 
-\section{Code Overview}
-Next I'll go through briefly how the different threads and functions communicate with each other. On boot of the RPi two processes start, one of them is the test.py from rover \textcolor{red}{soon to change to main.py}, and the other is screen.py which updates what the LED matrix displays. 
-
-\begin{figure}[H]
- 	\centering
-	\includegraphics[width=.7\textwidth]{"Pictures/Software Architecture".PNG}
- 	\caption{Software Architecture}
-	\label{Software Architecture}
-\end{figure}
-The remote will kick off a thread to listen for joystick data from the app, a thread monitoring the positions of each of the corners, a thread that handles all the communication with the RoboClaws, and another that will send commands to the LED display. The controls class contains information such as the position of the absolute encoders, signals to send to the motors, and thread management variables. For more in-depth explanation of the software refer to the comments in the source code. 
-
-
-\section{Folder/file hierarchy}
-First I'll go over the folder structure and what each of the files in our system to. Refer to Figure \ref{folders} as reference for this section.
-\begin{figure}[H]
- 	\centering
-	\includegraphics[width=.55\textwidth]{"Pictures/Folder heirarchy".PNG}
- 	\caption{Folder structure}
-	\label{folders}
-\end{figure}
-\begin{framed}
-\textbf{The rover folder contains the code necessary to run the robot and works as following:}
-\end{framed}
-\begin{itemize}
-	\item config.py contains the calibration scalings as well as geometric distances necessary for calculations of speed and turning angles
-	\item main.py runs on boot from /etc/rc.local and will look for bluetooth connection, and start the necessary threads to control the rover, and using a unix socket send commands to the thread running the LED screen as well.
-	\item killAll.py is a command line version of the killMotors function, in case something wrong happens and you need to stop the rover from terminal (we used this in testing purposes as a 2nd fail safe and decided to include it. When writing your own driving functions make sure to build in fail safes to shut down motors as well)
-	\item roboclaw.py is the file provided from the Ion Motion website that communicates to the RoboClaw motor controllers
-	\item controls.py has all the functions that do the driving and calculations, as well as communication to the motor controllers  
-\end{itemize}
-
-\begin{framed}
-\textbf{The led folder contains the code necessary to run the actual rover and works as following:}
-\end{framed}
-
-\begin{itemize}
-	\item display.py manages a matrix that that corresponds to each LED color, built from the features
-	\item feature.py creates the object to be used and placed on the LED matrix
-	\item updater.py contains the code that deals with turning on/off individual LEDs in the LED matrix
-	\item screen.py decides which objects to turn on/off based on inputs from unix socket
-\end{itemize}
-
-\begin{framed}
-\textbf{The test\_files folder contains code to help test and make sure that the pieces are all independantly working:}
-\end{framed}
-
-\begin{itemize}
-	\item encoder\_test.py allows you to test the encoder scalings before turning the rover on, making sure they read the right angles
-	\item serial\_read.py tests the serial read on RX GPIO pin 15
-	\item serial\_write.py tests the serial write on TX GPIO pin 14
-	\item motorTest.py is a unittest framework that allows you to test the system. It will test roboclaw serial connections, encoder readings, and that the motor and encoder directions are correct with each other.
-\end{itemize}
-
-
-
 \section{Control System}
 
 There are two systems we have to look at when designing the controls mechanics for the rover. One is how fast each of the drive motors must move, and the other is where each of the corners need to point in order for the rover to be able to make turns. 
