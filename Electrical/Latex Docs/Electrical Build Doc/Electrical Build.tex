@@ -190,174 +190,13 @@ Encoders are used to get readings on positions and speed of motors as they spin.
 \noindent In this project absolute encoders will be used on the corner wheels to get absolute measurements on where the wheels are turned, and quadrature encoders are used at each of the driving wheels to get speed measurements.
 
 
-\section{Printed Circuit Boards}
-
-\subsection{Voltage Divider Board}
-
-\subsubsection{Overview/Schematic}
-
-The purpose of this board is to solve the mismatch between the encoder logic and what the motor controller expects as encoder inputs. The absolute encoder outputs a signal from 0-5V based on the position of the encoder shaft, but the motor controllers expect in a signal that is 0-2V. For that we will need to linearly divide our scale such that these two match up to each other.
-
-\mybox{
-\noindent The following schematic is the electrical diagram for this board. For information on learning how to read electrical schematics you can read more at:
-
-\centering
-\href{https://learn.sparkfun.com/tutorials/how-to-read-a-schematic}{https://learn.sparkfun.com/tutorials/how-to-read-a-schematic}
-}
-
-\begin{figure}[H]
-  	\centering
-    	\includegraphics[width=.95\textwidth]{"Pictures/Electronics/Encoder Schematic".PNG}
- 	\caption{Encoder voltage divider schematic}
-	\label{evd sch}
-\end{figure}
-
-The Op-amp chip chosen is a dual channel OP-amp, so it will contain two separate input/outputs on each chip. The pin-out can be seen in Figure \ref{opamp}. For more information on this OP-amp you can see its' data sheet at 
-\begin{itemize}
-	\item \href{http://www.ti.com/lit/ds/symlink/lm358.pdf}{http://www.ti.com/lit/ds/symlink/lm358.pdf}
-\end{itemize}
-
-\begin{figure}[H]
-  	\centering
-    	\includegraphics[width=.35\textwidth]{"Pictures/Electronics/OP amp".PNG}
- 	\caption{Op amp pinout}
-	\label{opamp}
-\end{figure}
-
-\mybox{
-In Figure \ref{evd sch} we can see the electrical schematic for this board. Duplicated 4 times on this board is a voltage divider with a voltage follower after it. The voltage divider with the given values of 22K and 10K ohms will give a voltage division of about 0.3125 given from the following equation:
-
-
-\centering
-$V_{out} = V_{in} \frac{R_2}{R_1+R_2}$
-
-
-\noindent However we see that practically we see that the voltage division is actually closer to 0.28, this is because of other resistances of electronics components. Any division that gives us a division of at least 0.4 will be sufficient, as we need to get our 5V signal less than 2V. You can tune resistor values to get this closer if you wish. 
-}
-
-The Op-amp is used as a voltage follower allowing you to decouple the resistors and the impedance/capacitance of the motor controllers, allowing you to maintain this simple voltage divider. More information on this can be found at 
-
-\begin{itemize}
-	\item \href{https://en.wikipedia.org/wiki/Voltage_divider}{https://en.wikipedia.org/wiki/Voltage\_divider}
-	\item \href{http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/opampvar2.html}{http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/opampvar2.html}
-\end{itemize}
-
-
-\subsubsection{Testing}
-
-\begin{figure}[H]
-  	\centering
-    	\includegraphics[width=.75\textwidth]{"Pictures/Electronics/vd parts".PNG}
- 	\caption{}
-	\label{}
-\end{figure}
-
-The following diagram in Figure \ref{vd pinout1} are how the pins are labeled and will help us debug the board and pin the correct signals onto the pins
-\begin{figure}[H]
- 	\centering
-	\includegraphics[width=.65\textwidth]{"Pictures/Electronics/Encoder Board".PNG}
- 	\caption{Encoder Voltage Divider board pinout}
-	\label{vd pinout1}
-\end{figure}
-
-
-\begin{enumerate}
-	\item The board will come unpopulated and will look like the Figure \ref{}. First take and solder all of the header pins, resistors, and op amp chips into the board. 
-
-\textcolor{red}{THIS SECTION NEEDS PICTURES ADDED FOR PIN-OUT DEBUGGING. WILL BE ADDED ONCE WE GET THEM FROM SANTA SUSANA}
-\mybox{
-Make sure that the OP-amp is facing the correct direction, there is a half moon on the top of the chip as well as on the silk screen on the board. 
-}
-	\item Once soldered the board should look like Figure \ref{}
-	\item Apply +5V onto pin 25 and GND on pin 26, this should supply power to the components on the board.
-	\item Test each of the OP-amp chips, probing from pin 8 to 4 on each chip and verify they have +5V.
-	\item Apply +5V onto pin 1 and GND onto pin 3. Verify that there is +5V across pin 13 and 15.
-	\item Apply +5V onto pin 4 and GND onto pin 6. Verify that there is +5V across pin 16 and 18.
-	\item Apply +5V onto pin 7 and GND onto pin 9. Verify that there is +5V across pin 19 and 21.
-	\item Apply +5V onto pin 10 and GND onto pin 12. Verify that there is +5V across pin 22 and 24.
-	\item Now we know that each of the encoders will be powered by +5V correctly, we want to test the voltage division. Apply +5V to pin 14 and measure the output at pin 2, this value should read between 1.4V and 2.0V. It is important that it is strictly less than 2V, but other than that any values should be okay. Resistor values can be changed if desired to make this closer. 
-	\item Repeat step 8 with +5V on 17 and testing pin 5, then +5 on 20 testing at pin 8, and +5V on 23 testing at pin 11. Once all these are verified the board is working correctly and is ready for the rest of the project. If any of the tests fail check resistor values, as well as the Op-amp chip.  
-\end{enumerate}
-
-\subsection{Serial Splitter Board}
-
-
-\subsubsection{Overview/Schematic}
-
-This board is to pass the serial read and write lines, as well as +5V/GND from the Raspberry Pi to each of the motor controllers without having to solder wires to split each of these individually. 
-
-\begin{figure}[H]
-  	\centering
-    	\includegraphics[width=.85\textwidth]{"Pictures/Electronics/Read write schematic".PNG}
- 	\caption{Serial Read/Write schematic}
-	\label{rw sch}
-\end{figure}
-
-Figure \ref{rw sch} shows the schematic for this board. There is one resistor used as a pull-up resistor as recommended when using multiple serial communication devices from the RoboClaw user manual. +5V and GND are also passed to each motor controller, as this is what is used for the logic battery on the RoboClaw, which determines what digital logic and signal power is sent to the encoders. 
-
-\subsubsection{Testing}
-
-\begin{figure}[H]
-  	\centering
-    	\includegraphics[width=.85\textwidth]{"Pictures/Electronics/ss parts".PNG}
-\end{figure}
-
-
-\begin{enumerate}
-	\item The board will come unpopulated and will look like the Figure \ref{ss}. First take and solder the 4.7K resistor and all of the header pins into 		the board. 
-
-	\begin{figure}[H]
-	  	\centering
-	    	\includegraphics[width=.45\textwidth]{"Pictures/Electronics/serial splitter board".PNG}
-		\caption{Unpopulated Serial Splitter Board}
-		\label{ss}
-	\end{figure}
-
-	\item Once soldered on the board should look like Figure \ref{ss1}
-
-	\begin{figure}[H]
-	  	\centering
-	    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/ss1".PNG}
-		\caption{populated Serial Splitter Board}
-		\label{ss1}
-	\end{figure}
-
-	\item We first want to test and make sure that each of the rows are independent of each other. Using the resistance setting make sure that there is 		no resistance between any pins in the first row (+5V), and any pins in the 2nd (TX) and 4th (GND) row. 
-
-	\begin{figure}[H]
-	 	\centering
-	  	\begin{minipage}[b]{0.45\textwidth}
-			\includegraphics[width=\textwidth]{"Pictures/Board Testing/ss2".PNG}
-	  	\end{minipage}
-	  	\hfill
-	  	\begin{minipage}[b]{0.45\textwidth}
-	    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ss4".png}
-	  	\end{minipage}
-		\label{sstest1}
-	\end{figure}
-
-	\item Now test the resistance between row 1 and row 3, the +5V row and RX row. This should be equal to the resistance of R1, which is 4.7K 			Ohms. 
-
-	\begin{figure}[H]
-	  	\centering
-	    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/ss3".PNG}
-		\label{ss3}
-	\end{figure}
-	
-	\item Every row should be connected all the way across, so verify that the first pin is connected to each of the other pins in the row. If all of these 		tests have passed then the board is all ready to go, if not check solder connections and make sure there isn't any short on the board. 
-
-	\begin{figure}[H]
-	  	\centering
-	    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/ss5".PNG}
-		\label{ss5}
-	\end{figure}
-
-\end{enumerate}
-
-
 \section{Powering Components}
-Here we will be setting up the connections to the electrical components. It is recommended that you try hooking up each of these components outside of the robot body first to test in an easier environment, as well as make sure you fully understand how all the signals are passed around etc. When connecting any of the power lines it is important to consider how much current will be running through that wire, and select the appropriate wire gauge to handle that current. For more information on wire gauge selection you can follow this link:
-  
+Here we will be setting up the connections to the electrical components. It is recommended that you try hooking up each of these components outside of the robot body first to test in an easier environment, as well as make sure you fully understand how all the signals are passed around etc. This guide also assumes that you have already followed the PCB Testing guide and that you have fully tested and functioning PCBs already.
+
+
+\mybox{
+When connecting any of the power lines it is important to consider how much current will be running through that wire, and select the appropriate wire gauge to handle that current. For more information on wire gauge selection you can follow this link:
+}
 \begin{itemize}
 	\item \href{https://www.bluesea.com/support/articles/Circuit_Protection/1437/Part_1\%3A_Choosing_the_Correct_Wire_Size_for_a_DC_Circuit}{https://www.bluesea.com/support/articles/Circuit\_Protection/1437}
 \end{itemize}
@@ -797,6 +636,53 @@ The absolute encoder will be hooked up similarly to the encoders for the drive m
 	\label{RC to Steering}
 \end{figure}
 
-Once all 10 of the motors are connected in the system we are ready to move onto the Motor tuning and calibration process. Make sure to double check all your wire connections and that they are into the correct pins before moving on. 
+Once all 10 of the motors are connected in the system we are ready to move onto the Motor tuning and calibration process, in the Calibration.PDF. Make sure to double check all your wire connections and that they are into the correct pins before moving on. We recommend doing this and having the robot functioning before moving on to the LED Matrix, though either order would be fine.
+
+\section{Connecting the LED Matrix}
+We followed along with a project on Adafruit to hook up the Raspberry Pi to the LED matrix, with the addition of the logic shifter board inbetween the Pi and LED matrix. It can be found at:
+
+\begin{itemize}
+	\item \href{https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/overview}{https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/overview}
+\end{itemize}
+
+Figure \ref{rpi2led} shows an overview of how the logic shifters are used inbetween the signals from the Raspberry Pi to the LED Matrix. This does not have the pin connectors to the Logic Shifter board in it, it is just to demonstrate the signal path.
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=0.7\textwidth]{"Pictures/Electronics/RPi to LED".PNG}
+ 	\caption{Raspberry Pi connections to LED Matrix}
+	\label{rpi2led}
+\end{figure}
+
+
+\noindent The Logic Shifter PCB is not included in the adafruit project, the following will be descriptions as to how to include that in the wiring and routing. Figure \ref{ls2pi} shows the pin connections on the Logic shifter, labeled with which pin they connect to on the Raspberry Pi. We suggest putting the logic shifter board in the 3D printed head, and routing the wires through the body and up through the pvp pipe "neck". 
+
+\noindent Make sure to use the thicker gauge wire (20AWG) for powering the LED matrix, as it can pull up to 5 amps of current, we want to make sure to use wire thick enough for it, however all the other signals are digital signals which the 30 AWG wire is fine for. 
+
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/Electronics/ls to pi".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Electronics/pi3_gpio".png}
+  	\end{minipage}
+	\caption{Raspberry pi to Logic Shifter board}
+	\label{ls2pi}
+\end{figure}
+
+\textbf{**Note**} In Figure \ref{ls2pi} the pin labels on the board (left) correspond to the pin NAME not the pin number. So pin 12 is the pin NAME GPIO 12, and \textbf{Not} pin\#12 
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=0.5\textwidth]{"Pictures/Electronics/ls to led".PNG}
+ 	\caption{Logic Shifter to LED Matrix}
+	\label{ls2led}
+\end{figure}
+
+Figure \ref{ls2led} shows the connections out of the Logic Shifter board to the LED Matrix. Make sure to use the INPUT side of the LED matrix. Labels of the pin namings can be found directly on the LED Matrix.  
+
+
 
 \end{document} 

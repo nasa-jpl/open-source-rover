@@ -1,0 +1,379 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{wrapfig}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover PCB Testing}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+
+
+\definecolor{mycolor}{rgb}{0.122, 0.435, 0.698}% Rule colour
+\makeatletter
+\newcommand{\mybox}[1]{%
+  \setbox0=\hbox{#1}%
+  \setlength{\@tempdima}{\dimexpr\wd0+13pt}%
+  \begin{tcolorbox}[colframe=mycolor,boxrule=0.5pt,arc=4pt,
+      left=6pt,right=6pt,top=6pt,bottom=6pt,boxsep=0pt,width=0.95\textwidth]
+    #1
+  \end{tcolorbox}
+}
+\makeatother
+
+
+
+\begin{document}
+
+\title{Open Source Rover}
+\author{Electrical Assembly Instructions}
+
+\makeatletter         
+\def\@maketitle{
+\begin{center}	
+	\makebox[\textwidth][c]{ \includegraphics[width=1.05\paperwidth]{"Pictures/pcb title".png}}
+	{\Huge \bfseries \sffamily \@title }\\[4ex] 
+	{\huge \bfseries \sffamily \@author}\\[4ex] 
+	\includegraphics[width=.85\linewidth]{"Pictures/Electronics/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+% Introduction
+\newpage
+
+
+\tableofcontents
+
+\newpage
+
+
+
+
+\section{Printed Circuit Boards}
+
+\subsection{Voltage Divider Board}
+
+\subsubsection{Overview/Schematic}
+
+The purpose of this board is to solve the mismatch between the encoder logic and what the motor controller expects as encoder inputs. The absolute encoder outputs a signal from 0-5V based on the position of the encoder shaft, but the motor controllers expect in a signal that is 0-2V. For that we will need to linearly divide our scale such that these two match up to each other.
+
+\mybox{
+\noindent The following schematic is the electrical diagram for this board. For information on learning how to read electrical schematics you can read more at:
+
+\centering
+\href{https://learn.sparkfun.com/tutorials/how-to-read-a-schematic}{https://learn.sparkfun.com/tutorials/how-to-read-a-schematic}
+}
+
+\begin{figure}[H]
+  	\centering
+    	\includegraphics[width=.95\textwidth]{"Pictures/Electronics/Encoder Schematic".PNG}
+ 	\caption{Encoder voltage divider schematic}
+	\label{evd sch}
+\end{figure}
+
+The Op-amp chip chosen is a dual channel OP-amp, so it will contain two separate input/outputs on each chip. The pin-out can be seen in Figure \ref{opamp}. For more information on this OP-amp you can see its' data sheet at 
+\begin{itemize}
+	\item \href{http://www.ti.com/lit/ds/symlink/lm358.pdf}{http://www.ti.com/lit/ds/symlink/lm358.pdf}
+\end{itemize}
+
+\begin{figure}[H]
+  	\centering
+    	\includegraphics[width=.35\textwidth]{"Pictures/Electronics/OP amp".PNG}
+ 	\caption{Op amp pinout}
+	\label{opamp}
+\end{figure}
+
+\mybox{
+In Figure \ref{evd sch} we can see the electrical schematic for this board. Duplicated 4 times on this board is a voltage divider with a voltage follower after it. The voltage divider with the given values of 22K and 10K ohms will give a voltage division of about 0.3125 given from the following equation:
+
+
+\centering
+$V_{out} = V_{in} \frac{R_2}{R_1+R_2}$
+
+
+\noindent However we see that practically we see that the voltage division is actually closer to 0.28, this is because of other resistances of electronics components. Any division that gives us a division of at least 0.4 will be sufficient, as we need to get our 5V signal less than 2V. You can tune resistor values to get this closer if you wish. 
+}
+
+The Op-amp is used as a voltage follower allowing you to decouple the resistors and the impedance/capacitance of the motor controllers, allowing you to maintain this simple voltage divider. More information on this can be found at 
+
+\begin{itemize}
+	\item \href{https://en.wikipedia.org/wiki/Voltage_divider}{https://en.wikipedia.org/wiki/Voltage\_divider}
+	\item \href{http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/opampvar2.html}{http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/opampvar2.html}
+\end{itemize}
+
+
+\subsubsection{Testing}
+
+\begin{figure}[H]
+  	\centering
+    	\includegraphics[width=.75\textwidth]{"Pictures/Electronics/vd parts".PNG}
+ 	\caption{}
+	\label{}
+\end{figure}
+
+The following diagram in Figure \ref{vd pinout1} are how the pins are labeled and will help us debug the board and pin the correct signals onto the pins
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=.65\textwidth]{"Pictures/Electronics/Encoder Board".PNG}
+ 	\caption{Encoder Voltage Divider board pinout}
+	\label{vd pinout1}
+\end{figure}
+
+
+\begin{enumerate}
+	\item The board will come unpopulated and will look like the Figure \ref{}. First take and solder all of the header pins, resistors, and op amp chips into the board. 
+
+\textcolor{red}{THIS SECTION NEEDS PICTURES ADDED FOR PIN-OUT DEBUGGING. WILL BE ADDED ONCE WE GET THEM FROM SANTA SUSANA}
+\mybox{
+Make sure that the OP-amp is facing the correct direction, there is a half moon on the top of the chip as well as on the silk screen on the board. 
+}
+	\item Once soldered the board should look like Figure \ref{}
+	\item Apply +5V onto pin 25 and GND on pin 26, this should supply power to the components on the board.
+	\item Test each of the OP-amp chips, probing from pin 8 to 4 on each chip and verify they have +5V.
+	\item Apply +5V onto pin 1 and GND onto pin 3. Verify that there is +5V across pin 13 and 15.
+	\item Apply +5V onto pin 4 and GND onto pin 6. Verify that there is +5V across pin 16 and 18.
+	\item Apply +5V onto pin 7 and GND onto pin 9. Verify that there is +5V across pin 19 and 21.
+	\item Apply +5V onto pin 10 and GND onto pin 12. Verify that there is +5V across pin 22 and 24.
+	\item Now we know that each of the encoders will be powered by +5V correctly, we want to test the voltage division. Apply +5V to pin 14 and measure the output at pin 2, this value should read between 1.4V and 2.0V. It is important that it is strictly less than 2V, but other than that any values should be okay. Resistor values can be changed if desired to make this closer. 
+	\item Repeat step 8 with +5V on 17 and testing pin 5, then +5 on 20 testing at pin 8, and +5V on 23 testing at pin 11. Once all these are verified the board is working correctly and is ready for the rest of the project. If any of the tests fail check resistor values, as well as the Op-amp chip.  
+\end{enumerate}
+
+\subsection{Serial Splitter Board}
+
+
+\subsubsection{Overview/Schematic}
+
+This board is to pass the serial read and write lines, as well as +5V/GND from the Raspberry Pi to each of the motor controllers without having to solder wires to split each of these individually. 
+
+\begin{figure}[H]
+  	\centering
+    	\includegraphics[width=.85\textwidth]{"Pictures/Electronics/Read write schematic".PNG}
+ 	\caption{Serial Read/Write schematic}
+	\label{rw sch}
+\end{figure}
+
+Figure \ref{rw sch} shows the schematic for this board. There is one resistor used as a pull-up resistor as recommended when using multiple serial communication devices from the RoboClaw user manual. +5V and GND are also passed to each motor controller, as this is what is used for the logic battery on the RoboClaw, which determines what digital logic and signal power is sent to the encoders. 
+
+\subsubsection{Testing}
+
+\begin{figure}[H]
+  	\centering
+    	\includegraphics[width=.85\textwidth]{"Pictures/Electronics/ss parts".PNG}
+\end{figure}
+
+
+\begin{enumerate}
+	\item The board will come unpopulated and will look like the Figure \ref{ss}. First take and solder the 4.7K resistor and all of the header pins into 		the board. 
+
+	\begin{figure}[H]
+	  	\centering
+	    	\includegraphics[width=.45\textwidth]{"Pictures/Electronics/serial splitter board".PNG}
+		\caption{Unpopulated Serial Splitter Board}
+		\label{ss}
+	\end{figure}
+
+	\item Once soldered on the board should look like Figure \ref{ss1}
+
+	\begin{figure}[H]
+	  	\centering
+	    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/ss1".PNG}
+		\caption{populated Serial Splitter Board}
+		\label{ss1}
+	\end{figure}
+
+	\item We first want to test and make sure that each of the rows are independent of each other. Using the resistance setting make sure that there is 		no resistance between any pins in the first row (+5V), and any pins in the 2nd (TX) and 4th (GND) row. 
+
+	\begin{figure}[H]
+	 	\centering
+	  	\begin{minipage}[b]{0.45\textwidth}
+			\includegraphics[width=\textwidth]{"Pictures/Board Testing/ss2".PNG}
+	  	\end{minipage}
+	  	\hfill
+	  	\begin{minipage}[b]{0.45\textwidth}
+	    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ss4".png}
+	  	\end{minipage}
+		\label{sstest1}
+	\end{figure}
+
+	\item Now test the resistance between row 1 and row 3, the +5V row and RX row. This should be equal to the resistance of R1, which is 4.7K 			Ohms. 
+
+	\begin{figure}[H]
+	  	\centering
+	    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/ss3".PNG}
+		\label{ss3}
+	\end{figure}
+	
+	\item Every row should be connected all the way across, so verify that the first pin is connected to each of the other pins in the row. If all of these 		tests have passed then the board is all ready to go, if not check solder connections and make sure there isn't any short on the board. 
+
+	\begin{figure}[H]
+	  	\centering
+	    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/ss5".PNG}
+		\label{ss5}
+	\end{figure}
+
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/Board Testing/parts-led matrix".PNG}
+\end{figure}
+
+
+\subsection{PCB - Logic Shifter Board} 
+\subsubsection{Overview/Schematic}
+This board is made for the mismatch between the digital logic voltage level of the raspberry pi and the LED matrix. Generally digital logic is either at 3.3V or 5V. The GPIO pins on the Raspberry Pi will output at the 3.3V logic, and the LED matrix is made to read at 5V digital logic levels. In order to have these signals make sense to each other we use a device called a logic shifter, which will take the 3.3V signals and turn them into 5V signals. 
+
+\begin{figure}[H]
+  	\centering
+    	\includegraphics[width=.75\textwidth]{"Pictures/Board Testing/Logic Shifter Schematic".PNG}
+ 	\caption{Logic Shifter schematic}
+	\label{ls sch}
+\end{figure}
+
+In Figure \ref{ls sch} the wire labels correspond to the name of the GPIO pin the signal comes from on the raspberry pi. The data sheet for the logic shifter IC chip can be found at: 
+\begin{itemize}
+	\item \href{https://cdn-shop.adafruit.com/datasheets/sn74lvc245a.pdf}{https://cdn-shop.adafruit.com/datasheets/sn74lvc245a.pdf}
+\end{itemize}
+
+\subsubsection{Testing}
+
+The board will come initially unpopulated of components and will look like
+
+\begin{figure}[H]
+  	\centering
+    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/ls1".png}
+ 	\caption{Logic Shifter Board}
+	\label{ls1}
+\end{figure}
+
+\begin{enumerate}
+
+	\item First we want to populate the board, and test that it is working properly before fully integrating it into the rest of the system. Break off the 0.1 pitch header pins in the correct segments to fit onto the board, and insert the logic shifting chip. The chip might need the pins slightly pushed one direction in order to fit in. Solder all components into the board.
+
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls2".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls3".png}
+  	\end{minipage}
+	\caption{Populating the board}
+	\label{ls2}
+\end{figure}
+
+	\item You need to run connections to the board now from the Raspberry Pi. Figure \ref{ls2pi} shows which pins on the board are connected to which pin on the Raspberry Pi, with the exception of the purple wire, which will be using to test the signals and drive it from the 3.3V DC power pin on the Raspberry Pi. Figure \ref{ls4} shows which of these we will need to start connecting the board to test.
+
+\begin{figure}[H]
+  	\centering
+    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/pins".png}
+ 	\caption{Board Connections}
+	\label{ls4}
+\end{figure}
+
+\begin{center}
+\begin{tabular}[2]{| c | c |}	
+	\hline
+	Red & +5V \\ \hline
+	Brown & GND \\ \hline
+	White & GPIO12 \\ \hline
+	Grey & GPIO10 \\ \hline
+	Purple & 3.3V (pin\#01) \\ \hline
+\end{tabular}	
+\end{center}
+
+	\item To begin testing make sure that both chips are being powered correctly with +5V
+	
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls4".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls5".png}
+  	\end{minipage}
+	\caption{Populating the board}
+	\label{ls2}
+\end{figure}
+
+	\item We want to make sure we set the direction to flow from bus B (right side of chip) to bus A (left side of chip), which means that both the DIR and the OE pins should be low, 0V
+
+\begin{figure}[H]
+  	\centering
+    	\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/dir".png}
+ 	\caption{Chip bus direction logic}
+	\label{dir}
+\end{figure}
+
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls6".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls7".png}
+  	\end{minipage}
+	\caption{Populating the board}
+	\label{ls2}
+\end{figure}
+
+	\item Now we can test the signal. Starting with the 3.3V plugged into the GPIO 2 pin (3rd pin down on the P1 set of headers) test the input pin on the chip, it should read 3.3V. Then test the output, it should read 5V.
+
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls8".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls9".png}
+  	\end{minipage}
+	\caption{Populating the board}
+	\label{ls2}
+\end{figure}
+
+	\item Repeat this process for the rest of the pins, following along with the circuit diagram in Figure \ref{ls sch}, making sure each channel of the shifter is working correctly. 
+
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls10".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls11".png}
+  	\end{minipage}
+	\caption{Populating the board}
+	\label{ls2}
+\end{figure}
+
+\end{enumerate}
+
+
+
+\end{document}
