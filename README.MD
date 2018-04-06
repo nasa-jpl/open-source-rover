@@ -1,5 +1,5 @@
 # JPL Open-Source Rover Project
-The JPL Open-Source Rover is a fully open-source scaled version of the 6 wheel rover design that JPL uses to explore the surface of mars. The robot is designed almost entirely out of consumer off the shelf (COTS) parts.
+The JPL Open-Source Rover is a fully open-source scaled version of the 6 wheel rover design that JPL uses to explore the surface of mars. The robot is designed almost entirely out of consumer off the shelf (COTS) parts. This project is designed to be a teaching and learning robot for those who want to get invovled in robotics.
 
 ![6 Wheel Rover](images/rover.png)
 
@@ -10,8 +10,6 @@ INSERT LINK TO DISCLAMER AND STATEMENT HERE
 
 ### Motivation
 JPL is always looking at ways to inspire the next generation of sceientists, engineers, and people who will be the next generation we will be exploring the solar system with. We want to give this project as a way to get young engineers a fun robotics project that will get everyone excited about STEM. 
-
-
 
 ### Feautres
 This rover is designed to function very similar to the 6 wheel rover designs on mars, and employs a few of the major driving mechanics that the mars rovers use to traverse the surface.
@@ -42,13 +40,13 @@ This project will likely take around or greater than 150 person-hours to build, 
 
 ### Folder organization
 ![Rover build roadmap](images/folders.PNG)
-This folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections, Mechanical, Electrical, and Software. The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts necessary to build the entire of the robot as it is in our documentation. We recognize that many of you might want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary only for that section, particularly screws, nuts, bolts, and common hardware should be assessed for totals necessary for the whole project if you are changing subassemblies*
+This folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections, Mechanical, Electrical, and Software. Each of these are meant to be relatively self contained sections that are parallelizable, specifically good for groups who want to work on this project. There will be a README in each section to help you navigate the information. 
 
 ### Ordering parts
 
+The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts necessary to build the entire of the robot as it is in our documentation. We recognize that many of you might want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary only for that section, particularly screws, nuts, bolts, and common hardware should be assessed for totals necessary for the whole project if you are changing subassemblies*
+
 __Need information on cart share etc here__
-
-
 
 ### Roadmap
 
