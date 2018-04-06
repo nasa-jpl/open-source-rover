@@ -68,24 +68,6 @@
 
 \newpage
 
-%
-%\begin{figure}[H]
-%\centering	
-%	\includegraphics[width=1\linewidth]{"Pictures/Parts/Struct_Elec parts".PNG}
-%	\caption{Mechanical and Electrical Parts}
-%	\label{parts1}
-%\end{figure}
-%
-%\begin{figure}[H]
-%\centering	
-%	\includegraphics[width=1\linewidth]{"Pictures/Parts/Screws and Spacers".PNG}
-%	\caption{Screws and Standoffs Parts}
-%	\label{parts2}
-%\end{figure}
-%
-%\newpage
-
-
 \section{Overview}
 
 First it is important to look at the components used in the rover and understand both the data transmission and power system for the rover. Figure \ref{power} shows how each of the electrical components and boards receive power, and Figure \ref{data} shows how data is sent from each of the electrical systems and what communication protocol it uses. 
@@ -160,18 +142,11 @@ In order to help with the electronics of this system we designed a few single pu
 \end{tabular}
 \bigskip
 
-Each of these boards will come unpopulated with components on it, which you will have to solder on yourself.  For tips on how to solder into the circuit boards some more information can be found at:
-\begin{itemize}
-	\item \href{https://www.youtube.com/watch?v=3R0zE_7Xz_4}{https://www.youtube.com/watch?v=3R0zE\_7Xz\_4}
-\end{itemize}
-
-
 \subsubsection{LED Matrix}
-The LED Matrix gives a 16x32 pixel display, controlled through the raspberry pi. In order to integrate this we followed along with an Adafruit project (but added our own custom PCB which isn't in this tutorial) which can be found at: \footnote{The step by step process of this lives in its' own document, this project extension uses a lot of GPIO pins and might want to be swapped out for a different set of devices.} 
+The LED Matrix gives a 16x32 pixel display, controlled through the raspberry pi. In order to integrate this we followed along with an Adafruit project (but added our own custom PCB which isn't in this tutorial) which can be found at: \footnote{This project extension uses a lot of GPIO pins and might want to be swapped out for a different set of devices.} 
 \begin{itemize}
   \item \href{https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/overview}{https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/overview}
 \end{itemize}
-
 
 \subsubsection{Motors}
 Motors are used to do the mechanical movement of the robot. There are many types of motors that exist, in this project we will be used brushed DC motors. More information on motor types and specifically how a brushed DC motor works can be found at the following links:

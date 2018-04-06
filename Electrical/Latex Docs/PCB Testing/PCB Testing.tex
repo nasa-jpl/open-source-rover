@@ -73,6 +73,25 @@
 
 \section{Printed Circuit Boards}
 
+\subsubsection{Printed Circuit Boards}
+In order to help with the electronics of this system we designed a few single purpose Printed Circuit Boards (PCBs). In total there are three boards, which are for the following:
+\bigskip
+
+\begin{tabular}[2]{| p{5cm} | p{10cm} | }
+	\hline
+	\textbf{Board} & \textbf{Description/Purpose} \\ \hline
+	Voltage Divider & Distributes the +5V and GND to power the absolute encoders. Then takes the 0-5V signal from the encoders and transforms it to a 0-2V signal output \\ \hline
+	Logic Shifter & Takes the 3.3V digital signals from the raspberry pi and converts them to a 5V digital signal output \\ \hline
+	Serial Splitter & Splits out the TX/RX serial read/write lines as well as the +5V and GND power pins from the Raspberry Pi and distributes them to each motor controller. \\ \hline
+\end{tabular}
+\bigskip
+
+
+Each of these boards will come unpopulated with components on it, which you will have to solder on yourself.  For tips on how to solder into the circuit boards some more information can be found at:
+\begin{itemize}
+	\item \href{https://www.youtube.com/watch?v=3R0zE_7Xz_4}{https://www.youtube.com/watch?v=3R0zE\_7Xz\_4}
+\end{itemize}
+
 \subsection{Voltage Divider Board}
 
 \subsubsection{Overview/Schematic}
