@@ -1,0 +1,292 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{gensymb}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover Software Install}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+
+\begin{document}
+
+\title{Open Source Rover}
+\author{Software Controls Walkthrough}
+
+\makeatletter         
+\def\@maketitle{
+\begin{center}	
+	\makebox[\textwidth][c]{ \includegraphics[width=1.05\paperwidth]{"Pictures/software title".png}}
+	{\Huge \bfseries \sffamily \@title }\\[4ex] 
+	{\huge \bfseries \sffamily \@author}\\[4ex] 
+	\includegraphics[width=.85\linewidth]{"Pictures/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+% Introduction
+\newpage
+
+\tableofcontents
+
+\newpage
+
+
+\section{Control System}
+
+There are two systems we have to look at when designing the controls mechanics for the rover. One is how fast each of the drive motors must move, and the other is where each of the corners need to point in order for the rover to be able to make turns. 
+
+\subsection{Drive Motor calculations}
+The 6 wheel rover design employs Ackerman steering, which can be seen in Figure \ref{Ackerman}. The rover steers about a point which lies on the line that passes through the two center wheels as they are both fixed. All 6 wheels are lie perpendicular to the vector from that point to the corner wheel, which we can see causes a more drastic angle in steering for the wheels closer to the point than further away. 
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=.35\textwidth]{"Pictures/Ackerman".PNG}
+ 	\caption{Ackerman Steering}
+	\label{Ackerman}
+\end{figure}
+
+Lets go step by step though how to calculate the speed of each of the drive wheels. To start we will look at the rover which will be turning about a point P at radius r, shows in Figure \ref{r1}
+
+
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/rover1".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/rover2".png}
+  	\end{minipage}
+  	\caption{Rover turning about point p}
+	\label{r1}
+\end{figure}
+
+\noindent From the controller we will send a signal for the rover to drive forward. Lets call that speed X, and assume we sent a speed of 100. By convention this will send tell the middle of the rover it should move at the max speed of 100. If however we are turning the wheels will need to distribute that speed differently to each wheel. In order for the middle of the rover to move at it's max speed we will distribute the max speed to the furthest out wheel, in this case that is wheel \#2 (it will always be the middle wheel furthest from the turning point). So we now choose that the speed 100 is distributed to wheel 2 shows in Figure \ref{r2}.  
+
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/rover3".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/rover4".png}
+  	\end{minipage}
+  	\caption{Rover distributing speed to fastest wheel}
+	\label{r2}
+\end{figure}
+
+\noindent Now we look at how to distribute speed to the other wheels. We will make use of arclengths of the circles the wheels turn about, and the relation in Equation \ref{eq1}
+
+\begin{equation}
+	S = R  \theta
+	\label{eq1}
+\end{equation}
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=.55\textwidth]{"Pictures/rover5".PNG}
+ 	\caption{Arclengths of driving curves}
+	\label{r3}
+\end{figure}
+
+\noindent In order for the entire rover to drive cohesively each wheel must travel the same number of degrees from Equation \ref{eq1} in the same time, so we can solve for the relation between each of the wheels now.
+
+\begin{equation}
+	\textcolor{ForestGreen}{\theta_1 = \frac{S_1}{R_1}} \qquad \textcolor{red}{\theta_2 = \frac{S_2}{R_2}}
+\end{equation}
+
+\begin{equation}
+	\textcolor{ForestGreen}{\theta_1} = \textcolor{red}{\theta_2} \qquad \textcolor{ForestGreen}{S_1}=\textcolor{red}{S_2} \frac{\textcolor{ForestGreen}{R_1}}{\textcolor{red}{R_2}}
+	\label{eq2}
+\end{equation}
+
+\noindent From Equation \ref{eq2} we can see that the ratio of the distance traveled, and thus the speed necessary, of each of the wheels is going to be given by the ratio of the radius of the arc each wheel is turning about. The last step is to figure out the radius of each arc. 
+
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/rover7".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/rover6".png}
+  	\end{minipage}
+  	\caption{Radius of arc for turning}
+	\label{r4}
+\end{figure}
+
+\begin{equation}
+	\textcolor{ForestGreen}{R_1} = \sqrt{\textcolor{Plum}{d_3}^2 + (\textcolor{orange}{d_1} + r)^2}            \qquad \textcolor{red}{R_2} = \textcolor{blue}{d_4} + r
+	\label{eq3}
+\end{equation}
+
+\noindent These distances $d_1$, and $d_3$ are geometric relations based on the mechanical lengths of the robot itself. Putting this all together lets look at an example speed and turning distance. 
+\begin{centering}
+\begin{tabular}[2]{|c|c|}
+	\hline
+	\textbf{Variable} & \textbf{Physical description} \\ \hline
+	$d_1$ & Horizontal distance between middle of rover and the corner wheels \\ \hline
+	$d_2$ & Verticle distance between the middle of rover and back corner wheels \\ \hline
+	$d_3$ & Verticle distance between the middle of the rover and the front corner wheels \\ \hline
+	$d_4$ & Horizontal distance between the middle of the rover and the center wheels \\ \hline
+\end{tabular}
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=.55\textwidth]{"Pictures/rover8".PNG}
+ 	\caption{Physical distance of wheel geometry}
+	\label{r5}
+\end{figure}
+
+\end{centering}
+\noindent For the base model of the Rover the distances are as follows \footnote{If you change aspects such as distances between wheels in the rover you will need to update these in the code as well}:
+\begin{equation}
+	d_1 = 7.254 in \qquad d_2 = d_3 = 10.5 in \qquad d_4 = 10.073 in
+\end{equation}
+
+\noindent For this example we will have a controller signal of max speed, being 100, and a turning radius of 30 inches (by convention the positive turning radius is turning to the right and negative is turning to the left), depicted by Figure \ref{r6}
+
+\begin{equation}
+	r = 30 in \qquad X = 100 
+\end{equation}
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=.55\textwidth]{"Pictures/rover9".PNG}
+ 	\caption{30 Inch Turning radius}
+	\label{r6}
+\end{figure}
+
+
+\noindent Using Equations \ref{eq2} and  \ref{eq3} we get the following relations for the speed distribution. We subsititue Equation \ref{eq3} into \ref{eq2}, which solves for the arc length distance. This is analagous to the speed of each wheel, as speed is just the $speed = \frac{distance}{time}$. 
+
+\begin{equation}
+	\textcolor{ForestGreen}{V_1} = X \frac{\textcolor{ForestGreen}{R_1}}{\textcolor{red}{R_2}} \qquad = X \frac{\textcolor{ForestGreen}{\sqrt{d_3^2 + (d_1 + r)^2}}}{\textcolor{red}{r + d_4}}
+\end{equation}
+
+\begin{equation}
+	\textcolor{red}{V_2} = X 
+\end{equation}
+
+\begin{equation}
+	\textcolor{blue}{V_3} = X \frac{\textcolor{blue}{R_3}}{\textcolor{red}{R_2}} \qquad  = X \frac{\textcolor{Blue}{\sqrt{d_2^2 + (d_1 + r)^2}}}{\textcolor{red}{r + d_4}}
+\end{equation}
+
+\begin{equation}
+	\textcolor{orange}{V_4} = X \frac{\textcolor{orange}{R_4}}{\textcolor{red}{R_2}} \qquad =  X \frac{\textcolor{orange}{\sqrt{d_3^2 + ( r - d_1)^2}}}{\textcolor{red}{r + d_4}}
+\end{equation}
+
+\begin{equation}
+	\textcolor{cyan}{V_5} = X \frac{\textcolor{cyan}{R_5}}{\textcolor{red}{R_2}} \qquad =  X \frac{\textcolor{cyan}{r - d_4}}{\textcolor{red}{r + d_4}}
+\end{equation}
+
+\begin{equation}
+	\textcolor{Plum}{V_6} = X \frac{\textcolor{Plum}{R_6}}{\textcolor{red}{R_2}} \qquad = X \frac{\textcolor{Plum}{\sqrt{d_2^2 + (r-d_1)^2}}}{\textcolor{red}{r + d_4}}
+\end{equation}
+
+\noindent Substituting in the values of the speed X and distances it leads to the motors spinning at the following speed \% (out of 100).
+
+\bigskip
+
+
+\begin{centering}	
+	
+\begin{tabular}[2]{|c|c|}
+
+	\hline
+	\textbf{Motor} & \textbf{Motor speed \% of max (100)} \\ \hline
+	\textcolor{ForestGreen}{1} & 96.59 \\ \hline
+	\textcolor{red}{2} & 100 \\ \hline
+	\textcolor{blue}{3} & 96.59\\ \hline
+	\textcolor{orange}{4} & 62.52 \\ \hline
+	\textcolor{cyan}{5} & 49.73\\ \hline
+	\textcolor{Plum}{6} & 62.52\\ \hline
+
+
+\end{tabular}
+
+\end{centering}
+\bigskip 
+\noindent We can see that at a small turning radius such as 30 inches we will see a drastic difference between the motor speeds. As the turning radius increases we will see less and less difference between the speeds, up until the point where the calculated turning radius is 250 inches or greater. This is the point in which the encoders on the corners no longer have spacial resolution to differentiate between 1 \degree and 0 \degree and thus we say that anything above a turning radius of 250 inches is not turning at all and it gives all motors the same speed. 
+
+\subsection{Corner Motor Positions}
+
+The rover will take input from the controller which will be in the range of -100 to 100 inclusive. This is the percent of turning radius the wheels should be at, with negative numbers turning to the left, positive numbers to the right, and the higher the magnitude the number the tighter turning radius, ie. -100 means the tightest turn possible to the left side. This "tightest" turning radius is determined by a combination of the geometric distances of the rover as well as the physical hard stop limitations of the corner motors. Each of the corner motor is allowed to turn up to 45 degrees before hitting a physical hard stop, shows in Figure \ref{r7}.
+
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/rover11".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/rover10".png}
+  	\end{minipage}
+  	\caption{Corner angle limitations}
+	\label{r7}
+\end{figure}
+
+\noindent In order to figure out the tightest turning radius we will need to solve for the closest point the corner wheel can be perpendicular to at its 45\degree limitation in Figure \ref{r8}.
+
+\begin{figure}[H]
+ 	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/rover12".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/rover13".png}
+  	\end{minipage}
+  	\caption{Minimum Turning Radius calculations}
+	\label{r8}
+\end{figure}
+
+
+\begin{equation}
+	tan(\textcolor{blue}{\theta}) = \frac{\textcolor{orange}{d_3}}{\textcolor{ForestGreen}{x}} \qquad  r_{min} = \textcolor{red}{d_1} + \textcolor{ForestGreen}{x} 
+	\label{eq4}
+\end{equation}
+
+\begin{equation}
+	r_{min} = \textcolor{red}{d_1} + \frac{\textcolor{orange}{d_3}}{tan(\textcolor{blue}{\theta})} \qquad   r_{min} = \textcolor{red}{7.254} + \frac{\textcolor{orange}{10.5}}{tan(\textcolor{blue}{45\degree})}
+\end{equation}
+
+\begin{equation}
+	r_{min} = 17.754 inches
+\end{equation}
+
+\noindent Here we can see that the minimum turning radius to each side will be at 17.754 inches. In order to not push the system to the physical hard stops in the software it is set to be at 20 inches to either side. As mentioned before the "minimum" turning radius is at 250 inches to either side, as this is the location in which the encoder no longer can differentiate between it being at 0\degree and 1\degree. In order to calculate what target angle each corner should be at given the turning radius input from the controller we will work backwards through Equation \ref{eq4}.
+\begin{equation}
+	tan(\textcolor{blue}{\theta}) = \frac{\textcolor{orange}{d_3}}{\textcolor{ForestGreen}{x}} \qquad \textcolor{blue}{\theta} = tan^{-1}(\frac{\textcolor{orange}{d_3}}{R - \textcolor{red}{d_1}})
+\end{equation}
+
+\noindent Where R is the input turning radius from the controller. 
+
+
+
+
+
+
+
+\end{document}
