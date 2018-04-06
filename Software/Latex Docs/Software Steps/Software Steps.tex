@@ -58,11 +58,11 @@ In this section we'll go over setting up the Raspberry Pi and how to get all the
 
 \subsubsection{Installing a new OS on the Pi}
 
-On the Raspberry Pi open up a terminal \textbf{(ctl + alt + t)} and then type the following commands:
+On the Raspberry Pi open up a terminal \textbf{(ctl + alt + t)} and then type the following commands \footnote{In this document terminal commands will be \colorbox{lightgray}{highlighted}}:
 
 \begin{itemize}
-	\item[] cd /home/pi
-	\item[] git clone https://github.jpl.nasa.gov/ejunkins/osr\_rover\_code
+	\item[] \colorbox{lightgray}{cd /home/pi}
+	\item[] \colorbox{lightgray}{git clone https://github.jpl.nasa.gov/ejunkins/osr\_rover\_code}
 	\item[] \textcolor{red}{THIS LINK TO CHANGE UPON RELEASE}
 \end{itemize}
 
@@ -103,36 +103,27 @@ Below are the packages you will need to use Bluetooth communication through the 
 	\item[] \colorbox{lightgray}{sudo apt-get install bluetooth libbluetooth-dev}
 	\item[] \colorbox{lightgray}{sudo pip install pybluez}
 	\item[] \colorbox{lightgray}{sudo systemctl start bluetooth}
+
+\end{itemize}
+
+\noindent Now you need modify a line of code in the bluetooth service file, start by typing:
+\begin{itemize}
 	\item[] \colorbox{lightgray}{sudo nano /lib/systemd/system/bluetooth.service}
-		\begin{itemize}
-			\item Add "-C" after 'bluetoothd', the file should look like the following:
-			\begin{verbatim}
-				[Unit]
-				Description=Bluetooth service
-				Documentation=man:bluetoothd(8)
-				ConditionPathIsDirectory=/sys/class/bluetooth
-				
-				[Service]
-				Type=dbus
-				BusName=org.bluez
-				ExecStart=/usr/lib/bluetooth/bluetoothd -C
-				NotifyAccess=main
-				#WatchdogSec=10
-				#Restart=on-failure
-				CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
-				LimitNPROC=1
-				ProtectHome=true
-				ProtectSystem=full
-				
-				[Install]
-				WantedBy=bluetooth.target
-				Alias=dbus-org.bluez.service
-			\end{verbatim}
-			\item exit and save (ctrl + x, y, enter)
-		\end{itemize}
-	\item[] \colorbox{lightgray}{sudo reboot}
+\end{itemize}
+\noindent Add "-C" after 'bluetoothd' on line 9, the file should look like the Figure \ref{bs}:
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/bluetooth service".PNG}
+	\caption{bluetooth.service File}
+	\label{bs}
+\end{figure}
+	
+\noindent Once you have done this exit and save (ctrl + x, y, enter), and then reboot the Pi. Once rebooted open up a terminal and type
+\begin{itemize}
 	\item[] \colorbox{lightgray}{sudo sdptool add SP}
 \end{itemize}
+
 
 \section{Control Method}
 
@@ -148,46 +139,65 @@ The first thing to do is select which control method you want to use. There are 
 \noindent Any way that you can communicate to a Raspberry Pi is a way that you can control the rover, and we fully encourage finding and developing other methods of remote control. For these methods if you decide to use an Android device you will need to follow some steps to get the app loaded on your phone, as we provide the source code so you can edit and change things the next section will walk you through getting the source code.
 
 \subsection{Android App Control}
+If you choose to control the rover from an Android App you'll need to setup bluetooth communication between the Raspberry Pi and Android device. There are a few different methods of doing this, we'll be using a terminal interface to do this in this tutorial.
 
-\subsubsection{Setting up Bluetooth on the RPi}
+\subsubsection{Naming the Bluetooth Device}
 
-There are a few ways to set up the Bluetooth pairing with your android device. For additional help you can follow steps  
+On the Raspberry Pi create a file that will name the bluetooth device your desired name \footnote{This name must also be updated in the Android App such that the App finds the correct device, so make sure to keep track of this name}. First on the RPi in a terminal type 
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo nano /etc/machine-info} 
+\end{itemize}
+\noindent Name your device by by replacing deviceName with want the name of your Raspberry Pi to be:
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=.5\textwidth]{"Pictures/devicename".PNG}
+\end{figure}
+
+\noindent Now edit the maain.conf file, Uncomment the "Name=" line and add your deviceName. 
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo nano /etc/bluetooth/main.conf} 
+\end{itemize}
+
+\noindent The first few lines should look like Figure \ref{conf}.
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/mainconf".PNG}
+	\caption{bluetooth main.conf File}
+	\label{conf}
+\end{figure}
+
+\subsubsection{Pairing Bluetooth from Commandline}
+We're now ready to pair the device with your android device. We followed along with the following tutorial to learn how to do this:
+
 \begin{itemize}
 	\item \href{https://www.cnet.com/how-to/how-to-setup-bluetooth-on-a-raspberry-pi-3/}{https://www.cnet.com/how-to/how-to-setup-bluetooth-on-a-raspberry-pi-3/}
 \end{itemize}
-\subsubsection{Naming the Bluetooth Device}
 
-On the Raspberry Pi create a file that will name the bluetooth device your desired name \footnote{This name must also be updated in the Android App such that the App finds the correct device}. First on the RPi type \colorbox{lightgray}{sudo nano /etc/machine-info} and name your device by the following, where deviceName is what you want the name of your Raspberry Pi to be:
-\begin{verbatim}
-          PRETTY_HOSTNAME=deviceName
-\end{verbatim}
-
-\noindent Now in \colorbox{lightgray}{sudo nano /etc/bluetooth/main.conf} Uncomment the "Name=" line and add your deviceName. The first couple lines should read:
-
-\begin{verbatim}
-[General]
-
-# Default adapter name
-# Defaults to 'BlueZ X.YZ'
-Name = deviceName
-
-# Default device class. Only the major and minor device class bits are
-# considered. Defaults to '0x000000'.
-#Class = 0x000100
-\end{verbatim}
-
-\subsubsection{Pairing Bluetooth from Commandline}
-We're now ready to pair the device with your android device. Have your android phone discover-able and searching for Bluetooth (for individual phones look up instructions if necessary to do this)
+Have your android phone discover-able and searching for Bluetooth \footnote{For individual phones look up instructions on google if necessary to do this}. Begin by in a terminal starting the bluetoothctl
 \begin{itemize}
-	\item[] \colorbox{lightgray}{sudo bluetoothctl} and do the following commands:
-	\begin{itemize}
-		\item[] \colorbox{lightgray}{agent on}
-		\item[] \colorbox{lightgray}{default-agent}
-		\item[] \colorbox{lightgray}{scan on}
-		\item[] Once your find your device add it from it's address, \colorbox{lightgray}{pair XX:XX:XX:XX:XX:XX} and then type \colorbox{lightgray}{yes}
-	\end{itemize}
-	\item[] You'll be prompted on the phone asking to accept the pairing, select okay
-	\item[] Type \colorbox{lightgray}{quit} to exit the bluetoothctl
+	\item[] \colorbox{lightgray}{sudo bluetoothctl}
+\end{itemize}
+
+\noindent Now in that bluetoothctl terminal do the following commands:
+
+\begin{itemize}
+	\item[] \colorbox{lightgray}{agent on}
+	\item[] \colorbox{lightgray}{default-agent}
+	\item[] \colorbox{lightgray}{scan on}
+\end{itemize}
+
+\noindent Once your find your device you'll need to pair to it from its' Address.
+
+\begin{itemize} 	
+	\item[] \colorbox{lightgray}{pair XX:XX:XX:XX:XX:XX} 
+	\item[] \colorbox{lightgray}{yes}
+\end{itemize}
+	
+\noindent You'll be prompted on the phone asking to accept the pairing, select okay, and then on the Raspberry Pi now that you have paired the devices quit the bluetoothctl.
+\begin{itemize}
+	\item[] \colorbox{lightgray}{quit} 
 \end{itemize}
 
 \subsubsection{Downloading the Android App}
@@ -231,35 +241,23 @@ To begin you need to download Android Studio, which will allow you to put the so
 
 
 \subsection{Init Script}
-We will want the code on the rover to run when the pi boots up, so we will add that to an init script, which on Raspberry Pi can be found at /etc/rc.local. In a terminal type \colorbox{lightgray}{sudo nano /etc/rc.local} and then add the following lines after the if statement and before exit, it should look like the following.
-\begin{verbatim}
-		#!/bin/sh -e
-		#
-		# rc.local
-		#
-		# This script is executed at the end of each multiuser runlevel.
-		# Make sure that the script will "exit 0" on success or any other
-		# value on error.
-		#
-		# In order to enable or disable this script just change the execution
-		# bits.
-		#
-		# By default this script does nothing.
-		
-		# Print the IP address
-		_IP=$(hostname -I) || true
-		if [ "$_IP" ]; then
-		  printf "My IP address is %s\n" "$_IP"
-		fi
-		
-		cd /home/pi/Desktop
-		sleep 10
-		sudo python -m osr.rover.main &
-		python -m osr.led.screen &
-		
-		exit 0
+We will want the code on the rover to run when the pi boots up, so we will add that to an init script, which on Raspberry Pi can be found at /etc/rc.local. In a terminal type
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo nano /etc/rc.local}
+\end{itemize}
+\noindent Add the following lines after the if statement and before exit, it should look like Figure \ref{init}.
 
+\begin{verbatim}
+sudo python -m osr.rover.main &
+python -m osr.led.screen &
 \end{verbatim}
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/init".PNG}
+ 	\caption{Init Script}
+	\label{init}
+\end{figure}
 
 \subsection{Setting up serial communication}	
 
@@ -270,28 +268,33 @@ In this project we will be using serial communication to talk to the motor contr
 
 \noindent Do the following to setup/enable the serial communication for the RoboClaws:
 \begin{itemize}
-	\item[] \colorbox{lightgray}{sudo raspi-config}	
-	\item[]  $Select -> Interface Options -> Serial $
-	\begin{itemize}
-		\item Would you like a login shell to be accessible over serial? $->$ No
-		\item Would you like the serial port hardware to be enabled? $->$ Yes
-		\item Would you like to reboot now? $->$ Yes
-	\end{itemize} 
-	\item[] \colorbox{lightgray}{ls -l /dev/serial*}
-	\begin{itemize}
-		\item Make sure that serial0 -$>$ ttyS0
-	\end{itemize}
-	\item [] \colorbox{lightgray}{sudo nano /boot/cmdline.txt}
-	\begin{itemize}
-		\item Edit \textbf{ONLY} the part with "console = ....", change it to be "console=tty1" and remove any other instance where it references console. The first bit of that line looks like the following:
-\begin{verbatim}
-dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p7\$
-\end{verbatim}  
-	\end{itemize}	
+	\item[] \colorbox{lightgray}{sudo raspi-config}
 \end{itemize}
 
+\noindent In this menu navigate and do the following commands:
+\begin{itemize}
+	\item[-]  Interface Options $-> $ Serial 
+	\item[-] Would you like a login shell to be accessible over serial? $->$ No
+	\item[-] Would you like the serial port hardware to be enabled? $->$ Yes
+	\item[-] Would you like to reboot now? $->$ Yes
+\end{itemize} 
+\noindent Once rebooted open up a terminal again and look at the serial devices	
+\begin{itemize}
+	\item[] \colorbox{lightgray}{ls -l /dev/serial*}
+\end{itemize}
+Make sure that this says: serial0 -$>$ ttyS0 . Now we have to edit the cmdline.txt file. In a terminal type
+\begin{itemize}
+	\item [] \colorbox{lightgray}{sudo nano /boot/cmdline.txt}
+\end{itemize}
 
+\noindent Edit \textbf{ONLY} the part with "console = ....", change it to be "console=tty1" and remove any other instance where it references console. The first bit of that line should look similiar to the Figure \ref{console} \footnote{If it does not exactly match this it is fine, the import part is the "console=tty1" section}:
 
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/console".PNG}
+ 	\caption{boot/cmdline.txt File}
+	\label{console}
+\end{figure}
 
 \noindent Here is a link to help with this process if necessary.
 \begin{itemize}
