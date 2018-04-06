@@ -11,6 +11,16 @@ INSERT LINK TO DISCLAMER AND STATEMENT HERE
 ### Motivation
 JPL is always looking at ways to inspire the next generation of sceientists, engineers, and people who will be the next generation we will be exploring the solar system with. We want to give this project as a way to get young engineers a fun robotics project that will get everyone excited about STEM. 
 
+### Other Resources
+In addition to this Github with all the documentation on this project there are two other sites tied to this project. One is a landing site where general information and overview of the rover and how it works can be found at:
+
+__ADD LANDING PAGE LINK HERE__
+
+There is also a forum created to help faciliate discussion on the project. Here you can ask questions if you need help or clarification on any aspects, as well as post and promote the content you have created on this project. We highly encourage additions and modifications to be posted here, such that this project and community can grow.
+
+__ADD FORUM PAGE LINK HERE__
+
+
 ### Feautres
 This rover is designed to function very similar to the 6 wheel rover designs on mars, and employs a few of the major driving mechanics that the mars rovers use to traverse the surface.
  * __Rocker-Bogie:__ Suspension system for the rover, allowing all 6 wheels to continually be in contact with the ground while climibing over obstacles
