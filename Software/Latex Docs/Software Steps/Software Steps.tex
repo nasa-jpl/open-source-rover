@@ -106,7 +106,7 @@ Below are the packages you will need to use Bluetooth communication through the 
 
 \end{itemize}
 
-\noindent Now you need modify a line of code in the bluetooth service file, start by typing:
+\noindent Now you need modify a line of code in the Bluetooth service file, start by typing:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo nano /lib/systemd/system/bluetooth.service}
 \end{itemize}
@@ -127,7 +127,7 @@ Below are the packages you will need to use Bluetooth communication through the 
 
 \section{Control Method}
 
-The first thing to do is select which control method you want to use. There are two ways that are built into the code already to control the rover, one of which is a bluetooth app run on Android devices, and the other is using a wireless Xbox controller. 
+The first thing to do is select which control method you want to use. There are two ways that are built into the code already to control the rover, one of which is a Bluetooth app run on Android devices, and the other is using a wireless Xbox controller. 
 
 \begin{figure}[H]
  	\centering
@@ -139,11 +139,11 @@ The first thing to do is select which control method you want to use. There are 
 \noindent Any way that you can communicate to a Raspberry Pi is a way that you can control the rover, and we fully encourage finding and developing other methods of remote control. For these methods if you decide to use an Android device you will need to follow some steps to get the app loaded on your phone, as we provide the source code so you can edit and change things the next section will walk you through getting the source code.
 
 \subsection{Android App Control}
-If you choose to control the rover from an Android App you'll need to setup bluetooth communication between the Raspberry Pi and Android device. There are a few different methods of doing this, we'll be using a terminal interface to do this in this tutorial.
+If you choose to control the rover from an Android App you'll need to setup Bluetooth communication between the Raspberry Pi and Android device. There are a few different methods of doing this, we'll be using a terminal interface to do this in this tutorial.
 
 \subsubsection{Naming the Bluetooth Device}
 
-On the Raspberry Pi create a file that will name the bluetooth device your desired name \footnote{This name must also be updated in the Android App such that the App finds the correct device, so make sure to keep track of this name}. First on the RPi in a terminal type 
+On the Raspberry Pi create a file that will name the Bluetooth device your desired name \footnote{This name must also be updated in the Android App such that the App finds the correct device, so make sure to keep track of this name}. First on the RPi in a terminal type 
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo nano /etc/machine-info} 
 \end{itemize}
@@ -208,7 +208,7 @@ To begin you need to download Android Studio, which will allow you to put the so
 	\item \href{https://developer.android.com/studio/index.html}{https://developer.android.com/studio/index.html}
 \end{itemize}
 
-\noindent In order to allow the android device to be able to have source code loaded onto it you'll need to enable USB debugging, which is going to be different for a lot of different versionf of phones. The best way to figure this out is to google "android usb debugging" for your specific device and follow the steps there. Android studio also provides lots of support information and forums to help getting through any problems and issues had on that end, consult those if there are issues.
+\noindent In order to allow the android device to be able to have source code loaded onto it you'll need to enable USB debugging, which is going to be different for a lot of different version of phones. The best way to figure this out is to google "android USB debugging" for your specific device and follow the steps there. Android studio also provides lots of support information and forums to help getting through any problems and issues had on that end, consult those if there are issues.
 
 \bigskip
 
@@ -230,7 +230,7 @@ To begin you need to download Android Studio, which will allow you to put the so
 
 \bigskip
 
-\noindent Now open up the source code just downloaded in Android Studio. In order for the App to communicate to the Raspberry Pi you'll need to make sure it selects the correct bluetooth device, on line 198 in the MainActivity.java file change the variable \textit{connection\_name} to be equal to whatever you named the Raspberry Pi in the previous section. Now hit run in the upper panel, and the android app should build and load onto your device. 
+\noindent Now open up the source code just downloaded in Android Studio. In order for the App to communicate to the Raspberry Pi you'll need to make sure it selects the correct Bluetooth device, on line 198 in the MainActivity.java file change the variable \textit{connection\_name} to be equal to whatever you named the Raspberry Pi in the previous section. Now hit run in the upper panel, and the android app should build and load onto your device. 
 
 \begin{figure}[H]
  	\centering
@@ -245,11 +245,12 @@ We will want the code on the rover to run when the pi boots up, so we will add t
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo nano /etc/rc.local}
 \end{itemize}
-\noindent Add the following lines after the if statement and before exit, it should look like Figure \ref{init}.
+\noindent The following lines are added after the "if" block, as shown in Figure \ref{init}. This example is to run with the LED screen, and from an Xbox controller.
 
 \begin{verbatim}
-sudo python -m osr.rover.main &
-python -m osr.led.screen &
+sudo python /home/pi/osr/led/screen.py &
+sleep 10
+sudo python /home/pi/osr/rover/main.py -s -c x &
 \end{verbatim}
 
 \begin{figure}[H]
@@ -259,9 +260,24 @@ python -m osr.led.screen &
 	\label{init}
 \end{figure}
 
+The command line args it accepts are the following:
+
+\begin{itemize}
+	\item[] \textbf{-t} : Testing mode - allows you to emulate a controller from the terminal for testing and control of the robot. 
+	\item[] \textbf{-s} : Attempts to connect to the Unix Socket running in the LED screen script to send commands between the two processes
+	\item[] \textbf{-c} : Controller flag, tells which controller should be listened for
+	\begin{itemize}
+		\item [] \textbf{b} : Bluetooth app (default)
+		\item [] \textbf{x} : Xbox controller
+	\end{itemize} 	
+
+\end{itemize}
+
+If you wish to run without the LED screen do not put the line starting the \textit{screen.py} into the init script, and do not run with the \textit{-s} flag.
+
 \subsection{Setting up serial communication}	
 
-In this project we will be using serial communication to talk to the motor controllers. This is a communication protocol that describes how bits of information will be transfered between one device and another. More information on this can be found at:
+In this project we will be using serial communication to talk to the motor controllers. This is a communication protocol that describes how bits of information will be transferred between one device and another. More information on this can be found at:
 \begin{itemize}
 	\item \href{https://learn.sparkfun.com/tutorials/serial-communication}{https://learn.sparkfun.com/tutorials/serial-communication}
 \end{itemize}
@@ -287,7 +303,7 @@ Make sure that this says: serial0 -$>$ ttyS0 . Now we have to edit the cmdline.t
 	\item [] \colorbox{lightgray}{sudo nano /boot/cmdline.txt}
 \end{itemize}
 
-\noindent Edit \textbf{ONLY} the part with "console = ....", change it to be "console=tty1" and remove any other instance where it references console. The first bit of that line should look similiar to the Figure \ref{console} \footnote{If it does not exactly match this it is fine, the import part is the "console=tty1" section}:
+\noindent Edit \textbf{ONLY} the part with "console = ....", change it to be "console=tty1" and remove any other instance where it references console. The first bit of that line should look similar to the Figure \ref{console} \footnote{If it does not exactly match this it is fine, the import part is the "console=tty1" section}:
 
 \begin{figure}[H]
  	\centering
@@ -305,18 +321,32 @@ Make sure that this says: serial0 -$>$ ttyS0 . Now we have to edit the cmdline.t
 	\item[] \colorbox{lightgray}{sudo reboot}
 \end{itemize}
 
-\bigskip
-There are two files in test\_files that will allow you to test the serial connection, use a jumper wire between pin 14 and 15 (see \href{https://www.raspberrypi.org/documentation/usage/gpio-plus-and-raspi2/}{GPIO pinout} if necessary). In two different terminal windows navigate to the desktop and then run the test files by:
+
+\section{Test files}
+There are a few files that will help you test the robot before trying to fully drive it. These working will not fully guarantee everything will work but is supposed to help with the testing and debugging process.
+
+\subsection{Serial Test}
+
+Under the 'rover' folder there is a script called \textit{serialTest.py}. This will help you test the serial communication of the Raspberry Pi. To begin use a jumper wire between pin 14 and 15. 
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=.7\textwidth]{"Pictures/rpi pins".PNG}
+ 	\caption{Raspberry Pi pinout}
+	\label{rpi pin}
+\end{figure}
+
+
+Then in a terminal run the script:
 \begin{itemize}
-	\item[] \colorbox{lightgray}{python -m osr.test\_files.serial\_write}  
-	\item[] \colorbox{lightgray}{python -m osr.test\_files.serial\_read}
+	\item[] \colorbox{lightgray}{python /home/pi/osr/rover/serialTest.py}
 \end{itemize}
 
-If the serail communication is working properly then in one terminal you will be printing out a counting number, and in the other you will be reading that number over the serail port. 
+If the serial communication is working properly then this will let you know it sucessfully read data over the serial pins. If it does not then recheck you have followed all the steps in this doc to get serial communication working, and that you are connecting GPIO pins 14 and 15 together. 
 
-\newpage
+\subsection{Motor Test}
 
-
+\textcolor{red}{NEED INFORMATION ABOUT THE MOTOR TESTING SCRIP}
 
 
 \end{document}
