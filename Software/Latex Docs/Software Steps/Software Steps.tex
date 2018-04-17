@@ -58,10 +58,15 @@
 
 \section{Setting up the Raspberry Pi 3}
 In this section we'll go over setting up the Raspberry Pi and how to get all the code to run the rover going, as well as setting up the bluetooth pairing from the android device.
-\subsection{Getting the Pi online}
+\subsection{Getting the Raspberry Pi online}
 
-\subsubsection{Installing a new OS on the Pi}
+The best way to get started with Raspberry Pi if you are unfamiliar with them is to follow the "Getting started with Raspberry Pi" tutorial which can be found at:
 
+\begin{enumerate}
+	\item[] \href{https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started}{https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started}
+\end{enumerate} 
+
+\subsection{Downloading the Rover Code}
 On the Raspberry Pi open up a terminal \textbf{(ctl + alt + t)} and then type the following commands \footnote{In this document terminal commands will be \colorbox{lightgray}{highlighted}}:
 
 \begin{itemize}
@@ -347,10 +352,4 @@ Then in a terminal run the script:
 \end{itemize}
 
 If the serial communication is working properly then this will let you know it sucessfully read data over the serial pins. If it does not then recheck you have followed all the steps in this doc to get serial communication working, and that you are connecting GPIO pins 14 and 15 together. 
-
-\subsection{Motor Test}
-
-\textcolor{red}{NEED INFORMATION ABOUT THE MOTOR TESTING SCRIP}
-
-
 \end{document}
