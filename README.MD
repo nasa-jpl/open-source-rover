@@ -47,7 +47,7 @@ This rover is designed to function very similar to the 6 wheel rover designs on 
 
 Raspberry Pi was chosen as the brain of this project for it's versatility, accessibility, and ability to add and upgrade your own modifications. With that any communication method you can comminicate with the Raspberry Pi can be easily interfaced into the control system of the robot. 
 
-![Rover communication](images/communication.PNG)
+![Rover communication](images/communication.png)
 
 In addition here are the open communication ports and hardware on the Raspberry Pi:
  * 4 USB ports (3 if using Xbox controller)
