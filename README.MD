@@ -3,22 +3,10 @@ The JPL Open-Source Rover is a fully open-source scaled version of the 6 wheel r
 
 ![6 Wheel Rover](images/rover.png)
 
-## Disclaimer
-INSERT LINK TO DISCLAMER AND STATEMENT HERE
-
 ## About the Project
 
 ### Motivation
 JPL is always looking at ways to inspire the next generation of sceientists, engineers, and people who will be the next generation we will be exploring the solar system with. We want to give this project as a way to get young engineers a fun robotics project that will get everyone excited about STEM. 
-
-### Other Resources
-In addition to this Github with all the documentation on this project there are two other sites tied to this project. One is a landing site where general information and overview of the rover and how it works can be found at:
-
-__ADD LANDING PAGE LINK HERE__
-
-There is also a forum created to help faciliate discussion on the project. Here you can ask questions if you need help or clarification on any aspects, as well as post and promote the content you have created on this project. We highly encourage additions and modifications to be posted here, such that this project and community can grow.
-
-[Open Source Rover Forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/)
 
 ### Specs
 
@@ -58,6 +46,16 @@ In addition here are the open communication ports and hardware on the Raspberry 
  * 13 GPIO pins (6 if using LED Matrix screen)
 
 There is also around 4.5 spare amps of 5V signal (less if using the LED Matrix, depending on how many LEDs being used) from the 5V voltage regulator which can be used for additional power for addons and upgrades. 
+
+### Other Resources
+In addition to this Github with all the documentation on this project there are two other sites tied to this project. One is a landing site where general information and overview of the rover and how it works can be found at:
+
+__ADD LANDING PAGE LINK HERE__
+
+There is also a forum created to help faciliate discussion on the project. Here you can ask questions if you need help or clarification on any aspects, as well as post and promote the content you have created on this project. We highly encourage additions and modifications to be posted here, such that this project and community can grow.
+
+[Open Source Rover Forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/)
+
 
 ### Skills Necessary
 This project has elements in mechanical assembly/fabrication, uses a host of electrical componenets, and has software that will run it all. In order to complete this project you will need to have some experience in the following tasks:
@@ -108,3 +106,9 @@ Here we have a proposed roadmap of how you can build the rover and what part of 
  * __Stage 5:__ Once everything has been tested and calibrated, and the software is now complete the robot will be fully functioning and built!
 
  * __Stage 6:__ Add your own upgrades! Raspberry Pi was chosen as the brain of the project such that it would be easy to add, change, and upgrade to build exciting things ontop of this already cool robot. 
+
+
+## Disclaimer
+[Disclaimer](DISCLAIMER.txt)
+
+
