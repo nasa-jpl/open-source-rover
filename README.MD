@@ -112,10 +112,10 @@ __Need information on cart share etc here__
 
 #### 3D printing and Laser cutting
 
-In addition to ordering all of the parts on the parts list there are some pieces that need to be 3D printed and laser cut. If you do not have access to those machines we've added some online services where you can get those done and sent to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body Assembly/Body Build Doc.pdf), [Corner Steering Build Doc](Mechanical/Corner Steering/Corner Steering Build Doc.pdf),[Head Assembly Build Doc](Mechanical/Head Assembly/Head Assembly Build Doc.pdf).
+In addition to ordering all of the parts on the parts list there are some pieces that need to be 3D printed and laser cut. If you do not have access to those machines we've added some online services where you can get those done and sent to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body-Assembly/Body-Build-Doc.pdf), [Corner Steering Build Doc](Mechanical/Corner-Steering/Corner-Steering-Build-Doc.pdf),[Head Assembly Build Doc](Mechanical/Head-Assembly/Head-Assembly-Build-Doc.pdf).
 
 #### Printed Circuit Boards
-There are a few single purpose circuit boards designed for this project. You could construct these on a prototyping breadboard if you wish instead of ordering the PCBs. You can find the files at [PCB Files](Electrical/PCB board files and schematics/Board files). These can be ordered at [Osh Park](https://oshpark.com/) by dropping each of the .zip files. 
+There are a few single purpose circuit boards designed for this project. You could construct these on a prototyping breadboard if you wish instead of ordering the PCBs. You can find the files at [PCB Files](Electrical/PCB-board-files-and-schematics/Board-files). These can be ordered at [Osh Park](https://oshpark.com/) by dropping each of the .zip files. 
 
 ### Roadmap
 
