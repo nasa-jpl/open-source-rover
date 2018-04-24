@@ -93,7 +93,7 @@ This project assumes you have some standard tools to hlep assemble the project. 
  * 3D printer
  * Laser Cutter
  * Power Supply (to test without using battery)
- 
+
 ### Expected time commitment
 This project will likely take around or greater than 150 person-hours to build, and depending on the fimilarity and skill level of those involved could be significantly more. It is meant to be a teaching and learning tool, and throughout the process try to give supplemental information to those who might be new to this kind of project.  
 
@@ -105,28 +105,36 @@ This folder contains all of the documentation and information necessary for the 
 
 ### Ordering parts
 
+#### Parts Lists
 The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts necessary to build the entire of the robot as it is in our documentation. We recognize that many of you might want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary only for that section, particularly screws, nuts, bolts, and common hardware should be assessed for totals necessary for the whole project if you are changing subassemblies*
 
 __Need information on cart share etc here__
+
+#### 3D printing and Laser cutting
+
+In addition to ordering all of the parts on the parts list there are some pieces that need to be 3D printed and laser cut. If you do not have access to those machines we've added some online services where you can get those done and sent to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body Assembly/Body Build Doc.pdf), [Corner Steering Build Doc](Mechanical/Corner Steering/Corner Steering Build Doc.pdf),[Head Assembly Build Doc](Mechanical/Head Assembly/Head Assembly Build Doc.pdf).
+
+#### Printed Circuit Boards
+There are a few single purpose circuit boards designed for this project. You could construct these on a prototyping breadboard if you wish instead of ordering the PCBs. You can find the files at [PCB Files](Electrical/PCB board files and schematics/Board files). These can be ordered at [Osh Park](https://oshpark.com/) by dropping each of the .zip files. 
 
 ### Roadmap
 
 ![Rover build roadmap](images/roadmap.PNG)
 
 Here we have a proposed roadmap of how you can build the rover and what part of the build is dependant on the other sections. It is broken down into 5 stages.
+ * __Stage 1:__ First thing to do is start getting all the parts.  
+ 
+ * __Stage 2:__ Everything in stage 1 is completely parallelizable. It is highly recommended to start on the electrical testing of components outside the robot before doing any electrical work inside the completed robot body. We can also see that the software can be worked on at any stage between here and the end.
 
+ * __Stage 3:__ By here the mechanical subassemblies all would be assembled, and there would be various amounts of electrical testing done, as well as various amounts of the software completed. 
 
- * __Stage 1:__ Everything in stage 1 is completely parallelizable. It is highly recommended to start on the electrical testing of components outside the robot before doing any electrical work inside the completed robot body. We can also see that the software can be worked on at any stage between here and the end.
+ * __Stage 4:__ The rover is mechanically built and all subassemblies integrated together, here would begin the integration of the electrical components, and the various power and data wires being connected to devices.
 
- * __Stage 2:__ By here the mechanical subassemblies all would be assembled, and there would be various amounts of electrical testing done, as well as various amounts of the software completed. 
+ * __Stage 5:__ With the electronics all powered and communicating you need to test and calibrate all the motors in the system
 
- * __Stage 3:__ The rover is mechanically built and all subassemblies integrated together, here would begin the integration of the electrical components, and the various power and data wires being connected to devices.
+ * __Stage 6:__ Once everything has been tested and calibrated, and the software is now complete the robot will be fully functioning and built!
 
- * __Stage 4:__ With the electronics all powered and communicating you need to test and calibrate all the motors in the system
-
- * __Stage 5:__ Once everything has been tested and calibrated, and the software is now complete the robot will be fully functioning and built!
-
- * __Stage 6:__ Add your own upgrades! Raspberry Pi was chosen as the brain of the project such that it would be easy to add, change, and upgrade to build exciting things ontop of this already cool robot. 
+ * __Stage 7:__ Add your own upgrades! Raspberry Pi was chosen as the brain of the project such that it would be easy to add, change, and upgrade to build exciting things ontop of this already cool robot. 
 
 
 ## Disclaimer
