@@ -73,6 +73,27 @@ This project has elements in mechanical assembly/fabrication, uses a host of ele
 
 Most of these skills are thing that you can learn and pick up on fairly quickly from watching vidoes and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well. 
 
+### Tools Necessary
+This project assumes you have some standard tools to hlep assemble the project. For the optional tools if you do not have them we provide examples of online services in which you can get the parts fabricated and sent to you
+
+#### Mandatory tools
+ * SAE Hex Key set
+ * SAE Wrench set
+ * Pliers
+ * Wire Snips
+ * Wire Strippers
+ * Solder Iron
+ * Solder
+ * Digital Multimeter
+ * Hand Drill or Drill Press
+ * Dremel or Band saw or hand saw
+ * Items for Raspberry Pi (Keyboard, mouse, monitor, 5V micro USB power adapter)
+
+#### Optional Tools
+ * 3D printer
+ * Laser Cutter
+ * Power Supply (to test without using battery)
+ 
 ### Expected time commitment
 This project will likely take around or greater than 150 person-hours to build, and depending on the fimilarity and skill level of those involved could be significantly more. It is meant to be a teaching and learning tool, and throughout the process try to give supplemental information to those who might be new to this kind of project.  
 
@@ -110,5 +131,3 @@ Here we have a proposed roadmap of how you can build the rover and what part of 
 
 ## Disclaimer
 [Disclaimer](DISCLAIMER.txt)
-
-
