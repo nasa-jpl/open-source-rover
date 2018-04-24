@@ -54,7 +54,7 @@ __ADD LANDING PAGE LINK HERE__
 
 There is also a forum created to help faciliate discussion on the project. Here you can ask questions if you need help or clarification on any aspects, as well as post and promote the content you have created on this project. We highly encourage additions and modifications to be posted here, such that this project and community can grow.
 
-[Open Source Rover Forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/)
+(http://s15.zetaboards.com/JPL_OpenSource_Rover/index/)
 
 
 ### Skills Necessary
@@ -112,7 +112,7 @@ __Need information on cart share etc here__
 
 #### 3D printing and Laser cutting
 
-In addition to ordering all of the parts on the parts list there are some pieces that need to be 3D printed and laser cut. If you do not have access to those machines we've added some online services where you can get those done and sent to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body-Assembly/Body-Build-Doc.pdf), [Corner Steering Build Doc](Mechanical/Corner-Steering/Corner-Steering-Build-Doc.pdf),[Head Assembly Build Doc](Mechanical/Head-Assembly/Head-Assembly-Build-Doc.pdf).
+In addition to ordering all of the parts on the parts list there are some pieces that need to be 3D printed and laser cut. If you do not have access to those machines we've added some online services where you can get those done and sent to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body-Assembly/Body-Build-Doc.pdf),  [Corner Steering Build Doc](Mechanical/Corner-Steering/Corner-Steering-Build-Doc.pdf), and [Head Assembly Build Doc](Mechanical/Head-Assembly/Head-Assembly-Build-Doc.pdf).
 
 #### Printed Circuit Boards
 There are a few single purpose circuit boards designed for this project. You could construct these on a prototyping breadboard if you wish instead of ordering the PCBs. You can find the files at [PCB Files](Electrical/PCB-board-files-and-schematics/Board-files). These can be ordered at [Osh Park](https://oshpark.com/) by dropping each of the .zip files. 
