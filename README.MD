@@ -54,7 +54,7 @@ __ADD LANDING PAGE LINK HERE__
 
 There is also a forum created to help faciliate discussion on the project. Here you can ask questions if you need help or clarification on any aspects, as well as post and promote the content you have created on this project. We highly encourage additions and modifications to be posted here, such that this project and community can grow.
 
-(http://s15.zetaboards.com/JPL_OpenSource_Rover/index/)
+http://s15.zetaboards.com/JPL_OpenSource_Rover/index/
 
 
 ### Skills Necessary
