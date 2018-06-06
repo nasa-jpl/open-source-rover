@@ -1,16 +1,16 @@
-# JPL Open-Source Rover Project
-The JPL Open-Source Rover is a fully open-source scaled version of the 6 wheel rover design that JPL uses to explore the surface of mars. The robot is designed almost entirely out of consumer off the shelf (COTS) parts. This project is designed to be a teaching and learning robot for those who want to get invovled in robotics.
+# JPL Open Source Rover Project
+The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get invovled in mechanical engineering, software, electronics, or robotics.
 
 ![6 Wheel Rover](images/rover.png)
 
 ## About the Project
 
 ### Motivation
-JPL is always looking at ways to inspire the next generation of sceientists, engineers, and people who will be the next generation we will be exploring the solar system with. We want to give this project as a way to get young engineers a fun robotics project that will get everyone excited about STEM. 
+JPL is always looking to inspire the next generation of sceientists, engineers, and roboticists to help us explore and learn about our solar system and beyond. We release the plans for this rover as a way to try and give budding enthusiasts a fun robotics project that will help teach them and get them involved in robotics sooner and at a lower cost. 
 
-### Specs
+### Specifications & Technical Attributes
 
-The specs of the robot will depend on the varying electronics and motors you buy for the system, these specs are for the robot as these documents suggest as parts. There will be a breif explaination of which parts could be changed for what spec upgrades.
+The specific attributes of the robot you build will depend slightly on the type of electronics and motors you buy for the system.  The numbers shown below are for the version of the robot that contains exactly the parts that we suggest in our build documents and parts list. Below, you can see which parts could be changed for which spec upgrades.
 
 | Attribute	| Value |
 | ----------|:-----:|
@@ -25,19 +25,19 @@ The specs of the robot will depend on the varying electronics and motors you buy
 | Maximum height differntial between sides | 14 [in] |
 | Communication (in this guide) | Bluetooth app (Android only) and Xbox Controller|
 
-As mentioned some of these features depend on what components you select when buying parts. One potential change is for the motors, you can select higher RPM motors at the sacrifice of max stall torque, which would potentially limit it's ability to climb. A selection of motors that would work can be found at [Motor selection sheet](https://www.pololu.com/category/115/25d-mm-metal-gearmotors), where any of the 12V motors would work easily in the robot, however it is important to also asses the electrical current draw and make sure that all the electronics and battery can supply the power for any change in motors.
+Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [Motor selection sheet](https://www.pololu.com/category/115/25d-mm-metal-gearmotors), where any of the 12V motors would work easily in the robot.  Note, however, that it is important to also asses the electrical current draw and make sure that all the electronics and battery can supply the power required for any change in motors.
 
 ### Feautres
-This rover is designed to function very similar to the 6 wheel rover designs on mars, and employs a few of the major driving mechanics that the mars rovers use to traverse the surface.
- * __Rocker-Bogie:__ Suspension system for the rover, allowing all 6 wheels to continually be in contact with the ground while climibing over obstacles
- * __Differential Pivot:__ Allows weight to be mechanically offloaded from one side of the rover to the other during climbing
- * __6-Wheel Ackerman Steering:__ Driving and turning mechanism that governs where the wheels point and how fast each of them will move.
+This rover is designed to function similarly to the 6 wheel rover designs on Mars and employs a few of the major driving mechanics that the mars rovers use to traverse rocky surfaces:
+ * __Rocker-Bogie:__ The Rocker-Bogie suspension system allows all 6 wheels to continually be in contact with the ground while climibing over obstacles
+ * __Differential Pivot:__ Allows weight to be mechanically offloaded from one side of the rover to the other while climbing
+ * __6-Wheel Ackerman Steering:__ Driving and steering/turning mechanism that governs where the wheels point and how fast each of them will move.
 
-Raspberry Pi was chosen as the brain of this project for it's versatility, accessibility, and ability to add and upgrade your own modifications. With that any communication method you can comminicate with the Raspberry Pi can be easily interfaced into the control system of the robot. 
+We chose a Raspberry Pi to be the "brain" of this rover for its versatility, accessibility, simplicity, and ability to add and upgrade your own modifications. Any method with which you can communicate with a Raspberry Pi (bluetooth, WiFi, USB devices, etc) can be interfaced into the control system of the robot. 
 
 ![Rover communication](images/communication.png)
 
-In addition here are the open communication ports and hardware on the Raspberry Pi:
+In addition, here are the open communication ports and hardware on the Raspberry Pi:
  * 4 USB ports (3 if using Xbox controller)
  * RPi Camera port
  * 1 I2C Bus (0 if using LED Matrix screen)
@@ -45,36 +45,40 @@ In addition here are the open communication ports and hardware on the Raspberry 
  * 3.5mm Audio Jack
  * 13 GPIO pins (6 if using LED Matrix screen)
 
-There is also around 4.5 spare amps of 5V signal (less if using the LED Matrix, depending on how many LEDs being used) from the 5V voltage regulator which can be used for additional power for addons and upgrades. 
+Using the above ports, you could theoretically drive the rover autonomously from the camera, via a USB dongle attached to anything (your own video game controller, a USB microphone, or many others... be creative!), or through any interface using the Pi's GPIO ports (distance sensors, accelerometers, and much more).  We've only given you two simple ways to control the rover to start... we want you to come up with even more!
+
+For the power system of the rover, there is also ample spare power which can be used for your own addons and upgrades.  See the [Electrical subsystem documentation](Electrical/) for more specific details.
 
 ### Other Resources
-In addition to this Github with all the documentation on this project there are two other sites tied to this project. One is a landing site where general information and overview of the rover and how it works can be found at:
+In addition to this repository which holds all the documentation for this project, there are two additional websites tied to this project. One is a landing site which holds general information and an overview of the rover and how it works:
 
-__ADD LANDING PAGE LINK HERE__
+https://opensourcerover.jpl.nasa.gov
 
-There is also a forum created to help faciliate discussion on the project. Here you can ask questions if you need help or clarification on any aspects, as well as post and promote the content you have created on this project. We highly encourage additions and modifications to be posted here, such that this project and community can grow.
+There is also a user-run forum to help faciliate discussion about the project. **__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__**  On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted on the forum so that this project and community can grow.
 
 http://s15.zetaboards.com/JPL_OpenSource_Rover/index/
 
 
 ### Skills Necessary
-This project has elements in mechanical assembly/fabrication, uses a host of electrical componenets, and has software that will run it all. In order to complete this project you will need to have some experience in the following tasks:
- * __Fabrication/Machining:__ Although most the parts are COTS there are a few modifications necessary to adapt them to the project. These will be in the form of 
+This project has elements in mechanical assembly/fabrication, uses a host of electrical componenets, and has software that will run it all. In order to complete this project, you will need to have some experience in the following:
+ * __Fabrication/Machining:__ Although most the parts are COTS there are a few modifications necessary to adapt them to the project. These modifications will be in the form of 
    * Metal cutting using band saw/dremel
    * Drilling using drill press/hand drill
-   * Filling and sanding for part cleanup
+   * Filing and sanding for part cleanup
+   * General Fabricaiton/Machining Safety
  * __Electronics:__ This project uses components like motors, motor controllers, and batteries. It will be important to have experience with the following electrical processes.
    * Soldering
    * Electrical debugging
    * Wiring
- * __Software:__ The project runs with a Raspberry Pi as the brain of the robot with all the software already written to run it, but a very basic amount of knowledge is required for getting everything up and ready on the Raspberry Pi.
+   * Electrical Safety
+ * __Software:__ The rover's brain is a Raspberry Pi.  Included in this repository is all the software ready to run the rover, but some  knowledge is required for getting everything up and ready on the Raspberry Pi:
    * Basic Linux fimilarity
    * Basic Python fimilarity
 
-Most of these skills are thing that you can learn and pick up on fairly quickly from watching vidoes and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well. 
+Most of the above are skills that you can learn and pick up fairly quickly from watching vidoes and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well.  See the build documents for more information.
 
 ### Tools Necessary
-This project assumes you have some standard tools to hlep assemble the project. For the optional tools if you do not have them we provide examples of online services in which you can get the parts fabricated and sent to you
+This project assumes you have some standard tools to help assemble the project. If you do not have any of the optional tools, we provide examples of online services that you can use to have the parts fabricated and sent to you.
 
 #### Mandatory tools
  * SAE Hex Key set
@@ -86,8 +90,8 @@ This project assumes you have some standard tools to hlep assemble the project. 
  * Solder
  * Digital Multimeter
  * Hand Drill or Drill Press
- * Dremel or Band saw or hand saw
- * Items for Raspberry Pi (Keyboard, mouse, monitor, 5V micro USB power adapter)
+ * Dremel, Band saw, or hand saw
+ * Items for operating a Raspberry Pi (Keyboard, mouse, monitor, 5V micro USB power adapter)
 
 #### Optional Tools
  * 3D printer
@@ -95,47 +99,49 @@ This project assumes you have some standard tools to hlep assemble the project. 
  * Power Supply (to test without using battery)
 
 ### Expected time commitment
-This project will likely take around or greater than 150 person-hours to build, and depending on the fimilarity and skill level of those involved could be significantly more. It is meant to be a teaching and learning tool, and throughout the process try to give supplemental information to those who might be new to this kind of project.  
+In our experience, this project takes no less than 200 person-hours to build, and depending on the fimilarity and skill level of those involved could be significantly more. Experienced builders may be able to build this project in this amount of time.  However, this project is generally meant to be a teaching and learning tool.  Throughout the documentation, we try to give supplemental information for those who might be new to this kind of project.
 
 ## Getting Started
 
 ### Folder organization
 ![Rover build roadmap](images/folders.PNG)
-This folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections, Mechanical, Electrical, and Software. Each of these are meant to be relatively self contained sections that are parallelizable, specifically good for groups who want to work on this project. There will be a README in each section to help you navigate the information. 
+The main /osr/ folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections: Mechanical, Electrical, and Software. Each of these sections is meant to be relatively self contained and should be fairly parallelizable, meaning that they could be completed simultaneously by different groups. There is a README.md in each section to help you navigate the information in that section. 
 
 ### Ordering parts
 
 #### Parts Lists
-The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts necessary to build the entire of the robot as it is in our documentation. We recognize that many of you might want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary only for that section, particularly screws, nuts, bolts, and common hardware should be assessed for totals necessary for the whole project if you are changing subassemblies*
+The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts necessary to build the entirety of the robot as it is listed in our documentation. We recognize that you may want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary __only for that section__.  Be sure to assess the quantities you need for common items (particularly screws, nuts, bolts, and other common hardware) if you are changing subassemblies.*
 
 __Need information on cart share etc here__
 
 #### 3D printing and Laser cutting
 
-In addition to ordering all of the parts on the parts list there are some pieces that need to be 3D printed and laser cut. If you do not have access to those machines we've added some online services where you can get those done and sent to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body-Assembly/Body-Build-Doc.pdf),  [Corner Steering Build Doc](Mechanical/Corner-Steering/Corner-Steering-Build-Doc.pdf), and [Head Assembly Build Doc](Mechanical/Head-Assembly/Head-Assembly-Build-Doc.pdf).
+In addition to ordering all of the parts on the parts list, we recommend that some pieces be 3D printed and laser cut. If you do not have access to a 3D printer or laser cutter, we've added some online services as examples for where you can get those manufactured and shipped to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body-Assembly/Body-Build-Doc.pdf),  [Corner Steering Build Doc](Mechanical/Corner-Steering/Corner-Steering-Build-Doc.pdf), and [Head Assembly Build Doc](Mechanical/Head-Assembly/Head-Assembly-Build-Doc.pdf).
 
-#### Printed Circuit Boards
-There are a few single purpose circuit boards designed for this project. You could construct these on a prototyping breadboard if you wish instead of ordering the PCBs. You can find the files at [PCB Files](Electrical/PCB-board-files-and-schematics/Board-files). These can be ordered at [Osh Park](https://oshpark.com/) by dropping each of the .zip files. 
+#### Printed Circuit Boards (PCBs)
+There are a few single purpose circuit boards that were designed for this project. You could construct these circuits on a prototyping breadboard instead of ordering the PCBs if you wish (we have included the schematics in the Electrical section), but we have included the PCB board files as it greatly simplifies the build. You can find these files at [PCB Files](Electrical/PCB-board-files-and-schematics/Board-files). These can be ordered at [Osh Park](https://oshpark.com/) by dropping each of the .zip files. 
 
-### Roadmap
+### Rover Build Roadmap
 
 ![Rover build roadmap](images/roadmap.PNG)
 
-Here we have a proposed roadmap of how you can build the rover and what part of the build is dependant on the other sections. It is broken down into 5 stages.
- * __Stage 1:__ First thing to do is start getting all the parts.  
+Above is an example roadmap of how you can build the rover and which parts of the build are dependant on the other sections. It is broken down into 5 stages:
+ * __Stage 1:__ Start getting all the parts!  
  
- * __Stage 2:__ Everything in stage 1 is completely parallelizable. It is highly recommended to start on the electrical testing of components outside the robot before doing any electrical work inside the completed robot body. We can also see that the software can be worked on at any stage between here and the end.
+ * __Stage 2:__ Once you have all the parts, everything in stage 2 is completely parallelizable. It is *highly* recommended to start on the electrical testing of components outside the robot before doing any electrical work inside the completed robot body. You can also work on the software at any stage between here and the end.
 
- * __Stage 3:__ By here the mechanical subassemblies all would be assembled, and there would be various amounts of electrical testing done, as well as various amounts of the software completed. 
+ * __Stage 3:__ During stage 3, the mechanical subassemblies should all be assembled and start to be integrated together.  There should be some amount of testing done on the electrical system, as well as some progress on the software. 
 
- * __Stage 4:__ The rover is mechanically built and all subassemblies integrated together, here would begin the integration of the electrical components, and the various power and data wires being connected to devices.
+ * __Stage 4:__ The rover is mechanically built and all subassemblies integrated together.  During stage 4, you begin the integration of the electrical components and the various power and data wires that run throughought the rover.
 
- * __Stage 5:__ With the electronics all powered and communicating you need to test and calibrate all the motors in the system
+ * __Stage 5:__ Once the electronics are all powered and communicating, you need to test and calibrate all the motors in the system.
 
- * __Stage 6:__ Once everything has been tested and calibrated, and the software is now complete the robot will be fully functioning and built!
+ * __Stage 6:__ After everything has been tested and calibrated and the software is up and running, the robot will be fully functioning and built!
 
- * __Stage 7:__ Add your own upgrades! Raspberry Pi was chosen as the brain of the project such that it would be easy to add, change, and upgrade to build exciting things ontop of this already cool robot. 
+ * __Stage 7:__ Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.
 
+ ## Happy building!!
+ If you have any questions or run into problems during your build, please search for answers and reach out on the [forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/).
 
 ## Disclaimer
 [Disclaimer](DISCLAIMER.txt)
