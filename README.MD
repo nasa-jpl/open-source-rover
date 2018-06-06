@@ -143,5 +143,13 @@ Above is an example roadmap of how you can build the rover and which parts of th
  ## Happy building!!
  If you have any questions or run into problems during your build, please search for answers and reach out on the [forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/).
 
+ ## Project Team
+ ### Project Lead:
+ Michael Cox
+ ### Development Team:
+ Eric Junkins and Olivia Lofaro
+ ### Special Thanks To:
+ Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Molly Bittner, Christine Fuller, Billy Allen and Charles Dandino
+
 ## Disclaimer
 [Disclaimer](DISCLAIMER.txt)
