@@ -28,7 +28,7 @@
 
 
 \title{Open Source Rover: Head Assembly Instructions}
-\author{Author: Eric Junkins}
+\author{Author: Eric Junkins, Michael Cox}
 
 \makeatletter         
 \def\@maketitle{
@@ -42,9 +42,7 @@
 
 \maketitle
 
-\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology.}
-
-\noindent {\footnotesize \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged}
+\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged.}
 
 
 % Introduction
@@ -56,7 +54,7 @@
 \newpage
 
 \section{3D printing}
-There are a few components that need to be 3D printed to make the head assembly. Provided are a the STL files necessary for these prints, as well as a few different orientations of printing pads to help with thermal contraction if necessary as shown in Figure \ref{pads}. These pads help hold the corners down and reduce the warping of the pieces. A file is also included with no pads for all files as well. 
+There are a few components that need to be 3D printed to make the head assembly. You can find the STL files necessary for these prints in the Mechanical/Head Assembly/3D Printed Parts folder of the repository.  Based on difficulties we've seen with printing these pieces, we've also included a few different orientations of "printing pads" to help with thermal contraction as shown in Figure \ref{pads}. These pads help hold the corners down and reduce the warping of the pieces.
 
 \begin{figure}[H]
   \centering
@@ -77,6 +75,7 @@ If you do not have a 3D printer there are a number of online 3D printing service
 	\item \href{https://www.makexyz.com/}{https://www.makexyz.com/}
 \end{itemize}
 
+(If you decide to use a 3D printing service, we recommend sending them the files \textit{without} the printing pads.)
 \section{Mechanical Assembly}
 
 \begin{figure}[H]
@@ -86,7 +85,7 @@ If you do not have a 3D printer there are a number of online 3D printing service
 
 \begin{enumerate}
 
-	\item \textbf{Insert the LED matrix into the head:} Start by taking the LED Matrix \textbf{E8} and inserting it on the ledges in the two sides of the 3D printed head. Using Screws \textbf{B8} screw together the two sides of the head \footnote{The size of the holes should be such that you can use an allen wrench to "thread" the 3D printed holes. If it is too tight you can use a drill/file to very slightly open up the hole if the screw will not thread fit}.
+	\item \textbf{Insert the LED matrix into the head:} Start by taking the LED Matrix \textbf{E8} and inserting it on the ledges in the left and right sides of the 3D printed head. Screw together the two sides of the head using screws \textbf{B8}.\footnote{The size of the holes should be such that you can use a hex key to "thread" the 3D printed holes. If it is too tight, you can use a drill/file to very slightly open up the hole}.
 
 
 \begin{figure}[H]
@@ -102,7 +101,7 @@ If you do not have a 3D printer there are a number of online 3D printing service
   	\label{LED}
 \end{figure}
 
-	\item \textbf{Attach the PVC  Clamping Hub:} Using screws \textbf{B2} attach the 1 Inch PVC Clamping Hub \textbf{S24} to the bottom of the head. 
+	\item \textbf{Attach the PVC  Clamping Hub:} Attach the 1 Inch PVC Clamping Hub \textbf{S24} to the bottom of the head using screws \textbf{B2}. 
 
 \begin{figure}[H]
 	\centering
@@ -110,7 +109,7 @@ If you do not have a 3D printer there are a number of online 3D printing service
 	\caption{Attach the PVC Clamping Hub}
 \end{figure}
 
-	\item \textbf{Mounting the Logic Shifter PCB:} Using screws \textbf{B8} and hexnuts \textbf{B12} attach the Logic Shifter PCB to the support structure in the 3D printed head. 
+	\item \textbf{Mounting the Logic Shifter PCB:} Attach the Logic Shifter PCB to the support structure in the 3D printed head using screws \textbf{B8} and hexnuts \textbf{B12}. 
 
 \begin{figure}[H]
 	\centering
@@ -118,7 +117,7 @@ If you do not have a 3D printer there are a number of online 3D printing service
 	\caption{Mounting the Logic Shifter PCB}
 \end{figure}
 
-	\item \textbf{Connecting to back plane:} Using screws \textbf{B8} attach the two back pieces together. 
+	\item \textbf{Connecting to back plane:} Attach the two back pieces together using screws \textbf{B8}. 
 
 \begin{figure}[H]
 	\centering
@@ -133,7 +132,7 @@ If you do not have a 3D printer there are a number of online 3D printing service
   	\label{back}
 \end{figure}
 
-	\item \textbf{Attaching the Back plane:} Using screws \textbf{B8} now attach the back plane to the rest of the head structure. 
+	\item \textbf{Attaching the Back plane:} Attach the back plane to the rest of the head structure using screws \textbf{B8}. 
 
 \begin{figure}[H]
 	\centering
@@ -141,7 +140,7 @@ If you do not have a 3D printer there are a number of online 3D printing service
 	\caption{Attaching the Back plane}
 \end{figure}
 
-	\item \textbf{Attach the PVC pipe:} Slide the length of PVC pipe you want for the neck length into the PVC clamping hub and tighten the screws the secure it.
+	\item \textbf{Attach the PVC pipe:} Slide the length of PVC pipe you want for the neck into the PVC clamping hub and tighten the screws the secure it.
 
 \begin{figure}[H]
 	\centering
