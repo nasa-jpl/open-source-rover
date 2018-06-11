@@ -273,7 +273,7 @@ This board is made to handle the mismatch between the digital logic voltage leve
 	\label{ls sch}
 \end{figure}
 
-In Figure \ref{ls sch} the wire labels correspond to the name of the GPIO pin the signal comes from on the raspberry pi. The data sheet for the logic shifter IC chip can be found at: 
+In Figure \ref{ls sch} the wire labels correspond to the name of the GPIO pin the signal comes from on the raspberry pi.  \textbf{All pin numbers that lead to the Raspberry Pi represent GPIO pin numbers, NOT physical pin numbers.  For instance, for header P2, pin 1 is labelled with "4 3V3".  This should be connected to GPIO pin 4 on the Raspberry Pi (physical pin 7).} The data sheet for the logic shifter IC chip can be found at: 
 \begin{itemize}
 	\item \href{https://cdn-shop.adafruit.com/datasheets/sn74lvc245a.pdf}{https://cdn-shop.adafruit.com/datasheets/sn74lvc245a.pdf}
 \end{itemize}
