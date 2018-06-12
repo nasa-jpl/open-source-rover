@@ -29,7 +29,7 @@
 \begin{document}
 
 \title{Open Source Rover: Software Instructions}
-\author{Author: Eric Junkins}
+\author{Author: Eric Junkins, Michael Cox}
 
 \makeatletter         
 \def\@maketitle{
@@ -43,9 +43,7 @@
 
 \maketitle
 
-\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology.}
-
-\noindent {\footnotesize \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged}
+\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology.  \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged.}
 
 % Introduction
 \newpage
@@ -57,17 +55,19 @@
 
 
 \section{Setting up the Raspberry Pi 3}
-In this section we'll go over setting up the Raspberry Pi and how to get all the code to run the rover going, as well as setting up the bluetooth pairing from the android device.
+In this section, we'll go over setting up the Raspberry Pi and how to set up all the code that will run the rover. We will also set up the bluetooth pairing from the android device.
 \subsection{Getting the Raspberry Pi online}
 
-The best way to get started with Raspberry Pi if you are unfamiliar with them is to follow the "Getting started with Raspberry Pi" tutorial which can be found at:
+We recommend following the "Getting started with Raspberry Pi" tutorial at:
 
 \begin{enumerate}
 	\item[] \href{https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started}{https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started}
-\end{enumerate} 
+\end{enumerate}
+
+Once you finish the above tutorial, you should be able to boot your Raspberry Pi and see a desktop.
 
 \subsection{Downloading the Rover Code}
-On the Raspberry Pi open up a terminal \textbf{(ctl + alt + t)} and then type the following commands \footnote{In this document terminal commands will be \colorbox{lightgray}{highlighted}}:
+On the Raspberry Pi, open up a terminal \textbf{(ctl + alt + t)} and then type the following commands\footnote{In this document, terminal commands will be \colorbox{lightgray}{highlighted}.}:
 
 \begin{itemize}
 	\item[] \colorbox{lightgray}{cd /home/pi}
@@ -103,7 +103,7 @@ On the Raspberry Pi open up a terminal \textbf{(ctl + alt + t)} and then type th
 %\end{itemize}
 
 \subsubsection{Installing packages}
-Below are the packages you will need to use Bluetooth communication through the raspberry pi. Open up a terminal on the Raspberry Pi  and type the following commands:
+Run each of the commands below to install the packages you will need to use Bluetooth communication on the Raspberry Pi. Open up a terminal on the Raspberry Pi  and type the following commands:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo apt-get update}
 	\item[] \colorbox{lightgray}{sudo apt-get upgrade}
@@ -115,11 +115,11 @@ Below are the packages you will need to use Bluetooth communication through the 
 
 \end{itemize}
 
-\noindent Now you need modify a line of code in the Bluetooth service file, start by typing:
+\noindent Now you need modify a line of code in the Bluetooth service file. Start by typing:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo nano /lib/systemd/system/bluetooth.service}
 \end{itemize}
-\noindent Add "-C" after 'bluetoothd' on line 9, the file should look like the Figure \ref{bs}:
+\noindent Add "-C" after 'bluetoothd' on line 9. The file should now look like the Figure \ref{bs}:
 
 \begin{figure}[H]
  	\centering
@@ -128,7 +128,13 @@ Below are the packages you will need to use Bluetooth communication through the 
 	\label{bs}
 \end{figure}
 	
-\noindent Once you have done this exit and save (ctrl + x, y, enter), and then reboot the Pi. Once rebooted open up a terminal and type
+\noindent Once you have made this change, exit and save (ctrl + x, y, enter), and then reboot the Pi:
+
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo reboot}
+\end{itemize}
+
+\noindent Once the Pi has rebooted, open up a terminal and type:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo sdptool add SP}
 \end{itemize}
@@ -136,7 +142,7 @@ Below are the packages you will need to use Bluetooth communication through the 
 
 \section{Control Method}
 
-The first thing to do is select which control method you want to use. There are two ways that are built into the code already to control the rover, one of which is a Bluetooth app run on Android devices, and the other is using a wireless Xbox controller. 
+The first thing to do is select which control method you want to use. There are two methods that are already built into the code to control the rover; one is a smartphone app run on Android devices, the other is using a wireless Xbox controller. 
 
 \begin{figure}[H]
  	\centering
@@ -145,30 +151,30 @@ The first thing to do is select which control method you want to use. There are 
 	\label{controls}
 \end{figure}
 
-\noindent Any way that you can communicate to a Raspberry Pi is a way that you can control the rover, and we fully encourage finding and developing other methods of remote control. For these methods if you decide to use an Android device you will need to follow some steps to get the app loaded on your phone, as we provide the source code so you can edit and change things the next section will walk you through getting the source code.
+\noindent Any way that you can communicate to a Raspberry Pi is a way that you can control the rover, and we fully encourage you to find and develop other methods of remote control. For the methods above, if you decide to use an Android device you will need to follow some steps to get the app loaded on your phone. We provide the source code for the app so you can edit and change things on your own; the next section will walk you through getting the source code for the Android app.  If you wish to use the Xbox controller to control your rover, skip to step 2.2.
 
 \subsection{Android App Control}
-If you choose to control the rover from an Android App you'll need to setup Bluetooth communication between the Raspberry Pi and Android device. There are a few different methods of doing this, we'll be using a terminal interface to do this in this tutorial.
+If you choose to control the rover from an Android App you'll need to setup Bluetooth communication between the Raspberry Pi and Android device. There are a few different methods of doing this; we'll be using a terminal interface.
 
 \subsubsection{Naming the Bluetooth Device}
 
-On the Raspberry Pi create a file that will name the Bluetooth device your desired name \footnote{This name must also be updated in the Android App such that the App finds the correct device, so make sure to keep track of this name}. First on the RPi in a terminal type 
+On the Raspberry Pi, create a file that will name the Bluetooth device your desired name\footnote{This device name must also be updated in the Android App so that the App finds the correct device. Make sure to keep track of this name}. You can do this by running the following in a terminal: 
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo nano /etc/machine-info} 
 \end{itemize}
-\noindent Name your device by by replacing deviceName with want the name of your Raspberry Pi to be:
+\noindent Name your device by replacing deviceName with whatever you want the name of your Raspberry Pi to be (we suggest something like "openSourceRover"):
 
 \begin{figure}[H]
  	\centering
 	\includegraphics[width=.5\textwidth]{"Pictures/devicename".PNG}
 \end{figure}
 
-\noindent Now edit the maain.conf file, Uncomment the "Name=" line and add your deviceName. 
+\noindent Now edit the /etc/bluetooth/main.conf file: Uncomment the "Name=" line and add your deviceName: 
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo nano /etc/bluetooth/main.conf} 
 \end{itemize}
 
-\noindent The first few lines should look like Figure \ref{conf}.
+\noindent The first few lines of this file should look like Figure \ref{conf}.
 
 \begin{figure}[H]
  	\centering
@@ -177,19 +183,15 @@ On the Raspberry Pi create a file that will name the Bluetooth device your desir
 	\label{conf}
 \end{figure}
 
-\subsubsection{Pairing Bluetooth from Commandline}
-We're now ready to pair the device with your android device. We followed along with the following tutorial to learn how to do this:
+\subsubsection{Pairing Bluetooth from Command Line}
+We're now ready to pair the Raspberry Pi with your Android device\footnote{We followed the tutorial at \href{https://www.cnet.com/how-to/how-to-setup-bluetooth-on-a-raspberry-pi-3/}{https://www.cnet.com/how-to/how-to-setup-bluetooth-on-a-raspberry-pi-3/} to learn how to pair the Pi with an Android device.}.
 
-\begin{itemize}
-	\item \href{https://www.cnet.com/how-to/how-to-setup-bluetooth-on-a-raspberry-pi-3/}{https://www.cnet.com/how-to/how-to-setup-bluetooth-on-a-raspberry-pi-3/}
-\end{itemize}
-
-Have your android phone discover-able and searching for Bluetooth \footnote{For individual phones look up instructions on google if necessary to do this}. Begin by in a terminal starting the bluetoothctl
+Have your Android device discoverable and searching for Bluetooth\footnote{The process for making your phone or tablet discoverable and searching for bluetooth is different for different devices. Feel free to search the web for instructions on how to do this on your specific device.}. Begin by in a terminal starting bluetoothctl:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo bluetoothctl}
 \end{itemize}
 
-\noindent Now in that bluetoothctl terminal do the following commands:
+\noindent You are now in the bluetoothctl interface. Run the following commands:
 
 \begin{itemize}
 	\item[] \colorbox{lightgray}{agent on}
@@ -197,49 +199,51 @@ Have your android phone discover-able and searching for Bluetooth \footnote{For 
 	\item[] \colorbox{lightgray}{scan on}
 \end{itemize}
 
-\noindent Once your find your device you'll need to pair to it from its' Address.
+\noindent Once your find your Android device, you'll need to pair to it using its address:
 
 \begin{itemize} 	
 	\item[] \colorbox{lightgray}{pair XX:XX:XX:XX:XX:XX} 
 	\item[] \colorbox{lightgray}{yes}
 \end{itemize}
 	
-\noindent You'll be prompted on the phone asking to accept the pairing, select okay, and then on the Raspberry Pi now that you have paired the devices quit the bluetoothctl.
+\noindent You'll be prompted on the Android device asking to accept the pairing. Select Okay. Now that your Android is paired with the Pi, exit bluetoothctl by running the following on the Pi:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{quit} 
 \end{itemize}
 
 \subsubsection{Downloading the Android App}
 
-To begin you need to download Android Studio, which will allow you to put the source code onto the android device \footnote{This is to be done on a laptop or desktop computer, not the Raspberry Pi}.
+To begin, you need to download Android Studio which will allow you to put the source code onto the Android device as an app.  You need to install Android Studio on a laptop or desktop computer, NOT the Raspberry Pi.  Download and install Android Studio from 
 
 \begin{itemize}
 	\item \href{https://developer.android.com/studio/index.html}{https://developer.android.com/studio/index.html}
 \end{itemize}
 
-\noindent In order to allow the android device to be able to have source code loaded onto it you'll need to enable USB debugging, which is going to be different for a lot of different version of phones. The best way to figure this out is to google "android USB debugging" for your specific device and follow the steps there. Android studio also provides lots of support information and forums to help getting through any problems and issues had on that end, consult those if there are issues.
+Android Studio provides lots of support information and forums to help you install the software and then install apps on your Android. Consult the Android Studio documentation if you have any issues installing Android Studio or loading the app onto your Android device.
+
+\noindent In order to allow your Android device to accept the source code as an app, you'll need to enable USB debugging on the Android. This process varies across different version of phones and tablets. The best way to figure out how to turn on USB debugging for your device is to search the web for "android USB debugging" for your specific device and follow the steps that you find.
 
 \bigskip
 
-\noindent To get the code for the app you can run the following command in a terminal at the location you desire it to be put:
-
-\begin{itemize}
-	\item[] \colorbox{lightgray}{git clone https://github.jpl.nasa.gov/ejunkins/osr\_android\_app}
-	\item[] \textcolor{red}{THIS LINK TO CHANGE UPON RELEASE TO FINAL LINK LOCATION}
-\end{itemize}
-
-\noindent Or you can navigate to the URL at:
+\noindent To get the source code for the Android app, you can navigate to the following URL on your laptop/desktop:
 
 \begin{itemize}
 	\item[] \href{https://github.jpl.nasa.gov/ejunkins/osr_android_app}{https://github.jpl.nasa.gov/ejunkins/osr\_android\_app}
 	\item[] \textcolor{red}{THIS LINK TO CHANGE UPON RELEASE TO FINAL LINK LOCATION}
 \end{itemize}
 
-\noindent and under the Clone or download button click Download ZIP and extract the files in that manner. 
+\noindent and under the Clone or Download button click Download ZIP and extract the files in that manner. 
+
+If you wish, you can instead run the following command FROM YOUR LAPTOP/DESKTOP in a terminal from the location on your laptop/desktop where you want to have the source code:
+
+\begin{itemize}
+	\item[] \colorbox{lightgray}{git clone https://github.jpl.nasa.gov/ejunkins/osr\_android\_app}
+	\item[] \textcolor{red}{THIS LINK TO CHANGE UPON RELEASE TO FINAL LINK LOCATION}
+\end{itemize}
 
 \bigskip
 
-\noindent Now open up the source code just downloaded in Android Studio. In order for the App to communicate to the Raspberry Pi you'll need to make sure it selects the correct Bluetooth device, on line 198 in the MainActivity.java file change the variable \textit{connection\_name} to be equal to whatever you named the Raspberry Pi in the previous section. Now hit run in the upper panel, and the android app should build and load onto your device. 
+\noindent Now, open up the source code that you just downloaded in Android Studio. In order for the App to communicate to the Raspberry Pi, you'll need to make sure it selects the correct Bluetooth device. On line 198 in the MainActivity.java file, change the variable \textit{connection\_name} to match whatever you named the Raspberry Pi in the previous section. Now hit run in the upper panel, and the Android app should build and load onto your Android device!
 
 \begin{figure}[H]
  	\centering
@@ -250,31 +254,31 @@ To begin you need to download Android Studio, which will allow you to put the so
 
 
 \subsection{Init Script}
-We will want the code on the rover to run when the pi boots up, so we will add that to an init script, which on Raspberry Pi can be found at /etc/rc.local. In a terminal type
+We want the rover's code to automatically run whenever the pi boots up. We'll accomplish this by adding it to an init script, /etc/rc.local which is automatically run every time the Pi boots. In a terminal (now back on your Raspberry Pi), run:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo nano /etc/rc.local}
 \end{itemize}
-\noindent The following lines are added after the "if" block, as shown in Figure \ref{init}. This example is to run with the LED screen, and from an Xbox controller.
+\noindent The lines we need to add will be added after the "if" block, as shown in Figure \ref{init}. This example is to run with the LED screen and be controlled from the Android app:
 
 \begin{verbatim}
 sudo python /home/pi/osr/led/screen.py &
 sleep 10
-sudo python /home/pi/osr/rover/main.py -s -c x &
+sudo python /home/pi/osr/rover/main.py -s &
 \end{verbatim}
 
 \begin{figure}[H]
  	\centering
 	\includegraphics[width=1\textwidth]{"Pictures/init".PNG}
- 	\caption{Init Script}
+ 	\caption{/etc/rc.local script.  Note that in this image, we set the \colorbox{yellow}{-c x} flag as an example of how to control the rover with the Xbox controller instead of from the Android app (see below).}
 	\label{init}
 \end{figure}
 
-The command line args it accepts are the following:
+The command line arguments that the main.py script accepts are the following:
 
 \begin{itemize}
 	\item[] \textbf{-t} : Testing mode - allows you to emulate a controller from the terminal for testing and control of the robot. 
 	\item[] \textbf{-s} : Attempts to connect to the Unix Socket running in the LED screen script to send commands between the two processes
-	\item[] \textbf{-c} : Controller flag, tells which controller should be listened for
+	\item[] \textbf{-c} : Controller flag, tells which controller the rover should be listening for
 	\begin{itemize}
 		\item [] \textbf{b} : Bluetooth app (default)
 		\item [] \textbf{x} : Xbox controller
@@ -282,37 +286,37 @@ The command line args it accepts are the following:
 
 \end{itemize}
 
-If you wish to run without the LED screen do not put the line starting the \textit{screen.py} into the init script, and do not run with the \textit{-s} flag.
+If you wish to run your rover without the LED screen, delete line 20 and 21 from /etc/rc.local (those lines start the screen.py script) and remove the -s flag from the line that starts the main.py script.
 
 \subsection{Setting up serial communication}	
 
-In this project we will be using serial communication to talk to the motor controllers. This is a communication protocol that describes how bits of information will be transferred between one device and another. More information on this can be found at:
+In this project we will be using serial communication to talk to the motor controllers. Serial communication is a communication protocol that describes how bits of information are transferred between one device and another. You can find more information on serial communication at:
 \begin{itemize}
 	\item \href{https://learn.sparkfun.com/tutorials/serial-communication}{https://learn.sparkfun.com/tutorials/serial-communication}
 \end{itemize}
 
-\noindent Do the following to setup/enable the serial communication for the RoboClaws:
+\noindent Run the following commands on the Pi to setup/enable the serial communication for the RoboClaws:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo raspi-config}
 \end{itemize}
 
-\noindent In this menu navigate and do the following commands:
+\noindent In the raspi-config menu, set the following options:
 \begin{itemize}
 	\item[-]  Interface Options $-> $ Serial 
 	\item[-] Would you like a login shell to be accessible over serial? $->$ No
 	\item[-] Would you like the serial port hardware to be enabled? $->$ Yes
 	\item[-] Would you like to reboot now? $->$ Yes
 \end{itemize} 
-\noindent Once rebooted open up a terminal again and look at the serial devices	
+\noindent Once the Pi reboots, open up a terminal again and look at the serial devices:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{ls -l /dev/serial*}
 \end{itemize}
-Make sure that this says: serial0 -$>$ ttyS0 . Now we have to edit the cmdline.txt file. In a terminal type
+Make sure that this shows serial0 -$>$ ttyS0 . Next, edit the /boot/cmdline.txt file:
 \begin{itemize}
 	\item [] \colorbox{lightgray}{sudo nano /boot/cmdline.txt}
 \end{itemize}
 
-\noindent Edit \textbf{ONLY} the part with "console = ....", change it to be "console=tty1" and remove any other instance where it references console. The first bit of that line should look similar to the Figure \ref{console} \footnote{If it does not exactly match this it is fine, the import part is the "console=tty1" section}:
+\noindent Change \textbf{ONLY} the part with "console = ...." to read "console=tty1" and remove any other instance where it references console. The first bit of that line should look similar to the Figure \ref{console}: \footnote{It is okay if it does not exactly match what we show here; the important part is that the "console=tty1" flag matches.}
 
 \begin{figure}[H]
  	\centering
@@ -321,22 +325,22 @@ Make sure that this says: serial0 -$>$ ttyS0 . Now we have to edit the cmdline.t
 	\label{console}
 \end{figure}
 
-\noindent Here is a link to help with this process if necessary.
+\noindent Below is a link to help with the above steps if you need additional help:
 \begin{itemize}
 	\item \href{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}. 
 \end{itemize}
-\noindent Once this is all done then reboot the pi.
+\noindent Once you've completed the above steps, reboot the Pi.
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo reboot}
 \end{itemize}
 
 
 \section{Test files}
-There are a few files that will help you test the robot before trying to fully drive it. These working will not fully guarantee everything will work but is supposed to help with the testing and debugging process.
+There are a few files that will help you test the robot before trying to fully drive it. Having all these tests working does not fully guarantee everything on the rover will work, but they should help with the testing and debugging process.
 
 \subsection{Serial Test}
 
-Under the 'rover' folder there is a script called \textit{serialTest.py}. This will help you test the serial communication of the Raspberry Pi. To begin use a jumper wire between pin 14 and 15. 
+Under the 'rover' folder there is a script called \textit{serialTest.py}. This will help you test the serial communication of the Raspberry Pi. To begin, use a jumper wire to connect the GPIO14 and GPIO15 pins. 
 
 \begin{figure}[H]
  	\centering
@@ -346,10 +350,10 @@ Under the 'rover' folder there is a script called \textit{serialTest.py}. This w
 \end{figure}
 
 
-Then in a terminal run the script:
+Then,run the script from a terminal:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{python /home/pi/osr/rover/serialTest.py}
 \end{itemize}
 
-If the serial communication is working properly then this will let you know it sucessfully read data over the serial pins. If it does not then recheck you have followed all the steps in this doc to get serial communication working, and that you are connecting GPIO pins 14 and 15 together. 
+If the serial communication is working properly, this script will let you know that it successfully read data over the serial pins. If it does not, verify that you have followed all the steps in this document to get serial communication working, and that you are connecting GPIO pins 14 and 15 together. 
 \end{document}
