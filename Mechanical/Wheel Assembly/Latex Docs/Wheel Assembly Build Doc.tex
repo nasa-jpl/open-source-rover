@@ -28,7 +28,7 @@
 
 
 \title{Open Source Rover: Wheel Assembly Instructions}
-\author{Author: Eric Junkins}
+\author{Author: Eric Junkins, Michael Cox}
 
 \makeatletter         
 \def\@maketitle{
@@ -42,9 +42,7 @@
 
 \maketitle
 
-\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology.}
-
-\noindent {\footnotesize \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged}
+\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged.}
 
 
 % Introduction
@@ -64,8 +62,8 @@
 	\includegraphics[width=1\textwidth]{"Pictures/Parts-Drilling".PNG}
 \end{figure}
 
-Drill holes in the wheels indicated by Figure \ref{Wheel drill} using the center drill and drill \# 23 \footnote{The wheel is meant to normally mount using one bolt through the middle of the rim. This will not work as the rover sees very high torque at the wheel and this will be hard to attach to any part with only one bolt and have the wheel not slip. Because of that we will drill two holes on either side to mount to the motor hub clamp as shown in Figure \ref{Wheel drill}}. The important dimension is that the two holes are as close to 0.770 in apart as possible. We found that the shown geometry allowed us to get the holes as straight in as possible. Normally for these through holes you would use drill \#25, but in order to give a little extra tolerance we recommend a few steps up from that, something around drill \#23. Test the holes with the 4mm Clamping Hub \textbf{S14} to make sure the holes align as shown in \ref{Wheel drill}. If not you can file the holes out slightly in the direction necessary or attempt to re-drill them depending on how close. Repeat this for all 6 of the wheels.
-. 
+Drill holes in the wheels indicated by Figure \ref{Wheel drill} using the center drill and drill\#23\footnote{The wheel is normally meant to be mounted using one bolt through the middle of the rim. This will not work well in our case as the rover sees very high torque at the wheel and the one-bolt system would be difficult to attach to any part of our system withoutthe wheel slipping. To attach more firmly, we will drill two holes on either side of the original hole where we will mount the motor hub clamp as shown in Figure \ref{Wheel drill}}. The important dimension is that the two holes are as close to 0.770 inches apart as possible while remaining centered about the center of the wheel. We found that the geometry shown in Figure \ref{Wheel drill} allowed us to get the holes most easily. Normally for these through holes you would use drill \#25, but in order to give a little extra tolerance we recommend a few steps up from that, something around drill \#23. Test the holes with the 4mm Clamping Hub \textbf{S14} to make sure the holes align as shown in Figure \ref{Wheel drill}. If the holes do not align, you can file them out slightly or even attempt to re-drill them depending on how close you are. Repeat this drilling process for all 6 of the wheels.
+
 
 \begin{figure}[H]
   \centering
@@ -76,13 +74,13 @@ Drill holes in the wheels indicated by Figure \ref{Wheel drill} using the center
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{"Pictures/Fabrication/Wheel Aligned".png}
   \end{minipage}
-  \caption{Match drilling the wheels}
+  \caption{Drilling the wheels}
   \label{Wheel drill}
 \end{figure}
 
 
 
-\subsection{Clamping hub cutting}
+\subsection{Cutting the Clamping Hub}
 
 \begin{figure}[H]
 	\centering
@@ -90,7 +88,7 @@ Drill holes in the wheels indicated by Figure \ref{Wheel drill} using the center
 \end{figure}
 
 
-The clamping hub \textbf{S14} are used to attach the motor shaft to the wheel rim. Band saw or hand saw down the channel already made in the clamping hub \textbf{S14}, continuing down until there is around 0.08 in before hitting the wall. This dimension does not need to be very precise, just make sure not to go too thin. Use the drawing \ref{Clamping hub cut} to eyeball how deep through the part you should go. Repeat for all quantity (6) of the 4mm Clamping hubs \textbf{S14} \footnote{This system sees a very high amount of torque. The current design of this clamping hub has too much metal and doesn't deform around the motor shaft enough to grab and hold against such high torque. If we remove enough of that metal when you clamp on the screw it will cause the whole piece to deform around the motor shaft and hold it tighter}
+The clamping hubs \textbf{S14} are used to attach the motor shaft to the wheel rim. Use a band saw or hand saw to extend the channel already made in the clamping hub \textbf{S14}, continuing down until there is around 0.08 in before hitting the wall. This dimension does not need to be extremely precise; just make sure not to go too thin. Use Figure \ref{Clamping hub cut} to eyeball roughly how deep through the part you should cut. Repeat this cut for all six of the 4mm Clamping hubs \textbf{S14}\footnote{This system sees a very high amount of torque. The current design of this clamping hub has too much metal and doesn't deform around the motor shaft enough to grab and hold well enough against such high torque. By removing some of that metal, when we clamp on the screw it will cause the whole piece to deform more closely around the motor shaft and hold it more tightly}.
 
 
 
@@ -111,7 +109,7 @@ The clamping hub \textbf{S14} are used to attach the motor shaft to the wheel ri
 \section{Mechanical/Structural Assembly}
 
 \subsection{Base Wheel}
-Next we will build the wheel assemblies, which are divided into the middle wheels and corner wheel assemblies. The first part will be the same for all 6, then built upon for 4 more to make the corner wheels. 
+Next, we will build the wheel assemblies which are divided into the middle wheels and corner wheel assemblies. We will build 6 identical base wheels and then add slightly more complexity onto 4 of those which will eventually become the corner wheels. 
 
 \begin{figure}[H]
 	\centering
@@ -119,10 +117,10 @@ Next we will build the wheel assemblies, which are divided into the middle wheel
 \end{figure}
 
 \begin{enumerate}
-\item \textbf{Motor Mount:} Start by taking motor \textbf{E5}, clamping mount \textbf{S25}, 3 inch channel \textbf{S2}, and screws \textbf{B1} to assemble the motor into the channel as shown in Figure \ref {wheel step 1}. Make sure to slide the motor all the way up to the top of the gearbox in the clamping hub. 
+\item \textbf{Motor Mount:} Start by attaching the motor \textbf{E5} into the 3 inch channel \textbf{S2} using clamping mount \textbf{S25} and screws \textbf{B1} as shown in Figure \ref{wheel step 1}. Make sure to slide the motor all the way  to the top of the gearbox in the clamping hub (exactly as shown in Figure \ref{wheel step 1}). 
 
 
-\item \textbf{Clamping Hub attachment/Apply Loctite Epoxy:} Now take the modified 4mm clamping hub \textbf{S14A} and clamp it around the motor shaft as shown. We recommend using Loctite 2 part Expoxy \textbf{S34} to to the motor shaft and clamping hub at their interface\footnote{This will help hold the high torque of the system and keep from slipping, but it means that your motor will have the clamping hub permanently attached onto it.} 
+\item \textbf{Clamping Hub attachment/Apply Loctite Epoxy:} Next, take the modified 4mm clamping hub \textbf{S14A} and clamp it around the motor shaft as shown. We recommend applying Loctite 2-part Expoxy \textbf{S34} between the motor shaft and the clamping hub at their interface\footnote{Epoxy will help hold the high torque of the system and keep this interfacefrom slipping, but it also means that your motor will have the clamping hub permanently attached onto it.}.
 
 \begin{figure}[H]
   \centering
@@ -136,7 +134,7 @@ Next we will build the wheel assemblies, which are divided into the middle wheel
   \caption{Wheel Step 1}
   \label{wheel step 1}
 \end{figure}
-\item \textbf{Attaching the Wheel:} Take the wheels \textbf{S30A} and \textbf{B7 \footnote{This screw might need to be a shorter one, it will depend on the depth of the rim on the Traxxas rim, which changes based on which wheel model you get}} using the holes drilled into the wheel rim earlier attach the wheel to the clamping hub around the motor shaft. 
+\item \textbf{Attaching the Wheel:} Attach the wheels \textbf{S30A} to the clamping hub using two screws \textbf{B7} through the holes you drilled earlier (shown in Figure \ref{wheel step 2}).\footnote{These screws might need to be a slightly shorter or longer screw depending on the depth of the rim on the Traxxas wheel.  These depths are known to change slightly based on which wheel model you get.}
 
 \begin{figure}[H]
   \centering
@@ -148,14 +146,15 @@ Next we will build the wheel assemblies, which are divided into the middle wheel
     \includegraphics[width=\textwidth]{"Pictures/Wheels/Wheel Step 4".PNG}
   \end{minipage}
   \caption{Wheel Step 2}
+  \label{wheel step 2}
 \end{figure}
 
-With that the base wheel assembly should be done, repeat this exact process for all 6 of the wheels. 
+With that the base wheel assembly should be done! Repeat the above three steps for all six of the wheels. 
 
 \end{enumerate}
 
 \subsection{Corner Wheels}
-Now we need to make the four corner wheels, building up off of what was made for the base wheel assemblies. We need to extend the attachment point upwards for the corner wheel, it is important that the axes of the corner motor is directly above the middle of the wheel, so we will need to extend our mechanical attachment to make this possible.
+Now, we need to create the four corner wheels. These build on what we made for the base wheel assemblies in the last step. For the corner motors, we will need to extend the attachment point upwards as it is important that the axes of the corner steering motors are directly above the middle of the wheels to enable smooth steering.
 
 \begin{figure}[H]
 	\centering
@@ -164,7 +163,7 @@ Now we need to make the four corner wheels, building up off of what was made for
 
 
 \begin{enumerate}
-\item \textbf{Channel Attachments 1:} Take the 3 inch channel \textbf{S2}, two channel connectors \textbf{S6}, and screws \textbf{B1} to attach the channels as shown.
+\item \textbf{Channel Attachments 1:} Attach another 3 inch channel \textbf{S2} to your base wheel assembly using two channel connectors \textbf{S6} as shown in Figure \ref{corner wheel step 1}.
 
 \begin{figure}[H]
   \centering
@@ -176,9 +175,10 @@ Now we need to make the four corner wheels, building up off of what was made for
     \includegraphics[width=\textwidth]{"Pictures/Wheels/Corner Wheel Step 2".PNG}
   \end{minipage}
   \caption{Corner Wheel Step 1}
+  \label{corner wheel step 1}
 \end{figure}
 
-\item \textbf{Channel Attachments 2:} Take the 4.5 inch channel \textbf{S4}, two channel connectors \textbf{S6}, and screws \textbf{B1} to attach the channels as shown.
+\item \textbf{Channel Attachments 2:} Attach a 4.5 inch channel \textbf{S4} to the top of the 3 inch channel from the last step using two channel connectors \textbf{S6} and screws \textbf{B1} as shown in Figure \ref{corner wheel step 2}.
 
 \begin{figure}[H]
   \centering
@@ -190,9 +190,10 @@ Now we need to make the four corner wheels, building up off of what was made for
     \includegraphics[width=\textwidth]{"Pictures/Wheels/Corner Wheel Step 4".PNG}
   \end{minipage}
   \caption{Corner Wheel Step 2}
+  \label{corner wheel step 2}
 \end{figure}
 
-\item \textbf{D-Clamping Hub Attachment:} Using screws \textbf{B1} attach the 0.25 Inch Clamping hub \textbf{S12} and the plane bore gear \textbf{S26} to the channel. 
+\item \textbf{D-Clamping Hub Attachment:} Attach the 0.25 Inch clamping hub \textbf{S12} and the plane bore gear \textbf{S26} to the channel using screws \textbf{B1}. 
 
 \begin{figure}[H]
   \centering
@@ -206,7 +207,7 @@ Now we need to make the four corner wheels, building up off of what was made for
   \caption{Corner Wheel Step 3}
 \end{figure}
 
-\item \textbf{Hard stop mount} In order to keep the wheels from spinning too far in either direction we install a physical hard stop in the system. Using standoff \textbf{T3} and screw \textbf{B1} and Loctite \textcolor{red}{Need number for Loctite} attach the hard stop to the channel. Make sure to use the correct mounting hole or it will not line up with the encoder mount/hard stops. 
+\item \textbf{Hard stop mount} In order to keep the wheels from spinning too far in either direction, we will install a physical hard stop in the system. Attach a standoff \textbf{T3} with screw \textbf{B1} and Loctite \textcolor{red}{Need number for Loctite} to the channel as shown in Figure \ref{corner wheel step 3}. This standoff will be our hard stop. Make sure that you use the correct mounting hole or the standoff will not line up with the hard stops on the encoder mount. 
 
 \begin{figure}[H]
   \centering
@@ -218,7 +219,10 @@ Now we need to make the four corner wheels, building up off of what was made for
     \includegraphics[width=\textwidth]{"Pictures/Wheels/Corner Wheel Final".PNG}
   \end{minipage}
   \caption{Corner Wheel Step 3}
+  \label{corner wheel step 3}
 \end{figure}
+
+Repeat the steps in section 2.2 for the 3 other corner wheels.  Once you have 4 corner wheels and 2 of the base wheel assemblies, you are finished with the wheels!
 
 \end{enumerate}
 
