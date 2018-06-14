@@ -1,15 +1,15 @@
-# Project Title
-The Wheel assembly attachs the wheels to the motors and mounts the motors to the rest of the robot chassis
+# Wheel Assembly
+The wheel assembly attaches the wheels to the motors and mounts the motors to the rest of the rocker-bogie suspension system that makes up the robot chassis.
 
 ![Wheels picture](Latex%20Docs/Pictures/Wheels/Wheels%20Title.PNG)
 
 ## Features
   * The flexible wheels allow for high traction as they deform around objects, improving climbing performance
-  * Drive motors speced for high torque in system, trading off speed for improved climbing performance
+  * Drive motors chosen to handle the high torque that the system sees, trading off speed for improved climbing performance
 
 ## Information about module
 
-| Author/Creator            | Eric Junkins       |
+| Author/Creator            | JPL       |
 | --------------            | -------            |
 | Cost without 3D printer   | 518.06             |
 | Cost with 3D printer      | 518.06             |
@@ -22,7 +22,7 @@ The Wheel assembly attachs the wheels to the motors and mounts the motors to the
 
 ## Tools
 
-### Manditory 
+### Mandatory 
   * Drill Press or hand drill
   * Allen Key set
   * Imperial Wrench Set
@@ -30,7 +30,7 @@ The Wheel assembly attachs the wheels to the motors and mounts the motors to the
 ### Optional
   * 3D printer
 
-## Dependancies on Other Modules:
+## Dependencies on Other Modules:
   * None
 
 ## Mechanical Interface/Attachments to Rover:

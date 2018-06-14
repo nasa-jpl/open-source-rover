@@ -1,4 +1,4 @@
-# Project Title
+# Project Title & Description
 
 ## Picture
 
@@ -18,10 +18,10 @@
 
 ## Tools
 
-### Manditory 
+### Mandatory 
 
 ### Optional
 
-## Dependancies on Other Modules:
+## Dependencies on Other Modules:
 
 ## Mechanical Interface/Attachments to Rover:

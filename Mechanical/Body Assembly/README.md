@@ -1,16 +1,17 @@
-# Project Title
+# Main Body
 The body is the housing of all the electronics for the rover. It is the attachment points for the rocker-bogie systems, as well as the differential pivot system.
 
 ![Rover head picture](Latex%20Doc/Pictures/Body/Finished%20Body%201.PNG)
 
 ## Features
-  * Gives passthrough connections for USB ports on Rasberry Pi
+  * Gives passthrough connections for USB ports on Raspberry Pi
+  * Cutouts on the rear of the body give access for voltage monitor and battery for charging
   * Easy attachment point for differential pivot system
-  * Uses actobotics parts to facilitate modularity and ability to change, and add new components easily. 
+  * Uses Actobotics parts to facilitate modularity and ability to change, and add new components easily. 
   
 ## Information about module
 
-| Author/Creator            | Eric Junkins       |
+| Author/Creator            | JPL       |
 | --------------            | -------            |
 | Cost without 3D printer   | 240.38             |
 | Cost with 3D printer      | 240.38             |
@@ -23,7 +24,7 @@ The body is the housing of all the electronics for the rover. It is the attachme
 
 ## Tools
 
-### Manditory 
+### Mandatory 
   * Band saw or Dremel
   * Allen Key set
   * Imperial Wrench Set
@@ -31,7 +32,7 @@ The body is the housing of all the electronics for the rover. It is the attachme
 ### Optional
   * Laser cutter 
 
-## Dependancies on Other Modules:
+## Dependencies on Other Modules:
   * None
 
 ## Mechanical Interface/Attachments to Rover:

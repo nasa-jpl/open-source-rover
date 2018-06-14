@@ -1,16 +1,16 @@
-# Project Title
-The Rocker-Bogie is the suspension system that enables climbing for the rover. The design allows all 6 wheels to be in contact with the ground as much as possible, increasing traction
+# Rocker-Bogie Suspension
+The Rocker-Bogie is the suspension system that enables the rover to climb aggressive obstacles. The design allows all 6 wheels to be in contact with the ground as much as possible, increasing traction.  The suspension system on a typical consumer vehicle can traverse obstacles about half the height of one wheel; the Rocker-Bogie suspension system can traverse obstacles over 2 times the height of the wheel.
 
 ![Rocker-Bogie pic](Latex%20Docs/Pictures/Rocker-Bogie/Rocker%20Bogie%20Title.PNG)
 
 ## Features
-  * Modular link legnths to give the ability to customize rover geometry for climbing
-  * Optimized for climbing in the fowards direction
-  * Added extra support structure to resist bending/twisting about the Bogie joint
+  * Modular link lengths give the ability to customize rover geometry
+  * Optimized for climbing in the forwards direction
+  * Rigid support structure resists lateral bending/twisting about the Bogie joint
 
 ## Information about module
 
-| Author/Creator            | Eric Junkins       |
+| Author/Creator            | JPL       |
 | --------------            | -------            |
 | Cost without 3D printer   | 203.94             |
 | Cost with 3D printer      | 203.94             |
@@ -24,14 +24,14 @@ The Rocker-Bogie is the suspension system that enables climbing for the rover. T
 ## Tools
 * Band Saw/Dremel
 
-### Manditory 
+### Mandatory 
   * Band saw or Dremel
   * Allen Key set
   * Imperial Wrench Set
 
 ### Optional
 
-## Dependancies on Other Modules:
+## Dependencies on Other Modules:
   * None
 
 ## Mechanical Interface/Attachments to Rover:

@@ -1,16 +1,16 @@
-# Project Title
-The Corner Steering system gives attachment points for coner motors used in Ackerman steering method of driving the rover
+# Corner Steering
+The Corner Steering system gives attachment points for corner motors that we use to steer the rover.
 
 ![Corner steering pic](Latex%20Docs/Pictures/CornerSt%20Step%207.PNG)
 
 ## Features
-  * Uses absolute encoders to track position of corners without having to recalibrate every time
-  * Mechanically isolates the motor from moments/loads, keeping motor gearbox safe
-  * 3D printed pieces to help with calibration and provide with physical limit on corner movement 
+  * Absolute encoders track the position of corners without having to recalibrate every time the rover reboots
+  * Mechanically isolates the motor from moments/loads, keeping the motor gearbox more safe
+  * Custom 3D printed pieces help with calibration and provide a physical limit on corner movement
 
 ## Information about module
 
-| Author/Creator            | Eric Junkins       |
+| Author/Creator            | JPL       |
 | --------------            | -------            |
 | Cost without 3D printer   | 516.14             |
 | Cost with 3D printer      | 464.54             |
@@ -23,7 +23,7 @@ The Corner Steering system gives attachment points for coner motors used in Acke
 
 ## Tools
 
-### Manditory 
+### Mandatory 
   * Band saw or Dremel
   * Clamps
   * Allen Key set
@@ -32,7 +32,7 @@ The Corner Steering system gives attachment points for coner motors used in Acke
 ### Optional 
   * 3D printer
 
-## Dependancies on Other Modules:
+## Dependencies on Other Modules:
   * None
 
 ## Mechanical Interface/Attachments to Rover:

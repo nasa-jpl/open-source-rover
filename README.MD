@@ -1,12 +1,12 @@
 # JPL Open Source Rover Project
-The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get invovled in mechanical engineering, software, electronics, or robotics.
+The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
 
 ![6 Wheel Rover](images/rover.png)
 
 ## About the Project
 
 ### Motivation
-JPL is always looking to inspire the next generation of sceientists, engineers, and roboticists to help us explore and learn about our solar system and beyond. We release the plans for this rover as a way to try and give budding enthusiasts a fun robotics project that will help teach them and get them involved in robotics sooner and at a lower cost. 
+JPL is always looking to inspire the next generation of scientists, engineers, and roboticists to help us explore and learn about our solar system (and beyond!). We release the plans for this rover as a way to try and give budding enthusiasts a fun robotics project that will help teach them and get them involved in robotics sooner and at a lower cost. 
 
 ### Specifications & Technical Attributes
 
@@ -22,14 +22,14 @@ The specific attributes of the robot you build will depend slightly on the type 
 | Operating time | 5 [hrs] (continual use) |
 | Max speed | 6.7 [in/s] |
 | Maximum 90 deg vertical scale | 12 [in] | 
-| Maximum height differntial between sides | 14 [in] |
+| Maximum height differential between sides | 14 [in] |
 | Communication (in this guide) | Bluetooth app (Android only) and Xbox Controller|
 
 Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [Motor selection sheet](https://www.pololu.com/category/115/25d-mm-metal-gearmotors), where any of the 12V motors would work easily in the robot.  Note, however, that it is important to also asses the electrical current draw and make sure that all the electronics and battery can supply the power required for any change in motors.
 
 ### Feautres
 This rover is designed to function similarly to the 6 wheel rover designs on Mars and employs a few of the major driving mechanics that the mars rovers use to traverse rocky surfaces:
- * __Rocker-Bogie:__ The Rocker-Bogie suspension system allows all 6 wheels to continually be in contact with the ground while climibing over obstacles
+ * __Rocker-Bogie:__ The Rocker-Bogie suspension system allows all 6 wheels to continually be in contact with the ground while climbing over obstacles
  * __Differential Pivot:__ Allows weight to be mechanically offloaded from one side of the rover to the other while climbing
  * __6-Wheel Ackerman Steering:__ Driving and steering/turning mechanism that governs where the wheels point and how fast each of them will move.
 
@@ -54,13 +54,13 @@ In addition to this repository which holds all the documentation for this projec
 
 https://opensourcerover.jpl.nasa.gov
 
-There is also a user-run forum to help faciliate discussion about the project. **__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__**  On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted on the forum so that this project and community can grow.
+There is also a user-run forum to help facilitate discussion about the project. **__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__**  On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted on the forum so that this project and community can grow.
 
 http://s15.zetaboards.com/JPL_OpenSource_Rover/index/
 
 
 ### Skills Necessary
-This project has elements in mechanical assembly/fabrication, uses a host of electrical componenets, and has software that will run it all. In order to complete this project, you will need to have some experience in the following:
+This project has elements in mechanical assembly/fabrication, uses a host of electrical components, and has software that will run it all. In order to complete this project, you will need to have some experience in the following:
  * __Fabrication/Machining:__ Although most the parts are COTS there are a few modifications necessary to adapt them to the project. These modifications will be in the form of 
    * Metal cutting using band saw/dremel
    * Drilling using drill press/hand drill
@@ -72,8 +72,8 @@ This project has elements in mechanical assembly/fabrication, uses a host of ele
    * Wiring
    * Electrical Safety
  * __Software:__ The rover's brain is a Raspberry Pi.  Included in this repository is all the software ready to run the rover, but some  knowledge is required for getting everything up and ready on the Raspberry Pi:
-   * Basic Linux fimilarity
-   * Basic Python fimilarity
+   * Basic Linux familarity
+   * Basic Python familarity
 
 Most of the above are skills that you can learn and pick up fairly quickly from watching vidoes and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well.  See the build documents for more information.
 
@@ -128,11 +128,11 @@ There are a few single purpose circuit boards that were designed for this projec
 Above is an example roadmap of how you can build the rover and which parts of the build are dependant on the other sections. It is broken down into 5 stages:
  * __Stage 1:__ Start getting all the parts!  
  
- * __Stage 2:__ Once you have all the parts, everything in stage 2 is completely parallelizable. It is *highly* recommended to start on the electrical testing of components outside the robot before doing any electrical work inside the completed robot body. You can also work on the software at any stage between here and the end.
+ * __Stage 2:__ Once you have all the parts, everything in stage 2 can be completed in parallel. It is *highly* recommended to start on the electrical testing of components outside the robot before doing any electrical work inside the completed robot body. You can also work on the software at any stage between here and the end.
 
  * __Stage 3:__ During stage 3, the mechanical subassemblies should all be assembled and start to be integrated together.  There should be some amount of testing done on the electrical system, as well as some progress on the software. 
 
- * __Stage 4:__ The rover is mechanically built and all subassemblies integrated together.  During stage 4, you begin the integration of the electrical components and the various power and data wires that run throughought the rover.
+ * __Stage 4:__ The rover is mechanically built and all subassemblies integrated together.  During stage 4, you begin the integration of the electrical components and the various power and data wires that run throughout the rover.
 
  * __Stage 5:__ Once the electronics are all powered and communicating, you need to test and calibrate all the motors in the system.
 
@@ -141,7 +141,7 @@ Above is an example roadmap of how you can build the rover and which parts of th
  * __Stage 7:__ Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.
 
  ## Happy building!!
- If you have any questions or run into problems during your build, please search for answers and reach out on the [forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/).
+ If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/).
 
  ## Project Team
  ### Project Lead:
@@ -149,7 +149,7 @@ Above is an example roadmap of how you can build the rover and which parts of th
  ### Development Team:
  Eric Junkins and Olivia Lofaro
  ### Special Thanks To:
- Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Molly Bittner, Christine Fuller, Billy Allen and Charles Dandino
+ Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
 
-## Disclaimer
-[Disclaimer](DISCLAIMER.txt)
+# Disclaimer
+**By downloading, cloning, or otherwise using the contents of this repository, you agree to the terms specified in the attached [DISCLAIMER.txt file](/DISCLAIMER.txt).**

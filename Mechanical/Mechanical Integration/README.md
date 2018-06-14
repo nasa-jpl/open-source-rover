@@ -1,14 +1,14 @@
-# Project Title
-This is the final mechanical integration of all subassemblies for the rover. This is specifically to put together all of the base subassemblies.
+# Mechanical Integration
+This is the final mechanical integration of all of the other subassemblies to create the final rover.
 
 ![Mechanical Integration](Latex%20Docs/Pictures/Final%20Title.PNG)
 
 ## Features
-  * With only the addition of a very few number of components all subassemblies can be combined together
+  * All subassemblies can be combined together with the addition of very few additional components.
 
 ## Information about module
 
-| Author/Creator            | Eric Junkins       |
+| Author/Creator            | JPL       |
 | --------------            | -------            |
 | Cost without 3D printer   | 56.58              |
 | Cost with 3D printer      | 56.58              |
@@ -20,13 +20,13 @@ This is the final mechanical integration of all subassemblies for the rover. Thi
 
 ## Tools
 
-### Manditory 
+### Mandatory 
   * Allen Key set
   * Imperial Wrench Set
 
 ### Optional
 
-## Dependancies on Other Modules:
+## Dependencies on Other Modules:
 
 ## Mechanical Interface/Attachments to Rover:
   

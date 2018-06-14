@@ -1,16 +1,16 @@
-# Project Title
-This is the base version of the head for ____. It is to house a 16x32 fully programmable 7 color LED matrix used for a display. 
+# Head Assembly
+The head assembly serves as the head and face of our rover. It houses a 16x32 fully programmable 7 color LED matrix which we use as a display. The head can be used to show different faces and give your robot a personality, or even to show status and metrics about your rover (power, controller connectivity, battery level, etc)!
 
 ![Head picture](Latex%20Docs/Pictures/Head%20final.PNG)
 
 ## Features
-  * Ease of assembly using 3D printed components, designed to be mouldar and printed seperately and fit together.
-  * Fully programmable LED matrix for display
-  * Use of Custom PCB to handle digital signal level switching between Raspberry Pi and LED matrix
+  * 3D printed components allows easy assembly; the housing was designed to be modular and printed separately, then fit together.
+  * Fully programmable 7-color LED matrix
+  * Custom PCB handles the switching the digital signal level between the Raspberry Pi and the LED matrix
 
 ## Information about module
 
-| Author/Creator            |  Eric Junkins  |
+| Author/Creator            |  JPL  |
 | --------------            | ---------------|
 | Cost without 3D printer   | 120.29         |
 | Cost with 3D printer      | 44.49          |
@@ -20,7 +20,7 @@ This is the base version of the head for ____. It is to house a 16x32 fully prog
 
 ## Tools
 
-### Manditory
+### Mandatory
   * Allen Key set
   * Imperial Wrench Set
   * Solder Iron
@@ -29,7 +29,7 @@ This is the base version of the head for ____. It is to house a 16x32 fully prog
 ### Optional
   * 3D printer
 
-## Dependancies:
+## Dependencies:
   * Custom PCB "Logic Shifter" in base electronics parts
 
 ## Mechanical Interface/Attachments:
