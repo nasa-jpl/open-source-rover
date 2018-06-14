@@ -29,7 +29,7 @@
 \begin{document}
 
 \title{Open Source Rover: Software Controls}
-\author{Author: Eric Junkins, Michael Cox}
+\author{Authors: Michael Cox, Eric Junkins, Olivia Lofaro}
 
 \makeatletter         
 \def\@maketitle{
@@ -98,7 +98,7 @@ Let's go step-by-step though how to calculate the speed of each of the drive whe
 	\label{r2}
 \end{figure}
 
-\noindent Next, we examine how to distribute speed to the other wheels. We will make use of arclengths of the circles the wheels turn about which is given by the relation in Equation \ref{eq1}:
+\noindent Next, we examine how to distribute speed to the other wheels. We will make use of arc lengths of the circles the wheels turn about which is given by the relation in Equation \ref{eq1}:
 
 \begin{equation}
 	S = R  \theta
@@ -108,11 +108,11 @@ Let's go step-by-step though how to calculate the speed of each of the drive whe
 \begin{figure}[H]
  	\centering
 	\includegraphics[width=.55\textwidth]{"Pictures/rover5".PNG}
- 	\caption{Arclengths of driving curves}
+ 	\caption{Arc lengths of driving curves}
 	\label{r3}
 \end{figure}
 
-\noindent In order for the entire rover to drive cohesively each wheel must travel the same number of degrees from Equation \ref{eq1} in the same time, so we can solve for the relation between each of the wheels now. (In the equations below, $\theta$ is the angle that the wheel traverses, S is the arclength that the wheel travels, and R is the radius or distance from the wheel to the turning point)
+\noindent In order for the entire rover to drive cohesively each wheel must travel the same number of degrees from Equation \ref{eq1} in the same time, so we can solve for the relation between each of the wheels now. (In the equations below, $\theta$ is the angle that the wheel traverses, S is the arc length that the wheel travels, and R is the radius or distance from the wheel to the turning point)
 
 \begin{equation}
 	\textcolor{ForestGreen}{\theta_1 = \frac{S_1}{R_1}} \qquad \textcolor{red}{\theta_2 = \frac{S_2}{R_2}}

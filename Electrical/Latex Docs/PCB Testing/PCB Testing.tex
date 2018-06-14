@@ -46,7 +46,7 @@
 \begin{document}
 
 \title{Open Source Rover: PCB Testing}
-\author{Author: Eric Junkins, Michael Cox}
+\author{Authors: Michael Cox, Eric Junkins, Olivia Lofaro}
 
 \makeatletter         
 \def\@maketitle{
@@ -303,7 +303,6 @@ The board will come initially unpopulated of components and will look like this:
     		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls3".png}
   	\end{minipage}
 	\caption{Populating the board}
-	\label{ls2}
 \end{figure}
 
 	\item Now, you will need to run connections to the board from the Raspberry Pi. Figure \ref{ls sch} shows which pins on the board are connected to which pin on the Raspberry Pi, with the exception of the purple wire, which will be using to test the signals and drive it from the 3.3V DC power pin on the Raspberry Pi. Figure \ref{ls4} shows which of these we will need to start connecting the board to test.
@@ -337,8 +336,7 @@ The board will come initially unpopulated of components and will look like this:
   	\begin{minipage}[b]{0.45\textwidth}
     		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls5".png}
   	\end{minipage}
-	\caption{Populating the board}
-	\label{ls2}
+	\caption{Testing the board}
 \end{figure}
 
 	\item We want to make sure we set the direction to flow from bus B (right side of chip) to bus A (left side of chip), which means that both the DIR and the OE pins should be low, 0V
@@ -359,8 +357,7 @@ The board will come initially unpopulated of components and will look like this:
   	\begin{minipage}[b]{0.45\textwidth}
     		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls7".png}
   	\end{minipage}
-	\caption{Populating the board}
-	\label{ls2}
+	\caption{Testing the board}
 \end{figure}
 
 	\item Now we can test the signal. Starting with the 3.3V plugged into the GPIO 2 pin (3rd pin down on the P1 set of headers) test the input pin on the chip; it should read 3.3V. Then test the output; it should read 5V.
@@ -374,7 +371,7 @@ The board will come initially unpopulated of components and will look like this:
   	\begin{minipage}[b]{0.45\textwidth}
     		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls9".png}
   	\end{minipage}
-	\caption{Populating the board}
+	\caption{Testing the board}
 	\label{ls2}
 \end{figure}
 
@@ -389,8 +386,7 @@ The board will come initially unpopulated of components and will look like this:
   	\begin{minipage}[b]{0.45\textwidth}
     		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls11".png}
   	\end{minipage}
-	\caption{Populating the board}
-	\label{ls2}
+	\caption{Testing the board}
 \end{figure}
 
 \end{enumerate}
