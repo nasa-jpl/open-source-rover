@@ -29,7 +29,7 @@
 \begin{document}
 
 \title{Open Source Rover: Software Controls}
-\author{Author: Eric Junkins}
+\author{Author: Eric Junkins, Michael Cox}
 
 \makeatletter         
 \def\@maketitle{
@@ -43,9 +43,7 @@
 
 \maketitle
 
-\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology.}
-
-\noindent {\footnotesize \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged}
+\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged.}
 
 % Introduction
 \newpage
@@ -57,10 +55,10 @@
 
 \section{Control System}
 
-There are two systems we have to look at when designing the controls mechanics for the rover. One is how fast each of the drive motors must move, and the other is where each of the corners need to point in order for the rover to be able to make turns. 
+There are two main issues we need to address when designing the control mechanics for the rover. One is the direction that each of the corner wheels needs to point in order for the rover to be able to turn correctly. The other is how fast each of the individual drive motors needs to spin (it's not the same speed at each wheel when the rover is turning!). 
 
 \subsection{Drive Motor calculations}
-The 6 wheel rover design employs Ackerman steering, which can be seen in Figure \ref{Ackerman}. The rover steers about a point which lies on the line that passes through the two center wheels as they are both fixed. All 6 wheels are lie perpendicular to the vector from that point to the corner wheel, which we can see causes a more drastic angle in steering for the wheels closer to the point than further away. 
+The 6 wheel rover design employs Ackerman steering, which can be seen in Figure \ref{Ackerman}. The rover steers about a point which lies on the line that passes through the two center wheels. All 6 wheels need to align their center axis towards the point around which the rover will turn. Notice that we observe a more drastic steering angle for the wheels closer to that point than for the wheels that are further away. 
 
 \begin{figure}[H]
  	\centering
@@ -69,7 +67,7 @@ The 6 wheel rover design employs Ackerman steering, which can be seen in Figure 
 	\label{Ackerman}
 \end{figure}
 
-Lets go step by step though how to calculate the speed of each of the drive wheels. To start we will look at the rover which will be turning about a point P at radius r, shows in Figure \ref{r1}
+Let's go step-by-step though how to calculate the speed of each of the drive wheels. To start, we will look at the rover which will be turning about a point P at radius r, shown in Figure \ref{r1}
 
 
 \begin{figure}[H]
@@ -81,11 +79,11 @@ Lets go step by step though how to calculate the speed of each of the drive whee
   	\begin{minipage}[b]{0.45\textwidth}
     		\includegraphics[width=\textwidth]{"Pictures/rover2".png}
   	\end{minipage}
-  	\caption{Rover turning about point p}
+  	\caption{Rover turning about point P}
 	\label{r1}
 \end{figure}
 
-\noindent From the controller we will send a signal for the rover to drive forward. Lets call that speed X, and assume we sent a speed of 100. By convention this will send tell the middle of the rover it should move at the max speed of 100. If however we are turning the wheels will need to distribute that speed differently to each wheel. In order for the middle of the rover to move at it's max speed we will distribute the max speed to the furthest out wheel, in this case that is wheel \#2 (it will always be the middle wheel furthest from the turning point). So we now choose that the speed 100 is distributed to wheel 2 shows in Figure \ref{r2}.  
+\noindent We start by sending a signal from the controller for the rover to drive forward. Let's call the speed at which it drives X (for now, we set X to its maximum value of 100). By convention, this will tell the middle of the rover that it should move forwards at the max speed of 100. However, if the rover is turning, each wheel will need to spin at a slightly different rate to avoid slipping or "scrubbing". Because no wheel can spin faster than speed 100 and because the wheels have differing distances they must travel along their arcs during the turn, we send the max speed of 100 to the wheel furthest away from the point we are turning around. In the case above, this is wheel \#2. Therefore, we now set wheel \#2 to spin at speed 100 as shown in Figure \ref{r2}.  
 
 \begin{figure}[H]
  	\centering
@@ -96,11 +94,11 @@ Lets go step by step though how to calculate the speed of each of the drive whee
   	\begin{minipage}[b]{0.45\textwidth}
     		\includegraphics[width=\textwidth]{"Pictures/rover4".png}
   	\end{minipage}
-  	\caption{Rover distributing speed to fastest wheel}
+  	\caption{Rover distributing speed to fastest/furthest wheel}
 	\label{r2}
 \end{figure}
 
-\noindent Now we look at how to distribute speed to the other wheels. We will make use of arclengths of the circles the wheels turn about, and the relation in Equation \ref{eq1}
+\noindent Next, we examine how to distribute speed to the other wheels. We will make use of arclengths of the circles the wheels turn about which is given by the relation in Equation \ref{eq1}:
 
 \begin{equation}
 	S = R  \theta
@@ -114,7 +112,7 @@ Lets go step by step though how to calculate the speed of each of the drive whee
 	\label{r3}
 \end{figure}
 
-\noindent In order for the entire rover to drive cohesively each wheel must travel the same number of degrees from Equation \ref{eq1} in the same time, so we can solve for the relation between each of the wheels now.
+\noindent In order for the entire rover to drive cohesively each wheel must travel the same number of degrees from Equation \ref{eq1} in the same time, so we can solve for the relation between each of the wheels now. (In the equations below, $\theta$ is the angle that the wheel traverses, S is the arclength that the wheel travels, and R is the radius or distance from the wheel to the turning point)
 
 \begin{equation}
 	\textcolor{ForestGreen}{\theta_1 = \frac{S_1}{R_1}} \qquad \textcolor{red}{\theta_2 = \frac{S_2}{R_2}}
@@ -125,7 +123,7 @@ Lets go step by step though how to calculate the speed of each of the drive whee
 	\label{eq2}
 \end{equation}
 
-\noindent From Equation \ref{eq2} we can see that the ratio of the distance traveled, and thus the speed necessary, of each of the wheels is going to be given by the ratio of the radius of the arc each wheel is turning about. The last step is to figure out the radius of each arc. 
+\noindent From Equation \ref{eq2} we can see that the ratio of the distance traveled (and thus the speed) of each of the wheels is going to be given by the ratio of the radius of the arc that each wheel is turning about. The last step is to figure out the radius of that arc for each wheel. 
 
 \begin{figure}[H]
  	\centering
@@ -145,14 +143,14 @@ Lets go step by step though how to calculate the speed of each of the drive whee
 	\label{eq3}
 \end{equation}
 
-\noindent These distances $d_1$, and $d_3$ are geometric relations based on the mechanical lengths of the robot itself. Putting this all together lets look at an example speed and turning distance. 
+\noindent The distances $d_1$, and $d_3$ are geometric relations based on the mechanical lengths of the robot itself. Putting this all together, let's look at an example of calculating speed and turning distance. 
 \begin{centering}
 \begin{tabular}[2]{|c|c|}
 	\hline
 	\textbf{Variable} & \textbf{Physical description} \\ \hline
 	$d_1$ & Horizontal distance between middle of rover and the corner wheels \\ \hline
-	$d_2$ & Verticle distance between the middle of rover and back corner wheels \\ \hline
-	$d_3$ & Verticle distance between the middle of the rover and the front corner wheels \\ \hline
+	$d_2$ & Vertical distance between the middle of rover and back corner wheels \\ \hline
+	$d_3$ & Vertical distance between the middle of the rover and the front corner wheels \\ \hline
 	$d_4$ & Horizontal distance between the middle of the rover and the center wheels \\ \hline
 \end{tabular}
 
@@ -164,12 +162,12 @@ Lets go step by step though how to calculate the speed of each of the drive whee
 \end{figure}
 
 \end{centering}
-\noindent For the base model of the Rover the distances are as follows \footnote{If you change aspects such as distances between wheels in the rover you will need to update these in the code as well}:
+\noindent For the version of the rover described in the build documents, the distances are as follows\footnote{If you change the rover's geometry (such as distances between wheels) you will need to update these values in the code as well!}:
 \begin{equation}
 	d_1 = 7.254 in \qquad d_2 = d_3 = 10.5 in \qquad d_4 = 10.073 in
 \end{equation}
 
-\noindent For this example we will have a controller signal of max speed, being 100, and a turning radius of 30 inches (by convention the positive turning radius is turning to the right and negative is turning to the left), depicted by Figure \ref{r6}
+\noindent For this example, we will have a controller signal of max speed (100), and a turning radius of 30 inches (by convention the positive turning radius is turning to the right and negative is turning to the left), as shown in Figure \ref{r6}:
 
 \begin{equation}
 	r = 30 in \qquad X = 100 
@@ -183,7 +181,7 @@ Lets go step by step though how to calculate the speed of each of the drive whee
 \end{figure}
 
 
-\noindent Using Equations \ref{eq2} and  \ref{eq3} we get the following relations for the speed distribution. We subsititue Equation \ref{eq3} into \ref{eq2}, which solves for the arc length distance. This is analagous to the speed of each wheel, as speed is just the $speed = \frac{distance}{time}$. 
+\noindent Using Equations \ref{eq2} and  \ref{eq3} we get the following relations for the speed distribution. We substitute Equation \ref{eq3} into \ref{eq2}, which solves for the arc length distance. This is analogous to the speed of each wheel, as speed is just $speed = \frac{distance}{time}$.  We denote speed with V (for velocity), and we now have:
 
 \begin{equation}
 	\textcolor{ForestGreen}{V_1} = X \frac{\textcolor{ForestGreen}{R_1}}{\textcolor{red}{R_2}} \qquad = X \frac{\textcolor{ForestGreen}{\sqrt{d_3^2 + (d_1 + r)^2}}}{\textcolor{red}{r + d_4}}
@@ -209,7 +207,7 @@ Lets go step by step though how to calculate the speed of each of the drive whee
 	\textcolor{Plum}{V_6} = X \frac{\textcolor{Plum}{R_6}}{\textcolor{red}{R_2}} \qquad = X \frac{\textcolor{Plum}{\sqrt{d_2^2 + (r-d_1)^2}}}{\textcolor{red}{r + d_4}}
 \end{equation}
 
-\noindent Substituting in the values of the speed X and distances it leads to the motors spinning at the following speed \% (out of 100).
+\noindent Substituting in the values for the speed X and the various distances, we obtain the following values for the motor speeds:
 
 \bigskip
 
@@ -232,11 +230,11 @@ Lets go step by step though how to calculate the speed of each of the drive whee
 
 \end{centering}
 \bigskip 
-\noindent We can see that at a small turning radius such as 30 inches we will see a drastic difference between the motor speeds. As the turning radius increases we will see less and less difference between the speeds, up until the point where the calculated turning radius is 250 inches or greater. This is the point in which the encoders on the corners no longer have spacial resolution to differentiate between 1 \degree and 0 \degree and thus we say that anything above a turning radius of 250 inches is not turning at all and it gives all motors the same speed. 
+\noindent We can see that at a small turning radius like 30 inches, we will see a drastic difference between the motor speeds. As the turning radius increases, we will see less and less difference between the speeds.  This is the case up until the point where the calculated turning radius is 250 inches or greater; 250 inches is the point at which the encoders on the corners no longer have the resolution to differentiate between 1\degree\ and 0\degree\ and thus we say that anything above a turning radius of 250 inches is not turning at all and we give all motors the same speed.
 
 \subsection{Corner Motor Positions}
 
-The rover will take input from the controller which will be in the range of -100 to 100 inclusive. This is the percent of turning radius the wheels should be at, with negative numbers turning to the left, positive numbers to the right, and the higher the magnitude the number the tighter turning radius, ie. -100 means the tightest turn possible to the left side. This "tightest" turning radius is determined by a combination of the geometric distances of the rover as well as the physical hard stop limitations of the corner motors. Each of the corner motor is allowed to turn up to 45 degrees before hitting a physical hard stop, shows in Figure \ref{r7}.
+To signal turning, the rover will take values from the controller from -100 to 100. This value represents the percentage of the minimum (tightest) turning radius that the wheels can handle, with negative numbers turning to the left and positive numbers to the right. The higher the magnitude of the number, the tighter turning radius, i.e. -100 means the tightest turn possible to the left, 0 means straight ahead, and 100 means the tightest turn possible to the right. This "tightest" turning radius is determined by a combination of the geometric distances of the rover as well as the physical hard stop limitations of the corner motors. In our system, each of the corner motor is allowed to turn up to 45 degrees before hitting a physical hard stop, as shown in Figure \ref{r7}.
 
 \begin{figure}[H]
  	\centering
@@ -251,7 +249,7 @@ The rover will take input from the controller which will be in the range of -100
 	\label{r7}
 \end{figure}
 
-\noindent In order to figure out the tightest turning radius we will need to solve for the closest point the corner wheel can be perpendicular to at its 45\degree limitation in Figure \ref{r8}.
+\noindent In order to figure out the tightest turning radius, we need to solve for the closest place along the rover's center axis that the corner wheel can point given its 45\degree\ limitation. This is shown in Figure \ref{r8}:
 
 \begin{figure}[H]
  	\centering
@@ -280,12 +278,12 @@ The rover will take input from the controller which will be in the range of -100
 	r_{min} = 17.754 inches
 \end{equation}
 
-\noindent Here we can see that the minimum turning radius to each side will be at 17.754 inches. In order to not push the system to the physical hard stops in the software it is set to be at 20 inches to either side. As mentioned before the "minimum" turning radius is at 250 inches to either side, as this is the location in which the encoder no longer can differentiate between it being at 0\degree and 1\degree. In order to calculate what target angle each corner should be at given the turning radius input from the controller we will work backwards through Equation \ref{eq4}.
+\noindent Plugging in the distance values from our physical robot, we see that the minimum turning radius to each side will be at 17.754 inches. In order to not push the system to the physical hard stops when it turns, we therefore set the minimum radius to be at 20 inches to either side. As mentioned before, the "maximum" turning radius is at 250 inches to either side, as this is the location in which the encoder no longer can differentiate between it being at 0\degree\ and 1\degree . In order to calculate what target angle each corner should be at given the turning radius input from the controller, we take Equation \ref{eq4} and solve for $\theta$:
 \begin{equation}
 	tan(\textcolor{blue}{\theta}) = \frac{\textcolor{orange}{d_3}}{\textcolor{ForestGreen}{x}} \qquad \textcolor{blue}{\theta} = tan^{-1}(\frac{\textcolor{orange}{d_3}}{R - \textcolor{red}{d_1}})
 \end{equation}
 
-\noindent Where R is the input turning radius from the controller. 
+\noindent Where R is the physical turning radius of the rover (but remember that the values from the controller are given as a percentage of the range of the possible turning radii for the rover). 
 
 
 
