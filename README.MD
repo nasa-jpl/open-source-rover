@@ -101,6 +101,9 @@ This project assumes you have some standard tools to help assemble the project. 
 ### Expected time commitment
 In our experience, this project takes no less than 200 person-hours to build, and depending on the fimilarity and skill level of those involved could be significantly more. Experienced builders may be able to build this project in this amount of time.  However, this project is generally meant to be a teaching and learning tool.  Throughout the documentation, we try to give supplemental information for those who might be new to this kind of project.
 
+# Disclaimer
+**By downloading, cloning, or otherwise using the contents of this repository, you agree to the terms specified in the attached [DISCLAIMER.txt file](/DISCLAIMER.txt).**
+
 ## Getting Started
 
 ### Folder organization
@@ -150,6 +153,3 @@ Above is an example roadmap of how you can build the rover and which parts of th
  Eric Junkins and Olivia Lofaro
  ### Special Thanks To:
  Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
-
-# Disclaimer
-**By downloading, cloning, or otherwise using the contents of this repository, you agree to the terms specified in the attached [DISCLAIMER.txt file](/DISCLAIMER.txt).**
