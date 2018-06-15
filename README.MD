@@ -119,11 +119,17 @@ The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts neces
 In order to help this ordering process we have compiled a few links of a large number of these together already, if you wish to build exactly what is in our build documentation.
 
 [McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)
+
 [Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wf)
+
 [Pololu](https://www.pololu.com/wishlist/1J10814)
+
 [Digikey]()
+
 [Adafruit]()
+
 [ServoCity]()
+
 
 
 #### 3D printing and Laser cutting
