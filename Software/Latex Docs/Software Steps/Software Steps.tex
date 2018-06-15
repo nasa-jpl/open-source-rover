@@ -71,36 +71,8 @@ On the Raspberry Pi, open up a terminal \textbf{(ctl + alt + t)} and then type t
 
 \begin{itemize}
 	\item[] \colorbox{lightgray}{cd /home/pi}
-	\item[] \colorbox{lightgray}{git clone https://github.jpl.nasa.gov/ejunkins/osr\_rover\_code}
-	\item[] \textcolor{red}{THIS LINK TO CHANGE UPON RELEASE}
+	\item[] \colorbox{lightgray}{git clone https://github.com/nasa-jpl/osr-rover-code}
 \end{itemize}
-
-%For instructions on getting the raspberry pi OS downloaded and installed visit the following link:
-%
-%\begin{itemize}
-%	\item \href{https://www.raspberrypi.org/documentation/installation/noobs.md}{https://www.raspberrypi.org/documentation/installation/noobs.md}
-%\end{itemize}
-%
-%\subsubsection{Getting the Rover code:}
-%\textcolor{red}{The following are the instructions on how to get the rover code for the beta groups, this will change for the final release}. 
-%\begin{itemize}
-%	\item Download id\_rsa text file from the google drive, and move it to ~/.ssh on 
-%	\begin{itemize}
-%		\item On a Raspberry pi open up a terminal (ctrl + alt + t) and type: 
-%		\item cp ~/home/pi/Downloads/id\_rsa ~/.ssh	
-%	\end{itemize}
-%	\item Open up a terminal (ctrl + alt + t) and type the following commands:
-%	\begin{itemize}
-%		\item cd ~/home/pi/Desktop
-%		\item mkdir osr
-%		\item cd osr
-%		\item git init
-%		\item git pull git@github.com:ericjunkins/OSR.git
-%		\item if prompted type "yes"
-%		\item Passkey is: rover
-%	\end{itemize}
-%
-%\end{itemize}
 
 \subsubsection{Installing packages}
 Run each of the commands below to install the packages you will need to use Bluetooth communication on the Raspberry Pi. Open up a terminal on the Raspberry Pi  and type the following commands:
@@ -228,8 +200,7 @@ Android Studio provides lots of support information and forums to help you insta
 \noindent To get the source code for the Android app, you can navigate to the following URL on your laptop/desktop:
 
 \begin{itemize}
-	\item[] \href{https://github.jpl.nasa.gov/ejunkins/osr_android_app}{https://github.jpl.nasa.gov/ejunkins/osr\_android\_app}
-	\item[] \textcolor{red}{THIS LINK TO CHANGE UPON RELEASE TO FINAL LINK LOCATION}
+	\item[] \href{https://github.com/nasa-jpl/osr-android-app}{https://github.com/nasa-jpl/osr-android-app}
 \end{itemize}
 
 \noindent and under the Clone or Download button click Download ZIP and extract the files in that manner. 
@@ -237,8 +208,7 @@ Android Studio provides lots of support information and forums to help you insta
 If you wish, you can instead run the following command FROM YOUR LAPTOP/DESKTOP in a terminal from the location on your laptop/desktop where you want to have the source code:
 
 \begin{itemize}
-	\item[] \colorbox{lightgray}{git clone https://github.jpl.nasa.gov/ejunkins/osr\_android\_app}
-	\item[] \textcolor{red}{THIS LINK TO CHANGE UPON RELEASE TO FINAL LINK LOCATION}
+	\item[] \colorbox{lightgray}{git clone https://github.com/nasa-jpl/osr-android-app}
 \end{itemize}
 
 \bigskip
@@ -311,7 +281,7 @@ In this project we will be using serial communication to talk to the motor contr
 \begin{itemize}
 	\item[] \colorbox{lightgray}{ls -l /dev/serial*}
 \end{itemize}
-Make sure that this shows serial0 -$>$ ttyS0 . Next, edit the /boot/cmdline.txt file:
+Make sure that this shows serial0 -$>$ ttyS0 . If it does not then follow the above steps again making sure to select the correct settings at each step. Next, edit the /boot/cmdline.txt file:
 \begin{itemize}
 	\item [] \colorbox{lightgray}{sudo nano /boot/cmdline.txt}
 \end{itemize}

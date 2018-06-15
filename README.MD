@@ -115,7 +115,16 @@ The main /osr/ folder contains all of the documentation and information necessar
 #### Parts Lists
 The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts necessary to build the entirety of the robot as it is listed in our documentation. We recognize that you may want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary __only for that section__.  Be sure to assess the quantities you need for common items (particularly screws, nuts, bolts, and other common hardware) if you are changing subassemblies.*
 
-__Need information on cart share etc here__
+##### Cart Share
+In order to help this ordering process we have compiled a few links of a large number of these together already, if you wish to build exactly what is in our build documentation.
+
+[McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)
+[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wf)
+[Pololu](https://www.pololu.com/wishlist/1J10814)
+[Digikey]()
+[Adafruit]()
+[ServoCity]()
+
 
 #### 3D printing and Laser cutting
 
