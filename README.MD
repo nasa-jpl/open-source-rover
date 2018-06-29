@@ -124,12 +124,9 @@ In order to help this ordering process we have compiled a few links of a large n
 
 [Pololu](https://www.pololu.com/wishlist/1J10814)
 
-[Digikey]()
+[Digikey](https://www.digikey.com/BOM/View/Index/7594245)
 
-[Adafruit]()
-
-[ServoCity]()
-
+[Adafruit](https://www.adafruit.com/wishlists/460400)
 
 
 #### 3D printing and Laser cutting
