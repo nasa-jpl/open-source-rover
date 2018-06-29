@@ -122,7 +122,7 @@ In order to help this ordering process we have compiled a few links of a large n
 
 [Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wf)
 
-[Pololu](https://www.pololu.com/wishlist/1J10814)
+[Pololu](https://www.pololu.com/wishlist/1J10953)
 
 [Digikey](https://www.digikey.com/BOM/View/Index/7594245)
 
