@@ -164,21 +164,85 @@ Figure \ref{vd pinout1} shows how the pins are labeled and should aid in debuggi
 
 
 \begin{enumerate}
-	\item The board will come unpopulated and will look like the board in Figure \ref{}. First, solder all of the header pins, resistors, and op amp chips into the board. 
-
-\textcolor{red}{THIS SECTION NEEDS PICTURES ADDED FOR PIN-OUT DEBUGGING. WILL BE ADDED ONCE WE GET THEM FROM SANTA SUSANA}
-\mybox{
-Make sure that the OP-amp is facing the correct direction, there is a half moon on the top of the chip as well as on the silk screen on the board. 
-}
-	\item Once soldered the board should look like Figure \ref{}
+	\item The board will come unpopulated, first, solder all of the header pins, resistors, and op amp chips into the board. Make sure that the OP-amp is facing the correct direction, there is a half moon on the top of the chip as well as on the silk screen on the board. 
+	\item Once soldered the board should look like Figure \ref{vd1}
+		\begin{figure}[H]
+		 	\centering
+			\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/vd1".PNG}
+		 	\caption{Voltage Divider step 1}
+			\label{vd1}
+		\end{figure}
 	\item Apply +5V onto pin 25 and GND on pin 26. This should supply power to the components on the board.
+		\begin{figure}[H]
+		 	\centering
+			\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/vd2".PNG}
+		 	\caption{Voltage Divider step 2}
+			\label{vd2}
+		\end{figure}
 	\item Test each of the OP-amp chips by probing from pin 8 to 4 on each chip and verify that they have +5V.
+		\begin{figure}[H]
+		 	\centering
+			\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/vd3".PNG}
+		 	\caption{Voltage Divider step 3}
+			\label{vd3}
+		\end{figure}
 	\item Apply +5V onto pin 1 and GND onto pin 3. Verify that there is +5V on pin 13 and 15.
+		\begin{figure}[H]
+		 	\centering
+			\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/vd4".PNG}
+		 	\caption{Voltage Divider step 4}
+			\label{vd4}
+		\end{figure}
 	\item Apply +5V onto pin 4 and GND onto pin 6. Verify that there is +5V on pin 16 and 18.
+		\begin{figure}[H]
+		 	\centering
+			\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/vd5".PNG}
+		 	\caption{Voltage Divider step 5}
+			\label{vd5}
+		\end{figure}
 	\item Apply +5V onto pin 7 and GND onto pin 9. Verify that there is +5V on pin 19 and 21.
+		\begin{figure}[H]
+		 	\centering
+			\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/vd6".PNG}
+		 	\caption{Voltage Divider step 6}
+			\label{vd6}
+		\end{figure}
 	\item Apply +5V onto pin 10 and GND onto pin 12. Verify that there is +5V on pin 22 and 24.
+		\begin{figure}[H]
+		 	\centering
+			\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/vd7".PNG}
+		 	\caption{Voltage Divider step 7}
+			\label{vd7}
+		\end{figure}
 	\item Now that we know that each of the encoders will be powered by +5V correctly, we want to test the voltage division. Apply +5V to pin 14 and measure the output at pin 2. This value should read between 1.4V and 2.0V. It is important that it is strictly less than 2V, but slightly lower values are also okay. Resistor values can be changed if desired to make this closer to 2V. 
+		\begin{figure}[H]
+		 	\centering
+			\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/vd8".PNG}
+		 	\caption{Voltage Divider step 8}
+			\label{vd8}
+		\end{figure}
 	\item Repeat step 8 with +5V on pin 17 and testing pin 5, then +5V on pin 20 testing at pin 8, and +5V on pin 23 testing at pin 11. Once all these are verified, the board is working correctly and is ready for the rest of the project! If any of the tests fail, check that you are using the correct resistor values and that the op-amp chip is functioning correctly and hasn't burned out.  
+
+	\begin{figure}[H]
+	 	\centering
+	  	\begin{minipage}[b]{0.45\textwidth}
+			\includegraphics[width=\textwidth]{"Pictures/Board Testing/vd9".PNG}
+	  	\end{minipage}
+	  	\hfill
+	  	\begin{minipage}[b]{0.45\textwidth}
+	    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/vd10".png}
+	  	\end{minipage}
+		\label{}
+	\end{figure}
+
+
+		\begin{figure}[H]
+		 	\centering
+			\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/vd11".PNG}
+		 	\caption{}
+			\label{vd11}
+		\end{figure}
+
 \end{enumerate}
 
 \subsection{Serial Splitter Board}

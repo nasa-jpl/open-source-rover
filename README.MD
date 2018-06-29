@@ -120,7 +120,7 @@ In order to help this ordering process we have compiled a few links of a large n
 
 [McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)
 
-[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wf)
+[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wb)
 
 [Pololu](https://www.pololu.com/wishlist/1J10953)
 
