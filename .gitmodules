@@ -3,4 +3,4 @@
 	url = https://github.com/nasa-jpl/osr-android-app
 [submodule "Software/rover_code"]
 	path = Software/rover_code
-	url = https://github.jpl.nasa.gov/ejunkins/osr_rover_code
+	url = https://github.com/nasa-jpl/osr-rover-code
