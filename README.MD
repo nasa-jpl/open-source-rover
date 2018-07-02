@@ -28,7 +28,7 @@ The specific attributes of the robot you build will depend slightly on the type 
 
 Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [Motor selection sheet](https://www.pololu.com/category/115/25d-mm-metal-gearmotors), where any of the 12V motors would work easily in the robot.  Note, however, that it is important to also asses the electrical current draw and make sure that all the electronics and battery can supply the power required for any change in motors.
 
-### Feautres
+### Features
 This rover is designed to function similarly to the 6 wheel rover designs on Mars and employs a few of the major driving mechanics that the mars rovers use to traverse rocky surfaces:
  * __Rocker-Bogie:__ The Rocker-Bogie suspension system allows all 6 wheels to continually be in contact with the ground while climbing over obstacles
  * __Differential Pivot:__ Allows weight to be mechanically offloaded from one side of the rover to the other while climbing
@@ -66,7 +66,7 @@ This project has elements in mechanical assembly/fabrication, uses a host of ele
    * Metal cutting using band saw/dremel
    * Drilling using drill press/hand drill
    * Filing and sanding for part cleanup
-   * General Fabricaiton/Machining Safety
+   * General Fabrication/Machining Safety
  * __Electronics:__ This project uses components like motors, motor controllers, and batteries. It will be important to have experience with the following electrical processes.
    * Soldering
    * Electrical debugging
@@ -76,7 +76,7 @@ This project has elements in mechanical assembly/fabrication, uses a host of ele
    * Basic Linux familarity
    * Basic Python familarity
 
-Most of the above are skills that you can learn and pick up fairly quickly from watching vidoes and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well.  See the build documents for more information.
+Most of the above are skills that you can learn and pick up fairly quickly from watching videos and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well.  See the build documents for more information.
 
 ### Tools Necessary
 This project assumes you have some standard tools to help assemble the project. If you do not have any of the optional tools, we provide examples of online services that you can use to have the parts fabricated and sent to you.
@@ -100,7 +100,7 @@ This project assumes you have some standard tools to help assemble the project. 
  * Power Supply (to test without using battery)
 
 ### Expected time commitment
-In our experience, this project takes no less than 200 person-hours to build, and depending on the fimilarity and skill level of those involved could be significantly more. Experienced builders may be able to build this project in this amount of time.  However, this project is generally meant to be a teaching and learning tool.  Throughout the documentation, we try to give supplemental information for those who might be new to this kind of project.
+In our experience, this project takes no less than 200 person-hours to build, and depending on the familarity and skill level of those involved could be significantly more. Experienced builders may be able to build this project in this amount of time.  However, this project is generally meant to be a teaching and learning tool.  Throughout the documentation, we try to give supplemental information for those who might be new to this kind of project.
 
 # Disclaimer
 **Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. Government sponsorship acknowledged.**
