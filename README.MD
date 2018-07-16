@@ -167,4 +167,4 @@ Above is an example roadmap of how you can build the rover and which parts of th
  ### Development Team:
  Eric Junkins and Olivia Lofaro
  ### Special Thanks To:
- Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
+ Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Jim Rinaldi, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
