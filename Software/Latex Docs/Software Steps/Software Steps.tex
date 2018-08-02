@@ -71,7 +71,7 @@ On the Raspberry Pi, open up a terminal \textbf{(ctl + alt + t)} and then type t
 
 \begin{itemize}
 	\item[] \colorbox{lightgray}{cd /home/pi}
-	\item[] \colorbox{lightgray}{git clone https://github.com/nasa-jpl/osr-rover-code}
+	\item[] \colorbox{lightgray}{git clone https://github.com/nasa-jpl/osr-rover-code osr}
 \end{itemize}
 
 \subsubsection{Installing packages}
@@ -233,27 +233,22 @@ We want the rover's code to automatically run whenever the pi boots up. We'll ac
 \begin{verbatim}
 sudo python /home/pi/osr/led/screen.py &
 sleep 10
-sudo python /home/pi/osr/rover/main.py -s &
+sudo python /home/pi/osr/rover/main.py -s -b &
 \end{verbatim}
 
 \begin{figure}[H]
  	\centering
 	\includegraphics[width=1\textwidth]{"Pictures/init".PNG}
- 	\caption{/etc/rc.local script.  Note that in this image, we set the \colorbox{yellow}{-c x} flag as an example of how to control the rover with the Xbox controller instead of from the Android app (see below).}
+ 	\caption{/etc/rc.local script.  Note that in this image, we set the \colorbox{yellow}{-b} flag as an example of how to control the rover with the android app}
 	\label{init}
 \end{figure}
 
 The command line arguments that the main.py script accepts are the following:
 
 \begin{itemize}
-	\item[] \textbf{-t} : Testing mode - allows you to emulate a controller from the terminal for testing and control of the robot. 
 	\item[] \textbf{-s} : Attempts to connect to the Unix Socket running in the LED screen script to send commands between the two processes
-	\item[] \textbf{-c} : Controller flag, tells which controller the rover should be listening for
-	\begin{itemize}
-		\item [] \textbf{b} : Bluetooth app (default)
-		\item [] \textbf{x} : Xbox controller
-	\end{itemize} 	
-
+	\item[] \textbf{-b} : Initialized a bluetooth socket server to accept a connection for the Android app
+	\item[] \textbf{-x} : Attempts to pull joystick data from an xbox controller connected via USB wireless receiver
 \end{itemize}
 
 If you wish to run your rover without the LED screen, delete line 20 and 21 from /etc/rc.local (those lines start the screen.py script) and remove the -s flag from the line that starts the main.py script.
@@ -320,7 +315,7 @@ Under the 'rover' folder there is a script called \textit{serialTest.py}. This w
 \end{figure}
 
 
-Then,run the script from a terminal:
+Then, run the script from a terminal:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{python /home/pi/osr/rover/serialTest.py}
 \end{itemize}
