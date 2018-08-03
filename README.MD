@@ -128,10 +128,10 @@ In order to help this ordering process we have compiled a few links of a large n
 
 [Pololu](https://www.pololu.com/wishlist/1J10953)
 
-[Digikey](https://www.digikey.com/BOM/View/Index/7594245)
-
 [Adafruit](https://www.adafruit.com/wishlists/460400)
 
+Digikey: 
+The Bill of Materials folder contains (currently just one) Bill of materials file for a specific vendor. We are searching for better ways to help with the ordering process, however for now the easiest way is to take the [Digikey Bill of Materials](Bill%20of%20Materials%20Files/Digikey_BOM.csv) and upload it to [Digikey](https://www.digikey.com/). You can find the "BOM Manager" on their homepage and then start a new BOM, where you can upload this file.  
 
 #### 3D printing and Laser cutting
 
