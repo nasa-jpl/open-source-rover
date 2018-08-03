@@ -135,10 +135,10 @@ In order to help this ordering process we have compiled a few links of a large n
 
 #### 3D printing and Laser cutting
 
-In addition to ordering all of the parts on the parts list, we recommend that some pieces be 3D printed and laser cut. If you do not have access to a 3D printer or laser cutter, we've added some online services as examples for where you can get those manufactured and shipped to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body-Assembly/Body-Build-Doc.pdf),  [Corner Steering Build Doc](Mechanical/Corner-Steering/Corner-Steering-Build-Doc.pdf), and [Head Assembly Build Doc](Mechanical/Head-Assembly/Head-Assembly-Build-Doc.pdf).
+In addition to ordering all of the parts on the parts list, we recommend that some pieces be 3D printed and laser cut. If you do not have access to a 3D printer or laser cutter, we've added some online services as examples for where you can get those manufactured and shipped to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body%20Assembly/Body%20Build%20Doc.pdf),  [Corner Steering Build Doc](Mechanical/Corner%20Steering/Corner%20Steering%20Build%20Doc.pdf), and [Head Assembly Build Doc](Mechanical/Head%20Assembly/Head%20Assembly%20Build%20Doc.pdf).
 
 #### Printed Circuit Boards (PCBs)
-There are a few single purpose circuit boards that were designed for this project. You could construct these circuits on a prototyping breadboard instead of ordering the PCBs if you wish (we have included the schematics in the Electrical section), but we have included the PCB board files as it greatly simplifies the build. You can find these files at [PCB Files](Electrical/PCB-board-files-and-schematics/Board-files). These can be ordered at [Osh Park](https://oshpark.com/) by dropping each of the .zip files. 
+There are a few single purpose circuit boards that were designed for this project. You could construct these circuits on a prototyping breadboard instead of ordering the PCBs if you wish (we have included the schematics in the Electrical section), but we have included the PCB board files as it greatly simplifies the build. You can find these files at [PCB Files](Electrical/PCB%20board%20files%20and%20schematics/Board%20files). These can be ordered at [Osh Park](https://oshpark.com/) by dropping each of the .zip files. 
 
 ### Rover Build Roadmap
 
