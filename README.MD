@@ -13,19 +13,19 @@ JPL is always looking to inspire the next generation of scientists, engineers, a
 
 The specific attributes of the robot you build will depend slightly on the type of electronics and motors you buy for the system.  The numbers shown below are for the version of the robot that contains exactly the parts that we suggest in our build documents and parts list. Below, you can see which parts could be changed for which spec upgrades.
 
-| Attribute	| Value |
-| ----------|:-----:|
-| Weight    | 25 [lbs] / 11.34[kg] |
-| Footprint | 24x14 [in] 60.96x30.48 [cm] |
-| Battery Capacity | 5200 [mAh] |
-| Battery Discharge Rate | 8 [A] |
-| Nominal Current Draw | 1.2 [A] |
-| Operating time | 5 [hrs] (continual use) |
-| Max speed | 6.7 [in/s] / 17.018 [cm/s] |
-| Maximum 90 deg vertical scale | 12 [in] / 30.48 [cm]| 
-| Maximum height differential between sides | 14 [in] / 35.56 [cm]|
-| Communication (in this guide) | Bluetooth app (Android only) and Xbox Controller|
-| Cost | < $2,500 |
+| Attribute	                                | Value [imperial]         | Value [SI]             |
+| ----------                                |:-----:                   | :-------------:        |
+| Weight                                    | 25 [lbs]                 | 11.34[kg]              |
+| Footprint                                 | 24x14 [in]               | 60.96x30.48 [cm]       |
+| Battery Capacity                          | 5200 [mAh]               | 5200 [mAh]             |
+| Battery Discharge Rate                    | 8 [A]                    | 8 [A]                  |
+| Nominal Current Draw                      | 1.2 [A]                  | 1.2 [A]                |
+| Operating time                            | 5 [hrs] (continual use)  | 5 [hrs] (continual use)|
+| Max speed                                 | 6.7 [in/s]               | 17.018 [cm/s]          |
+| Maximum 90 deg vertical scale             | 12 [in]                  | 30.48 [cm]             | 
+| Maximum height differential between sides | 14 [in]                  | 35.56 [cm]             |
+| Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller| |
+| Cost                                      | < $2,500                 |                        |
 
 Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [Motor selection sheet](https://www.pololu.com/category/115/25d-mm-metal-gearmotors), where any of the 12V motors would work easily in the robot.  Note, however, that it is important to also asses the electrical current draw and make sure that all the electronics and battery can supply the power required for any change in motors.
 
