@@ -15,15 +15,15 @@ The specific attributes of the robot you build will depend slightly on the type 
 
 | Attribute	| Value |
 | ----------|:-----:|
-| Weight    | 25 [lbs] |
-| Footprint | 24x14 [in]|
+| Weight    | 25 [lbs] / 11.34[kg] |
+| Footprint | 24x14 [in] 60.96x30.48 [cm] |
 | Battery Capacity | 5200 [mAh] |
 | Battery Discharge Rate | 8 [A] |
 | Nominal Current Draw | 1.2 [A] |
 | Operating time | 5 [hrs] (continual use) |
-| Max speed | 6.7 [in/s] |
-| Maximum 90 deg vertical scale | 12 [in] | 
-| Maximum height differential between sides | 14 [in] |
+| Max speed | 6.7 [in/s] / 17.018 [cm/s] |
+| Maximum 90 deg vertical scale | 12 [in] / 30.48 [cm]| 
+| Maximum height differential between sides | 14 [in] / 35.56 [cm]|
 | Communication (in this guide) | Bluetooth app (Android only) and Xbox Controller|
 | Cost | < $2,500 |
 
