@@ -1,3 +1,0 @@
-*.STL filter=lfs diff=lfs merge=lfs -text
-*.IGS filter=lfs diff=lfs merge=lfs -text
-*.STEP filter=lfs diff=lfs merge=lfs -text
