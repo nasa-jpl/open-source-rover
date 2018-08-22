@@ -1,2 +1,10 @@
 *.synctex.gz
 ~*
+
+# LeTeX build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc

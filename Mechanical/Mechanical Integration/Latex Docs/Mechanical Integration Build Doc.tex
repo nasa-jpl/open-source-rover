@@ -13,6 +13,10 @@
 \usepackage{float}
 \usepackage{fancyhdr}
 \usepackage{verbatim}
+\usepackage{colortbl}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
+
 \pagestyle{fancy}
 \lfoot{\textbf{Open Source Rover Mechanical Assembly Manual}}
 \rfoot{Page \thepage}
@@ -24,18 +28,27 @@
 \doublespacing
 \setlength{\parindent}{1cm}
 
+% Parts list tables
+\renewcommand\theadfont{\bfseries}
+\newcolumntype{I}{ >{\centering\arraybackslash} m{2cm} }  % part image
+\newcolumntype{N}{ >{\centering\arraybackslash} m{3cm} }  % part name
+\newcolumntype{Q}{ >{\centering\arraybackslash} m{0.75cm} }  % ref & qty
+
+
 \begin{document}
+
+\newcommand\partimg{\includegraphics[width=2cm,height=1.25cm,keepaspectratio]}
 
 
 \title{Open Source Rover: Mechanical Integration Assembly Instructions}
 \author{Authors: Michael Cox, Eric Junkins Olivia Lofaro}
 
-\makeatletter         
+\makeatletter
 \def\@maketitle{
-\begin{center}	
+\begin{center}
 	\makebox[\textwidth][c]{ \includegraphics[width=0.7\paperwidth]{"Pictures/Final Title".png}}
-	{\Huge \bfseries \sffamily \@title }\\[3ex] 
-	{\Large \sffamily \@author}\\[3ex] 
+	{\Huge \bfseries \sffamily \@title }\\[3ex]
+	{\Large \sffamily \@author}\\[3ex]
 	\includegraphics[width=.65\linewidth]{"Pictures/JPL logo".png}
 \end{center}}
 \makeatother
@@ -57,7 +70,7 @@
 
 
 \section{Mechanical/Structural Assembly}
-At this point we have every major sub assembly created and they just need to be attached together to create the rover! In the steps in this document, we will attach all the corner motors and wheels, the rocker-bogie, the differential pivot, and the head. 
+At this point we have every major sub assembly created and they just need to be attached together to create the rover! In the steps in this document, we will attach all the corner motors and wheels, the rocker-bogie, the differential pivot, and the head.
 
 
 \begin{figure}[H]
@@ -88,17 +101,30 @@ At this point we have every major sub assembly created and they just need to be 
 \end{figure}
 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Final Assembly Parts".PNG}
-\end{figure}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        1.5" Channel & S1 & 2 & \partimg{../../../images/parts_list/S1.jpg} & 0.5" Nylon Washer & W3 & 3 & \partimg{../../../images/parts_list/W3.png} \\ \hline
+        Channel Connector Plate & S6 & 14 & \partimg{../../../images/parts_list/S6.jpg} & \#6-32x1/4" Button Head Screw & B1 & 52 & \partimg{../../../images/parts_list/B1.png} \\ \hline
+        0.5" x 15" Aluminum Tube (Modified) & S16A & 1 & \partimg{../../../images/parts_list/S16A.png} & Allen Key Set & & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
+        0.5" x 2" Aluminum Tube & S19 & 1 & \partimg{../../../images/parts_list/S19.jpg} & Wrench Set & & & \partimg{../../../images/parts_list/D1.jpg} \\ \hline
+        0.5” Collar Clamp & S22 & 7 & \partimg{../../../images/parts_list/S22.png} & & & & \\ \hline
+    \end{tabular}
+\end{table}
 
 
 \subsection{Mounting Wheels}
 
 \begin{enumerate}
 
-\item \textbf{Mounting the Middle Wheel:} Mount one base wheel (not the corner wheels) to the lowest arm of each of the two rocker bogie subassemblies using a 1.5 inch channel \textbf{S1} and channel connectors \textbf{S6}. See Figures \ref{mounting the middle wheel} and \ref{final rocker bogie}.  Note that you should mirror the wheels so that they are both on the "outside" of the rocker bogey subassemblies. 
+\item \textbf{Mounting the Middle Wheel:} Mount one base wheel (not the corner wheels) to the lowest arm of each of the two rocker bogie subassemblies using a 1.5 inch channel \textbf{S1} and channel connectors \textbf{S6}. See Figures \ref{mounting the middle wheel} and \ref{final rocker bogie}.  Note that you should mirror the wheels so that they are both on the "outside" of the rocker bogey subassemblies.
 
 \begin{figure}[H]
   \centering
@@ -145,7 +171,7 @@ At this point we have every major sub assembly created and they just need to be 
 \end{figure}
 
 
-\item Repeat the steps above to mount the remaining corner steering assemblies to the other rocker bogie assembly, again making sure to select the encoder mounts such that the encoders wind up on the outside of the rover. 
+\item Repeat the steps above to mount the remaining corner steering assemblies to the other rocker bogie assembly, again making sure to select the encoder mounts such that the encoders wind up on the outside of the rover.
 
 \begin{figure}[H]
   \centering
@@ -178,7 +204,7 @@ At this point we have every major sub assembly created and they just need to be 
 
 \subsection{Mounting Body to Rocker-Bogie}
 
-\item Mount the main body of the rover to the two separate rocker-bogie legs using 15 inch aluminum rod \textbf{S16A} and collar clamps \textbf{S22} as shown in Figure \ref{body to rb}. Make sure to maintain the order of the collar clamps shown in Figure \ref{body to rb} to fully lock all assemblies along the rod. The rod will go through the pillow blocks on each rocker-bogie leg, and it should pass through the 4th from the back and 2nd up hole on the body as shown in Figure \ref{body to rb}. 
+\item Mount the main body of the rover to the two separate rocker-bogie legs using 15 inch aluminum rod \textbf{S16A} and collar clamps \textbf{S22} as shown in Figure \ref{body to rb}. Make sure to maintain the order of the collar clamps shown in Figure \ref{body to rb} to fully lock all assemblies along the rod. The rod will go through the pillow blocks on each rocker-bogie leg, and it should pass through the 4th from the back and 2nd up hole on the body as shown in Figure \ref{body to rb}.
 
 \begin{figure}[H]
   \centering
@@ -196,7 +222,7 @@ At this point we have every major sub assembly created and they just need to be 
 
 \subsection{Attach the Differential Pivot}
 
-\item \textbf{Attaching the Vertical Rods} Place a 0.5 x 2 inch hollow aluminum rod \textbf{S19} through the pillow blocks on the back of the body and secure the bottom with a collar clamp \textbf{S22}. Then place all three washers 
+\item \textbf{Attaching the Vertical Rods} Place a 0.5 x 2 inch hollow aluminum rod \textbf{S19} through the pillow blocks on the back of the body and secure the bottom with a collar clamp \textbf{S22}. Then place all three washers
 \textbf{W3} followed by the clamping hub around the top of the rod and tighten down on the clamping screw. See Figure \ref{attaching pivot rod}.
 
 \begin{figure}[H]
@@ -229,7 +255,7 @@ At this point we have every major sub assembly created and they just need to be 
 
 \subsection{Mounting the Head}
 
-\item \textbf{Mounting the head to the body:} Slide the PVC pipe at the bottom of the head into the PVC clamping hub on the rover body and tighten down the clamping screws. 
+\item \textbf{Mounting the head to the body:} Slide the PVC pipe at the bottom of the head into the PVC clamping hub on the rover body and tighten down the clamping screws.
 
 \begin{figure}[H]
   \centering

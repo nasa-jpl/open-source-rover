@@ -13,6 +13,10 @@
 \usepackage{float}
 \usepackage{fancyhdr}
 \usepackage{verbatim}
+\usepackage{colortbl}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
+
 \pagestyle{fancy}
 \lfoot{\textbf{Open Source Rover Mechanical Assembly Manual}}
 \rfoot{Page \thepage}
@@ -24,18 +28,27 @@
 \doublespacing
 \setlength{\parindent}{1cm}
 
+% Parts list tables
+\renewcommand\theadfont{\bfseries}
+\newcolumntype{I}{ >{\centering\arraybackslash} m{2cm} }  % part image
+\newcolumntype{N}{ >{\centering\arraybackslash} m{3cm} }  % part name
+\newcolumntype{Q}{ >{\centering\arraybackslash} m{0.75cm} }  % ref & qty
+
+
 \begin{document}
+
+\newcommand\partimg{\includegraphics[width=2cm,height=1.25cm,keepaspectratio]}
 
 
 \title{Open Source Rover: Rocker-Bogie Assembly Instructions}
 \author{Authors: Michael Cox, Eric Junkins Olivia Lofaro}
 
-\makeatletter         
+\makeatletter
 \def\@maketitle{
-\begin{center}	
+\begin{center}
 	\makebox[\textwidth][c]{ \includegraphics[width=0.75\paperwidth]{"Pictures/Rocker-Bogie/Rocker Bogie Title".png}}
-	{\Huge \bfseries \sffamily \@title }\\[3ex] 
-	{\Large \sffamily \@author}\\[3ex] 
+	{\Huge \bfseries \sffamily \@title }\\[3ex]
+	{\Large \sffamily \@author}\\[3ex]
 	\includegraphics[width=.65\linewidth]{"Pictures/Misc/JPL logo".png}
 \end{center}}
 \makeatother
@@ -53,10 +66,20 @@
 \newpage
 \section{Machining/Fabrication Steps}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Parts-Cutting".PNG}
-\end{figure}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        3" Channel & S2 & 4 & \partimg{../../../images/parts_list/S2.jpg} & Metal Hacksaw or Bandsaw & & & \partimg{../../../images/parts_list/D4.png} \\ \hline
+    \end{tabular}
+\end{table}
 
 \subsection{Cutting the Aluminum Channels}
 On piece \textbf{S2}, measure the distance shown in Figure \ref {channel dimensions} from the edge and mark a straight line from the opposite corner to that point. Cut off the corner along that line\footnote{We use this piece to make the geometry of the rocker-bogie more structurally reinforced across its lateral bending moment. However, these channels will need to have their corners cut out because of clearance issues further on.}. In total, you will need 4 of these modified pieces. Cut those now.
@@ -90,16 +113,30 @@ Take the 4 inch aluminum rod \textbf{S18} and cut it down to 3 inches long, indi
 
 The Rocker-Bogie assembly is what attaches your wheels to the rover's body and allows it to climb over obstacles.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Rocker-Bogie/Rocker Bogie Parts".PNG}
-\end{figure}
-
-
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        3" Channel (Modified) & S2A & 4 & \partimg{../../../images/parts_list/S2A.png} & \#6 Washer & W1 & 28 & \partimg{../../../images/parts_list/W1.png} \\ \hline
+        3.75" Channel & S3 & 4 & \partimg{../../../images/parts_list/S3.jpg} & 0.5" Nylon Washer & W3 & 12 & \partimg{../../../images/parts_list/W3.png} \\ \hline
+        9" Channel & S5 & 2 & \partimg{../../../images/parts_list/S5.jpg} & \#6x1/4" Standoff & T1 & 32 & \partimg{../../../images/parts_list/T1.png} \\ \hline
+        Pattern F Bracket & S7 & 8 & \partimg{../../../images/parts_list/S7.jpg} & \#6-32x3/8" Button Head Screw & B2 & 52 & \partimg{../../../images/parts_list/B2.png} \\ \hline
+        0.5” Pillow Block & S11 & 4 & \partimg{../../../images/parts_list/S11.jpg} & \#6-32x1/2" Button Head Screw & B3 & 32 & \partimg{../../../images/parts_list/B3.png} \\ \hline
+        0.5” Face Tapped Clamping Hub & S13 & 2 & \partimg{../../../images/parts_list/S13.png} & \#6-32 Locking Hex Net & B11 & 60 & \partimg{../../../images/parts_list/B11.png} \\ \hline
+        0.5" x 3" Aluminum Tube (Modified) & S18A & 2 & \partimg{../../../images/parts_list/S18A.png} & Allen Key Set & & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
+        0.5” Collar Clamp & S22 & 4 & \partimg{../../../images/parts_list/S22.png} & 5/16 Wrench & & & \partimg{../../../images/parts_list/D1.jpg} \\ \hline
+    \end{tabular}
+\end{table}
 
 
 \begin{enumerate}
-\item \textbf{Begin the Rocker Attachment:}  Attach 9 inch channel \textbf{S5} and the a modified 3 inch channel \textbf{S2A} to pattern F bracket \textbf{S7} using screws \textbf{B2} and hex nuts \textbf{B11} making sure to put a 6-32 washer \textbf{W1} in between the channels and the bracket. Make sure that the cut modification in \textbf{S2A} is angled towards the 9 inch channel as shown in Figure \ref {RB2}. 
+\item \textbf{Begin the Rocker Attachment:}  Attach 9 inch channel \textbf{S5} and the a modified 3 inch channel \textbf{S2A} to pattern F bracket \textbf{S7} using screws \textbf{B2} and hex nuts \textbf{B11} making sure to put a 6-32 washer \textbf{W1} in between the channels and the bracket. Make sure that the cut modification in \textbf{S2A} is angled towards the 9 inch channel as shown in Figure \ref {RB2}.
 
 \begin{figure}[H]
   	\centering
@@ -149,7 +186,7 @@ The Rocker-Bogie assembly is what attaches your wheels to the rover's body and a
 
 
 
-\item \textbf{Attachment for Front Corner:} Attach 3.75 inch channel \textbf{S3} to the top hole of the pattern F bracket using spacers \textbf{T1}, screws \textbf{B3}, and hex nuts \textbf{B11} as shown in Figure \ref{attaching channel corner}. 
+\item \textbf{Attachment for Front Corner:} Attach 3.75 inch channel \textbf{S3} to the top hole of the pattern F bracket using spacers \textbf{T1}, screws \textbf{B3}, and hex nuts \textbf{B11} as shown in Figure \ref{attaching channel corner}.
 
 \begin{figure}[H]
   \centering
@@ -165,7 +202,7 @@ The Rocker-Bogie assembly is what attaches your wheels to the rover's body and a
 \end{figure}
 
 
-\item \textbf{Attachment for middle Wheel:} Attach another 3.75 inch channel \textbf{S3} to the bottom hole of the pattern F bracket using spacers \textbf{T1}, screws \textbf{B3}, and hex nuts \textbf{B11} as shown in Figure \ref{attaching middle wheel}. 
+\item \textbf{Attachment for middle Wheel:} Attach another 3.75 inch channel \textbf{S3} to the bottom hole of the pattern F bracket using spacers \textbf{T1}, screws \textbf{B3}, and hex nuts \textbf{B11} as shown in Figure \ref{attaching middle wheel}.
 
 \begin{figure}[H]
   \centering
@@ -179,9 +216,9 @@ The Rocker-Bogie assembly is what attaches your wheels to the rover's body and a
   \caption{Attachment for middle wheel}
   \label{attaching middle wheel}
 \end{figure}
- 
 
-\item \textbf{Opposite edge of Rocker-Bogie Joint:} Attach another Pattern F bracket \textbf{S7} to the opposite side of the channels using washers \textbf{W1} and \textbf{W3}, screws \textbf{B3}, and hex nuts \textbf{B8} as shown in Figure \ref{start other edge rocker bogie}. 
+
+\item \textbf{Opposite edge of Rocker-Bogie Joint:} Attach another Pattern F bracket \textbf{S7} to the opposite side of the channels using washers \textbf{W1} and \textbf{W3}, screws \textbf{B3}, and hex nuts \textbf{B8} as shown in Figure \ref{start other edge rocker bogie}.
 
 \begin{figure}[H]
 	\centering
@@ -190,7 +227,7 @@ The Rocker-Bogie assembly is what attaches your wheels to the rover's body and a
 	\label{start other edge rocker bogie}
 \end{figure}
 
-\item \textbf{Other edge of Rocker-Bogie Joint Cont: } Using washers \textbf{W1}, collar clamp \textbf{S22},  spacers \textbf{T1}, and screws \textbf{B10} attach pattern F bracket to the final connecting channels as shown in Figure \ref{other edge rocker bogie}. 
+\item \textbf{Other edge of Rocker-Bogie Joint Cont: } Using washers \textbf{W1}, collar clamp \textbf{S22},  spacers \textbf{T1}, and screws \textbf{B10} attach pattern F bracket to the final connecting channels as shown in Figure \ref{other edge rocker bogie}.
 
 \begin{figure}[H]
   \centering
@@ -205,7 +242,7 @@ The Rocker-Bogie assembly is what attaches your wheels to the rover's body and a
   \label{other edge rocker bogie}
 \end{figure}
 
-\item \textbf{Checkpoint:} At this point your rocker bogie joint should look like Figure \ref{checkpoint}: 
+\item \textbf{Checkpoint:} At this point your rocker bogie joint should look like Figure \ref{checkpoint}:
 
 \begin{figure}[H]
   \centering
@@ -220,7 +257,7 @@ The Rocker-Bogie assembly is what attaches your wheels to the rover's body and a
   \label{checkpoint}
 \end{figure}
 
-\item \textbf{Attach Bearing Blocks:} Attach two Pillow Bearing Blocks \textbf{S11} using screws \textbf{B2} and hex huts \textbf{B11} as shown in Figure \ref{pillow bearing block}. The bearing blocks should be aligned with the 5th large hole back from the front of the 9-inch U channel. 
+\item \textbf{Attach Bearing Blocks:} Attach two Pillow Bearing Blocks \textbf{S11} using screws \textbf{B2} and hex huts \textbf{B11} as shown in Figure \ref{pillow bearing block}. The bearing blocks should be aligned with the 5th large hole back from the front of the 9-inch U channel.
 
 \begin{figure}[H]
   \centering
@@ -235,7 +272,7 @@ The Rocker-Bogie assembly is what attaches your wheels to the rover's body and a
   \label{pillow bearing block}
 \end{figure}
 
-\item \textbf{Attach Clamping Hub:} Attach the Clamping Hub \textbf{S13} using screws \textbf{B2} and hex nuts \textbf{B11} as shown in Figure \ref{clamping hub}. The clamping hub should be centered above where you just placed the pillow bearing blocks. 
+\item \textbf{Attach Clamping Hub:} Attach the Clamping Hub \textbf{S13} using screws \textbf{B2} and hex nuts \textbf{B11} as shown in Figure \ref{clamping hub}. The clamping hub should be centered above where you just placed the pillow bearing blocks.
 
 \begin{figure}[H]
   \centering

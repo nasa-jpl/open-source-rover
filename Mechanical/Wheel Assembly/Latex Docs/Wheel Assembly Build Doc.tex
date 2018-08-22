@@ -13,6 +13,10 @@
 \usepackage{float}
 \usepackage{fancyhdr}
 \usepackage{verbatim}
+\usepackage{colortbl}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
+
 \pagestyle{fancy}
 \lfoot{\textbf{Open Source Rover Mechanical Assembly Manual}}
 \rfoot{Page \thepage}
@@ -24,18 +28,27 @@
 \doublespacing
 \setlength{\parindent}{1cm}
 
+% Parts list tables
+\renewcommand\theadfont{\bfseries}
+\newcolumntype{I}{ >{\centering\arraybackslash} m{2cm} }  % part image
+\newcolumntype{N}{ >{\centering\arraybackslash} m{3cm} }  % part name
+\newcolumntype{Q}{ >{\centering\arraybackslash} m{0.75cm} }  % ref & qty
+
+
 \begin{document}
+
+\newcommand\partimg{\includegraphics[width=2cm,height=1.25cm,keepaspectratio]}
 
 
 \title{Open Source Rover: Wheel Assembly Instructions}
 \author{Authors: Michael Cox, Eric Junkins, Olivia Lofaro}
 
-\makeatletter         
+\makeatletter
 \def\@maketitle{
-\begin{center}	
+\begin{center}
 	\makebox[\textwidth][c]{ \includegraphics[width=0.7\paperwidth]{"Pictures/Wheels/Wheels Title".png}}
-	{\Huge \bfseries \sffamily \@title }\\[3ex] 
-	{\Large \sffamily \@author}\\[3ex] 
+	{\Huge \bfseries \sffamily \@title }\\[3ex]
+	{\Large \sffamily \@author}\\[3ex]
 	\includegraphics[width=.65\linewidth]{"Pictures/Misc/JPL logo".png}
 \end{center}}
 \makeatother
@@ -57,10 +70,20 @@
 
 \subsection{Wheel Drilling}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Parts-Drilling".PNG}
-\end{figure}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        Wheels & S30 & 6 & \partimg{../../../images/parts_list/S30.jpg} & Center Punch or Starter drill bit & & & \partimg{../../../images/parts_list/D7.jpeg} \\ \hline
+        Hand Drill or Drill Press & & & \partimg{../../../images/parts_list/D3.png} & Drill bit \#23 & & & \partimg{../../../images/parts_list/D6.jpeg} \\ \hline
+    \end{tabular}
+\end{table}
 
 Drill holes in the wheels indicated by Figure \ref{Wheel drill} using the center drill and drill\#23\footnote{The wheel is normally meant to be mounted using one bolt through the middle of the rim. This will not work well in our case as the rover sees very high torque at the wheel and the one-bolt system would be difficult to attach to any part of our system without the wheel slipping. To attach more firmly, we will drill two holes on either side of the original hole where we will mount the motor hub clamp as shown in Figure \ref{Wheel drill}}. The important dimension is that the two holes are as close to 0.770 inches apart as possible while remaining centered about the center of the wheel. We found that the geometry shown in Figure \ref{Wheel drill} allowed us to get the holes most easily. Normally for these through holes you would use drill \#25, but in order to give a little extra tolerance we recommend a few steps up from that, something around drill \#23. Test the holes with the 4mm Clamping Hub \textbf{S14} to make sure the holes align as shown in Figure \ref{Wheel drill}. If the holes do not align, you can file them out slightly or even attempt to re-drill them depending on how close you are. Repeat this drilling process for all 6 of the wheels.
 
@@ -79,18 +102,24 @@ Drill holes in the wheels indicated by Figure \ref{Wheel drill} using the center
 \end{figure}
 
 
-
 \subsection{Cutting the Clamping Hub}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Parts-Cutting".PNG}
-\end{figure}
-
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        4mm Face Tapped Clamp Hub & S14 & 4 & \partimg{../../../images/parts_list/S14.jpg} & Metal Hacksaw or Bandsaw & & & \partimg{../../../images/parts_list/D4.png} \\ \hline
+        Vice or C Clamps & & & \partimg{../../../images/parts_list/D5.png} & & & & \\ \hline
+    \end{tabular}
+\end{table}
 
 The clamping hubs \textbf{S14} are used to attach the motor shaft to the wheel rim. Use a band saw or hand saw to extend the channel already made in the clamping hub \textbf{S14}, continuing down until there is around 0.08 in before hitting the wall. This dimension does not need to be extremely precise; just make sure not to go too thin. Use Figure \ref{Clamping hub cut} to eyeball roughly how deep through the part you should cut. Repeat this cut for all six of the 4mm Clamping hubs \textbf{S14}\footnote{This system sees a very high amount of torque. The current design of this clamping hub has too much metal and doesn't deform around the motor shaft enough to grab and hold well enough against such high torque. By removing some of that metal, when we clamp on the screw it will cause the whole piece to deform more closely around the motor shaft and hold it more tightly}.
-
-
 
 
 \begin{figure}[H]
@@ -109,18 +138,32 @@ The clamping hubs \textbf{S14} are used to attach the motor shaft to the wheel r
 \section{Mechanical/Structural Assembly}
 
 \subsection{Base Wheel}
-Next, we will build the wheel assemblies which are divided into the middle wheels and corner wheel assemblies. We will build 6 identical base wheels and then add slightly more complexity onto 4 of those which will eventually become the corner wheels. 
+Next, we will build the wheel assemblies which are divided into the middle wheels and corner wheel assemblies. We will build 6 identical base wheels and then add slightly more complexity onto 4 of those which will eventually become the corner wheels.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Wheels/Wheel Parts".PNG}
-\end{figure}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        3" Channel & S2 & 6 & \partimg{../../../images/parts_list/S2.jpg} & Motor w/Encoder (Drive Motor) & E5 & 6 & \partimg{../../../images/parts_list/E5.jpg} \\ \hline
+        4mm Face Tapped Clamp Hub (Modified) & S14A & 6 & \partimg{../../../images/parts_list/S14A.png} & \#6-32x1/4" Button Head Screw & B1 & 24 & \partimg{../../../images/parts_list/B1.png} \\ \hline
+        25mm Bore Side Tapped Clamping Mount & S25 & 6 & \partimg{../../../images/parts_list/S25.jpg} & \#6-32x1.25" Button Head Screw & B7 & 12 & \partimg{../../../images/parts_list/B7.png} \\ \hline
+        Wheels & S30A & 6 & \partimg{../../../images/parts_list/S30.jpg} & Allen Key Set & & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
+        Loctite 2-part epoxy & S36 & & \partimg{../../../images/parts_list/S36.jpg} & 5/16" Wrench & & & \partimg{../../../images/parts_list/D1.jpg} \\ \hline
+    \end{tabular}
+\end{table}
+
 
 \begin{enumerate}
-\item \textbf{Motor Mount:} Start by attaching the motor \textbf{E5} into the 3 inch channel \textbf{S2} using clamping mount \textbf{S25} and screws \textbf{B1} as shown in Figure \ref{wheel step 1}. Make sure to slide the motor all the way  to the top of the gearbox in the clamping hub (exactly as shown in Figure \ref{wheel step 1}). 
+\item \textbf{Motor Mount:} Start by attaching the motor \textbf{E5} into the 3 inch channel \textbf{S2} using clamping mount \textbf{S25} and screws \textbf{B1} as shown in Figure \ref{wheel step 1}. Make sure to slide the motor all the way  to the top of the gearbox in the clamping hub (exactly as shown in Figure \ref{wheel step 1}).
 
 
-\item \textbf{Clamping Hub attachment/Apply Loctite Epoxy:} Next, take the modified 4mm clamping hub \textbf{S14A} and clamp it around the motor shaft as shown. We recommend applying Loctite 2-part Epoxy \textbf{S34} between the motor shaft and the clamping hub at their interface\footnote{Epoxy will help hold the high torque of the system and keep this interface from slipping, but it also means that your motor will have the clamping hub permanently attached onto it.}.
+\item \textbf{Clamping Hub attachment/Apply Loctite Epoxy:} Next, take the modified 4mm clamping hub \textbf{S14A} and clamp it around the motor shaft as shown. We recommend applying Loctite 2-part Epoxy \textbf{S36} between the motor shaft and the clamping hub at their interface\footnote{Epoxy will help hold the high torque of the system and keep this interface from slipping, but it also means that your motor will have the clamping hub permanently attached onto it.}.
 
 \begin{figure}[H]
   \centering
@@ -149,17 +192,31 @@ Next, we will build the wheel assemblies which are divided into the middle wheel
   \label{wheel step 2}
 \end{figure}
 
-With that the base wheel assembly should be done! Repeat the above three steps for all six of the wheels. 
+With that the base wheel assembly should be done! Repeat the above three steps for all six of the wheels.
 
 \end{enumerate}
 
 \subsection{Corner Wheels}
 Now, we need to create the four corner wheels. These build on what we made for the base wheel assemblies in the last step. For the corner motors, we will need to extend the attachment point upwards as it is important that the axes of the corner steering motors are directly above the middle of the wheels to enable smooth steering.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Wheels/Corner Wheel Parts".PNG}
-\end{figure}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        3" Channel & S2 & 4 & \partimg{../../../images/parts_list/S2.jpg} & \#6-32x1/4" Screw & B1 & 76 & \partimg{../../../images/parts_list/B1.png} \\ \hline
+        4.5" Channel & S4 & 4 & \partimg{../../../images/parts_list/S4.jpg} & \#6-32x1/2" Button Head Screw & B3 & 8 & \partimg{../../../images/parts_list/B3.png} \\ \hline
+        Channel Connector Plate & S6 & 16 & \partimg{../../../images/parts_list/S6.jpg} & \#6-32x3/8" Threaded Standoff & T3 & 4 & \partimg{../../../images/parts_list/T3.jpg} \\ \hline
+        0.25" Circular Clamping Hub & S12 & 4 & \partimg{../../../images/parts_list/S12.jpg} & Allen Key Set & & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
+        48 Tooth Plain Bore Gear & S26 & 4 & \partimg{../../../images/parts_list/S26.jpg} & 5/16" Wrench & & & \partimg{../../../images/parts_list/D1.jpg} \\ \hline
+        Loctite Threadlocker & S34 & & \partimg{../../../images/parts_list/S34.jpg} & & & & \\ \hline
+    \end{tabular}
+\end{table}
 
 
 \begin{enumerate}
@@ -193,7 +250,7 @@ Now, we need to create the four corner wheels. These build on what we made for t
   \label{corner wheel step 2}
 \end{figure}
 
-\item \textbf{D-Clamping Hub Attachment:} Attach the 0.25 Inch clamping hub \textbf{S12} and the plane bore gear \textbf{S26} to the channel using screws \textbf{B1}. 
+\item \textbf{D-Clamping Hub Attachment:} Attach the 0.25 Inch clamping hub \textbf{S12} and the plane bore gear \textbf{S26} to the channel using screws \textbf{B1}.
 
 \begin{figure}[H]
   \centering
@@ -207,7 +264,7 @@ Now, we need to create the four corner wheels. These build on what we made for t
   \caption{Corner Wheel Step 3}
 \end{figure}
 
-\item \textbf{Hard stop mount} In order to keep the wheels from spinning too far in either direction, we will install a physical hard stop in the system. Attach a standoff \textbf{T3} with screw \textbf{B1} and Loctite \textbf{S36} to the channel as shown in Figure \ref{corner wheel step 3}. This standoff will be our hard stop. Make sure that you use the correct mounting hole or the standoff will not line up with the hard stops on the encoder mount. 
+\item \textbf{Hard stop mount} In order to keep the wheels from spinning too far in either direction, we will install a physical hard stop in the system. Attach a standoff \textbf{T3} with screw \textbf{B1} and Loctite Threadlocker \textbf{S34} to the channel as shown in Figure \ref{corner wheel step 3}. This standoff will be our hard stop. Make sure that you use the correct mounting hole or the standoff will not line up with the hard stops on the encoder mount.
 
 \begin{figure}[H]
   \centering

@@ -13,6 +13,10 @@
 \usepackage{float}
 \usepackage{fancyhdr}
 \usepackage{verbatim}
+\usepackage{colortbl}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
+
 \pagestyle{fancy}
 \lfoot{\textbf{Open Source Rover Mechanical Assembly Manual}}
 \rfoot{Page \thepage}
@@ -24,18 +28,27 @@
 \doublespacing
 \setlength{\parindent}{1cm}
 
+% Parts list tables
+\renewcommand\theadfont{\bfseries}
+\newcolumntype{I}{ >{\centering\arraybackslash} m{2cm} }  % part image
+\newcolumntype{N}{ >{\centering\arraybackslash} m{3cm} }  % part name
+\newcolumntype{Q}{ >{\centering\arraybackslash} m{0.75cm} }  % ref & qty
+
+
 \begin{document}
+
+\newcommand\partimg{\includegraphics[width=2cm,height=1.25cm,keepaspectratio]}
 
 
 \title{Open Source Rover: Head Assembly Instructions}
 \author{Authors: Michael Cox, Eric Junkins, Olivia Lofaro}
 
-\makeatletter         
+\makeatletter
 \def\@maketitle{
-\begin{center}	
+\begin{center}
 	\makebox[\textwidth][c]{ \includegraphics[width=0.6\paperwidth]{"Pictures/Head final".png}}
-	{\Huge \bfseries \sffamily \@title }\\[3ex] 
-	{\Large \sffamily \@author}\\[3ex] 
+	{\Huge \bfseries \sffamily \@title }\\[3ex]
+	{\Large \sffamily \@author}\\[3ex]
 	\includegraphics[width=.65\linewidth]{"Pictures/JPL logo".png}
 \end{center}}
 \makeatother
@@ -80,10 +93,21 @@ If you do not have a 3D printer there are a number of online 3D printing service
 \section{Machining/Fabrication}
 \subsection{Cutting the PVC Pipe}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Parts-Cutting".png}
-\end{figure}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        2" PCV Pipe & S29 & 1 & \partimg{../../../images/parts_list/S29.png} & Vice or V-Clamps & & & \partimg{../../../images/parts_list/D8.png} \\ \hline
+        HackSaw or Bandsaw & & & \partimg{../../../images/parts_list/D4.png} & & & & \\ \hline
+    \end{tabular}
+\end{table}
 
 
 Take the PVC pipe \textbf{S29} (this will be the "neck" of the rover) and cut it to your desired length. For reference, we cut our "neck" PVC pipe to be roughly 6 inches long.
@@ -91,10 +115,25 @@ Take the PVC pipe \textbf{S29} (this will be the "neck" of the rover) and cut it
 
 \section{Mechanical Assembly}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Parts-Head".PNG}
-\end{figure}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        Head Left Back & & 1 & \partimg{../../../images/parts_list/S33A.png} & \#6-32x3/8" Button Head Screw & B2 & 4 & \partimg{../../../images/parts_list/B2.png} \\ \hline
+        Head Right Back & & 1 & \partimg{../../../images/parts_list/S33C.png} & \#4-40x1/4" Button Head Screw & B8 & 12 & \partimg{../../../images/parts_list/B8.png} \\ \hline
+        Head Left Side & & 1 & \partimg{../../../images/parts_list/S33B.png} & \#4-40 Locking Hex Nut & B12 & 4 & \partimg{../../../images/parts_list/B12.png} \\ \hline
+        Head Right Side & & 1 & \partimg{../../../images/parts_list/S33D.png} & LED Matrix & E8 & 1 & \partimg{../../../images/parts_list/E8.jpg} \\ \hline
+        Bore Clamping Hub for 1" PVC & S24 & 1 & \partimg{../../../images/parts_list/S24.jpg} & Allen Key Set & & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
+        PVC Pipe (Modified) & S29A & 1 & \partimg{../../../images/parts_list/S29.png} & 5/16" Wrench & & & \partimg{../../../images/parts_list/D1.jpg} \\ \hline
+        Logic Shifter PCB & & 1 & \partimg{../../../images/parts_list/ls2.PNG} & & & & \\ \hline
+    \end{tabular}
+\end{table}
 
 \begin{enumerate}
 
@@ -114,7 +153,7 @@ Take the PVC pipe \textbf{S29} (this will be the "neck" of the rover) and cut it
   	\label{LED}
 \end{figure}
 
-	\item \textbf{Attach the PVC  Clamping Hub:} Attach the 1 Inch PVC Clamping Hub \textbf{S24} to the bottom of the head using screws \textbf{B2}. 
+	\item \textbf{Attach the PVC  Clamping Hub:} Attach the 1 Inch PVC Clamping Hub \textbf{S24} to the bottom of the head using screws \textbf{B2}.
 
 \begin{figure}[H]
 	\centering
@@ -122,7 +161,7 @@ Take the PVC pipe \textbf{S29} (this will be the "neck" of the rover) and cut it
 	\caption{Attach the PVC Clamping Hub}
 \end{figure}
 
-	\item \textbf{Mounting the Logic Shifter PCB:} Attach the Logic Shifter PCB to the support structure in the 3D printed head using screws \textbf{B8} and hex nuts \textbf{B12}. 
+	\item \textbf{Mounting the Logic Shifter PCB:} Attach the Logic Shifter PCB to the support structure in the 3D printed head using screws \textbf{B8} and hex nuts \textbf{B12}.
 
 \begin{figure}[H]
 	\centering
@@ -130,7 +169,7 @@ Take the PVC pipe \textbf{S29} (this will be the "neck" of the rover) and cut it
 	\caption{Mounting the Logic Shifter PCB}
 \end{figure}
 
-	\item \textbf{Connecting to back plane:} Attach the two back pieces together using screws \textbf{B8}. 
+	\item \textbf{Connecting to back plane:} Attach the two back pieces together using screws \textbf{B8}.
 
 \begin{figure}[H]
 	\centering
@@ -145,7 +184,7 @@ Take the PVC pipe \textbf{S29} (this will be the "neck" of the rover) and cut it
   	\label{back}
 \end{figure}
 
-	\item \textbf{Attaching the Back plane:} Attach the back plane to the rest of the head structure using screws \textbf{B8}. 
+	\item \textbf{Attaching the Back plane:} Attach the back plane to the rest of the head structure using screws \textbf{B8}.
 
 \begin{figure}[H]
 	\centering
