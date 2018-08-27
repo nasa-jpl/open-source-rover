@@ -1,0 +1,103 @@
+Part Name,Sold in Packs of,Site,Project Ref Code,Model/Config,Price,Link,Total Used in Project,Quanity to Buy,Used in Sections
+Logic Shifter,1,Adafruit,E11,735, $1.50 ,,1,1,Head Assembly
+Raspberry pi 3 model b,1,Amazon,E1,B, $34.99 ,,1,1,Body Assembly
+Wire Braid,1,Amazon,E14,100 Ft, $25.00 ,,1,1,
+Battery Volt Meter,1,Amazon,E15,, $13.24 ,,1,1,
+SD Card,1,Amazon,E16,8Gb, $9.98 ,,1,1,
+Raspberry pi heatsink,1,Amazon,E19,, $6.79 ,,1,1,
+Tamiya Connectors,1,Amazon,E23,E19, $5.57 ,,1,1,
+RC Turnbuckles,2,Amazon,S32,06048B, $9.25 ,,2,1,Differential Pivot
+Loctite Red,1,Amazon,S34,, $6.49 ,,0,0,Wheel Assembly
+Loctite 2 Part Apoxy,1,Amazon,S36,, $5.42 ,,0,0,Wheel Assembly
+Battery,1,BatterySpace,E12,Standard Tamiya Connectors, $86.95 ,,1,1,
+Battery Charger,1,BatterySpace,E13,Standard Tamiya Connectors, $41.95 ,,1,1,
+Resistors 10K,1,Digikey,E22,CF14JT10K0CT-ND, $0.04 ,,1,1,
+Resistors 22K,1,Digikey,E23,CF14JT22K0CT-ND, $0.04 ,,1,1,
+LED Array,1,Digikey,E8,, $24.95 ,,1,1,Head Assembly
+Switch,1,Digikey,E20,432-1282-ND, $4.49 ,,1,1,
+Wheel,2,DollarHobbyz,S30,, $25.27 ,,6,3,Wheel Assembly
+3D Printed Encoder Mounts,1,Makexyz,S31,, $12.90 ,,4,4,Corner Steering
+3D Printed Head,1,Makexyz,S33,, $75.80 ,,1,1,
+#6-32 x 1/4 Button head Screw,100,McMaster,B1,92949A144, $3.45 ,,218,3,"Body Assembly, Corner Steering, Differential Pivot, Mechanical Integration, Wheel Assembly"
+M2.5 x 4mm Screw,25,McMaster,B10,91292A015, $5.61 ,,12,1,Body Assembly
+#6-32 Locknuts,100,McMaster,B11,90631A007, $2.72 ,,92,1,"Body Assembly, Differential Pivot, Rocker-Bogie"
+#4-40 Locknuts,100,McMaster,B12,90631A005, $2.79 ,,8,1,"Differential Pivot, Head Assembly"
+#6-32 x 3/8 Button head Screw,100,McMaster,B2,92949A146, $3.72 ,,80,1,"Body Assembly, Head Assembly, Rocker-Bogie"
+#6-32 x 1/2 Button head Screw,100,McMaster,B3,92196A148, $3.72 ,,44,1,"Body Assembly, Rocker-Bogie, Wheel Assembly"
+#6-32 x 5/8 Button head Screw,100,McMaster,B4,92196A150, $4.07 ,,1,1,
+#6-32 x 3/4 Button head Screw,100,McMaster,B5,92196A151, $4.41 ,,16,1,Corner Steering
+#6-32 x 1.0 Button head Screw,50,McMaster,B6,96006A252, $5.42 ,,8,1,Body Assembly
+#6-32 x 1.25 Button headScrew,50,McMaster,B7,92949A160, $6.51 ,,20,1,"Differential Pivot, Wheel Assembly"
+#4-40 x 1/4 Button head Screw,100,McMaster,B8,92949A106, $2.87 ,,84,1,"Body Assembly, Head Assembly"
+#4-40 x 1.25 Button head Screw,100,McMaster,B9,92196A032, $7.70 ,,4,1,Differential Pivot
+0.5 x 3Ft Aluminum Rod,1,McMaster,S16,89965K364, $23.16 ,,2,2,Differential Pivot
+0.5”D Collar Clamp,1,McMaster,S22,6157K14, $2.26 ,,12,12,"Body Assembly, Mechanical Integration, Rocker-Bogie"
+1 Inch PVC,1,McMaster,S29,48925K93, $4.92 ,,1,1,Head Assembly
+#6 x 1/4 Spacer,1,McMaster,T1,92510A442, $0.23 ,,60,60,"Body Assembly, Corner Steering, Rocker-Bogie"
+#6-32 x 3/8 Standoffs,1,McMaster,T2,93330A443, $0.30 ,,1,1,
+#4-40 x 1/4 Threaded Standoff,1,McMaster,T4,91780A162, $0.23 ,,8,8,Body Assembly
+#4-40 x 1/2 Threaded Standoff,1,McMaster,T5,91780A164, $0.27 ,,12,12,Body Assembly
+#4-40 x 3/4 Threaded Standoff,1,McMaster,T6,91780A166, $0.37 ,,8,8,Body Assembly
+M2.5 x 12mm Standoff,1,McMaster,T7,95947A007, $0.48 ,,4,4,Body Assembly
+#6 Washer,100,McMaster,W1,92141A008, $1.17 ,,40,1,"Body Assembly, Rocker-Bogie"
+#4 Washer,100,McMaster,W2,92141A005, $1.40 ,,24,1,Differential Pivot
+"0.5"" Washers",5,McMaster,W3,91545A280, $2.47 ,,18,4,"Body Assembly, Mechanical Integration, Rocker-Bogie"
+Roboclaw Motor Driver,1,Pololu,E2,, $69.95 ,,5,5,Body Assembly
+5V Buck Boost Regulator,1,Pololu,E4,, $14.95 ,,1,1,Body Assembly
+378:1 Gear Motor w Relative Enc. (Drive Motor),1,Pololu,E5,, $34.95 ,,6,6,Wheel Assembly
+172:1 Gear Motor (Corner Motor),1,Pololu,E6,, $19.95 ,,4,4,Corner Steering
+1.5” U Channel,1,ServoCity,S1,585440, $2.99 ,,6,6,"Body Assembly, Mechanical Integration"
+"0.25"" Pillow Bearing Block",1,ServoCity,S10,535110, $5.99 ,,8,8,Corner Steering
+0.5” Pillow Block,1,ServoCity,S11,535118, $6.99 ,,6,6,"Body Assembly, Rocker-Bogie"
+0.25” Face Tapped Clamping Hub,1,ServoCity,S12,545588, $5.99 ,,4,4,Wheel Assembly
+0.5” Face Tapped Clamping Hub,1,ServoCity,S13,545600, $5.99 ,,4,4,"Body Assembly, Differential Pivot, Rocker-Bogie"
+4mm Face Tapped Clamp Hub,1,ServoCity,S14,545608, $5.99 ,,4,4,Wheel Assembly
+Stainless Steel D-Shaft,1,ServoCity,S15,634066, $1.49 ,,4,4,Corner Steering
+Dual Side mount A,2,ServoCity,S17,585470, $5.99 ,,8,4,Body Assembly
+0.5 x 4 inch aluminum tube,1,ServoCity,S18,635254, $2.09 ,,6,6,Differential Pivot
+0.5 x 2 inch aluminum tube,1,ServoCity,S19,635252, $1.49 ,,2,2,"Body Assembly, Mechanical Integration"
+3 Inch Channel,1,ServoCity,S2,585442, $3.99 ,,18,18,"Corner Steering, Rocker-Bogie, Wheel Assembly"
+.5”D Bore Bottom Tapped Clamping Mount,1,ServoCity,S20,585546, $5.99 ,,4,4,"Body Assembly, Differential Pivot"
+5 Hole Aluminum Beam,2,ServoCity,S21,585404, $2.39 ,,16,8,Differential Pivot
+4mm to .25 Clamping Shaft Coupler,1,ServoCity,S23,625049, $4.99 ,,4,4,Corner Steering
+"Bore Clamping Hub for 1"" PVC",1,ServoCity,S24,545512, $9.99 ,,2,2,"Body Assembly, Head Assembly"
+25mm Bore Side Tapped Clamping Mount,1,ServoCity,S25,545680, $5.99 ,,6,6,Wheel Assembly
+Plain Bore Gear,1,ServoCity,S26,RHA32-36-48, $3.69 ,,4,4,Wheel Assembly
+Shaft Mount Pinion Gear,1,ServoCity,S27,615362, $7.99 ,,4,4,Corner Steering
+3.75 Inch Channel,1,ServoCity,S3,585443, $4.49 ,,4,4,Rocker-Bogie
+9 x 12 Inch Aluminum Plate,1,ServoCity,S35,585006, $16.99 ,,1,1,Body Assembly
+4.5 x 12 Inch Aluminum Plate,1,ServoCity,S37,585004, $13.99 ,,2,2,Body Assembly
+4.5 Inch Channel,1,ServoCity,S4,585444, $4.99 ,,4,4,Wheel Assembly
+9 Inch Channel,1,ServoCity,S5,585450, $7.99 ,,2,2,Rocker-Bogie
+Channel Connectors,2,ServoCity,S6,545532, $3.99 ,,30,15,"Mechanical Integration, Wheel Assembly"
+Pattern F Bracket,1,ServoCity,S7,585592, $2.79 ,,8,8,Rocker-Bogie
+Single Pattern Bracket,1,ServoCity,S8,585468, $1.29 ,,2,2,"Body Assembly, Differential Pivot"
+Motor Mount F,1,ServoCity,S9,555104, $3.99 ,,4,4,Corner Steering
+#6-32 x 0.75 Standoff,4,ServoCity,T3,633126, $1.79 ,,20,5,"Corner Steering, Wheel Assembly"
+3 pin Micro Connectors,1,US Digital,E10,CA-MIC3-W3-NC-1, $6.80 ,,1,1,
+Absolute Encoder,1,US Digital,E7,"1/8 inch, 10 Bit Analog, Sleeve Bushing (N)", $55.50 ,,4,4,Corner Steering
+Black Wire 30AWG,1,Digikey,,C2003B-50-ND, $6.32 ,,1,1,
+Red Wire 30AWG,1,Digikey,,C2015R-50-ND, $6.14 ,,1,1,
+White Wire 30AWG,1,Digikey,,1528-1737-ND, $4.95 ,,1,1,
+Blue Wire 30AWG,1,Digikey,,1528-1734-ND, $4.95 ,,1,1,
+Yello Wire 30AWG,1,Digikey,,1528-1735-ND, $4.95 ,,1,1,
+Green Wire 30AWG,1,Digikey,,1528-1736-ND, $4.95 ,,1,1,
+Op Amp LM 358P,1,Digikey,,296-1395-5-ND, $0.37 ,,1,1,
+4.7k Ohm Resistor,1,Digikey,,CF14JT4K70CT-ND, $0.04 ,,1,1,
+USB Xbox receiver,1,Amazon,,, $12.99 ,,1,1,
+Xbox Controller,1,Amazon,,, $25.99 ,,1,1,
+Heat Shrink Tubing,1,Amazon,,532 pc, $7.99 ,,1,1,
+Black Wire 16AWG,1,Digikey,,C76512B-50-ND, $15.59 ,,1,1,
+Black Wire 20AWG,1,Digikey,,CN538B-50-ND, $12.56 ,,1,1,
+Red Wire 16AWG,1,Digikey,,C76512R-50-ND, $15.59 ,,1,1,
+Red Wire 20AWG,1,Digikey,,CN541R-50-ND, $15.59 ,,1,1,
+Jumper Wire Pack,1,Adafruit,,6inch, $3.95 ,,1,1,
+0.1 Pitch Pin Header (40 pins),1,Digikey,,S1011EC-40-ND, $0.59 ,,1,1,
+4 Pin Header,1,Digikey,,S9014E-04-ND, $0.35 ,,1,1,
+Encoder Board,1,Osh Park,E20,, $20.20 ,,1,1,
+LED Board,1,Osh Park,E21,, $19.65 ,,1,1,
+"4 and 8 "" Female/Female Jumper Wires",1,Amazon,,, $5.99 ,,1,1,
+#2-56 x 3/16 Button head Screws,25,McMaster,B13,91255A077, $3.78 ,,4,1,Body Assembly
+#2-56 x 3/8 Threaded Standoff,1,McMaster,T8,93330A252, $0.96 ,,2,2,Body Assembly
+Custom Acrylic Back plate,1,Sculpteo,S37B,, $11.75 ,,1,1,
+Custom Acrylic Electronics Board,1,Sculpteo,S28,, $15.25 ,,1,1,
