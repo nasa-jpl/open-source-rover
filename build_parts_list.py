@@ -14,6 +14,7 @@ build_docs = [i for i in glob.glob('Mechanical{sep}**{sep}Latex Docs{sep}**.tex'
 # We know its a parts list table by the formatting of the cells
 table_pattern = r"\\begin{tabular}{\|N\|Q\|Q\|I\|N\|Q\|Q\|I\|}(.*?)\\end{tabular}"
 row_pattern = r"\\hline\s+(.*?)\s+\\\\"
+price_pattern = r"([\d.]+)"
 
 sub_assembly_part_counts = defaultdict(lambda: {'count': 0, 'sections': set(), 'name': ''})
 # Loop over each latex file
@@ -52,9 +53,25 @@ with open('parts_list_reference.csv') as f:
         ref_code = part_details['Project Ref Code']
 
         part_details['Sold in Packs of'] = int(part_details['Sold in Packs of'])
-        part_details['Total Used in Project'] = sub_assembly_part_counts.get(ref_code, {}).get('count', 1)
-        # Mack one value a float to have proper division
-        part_details['Quanity to Buy'] = math.ceil(part_details['Total Used in Project'] / float(part_details['Sold in Packs of']))
+        if not part_details['Total Used in Project override']:
+            total_count = sub_assembly_part_counts.get(ref_code, {}).get('count', 1)
+        else:
+            # Override the calculated parts count if needed
+            total_count = int(part_details['Total Used in Project override'])
+        part_details['Total Used in Project'] = 1 if total_count == 0 else total_count
+        # Make one value a float to have proper division
+        part_details['Quantity to Buy'] = math.ceil(part_details['Total Used in Project'] / float(part_details['Sold in Packs of']))
+
+        # Calc the total price of the parts needed
+        part_details['Price Total'] = ''
+        if part_details['Price Each'].strip():
+            price_each_parse = re.search(price_pattern, part_details['Price Each'])
+            if price_each_parse:
+                price_each = float(price_each_parse.group(1))
+                price_total = part_details['Quantity to Buy'] * price_each
+                part_details['Price Total'] = '${0:.2f}'.format(price_total)
+
+        # See what sections this part is used in
         sections = list(sub_assembly_part_counts.get(ref_code, {}).get('sections', []))
         sections.sort()
         part_details['Used in Sections'] = ', '.join(sections)
@@ -72,7 +89,20 @@ print(("\nThese parts were found in the build docs but not in the parts_list_ref
 
 
 with open('master_parts_list.csv', 'w') as f:
-    writer = csv.DictWriter(f, fieldnames=master_parts_list[0].keys())
+    # Hardcode the list to be in the order that we want
+    fieldnames = ['Part Name',
+                  'Project Ref Code',
+                  'Model/Config',
+                  'Site',
+                  'Link',
+                  'Sold in Packs of',
+                  'Total Used in Project',
+                  'Quantity to Buy',
+                  'Price Each',
+                  'Price Total',
+                  'Used in Sections',
+                  ]
+    writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
 
     writer.writeheader()
     writer.writerows(master_parts_list)
