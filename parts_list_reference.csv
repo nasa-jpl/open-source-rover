@@ -1,5 +1,5 @@
 Part Name,Sold in Packs of,Site,Project Ref Code,Model/Config,Price Each,Link,Total Used in Project override
-Logic Shifter,1,Adafruit,E11,74LVC245, $1.50 ,https://www.adafruit.com/product/735,
+Logic Shifter,1,Adafruit,E11,74LVC245, $1.50 ,https://www.adafruit.com/product/735,2
 Raspberry pi 3 model b,1,Amazon,E1,B, $34.99 ,https://www.amazon.com/Raspberry-Model-1-2GHz-64-bit-quad-core/dp/B01CD5VC92/ref=sr_1_3?s=electronics&ie=UTF8&qid=1505769274&sr=1-3&keywords=raspberry+pi+3,
 Wire Braid,1,Amazon,E14,100 Ft, $25.00 ,https://www.amazon.com/PET-Expandable-Braided-Sleeving-10ft/dp/B00ZATM676?th=1,
 Battery Volt Meter,1,Amazon,E15,, $13.24 ,https://www.amazon.com/DROK-Multimeter-6-5-100V-Backlight-Measuring/dp/B017FSED9I,
@@ -11,8 +11,8 @@ Loctite Red,1,Amazon,S34,, $6.49 ,https://www.amazon.com/Loctite-Threadlocker-Re
 Loctite 2 Part Apoxy,1,Amazon,S36,, $5.42 ,https://www.amazon.com/Loctite-Marine-0-85-Fluid-Syringe-1405604/dp/B00KH62K50,
 Battery,1,BatterySpace,E12,Standard Tamiya Connectors, $86.95 ,https://www.batteryspace.com/li-ion-battery-14-8v-5-2ah-77wh-8a-rate-for-diving-light---un-38-3-passed.aspx,
 Battery Charger,1,BatterySpace,E13,Standard Tamiya Connectors, $41.95 ,https://www.batteryspace.com/smart-charger-3-0a-for-14-8v-li-ion-polymer-battery-pack.aspx,
-Resistors 10K,1,Digikey,E22,CF14JT10K0CT-ND, $0.04 ,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374,
-Resistors 22K,1,Digikey,E23,CF14JT22K0CT-ND, $0.04 ,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT22K0/CF14JT22K0CT-ND/1830383,
+Resistors 10K,1,Digikey,E22,CF14JT10K0CT-ND, $0.04 ,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374,4
+Resistors 22K,1,Digikey,E23,CF14JT22K0CT-ND, $0.04 ,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT22K0/CF14JT22K0CT-ND/1830383,4
 LED Array,1,Adafruit,E8,, $24.95 ,https://www.adafruit.com/product/420,
 Switch,1,Digikey,E20,432-1282-ND, $4.49 ,https://www.digikey.com/product-detail/en/bulgin/C3900BA/1091-1026-ND/2747857,
 Wheel,2,DollarHobbyz,S30,, $25.27 ,https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x,
@@ -80,9 +80,9 @@ Black Wire 30AWG,1,Digikey,,C2003B-50-ND, $6.32 ,https://www.digikey.com/product
 Red Wire 30AWG,1,Digikey,,C2015R-50-ND, $6.14 ,https://www.digikey.com/products/en?keywords=C2015R-50-ND,
 White Wire 30AWG,1,Digikey,,1528-1737-ND, $4.95 ,https://www.digikey.com/products/en?keywords=1528-1737-ND,
 Blue Wire 30AWG,1,Digikey,,1528-1734-ND, $4.95 ,https://www.digikey.com/products/en?keywords=1528-1734-ND,
-Yello Wire 30AWG,1,Digikey,,1528-1735-ND, $4.95 ,https://www.digikey.com/products/en?keywords=1528-1735-ND,
+Yellow Wire 30AWG,1,Digikey,,1528-1735-ND, $4.95 ,https://www.digikey.com/products/en?keywords=1528-1735-ND,
 Green Wire 30AWG,1,Digikey,,1528-1736-ND, $4.95 ,https://www.digikey.com/products/en?keywords=1528-1736-ND,
-Op Amp LM 358P,1,Digikey,,296-1395-5-ND, $0.37 ,https://www.digikey.com/products/en?keywords=296-1395-5-ND,
+Op Amp LM 358P,1,Digikey,,296-1395-5-ND, $0.37 ,https://www.digikey.com/products/en?keywords=296-1395-5-ND,4
 4.7k Ohm Resistor,1,Digikey,,CF14JT4K70CT-ND, $0.04 ,https://www.digikey.com/products/en?keywords=CF14JT4K70CT-ND,
 USB Xbox receiver,1,Amazon,,, $12.99 ,https://www.amazon.com/Generic-Wireless-Gaming-Receiver-Xbox/dp/B01JC68MHU,
 Xbox Controller,1,Amazon,,, $25.99 ,https://www.amazon.com/FiveStar-Wireless-Controller-Microsoft-White/dp/B01LY6P5U4,
@@ -92,8 +92,8 @@ Black Wire 20AWG,1,Digikey,,CN538B-50-ND, $12.56 ,https://www.digikey.com/produc
 Red Wire 16AWG,1,Digikey,,C76512R-50-ND, $15.59 ,https://www.digikey.com/products/en?keywords=C76512R-50-ND,
 Red Wire 20AWG,1,Digikey,,CN541R-50-ND, $15.59 ,https://www.digikey.com/products/en?keywords=CN541R-50-ND,
 Jumper Wire Pack,1,Adafruit,,6inch, $3.95 ,https://www.adafruit.com/product/826,
-0.1 Pitch Pin Header (40 pins),1,Digikey,,S1011EC-40-ND, $0.59 ,https://www.digikey.com/products/en?keywords=S1011EC-40-ND,
-4 Pin Header,1,Digikey,,S9014E-04-ND, $0.35 ,https://www.digikey.com/products/en?keywords=S9014E-04-ND,
+0.1 Pitch Pin Header (40 pins),1,Digikey,,S1011EC-40-ND, $0.59 ,https://www.digikey.com/products/en?keywords=S1011EC-40-ND,5
+4 Pin Header,1,Digikey,,S9014E-04-ND, $0.35 ,https://www.digikey.com/products/en?keywords=S9014E-04-ND,20
 Encoder Board,1,Osh Park,E20,, $20.20 ,https://oshpark.com/,
 LED Board,1,Osh Park,E21,, $19.65 ,https://oshpark.com/,
 "4 and 8 "" Female/Female Jumper Wires",1,Amazon,,, $5.99 ,https://www.amazon.com/GenBasic-Female-Solderless-Breadboard-Prototyping/dp/B01L5ULRUA,
