@@ -56,7 +56,11 @@ In addition to this repository which holds all the documentation for this projec
 
 https://opensourcerover.jpl.nasa.gov
 
-There is also a user-run forum to help facilitate discussion about the project. **__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__**  On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted on the forum so that this project and community can grow.
+There is also a user-run forum to help facilitate discussion about the project.
+
+**__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__**
+
+On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted on the forum so that this project and community can grow.
 
 http://s15.zetaboards.com/JPL_OpenSource_Rover/index/
 
@@ -122,15 +126,10 @@ The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts neces
 ##### Cart Share
 In order to help this ordering process we have compiled a few links of a large number of these together already, if you wish to build exactly what is in our build documentation.
 
-[McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)
+|[McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)|[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wb)|[Pololu](https://www.pololu.com/wishlist/1J10953)|[Adafruit](https://www.adafruit.com/wishlists/460400)|
+|---|---|---|---|
 
-[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wb)
-
-[Pololu](https://www.pololu.com/wishlist/1J10953)
-
-[Adafruit](https://www.adafruit.com/wishlists/460400)
-
-Digikey: 
+**Digikey:** 
 The Bill of Materials folder contains (currently just one) Bill of materials file for a specific vendor. We are searching for better ways to help with the ordering process, however for now the easiest way is to take the [Digikey Bill of Materials](Bill%20of%20Materials%20Files/Digikey_BOM.csv) and upload it to [Digikey](https://www.digikey.com/). You can find the "BOM Manager" on their homepage and then start a new BOM, where you can upload this file.  
 
 #### 3D printing and Laser cutting
