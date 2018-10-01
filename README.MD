@@ -158,8 +158,15 @@ Above is an example roadmap of how you can build the rover and which parts of th
 
  * __Stage 7:__ Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
 
- ## Happy building!!
- If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/).
+## Building the Master Parts List
+Anytime parts are changed in the build docs you must rebuild the master parts list by running the python script `build_parts_list.py`.  
+To run you must have python installed, any version should work, but the newer the better. There are no libraries or dependencies to install.  
+Now in the root of this repo, run the command: `python build_parts_list.py` which will create a new `master_parts_list.csv` that needs to be commited.
+
+When updating the build docs make sure all parts have a part reference number. If adding a new part be sure to add it to the `parts_list_reference.csv`. This is the source of truth for the name of the part as well as the price and link to the part. Here you can also overide the amount needed too.
+
+## Happy building!!
+If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/).
 
  ## Project Team
  ### Project Lead:
