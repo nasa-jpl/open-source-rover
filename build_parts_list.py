@@ -3,7 +3,6 @@ import re
 import csv
 import glob
 import math
-from pprint import pprint
 from collections import defaultdict
 
 
@@ -60,7 +59,8 @@ with open('parts_list_reference.csv') as f:
             total_count = int(part_details['Total Used in Project override'])
         part_details['Total Used in Project'] = 1 if total_count == 0 else total_count
         # Make one value a float to have proper division
-        part_details['Quantity to Buy'] = math.ceil(part_details['Total Used in Project'] / float(part_details['Sold in Packs of']))
+        part_details['Quantity to Buy'] = (math.ceil(part_details['Total Used in Project'] /
+                                           float(part_details['Sold in Packs of'])))
 
         # Calc the total price of the parts needed
         part_details['Price Total'] = ''
@@ -82,10 +82,16 @@ with open('parts_list_reference.csv') as f:
         if ref_code in sub_assembly_part_counts:
             del sub_assembly_part_counts[ref_code]
 
-# These are the parts that were not in the master list
-pprint(dict(sub_assembly_part_counts))
+# These are the parts that were not in the parts referance but found in the build docs
+# Add to master parts list as quanity 1
 print(("\nThese parts were found in the build docs but not in the parts_list_reference.csv"
-       "\nPlease add to parts_list_reference.csv and re run this script"))
+       "\nWill default to quanity of 1 in the master list\n"))
+for part_ref, part_data in sub_assembly_part_counts.items():
+    master_parts_list.append({'Project Ref Code': part_ref,
+                              'Part Name': part_data['name'],
+                              'Total Used in Project': 1,
+                              'Used in Sections': ', '.join(list(part_data['sections']))})
+    print("\t", part_ref, "-", part_data['name'])
 
 
 with open('master_parts_list.csv', 'w') as f:
