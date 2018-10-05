@@ -158,6 +158,8 @@ Above is an example roadmap of how you can build the rover and which parts of th
 
  * __Stage 7:__ Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
 
+
+
  ## Happy building!!
  If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/).
 
@@ -168,3 +170,11 @@ Above is an example roadmap of how you can build the rover and which parts of th
  Eric Junkins and Olivia Lofaro
  ### Special Thanks To:
  Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Jim Rinaldi, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
+
+## Additional Projects!
+We recognize that there might be a some individuals, hobbyists, and groups that might be prohobited in participating in this project because of the skills/tools necessary, or the budget. We'd like to give the information to a similar project that was designed by someone who was inspired after participating in our open source rover beta group to design one for around $500, and heavily utilizing 3D printing. We think this project would be espeically great as a hobby project, and appropriate for those just getting into some of these areas, or someone looking to spend a little less money. 
+
+https://hackaday.io/project/158208-sawppy-the-rover
+
+https://github.com/Roger-random/Sawppy_Rover
+
