@@ -21,7 +21,7 @@ The specific attributes of the robot you build will depend slightly on the type 
 | Battery Discharge Rate                    | 8 [A]                    | 8 [A]                  |
 | Nominal Current Draw                      | 1.2 [A]                  | 1.2 [A]                |
 | Operating time                            | 5 [hrs] (continual use)  | 5 [hrs] (continual use)|
-| Max speed                                 | 6.7 [in/s]               | 17.018 [cm/s]          |
+| Approximate Max speed                                 | 9.7 [in/s]               | 24.6 [cm/s]          |
 | Maximum 90 deg vertical scale             | 12 [in]                  | 30.48 [cm]             | 
 | Maximum height differential between sides | 14 [in]                  | 35.56 [cm]             |
 | Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller| |
@@ -165,7 +165,7 @@ Above is an example roadmap of how you can build the rover and which parts of th
 
  ## Project Team
  ### Project Lead:
- Michael Cox
+ Michael (Mik) Cox
  ### Development Team:
  Eric Junkins and Olivia Lofaro
  ### Special Thanks To:
