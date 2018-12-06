@@ -11,6 +11,8 @@
 \usepackage{framed}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{xcolor}
+\usepackage{listings}
+\usepackage{color}
 \usepackage{wrapfig}
 \usepackage{float}
 \usepackage{fancyhdr}
@@ -25,6 +27,27 @@
 \renewcommand{\headrulewidth}{1.8pt}
 \doublespacing
 \setlength{\parindent}{1cm}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=4
+}
 
 \begin{document}
 
@@ -213,7 +236,18 @@ If you wish, you can instead run the following command FROM YOUR LAPTOP/DESKTOP 
 
 \bigskip
 
-\noindent Now, open up the source code that you just downloaded in Android Studio. In order for the App to communicate to the Raspberry Pi, you'll need to make sure it selects the correct Bluetooth device. On line 198 in the MainActivity.java file, change the variable \textit{connection\_name} to match whatever you named the Raspberry Pi in the previous section. Now hit run in the upper panel, and the Android app should build and load onto your Android device!
+\noindent Now, open up the source code that you just downloaded in Android Studio. In order for the App to communicate to the Raspberry Pi, you'll need to make sure it selects the correct Bluetooth device.
+
+\begin{itemize}
+	\item In the onClick method in the MainActivity.java file (around line 194), change the \textit{mConnectionName} variable to match whatever you named the Raspberry Pi in the previous section:
+	\begin{lstlisting}
+		...
+		public void onClick(View v) {
+			mConnectionName = "yourDeviceName";  // <---- Change this!
+		...
+	\end{lstlisting}
+	\item Now hit run in the upper panel, and the Android app should build and load onto your Android device:
+\end{itemize}
 
 \begin{figure}[H]
  	\centering
