@@ -99,7 +99,7 @@ This project assumes you have some standard tools to help assemble the project. 
  * Dremel, Band saw, or hand saw
  * Items for operating a Raspberry Pi (Keyboard, mouse, monitor, 5V micro USB power adapter)
  
- <a url="http://a.co/gnoN2LW"> Amazon tool list </a>
+ Here is [an Amazon list of some of the tools that may be useful](http://a.co/gnoN2LW)
 
 #### Optional Tools
  * 3D printer
