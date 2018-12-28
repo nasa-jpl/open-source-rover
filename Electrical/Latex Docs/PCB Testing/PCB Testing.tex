@@ -214,14 +214,14 @@ Figure \ref{vd pinout1} shows how the pins are labeled and should aid in debuggi
 		 	\caption{Voltage Divider step 7}
 			\label{vd7}
 		\end{figure}
-	\item Now that we know that each of the encoders will be powered by +5V correctly, we need to test the voltage division. Apply +5V to pin 14 and measure the output at pin 2 as shown in Figure \ref{vd8}. This value should read between 1.4V and 2.0V. It is important that it is strictly less than 2V, but slightly lower values are also okay. Resistor values can be changed if desired to make this closer to 2V. 
+	\item Now that we know that each of the encoders will be powered by +5V correctly, we need to test the voltage division. Apply +5V to pin 2 and measure the output at pin 14 as shown in Figure \ref{vd8}. This value should read between 1.4V and 2.0V. It is important that it is strictly less than 2V, but slightly lower values are also okay. Resistor values can be changed if desired to make this closer to 2V. 
 		\begin{figure}[H]
 		 	\centering
 			\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/vd8".PNG}
 		 	\caption{Voltage Divider step 8}
 			\label{vd8}
 		\end{figure}
-	\item Repeat step 8 with +5V on pin 17 and testing pin 5, then +5V on pin 20 testing at pin 8, and +5V on pin 23 testing at pin 11. Once all these are verified, the board is working correctly and is ready for the rest of the project! If any of the tests fail, check that you are using the correct resistor values and that the op-amp chip is functioning correctly and hasn't burned out.  
+	\item Repeat step 8 with +5V on pin 5 and testing pin 17, then +5V on pin 8 testing at pin 20, and +5V on pin 11 testing at pin 23. Once all these are verified, the board is working correctly and is ready for the rest of the project! If any of the tests fail, check that you are using the correct resistor values and that the op-amp chip is functioning correctly and hasn't burned out.  
 
 	\begin{figure}[H]
 	 	\centering
