@@ -29,11 +29,11 @@ Things left to do for this branch and the information to incorporated into the m
 
 If you do wish to purchase these boards/items previous to the final release to help test/document and contribute to the project we would greatly appreciate the help! There is an excel spreadsheet here which has a parts list of all things necessary.
 
-`ADD LINK TO SPREADSHEET`
+[Parts list](electrical-pcb-rework/Electronics-pcb-rework-partslist.xlsx)
 
 In here currently are just the gerber files necessary to order the boards in their current revision. Eventually I will upload the libraries/kicad files so everyone can make edits to them, but in order to just get information up here it will just be the gerbers at first. They can be found at:
 
-`ADD LINK TO GERBER FILES`
+[Gerber Files](Gerbers/)
 
 To order these boards we suggest that you order from `add link to jlpcb`, this PCB fabrication company is quite inexpensive for this board area and has good turnaround time. Upload the .zip files individually and make sure the following settings are set:
 
