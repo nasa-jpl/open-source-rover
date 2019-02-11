@@ -4,7 +4,7 @@ The JPL Open Source Rover is an open source, build it yourself, scaled down vers
 ## Overview & Disclaimer
 __This is a feature branch for an electronics rework__, for moving towards a monolithic "motherboard" approach for to reduce wiring complexity and lower the barrier of entry for the project, as well as make the system more robust. 
 
-__The information in this branch is not fully tested yet__, and is being put here as a __development branch__ in case some want to start working on these parts. This branch will eventually be merged back into the main repositiory once testing has been completed and documentation added. Until then, __the documentation in this branch may be incomplete or out of date__ as things will be changing rapidly. 
+__The information in this branch is not fully tested yet__, and is being put here as a __development branch__ in case anyone wants to start working on these parts. This branch will eventually be merged back into the main repositiory once testing has been completed and documentation added. Until then, __the documentation in this branch may be incomplete or out of date__ as things will be changing rapidly. 
 
 ## TODO
 Things left to do for this branch and the information to incorporated into the master branch. These are all things that we greatly welcome feedback and assistance on if anyone is wanting to contribute!
@@ -51,4 +51,4 @@ To order these boards we suggest that you order from `add link to jlpcb`, this P
 
 ## Contributing to this branch
 
-Again we greatly appreciate anyone who wants to help with this process. There are issues with all of the TODO items, if you wish to help with anything else feel free to open an issue with that and we will try and respond to that as well.
+Again, we _greatly_ appreciate input from anyone who wants to help with this process. We have created GitHub issues for each of the TODO items above; if you wish to help with anything else, feel free to open another issue and we will try and respond there as well.
