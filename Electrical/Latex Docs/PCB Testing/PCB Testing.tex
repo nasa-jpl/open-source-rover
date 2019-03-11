@@ -16,6 +16,9 @@
 \usepackage{wrapfig}
 \usepackage{tcolorbox}
 \usepackage{lipsum}
+\usepackage{colortbl}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
 
 \pagestyle{fancy}
 \lfoot{\textbf{Open Source Rover PCB Testing}}
@@ -41,7 +44,13 @@
 }
 \makeatother
 
+% Parts list tables
+\renewcommand\theadfont{\bfseries}
+\newcolumntype{I}{ >{\centering\arraybackslash} m{2cm} }  % part image
+\newcolumntype{N}{ >{\centering\arraybackslash} m{3cm} }  % part name
+\newcolumntype{Q}{ >{\centering\arraybackslash} m{0.75cm} }  % ref & qty
 
+\newcommand\partimg{\includegraphics[width=2cm,height=1.25cm,keepaspectratio]}
 
 \begin{document}
 
@@ -147,14 +156,24 @@ The op-amp is used as a voltage follower, allowing you to decouple the resistors
 
 \subsubsection{Testing}
 
-\begin{figure}[H]
-  	\centering
-    	\includegraphics[width=.75\textwidth]{"Pictures/Electronics/vd parts".PNG}
- 	\caption{}
-	\label{}
-\end{figure}
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			Voltage Divider PCB & N/A & 1 & \partimg{"../PCB Testing/Pictures/Board Testing/vd_unpopulated".PNG} & LM 385P Op Amp & E9 & 2 & \partimg{../../../images/parts_list/E9.png} \\ \hline
+			10KOhm Resistor & E22 & 4 & \partimg{../../../images/parts_list/E22.png} & 22KOhm Resistor & E23 & 4 & \partimg{../../../images/parts_list/E22.png} \\ \hline
+			Pin Headers & E3 & N/A & \partimg{../../../images/parts_list/E3.png} & Digital Multimeter & & & \partimg{"../PCB Testing/Pictures/Electronics/multimeter".png}\\ \hline
+			Solder Iron & & & \partimg{"../PCB Testing/Pictures/Electronics/solder iron".png} & & & & \\ \hline
+	\end{tabular}
+\end{table}
 
-Figure \ref{vd pinout1} shows how the pins are labeled and should aid in debugging the board and testing the signals at the various pins.
+Figure \ref{vd pinout1} shows how the header pins are labeled for the voltage divider board and should aid in debugging the board and testing the signals at the various pins.
 \begin{figure}[H]
  	\centering
 	\includegraphics[width=.65\textwidth]{"Pictures/Electronics/Encoder Board".png}
@@ -263,10 +282,21 @@ Figure \ref{rw sch} shows the schematic for this board. There is one resistor us
 
 \subsubsection{Testing}
 
-\begin{figure}[H]
-  	\centering
-    	\includegraphics[width=.85\textwidth]{"Pictures/Electronics/ss parts".PNG}
-\end{figure}
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			Serial Splitter PCB & N/A & 1 & \partimg{"../PCB Testing/Pictures/Electronics/serial splitter board".PNG} & 4.7KOhm Resistor & E26 & 1 & \partimg{../../../images/parts_list/E22.png}\\ \hline
+			Pin Headers & E3 & N/A & \partimg{../../../images/parts_list/E3.png} & Digital Multimeter & & & \partimg{"../PCB Testing/Pictures/Electronics/multimeter".png}\\ \hline
+			Solder Iron & & & \partimg{"../PCB Testing/Pictures/Electronics/solder iron".png} & & & & \\ \hline
+	\end{tabular}
+\end{table}
 
 
 \begin{enumerate}
@@ -320,13 +350,24 @@ Figure \ref{rw sch} shows the schematic for this board. There is one resistor us
 
 \end{enumerate}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Board Testing/parts-led matrix".PNG}
-\end{figure}
-
-
 \subsection{PCB - Logic Shifter Board} 
+
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			Rover Head & N/A & N/A & \partimg{"../PCB Testing/Pictures/Misc/rover-head".png} & Logic Shifter PCB & N/A & 1 & \partimg{"../PCB Testing/Pictures/Board Testing/ls1".PNG}\\ \hline
+			74LVC245 Logic Level Shifter & E11 & 2 & \partimg{../../../images/parts_list/E11.png} & Pin Headers & E3 & N/A & \partimg{../../../images/parts_list/E3.png} \\ \hline
+			Solder Iron & & & \partimg{"../PCB Testing/Pictures/Electronics/solder iron".png} & Digital Multimeter & & & \partimg{"../PCB Testing/Pictures/Electronics/multimeter".png}\\ \hline
+	\end{tabular}
+\end{table}
+
 \subsubsection{Overview/Schematic}
 This board is made to handle the mismatch between the digital logic voltage level of the Raspberry Pi and the LED matrix. Digital logic is typically at either 3.3V or 5V. The GPIO pins on the Raspberry Pi will output at the 3.3V logic, and the LED matrix is made to read at 5V digital logic levels. In order to have these signals make sense to each other we use a device called a logic shifter, which will take the 3.3V signals and turn them into 5V signals.
 

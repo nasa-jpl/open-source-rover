@@ -36,14 +36,14 @@ for build_doc in build_docs:
                 for part in [fields[:3], fields[4:-1]]:
                     name, number, count = part
                     # Check if the row is not blank and the part is not modified
-                    if name != '' and str.isnumeric(number[-1]):
+                    if name != '' and str.isnumeric(number[-1:]):
                         sub_assembly_part_counts[number]['name'] = name
                         sub_assembly_part_counts[number]['sections'].add(section_name)
                         sub_assembly_part_counts[number]['count'] += int(count) if count is not '' else 0
 
 
 master_parts_list = []
-# Read in the parts referance info and use to create the master list of parts
+# Read in the parts reference info and use to create the master list of parts
 with open('parts_list_reference.csv') as f:
     reader = csv.DictReader(f)
     for row in reader:
@@ -52,6 +52,7 @@ with open('parts_list_reference.csv') as f:
         ref_code = part_details['Project Ref Code']
 
         part_details['Sold in Packs of'] = int(part_details['Sold in Packs of'])
+        # Try and get the count of parts from the build documents.  If this fails, default to quantity 1.
         if not part_details['Total Used in Project override']:
             total_count = sub_assembly_part_counts.get(ref_code, {}).get('count', 1)
         else:
@@ -82,10 +83,10 @@ with open('parts_list_reference.csv') as f:
         if ref_code in sub_assembly_part_counts:
             del sub_assembly_part_counts[ref_code]
 
-# These are the parts that were not in the parts referance but found in the build docs
-# Add to master parts list as quanity 1
+# These are the parts that were not in the parts reference but found in the build docs
+# Add to master parts list as quantity 1
 print(("\nThese parts were found in the build docs but not in the parts_list_reference.csv"
-       "\nWill default to quanity of 1 in the master list\n"))
+       "\nWill default to quantity of 1 in the master list\n"))
 for part_ref, part_data in sub_assembly_part_counts.items():
     master_parts_list.append({'Project Ref Code': part_ref,
                               'Part Name': part_data['name'],
