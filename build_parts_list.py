@@ -13,8 +13,6 @@ build_docs = [i for i in glob.glob('Mechanical{sep}**{sep}Latex Docs{sep}**.tex'
 build_docs = build_docs + [i for i in glob.glob('Electrical{sep}Latex Docs{sep}**{sep}**.tex'
                                    .format(sep=os.sep))]
 
-print('Build Documents to search: ' + str(build_docs))
-
 # We know its a parts list table by the formatting of the cells
 table_pattern = r"\\begin{tabular}{\|N\|Q\|Q\|I\|N\|Q\|Q\|I\|}(.*?)\\end{tabular}"
 row_pattern = r"\\hline\s+(.*?)\s+\\\\"
@@ -39,7 +37,6 @@ for build_doc in build_docs:
 
                 # The table is 2 parts wide, get both parts from the row
                 for part in [fields[:3], fields[4:-1]]:
-                    print(part)
                     name, number, count = part
                     # Check if the row is not blank and the part is not modified
                     if name != '' and str.isnumeric(number[-1:]):
