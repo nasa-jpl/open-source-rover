@@ -21,7 +21,7 @@ The specific attributes of the robot you build will depend slightly on the type 
 | Battery Discharge Rate                    | 8 [A]                    | 8 [A]                  |
 | Nominal Current Draw                      | 1.2 [A]                  | 1.2 [A]                |
 | Operating time                            | 5 [hrs] (continual use)  | 5 [hrs] (continual use)|
-| Max speed                                 | 6.7 [in/s]               | 17.018 [cm/s]          |
+| Approximate Max speed                                 | 9.7 [in/s]               | 24.6 [cm/s]          |
 | Maximum 90 deg vertical scale             | 12 [in]                  | 30.48 [cm]             | 
 | Maximum height differential between sides | 14 [in]                  | 35.56 [cm]             |
 | Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller| |
@@ -98,6 +98,8 @@ This project assumes you have some standard tools to help assemble the project. 
  * Hand Drill or Drill Press
  * Dremel, Band saw, or hand saw
  * Items for operating a Raspberry Pi (Keyboard, mouse, monitor, 5V micro USB power adapter)
+ 
+ Here is [an Amazon list of some of the tools that may be useful](http://a.co/gnoN2LW)
 
 #### Optional Tools
  * 3D printer
@@ -168,13 +170,13 @@ When updating the build docs make sure all parts have a part reference number. I
 ## Happy building!!
 If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/).
 
-## Project Team
-### Project Lead:
-Michael Cox
-### Development Team:
-Eric Junkins and Olivia Lofaro
-### Special Thanks To:
-Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Jim Rinaldi, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
+ ## Project Team
+ ### Project Lead:
+ Michael (Mik) Cox
+ ### Development Team:
+ Eric Junkins and Olivia Lofaro
+ ### Special Thanks To:
+ Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Jim Rinaldi, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
 
 ## Additional Projects!
 We recognize that there might be a some individuals, hobbyists, and groups that might be prohobited in participating in this project because of the skills/tools necessary, or the budget. We'd like to give the information to a similar project that was designed by someone who was inspired after participating in our open source rover beta group to design one for around $500, and heavily utilizing 3D printing. We think this project would be espeically great as a hobby project, and appropriate for those just getting into some of these areas, or someone looking to spend a little less money. 

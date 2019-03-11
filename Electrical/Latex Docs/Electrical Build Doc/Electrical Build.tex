@@ -432,7 +432,7 @@ Next, follow Figure \ref{rpi to rc} and the pinout Figures \ref{Read/Write Board
 
 \section{Connecting Motors/Encoders}
 
-Next we can connect the motors and encoders to the RoboClaw motor controllers. For each of the 10 motors you will need to connect motor power as well as the encoders. This means that there will be close to 60 wires traveling between the motor controllers and the motors/encoders, so it is very important to try to keep your wires organized and bundled together well. Below is some information about strain relief and using wire braid in your electronics systems.  See these links and Figures \ref{wiring1} and \ref{ss2rc2} for examples.
+Next we can connect the motors and encoders to the RoboClaw motor controllers. For each of the 10 motors you will need to connect motor power as well as the encoders. This means that there will be close to 60 wires traveling between the motor controllers and the motors/encoders, so it is very important to try to keep your wires organized and bundled together well. Below is some information about strain relief and using wire braid in your electronics systems.  See these links and Figures \ref{wiring1} and \ref{wiring2} for examples.
 
 \begin{itemize}
 	\item \href{https://www.techopedia.com/definition/2301/strain-relief}{https://www.techopedia.com/definition/2301/strain-relief}
@@ -466,7 +466,7 @@ Next we can connect the motors and encoders to the RoboClaw motor controllers. F
 
 
 \mybox{
-An example of how we routed our wiring is shown by Figure \ref{wiring1}. It is important to give strain relief in the cable as you are routing it through, as well as to give extra wiring for the locations that can move. In addition, Figure \ref{ss2rc2} shows how we routed the wires through the rocker-bogie, and then from the rocker-bogie into the main body. Try to pick locations that reduce strain on the wires as the robot legs move when you are routing wires into the body.
+An example of how we routed our wiring is shown by Figure \ref{wiring1}. It is important to give strain relief in the cable as you are routing it through, as well as to give extra wiring for the locations that can move. In addition, Figure \ref{wiring2} shows how we routed the wires through the rocker-bogie, and then from the rocker-bogie into the main body. Try to pick locations that reduce strain on the wires as the robot legs move when you are routing wires into the body.
 }
 
 \begin{figure}[H]
@@ -479,6 +479,7 @@ An example of how we routed our wiring is shown by Figure \ref{wiring1}. It is i
     		\includegraphics[width=\textwidth]{"Pictures/Routing/route5".png}
   	\end{minipage}
 	\caption{Serial signal routing}
+	\label{wiring2}
 \end{figure}
 
 
@@ -487,11 +488,11 @@ An example of how we routed our wiring is shown by Figure \ref{wiring1}. It is i
 \begin{tabular}[3] {| p{2cm} | p{7cm} | p{4cm} |}
 	\hline
 	\textbf{Section} & \textbf{Wires Needed} & \textbf{Length [inches]}  \\ \hline
-	\textcolor{blue}{A} & \textcolor{blue}{2x 24AWG \& 4x 30AWG} & \textcolor{blue}{35} \\ \hline
-	\textcolor{cyan}{B} & \textcolor{cyan}{2x 24AWG \& 4x 30AWG} & \textcolor{cyan}{28} \\ \hline
-	\textcolor{green}{C} & \textcolor{green}{2x 24AWG \& 4x 30AWG} & \textcolor{green}{48} \\ \hline
-	\textcolor{red}{D} & \textcolor{red}{2x 24AWG \& 3x 30AWG} & \textcolor{red}{20} \\ \hline
-	\textcolor{magenta}{E} & \textcolor{magenta}{2x 24AWG \& 3x 30AWG} & \textcolor{magenta}{32} \\ \hline
+	\textcolor{blue}{A} & \textcolor{blue}{2x 20AWG \& 4x 30AWG} & \textcolor{blue}{35} \\ \hline
+	\textcolor{cyan}{B} & \textcolor{cyan}{2x 20AWG \& 4x 30AWG} & \textcolor{cyan}{28} \\ \hline
+	\textcolor{green}{C} & \textcolor{green}{2x 20AWG \& 4x 30AWG} & \textcolor{green}{48} \\ \hline
+	\textcolor{red}{D} & \textcolor{red}{2x 20AWG \& 3x 30AWG} & \textcolor{red}{20} \\ \hline
+	\textcolor{magenta}{E} & \textcolor{magenta}{2x 20AWG \& 3x 30AWG} & \textcolor{magenta}{32} \\ \hline
 \end{tabular}
 
 \begin{figure}[H]
@@ -609,7 +610,7 @@ The absolute encoder will be hooked up similarly to the encoders for the drive m
 Once all 10 of the motors are connected and in the system, we are ready to move onto the motor tuning and calibration process which is documented in the Calibration.pdf document. Make sure to double check all your wire connections and that they are into the correct pins before moving on. We recommend calibrating your motors and having the robot functioning before moving on to the LED Matrix due to simplicity and ease of debugging, though either order would be fine.
 
 \section{Connecting the LED Matrix}
-We followed along with a project on Adafruit to hook up the Raspberry Pi to the LED matrix, with the addition of the logic shifter board between the Pi and LED matrix. That project can be found at:
+The code in the osr-rover-code repository contains all the code you need to get the LED matrix up and running.  Simply clone that repository as described in the Software Steps document and hook up the wires as described below.  For additional background on the LED matrix portion of the project: We followed along with a project on Adafruit to hook up the Raspberry Pi to the LED matrix, with the addition of the logic shifter board between the Pi and LED matrix. That project can be found at:
 
 \begin{itemize}
 	\item \href{https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/overview}{https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/overview}
