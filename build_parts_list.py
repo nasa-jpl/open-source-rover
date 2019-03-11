@@ -21,7 +21,7 @@ price_pattern = r"([\d.]+)"
 sub_assembly_part_counts = defaultdict(lambda: {'count': 0, 'sections': set(), 'name': ''})
 # Loop over each latex file
 for build_doc in build_docs:
-    section_name = build_doc.split(os.sep)[1]
+    section_name = build_doc.split(os.sep)[-1].split('.tex')[0].split(' Build Doc')[0]
     with open(build_doc, 'r') as f:
         # Find all of the part list tables in the doc
         tables = re.finditer(table_pattern, f.read(), re.MULTILINE | re.DOTALL)

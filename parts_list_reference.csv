@@ -20,12 +20,12 @@ Battery Charger,1,BatterySpace,E13,Standard Tamiya Connectors,$41.95 ,https://ww
 Wire Braid,1,Amazon,E14,100 Ft,$25.00 ,https://www.amazon.com/PET-Expandable-Braided-Sleeving-10ft/dp/B00ZATM676?th=1,
 Battery Volt Meter,1,Amazon,E15,,$13.24 ,https://www.amazon.com/DROK-Multimeter-6-5-100V-Backlight-Measuring/dp/B017FSED9I,
 SD Card,1,Amazon,E16,8Gb,$9.98 ,https://www.amazon.com/SanDisk-Ultra-Micro-Adapter-SDSQUNC-016G-GN6MA/dp/B010Q57SEE,
-Jumper Wire Pack,1,Adafruit,E17,6inch,$3.95 ,https://www.adafruit.com/product/826,
-"4” and 8"" Female/Female Jumper Wires",1,Amazon,E18,,$5.99 ,https://www.amazon.com/GenBasic-Female-Solderless-Breadboard-Prototyping/dp/B01L5ULRUA,
+Jumper Wire Pack,1,Adafruit,E17,6inch,$3.95 ,https://www.adafruit.com/product/826,5
+"4” and 8"" Female/Female Jumper Wires",40,Amazon,E18,,$5.99 ,https://www.amazon.com/GenBasic-Female-Solderless-Breadboard-Prototyping/dp/B01L5ULRUA,5
 Raspberry pi heatsink,1,Amazon,E19,,$6.79 ,https://www.amazon.com/Mudder-Aluminum-Heatsink-Cooling-Raspberry/dp/B01GE7Q060,
 Roboclaw Motor Driver,1,Pololu,E2,,$69.95 ,https://www.pololu.com/product/3284,
-Resistors 10K,1,Digikey,E22,CF14JT10K0CT-ND,$0.04 ,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374,4
-Resistors 22K,1,Digikey,E23,CF14JT22K0CT-ND,$0.04 ,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT22K0/CF14JT22K0CT-ND/1830383,4
+Resistors 10K,1,Digikey,E22,CF14JT10K0CT-ND,$0.04 ,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374,
+Resistors 22K,1,Digikey,E23,CF14JT22K0CT-ND,$0.04 ,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT22K0/CF14JT22K0CT-ND/1830383,
 Tamiya Connectors,1,Amazon,E24,E19,$5.57 ,https://www.amazon.com/Tamiya-Male-Female-150mm-Venom/dp/B000HKEVH6,
 Switch,1,Digikey,E25,432-1282-ND,$4.49 ,https://www.digikey.com/product-detail/en/bulgin/C3900BA/1091-1026-ND/2747857,
 4.7k Ohm Resistor,1,Digikey,E26,CF14JT4K70CT-ND,$0.04 ,https://www.digikey.com/products/en?keywords=CF14JT4K70CT-ND,
