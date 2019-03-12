@@ -25,7 +25,7 @@ The specific attributes of the robot you build will depend slightly on the type 
 | Maximum 90 deg vertical scale             | 12 [in]                  | 30.48 [cm]             | 
 | Maximum height differential between sides | 14 [in]                  | 35.56 [cm]             |
 | Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller| |
-| Cost                                      | < $2,500                 |                        |
+| Cost                                      | ~ $2,500                 |                        |
 
 Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [Motor selection sheet](https://www.pololu.com/category/115/25d-mm-metal-gearmotors), where any of the 12V motors would work easily in the robot.  Note, however, that it is important to also asses the electrical current draw and make sure that all the electronics and battery can supply the power required for any change in motors.
 
