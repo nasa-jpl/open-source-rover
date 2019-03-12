@@ -66,6 +66,19 @@
 
 \section{Machining/Fabrication}
 \subsection{Cut the Front Aluminum Plate}
+\begin{table}[H]
+  \centering
+  \arrayrulecolor{lightgray}
+  \sffamily\footnotesize
+  \captionsetup{font={sf,bf}}
+  \caption{Parts/Tools Necessary}
+  \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+      \hline
+      \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+      \hline
+      4.5"x12" Aluminum Plate & S37 & 1 & \partimg{../../../images/parts_list/S37.jpg} & & & & \\ \hline 
+  \end{tabular}
+\end{table}
 
 For the large aluminum plates that make up the main body of our rover, we will need two 9x12 inch plates (top and bottom),  two 12x4.5 inch plates (left and right sides), and one 9x4.5 inch plate (for the front; the back panel will be made of laser cut acrylic and described later).  However, the aluminum plates on our parts list only come in the 9x12 inch and 4.5x12 inch sizes.  We will therefore need to custom cut the front 9x4.5 inch panel.  Cut one panel to the dimensions given in  Figure \ref{fb panel cut}.
 
@@ -103,6 +116,20 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload these 
 
 
 \subsection{9x12 Aluminum Plate Drilling}
+\begin{table}[H]
+  \centering
+  \arrayrulecolor{lightgray}
+  \sffamily\footnotesize
+  \captionsetup{font={sf,bf}}
+  \caption{Parts/Tools Necessary}
+  \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+      \hline
+      \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+      \hline
+      9"x12" Aluminum Plate & S35 & 1 & \partimg{../../../images/parts_list/S35.jpg} & & & & \\ \hline 
+  \end{tabular}
+\end{table}
+
 Next we need to drill a hole in one of the 9x12 Aluminum plates \textbf{S35} because we will need a hole of just over 0.5 in diameter for the differential pivot mount. There is already a small hole drilled in the location we want to use, but it needs to be widened substantially. Start with the drill \# 23 and drill the hole shown by Figure \ref{Drilling the Al plate}. Repeat this with drill sizes stepping up until you get to a drill of 0.5 in. Take the 0.5 in hollow rod \textbf{S19} and make sure it spins freely in the hole you have created. If it does not, drill the hole slightly larger or sand/file the hole until the rod spins with no resistance.\footnote{The 0.5 in hollow rod must spin \textit{freely} while mounted inside the bearing blocks (See step 2.2 Differential pivot for example). It may help to follow step 2.2 in this document to test if you have enough clearance.}
 
 \begin{figure}[H]
@@ -208,10 +235,8 @@ The differential pivot is used to transfer weight off of the wheel that is curre
         \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
         \hline
         0.5" Pillow Bearing Block & S11 & 2 & \partimg{../../../images/parts_list/S11.jpg} & \#6-32x1/4" Button Head Screw & B1 & 6 & \partimg{../../../images/parts_list/B1.png} \\ \hline
-        0.5" Circular Clamping Hub & S13 & 1 & \partimg{../../../images/parts_list/S13.png} & \#6-32x1" Button Head Screw & B6 & 4 & \partimg{../../../images/parts_list/B6.png} \\ \hline
-        0.5"x2" Aluminum Rod & S19 & 1 & \partimg{../../../images/parts_list/S19.jpg} & 0.5" Plastic Washer & W3 & 3 & \partimg{../../../images/parts_list/W3.png} \\ \hline
-        \#6-32x1/4" Spacer & T1 & 8 & \partimg{../../../images/parts_list/T1.png} & Allen Key Set & D2 & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
-        Collar Clamp & S22 & 1 & \partimg{../../../images/parts_list/S22.png} & 5/16" Wrench & D1 & & \partimg{../../../images/parts_list/D1.jpg} \\ \hline
+        \#6-32x1/4" Spacer & T1 & 8 & \partimg{../../../images/parts_list/T1.png} & \#6-32x1" Button Head Screw & B6 & 4 & \partimg{../../../images/parts_list/B6.png} \\ \hline
+        5/16" Wrench & D1 & & \partimg{../../../images/parts_list/D1.jpg} & Allen Key Set & D2 & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
     \end{tabular}
 \end{table}
 
@@ -231,6 +256,7 @@ The differential pivot is used to transfer weight off of the wheel that is curre
   \label{mount pillow blocks}
 \end{figure}
 
+\item \textbf{Insert the aluminum rod:} Mount a collar clamp \textbf{S22} onto the end of the 2" Aluminum Rod \textbf{S19} and insert the rod through the pillow block assembly from underneath.  Later on, the differential pivot subassembly will clamp onto this piece.  The rod will likely fall back out until you complete the next step; remember to replace this part during the final mechanical integration.
 
 \end{enumerate}
 

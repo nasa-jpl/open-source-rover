@@ -12,7 +12,7 @@ M2.5 x 4mm Screw,25,McMaster,B10,91292A015,$5.61 ,https://www.mcmaster.com/91292
 #6-32 x 1.25 Button Head Screw,50,McMaster,B7,92949A160,$6.51 ,https://www.mcmaster.com/92949A160,
 #4-40 x 1/4 Button Head Screw,100,McMaster,B8,92949A106,$2.87 ,https://www.mcmaster.com/92949a106,
 #4-40 x 1.25 Button Head Screw,100,McMaster,B9,92949A118,$7.70 ,https://www.mcmaster.com/92949A118,
-Raspberry pi 3 model b,1,Amazon,E1,B,$34.99 ,https://www.amazon.com/Raspberry-Model-1-2GHz-64-bit-quad-core/dp/B01CD5VC92/ref=sr_1_3?s=electronics&ie=UTF8&qid=1505769274&sr=1-3&keywords=raspberry+pi+3,
+Raspberry pi 3 model b,1,Amazon,E1,B,$34.99 ,https://www.amazon.com/Raspberry-Model-1-2GHz-64-bit-quad-core/dp/B01CD5VC92/ref=sr_1_3?s=electronics&ie=UTF8&qid=1505769274&sr=1-3&keywords=raspberry+pi+3,1
 3 pin Micro Connectors,1,US Digital,E10,CA-MIC3-W3-NC-1,$6.80 ,https://www.usdigital.com/products/cables-connectors/cables/3-pin/CA-MIC3-W3-NC,
 Logic Shifter,1,Adafruit,E11,74LVC245,$1.50 ,https://www.adafruit.com/product/735,2
 Battery,1,BatterySpace,E12,Standard Tamiya Connectors,$86.95 ,https://www.batteryspace.com/li-ion-battery-14-8v-5-2ah-77wh-8a-rate-for-diving-light---un-38-3-passed.aspx,
@@ -21,9 +21,9 @@ Wire Braid,1,Amazon,E14,100 Ft,$25.00 ,https://www.amazon.com/PET-Expandable-Bra
 Battery Volt Meter,1,Amazon,E15,,$13.24 ,https://www.amazon.com/DROK-Multimeter-6-5-100V-Backlight-Measuring/dp/B017FSED9I,
 SD Card,1,Amazon,E16,8Gb,$9.98 ,https://www.amazon.com/SanDisk-Ultra-Micro-Adapter-SDSQUNC-016G-GN6MA/dp/B010Q57SEE,
 Jumper Wire Pack,1,Adafruit,E17,6inch,$3.95 ,https://www.adafruit.com/product/826,5
-"4” and 8"" Female/Female Jumper Wires",40,Amazon,E18,,$5.99 ,https://www.amazon.com/GenBasic-Female-Solderless-Breadboard-Prototyping/dp/B01L5ULRUA,5
+"4” and 8"" Female/Female Jumper Wires",40,Amazon,E18,,$5.99 ,https://www.amazon.com/GenBasic-Female-Solderless-Breadboard-Prototyping/dp/B01L5ULRUA,200
 Raspberry pi heatsink,1,Amazon,E19,,$6.79 ,https://www.amazon.com/Mudder-Aluminum-Heatsink-Cooling-Raspberry/dp/B01GE7Q060,
-Roboclaw Motor Driver,1,Pololu,E2,,$69.95 ,https://www.pololu.com/product/3284,
+Roboclaw Motor Driver,1,Pololu,E2,,$69.95 ,https://www.pololu.com/product/3284,5
 Resistors 10K,1,Digikey,E22,CF14JT10K0CT-ND,$0.04 ,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374,
 Resistors 22K,1,Digikey,E23,CF14JT22K0CT-ND,$0.04 ,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT22K0/CF14JT22K0CT-ND/1830383,
 Tamiya Connectors,1,Amazon,E24,E19,$5.57 ,https://www.amazon.com/Tamiya-Male-Female-150mm-Venom/dp/B000HKEVH6,
@@ -68,7 +68,7 @@ Dual Side mount A,2,ServoCity,S17,585470,$5.99 ,https://www.servocity.com/90-dua
 Plain Bore Gear,1,ServoCity,S26,RHA32-36-48,$3.69 ,https://www.servocity.com/32-pitch-acetyl-hub-gears-0-1875-face#199=15,
 Shaft Mount Pinion Gear,1,ServoCity,S27,615362,$7.99 ,https://www.servocity.com/0-125-1-8-bore-32p-shaft-mount-pinion-gear,
 Custom Acrylic Electronics Board,1,Sculpteo,S28,,$15.25 ,https://www.sculpteo.com/,
-1 Inch PVC,1,McMaster,S29,48925K93,$4.92 ,https://www.mcmaster.com/48925k93,
+5 Foot PVC,1,McMaster,S29,48925K93,$4.92 ,https://www.mcmaster.com/48925k93,
 3.75” Channel,1,ServoCity,S3,585443,$4.49 ,https://www.servocity.com/3-75-channel,
 Wheel,2,DollarHobbyz,S30,,$25.27 ,https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x,
 3D Printed Encoder Mounts,1,Makexyz,S31,,$12.90 ,https://www.makexyz.com/,
@@ -86,7 +86,6 @@ Pattern F Bracket,1,ServoCity,S7,585592,$2.79 ,https://www.servocity.com/flat-br
 Single Pattern Bracket,1,ServoCity,S8,585468,$1.29 ,https://www.servocity.com/flat-single-channel-bracket,
 Motor Mount F,1,ServoCity,S9,555104,$3.99 ,https://www.servocity.com/aluminum-motor-mount-f,
 #6 x 1/4 Spacer,1,McMaster,T1,92510A442,$0.23 ,https://www.mcmaster.com/92510A442,
-#6-32 x 3/8 Standoffs,1,McMaster,T2,93330A443,$0.30 ,https://www.mcmaster.com/93330A443,
 #6-32 x 0.75” Standoff,4,ServoCity,T3,633126,$1.79 ,https://www.servocity.com/6-32-thread-1-4-od-round-aluminum-standoffs#371=256,
 #4-40 x 1/4 Threaded Standoff,1,McMaster,T4,91780A162,$0.23 ,https://www.mcmaster.com/91780A162,
 #4-40 x 1/2 Threaded Standoff,1,McMaster,T5,91780A164,$0.27 ,https://www.mcmaster.com/91780A164,
