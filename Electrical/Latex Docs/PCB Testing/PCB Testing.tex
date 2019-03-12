@@ -16,6 +16,9 @@
 \usepackage{wrapfig}
 \usepackage{tcolorbox}
 \usepackage{lipsum}
+\usepackage{colortbl}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
 
 \pagestyle{fancy}
 \lfoot{\textbf{Open Source Rover PCB Testing}}
@@ -41,7 +44,13 @@
 }
 \makeatother
 
+% Parts list tables
+\renewcommand\theadfont{\bfseries}
+\newcolumntype{I}{ >{\centering\arraybackslash} m{2cm} }  % part image
+\newcolumntype{N}{ >{\centering\arraybackslash} m{3cm} }  % part name
+\newcolumntype{Q}{ >{\centering\arraybackslash} m{0.75cm} }  % ref & qty
 
+\newcommand\partimg{\includegraphics[width=2cm,height=1.25cm,keepaspectratio]}
 
 \begin{document}
 
@@ -51,7 +60,7 @@
 \makeatletter         
 \def\@maketitle{
 \begin{center}	
-	\makebox[\textwidth][c]{ \includegraphics[width=0.8\paperwidth]{"Pictures/pcb title".png}}
+	\makebox[\textwidth][c]{ \includegraphics[width=0.8\paperwidth]{"Pictures/pcb title".PNG}}
 	{\Huge \bfseries \sffamily \@title }\\[3ex] 
 	{\Large \sffamily \@author}\\[3ex] 
 	\includegraphics[width=.85\linewidth]{"Pictures/Electronics/JPL logo".png}
@@ -121,7 +130,7 @@ The operational amplifier (op-amp) chip we chose is a dual channel op-amp, so it
 
 \begin{figure}[H]
   	\centering
-    	\includegraphics[width=.35\textwidth]{"Pictures/Electronics/OP amp".PNG}
+    	\includegraphics[width=.35\textwidth]{"Pictures/Electronics/Op amp".PNG}
  	\caption{Op-amp pinout}
 	\label{opamp}
 \end{figure}
@@ -147,17 +156,27 @@ The op-amp is used as a voltage follower, allowing you to decouple the resistors
 
 \subsubsection{Testing}
 
-\begin{figure}[H]
-  	\centering
-    	\includegraphics[width=.75\textwidth]{"Pictures/Electronics/vd parts".PNG}
- 	\caption{}
-	\label{}
-\end{figure}
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			Voltage Divider PCB & N/A & 1 & \partimg{"../PCB Testing/Pictures/Board Testing/vd_unpopulated".PNG} & LM 385P Op Amp & E9 & 2 & \partimg{../../../images/parts_list/E9.png} \\ \hline
+			10KOhm Resistor & E22 & 4 & \partimg{../../../images/parts_list/E22.png} & 22KOhm Resistor & E23 & 4 & \partimg{../../../images/parts_list/E22.png} \\ \hline
+			Pin Headers & E3 & N/A & \partimg{../../../images/parts_list/E3.png} & Digital Multimeter & D9 & & \partimg{"../PCB Testing/Pictures/Electronics/multimeter".png} \\ \hline
+			Solder Iron & D10 & & \partimg{"../PCB Testing/Pictures/Electronics/solder iron".png} & & & & \\ \hline
+	\end{tabular}
+\end{table}
 
-Figure \ref{vd pinout1} shows how the pins are labeled and should aid in debugging the board and testing the signals at the various pins.
+Figure \ref{vd pinout1} shows how the header pins are labeled for the voltage divider board and should aid in debugging the board and testing the signals at the various pins.
 \begin{figure}[H]
  	\centering
-	\includegraphics[width=.65\textwidth]{"Pictures/Electronics/Encoder Board".PNG}
+	\includegraphics[width=.65\textwidth]{"Pictures/Electronics/Encoder Board".png}
  	\caption{Encoder Voltage Divider board pinout}
 	\label{vd pinout1}
 \end{figure}
@@ -214,14 +233,14 @@ Figure \ref{vd pinout1} shows how the pins are labeled and should aid in debuggi
 		 	\caption{Voltage Divider step 7}
 			\label{vd7}
 		\end{figure}
-	\item Now that we know that each of the encoders will be powered by +5V correctly, we need to test the voltage division. Apply +5V to pin 14 and measure the output at pin 2 as shown in Figure \ref{vd8}. This value should read between 1.4V and 2.0V. It is important that it is strictly less than 2V, but slightly lower values are also okay. Resistor values can be changed if desired to make this closer to 2V. 
+	\item Now that we know that each of the encoders will be powered by +5V correctly, we need to test the voltage division. Apply +5V to pin 2 and measure the output at pin 14 as shown in Figure \ref{vd8}. This value should read between 1.4V and 2.0V. It is important that it is strictly less than 2V, but slightly lower values are also okay. Resistor values can be changed if desired to make this closer to 2V. 
 		\begin{figure}[H]
 		 	\centering
 			\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/vd8".PNG}
 		 	\caption{Voltage Divider step 8}
 			\label{vd8}
 		\end{figure}
-	\item Repeat step 8 with +5V on pin 17 and testing pin 5, then +5V on pin 20 testing at pin 8, and +5V on pin 23 testing at pin 11. Once all these are verified, the board is working correctly and is ready for the rest of the project! If any of the tests fail, check that you are using the correct resistor values and that the op-amp chip is functioning correctly and hasn't burned out.  
+	\item Repeat step 8 with +5V on pin 5 and testing pin 17, then +5V on pin 8 testing at pin 20, and +5V on pin 11 testing at pin 23. Once all these are verified, the board is working correctly and is ready for the rest of the project! If any of the tests fail, check that you are using the correct resistor values and that the op-amp chip is functioning correctly and hasn't burned out.  
 
 	\begin{figure}[H]
 	 	\centering
@@ -230,7 +249,7 @@ Figure \ref{vd pinout1} shows how the pins are labeled and should aid in debuggi
 	  	\end{minipage}
 	  	\hfill
 	  	\begin{minipage}[b]{0.45\textwidth}
-	    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/vd10".png}
+	    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/vd10".PNG}
 	  	\end{minipage}
 		\label{}
 	\end{figure}
@@ -263,10 +282,21 @@ Figure \ref{rw sch} shows the schematic for this board. There is one resistor us
 
 \subsubsection{Testing}
 
-\begin{figure}[H]
-  	\centering
-    	\includegraphics[width=.85\textwidth]{"Pictures/Electronics/ss parts".PNG}
-\end{figure}
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			Serial Splitter PCB & N/A & 1 & \partimg{"../PCB Testing/Pictures/Electronics/serial splitter board".PNG} & 4.7KOhm Resistor & E26 & 1 & \partimg{../../../images/parts_list/E22.png} \\ \hline
+			Pin Headers & E3 & N/A & \partimg{../../../images/parts_list/E3.png} & Digital Multimeter & D9 & & \partimg{"../PCB Testing/Pictures/Electronics/multimeter".png} \\ \hline
+			Solder Iron & D10 & & \partimg{"../PCB Testing/Pictures/Electronics/solder iron".png} & & & & \\ \hline
+	\end{tabular}
+\end{table}
 
 
 \begin{enumerate}
@@ -297,7 +327,7 @@ Figure \ref{rw sch} shows the schematic for this board. There is one resistor us
 	  	\end{minipage}
 	  	\hfill
 	  	\begin{minipage}[b]{0.45\textwidth}
-	    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ss4".png}
+	    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ss4".PNG}
 	  	\end{minipage}
 		\label{sstest1}
 	\end{figure}
@@ -320,13 +350,24 @@ Figure \ref{rw sch} shows the schematic for this board. There is one resistor us
 
 \end{enumerate}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/Board Testing/parts-led matrix".PNG}
-\end{figure}
-
-
 \subsection{PCB - Logic Shifter Board} 
+
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			Rover Head & N/A & N/A & \partimg{"../PCB Testing/Pictures/Misc/rover-head".png} & Logic Shifter PCB & N/A & 1 & \partimg{"../PCB Testing/Pictures/Board Testing/ls1".PNG} \\ \hline
+			74LVC245 Logic Level Shifter & E11 & 2 & \partimg{../../../images/parts_list/E11.png} & Pin Headers & E3 & N/A & \partimg{../../../images/parts_list/E3.png} \\ \hline
+			Solder Iron & D10 & & \partimg{"../PCB Testing/Pictures/Electronics/solder iron".png} & Digital Multimeter & D9 & & \partimg{"../PCB Testing/Pictures/Electronics/multimeter".png} \\ \hline
+	\end{tabular}
+\end{table}
+
 \subsubsection{Overview/Schematic}
 This board is made to handle the mismatch between the digital logic voltage level of the Raspberry Pi and the LED matrix. Digital logic is typically at either 3.3V or 5V. The GPIO pins on the Raspberry Pi will output at the 3.3V logic, and the LED matrix is made to read at 5V digital logic levels. In order to have these signals make sense to each other we use a device called a logic shifter, which will take the 3.3V signals and turn them into 5V signals.
 
@@ -348,7 +389,7 @@ The board will come initially unpopulated of components and will look like this:
 
 \begin{figure}[H]
   	\centering
-    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/ls1".png}
+    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/ls1".PNG}
  	\caption{Logic Shifter Board}
 	\label{ls1}
 \end{figure}
@@ -364,7 +405,7 @@ The board will come initially unpopulated of components and will look like this:
   	\end{minipage}
   	\hfill
   	\begin{minipage}[b]{0.45\textwidth}
-    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls3".png}
+    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls3".PNG}
   	\end{minipage}
 	\caption{Populating the board}
 \end{figure}
@@ -373,7 +414,7 @@ The board will come initially unpopulated of components and will look like this:
 
 \begin{figure}[H]
   	\centering
-    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/pins".png}
+    	\includegraphics[width=.45\textwidth]{"Pictures/Board Testing/pins".PNG}
  	\caption{Board Connections}
 	\label{ls4}
 \end{figure}
@@ -398,7 +439,7 @@ The board will come initially unpopulated of components and will look like this:
   	\end{minipage}
   	\hfill
   	\begin{minipage}[b]{0.45\textwidth}
-    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls5".png}
+    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls5".PNG}
   	\end{minipage}
 	\caption{Testing the board}
 \end{figure}
@@ -407,7 +448,7 @@ The board will come initially unpopulated of components and will look like this:
 
 \begin{figure}[H]
   	\centering
-    	\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/dir".png}
+    	\includegraphics[width=.35\textwidth]{"Pictures/Board Testing/dir".PNG}
  	\caption{Chip bus direction logic}
 	\label{dir}
 \end{figure}
@@ -419,7 +460,7 @@ The board will come initially unpopulated of components and will look like this:
   	\end{minipage}
   	\hfill
   	\begin{minipage}[b]{0.45\textwidth}
-    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls7".png}
+    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls7".PNG}
   	\end{minipage}
 	\caption{Testing the board}
 \end{figure}
@@ -433,7 +474,7 @@ The board will come initially unpopulated of components and will look like this:
   	\end{minipage}
   	\hfill
   	\begin{minipage}[b]{0.45\textwidth}
-    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls9".png}
+    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls9".PNG}
   	\end{minipage}
 	\caption{Testing the board}
 	\label{ls2}
@@ -448,7 +489,7 @@ The board will come initially unpopulated of components and will look like this:
   	\end{minipage}
   	\hfill
   	\begin{minipage}[b]{0.45\textwidth}
-    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls11".png}
+    		\includegraphics[width=\textwidth]{"Pictures/Board Testing/ls11".PNG}
   	\end{minipage}
 	\caption{Testing the board}
 \end{figure}

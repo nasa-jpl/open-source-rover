@@ -1,0 +1,412 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{textcomp}
+\usepackage{colortbl}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover Mechanical Assembly Manual}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+
+% Parts list tables
+\renewcommand\theadfont{\bfseries}
+\newcolumntype{I}{ >{\centering\arraybackslash} m{2cm} }  % part image
+\newcolumntype{N}{ >{\centering\arraybackslash} m{3cm} }  % part name
+\newcolumntype{Q}{ >{\centering\arraybackslash} m{0.75cm} }  % ref & qty
+
+\begin{document}
+
+\newcommand\partimg{\includegraphics[width=2cm,height=1.25cm,keepaspectratio]}
+
+\title{Open Source Rover: Body Assembly Instructions}
+\author{Authors: Michael Cox, Eric Junkins, Olivia Lofaro}
+
+\makeatletter
+\def\@maketitle{
+\begin{center}
+	\makebox[\textwidth][c]{ \includegraphics[width=0.7\paperwidth]{"Pictures/Body/Body title".png}}
+	{\Huge \bfseries \sffamily \@title }\\[3ex]
+	{\Large \sffamily \@author}\\[3ex]
+	\includegraphics[width=.65\linewidth]{"Pictures/Misc/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged.}
+
+
+% Introduction
+\newpage
+
+
+\tableofcontents
+
+\newpage
+
+\section{Machining/Fabrication}
+\subsection{Cut the Front Aluminum Plate}
+\begin{table}[H]
+  \centering
+  \arrayrulecolor{lightgray}
+  \sffamily\footnotesize
+  \captionsetup{font={sf,bf}}
+  \caption{Parts/Tools Necessary}
+  \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+      \hline
+      \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+      \hline
+      4.5"x12" Aluminum Plate & S37 & 1 & \partimg{../../../images/parts_list/S37.jpg} & & & & \\ \hline 
+  \end{tabular}
+\end{table}
+
+For the large aluminum plates that make up the main body of our rover, we will need two 9x12 inch plates (top and bottom),  two 12x4.5 inch plates (left and right sides), and one 9x4.5 inch plate (for the front; the back panel will be made of laser cut acrylic and described later).  However, the aluminum plates on our parts list only come in the 9x12 inch and 4.5x12 inch sizes.  We will therefore need to custom cut the front 9x4.5 inch panel.  Cut one panel to the dimensions given in  Figure \ref{fb panel cut}.
+
+%\begin{figure}[H]
+%  \centering
+%  \begin{minipage}[b]{0.45\textwidth}
+%    \includegraphics[width=\textwidth]{"Pictures/Fabrication/Front panel cut".PNG}
+%  \end{minipage}
+%  \hfill
+%  \begin{minipage}[b]{0.45\textwidth}
+%    \includegraphics[width=\textwidth]{"Pictures/Fabrication/Back panel cut".png}
+%  \end{minipage}
+%  \caption{Cutting the front and back panels of the body}
+%  \label{fb panel cut}
+%\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{"Pictures/Fabrication/Front panel cut".PNG}
+  	\caption{Cutting the front panel of the body}
+  	\label{fb panel cut}
+\end{figure}
+
+
+\subsection{Laser Cut Parts}
+
+In order to put the electronics inside the robot body we need an electronics board.  Additionally, the back panel of the rover requires a couple custom cutouts accessing components like our voltage monitor and the USB ports on the Raspberry Pi. One simple and inexpensive solution for these parts is to order pieces of laser cut acrylic. In the Body Assembly folder in the repository, there is a folder called Laser Cut Parts. That folder contains two .DXF files which are 2D path files for a laser cutter.  If you have a laser cutter, you may cut these parts yourselves.  Also, there are many inexpensive laser cutting website services. An example of one of these sites is:
+
+\begin{itemize}
+	\item \href{https://www.sculpteo.com}{https://www.sculpteo.com}
+\end{itemize}
+
+To get the above parts from Sculpteo, go to Laser cutting and then upload these files (with mm selected as units). Hit Next. Make sure scale is set to 100\%, change the material to Acrylic, have thickness to 1/8 inch, and then select whatever color you wish.
+
+
+\subsection{9x12 Aluminum Plate Drilling}
+\begin{table}[H]
+  \centering
+  \arrayrulecolor{lightgray}
+  \sffamily\footnotesize
+  \captionsetup{font={sf,bf}}
+  \caption{Parts/Tools Necessary}
+  \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+      \hline
+      \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+      \hline
+      9"x12" Aluminum Plate & S35 & 1 & \partimg{../../../images/parts_list/S35.jpg} & & & & \\ \hline 
+  \end{tabular}
+\end{table}
+
+Next we need to drill a hole in one of the 9x12 Aluminum plates \textbf{S35} because we will need a hole of just over 0.5 in diameter for the differential pivot mount. There is already a small hole drilled in the location we want to use, but it needs to be widened substantially. Start with the drill \# 23 and drill the hole shown by Figure \ref{Drilling the Al plate}. Repeat this with drill sizes stepping up until you get to a drill of 0.5 in. Take the 0.5 in hollow rod \textbf{S19} and make sure it spins freely in the hole you have created. If it does not, drill the hole slightly larger or sand/file the hole until the rod spins with no resistance.\footnote{The 0.5 in hollow rod must spin \textit{freely} while mounted inside the bearing blocks (See step 2.2 Differential pivot for example). It may help to follow step 2.2 in this document to test if you have enough clearance.}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Fabrication/9x12 Plate cut".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Fabrication/9x12 Plate cut2".png}
+  \end{minipage}
+  \caption{Drilling the Aluminum Plate}
+  \label{Drilling the Al plate}
+\end{figure}
+
+\newpage
+
+\section{Mechanical/Structural Assembly}
+\subsection{Chassis}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        1.5" Channel & S1 & 4 & \partimg{../../../images/parts_list/S1.jpg} & \#6-32x3/8" Button Head Screw & B2 & 16 & \partimg{../../../images/parts_list/B2.png} \\ \hline
+        4.5"x12" Aluminum Plate & S37 & 2 & \partimg{../../../images/parts_list/S37.jpg} & \#6-32 Locking Hex Nut & B11 & 16 & \partimg{../../../images/parts_list/B11.png} \\ \hline
+        1" PVC Clamp & S24 & 1 & \partimg{../../../images/parts_list/S24.jpg} & Allen Key Set & & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
+        9"x12" Aluminum Plate & S35A & 1 & \partimg{../../../images/parts_list/S35.jpg} & 5/16" Wrench & & & \partimg{../../../images/parts_list/D1.jpg} \\ \hline 
+        \#6-32x1/4" Button Head Screw & B1 & 4 & \partimg{../../../images/parts_list/B1.png} & & & & \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+\item \textbf{Attach the channels to the Top panel: } Take the modified 9x12 Aluminum plate \textbf{S35A} and attach the four 1.5inch channel connectors \textbf{S1} using screws \textbf{B2} and hex nuts \textbf {B11} at each of the corners as shown in Figure \ref{channel to al plate}. Make sure to use the inner circle for these screws and not the outer ones where there won't be enough clearance for the hex nut.
+
+\begin{figure}[H]
+  	\centering
+  	\begin{minipage}[b]{0.20\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Body/Step 1".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.30\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Body/Step 1 b".PNG}
+  	\end{minipage}
+    	\hfill
+  	\begin{minipage}[b]{0.40\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Body/Step 2".PNG}
+  	\end{minipage}
+  	\caption{Attaching channels to aluminum plate}
+	\label{channel to al plate}
+\end{figure}
+
+\item \textbf{Attach the side panels: } Attach the 4.5x12 plates \textbf{S37} to the channels using screws \textbf{B2} and hex nuts \textbf{B11}, again using the middle circle of holes for the screws and hex nuts.
+
+\begin{figure}[H]
+ 	\centering
+ 	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Body/Step 3 a".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/Body/Step 3 b".PNG}
+  	\end{minipage}
+  	\caption{Attach the side panels}
+	\label{Body side panels}
+\end{figure}
+
+\item \textbf{Attach the PVC clamping hub:} Attach the 1-inch PVC bore clamping hub \textbf{S24} to the top plate of the body using screws \textbf{B1} wherever you would like your rover's "neck" to protrude from the body. We suggest using the location shown in Figure \ref{pvc to top plate}.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.40\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Step 11a".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.50\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Step 11b".PNG}
+  \end{minipage}
+  \caption{Attach the PVC clamp to top plate}
+	\label{pvc to top plate}
+\end{figure}
+
+\end{enumerate}
+
+
+\subsection{Differential Pivot Block}
+The differential pivot is used to transfer weight off of the wheel that is currently climbing to the other front wheel, allowing the rover to climb more easily. Additionally, it serves as a second contact point for the rover's body such that it does not rotate freely about the cross rod.
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+
+        0.5" Pillow Bearing Block & S11 & 2 & \partimg{../../../images/parts_list/S11.jpg} & \#6-32x1" Button Head Screw & B6 & 4 & \partimg{../../../images/parts_list/B6.png} \\ \hline
+        \#6-32x1/4" Spacer & T1 & 8 & \partimg{../../../images/parts_list/T1.png} & Allen Key Set & D2 & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
+        5/16" Wrench & D1 & & \partimg{../../../images/parts_list/D1.jpg} & & & & \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+\item \textbf{Mount the pillow bearing blocks:} Using spacers \textbf{T1}, screws \textbf{B6}, and hex nut \textbf{B11}, mount the pillow blocks \textbf{S11} to the top of the body over the hole in the aluminum plate that you drilled earlier as shown in Figure \ref{mount pillow blocks}.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.30\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Step 5 a".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.55\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Step 5 b".PNG}
+  \end{minipage}
+  \caption{Mounting the pillow blocks}
+  \label{mount pillow blocks}
+\end{figure}
+
+\item \textbf{Insert the aluminum rod:} Mount a collar clamp \textbf{S22} onto the end of the 2" Aluminum Rod \textbf{S19} and insert the rod through the pillow block assembly from underneath.  Later on, the differential pivot subassembly will clamp onto this piece.  The rod will likely fall back out until you complete the next step; remember to replace this part during the final mechanical integration.
+
+\end{enumerate}
+
+\subsection{Electronics Board}
+
+Next up is preparing the electronics plate. This plate holds all the electrical components, including the Raspberry Pi, all 5 RoboClaw Motor controllers, and the voltage regulator.
+
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        Raspberry Pi 3 Model B & E1 & 1 & \partimg{../../../images/parts_list/E1.jpg} & \#6-32x1/2" Button Head Screw & B3 & 4 & \partimg{../../../images/parts_list/B3.png} \\ \hline
+        RoboClaw Dual Motor Controller & E2 & 5 & \partimg{../../../images/parts_list/E2.jpg} & \#4-40x1/4" Button Head Screw & B8 & 72 & \partimg{../../../images/parts_list/B8.png} \\ \hline
+        5V Regulator & E4 & 1 & \partimg{../../../images/parts_list/E4.jpg} & M2.5x11mm Screw & B10 & 12 & \partimg{../../../images/parts_list/B10.png} \\ \hline
+        \#6x1/4" Spacer & T1 & 4 & \partimg{../../../images/parts_list/T1.png} & \#2-56x3/16" Button Head Screw & B13 & 4 & \partimg{../../../images/parts_list/B13.png} \\ \hline
+        \#4-40x1/4" Threaded Standoff & T4 & 8 & \partimg{../../../images/parts_list/T4.png} & \#6-32 Locking Nut & B11 & 4 & \partimg{../../../images/parts_list/B11.png} \\ \hline
+        \#4-40x1/2" Threaded Standoff & T5 & 12 & \partimg{../../../images/parts_list/T5.png} & \#6-32 Washer & W1 & 12 & \partimg{../../../images/parts_list/W1.png} \\ \hline
+        \#4-40x3/4" Threaded Standoff & T6 & 8 & \partimg{../../../images/parts_list/T6.png} & Allen Key Set & D2 & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
+        M2.5x12mm Threaded Standoff & T7 & 4 & \partimg{../../../images/parts_list/T7.png} & 5/16" Wrench & D1 & & \partimg{../../../images/parts_list/D1.jpg} \\ \hline
+        \#2-56x3/8" Threaded Standoff & T8 & 2 & \partimg{../../../images/parts_list/T8.png} & & & & \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+\item \textbf{Attaching the Standoffs} There are a few different standoffs here. By using different standoff heights,we gain access to the micro USB port on each of the individual RoboClaws. The Raspberry Pi also has its own metric standoffs. In Figure \ref{standoffs}, the colors correspond to the following parts: \textcolor{green}{Green}:\textbf{T4}, \textcolor{blue}{Blue}:\textbf{T5}, \textcolor{pink}{Pink}:\textbf{T6}, \textcolor{cyan}{Cyan}:\textbf{T7}, \textcolor{yellow}{Yellow}:\textbf{T8}. Use the screw that corresponds to the spacer or standoff used.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.50\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Step 9a".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.35\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Electronics Screw".PNG}
+  \end{minipage}
+
+  \caption{Electronics Board Step 1}
+  \label{standoffs}
+\end{figure}
+
+\item \textbf{Mounting the Electronics:} Take the Raspberry Pi \textbf{E1}, RoboClaws \textbf{E2}, and voltage regulator \textbf{E4} and mount them in the locations shown in Figure \ref{electronics board 2}, again using the screws \textbf{B8 and B10} corresponding with each standoff.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=.65\linewidth]{"Pictures/Body/Step 9c".PNG}
+  \caption{Electronics Board Step 2}
+  \label{electronics board 2}
+\end{figure}
+
+
+\item \textbf{Mounting Electronics into Chassis:} Now that the electronics are on the plate, we can mount it into the chassis. Using screws \textbf{B3}, washers \textbf{W1} (3 washers per corner), and hex nuts \textbf{B11} attach the electronics board to the chassis at all four corners.\footnote{The washers give a small amount of extra space that is needed to fit the Voltage monitor in the system later.}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.40\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Step 8b".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.40\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Step 8a".PNG}
+  \end{minipage}
+  \caption{Electronics Board Step 3}
+\end{figure}
+\end{enumerate}
+
+Figure \ref{vm} shows how we mounted the volt meter as an example of how the pieces should fit together. If the volt meter does not fit in this gap, you can add additional washers from the previous step to space the electronics board farther from the top plate.
+\begin{figure}[H]
+  	\centering
+    	\includegraphics[width=0.6\textwidth]{"Pictures/Body/voltmeter".PNG}
+ 	\caption{Volt meter and connectors mounted}
+	\label{vm}
+\end{figure}
+
+
+\subsection{Closing the Body}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+        \hline
+        Dual Side Mount A & S17 & 8 & \partimg{../../../images/parts_list/S17.jpg} & \#6-32x1/4" Button Head Screw & B1 & 24 & \partimg{../../../images/parts_list/B1.png} \\ \hline
+        4.5"x9" Aluminum Plate (modified) & S37A & 1 & \partimg{../../../images/parts_list/S37A.png} & \#6-32x3/8" Button Head Screw & B2 & 8 & \partimg{../../../images/parts_list/B2.png} \\ \hline
+        4.5"x9" Aluminum Plate (modified) & S37B & 1 & \partimg{../../../images/parts_list/S37B.png} & Allen Key Set & D2 & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
+        9"x12" Aluninum Plate & S35 & 1 & \partimg{../../../images/parts_list/S35.jpg} & & & & \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item \textbf{Attach the Dual Side Mounts:} Mount Dual Side Mounts A \textbf{S17} using screws \textbf{B1} in the locations shown in Figure \ref{Dual Side Mounts}.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.40\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Dual Side mounts".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.40\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Dual side mounts 2".PNG}
+  \end{minipage}
+  \caption{Dual Side Mount A locations}
+  \label{Dual Side Mounts}
+\end{figure}
+
+\item \textbf{Attach the front/back panel: } Attach the Acrylic back panel \textbf{S37B} to the "back" of the body using screws \textbf{B2} (the "back" of the rover will be the side with the Raspberry Pi). The cutout should line up with the USB ports on the Pi. Repeat this with the aluminum plate for the front of the body with \textbf{S37A}.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.40\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Back panel 1".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.40\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Back panel 2".PNG}
+  \end{minipage}
+  \caption{Mounting the front/back panels}
+  \label{front/back panels}
+\end{figure}
+
+\item \textbf{Attach the bottom panel: } Attach the 9x12 Aluminum Plate \textbf{S35} to close the bottom of the body using screws \textbf{B1}.
+
+At this point the body should be complete with the differential pivot mount, electronics, and chassis and should look similar to Figure \ref{finished body}.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Finished Body 1".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Body/Finished Body 2".PNG}
+  \end{minipage}
+  \caption{Finished Body Assembly}
+  \label{finished body}
+\end{figure}
+
+\end{enumerate}
+
+\end{document}
