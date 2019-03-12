@@ -62,7 +62,7 @@ There is also a user-run forum to help facilitate discussion about the project.
 
 On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted on the forum so that this project and community can grow.
 
-http://s15.zetaboards.com/JPL_OpenSource_Rover/index/
+https://www.tapatalk.com/groups/jpl_opensource_rover/
 
 
 ### Skills Necessary
@@ -168,7 +168,7 @@ Now in the root of this repo, run the command: `python build_parts_list.py` whic
 When updating the build docs make sure all parts have a part reference number. If adding a new part be sure to add it to the `parts_list_reference.csv`. This is the source of truth for the name of the part as well as the price and link to the part. Here you can also overide the amount needed too.
 
 ## Happy building!!
-If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](http://s15.zetaboards.com/JPL_OpenSource_Rover/index/).
+If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](https://www.tapatalk.com/groups/jpl_opensource_rover/).
 
  ## Project Team
  ### Project Lead:
