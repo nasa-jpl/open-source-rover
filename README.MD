@@ -123,7 +123,7 @@ The main /osr/ folder contains all of the documentation and information necessar
 ### Ordering parts
 
 #### Parts Lists
-The [Master Parts List](osr_Master_parts_list.xlsx) contains all the parts necessary to build the entirety of the robot as it is listed in our documentation. We recognize that you may want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary __only for that section__.  Be sure to assess the quantities you need for common items (particularly screws, nuts, bolts, and other common hardware) if you are changing subassemblies.*
+The [Master Parts List](master_parts_list.xlsx) contains all the parts necessary to build the entirety of the robot as it is listed in our documentation. We recognize that you may want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary __only for that section__.  Be sure to assess the quantities you need for common items (particularly screws, nuts, bolts, and other common hardware) if you are changing subassemblies.*
 
 ##### Cart Share
 In order to help this ordering process we have compiled a few links of a large number of these together already, if you wish to build exactly what is in our build documentation.
@@ -161,11 +161,11 @@ Above is an example roadmap of how you can build the rover and which parts of th
  * __Stage 7:__ Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
 
 ## Building the Master Parts List
-Anytime parts are changed in the build docs you must rebuild the master parts list by running the python script `build_parts_list.py`.  
+Anytime parts are changed in the build docs, you must rebuild the master parts list by running the python script `build_parts_list.py`.  
 To run you must have python installed, any version should work, but the newer the better. There are no libraries or dependencies to install.  
-Now in the root of this repo, run the command: `python build_parts_list.py` which will create a new `master_parts_list.csv` that needs to be commited.
+Now in the root of this repo, run the command: `python build_parts_list.py` (or `python3 build_parts_list.py` for Python3).  This script will create a new `master_parts_list_raw.csv` and `master_parts_list.xlsx`, both of which need to be commited when making changes to the parts list.
 
-When updating the build docs make sure all parts have a part reference number. If adding a new part be sure to add it to the `parts_list_reference.csv`. This is the source of truth for the name of the part as well as the price and link to the part. Here you can also overide the amount needed too.
+When updating the build docs, make sure all parts have a part reference number (S1, E20, etc). If you are adding a new part, be sure to also add it to the `parts_list_reference.csv`. That file is the source of truth for the name of the part, and also contains information like the price, model, manufacturer, and link to the part. In that file, you can also overide the quantity to order for the project in case the quantities in the build documents aren't representative of the total number of parts required.
 
 ## Happy building!!
 If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](https://www.tapatalk.com/groups/jpl_opensource_rover/).
