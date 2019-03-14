@@ -62,7 +62,7 @@ Dual Side mount A,S17,585470,ServoCity,https://www.servocity.com/90-dual-side-mo
 .5”D Bore Bottom Tapped Clamping Mount,S20,585546,ServoCity,https://www.servocity.com/1-2-bore-bottom-tapped-clamping-mount,1,2,2,$5.99 ,$11.98,Differential Pivot
 5 Hole Aluminum Beam,S21,585404,ServoCity,https://www.servocity.com/1-54-aluminum-beam,2,8,4,$2.39 ,$9.56,Differential Pivot
 0.5” D Collar Clamp,S22,6157K14,ServoCity,https://www.servocity.com/aluminum-clamp-collars#368=229,1,11,11,$2.26 ,$24.86,"Mechanical Integration, Rocker-Bogie"
-4mm to .25 Clamping Shaft Coupler,S23,625049,ServoCity,https://www.servocity.com/clamping-shaft-couplers-6776#348=123,1,4,4,$4.99 ,$19.96,Corner Steering
+4mm to .25 Clamping Shaft Coupler,S23,625049,ServoCity,https://www.servocity.com/clamping-shaft-couplers-6776#348=123,1,1,1,$4.99 ,$4.99,
 "Bore Clamping Hub for 1"" PVC",S24,545512,ServoCity,https://www.servocity.com/1-315-pvc-clamp-hub-b,1,2,2,$9.99 ,$19.98,"Body, Head Assembly"
 25mm Bore Side Tapped Clamping Mount,S25,545680,ServoCity,https://www.servocity.com/25mm-bore-tube-clamp,1,6,6,$5.99 ,$35.94,Wheel Assembly
 Plain Bore Gear,S26,RHA32-36-48,ServoCity,https://www.servocity.com/32-pitch-acetyl-hub-gears-0-1875-face#199=15,1,4,4,$3.69 ,$14.76,Wheel Assembly
@@ -79,6 +79,7 @@ Loctite Red,S34,,Amazon,https://www.amazon.com/Loctite-Threadlocker-Red-0-20-209
 Loctite 2 Part Apoxy,S36,,Amazon,https://www.amazon.com/Loctite-Marine-0-85-Fluid-Syringe-1405604/dp/B00KH62K50,1,1,1,$5.42 ,$5.42,Wheel Assembly
 4.5” x 12” Aluminum Plate,S37,585004,ServoCity,https://www.servocity.com/4-5-x-12-pattern-plate,1,3,3,$13.99 ,$41.97,Body
 Custom Acrylic Back plate,S37B,,Sculpteo,https://www.sculpteo.com/,1,1,1,$11.75 ,$11.75,
+"0.25"" to 6mm Clamping Shaft Coupler",S38,625100,ServoCity,https://www.servocity.com/heavy-duty-clamping-shaft-couplers,1,4,4,$7.99,$31.96,Corner Steering
 4.5” Channel,S4,585444,ServoCity,https://www.servocity.com/4-50-channel,1,4,4,$4.99 ,$19.96,Wheel Assembly
 9” Channel,S5,585450,ServoCity,https://www.servocity.com/9-0-channel,1,2,2,$7.99 ,$15.98,Rocker-Bogie
 Channel Connectors,S6,545532,ServoCity,https://www.servocity.com/channel-connector-plate-a,2,30,15,$3.99 ,$59.85,"Mechanical Integration, Wheel Assembly"
@@ -100,13 +101,13 @@ Xbox Controller,,,Amazon,https://www.amazon.com/FiveStar-Wireless-Controller-Mic
 Voltage Divider Board,,,Osh Park,https://oshpark.com/,1,1,1,$20.20 ,$20.20,
 Serial Splitter Board,,,Osh Park,https://oshpark.com/,1,1,1,$19.65 ,$19.65,
 Logic Shifter Board,,,Osh Park,https://oshpark.com/,1,1,1,$43.80 ,$43.80,
-Allen Key Set,D2,,,,,1,,,,"Rocker-Bogie, Differential Pivot, Head Assembly, Wheel Assembly, Corner Steering, Body, Mechanical Integration"
-5/16 Wrench,D1,,,,,1,,,,"Rocker-Bogie, Differential Pivot, Head Assembly, Wheel Assembly, Body, Mechanical Integration"
+Allen Key Set,D2,,,,,1,,,,"Corner Steering, Differential Pivot, Mechanical Integration, Rocker-Bogie, Wheel Assembly, Body, Head Assembly"
+5/16 Wrench,D1,,,,,1,,,,"Differential Pivot, Mechanical Integration, Rocker-Bogie, Wheel Assembly, Body, Head Assembly"
 Center punch or Starter drill bit,D7,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Hand Drill or Drill Press,D3,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Drill bit \#23,D6,,,,,1,,,,"Wheel Assembly, Differential Pivot"
-Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Rocker-Bogie, Differential Pivot, Head Assembly, Wheel Assembly, Corner Steering"
-Vice Clamp or C Clamps,D5,,,,,1,,,,"Wheel Assembly, Corner Steering, Differential Pivot"
-Vice or V-Clamp,D8,,,,,1,,,,"Differential Pivot, Head Assembly"
+Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Wheel Assembly, Head Assembly, Rocker-Bogie, Differential Pivot"
+Vice clamp or C Clamps,D5,,,,,1,,,,"Wheel Assembly, Differential Pivot"
+Vice or V-Clamp,D8,,,,,1,,,,"Head Assembly, Differential Pivot"
 Digital Multimeter,D9,,,,,1,,,,PCB Testing
 Solder Iron,D10,,,,,1,,,,PCB Testing
