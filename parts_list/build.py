@@ -5,13 +5,13 @@ import glob
 from xlsxwriter.workbook import Workbook
 import math
 from collections import defaultdict
-
+from collections import defaultdict
 
 # Read in parts list for for each Mechanical subassembly
-build_docs = [i for i in glob.glob('Mechanical{sep}**{sep}Latex Docs{sep}**.tex'
+build_docs = [i for i in glob.glob('../Mechanical{sep}**{sep}Latex Docs{sep}**.tex'
                                    .format(sep=os.sep))]
 # Also read in parts lists in all the Electrical build documents
-build_docs = build_docs + [i for i in glob.glob('Electrical{sep}Latex Docs{sep}**{sep}**.tex'
+build_docs = build_docs + [i for i in glob.glob('../Electrical{sep}Latex Docs{sep}**{sep}**.tex'
                                    .format(sep=os.sep))]
 
 # We know its a parts list table by the formatting of the cells
@@ -98,7 +98,7 @@ for part_ref, part_data in sub_assembly_part_counts.items():
                               'Used in Sections': ', '.join(list(part_data['sections']))})
     print("\t", part_ref, "-", part_data['name'])
 
-# Write a master .csv file 
+# Write a master .csv file
 with open('master_parts_list_raw.csv', 'w') as f:
     # Hardcode the list to be in the order that we want
     fieldnames = ['Part Name',
@@ -119,7 +119,7 @@ with open('master_parts_list_raw.csv', 'w') as f:
     writer.writerows(master_parts_list)
 
 # We also wish to create a formatted .xlsx file with the JPL disclaimers and format that matches the old master parts list
-workbook = Workbook('master_parts_list.xlsx', {'strings_to_numbers': True})
+workbook = Workbook('../master_parts_list.xlsx', {'strings_to_numbers': True})
 worksheet = workbook.add_worksheet('Sheet1')
 # Write header information
 worksheet.write('A1', 'The cost information contained in this document is of a budgetary and planning nature and is intended for informational purposes only.  It does not constitute a commitment on the part of JPL and/or Caltech.')
