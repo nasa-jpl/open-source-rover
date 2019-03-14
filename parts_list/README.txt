@@ -1,7 +1,7 @@
 --------------------------------------------------
 BUILDING PARTS LIST
 --------------------------------------------------
-Tp build the parts list, execute the initialization script (init.sh). You
+To build the parts list, execute the initialization script (init.sh). You
 may need to provide the file with execution permissions (e.g. chmod 755 init.sh)
 prior to running.
 
