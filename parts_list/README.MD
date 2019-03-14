@@ -20,7 +20,8 @@ start of a section.
 2. Add a line to the /parts_list/parts_list_reference.csv file describing the part.
 This CSV file is a standard text file, do not use Excel or Numbers to edit it as
 doing so will change the encoding and break the build mechanism. The format is:
->Part Name, Sold in packs of, Site, Project Reference Code, Price
-Each, Link.
+>Part Name, Sold in packs of, Site, Project Reference Code, Price Each, Link.
+
 An example:
+
 >Pattern F Bracket,1,ServoCity,S7,585592,$2.79 ,https://www.servocity.com/flat-bracket-f,
