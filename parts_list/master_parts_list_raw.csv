@@ -101,6 +101,7 @@ Xbox Controller,,,Amazon,https://www.amazon.com/FiveStar-Wireless-Controller-Mic
 Voltage Divider Board,,,Osh Park,https://oshpark.com/,1,1,1,$20.20 ,$20.20,
 Serial Splitter Board,,,Osh Park,https://oshpark.com/,1,1,1,$19.65 ,$19.65,
 Logic Shifter Board,,,Osh Park,https://oshpark.com/,1,1,1,$43.80 ,$43.80,
+<<<<<<< HEAD:master_parts_list_raw.csv
 Allen Key Set,D2,,,,,1,,,,"Corner Steering, Differential Pivot, Mechanical Integration, Rocker-Bogie, Wheel Assembly, Body, Head Assembly"
 5/16 Wrench,D1,,,,,1,,,,"Differential Pivot, Mechanical Integration, Rocker-Bogie, Wheel Assembly, Body, Head Assembly"
 Center punch or Starter drill bit,D7,,,,,1,,,,"Wheel Assembly, Differential Pivot"
@@ -108,6 +109,15 @@ Hand Drill or Drill Press,D3,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Drill bit \#23,D6,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Wheel Assembly, Head Assembly, Rocker-Bogie, Differential Pivot"
 Vice clamp or C Clamps,D5,,,,,1,,,,"Wheel Assembly, Differential Pivot"
+=======
+Allen Key Set,D2,,,,,1,,,,"Head Assembly, Mechanical Integration, Body, Wheel Assembly, Differential Pivot, Rocker-Bogie, Corner Steering"
+5/16 Wrench,D1,,,,,1,,,,"Head Assembly, Mechanical Integration, Body, Wheel Assembly, Differential Pivot, Rocker-Bogie"
+Center punch or Starter drill bit,D7,,,,,1,,,,"Differential Pivot, Wheel Assembly"
+Hand Drill or Drill Press,D3,,,,,1,,,,"Differential Pivot, Wheel Assembly"
+Drill bit \#23,D6,,,,,1,,,,"Differential Pivot, Wheel Assembly"
+Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Head Assembly, Wheel Assembly, Differential Pivot, Rocker-Bogie, Corner Steering"
+Vice Clamp or C Clamps,D5,,,,,1,,,,"Differential Pivot, Wheel Assembly, Corner Steering"
+>>>>>>> master:parts_list/master_parts_list_raw.csv
 Vice or V-Clamp,D8,,,,,1,,,,"Head Assembly, Differential Pivot"
 Digital Multimeter,D9,,,,,1,,,,PCB Testing
 Solder Iron,D10,,,,,1,,,,PCB Testing
