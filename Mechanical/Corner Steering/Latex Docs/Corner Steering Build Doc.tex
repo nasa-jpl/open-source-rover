@@ -86,7 +86,7 @@ The Corner Steering assembly contains the steering motors which allow the rover 
         \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
         \hline
         3" Channel & S2 & 4 & \partimg{../../../images/parts_list/S2.jpg} & Motor (Corner Motor) & E6 & 4 & \partimg{../../../images/parts_list/E6.jpg} \\ \hline
-        Motor Mount F & S9 & 4 & \partimg{../../../images/parts_list/S9.jpg} & Absolute Encoder & E7 & 4 & \partimg{../../../images/parts_list/E7.jpg} \\ \hline
+        Motor Mount & S9 & 4 & \partimg{../../../images/parts_list/S9.jpg} & Absolute Encoder & E7 & 4 & \partimg{../../../images/parts_list/E7.jpg} \\ \hline
         0.25" Pillow Block & S10 & 8 & \partimg{../../../images/parts_list/S10.jpg} & \#6-32x1/4" Spacer & T1 & 16 & \partimg{../../../images/parts_list/T1.png} \\ \hline
         0.25" D-Shaft & S15 & 4 & \partimg{../../../images/parts_list/S15.jpg} & \#6-32 x 1.25" Threaded Standoff & T9 & 16 & \partimg{../../../images/parts_list/T9.jpg} \\ \hline
         0.25” to 6mm Clamping Shaft Coupler & S38 & 4 & \partimg{../../../images/parts_list/S38.jpg} & \#6-32x1/4" Button Head Screw & B1 & 24 & \partimg{../../../images/parts_list/B1.png} \\ \hline
@@ -96,7 +96,9 @@ The Corner Steering assembly contains the steering motors which allow the rover 
 \end{table}
 
 \begin{enumerate}
-\item \textbf{Motor Mount:} Begin by mounting the motor \textbf{E6} to the 3 inch channel \textbf{S2} using the motor mount F \textbf{S9} and screws \textbf{B1} as shown.
+\item \textbf{Motor Mount:} Begin by mounting the motor mount \textbf{S9} to the motor \textbf{E6} using the screws procured with the mount. Once completed,
+insert the \textbf{B5} screws that will be used to connect the mount through the 3-inch channel. Due to the orientation of the motor inside of the 3-inch channel, 
+adding these screws later is difficult. See Figure \ref{corner steering step 1}.
 
 \begin{figure}[H]
   \centering
@@ -107,52 +109,87 @@ The Corner Steering assembly contains the steering motors which allow the rover 
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 2".PNG}
   \end{minipage}
-  \caption{Corner Steering Step 1}
+  \caption{Corner Steering Motor Mount attachment (left) and \textbf{B5} screw insertion (right)}
+  \label{corner steering step 1}
 \end{figure}
 
-\item \textbf{Shaft Coupler/Standoffs Attachment:} Attach the motor shaft to the 0.25 inch D-shaft \textbf{S15} using the shaft coupler \textbf{S23}. Also take the 0.75inch long standoffs \textbf{T5} and attach them to the bottom of the channel centered around the motor using screws \textbf{B1} as shown in Figure \ref{corner steering 2}.
+\item \textbf{3-inch Channel Attachment:} Attach the motor and motor mount to the 3-inch channel using the threaded standoffs \textbf{T9} as seen in Figure \ref{corner steering 2}.
 
 \begin{figure}[H]
   \centering
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 3".PNG}
   \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 4".PNG}
-  \end{minipage}
-  \caption{Corner Steering Step 2}
+  \caption{Slide the \textbf{B5} screws through the 3-inch channel and screw down the standoffs. Note the motor is "inside" the channel.}
   \label{corner steering 2}
 \end{figure}
 
-\item \textbf{Encoder Mount:} Press the 0.25inch Spacers \textbf{T1} into the 3D printed encoder mount \textbf{S31}. If they do not fit, you can drill or file out the holes slightly until the spacers fit as shown in Figure \ref{corner steering 3} (The size and tolerance of the holes will vary slightly based on different 3D printers and materials). Attach the encoder mount and bearings to the threaded standoffs \textbf{T3} using screws \textbf{B5} and 0.25 inch pillow bearing blocks \textbf{S10}.
+\item \textbf{Shaft Coupler/Standoffs Attachment:} Using the shaft coupler \textbf{S38}, attach the motor shaft to the 0.25 inch D-shaft \textbf{S15}.
+Figure \ref{corner steering 3} 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 4".PNG}
+  \end{minipage}
+  \caption{Shaft coupler installation}
+  \label{corner steering 3}
+\end{figure}
+
+\item \textbf{Encoder Mount:} The size and tolerance of the holes will vary slightly based on different 3D printers and materials. Press the 0.25inch 
+Spacers \textbf{T1} into the 3D printed encoder mount \textbf{S31}. If they do not fit easily, we have found tapping them with a small hammer can work. 
+If the wholes are still too small, you can drill or file out the holes slightly until the spacers fit as shown in Figure \ref{encoder mount 1}.
 
 \begin{figure}[H]
   \centering
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 5".PNG}
   \end{minipage}
-  \hfill
+  \caption{Shaft coupler installation}
+  \label{encoder mount 1}
+\end{figure}
+
+Next, attach the 0.25 pillow bearing blocks \textbf{S10} and encoder mount \textbf{S31} using the \textbf{B5} screws into the threaded standoffs \textbf{T3}. 
+Figure \ref{encoder mount 2}.
+
+\begin{figure}[H]
+  \centering
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 6".PNG}
   \end{minipage}
-  \caption{Corner Steering Step 3}
-  \label{corner steering 3}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 6b".PNG}
+  \end{minipage}
+  \caption{Encoder mount installation}
+  \label{encoder mount 2}
 \end{figure}
 
-\item \textbf{Encoder:} Attach the encoder \textbf{E7} to the encoder mount \textbf{S31} and then attach the 12-tooth gear \textbf{S27} to the encoder shaft. We will worry about its exact position later on. You should now have one finished corner steering assembly. Repeat the steps above to build the other 3 corner steering assemblies. \textbf{Note that unlike other assemblies, this assembly isn't identical for all four of them! You will need to build two versions where the encoder mount is mirrored about the motor shaft (see Figure \ref{corner steering 4} for an example).}
+\item \textbf{Encoder:} Attach the encoder \textbf{E7} to the encoder mount \textbf{S31} and then attach the 12-tooth gear \textbf{S27} to 
+the encoder shaft. We will worry about its exact position later on. Figure \ref{corner steering 4}.
 
 \begin{figure}[H]
   \centering
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{"Pictures/CornerSt Step 7".PNG}
   \end{minipage}
-  \hfill
+  \caption{Encoder and gear installed}
+  \label{corner steering 4}
+\end{figure}
+
+
+You should now have one finished corner steering assembly. Repeat the 
+steps above to build the other 3 corner steering assemblies. \textbf{Note: unlike other assemblies, this assembly 
+isn't identical for all four. You will need to build two versions where the encoder mount is mirrored about 
+the motor shaft (see Figure \ref{corner steering 5} for an example).}
+
+\begin{figure}[H]
+  \centering
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{"Pictures/CornerSt Final".PNG}
   \end{minipage}
-  \caption{Corner Steering Step 4}
-  \label{corner steering 4}
+  \caption{Mirrored steering assemblies}
+  \label{corner steering 5}
 \end{figure}
 
 \end{enumerate}
