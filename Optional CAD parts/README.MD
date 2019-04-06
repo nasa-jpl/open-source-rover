@@ -38,28 +38,28 @@ I'll give a breif description of the each of the parts as well as list any items
   * Sub-d female bottom - Sub-D mounting piece to have a connector between the rover body and head, at the PVC clamping hub at the neck. This allows you to remove the LED screen.
     * Uses #6 - heat set inserts (short)
     * Uses #4 - heat set inserts (short)
-    * Requires - sub-d connector, female ![https://www.digikey.com/product-detail/en/assmann-wsw-components/A-DF-09-LL-Z/AE11063-ND/5051922](https://www.digikey.com/product-detail/en/assmann-wsw-components/A-DF-09-LL-Z/AE11063-ND/5051922)
+    * Requires - sub-d connector, female [https://www.digikey.com/product-detail/en/assmann-wsw-components/A-DF-09-LL-Z/AE11063-ND/5051922](https://www.digikey.com/product-detail/en/assmann-wsw-components/A-DF-09-LL-Z/AE11063-ND/5051922)
     * Requires - Sub-d male top (3D printed piece)
     * Requires - PCB update to reduce number of cables ran to LED screen
   * Sub-d male top - Sub-D mounting piece to have a connector between the rover body and head, at the PVC clamping hub at the neck. This allows you to remove the LED screen.
     * Uses #6 - heat set inserts (short)
     * Uses #4 - heat set inserts (short)
-    * Requires - ![https://www.digikey.com/product-detail/en/assmann-wsw-components/A-DS-09-LL-Z/AE10972-ND/1241781](https://www.digikey.com/product-detail/en/assmann-wsw-components/A-DS-09-LL-Z/AE10972-ND/1241781)
+    * Requires - [https://www.digikey.com/product-detail/en/assmann-wsw-components/A-DS-09-LL-Z/AE10972-ND/1241781](https://www.digikey.com/product-detail/en/assmann-wsw-components/A-DS-09-LL-Z/AE10972-ND/1241781)
     * Requires - Sub-d female bottom (3D printed piece)
     * Requires - PCB Update to reduce number of cables ran to LED screen
   * Turn buckle holder - Replaces the 5 hole aluminum beams and drilling process to mount the differential pivot by giving a 3D printed cap (recommended to use adhesive to attach it though)
     * Uses #4 - heat set inserts
   * USB hub 4pos lid - Lid for 4 position powered USB hub for RPi USB to be accessible outside the robot.
     * Uses M1.6 heat set inserts (short)
-    * Requires - ![https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_7?ie=UTF8&qid=1549577176&sr=8-7&keywords=external+power++usb+hub](https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_7?ie=UTF8&qid=1549577176&sr=8-7&keywords=external+power++usb+hub)
+    * Requires - [https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_7?ie=UTF8&qid=1549577176&sr=8-7&keywords=external+power++usb+hub](https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_7?ie=UTF8&qid=1549577176&sr=8-7&keywords=external+power++usb+hub)
     * Requires - front panel (laser cut part)
   * USB hub 4pos - Base for 4 position powered USB hub for RPi USB to be accessible outside the robot.
     * Uses M1.6 heat set inserts (short)
-    * Requires - ![https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_7?ie=UTF8&qid=1549577176&sr=8-7&keywords=external+power++usb+hub](https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_7?ie=UTF8&qid=1549577176&sr=8-7&keywords=external+power++usb+hub)
+    * Requires - [https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_7?ie=UTF8&qid=1549577176&sr=8-7&keywords=external+power++usb+hub](https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_7?ie=UTF8&qid=1549577176&sr=8-7&keywords=external+power++usb+hub)
     * Requires - front panel (laser cut part)
   * USB hub 7pos - Powered USB hub to connect Roboclaws debug micro USB line to outside of robot with one single cable
     * Uses #6 - heat set inserts (short)
-    * Requires - ![https://www.amazon.com/Anker-7-Port-Adapter-Charging-iPhone/dp/B014ZQ07NE/ref=sr_1_15?ie=UTF8&qid=1549577308&sr=8-15&keywords=usb+hub](https://www.amazon.com/Anker-7-Port-Adapter-Charging-iPhone/dp/B014ZQ07NE/ref=sr_1_15?ie=UTF8&qid=1549577308&sr=8-15&keywords=usb+hub)
+    * Requires - [https://www.amazon.com/Anker-7-Port-Adapter-Charging-iPhone/dp/B014ZQ07NE/ref=sr_1_15?ie=UTF8&qid=1549577308&sr=8-15&keywords=usb+hub](https://www.amazon.com/Anker-7-Port-Adapter-Charging-iPhone/dp/B014ZQ07NE/ref=sr_1_15?ie=UTF8&qid=1549577308&sr=8-15&keywords=usb+hub)
     * Requires - back panel (laser cut part)
 
 ### Laser cut parts
