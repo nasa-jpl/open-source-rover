@@ -15,7 +15,7 @@ Each of the folders in here contains a different file type, which is dependant o
 ## Part Overview
 Every part has a SolidWorks and STEP file associated with it, in case you wish to make modifications. In general most parts are designed to use heat set inserts from McMaster Carr, which allow you to add metal threads to 3D printed parts.
 
-![https://www.mcmaster.com/heat-set-inserts](https://www.mcmaster.com/heat-set-inserts)
+[https://www.mcmaster.com/heat-set-inserts](https://www.mcmaster.com/heat-set-inserts)
 
 I'll give a breif description of the each of the parts as well as list any items that are necessary for that part.
 
