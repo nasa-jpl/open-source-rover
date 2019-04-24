@@ -1,0 +1,397 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{colortbl}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
+
+
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover Mechanical Assembly Manual}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+% Parts list tables
+\renewcommand\theadfont{\bfseries}
+\newcolumntype{I}{ >{\centering\arraybackslash} m{2cm} }  % part image
+\newcolumntype{N}{ >{\centering\arraybackslash} m{3cm} }  % part name
+\newcolumntype{Q}{ >{\centering\arraybackslash} m{0.75cm} }  % ref & qty
+
+
+\begin{document}
+
+\newcommand\partimg{\includegraphics[width=2cm,height=1.0cm,keepaspectratio]}
+
+\title{Open Source Rover: Electronics Assembly Instructions}
+\author{Authors: Michael Cox, Eric Junkins, Olivia Lofaro}
+
+\makeatletter
+\def\@maketitle{
+\begin{center}
+	%\makebox[\textwidth][c]{ \includegraphics[width=0.7\paperwidth]{"Pictures/Wheels/Wheels Title".png}}
+	{\Huge \bfseries \sffamily \@title }\\[3ex]
+	{\Large \sffamily \@author}\\[3ex]
+	%\includegraphics[width=.65\linewidth]{"Pictures/Misc/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged.}
+
+
+% Introduction
+\newpage
+
+
+\tableofcontents
+
+\newpage
+
+\section{PCB Assembly}
+
+\subsection{Motor \& RoboClaw Connectors}
+
+\begin{enumerate}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 6 Pos Side Term Block & E3 & 10 & \partimg{img/components/E3.PNG} \\ \hline
+        6 Pos Top Term Block & E4 & 5 & \partimg{img/components/E4.PNG} & 5 Pos Header socket & E5 & 5 & \partimg{img/components/E5.PNG} \\ \hline
+        5 Pos Header socket & E6 & 5 & \partimg{img/components/E6.PNG} & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\item Begin by soldering the 6 Position Side entry terminal Block \textbf{E3} into the top side on the edge of the board shown below. They will be labeled with schematic reference designators J17-J26. Be sure that the wire terminal faces \textbf{OUTWARD} on all these connectors. These are the terminal blocks that will run motor power, encoder power, and encoder signals between the motors/encoders and the RoboClaw motor controllers.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_1".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_2".png}
+  \end{minipage}
+  \caption{Assembly Step 1}
+  \label{assem_1}
+\end{figure}
+
+\item On the Bottom of the board now solder the 6 Position Top entry terminal blocks \textbf{E4}. They will be labeled with schematic reference designators J1-5. The orientation of the wire terminal face should be AWAY from the each of RoboClaw outlines. See below image for direction. These will run battery power to the RoboClaw motor controllers, and the +/- signals for both motors into the PCB.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_3".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_4".png}
+  \end{minipage}
+  \caption{Assembly Step 2}
+  \label{assem_2}
+\end{figure}
+
+\item On the Bottom of the board solder the 20 Position Female socket header connector \textbf{E5} as well as 5 Position Female socket header connector \textbf{E6}. They will be labeled with reference designators RoboClaw 1-5. These are the digital signal pins for the RoboClaw motor controllers.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_5".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_4".png}
+  \end{minipage}
+  \caption{Assembly Step 3}
+  \label{assem_3}
+\end{figure}
+
+\end{enumerate}
+
+\subsection{Resistors and Capacitors}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 4.7K 1/4 Watt Resistor & E7 & 1 & \partimg{img/components/E7.PNG} \\ \hline
+        10K 1/4 Watt Resistor & E8 & 4 & \partimg{img/components/E8.PNG} & 22K 1/4 Watt Resistor & E9 & 4 & \partimg{img/components/E9.PNG} \\ \hline
+        10K 1/2 Watt Resistor & E10 & 1 & \partimg{img/components/E10.PNG} & 100nF Capacitor & 16 & E11 & \partimg{img/components/E11.PNG} \\ \hline
+    \end{tabular}
+\end{table}
+
+
+\begin{enumerate}
+
+\item Solder the resistors and capacitors on the top of the board, by comparing the reference designator on the board to the part number listed below. Some of the capacitors are used to store energy for powering components to help protect against voltage fluctuations, and others are used as noise filtering mechanisms on analog signals. The resistors are needed to control the voltage that components see.
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Resistor/Capacitor reference}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \thead{Item} & \thead{Parts list Ref} & \thead{Schematic/Board Ref} \\ \hline
+	4.7K 1/4 Watt Res & E7 & R1 \\ \hline
+	10K 1/4 Watt Res & E8 & R4,6,8,10 \\ \hline
+	22K 1/4 Watt Res & E9 & R3,5,7,9 \\ \hline
+	10K 1/2 Watt Res & E10 & R2 \\ \hline
+	100nF Cap & E11 & C1-17 \\ \hline
+
+    \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_6".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_7".png}
+  \end{minipage}
+  \caption{Assembly Step 4}
+  \label{assem_4}
+\end{figure}
+
+
+
+\end{enumerate}
+
+\subsection{Voltage Regulator connectors}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 5 Pos Header socket & E6 & 2 & \partimg{img/components/E6.PNG} \\ \hline
+         & & & & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item On the Bottom of the board solder the 5 Position female header sockets \textbf{E6}. They will have Schematic reference designators of J9 and J11. These connectors are what the 12V and 5V voltage regulators will slot into.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_8".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_4".png}
+  \end{minipage}
+  \caption{Assembly Step 5}
+  \label{assem_5}
+\end{figure}
+
+
+\end{enumerate}
+
+\subsection{Power Connectors}
+
+\subsection{Voltage Regulator connectors}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 2 Pos Side Terminal Block & E12 & 3 & \partimg{img/components/E12.PNG} \\ \hline
+         & & & & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+
+\begin{enumerate}
+
+\item On the top of the board Solder the 2 Position Side entry terminal blocks \textbf{E13}. These will have schematic reference designators J14-16. Ensure that these componenets face \textbf{OUTWARDS}. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_9".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_4".png}
+  \end{minipage}
+  \caption{Assembly Step 6}
+  \label{assem_6}
+\end{figure}
+
+
+\end{enumerate}
+
+\subsection{Op amp DIP socket}
+
+\subsection{Voltage Regulator connectors}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 8 Pin DIP Socket & E33 & 2 & \partimg{img/components/E33.PNG} \\ \hline
+         & & & & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item On the top of the board solder the 8 Pin DIP socket \textbf{E33}. It will have schematic reference designator U1-2. Orientation does not matter. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_10".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_6".png}
+  \end{minipage}
+  \caption{Assembly Step 6}
+  \label{assem_6}
+\end{figure}
+
+
+\end{enumerate}
+
+\subsection{RPi GPIO connector and misc headers}
+
+\subsection{Voltage Regulator connectors}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 40 Pin Header connector & E13 & 2 & \partimg{img/components/E13.PNG} \\ \hline
+	40 Position Header Pins & E15 & 1 & \partimg{img/components/E15.PNG} & 6 Position JST Connector & E14 & 1 & \partimg{img/components/E14.PNG} \\ \hline
+         & & & & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item On the Top of the board soder the 40 position header connectors \textbf{E13}. The Clocking notch on the headers should face \textbf{OUTWARD}. The schematic reference designators are J6 and J7.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_11".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_12".png}
+  \end{minipage}
+  \caption{Assembly Step 7}
+  \label{assem_7}
+\end{figure}
+
+
+\item Take the 40 pin header pins \textbf{E15} and break it into a 6 pin segment. On the top of the board solder this into schematic reference designator J8. Then solder the JST connector \textbf{J14} into the J10 schematic reference designator. The opening in the pins on the JST connector should face \textbf{INWARD}.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_13".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_7".png}
+  \end{minipage}
+  \caption{Assembly Step 8}
+  \label{assem_8}
+\end{figure}
+
+
+\end{enumerate}
+
+
+\subsection{USB connectors}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & USB Connector & E34 & 2 & \partimg{img/components/E34.PNG} \\ \hline
+         & & & & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item On the top of the board solder the USB Connector \textbf{E34}. It will have reference designator J12 and J14.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_14".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_7".png}
+  \end{minipage}
+  \caption{Assembly Step 9}
+  \label{assem_9}
+\end{figure}
+
+\end{enumerate}
+
+
+This concludes soldering of the Control Board PCB! 
+
+
+
+\end{document}
