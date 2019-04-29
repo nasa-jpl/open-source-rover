@@ -389,9 +389,276 @@
 
 \end{enumerate}
 
+\textcolor{red}{INSERT SECTION FOR PUTTING IN STANDOFFS HERE}
 
-This concludes soldering of the Control Board PCB! 
+
+\section{Component Integration and Testing}
+
+This next section will go over the process of integrating the electronics onto the Control Board and the testing to verify at each step that the board/components are working as expect. You should perform this section with the board outside of the robot chassis. 
+
+/subsection{Power Distribution System}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & Battery & E36 & 1 & \partimg{img/components/E35.PNG} \\ \hline
+         Tamiya Battery Connectors & E35 & 1 & \partimg{img/components/E36.PNG} & Red 24 AWG & W1 & 1 & \partimg{img/components/W1.PNG} \\ \hline
+	Black 24 AWG & W2 & 1 & \partimg{img/components/W2.PNG} & 5V Regulator & E23 & 1 & \partimg{img/components/E23.PNG} \\ \hline
+	12V Regulator & E24 & 1 & \partimg{img/components/E24.PNG} & RoboClaw Motor Controller & E20 & 5 & \partimg{img/components/E20.PNG} \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item Insert the Tamiya Battery Connector \textbf{E35} cables into the Battery input connector on the Control Board, labeled \textbf{J15}. By convention the red wire is the positive side of the battery, and the black wire is the ground. Be sure to insert the Red wire into the terminal that is labeled +BATT, and the black wire in the terminal labeled GND. Doing this backwards will cause a short in the battery. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_1".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_1".png}
+  \end{minipage}
+  \caption{Test Step 1}
+  \label{test_1}
+\end{figure}
+
+\textcolor{red}{REPLACE THE SECOND IMAGE WITH PICTURE OF BATTERY/TAMIYA PLUGGED IN CORRECTLY}
+
+\item Using a Digital Multimeter (DMM) probe the voltage accross the test points T1 and T2. These will tell you the voltage level that the board is at, which is the direct voltage of the battery. Verify that from T1 to T2 reads a positive number, and is between 12V and 16.7V depending on the charge state of your battery. 
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=.85\textwidth]{"img/Pictures/Testing/testing_3".PNG}
+  \caption{Final Mechanical Rover}
+  \label{final mechanical rover}
+\end{figure}
+
+\item Next jumper wires need to be made to connect the RoboClaw motor controller Power terminals to the RoboClaws. Unplug the tamiya battery connector (in future steps I will not explicity say to unplug the battery, but at each step while inserting components and working on the board you should disconnect the battery). Take the red and black 24 AWG wires \textbf{W1 and W2} and cut 15 segements of 2 inches \textcolor{red}{CHECK ON THIS LENGTH LATER} of each, so that you have 15 red and 15 black pieces. Using wire strippers strip the ends at about 0.1 \textcolor{red}{check on length} at each end. Insert these into the terminal blocks on the RoboClaw Motor Controllers \textbf{E20} in the following way:
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| c|c|}
+		\hline
+		\thead{Terminal} & \thead{Wire Color} \\ \hline
+		M1A & Red \\ \hline
+		M1B & Black \\ \hline
+		+ & Red \\ \hline
+		- & Black \\ \hline
+		M2A & Red \\ \hline
+		M2B & Black \\ \hline
+	\end{tabular}
+\end{table}
+
+\item Starting by inserting one of the Roboclaws into the slot on the bottom of the board labeled \textcolor{red}{WHAT ROBOCLAW GOES FIRST?}. Connect the wires directly accross to from RoboClaw motor terminal block to the terminal block on the control board. 
+
+\textcolor{red}{INSERT IMAGE OF ROBOCLAW WITH WIRES IN IT AND ROBOCLAW CONNECTION TO BOARD}
+
+\item Plug in the battery. an LED on the RoboClaw will turn on, verify that it is green. If it is red it means there is an error. Error codes can be traced by looking at the roboclaw user manual \textcolor{red}{INSERT LINK TO ROBOCLAW USER MANUAL}. 
+
+\item Repeat this process one RoboClaw at a time until all 5 RoboClaws have been plugged into the board, following the order of \textcolor{red}{PUT ORDER OF ROBOCLAW INSERTION HERE}.
+
+\item Take the two voltage regulators \textbf{E23 and 24} and solder on their header pins, on the top side of the board (the side with large capacitors on it). 
+
+\item Insert the 5V regulator into the control board. Then test from Testpoint T4 to T1 and verify that it reads 5V. If it does not make sure the 5V regulator is slotted in properly.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_7".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_3".png}
+  \end{minipage}
+  \caption{Test Step 5}
+  \label{test_5}
+\end{figure}
+
+\item Insert the 12V regulator into the control board. Then test from Testpoint T11 to T21 and verify that it reads 12V. If it does not make sure the 12V regulator is slotted in properly.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_8".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_9".png}
+  \end{minipage}
+  \caption{Test Step 6}
+  \label{test_6}
+\end{figure}
+
+If all voltage test points read expected values and all the RoboClaw motor Controllers have green LEDs then the power systems has been verified and you are ready to move onto testing and setup of the motor controllers. 
+
+\end{enumerate}
+
+\subsection{RoboClaw Testing and Verification}
+
+In this section you will be going one by and and testing the operation of the RoboClaw Motor controllers. You will be doing this by using the GUI provided by the manufacturer of the motor contollers. The GUI can be found at:
+
+\textcolor{red}{INSERT LINK TO DOWNLOAD BASIC MICRO}
+
+\noindent To use the GUI insert a USB to micro USB cable from your computer to the motor controller you are going to be testing. For this step in the testing procedure we found it easiest to test using a set of male-male jumper wires, connected between the motor terminal being tested and the motor. Any way you wish to connect the wires from the terminal block to the motor wires is fine though.
+
+\subsubsection{Drive Motor Blocks}
+
+\noindent Do the following procedure for the terminal blocks labeled J17-22, these correspond to the driving motors for the rover. Make sure that while you are plugging in connections your board is powered off.  The terminal blocks correspond to the motor controlelrs/outputs in the following manner:
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| l | l | l |}
+		\hline
+		\thead{Terminal Block Label} & \thead{RoboClaw Board Label} & \thead{Motor Output Channel} \\ \hline
+		J17   & RC1  & M1 \\ \hline
+		J18   & RC1  & M2 \\ \hline
+		J19   & RC2  & M1 \\ \hline
+		J20   & RC2  & M2 \\ \hline
+		J21   & RC3  & M1 \\ \hline
+		J22   & RC3  & M2 \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item Connect the wires in the following manner
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| l | l | l |}
+		\hline
+		\thead{Signal} & \thead{Terminal Block Label} & \thead{Motor Connector Wire Color} \\ \hline
+		Motor (+)  & M+  & Red \\ \hline
+		Motor (-)   & M-   & Black \\ \hline
+		Ground     & GND & Green \\ \hline
+		+5V         & +5V  & Blue \\ \hline
+		Encoder A & ENA  & Yellow \\ \hline
+		Encoder B & ENB   & White \\ \hline
+	\end{tabular}
+\end{table}
+
+\item Power on the board, after a minute in the Basic Motion GUI you should see an available device appear. It might require an update to proceed, have it install the latest firmware update and then connect to the device.
+
+\item Click on the PWM tab. We will use this to send a PWM signal to the motor and test that connections are all made correctly to the motor/encoder. 
+
+\item Slowly move the slide bar for the corresponding motor output channel (Either M1 or M2 from the above table) for the terminal you are testing. Verify that the motor spins (we will worry about direction later), and that the encoder value is also changing (we'll worry about it increasing or decreasing correctly later as well). Switch direction of the slide bar and verify that it spins the other direction and the encoder value does the opposite of previous as well. If these are not happening then go back and check that you are using the correct Motor controller, terminal block etc. If all that is correct you will have to begin testing solder contact between the componenets on the board itself.
+
+\item Repeat this process for all the drive motor terminal blocks, labeled J17-22.
+
+\end{enumerate}
+
+\subsubsection{Corner Motor Blocks}
+
+Do the following procedure for the terminal blocks labeled J23-26. These correspond to the Corner motos for the rover. Terminal blocks correspond to the motor controllers/outputs in the following manner:
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| l | l | l |}
+		\hline
+		\thead{Terminal Block Label} & \thead{RoboClaw Board Label} & \thead{Motor Output Channel} \\ \hline
+		J23   & RC4  & M1 \\ \hline
+		J24   & RC4  & M2 \\ \hline
+		J25   & RC5  & M1 \\ \hline
+		J26   & RC5  & M2 \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item Connect the wires to the motor in the following manner
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| l | l | l |}
+		\hline
+		\thead{Signal} & \thead{Terminal Block Label} & \thead{Motor Connector Wire Color} \\ \hline
+		Motor (+)  & M+  & Red \\ \hline
+		Motor (-)   & M-   & Black \\ \hline
+	\end{tabular}
+\end{table}
+
+\item The main different between the drive and corner motor system is the encoders used. We want to test the voltage division circuit used on the Control board, which will expect up to a 5V signal in from the Absolute Hall effect encoder. To simulate this connect the +5V terminal on the motor terminal block straight into the ENA signal in the same terminal block.
+
+\item Connect to the motor contoller in the Basic Motion GUI. Under the General settings tab under Encoders change the type of Encoder from Quadrature to Absolute. You should see that the encoder values change to a number somewhere around 1600. As long as it is a fairly constant value and is in the range of 1400-2000 then everything is working. If that is not recheck that the OP-amp is installed in the correct direction. If this number still isn't correct then make sure you correctly installed all the resistors/capacitors in the assembly steps.
+
+\item Under the PWM tab move the slide bar and verify that the motor spins accordingly.
+
+\item Repeat this process for all the corner motor terminal blocks, labeled J23-26.
+
+\end{enumerate}
+
+\subsection{Raspberry Pi Install}
+
+Next up is to verify that power to the Raspberry Pi is working. For this you'll need a working operating system install on the SD card. Look foward to the Software Install steps to get the install instructions of that.
+
+\textcolor{red}{INSERT LINK TO SOFTWARE DOC?}
 
 
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & Raspbery Pi 3B & E21 & 1 & \partimg{img/components/E21.PNG} \\ \hline
+         40 Pin Ribbon Cable & E29 & 1 & \partimg{img/components/E29.PNG} & USB to Micro USB Cable& E27 & 1 & \partimg{img/components/E27.PNG} \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item Insert the Raspberry Pi into the Board, making sure that the USB ports face downward on the board. Figure \ref{rpi_install} show this orientation.
+
+\item Plug in the micro USB cable \textbf{E27} to the USB power port labeled J12 and the Raspberry Pi. Then Plug in the ribbon Cable \textbf{E29} into the Raspberry Pi GPIO header pins and the \textcolor{red}{CONNECTOR LABEL?}. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_15".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_15".PNG}
+  \end{minipage}
+  \caption{RPi Install}
+  \label{rpi_install}
+\end{figure}
+
+\textcolor{red}{Change second image to RPI with ribbon cable and usb cable plugged in}
+
+
+\end{enumerate}
 
 \end{document}
