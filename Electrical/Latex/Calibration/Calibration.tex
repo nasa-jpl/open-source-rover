@@ -185,8 +185,8 @@ In order for the motors to all work properly and drive the rover correctly, we m
 			\includegraphics[width=.55\textwidth]{"Pictures/is9".PNG}
 	 		\caption{}
 		\end{figure}
-	
-		\item Once both motors on this motor controller have been tuned, go to \textit{Device $->$ Save Settings} and then exit. Repeat all of steps 6 through 8 for the other drive motors.
+
+		\item Once both motors on this motor controller have been tuned go back to the General settings tab and update the Motor Parameters to have a Max current of 3.0 Amps. Then go to \textit{Device $->$ Save Settings} and then exit. Repeat all of steps 6 through 8 for the other drive motors.
 	\end{enumerate}
 
 \subsection{Corner Motor Calibration}
@@ -204,9 +204,7 @@ In order for the motors to all work properly and drive the rover correctly, we m
 			\item Spin the encoder until it reads a value of roughly half its max value and reattach the gear, coupling it back to the rover. 
 		\end{enumerate}
 		
-		\item For each motor M1 and M2, we now need to obtain what is the new min and max encoder values. Using the \textit{PWM Settings} tab, move the motors until they run into the physical hard stops. Record the min and max encoder values for each, but for the min values add at least 15 and the max subtract at least 15\footnote{We add a buffer of at least 15 encoder ticks to avoid driving the motors all the way into the hard stop; In other words, we'll impose a software 'soft stop'}.
-		
-		\item Perform the Velocity tuning for each of the corners similar to the drive motors. You will have to estimate the QPPS value for the corners as you cannot spin them at full speed without running into the physical hard stop very quickly. 
+		\item For each motor M1 and M2, we now need to obtain what is the new min and max encoder values. Using the \textit{PWM Settings} tab, move the motors until they run into the physical hard stops. Record the min and max encoder values for each, but for the min values add at least 15 and the max subtract at least 15\footnote{We add a buffer of at least 5 encoder ticks to avoid driving the motors all the way into the hard stop; In other words, we'll impose a software 'soft stop'}.
 
 		\item Navigate to the \textit{Position Settings} tab. 
 
@@ -224,7 +222,7 @@ In order for the motors to all work properly and drive the rover correctly, we m
 	 		\caption{}
 		\end{figure}	
 
-		\item Change the Autotune type to \textbf{PID} and then tune the M1 and M2 motors by clicking the 'Tune M1' and 'Tune M2' buttons. We've found that this autotuning process is more successful if you run it with the wheels down on a smooth surface, but still supporting the weight of the robot. 
+		\item Change the Autotune type to \textbf{PD} and then tune the M1 and M2 motors by clicking the 'Tune M1' and 'Tune M2' buttons. We've found that this autotuning process is more successful if you run it with the wheels down on a smooth surface, but still supporting the weight of the robot. 
 
 		\begin{figure}[H]
 	 		\centering
@@ -233,11 +231,12 @@ In order for the motors to all work properly and drive the rover correctly, we m
 		\end{figure}	
 
 		\item To verify that the corner steering motors have been calibrated, move the M1 and M2 sliders to their middle positions (halfway between min and max) and verify that the wheels all point exactly straight forwards. If they do not point straight forwards, verify that your min and max values are correct and ensure that no signal clipping is happening on the encoders.
-
+		\item After the motors have both been tuned go to General settings and set the Motor current Max to be 3.0 Amps for each motor. 
 		\item Repeat Step 9 for the remaining corner motors
 	\end{enumerate}
 
 \end{enumerate} 
+
 
 \section{Manual Calibration}
 \label{manual_calibration}
