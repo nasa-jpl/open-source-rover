@@ -389,12 +389,70 @@
 
 \end{enumerate}
 
-\textcolor{red}{INSERT SECTION FOR PUTTING IN STANDOFFS HERE}
+\subsection{Standoffs}
 
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        \#6-32 Threaded Standoff & T4 & 4 & \partimg{img/components/T4.png} & \#4-40 Threaded Standoff & T5 & 20 & \partimg{img/components/T5.png} \\ \hline
+        \#2-56 Threaded Standoff & T6 & 4 & \partimg{img/components/T6.png} & M2.5 Threaded Standoff & T7 & 4 & \partimg{img/components/T7.png} \\ \hline
+        \#6-32 3/8" Button Head Screw & B2 & 4 & \partimg{img/components/B2.png} & \#4-40 1/4" Button head Screw & B8 & 40 & \partimg{img/components/B8.png} \\ \hline
+        \#2-56 1/4" Button head Screw & B13 & 8 & \partimg{img/components/B13.png} & M2.5 x 6mm & B10 & 8 & \partimg{img/components/B10.png} \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+\item \textbf{Board mounting Standoffs:} Take the \#6-32 Standoffs \textbf{T4} and attach them on the outter 4 mounting holes using screws \textbf{B2}. These go on the bottom side of the board, as shown below. These will be what attached the board to the robot chassis.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/standoff_1".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/standoff_1".PNG}
+  \end{minipage}
+  \caption{Mounting Standoffs}
+  \label{standoffs_1}
+\end{figure}
+
+\item \textbf{RoboClaw mounting Standoffs:} Take the \#4-40 Standoffs \textbf{T5} and attach them using screws \textbf{B8} on the bottom side of the board. You can tell the RoboClaw mounting holes as the ones that are inside the RoboClaw Silk Screen rectangle.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/Pictures/Assembly/standoff_3".PNG}
+	\caption{RoboClaw Mounting Standoffs}
+\end{figure}
+
+\item \textbf{Voltage Regulator Standoffs:} Take the \#2-56 Standoffs \textbf{T6} and attach them to the bottom of the board using screws \textbf{B13}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/Pictures/Assembly/standoff_4".PNG}
+	\caption{Voltage regulator Mounting Standoffs}
+\end{figure}
+
+\item \textbf{Raspberry Pi  Standoffs:} Take the M2.5 Standoffs \textbf{T7} and attach them to the top of the board using screws \textbf{B10}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/Pictures/Assembly/standoff_5".PNG}
+	\caption{Raspberry Pi Standoffs}
+\end{figure}
+
+\end{enumerate}
 
 \section{Component Integration and Testing}
 
-This next section will go over the process of integrating the electronics onto the Control Board and the testing to verify at each step that the board/components are working as expect. You should perform this section with the board outside of the robot chassis. 
+This next section will go over the process of integrating the electronics onto the Control Board and the testing to verify at each step that the board/components are working as expect. You should perform this section with the board outside of the robot chassis. It is important to do these steps one at time so we can verify each step of the way that electronics are working as intended, so we do not accidnetally break one of our components by plugging something else in wrong.
 
 \subsection{Power Distribution System}
 
