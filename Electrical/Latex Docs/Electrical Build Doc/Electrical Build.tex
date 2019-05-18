@@ -14,6 +14,9 @@
 \usepackage{fancyhdr}
 \usepackage{verbatim}
 \usepackage{wrapfig}
+\usepackage{colortbl}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
 \usepackage{tcolorbox}
 \usepackage{lipsum}
 
@@ -41,7 +44,13 @@
 }
 \makeatother
 
+% Parts list tables
+\renewcommand\theadfont{\bfseries}
+\newcolumntype{I}{ >{\centering\arraybackslash} m{2cm} }  % part image
+\newcolumntype{N}{ >{\centering\arraybackslash} m{3cm} }  % part name
+\newcolumntype{Q}{ >{\centering\arraybackslash} m{0.75cm} }  % ref & qty
 
+\newcommand\partimg{\includegraphics[width=2cm,height=1.25cm,keepaspectratio]}
 
 \begin{document}
 
@@ -206,7 +215,23 @@ There are a couple of \textbf{very important} things to be aware of as you are m
 \noindent  It is extremely important to plug the battery in the correct direction into the volt meter as well, as plugging it in backwards (even for an instant) could damage the volt meter. 
 }
 
-Using the Tamiya connectors, connect the battery to the switch and then the volt meter according to Figure \ref{sw sch}. Tye Tamiya connectors allow you to disconnect the battery from the rest of the system so you can recharge the battery. 
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			Battery & E12 & 1 & \partimg{../../../images/parts_list/E12.png} & Tamiya Connectors & E24 & 1 & \partimg{../../../images/parts_list/E24.jpg} \\ \hline
+			Switch & E25 & 1 & \partimg{../../../images/parts_list/E25.jpg} & Battery Volt Meter & E15 & 1 & \partimg{../../../images/parts_list/E15.jpg} \\ \hline
+			16 AWG Wire (Black) & E28 & 1 & \partimg{../../../images/parts_list/wire.jpg} & 16 AWG Wire (Red) & E29 & 1 & \partimg{../../../images/parts_list/wire.jpg} \\ \hline
+	\end{tabular}
+\end{table}
+
+Using the Tamiya connectors, connect the battery to the switch and then the volt meter according to Figure \ref{sw sch} using 16 AWG wire. The Tamiya connectors allow you to disconnect the battery from the rest of the system so you can recharge the battery. 
 
 \begin{figure}[H]
   	\centering
@@ -245,6 +270,20 @@ Next, we connect the output side of the volt meter to the 5V voltage regulator a
 	\label{motor cont}
 \end{figure}
 
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			5V Voltage Regulator & E4 & 1 & \partimg{../../../images/parts_list/E4.png} & RoboClaw Motor Controller & E2 & 1 & \partimg{../../../images/parts_list/E2.jpg} \\ \hline
+			20 AWG Wire (Black) & E30 & 1 & \partimg{../../../images/parts_list/wire.jpg} & 20 AWG Wire (Red) & E31 & 1 & \partimg{../../../images/parts_list/wire.jpg} \\ \hline
+	\end{tabular}
+\end{table}
 
 The "LOAD" terminals of the volt meter are the electrical load of the robot, which correspond to all the electronics running in the robot. Figure \ref{vm sch} shows the pin-out of how to connect the volt meter to the 5V regulator and the motor controllers.
 
@@ -294,6 +333,20 @@ Next, we need to bring power to the Raspberry Pi. It requires a regulated 5V DC 
 \textbf{Note:} If you plan on using the LED matrix / face, you should split 5V power off of the 5V regulator before the Raspberry Pi, which should be done now. As the LED Matrix takes up a large number of GPIO pins which some might want for other devices, it's not a required part of the project and thus there is a separate document describing how to put it together.
 } 
 
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			Raspberry Pi 3B & E1 & 1 & \partimg{../../../images/parts_list/E1.jpg} & & & & \\ \hline
+			20 AWG Wire (Black) & E30 & 1 & \partimg{../../../images/parts_list/wire.jpg} & 20 AWG Wire (Red) & E31 & 1 & \partimg{../../../images/parts_list/wire.jpg} \\ \hline
+	\end{tabular}
+\end{table}
 
 \noindent To power the Raspberry Pi, we soldered the 5V and GND from the 5V regulator directly to the power pads on the bottom of the Raspberry Pi. The positive voltage goes to pad PP2 and negative/ground goes to pad PP5 in Figure \ref{rpi pads}. For more information and a video on doing this you can follow this link and go to around 3:30 
 \begin{itemize}
@@ -346,6 +399,21 @@ Next, we need to bring power to the Raspberry Pi. It requires a regulated 5V DC 
 %	\label{ss}
 %\end{figure}
 
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			POPULATED Custom Serial Splitter PCB & N/A & 1 & \partimg{"Pictures/Board Testing/ss1".PNG} & Female/Female Jumper Wires & E18 & 24 & \partimg{../../../images/parts_list/E18.png} \\ \hline
+	\end{tabular}
+\end{table}
+
+NOTE: Before completing this section, you will need to populate the custom PCB boards that you received. Make sure you have completed all the custom PCB population and testing in the PCB Testing.pdf document before continuing with this document.
 
 Figure \ref{rpi to rc} shows the schematic and pin-out of how to connect the Pi, Serial Splitter board, and Motor Controllers. From the Raspberry Pi we use the UART TX and RX pins, which correspond to pins \#8 and \#10, or GPIO14 and GPIO15. In addition we will be passing 5V to the motor controllers for the logic battery controller which is used by the encoders and digital logic. For this use the 5V PWR rail which is pin  \#2 or \#4 and any of the GND pins (we recommend pin \#6). Raspberry Pi GPIO diagrams can be found on the following page in Figure \ref{RPi 3 pinout}.
 
@@ -432,7 +500,7 @@ Next, follow Figure \ref{rpi to rc} and the pinout Figures \ref{Read/Write Board
 
 \section{Connecting Motors/Encoders}
 
-Next we can connect the motors and encoders to the RoboClaw motor controllers. For each of the 10 motors you will need to connect motor power as well as the encoders. This means that there will be close to 60 wires traveling between the motor controllers and the motors/encoders, so it is very important to try to keep your wires organized and bundled together well. Below is some information about strain relief and using wire braid in your electronics systems.  See these links and Figures \ref{wiring1} and \ref{ss2rc2} for examples.
+Next we can connect the motors and encoders to the RoboClaw motor controllers. For each of the 10 motors you will need to connect motor power as well as the encoders. This means that there will be close to 60 wires traveling between the motor controllers and the motors/encoders, so it is very important to try to keep your wires organized and bundled together well. Below is some information about strain relief and using wire braid in your electronics systems.  See these links and Figures \ref{wiring1} and \ref{wiring2} for examples.
 
 \begin{itemize}
 	\item \href{https://www.techopedia.com/definition/2301/strain-relief}{https://www.techopedia.com/definition/2301/strain-relief}
@@ -466,7 +534,7 @@ Next we can connect the motors and encoders to the RoboClaw motor controllers. F
 
 
 \mybox{
-An example of how we routed our wiring is shown by Figure \ref{wiring1}. It is important to give strain relief in the cable as you are routing it through, as well as to give extra wiring for the locations that can move. In addition, Figure \ref{ss2rc2} shows how we routed the wires through the rocker-bogie, and then from the rocker-bogie into the main body. Try to pick locations that reduce strain on the wires as the robot legs move when you are routing wires into the body.
+An example of how we routed our wiring is shown by Figure \ref{wiring1}. It is important to give strain relief in the cable as you are routing it through, as well as to give extra wiring for the locations that can move. In addition, Figure \ref{wiring2} shows how we routed the wires through the rocker-bogie, and then from the rocker-bogie into the main body. Try to pick locations that reduce strain on the wires as the robot legs move when you are routing wires into the body.
 }
 
 \begin{figure}[H]
@@ -479,19 +547,33 @@ An example of how we routed our wiring is shown by Figure \ref{wiring1}. It is i
     		\includegraphics[width=\textwidth]{"Pictures/Routing/route5".png}
   	\end{minipage}
 	\caption{Serial signal routing}
+	\label{wiring2}
 \end{figure}
 
-
-
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			20AWG Wire (Black) & E30 & N/A & \partimg{../../../images/parts_list/wire.jpg} & 20AWG Wire (Red) & E31 & N/A & \partimg{../../../images/parts_list/wire.jpg} \\ \hline
+			30AWG Wire (White) & E34 & N/A & \partimg{../../../images/parts_list/wire.jpg} & 30AWG Wire (Blue) & E35 & N/A & \partimg{../../../images/parts_list/wire.jpg} \\ \hline
+			30AWG Wire (Yellow) & E36 & N/A & \partimg{../../../images/parts_list/wire.jpg} & 30AWG Wire (Green) & E37 & N/A & \partimg{../../../images/parts_list/wire.jpg} \\ \hline
+	\end{tabular}
+\end{table}
 
 \begin{tabular}[3] {| p{2cm} | p{7cm} | p{4cm} |}
 	\hline
 	\textbf{Section} & \textbf{Wires Needed} & \textbf{Length [inches]}  \\ \hline
-	\textcolor{blue}{A} & \textcolor{blue}{2x 24AWG \& 4x 30AWG} & \textcolor{blue}{35} \\ \hline
-	\textcolor{cyan}{B} & \textcolor{cyan}{2x 24AWG \& 4x 30AWG} & \textcolor{cyan}{28} \\ \hline
-	\textcolor{green}{C} & \textcolor{green}{2x 24AWG \& 4x 30AWG} & \textcolor{green}{48} \\ \hline
-	\textcolor{red}{D} & \textcolor{red}{2x 24AWG \& 3x 30AWG} & \textcolor{red}{20} \\ \hline
-	\textcolor{magenta}{E} & \textcolor{magenta}{2x 24AWG \& 3x 30AWG} & \textcolor{magenta}{32} \\ \hline
+	\textcolor{blue}{A} & \textcolor{blue}{2x 20AWG \& 4x 30AWG} & \textcolor{blue}{35} \\ \hline
+	\textcolor{cyan}{B} & \textcolor{cyan}{2x 20AWG \& 4x 30AWG} & \textcolor{cyan}{28} \\ \hline
+	\textcolor{green}{C} & \textcolor{green}{2x 20AWG \& 4x 30AWG} & \textcolor{green}{48} \\ \hline
+	\textcolor{red}{D} & \textcolor{red}{2x 20AWG \& 3x 30AWG} & \textcolor{red}{20} \\ \hline
+	\textcolor{magenta}{E} & \textcolor{magenta}{2x 20AWG \& 3x 30AWG} & \textcolor{magenta}{32} \\ \hline
 \end{tabular}
 
 \begin{figure}[H]
@@ -555,6 +637,21 @@ The big difference between the corner motors and drive motors is the use of abso
 	\label{corner motors over}
 \end{figure}
 
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			POPULATED Voltage Divider PCB & N/A & 1 & \partimg{"../PCB Testing/Pictures/Board Testing/vd1".PNG} & Jumper Wires & E18 & 14 & \partimg{../../../images/parts_list/E18.png} \\ \hline
+			3-Pin Micro Connectors & E10 & 4 & \partimg{../../../images/parts_list/E10.png} & & & & \\ \hline
+	\end{tabular}
+\end{table}
+
  The corner motors only have the two connections to the physical motor, the (+) and (-) going to the top of the motor. However, you must also hook up the absolute encoder. When plugged into the encoder, the 3-pin Micro connector will have 3 wires coming out of it, shown in Figure \ref{3pin}.
 
 
@@ -609,11 +706,28 @@ The absolute encoder will be hooked up similarly to the encoders for the drive m
 Once all 10 of the motors are connected and in the system, we are ready to move onto the motor tuning and calibration process which is documented in the Calibration.pdf document. Make sure to double check all your wire connections and that they are into the correct pins before moving on. We recommend calibrating your motors and having the robot functioning before moving on to the LED Matrix due to simplicity and ease of debugging, though either order would be fine.
 
 \section{Connecting the LED Matrix}
-We followed along with a project on Adafruit to hook up the Raspberry Pi to the LED matrix, with the addition of the logic shifter board between the Pi and LED matrix. That project can be found at:
+The code in the osr-rover-code repository contains all the code you need to get the LED matrix up and running.  Simply clone that repository as described in the Software Steps document and hook up the wires as described below.  For additional background on the LED matrix portion of the project: We followed along with a project on Adafruit to hook up the Raspberry Pi to the LED matrix, with the addition of the logic shifter board between the Pi and LED matrix. That project can be found at:
 
 \begin{itemize}
 	\item \href{https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/overview}{https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/overview}
 \end{itemize}
+
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			POPULATED Logic Shifter PCB & N/A & 1 & \partimg{"../PCB Testing/Pictures/Board Testing/ls2".PNG} & Jumper Wires & E18 & 30 & \partimg{../../../images/parts_list/E18.png} \\ \hline
+			20AWG Wire (Black) & E30 & N/A & \partimg{../../../images/parts_list/wire.jpg} & 20AWG Wire (Red) & E31 & N/A & \partimg{../../../images/parts_list/wire.jpg} \\ \hline
+			30AWG Wire (White) & E34 & N/A & \partimg{../../../images/parts_list/wire.jpg} & 30AWG Wire (Blue) & E35 & N/A & \partimg{../../../images/parts_list/wire.jpg} \\ \hline
+			30AWG Wire (Yellow) & E36 & N/A & \partimg{../../../images/parts_list/wire.jpg} & 30AWG Wire (Green) & E37 & N/A & \partimg{../../../images/parts_list/wire.jpg} \\ \hline
+	\end{tabular}
+\end{table}
 
 \noindent Figure \ref{rpi2led} shows an overview of how the logic shifters are used between the signals from the Raspberry Pi and the LED Matrix. This diagram does not include the actual pin connectors to the Logic Shifter board; it is just to demonstrate the signal path.
 

@@ -1,7 +1,7 @@
 # Corner Steering
 The Corner Steering system gives attachment points for corner motors that we use to steer the rover.
 
-![Corner steering pic](Latex%20Docs/Pictures/CornerSt%20Step%207.PNG)
+![Corner steering pic](Latex%20Docs/Pictures/CornerSt%20Final.PNG)
 
 ## Features
   * Absolute encoders track the position of corners without having to recalibrate every time the rover reboots
@@ -12,8 +12,8 @@ The Corner Steering system gives attachment points for corner motors that we use
 
 | Author/Creator            | JPL       |
 | --------------            | -------            |
-| Cost without 3D printer   | 516.14             |
-| Cost with 3D printer      | 464.54             |
+| Cost without 3D printer   | 421.57             |
+| Cost with 3D printer      | 409.97             |
 | Date Added                | 4/11               |
 | Group/Organization/School | JPL                |
 | Time to build             | 4 hrs              |
@@ -24,10 +24,7 @@ The Corner Steering system gives attachment points for corner motors that we use
 ## Tools
 
 ### Mandatory 
-  * Band saw or Dremel
-  * Clamps
   * Allen Key set
-  * Imperial Wrench Set
 
 ### Optional 
   * 3D printer

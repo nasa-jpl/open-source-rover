@@ -1,5 +1,5 @@
 # Electrical Subsystem
-The electrical subsystem consists of the motors, motor controllers, brain, LED array for the face, battery, and other electronic components that will control the rover.  See the project's main [roadmap](/images/roadmap.png) for information on when you should be building your electrical subsystem.  The electrical subsystem needs to carry two major things throughout the rover: power and data.
+The electrical subsystem consists of the motors, motor controllers, brain, LED array for the face, battery, and other electronic components that will control the rover.  See the project's main [roadmap](/images/roadmap.PNG) for information on when you should be building your electrical subsystem.  The electrical subsystem needs to carry two major things throughout the rover: power and data.
 
 
 ## Power Overview Diagram

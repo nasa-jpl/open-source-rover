@@ -1,18 +1,17 @@
-"Manufacturer Part Number","Manufacturer","Digi-Key Part Number","Customer Reference","Reference Designator","Packaging","Part Status","Quantity","Unit Price","Extended Price","Quantity Available","Mfg Std Lead Time","Description","RoHS Status","Lead Free Status","REACH Status"
-"3169","Adafruit Industries LLC","1528-1737-ND","","","Bulk","Active","2","4.95000","$9.90","104","5 Weeks","HOOK-UP STRND 30AWG WHITE 50'","RoHS Compliant","Lead free","Not Available"
-"3166","Adafruit Industries LLC","1528-1734-ND","","","Bulk","Active","2","4.95000","$9.90","94","5 Weeks","HOOK-UP STRND 30AWG 600V BLU 50'","RoHS Compliant","Lead free","Not Available"
-"3167","Adafruit Industries LLC","1528-1735-ND","","","Bulk","Active","2","4.95000","$9.90","140","5 Weeks","HOOK-UP STRND 30AWG 600V YEL 50'","RoHS Compliant","Lead free","Not Available"
-"3168","Adafruit Industries LLC","1528-1736-ND","","","Bulk","Active","2","4.95000","$9.90","122","5 Weeks","HOOK-UP STRND 30AWG GREEN 50'","RoHS Compliant","Lead free","Not Available"
-"LM358P","Texas Instruments","296-1395-5-ND","","","Tube","Active","10","0.36700","$3.67","6756","15 Weeks","IC OPAMP GP 700KHZ 8DIP","RoHS Compliant","Lead free","REACH Unaffected"
-"76512.18.01","General Cable/Carol Brand","C76512B-50-ND","","","Bulk","Active","2","15.59000","$31.18","11","Not Available","HOOK-UP STRND 16AWG 600V BLK 50'","RoHS Compliant","Lead free","Not Available"
-"1569-20-1-0500-001-1-TS","CNC Tech","CN538B-50-ND","","","Spool","Active","2","11.92000","$23.84","9","Not Available","HOOK-UP STRND 20AWG 300V BLK 50'","RoHS Compliant","Lead free","Not Available"
-"76512.18.03","General Cable/Carol Brand","C76512R-50-ND","","","Bulk","Active","2","15.59000","$31.18","17","Not Available","HOOK-UP STRND 16AWG 600V RED 50'","RoHS Compliant","Lead free","Not Available"
-"1569-20-1-0500-004-1-TS","CNC Tech","CN541R-50-ND","","","Spool","Active","2","11.92000","$23.84","2","Not Available","HOOK-UP STRND 20AWG 300V RED 50'","RoHS Compliant","Lead free","Not Available"
-"PRPC040SAAN-RC","Sullins Connector Solutions","S1011EC-40-ND","","","Bag","Active","10","0.59200","$5.92","43461","4 Weeks","CONN HEADER .100"" SNGL STR 40POS","RoHS Compliant","Lead free","REACH Unaffected"
-"GRPB041VWVN-RC","Sullins Connector Solutions","S9014E-04-ND","","","Box","Active","20","0.35000","$7.00","16073","4 Weeks","CONN HEADER .050"" 4POS PCB GOLD","RoHS Compliant","Lead free","REACH Unaffected"
-"C3900BA","Bulgin","1091-1026-ND","","","Bulk","Active","1","4.49000","$4.49","1630","16 Weeks","SWITCH TOGGLE SPST 20A 125V","RoHS Compliant","Lead free","REACH Unaffected"
-"3165","Adafruit Industries LLC","1528-1733-ND","","","Bulk","Active","2","4.95000","$9.90","145","5 Weeks","HOOK-UP STRND 30AWG 600V RED 50'","RoHS Compliant","Lead free","Not Available"
-"3164","Adafruit Industries LLC","1528-1732-ND","","","Bulk","Active","2","4.95000","$9.90","218","5 Weeks","HOOK-UP STRND 30AWG 600V BLK 50'","RoHS Compliant","Lead free","Not Available"
-"CF14JT4K70","Stackpole Electronics Inc.","CF14JT4K70CT-ND","","","Cut Tape (CT)","Active","10","0.04000","$0.40","557220","15 Weeks","RES 4.7K OHM 1/4W 5% AXIAL","RoHS Compliant","Lead free","REACH Unaffected"
-"CF14JT10K0","Stackpole Electronics Inc.","CF14JT10K0CT-ND","","","Cut Tape (CT)","Active","25","0.02880","$0.72","1837130","15 Weeks","RES 10K OHM 1/4W 5% AXIAL","RoHS Compliant","Lead free","REACH Unaffected"
-"CF14JT22K0","Stackpole Electronics Inc.","CF14JT22K0CT-ND","","","Cut Tape (CT)","Active","25","0.02880","$0.72","28424","15 Weeks","RES 22K OHM 1/4W 5% AXIAL","RoHS Compliant","Lead free","REACH Unaffected"
+Manufacturer Part Number,Manufacturer,Digi-Key Part Number,Customer Reference,Reference Designator,Packaging,Part Status,Quantity,Unit Price,Extended Price,Quantity Available,Mfg Std Lead Time,Description,RoHS Status,Lead Free Status,REACH Status
+3169,Adafruit Industries LLC,1528-1737-ND,,,Bulk,Active,2,4.95,$9.90 ,104,5 Weeks,HOOK-UP STRND 30AWG WHITE 50',RoHS Compliant,Lead free,Not Available
+3166,Adafruit Industries LLC,1528-1734-ND,,,Bulk,Active,2,4.95,$9.90 ,94,5 Weeks,HOOK-UP STRND 30AWG 600V BLU 50',RoHS Compliant,Lead free,Not Available
+3167,Adafruit Industries LLC,1528-1735-ND,,,Bulk,Active,2,4.95,$9.90 ,140,5 Weeks,HOOK-UP STRND 30AWG 600V YEL 50',RoHS Compliant,Lead free,Not Available
+3168,Adafruit Industries LLC,1528-1736-ND,,,Bulk,Active,2,4.95,$9.90 ,122,5 Weeks,HOOK-UP STRND 30AWG GREEN 50',RoHS Compliant,Lead free,Not Available
+LM358P,Texas Instruments,296-1395-5-ND,,,Tube,Active,10,0.367,$3.67 ,6756,15 Weeks,IC OPAMP GP 700KHZ 8DIP,RoHS Compliant,Lead free,REACH Unaffected
+76512.18.01,General Cable/Carol Brand,C76512B-50-ND,,,Bulk,Active,2,15.59,$31.18 ,11,Not Available,HOOK-UP STRND 16AWG 600V BLK 50',RoHS Compliant,Lead free,Not Available
+1569-20-1-0500-001-1-TS,CNC Tech,CN538B-50-ND,,,Spool,Active,2,11.92,$23.84 ,9,Not Available,HOOK-UP STRND 20AWG 300V BLK 50',RoHS Compliant,Lead free,Not Available
+76512.18.03,General Cable/Carol Brand,C76512R-50-ND,,,Bulk,Active,2,15.59,$31.18 ,17,Not Available,HOOK-UP STRND 16AWG 600V RED 50',RoHS Compliant,Lead free,Not Available
+1569-20-1-0500-004-1-TS,CNC Tech,CN541R-50-ND,,,Spool,Active,2,11.92,$23.84 ,2,Not Available,HOOK-UP STRND 20AWG 300V RED 50',RoHS Compliant,Lead free,Not Available
+PRPC040SAAN-RC,Sullins Connector Solutions,S1011EC-40-ND,,,Bag,Active,10,0.592,$5.92 ,43461,4 Weeks,"CONN HEADER .100"" SNGL STR 40POS",RoHS Compliant,Lead free,REACH Unaffected
+C3900BA,Bulgin,1091-1026-ND,,,Bulk,Active,1,4.49,$4.49 ,1630,16 Weeks,SWITCH TOGGLE SPST 20A 125V,RoHS Compliant,Lead free,REACH Unaffected
+3165,Adafruit Industries LLC,1528-1733-ND,,,Bulk,Active,2,4.95,$9.90 ,145,5 Weeks,HOOK-UP STRND 30AWG 600V RED 50',RoHS Compliant,Lead free,Not Available
+3164,Adafruit Industries LLC,1528-1732-ND,,,Bulk,Active,2,4.95,$9.90 ,218,5 Weeks,HOOK-UP STRND 30AWG 600V BLK 50',RoHS Compliant,Lead free,Not Available
+CF14JT4K70,Stackpole Electronics Inc.,CF14JT4K70CT-ND,,,Cut Tape (CT),Active,10,0.04,$0.40 ,557220,15 Weeks,RES 4.7K OHM 1/4W 5% AXIAL,RoHS Compliant,Lead free,REACH Unaffected
+CF14JT10K0,Stackpole Electronics Inc.,CF14JT10K0CT-ND,,,Cut Tape (CT),Active,25,0.0288,$0.72 ,1837130,15 Weeks,RES 10K OHM 1/4W 5% AXIAL,RoHS Compliant,Lead free,REACH Unaffected
+CF14JT22K0,Stackpole Electronics Inc.,CF14JT22K0CT-ND,,,Cut Tape (CT),Active,25,0.0288,$0.72 ,28424,15 Weeks,RES 22K OHM 1/4W 5% AXIAL,RoHS Compliant,Lead free,REACH Unaffected
