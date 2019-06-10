@@ -1,0 +1,971 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{colortbl}
+\usepackage{array, booktabs, caption}
+\usepackage{makecell}
+
+
+\pagestyle{fancy}
+\lfoot{\textbf{Open Source Rover PCB Assembly Instructions}}
+\rfoot{Page \thepage}
+\lhead{\textbf{\leftmark}}
+\rhead{\textbf{\rightmark}}
+\cfoot{}
+\renewcommand{\footrulewidth}{1.8pt}
+\renewcommand{\headrulewidth}{1.8pt}
+\doublespacing
+\setlength{\parindent}{1cm}
+% Parts list tables
+\renewcommand\theadfont{\bfseries}
+\newcolumntype{I}{ >{\centering\arraybackslash} m{2cm} }  % part image
+\newcolumntype{N}{ >{\centering\arraybackslash} m{3cm} }  % part name
+\newcolumntype{Q}{ >{\centering\arraybackslash} m{0.75cm} }  % ref & qty
+
+
+\begin{document}
+
+\newcommand\partimg{\includegraphics[width=2cm,height=1.0cm,keepaspectratio]}
+
+\title{Open Source Rover: PCB Assembly Instructions}
+\author{Authors: Michael Cox, Eric Junkins}
+
+\makeatletter
+\def\@maketitle{
+\begin{center}
+	%\makebox[\textwidth][c]{ \includegraphics[width=0.7\paperwidth]{"Pictures/Wheels/Wheels Title".png}}
+	{\Huge \bfseries \sffamily \@title }\\[3ex]
+	{\Large \sffamily \@author}\\[3ex]
+	%\includegraphics[width=.65\linewidth]{"Pictures/Misc/JPL logo".png}
+\end{center}}
+\makeatother
+
+\maketitle
+
+\noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged.}
+
+
+% Introduction
+\newpage
+
+
+\tableofcontents
+
+\newpage
+
+\section{PCB Assembly}
+
+\subsection{Control Board Assembly}
+
+\subsubsection{Motor \& RoboClaw Connectors}
+
+\begin{enumerate}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 6 Pos Side Term Block & E3 & 10 & \partimg{img/components/E3.PNG} \\ \hline
+        6 Pos Top Term Block & E4 & 5 & \partimg{img/components/E4.PNG} & 5 Pos Header socket & E5 & 5 & \partimg{img/components/E5.PNG} \\ \hline
+        5 Pos Header socket & E6 & 5 & \partimg{img/components/E6.PNG} & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\item Begin by soldering the 6 Position Side entry terminal Block \textbf{E3} into the top side on the edge of the board shown below. They will be labeled with schematic reference designators J17-J26. Be sure that the wire terminal faces \textbf{OUTWARD} on all these connectors. These are the terminal blocks that will run motor power, encoder power, and encoder signals between the motors/encoders and the RoboClaw motor controllers.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_1".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/top_term".jpg}
+  \end{minipage}
+  \caption{Assembly Step 1}
+  \label{assem_1}
+\end{figure}
+
+\item On the Bottom of the board now solder the 6 Position Top entry terminal blocks \textbf{E4}. They will be labeled with schematic reference designators J1-5. The orientation of the wire terminal face should be AWAY from the each of RoboClaw outlines. See below image for direction. These will run battery power to the RoboClaw motor controllers, and the +/- signals for both motors into the PCB.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_3".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/bottom_term".jpg}
+  \end{minipage}
+  \caption{Assembly Step 2}
+  \label{assem_2}
+\end{figure}
+
+\item On the Bottom of the board solder the 20 Position Female socket header connector \textbf{E5} as well as 5 Position Female socket header connector \textbf{E6}. They will be labeled with reference designators RoboClaw 1-5. These are the digital signal pins for the RoboClaw motor controllers.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_5".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/rc_header".jpg}
+  \end{minipage}
+  \caption{Assembly Step 3}
+  \label{assem_3}
+\end{figure}
+
+\end{enumerate}
+
+\subsubsection{Resistors and Capacitors}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 4.7K 1/4 Watt Resistor & E7 & 1 & \partimg{img/components/E7.PNG} \\ \hline
+        10K 1/4 Watt Resistor & E8 & 4 & \partimg{img/components/E8.PNG} & 22K 1/4 Watt Resistor & E9 & 4 & \partimg{img/components/E9.PNG} \\ \hline
+        10K 1/2 Watt Resistor & E10 & 1 & \partimg{img/components/E10.PNG} & 100nF Capacitor & 16 & E11 & \partimg{img/components/E11.PNG} \\ \hline
+    \end{tabular}
+\end{table}
+
+
+\begin{enumerate}
+
+\item Solder the resistors and capacitors on the top of the board, by comparing the reference designator on the board to the part number listed below. Some of the capacitors are used to store energy for powering components to help protect against voltage fluctuations, and others are used as noise filtering mechanisms on analog signals. The resistors are needed to control the voltage that components see.
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Resistor/Capacitor reference}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \thead{Item} & \thead{Parts list Ref} & \thead{Schematic/Board Ref} \\ \hline
+	4.7K 1/4 Watt Res & E7 & R1 \\ \hline
+	10K 1/4 Watt Res & E8 & R4,6,8,10 \\ \hline
+	22K 1/4 Watt Res & E9 & R3,5,7,9 \\ \hline
+	10K 1/2 Watt Res & E10 & R2 \\ \hline
+	100nF Cap & E11 & C1-17 \\ \hline
+
+    \end{tabular}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/Pictures/Assembly/caps_res".jpg}
+	\caption{Resistor and Capacitor soldering}
+\end{figure}
+
+
+\end{enumerate}
+
+\subsubsection{Voltage Regulator connectors}
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 5 Pos Header socket & E6 & 2 & \partimg{img/components/E6.PNG} \\ \hline
+         & & & & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item On the Bottom of the board solder the 5 Position female header sockets \textbf{E6}. They will have Schematic reference designators of J9 and J11. These connectors are what the 12V and 5V voltage regulators will slot into.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_8".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/regs_header".jpg}
+  \end{minipage}
+  \caption{Assembly Step 5}
+  \label{assem_5}
+\end{figure}
+
+
+\end{enumerate}
+
+\subsubsection{Power Connectors}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 2 Pos Side Terminal Block & E12 & 3 & \partimg{img/components/E12.PNG} \\ \hline
+         2 Position 2.5mm Terminal Block & E18 & 1 & \partimg{img/components/E18.PNG} & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+
+\begin{enumerate}
+
+\item On the top of the board Solder the 2 Position Side entry terminal blocks \textbf{E13}. These will have schematic reference designators J14-16. Ensure that these componenets face \textbf{OUTWARDS}. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_9".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_4".png}
+  \end{minipage}
+  \caption{Assembly Step 6}
+  \label{assem_6}
+\end{figure}
+
+\item Then on the top of the board solder the 2 Position
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/01_pitch_under".png}
+	\caption{0.1 Pitch headers}
+\end{figure}
+
+\end{enumerate}
+
+\subsubsection{Op amp DIP socket}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 8 Pin DIP Socket & E33 & 2 & \partimg{img/components/E33.PNG} \\ \hline
+        & & & & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item On the top of the board solder the 8 Pin DIP socket \textbf{E33}. It will have schematic reference designator U1-2. Orientation does not matter. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_10".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/power_term".jpg}
+  \end{minipage}
+  \caption{Assembly Step 6}
+  \label{assem_6}
+\end{figure}
+
+
+
+\end{enumerate}
+
+\subsubsection{RPi GPIO connector and misc headers}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 40 Pin Header connector & E13 & 2 & \partimg{img/components/E13.PNG} \\ \hline
+	40 Position Header Pins & E15 & 1 & \partimg{img/components/E15.PNG} & 6 Position JST Connector & E14 & 1 & \partimg{img/components/E14.PNG} \\ \hline
+         & & & & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item On the Top of the board soder the 40 position header connectors \textbf{E13}. The Clocking notch on the headers should face \textbf{OUTWARD}. The schematic reference designators are J6 and J7.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_11".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/gpio".jpg}
+  \end{minipage}
+  \caption{Assembly Step 7}
+  \label{assem_7}
+\end{figure}
+
+
+\item Take the 40 pin header pins \textbf{E15} and break it into a 6 pin segment. On the top of the board solder this into schematic reference designator J8. Then solder the JST connector \textbf{J14} into the J10 schematic reference designator. The opening in the pins on the JST connector should face \textbf{INWARD}.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_13".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/jst_top".jpg}
+  \end{minipage}
+  \caption{Assembly Step 8}
+  \label{assem_8}
+\end{figure}
+
+
+\end{enumerate}
+
+\subsubsection{Fuse and Diode}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & 10 Amp Fuse & E16 & 1 & \partimg{img/components/E16.PNG} \\ \hline
+        Diode & E17 & 1 & \partimg{img/components/E17.PNG} & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item Solder the fuse \textbf{E16} and diode \textbf{E17} onto the top of the board. Pay careful attention to the direction of that the Diode is mounted on the board, as this will only work in one direction.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/fuse_diode".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/fuse".jpg}
+  \end{minipage}
+  \caption{Fuse and Diode Soldering}
+  \label{assem_9}
+\end{figure}
+
+\end{enumerate}
+
+
+
+\subsubsection{USB connectors}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & USB Connector & E34 & 2 & \partimg{img/components/E34.PNG} \\ \hline
+         & & & & Soder Iron & N/A & &  \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item On the top of the board solder the USB Connector \textbf{E34}. It will have reference designator J12 and J14.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/assembly_14".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/usb".jpg}
+  \end{minipage}
+  \caption{Assembly Step 9}
+  \label{assem_9}
+\end{figure}
+
+\end{enumerate}
+
+\subsubsection{Standoffs}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        \#6-32 Threaded Standoff & T4 & 4 & \partimg{img/components/T4.png} & \#4-40 Threaded Standoff & T5 & 20 & \partimg{img/components/T5.png} \\ \hline
+        \#2-56 Threaded Standoff & T6 & 4 & \partimg{img/components/T6.png} & M2.5 Threaded Standoff & T7 & 4 & \partimg{img/components/T7.png} \\ \hline
+        \#6-32 3/8" Button Head Screw & B2 & 4 & \partimg{img/components/B2.png} & \#4-40 1/4" Button head Screw & B8 & 40 & \partimg{img/components/B8.png} \\ \hline
+        \#2-56 1/4" Button head Screw & B13 & 8 & \partimg{img/components/B13.png} & M2.5 x 6mm & B10 & 8 & \partimg{img/components/B10.png} \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+\item \textbf{Board mounting Standoffs:} Take the \#6-32 Standoffs \textbf{T4} and attach them on the outter 4 mounting holes using screws \textbf{B2}. These go on the bottom side of the board, as shown below. These will be what attached the board to the robot chassis.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/standoff_1".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/standoff_1".PNG}
+  \end{minipage}
+  \caption{Mounting Standoffs}
+  \label{standoffs_1}
+\end{figure}
+
+\item \textbf{RoboClaw mounting Standoffs:} Take the \#4-40 Standoffs \textbf{T5} and attach them using screws \textbf{B8} on the bottom side of the board. You can tell the RoboClaw mounting holes as the ones that are inside the RoboClaw Silk Screen rectangle.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/Pictures/Assembly/standoff_3".PNG}
+	\caption{RoboClaw Mounting Standoffs}
+\end{figure}
+
+\item \textbf{Voltage Regulator Standoffs:} Take the \#2-56 Standoffs \textbf{T6} and attach them to the bottom of the board using screws \textbf{B13}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/Pictures/Assembly/standoff_4".PNG}
+	\caption{Voltage regulator Mounting Standoffs}
+\end{figure}
+
+\item \textbf{Raspberry Pi  Standoffs:} Take the M2.5 Standoffs \textbf{T7} and attach them to the top of the board using screws \textbf{B10}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/Pictures/Assembly/standoff_5".PNG}
+	\caption{Raspberry Pi Standoffs}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/Pictures/Assembly/standoffs".jpg}
+	\caption{0.1 Pitch headers}
+\end{figure}
+
+
+\end{enumerate}
+
+
+\subsection{Arduino Sheild Assembly}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        Arduino Sheild & E2 & 1 & \partimg{../img/components/E2.PNG} & 2 Position Term Block & E18 & 1 & \partimg{../img/components/E18.PNG} \\ \hline
+         2x8 Shrouded Header pins & E19 &  1 & \partimg{../img/components/E19.PNG} & 1x6 JST header pins & E14 & 1 & \partimg{../img/components/E14.PNG} \\ \hline
+	1x40 0.1 Pitch Header pins & E15 & 1 & \partimg{../img/components/E15.PNG} & & & & \\ \hline
+    \end{tabular}
+\end{table}
+
+Below are the images of the assembled arduino sheild from the top and bottom. Refer to these images for the coming instrucutions if any orientation for connectors is unclear.
+
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/arduino_sheild_top".jpg}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/arduino_sheild_Bottom".jpg}
+  \end{minipage}
+  \caption{Assembled Arduino Sheild}
+  \label{assembled_arduino_sheild}
+\end{figure}
+
+
+\begin{enumerate}
+
+	\item Begin by taking the 2 Position Terminal Block \textbf{E18} and soldering it to top of the board at the J6 connector, such that the screw terminals face outwards on the board. 
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/term_block".png}
+	\caption{Terminal Block assembly}
+\end{figure}
+
+
+	\item Solder the 1x6 JST connector \textbf{E14} onto the top of the board at the J5 connector, such that the notch in the connector faces inward to the board.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/jst".png}
+	\caption{JST assembly}
+\end{figure}
+
+	\item Solder the 2x8 Shourded header pins connector \textbf{E19} to the top of the board at connector \textbf{J1} such that the notch faces 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/jst".png}
+	\caption{Terminal Block assembly}
+\end{figure}
+
+	\item Solder the 0.1 pitch header pins \textbf{E15} to the J2, 3 and 4 on the top side of the board. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/01_pitch_above".png}
+	\caption{0.1 Pitch headers}
+\end{figure}
+
+	\item Solder the 0.1 pitch header pins \textbf{E15} to the bottom side of the board in the remaining hole sets.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/01_pitch_under".png}
+	\caption{0.1 Pitch headers}
+\end{figure}
+
+\end{enumerate}
+
+\section{Component Integration and Testing}
+
+This next section will go over the process of integrating the electronics onto the Control Board and the testing to verify at each step that the board/components are working as expect. You should perform this section with the board outside of the robot chassis. It is important to do these steps one at time so we can verify each step of the way that electronics are working as intended, so we do not accidnetally break one of our components by plugging something else in wrong.
+
+\subsection{Control Board Testing}
+\subsubsection{Power Distribution System}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & Battery & E36 & 1 & \partimg{img/components/E35.PNG} \\ \hline
+         Tamiya Battery Connectors & E35 & 1 & \partimg{img/components/E36.PNG} & Red 24 AWG & W1 & 1 & \partimg{img/components/W1.PNG} \\ \hline
+	Black 24 AWG & W2 & 1 & \partimg{img/components/W2.PNG} & 5V Regulator & E22 & 1 & \partimg{img/components/E22.PNG} \\ \hline
+	12V Regulator & E23 & 1 & \partimg{img/components/E23.PNG} & RoboClaw Motor Controller & E20 & 5 & \partimg{img/components/E20.PNG} \\ \hline
+	Op-Amp LM358P & E25 & 2 & \partimg{img/components/E25.PNG} & Micro USB Cable & E27 & 1 & \partimg{img/components/E27.PNG} \\ \hline 
+	GPIO Ribbon Cable & E28 & 1 & \partimg{img/components/E28.PNG} & & & & \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item Begin by powering the board. In order to do this we will be bypassing the switch and volt meter, so this connection will look a little bit different than when you fully install the board into the rover. Insert the red wire on the Tamiya Battery Connector \textbf{E35} into the IN terminal on connector \textbf{J16}, and the black wire to the GND terminal on the connector \textbf{J15}.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_1".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_2".PNG}
+  \end{minipage}
+  \caption{Test Step 1}
+  \label{test_1}
+\end{figure}
+
+\item Using a Digital Multimeter (DMM) probe the voltage accross the test points T1 and T2. These will tell you the voltage level that the board is at, which is the direct voltage of the battery. Verify that from T1 to T2 reads a positive number, and is between 12V and 16.7V depending on the charge state of your battery. 
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=.85\textwidth]{"img/Pictures/Testing/testing_3".PNG}
+  \caption{Test pads}
+  \label{test_pads_1}
+\end{figure}
+
+\item Next jumper wires need to be made to connect the RoboClaw motor controller Power terminals to the RoboClaws. Unplug the tamiya battery connector (in future steps I will not explicity say to unplug the battery, but at each step while inserting components and working on the board you should disconnect the battery). Take the red and black 24 AWG wires \textbf{W1 and W2} and cut 15 segements of 2 inches of each, so that you have 15 red and 15 black pieces. Using wire strippers strip the ends at about 0.1 inches at each end. Insert these into the terminal blocks on the RoboClaw Motor Controllers \textbf{E20} in the following way:
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| c|c|}
+		\hline
+		\thead{Terminal} & \thead{Wire Color} \\ \hline
+		M1A & Red \\ \hline
+		M1B & Black \\ \hline
+		+ & Red \\ \hline
+		- & Black \\ \hline
+		M2A & Red \\ \hline
+		M2B & Black \\ \hline
+	\end{tabular}
+\end{table}
+
+\item Starting by inserting one of the Roboclaws into the slot on the bottom of the board labeled ROBOCLAW 2. Connect the wires directly accross to from RoboClaw motor terminal block to the terminal block on the control board. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.55\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/rc_wires".jpg}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.40\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/rc_wires_2".jpg}
+  \end{minipage}
+  \caption{RoboClaw power/motor wires}
+\end{figure}
+
+
+\item Plug in the battery. an LED on the RoboClaw will turn on, verify that it is green. If it is red it means there is an error. Error codes can be traced by looking at the roboclaw user manual:
+
+\begin{itemize}
+	\item \href{https://www.basicmicro.com/downloads}{https://www.basicmicro.com/downloads}
+\end{itemize}
+
+\item Repeat this process one RoboClaw at a time until all 5 RoboClaws have been plugged into the board, following the order of 2, 3, 4, 1, 5
+
+\item Take the two voltage regulators \textbf{E23 and 24} and solder on their header pins, on the top side of the board (the side with large capacitors on it). 
+
+\item Insert the 5V regulator into the control board. Then test from Testpoint T4 to T1 and verify that it reads 5V. If it does not make sure the 5V regulator is slotted in properly.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_7".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_3".png}
+  \end{minipage}
+  \caption{Test Step 5}
+  \label{test_5}
+\end{figure}
+
+\item Insert the 12V regulator into the control board. Then test from Testpoint T11 to T21 and verify that it reads 12V. If it does not make sure the 12V regulator is slotted in properly.
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_8".png}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_9".png}
+  \end{minipage}
+  \caption{Test Step 6}
+  \label{test_6}
+\end{figure}
+
+If all voltage test points read expected values and all the RoboClaw motor Controllers have green LEDs then the power systems has been verified and you are ready to move onto testing and setup of the motor controllers. 
+
+\end{enumerate}
+
+\subsection{Op-Amp Integration}
+
+\begin{enumerate}
+
+\item Press the Op-Amp LM358P \textbf{E25} into the slots in the 8 Position DIP socket. Take careful note of the direction of the chip in the DIP socket, as the notch MUST face the correct direction.
+
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=.85\textwidth]{"img/Pictures/Assembly/op_amp".PNG}
+  \caption{Op-amp integration}
+\end{figure}
+
+\end{enumerate}
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=.85\textwidth]{"img/Pictures/Testing/testing_3".PNG}
+  \caption{Test pads}
+  \label{test_pads_1}
+\end{figure}
+
+
+\subsubsection{RoboClaw Testing and Verification}
+
+In this section you will be going one by and and testing the operation of the RoboClaw Motor controllers. You will be doing this by using the GUI provided by the manufacturer of the motor contollers. The GUI can be found at the following link, under general downloads, then BasicMicro Motion Studio
+
+\begin{itemize}
+	\item \href{https://www.basicmicro.com/downloads}{https://www.basicmicro.com/downloads}
+\end{itemize}
+
+
+\noindent To use the GUI insert a USB to micro USB cable from your computer to the motor controller you are going to be testing. For this step in the testing procedure we found it easiest to test using a set of male-male jumper wires, connected between the motor terminal being tested and the motor. Any way you wish to connect the wires from the terminal block to the motor wires is fine though.
+
+\subsubsection{Drive Motor Blocks}
+
+\noindent Do the following procedure for the terminal blocks labeled J17-22, these correspond to the driving motors for the rover. Make sure that while you are plugging in connections your board is powered off.  The terminal blocks correspond to the motor controlelrs/outputs in the following manner:
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| l | l | l |}
+		\hline
+		\thead{Terminal Block Label} & \thead{RoboClaw Board Label} & \thead{Motor Output Channel} \\ \hline
+		J17   & RC1  & M1 \\ \hline
+		J18   & RC1  & M2 \\ \hline
+		J19   & RC2  & M1 \\ \hline
+		J20   & RC2  & M2 \\ \hline
+		J21   & RC3  & M1 \\ \hline
+		J22   & RC3  & M2 \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item Connect the wires in the following manner
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| l | l | l |}
+		\hline
+		\thead{Signal} & \thead{Terminal Block Label} & \thead{Motor Connector Wire Color} \\ \hline
+		Motor (+)  & M+  & Red \\ \hline
+		Motor (-)   & M-   & Black \\ \hline
+		Ground     & GND & Green \\ \hline
+		+5V         & +5V  & Blue \\ \hline
+		Encoder A & ENA  & Yellow \\ \hline
+		Encoder B & ENB   & White \\ \hline
+	\end{tabular}
+\end{table}
+
+\item Power on the board, after a minute in the Basic Motion GUI you should see an available device appear. It might require an update to proceed, have it install the latest firmware update and then connect to the device.
+
+\item Click on the PWM tab. We will use this to send a PWM signal to the motor and test that connections are all made correctly to the motor/encoder. 
+
+\item Slowly move the slide bar for the corresponding motor output channel (Either M1 or M2 from the above table) for the terminal you are testing. Verify that the motor spins (we will worry about direction later), and that the encoder value is also changing (we'll worry about it increasing or decreasing correctly later as well). Switch direction of the slide bar and verify that it spins the other direction and the encoder value does the opposite of previous as well. If these are not happening then go back and check that you are using the correct Motor controller, terminal block etc. If all that is correct you will have to begin testing solder contact between the componenets on the board itself.
+
+\item Repeat this process for all the drive motor terminal blocks, labeled J17-22.
+
+\end{enumerate}
+
+\subsubsection{Corner Motor Blocks}
+
+Do the following procedure for the terminal blocks labeled J23-26. These correspond to the Corner motos for the rover. Terminal blocks correspond to the motor controllers/outputs in the following manner:
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| l | l | l |}
+		\hline
+		\thead{Terminal Block Label} & \thead{RoboClaw Board Label} & \thead{Motor Output Channel} \\ \hline
+		J23   & RC4  & M1 \\ \hline
+		J24   & RC4  & M2 \\ \hline
+		J25   & RC5  & M1 \\ \hline
+		J26   & RC5  & M2 \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item Connect the wires to the motor in the following manner
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| l | l | l |}
+		\hline
+		\thead{Signal} & \thead{Terminal Block Label} & \thead{Motor Connector Wire Color} \\ \hline
+		Motor (+)  & M+  & Red \\ \hline
+		Motor (-)   & M-   & Black \\ \hline
+	\end{tabular}
+\end{table}
+
+\item The main different between the drive and corner motor system is the encoders used. We want to test the voltage division circuit used on the Control board, which will expect up to a 5V signal in from the Absolute Hall effect encoder. To simulate this connect the +5V terminal on the motor terminal block straight into the ENA signal in the same terminal block.
+
+\item Connect to the motor contoller in the Basic Motion GUI. Under the General settings tab under Encoders change the type of Encoder from Quadrature to Absolute. You should see that the encoder values change to a number somewhere around 1600. As long as it is a fairly constant value and is in the range of 1400-2000 then everything is working. If that is not recheck that the OP-amp is installed in the correct direction. If this number still isn't correct then make sure you correctly installed all the resistors/capacitors in the assembly steps.
+
+\item Under the PWM tab move the slide bar and verify that the motor spins accordingly.
+
+\item Repeat this process for all the corner motor terminal blocks, labeled J23-26.
+
+\end{enumerate}
+
+\subsubsection{Raspberry Pi Install}
+
+Next up is to verify that power to the Raspberry Pi is working. For this you'll need a working operating system install on the SD card. Look foward to the Software Install steps to get the install instructions of that.
+
+\textcolor{red}{INSERT LINK TO SOFTWARE DOC?}
+
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        OSR Control Board & E1 & 1 & \partimg{img/components/E1.PNG} & Raspbery Pi 3B & E21 & 1 & \partimg{img/components/E21.PNG} \\ \hline
+         40 Pin Ribbon Cable & E29 & 1 & \partimg{img/components/E29.PNG} & USB to Micro USB Cable& E27 & 1 & \partimg{img/components/E27.PNG} \\ \hline
+    \end{tabular}
+\end{table}
+
+\begin{enumerate}
+
+\item Insert the Raspberry Pi into the Board, making sure that the USB ports face downward on the board. Figure \ref{rpi_install} show this orientation.
+
+\item Plug in the micro USB cable \textbf{E27} to the USB power port labeled J12 and the Raspberry Pi. Then Plug in the ribbon Cable \textbf{E29} into the Raspberry Pi GPIO header pins and the \textbf{J6} 40 pin GPIO connector. 
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.55\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/rpi_power".jpg}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.35\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/rpi_gpio".PNG}
+  \end{minipage}
+  \caption{RPi Install}
+  \label{rpi_install}
+\end{figure}
+
+
+\end{enumerate}
+
+\subsection{Arduino Sheild Testing}
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+    \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+        \hline
+        \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
+        Arduino Sheild & E2 & 1 & \partimg{../img/components/E2.PNG} & Arduino Uno & E24 & 1 & \partimg{../img/components/E24.PNG} \\ \hline
+	1x6 JST Cable & E26 & 1 & \partimg{../img/components/E26.PNG} & 16x32 LED Matrix & E37 & 1 & \partimg{../img/components/E37.PNG} \\ \hline
+    \end{tabular}
+\end{table}
+
+The testing of the arduino board is dependant on finishing the control board and having it tested fully. Slot the Arduino Uno onto the bottom of the Arduino sheild, matching the footprints.
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=.85\textwidth]{"img/Pictures/Assembly/arduino_mounted".jpg}
+  \caption{Arduino Sheild Mounted}
+\end{figure}
+
+
+\begin{enumerate}
+
+	\item Plug in the 1x6 JST cable \textbf{E26} into the Arduino sheild and the Control board. This cable will run 12V, 5V, GND, and two serial communication lines from the main rover to the Arduino sheild to run the screen in the head. This will rely on you having already tested the 5V and 12V regulators on the control board and verifying that they work correctly.
+
+	\item Using a Digital Multimeter probe the following test pads and verify their voltages:
+		\begin{itemize}
+			\item TP1 to TP6 should read +12V. This voltage powers the Arduino Uno board
+			\item TP5 to TP6 should read +5V. This voltage powers the LED Matrix and runs the LEDs on it
+
+			\item TP4 to TP2 should read +5V. This is the 5V converter on the Arduino board
+			\item TP3 to TP2 should read +3.3V. This is the 3.3V converter on the Arduino board
+				
+		\end{itemize}
+
+\end{enumerate}
+
+If all the above test points read the correct voltages then the Arduino Sheild board is working correctly. 
+
+\section{Flashing the Arduino Code}
+
+In this section we will be flashing the code that runs on the arduino to control the LED matrix in the head. The following steps should be performed on your laptop or development machine (not the raspberry pi)
+
+\begin{enumerate} 
+\item Install the Arduino IDE used for loading code onto the arduino:
+
+	\href{https://www.arduino.cc/en/Main/Software}{https://www.arduino.cc/en/Main/Software}
+
+\item Clone the code repo:
+	\begin{enumerate}
+	\item git clone https://github.com/nasa-jpl/osr-rover-code.git
+	\item git checkout osr-ROS
+	\item git pull
+	\end{enumerate}
+
+\item Build our custom library:
+	\begin{enumerate}
+	\item Select the downloaded Arduino folder and create a .ZIP file from it
+	\item Rename the Zip file to OsrScreen.zip
+	\end{enumerate}
+
+\item Load the sketch onto the Arduino
+	\begin{enumerate}
+	\item Unplug the Arduino sheild JST cable so the Arduino isn't powered by the control board
+	\item Connect the Arduino to your development machine with USB cable
+	\item Open Arduino IDE
+	\item Select Sketch - Include Library - Add .Zip Library 
+	\item Select the OsrScreen.zip folder created previously
+	\item Click the Upload button in the Sketch Window	
+	\end{enumerate}
+
+\item To load the example in the Arduino IDE: 
+	\begin{enumerate}
+	\item File - Examples - OsrScreen - OsrScreen 
+	\end{enumerate}
+
+\end{enumerate}
+
+
+
+
+
+\end{document}

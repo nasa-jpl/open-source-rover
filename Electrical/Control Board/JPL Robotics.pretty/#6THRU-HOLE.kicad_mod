@@ -1,9 +1,0 @@
-(module "#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E)
-  (fp_text reference REF** (at -5.588 3.81) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value "#6THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad "" np_thru_hole circle (at 0 0) (size 6.5 6.5) (drill 3.8) (layers *.Cu *.Mask))
-)
