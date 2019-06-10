@@ -1525,12 +1525,12 @@ $EndComp
 $Comp
 L Monolithic-Board-rescue:test_point-JPL_Robotics_Lib T2
 U 1 1 5C412E03
-P 6150 5950
-F 0 "T2" V 6200 5900 50  0000 L CNN
-F 1 "test_point" H 6300 6200 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6100 5900 50  0001 C CNN
-F 3 "" H 6100 5900 50  0001 C CNN
-	1    6150 5950
+P 6150 5900
+F 0 "T2" V 6200 5850 50  0000 L CNN
+F 1 "test_point" H 6300 6150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6100 5850 50  0001 C CNN
+F 3 "" H 6100 5850 50  0001 C CNN
+	1    6150 5900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2792,9 +2792,14 @@ Wire Notes Line style solid rgb(0, 0, 0)
 Wire Wire Line
 	13600 7250 14200 7250
 Wire Wire Line
-	5950 6100 6250 6100
+	5950 6100 6150 6100
 Wire Wire Line
 	5900 7300 6150 7300
 Wire Wire Line
 	14200 8150 14600 8150
+Wire Wire Line
+	6150 6050 6150 6100
+Connection ~ 6150 6100
+Wire Wire Line
+	6150 6100 6250 6100
 $EndSCHEMATC
