@@ -17,6 +17,7 @@
 \usepackage{float}
 \usepackage{fancyhdr}
 \usepackage{verbatim}
+\usepackage{comment}
 \pagestyle{fancy}
 \lfoot{\textbf{Open Source Rover Software Install}}
 \rfoot{Page \thepage}
@@ -78,25 +79,123 @@
 
 
 \section{Setting up the Raspberry Pi 3}
-In this section, we'll go over setting up the Raspberry Pi and how to set up all the code that will run the rover. We will also set up the bluetooth pairing from the android device.
-\subsection{Getting the Raspberry Pi online}
+In this section, we'll go over setting up the Raspberry Pi and setting up all the code that will run the rover. Our rover uses ROS (Robotic Operating System), which will be installed on the Raspbian operating system; we will set up both of these below.  We will also set up the bluetooth pairing from the android device.
 
-We recommend following the "Getting started with Raspberry Pi" tutorial at:
+\subsection{Getting the Raspberry Pi running}
+The first step is to install Raspbian on your Raspberry Pi. To install Raspbian,
+we recommend following the "Getting started with Raspberry Pi" tutorial at:
 
 \begin{enumerate}
 	\item[] \href{https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started}{https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started}
 \end{enumerate}
 
-Once you finish the above tutorial, you should be able to boot your Raspberry Pi and see a desktop.
+Once you finish the above tutorial, you should be able to boot your Raspberry Pi and see a desktop!
+
+\subsection{Installing ROS}
+Now that we have a clean installation of Raspbian, we need to install ROS.
+
+First, make sure you update all the packages on your pi:
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo apt-get update}
+	\item[] \colorbox{lightgray}{sudo apt-get upgrade}
+\end{itemize} 
+(The above commands may take a few minutes to run.)
+
+Next, we will install ROS (and specifically, the version called 'Kinetic').  To install ROS, follow the installation instructions at:
+\begin{enumerate}
+	\item[] \href{http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi}{http://wiki.ros.org/ROSberryPi/Installing\%20ROS\%20Kinetic\%20on\%20the\%20Raspberry\%20Pi}
+\end{enumerate}
+
+\subsection{Setting up serial communication}	
+
+In this project we will be using serial communication to talk to the motor controllers. Serial communication is a communication protocol that describes how bits of information are transferred between one device and another. You can find more information on serial communication at:
+\begin{itemize}
+	\item \href{https://learn.sparkfun.com/tutorials/serial-communication}{https://learn.sparkfun.com/tutorials/serial-communication}
+\end{itemize}
+
+\noindent Run the following commands on the Pi to setup/enable the serial communication for the RoboClaws:
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo raspi-config}
+\end{itemize}
+
+\noindent In the raspi-config menu, set the following options:
+\begin{itemize}
+	\item[-]  Interface Options $-> $ Serial 
+	\item[-] Would you like a login shell to be accessible over serial? $->$ No
+	\item[-] Would you like the serial port hardware to be enabled? $->$ Yes
+	\item[-] Would you like to reboot now? $->$ Yes
+\end{itemize} 
+\noindent Once the Pi reboots, open up a terminal again and look at the serial devices:
+\begin{itemize}
+	\item[] \colorbox{lightgray}{ls -l /dev/serial*}
+\end{itemize}
+Make sure that this shows serial0 -$>$ ttyS0 . If it does not, ensure that you have followed every step in this tutorial in order. Next, edit the /boot/cmdline.txt file:
+\begin{itemize}
+	\item [] \colorbox{lightgray}{sudo nano /boot/cmdline.txt}
+\end{itemize}
+
+\noindent Change \textbf{ONLY} the part with "console = ...." to read "console=tty1" and remove any other instance where it references console. The first bit of that line should look similar to the Figure \ref{console}: \footnote{It is okay if it does not exactly match what we show here; the important part is that the "console=tty1" flag matches.}
+
+\begin{figure}[H]
+ 	\centering
+	\includegraphics[width=1\textwidth]{"Pictures/console".PNG}
+ 	\caption{boot/cmdline.txt File}
+	\label{console}
+\end{figure}
+
+\noindent Below is a link to help with the above steps if you need additional help:
+\begin{itemize}
+	\item \href{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}. 
+\end{itemize}
+\noindent Once you've completed the above steps, reboot the Pi.
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo reboot}
+\end{itemize}
+
+
 
 \subsection{Downloading the Rover Code}
 On the Raspberry Pi, open up a terminal \textbf{(ctl + alt + t)} and then type the following commands\footnote{In this document, terminal commands will be \colorbox{lightgray}{highlighted}.}:
 
 \begin{itemize}
-	\item[] \colorbox{lightgray}{cd /home/pi}
-	\item[] \colorbox{lightgray}{git clone https://github.com/nasa-jpl/osr-rover-code osr}
+	\item[] Move to your home directory: \colorbox{lightgray}{cd /home/pi}
+	\item[] Clone the rover code repository: \colorbox{lightgray}{git clone https://github.com/nasa-jpl/osr-rover-code osr}
+	\item[] Move into the directory you just cloned: \colorbox{lightgray}{cd osr}
+	\item[] Check out the osr-ROS branch: \colorbox{lightgray}{git checkout osr-ROS}
+	\item[] Pull to make sure you have the latest code: \colorbox{lightgray}{git pull}
 \end{itemize}
 
+\subsection{Building the Rover Code to work with your ROS installation}
+Now, you must build the rover code packages so that ROS can run them on your Raspberry Pi.  To do this, run the following commands in a terminal:
+
+\begin{itemize}
+	\item[] Move to the directory containing the main OSR logic: \colorbox{lightgray}{cd /home/pi/osr/ROS}
+	\item[] Create a catkin workspace directory: (read more \href{http://wiki.ros.org/catkin/Tutorials/create_a_workspace}{here}): \colorbox{lightgray}{mkdir /home/pi/catkin\_ws}
+	\item[] Copy the source files to your catkin workspace: \colorbox{lightgray}{mv led\_screen/ osr/ osr\_bringup/ osr\_msgs/ src}
+	\item[] Move to your catkin workspace: \colorbox{lightgray}{cd /home/pi/catkin\_ws}
+	\item[] Run a "catkin make" of the OSR workspace: \colorbox{lightgray}{catkin\_make}
+\end{itemize}
+
+\noindent If your catkin make command succeeded, you should now see new build/ and devel/ directories in /home/pi/catkin\_ws.
+
+\subsection{Running the Rover Code Manually}
+At this point, all the code should be ready to run on your rover!  You can start the rover code by running the following commands in a terminal:
+\begin{itemize}
+	\item[] Move to your built catkin workspace: \colorbox{lightgray}{cd /home/pi/catkin\_ws/}
+	\item[] Run the roslaunch command (read more about roslaunch at http://wiki.ros.org/roslaunch): \colorbox{lightgray}{roslaunch src/osr\_bringup/launch/osr.launch}
+\end{itemize}
+
+\noindent You should now see the rover trying to launch all its ros "nodes", which are the various parts of the robot that all communicate to each other.  Figure \ref{ros architecture} more information about the ROS ecosystem on this rover:
+\begin{figure}[H]
+	\centering
+   \includegraphics[width=.7\textwidth]{"Pictures/ROS_architecture".PNG}
+	\caption{OSR ROS Architecture}
+   \label{ros architecture}
+\end{figure}
+
+You can read more details about the software / ROS architecture in the README document in the osr-rover-code repository at \href{https://github.com/nasa-jpl/osr-rover-code/tree/osr-ROS}{https://github.com/nasa-jpl/osr-rover-code/tree/osr-ROS}.
+
+\begin{comment}
 \subsubsection{Installing packages}
 Run each of the commands below to install the packages you will need to use Bluetooth communication on the Raspberry Pi. Open up a terminal on the Raspberry Pi  and type the following commands:
 \begin{itemize}
@@ -287,53 +386,6 @@ The command line arguments that the main.py script accepts are the following:
 
 If you wish to run your rover without the LED screen, delete line 20 and 21 from /etc/rc.local (those lines start the screen.py script) and remove the -s flag from the line that starts the main.py script.
 
-\subsection{Setting up serial communication}	
-
-In this project we will be using serial communication to talk to the motor controllers. Serial communication is a communication protocol that describes how bits of information are transferred between one device and another. You can find more information on serial communication at:
-\begin{itemize}
-	\item \href{https://learn.sparkfun.com/tutorials/serial-communication}{https://learn.sparkfun.com/tutorials/serial-communication}
-\end{itemize}
-
-\noindent Run the following commands on the Pi to setup/enable the serial communication for the RoboClaws:
-\begin{itemize}
-	\item[] \colorbox{lightgray}{sudo raspi-config}
-\end{itemize}
-
-\noindent In the raspi-config menu, set the following options:
-\begin{itemize}
-	\item[-]  Interface Options $-> $ Serial 
-	\item[-] Would you like a login shell to be accessible over serial? $->$ No
-	\item[-] Would you like the serial port hardware to be enabled? $->$ Yes
-	\item[-] Would you like to reboot now? $->$ Yes
-\end{itemize} 
-\noindent Once the Pi reboots, open up a terminal again and look at the serial devices:
-\begin{itemize}
-	\item[] \colorbox{lightgray}{ls -l /dev/serial*}
-\end{itemize}
-Make sure that this shows serial0 -$>$ ttyS0 . If it does not, ensure that you have followed every step in this tutorial in order. Next, edit the /boot/cmdline.txt file:
-\begin{itemize}
-	\item [] \colorbox{lightgray}{sudo nano /boot/cmdline.txt}
-\end{itemize}
-
-\noindent Change \textbf{ONLY} the part with "console = ...." to read "console=tty1" and remove any other instance where it references console. The first bit of that line should look similar to the Figure \ref{console}: \footnote{It is okay if it does not exactly match what we show here; the important part is that the "console=tty1" flag matches.}
-
-\begin{figure}[H]
- 	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/console".PNG}
- 	\caption{boot/cmdline.txt File}
-	\label{console}
-\end{figure}
-
-\noindent Below is a link to help with the above steps if you need additional help:
-\begin{itemize}
-	\item \href{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}. 
-\end{itemize}
-\noindent Once you've completed the above steps, reboot the Pi.
-\begin{itemize}
-	\item[] \colorbox{lightgray}{sudo reboot}
-\end{itemize}
-
-
 \section{Test files}
 There are a few files that will help you test the robot before trying to fully drive it. Having all these tests working does not fully guarantee everything on the rover will work, but they should help with the testing and debugging process.
 
@@ -355,4 +407,6 @@ Then, run the script from a terminal:
 \end{itemize}
 
 If the serial communication is working properly, this script will let you know that it successfully read data over the serial pins. If it does not, verify that you have followed all the steps in this document to get serial communication working, and that you are connecting GPIO pins 14 and 15 together. 
+\end{comment}
+
 \end{document}
