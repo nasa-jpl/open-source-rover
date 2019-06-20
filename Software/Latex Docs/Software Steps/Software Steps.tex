@@ -170,8 +170,9 @@ Now, you must build the rover code packages so that ROS can run them on your Ras
 
 \begin{itemize}
 	\item[] Move to the directory containing the main OSR logic: \colorbox{lightgray}{cd /home/pi/osr/ROS}
-	\item[] Create a catkin workspace directory: (read more \href{http://wiki.ros.org/catkin/Tutorials/create_a_workspace}{here}): \colorbox{lightgray}{mkdir /home/pi/catkin\_ws}
-	\item[] Copy the source files to your catkin workspace: \colorbox{lightgray}{mv led\_screen/ osr/ osr\_bringup/ osr\_msgs/ src}
+	\item[] Create a catkin workspace directory: \colorbox{lightgray}{mkdir -p /home/pi/catkin\_ws/src}
+	\item[] Copy the source files to your catkin workspace:
+	\item[] \colorbox{lightgray}{mv led\_screen/ osr/ osr\_bringup/ osr\_msgs/ /home/pi/catkin\_ws/src}
 	\item[] Move to your catkin workspace: \colorbox{lightgray}{cd /home/pi/catkin\_ws}
 	\item[] Run a "catkin make" of the OSR workspace: \colorbox{lightgray}{catkin\_make}
 \end{itemize}
