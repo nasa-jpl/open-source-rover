@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Gerbers/Monolithic Board/REV D/"))
+      (outputdirectory "Gerbers/REV D/"))
   )
 
   (net 0 "")
@@ -5737,7 +5737,7 @@
   (segment (start 120.65 -114.3) (end 129.3114 -114.3) (width 0.25) (layer F.Cu) (net 180))
   (segment (start 144.78 -153.252) (end 144.78 -153.39) (width 0.25) (layer B.Cu) (net 185))
 
-  (zone (net 26) (net_name +BATT) (layer F.Cu) (tstamp 5CA24425) (hatch edge 0.508)
+  (zone (net 26) (net_name +BATT) (layer F.Cu) (tstamp 5CAF8002) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -7136,7 +7136,7 @@
       )
     )
   )
-  (zone (net 18) (net_name GND) (layer B.Cu) (tstamp 5CA24422) (hatch edge 0.508)
+  (zone (net 18) (net_name GND) (layer B.Cu) (tstamp 5CAF7FFF) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
