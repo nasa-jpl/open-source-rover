@@ -5,13 +5,8 @@
     (drawings 164)
     (tracks 1746)
     (zones 0)
-<<<<<<< HEAD
-    (modules 89)
-    (nets 194)
-=======
     (modules 90)
     (nets 195)
->>>>>>> d2a88c6ef5344f7f9ed1ab3e1b2aa4567ab06e74
   )
 
   (page A4)
@@ -5893,20 +5888,11 @@
   (segment (start 129.3114 -114.3) (end 130.5941 -113.0173) (width 0.25) (layer F.Cu) (net 180))
   (segment (start 120.65 -114.3) (end 129.3114 -114.3) (width 0.25) (layer F.Cu) (net 180))
   (segment (start 144.78 -153.252) (end 144.78 -153.39) (width 0.25) (layer B.Cu) (net 185))
-<<<<<<< HEAD
-  (via (at 82.2706 -151.3078) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 18))
-  (segment (start 82.836285 -151.3078) (end 85.1281 -151.3078) (width 0.25) (layer F.Cu) (net 18))
-  (segment (start 82.2706 -151.3078) (end 82.836285 -151.3078) (width 0.25) (layer F.Cu) (net 18))
-  (via (at 123.698 -36.8935) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 193))
-  (segment (start 121.3485 -37.973) (end 122.6185 -37.973) (width 0.25) (layer F.Cu) (net 193))
-  (segment (start 122.6185 -37.973) (end 123.698 -36.8935) (width 0.25) (layer F.Cu) (net 193))
-=======
   (via (at 82.2706 -151.3078) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 193))
   (segment (start 85.1281 -151.3078) (end 82.2706 -151.3078) (width 0.25) (layer F.Cu) (net 193))
   (via (at 123.698 -36.8935) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 194))
   (segment (start 121.3485 -37.973) (end 122.6185 -37.973) (width 0.25) (layer F.Cu) (net 194))
   (segment (start 122.6185 -37.973) (end 123.698 -36.8935) (width 0.25) (layer F.Cu) (net 194))
->>>>>>> d2a88c6ef5344f7f9ed1ab3e1b2aa4567ab06e74
 
   (zone (net 26) (net_name +BATT) (layer F.Cu) (tstamp 5CAF8002) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
