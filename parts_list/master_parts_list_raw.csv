@@ -42,7 +42,7 @@ Blue Wire 30AWG,E35,1528-1734-ND,Digikey,https://www.digikey.com/products/en?key
 Yellow Wire 30AWG,E36,1528-1735-ND,Digikey,https://www.digikey.com/products/en?keywords=1528-1735-ND,1,1,1,$4.95 ,$4.95,Electrical Build
 Green Wire 30AWG,E37,1528-1736-ND,Digikey,https://www.digikey.com/products/en?keywords=1528-1736-ND,1,1,1,$4.95 ,$4.95,Electrical Build
 5V Buck Boost Regulator,E4,,Pololu,https://www.pololu.com/product/2851,1,2,2,$14.95 ,$29.90,"Body, Electrical Build"
-Gear Motor w Relative Enc. (Drive Motor),E5,"172:1 gear ratio, with relative encoder",Pololu,https://www.pololu.com/product/3268,1,6,6,$34.95 ,$209.70,Wheel Assembly
+Gear Motor w Relative Enc. (Drive Motor),E5,"172:1 gear ratio, with relative encoder",Pololu,https://www.pololu.com/product/4888,1,6,6,$34.95 ,$209.70,Wheel Assembly
 Gear Motor (Corner Motor),E6,"45 RPM HD Premium Planetary Gear Motor, NO relative encoder",ServoCity,https://www.servocity.com/45-rpm-hd-premium-planetary-gear-motor,1,4,4,$39.99 ,$159.96,Corner Steering
 Absolute Encoder,E7,"1/8 inch, 10 Bit Analog, Sleeve Bushing (N)",US Digital,https://www.usdigital.com/products/encoders/absolute/rotary/shaft/MA3,1,4,4,$55.50 ,$222.00,Corner Steering
 LED Array,E8,,Adafruit,https://www.adafruit.com/product/420,1,1,1,$24.95 ,$24.95,Head Assembly
@@ -101,12 +101,12 @@ Xbox Controller,,,Amazon,https://www.amazon.com/FiveStar-Wireless-Controller-Mic
 Voltage Divider Board,,,Osh Park,https://oshpark.com/,1,1,1,$20.20 ,$20.20,
 Serial Splitter Board,,,Osh Park,https://oshpark.com/,1,1,1,$19.65 ,$19.65,
 Logic Shifter Board,,,Osh Park,https://oshpark.com/,1,1,1,$43.80 ,$43.80,
-Allen Key Set,D2,,,,,1,,,,"Rocker-Bogie, Head Assembly, Body, Wheel Assembly, Differential Pivot, Mechanical Integration, Corner Steering"
-5/16 Wrench,D1,,,,,1,,,,"Rocker-Bogie, Head Assembly, Body, Wheel Assembly, Differential Pivot, Mechanical Integration"
+Allen Key Set,D2,,,,,1,,,,"Mechanical Integration, Rocker-Bogie, Wheel Assembly, Corner Steering, Body, Differential Pivot, Head Assembly"
+5/16 Wrench,D1,,,,,1,,,,"Mechanical Integration, Rocker-Bogie, Wheel Assembly, Body, Differential Pivot, Head Assembly"
 Center punch or Starter drill bit,D7,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Hand Drill or Drill Press,D3,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Drill bit \#23,D6,,,,,1,,,,"Wheel Assembly, Differential Pivot"
-Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Rocker-Bogie, Wheel Assembly, Differential Pivot, Head Assembly"
+Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Wheel Assembly, Differential Pivot, Head Assembly, Rocker-Bogie"
 Vice clamp or C Clamps,D5,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Vice or V-Clamp,D8,,,,,1,,,,"Differential Pivot, Head Assembly"
 Digital Multimeter,D9,,,,,1,,,,PCB Testing
