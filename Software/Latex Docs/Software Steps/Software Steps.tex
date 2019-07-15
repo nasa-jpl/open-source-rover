@@ -11,6 +11,7 @@
 \usepackage{framed}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{xcolor}
+\usepackage[most]{tcolorbox}
 \usepackage{listings}
 \usepackage{color}
 \usepackage{wrapfig}
@@ -49,6 +50,8 @@
   breakatwhitespace=true,
   tabsize=4
 }
+
+\tcbset{width=0.9\textwidth,boxrule=0pt,colback=gray,arc=0pt,auto outer arc,left=0pt,right=0pt,boxsep=5pt}
 
 \begin{document}
 
@@ -169,21 +172,38 @@ On the Raspberry Pi, open up a terminal \textbf{(ctl + alt + t)} and then type t
 Now, you must build the rover code packages so that ROS can run them on your Raspberry Pi.  To do this, run the following commands in a terminal:
 
 \begin{itemize}
+	\item[] Create a catkin workspace directory and move into it:
+	\item[] \colorbox{lightgray}{mkdir -p /home/pi/osr\_ws/src \&\& cd /home/pi/osr\_ws}
+	\item[] Build a basic, empty catkin project: \colorbox{lightgray}{catkin\_make}
 	\item[] Move to the directory containing the main OSR logic: \colorbox{lightgray}{cd /home/pi/osr/ROS}
-	\item[] Create a catkin workspace directory: \colorbox{lightgray}{mkdir -p /home/pi/catkin\_ws/src}
-	\item[] Copy the source files to your catkin workspace:
-	\item[] \colorbox{lightgray}{mv led\_screen/ osr/ osr\_bringup/ osr\_msgs/ /home/pi/catkin\_ws/src}
-	\item[] Move to your catkin workspace: \colorbox{lightgray}{cd /home/pi/catkin\_ws}
-	\item[] Run a "catkin make" of the OSR workspace: \colorbox{lightgray}{catkin\_make}
+	\item[] Copy the OSR source files to the catkin workspace:
+	\item[] \colorbox{lightgray}{mv led\_screen/ osr/ osr\_bringup/ osr\_msgs/ /home/pi/osr\_ws/src}
+	\item[] Move back to your catkin workspace: \colorbox{lightgray}{cd /home/pi/osr\_ws}
+	\item[] Build the sensor\_msgs ROS package:
+	\item[] \colorbox{lightgray}{\parbox{0.9\textwidth}{rosinstall\_generator sensor\_msgs --rosdistro kinetic --deps --wet-only --tar \textgreater kinetic-sensor\_msgs-wet.rosinstall}}
+	\item[] \colorbox{lightgray}{wstool init src kinetic-sensor\_msgs-wet.rosinstall}
+	\item[] Run a "catkin make" of the OSR workspace (this will take some time): \colorbox{lightgray}{catkin\_make}
 \end{itemize}
 
-\noindent If your catkin make command succeeded, you should now see new build/ and devel/ directories in /home/pi/catkin\_ws.
+\noindent If your catkin make command succeeded, you should now see new build/ and devel/ directories in /home/pi/osr\_ws.
+
+\begin{itemize}
+	\item[] Source your newly created ROS environment: 
+	\item[] \colorbox{lightgray}{source /opt/ros/kinetic/setup.bash}
+	\item[] \colorbox{lightgray}{source /home/pi/osr\_ws/devel/setup.bash}
+	\item[] \colorbox{lightgray}{source /home/pi/osr\_ws/devel/setup.sh}
+\end{itemize}
+
+\noindent Use nano (or your editor of choice) to add the above three 'source' commands to the end of your ~/.bashrc file, each on its own line.  This will allow you to re-launch the OSR code without needing to source the OSR ROS environment each time:
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo nano ~/.bashrc}
+\end{itemize}
 
 \subsection{Running the Rover Code Manually}
 At this point, all the code should be ready to run on your rover!  You can start the rover code by running the following commands in a terminal:
 \begin{itemize}
-	\item[] Move to your built catkin workspace: \colorbox{lightgray}{cd /home/pi/catkin\_ws/}
-	\item[] Run the roslaunch command (read more about roslaunch at http://wiki.ros.org/roslaunch): \colorbox{lightgray}{roslaunch src/osr\_bringup/launch/osr.launch}
+	\item[] Move to your built catkin workspace: \colorbox{lightgray}{cd /home/pi/osr\_ws/}
+	\item[] Run the roslaunch command (read more about roslaunch at http://wiki.ros.org/roslaunch): \colorbox{lightgray}{roslaunch osr\_bringup osr.launch}
 \end{itemize}
 
 \noindent You should now see the rover trying to launch all its ros "nodes", which are the various parts of the robot that all communicate to each other.  Figure \ref{ros architecture} more information about the ROS ecosystem on this rover:
