@@ -210,7 +210,6 @@ There are a couple of \textbf{very important} things to be aware of as you are m
 	\end{tabular}
 \end{table}
 
-\textcolor{red}{FIX PART REFERENCE NUMBERS HERE}
 
 \noindent Using the Tamiya connectors, connect the battery to the switch and then the volt meter according to Figure \ref{battery_wiring}. The Tamiya connectors allow you to disconnect the battery from the rest of the system so you can recharge the battery. 
 
@@ -222,6 +221,35 @@ There are a couple of \textbf{very important} things to be aware of as you are m
 	\label{battery_wiring}
 \end{figure}
 
+\section{Connecting Data Cables}
+
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			Rectangular 6P 1x6 Jumper Cable  & E26 & 1 & \partimg{../../../images/components/Electronics/E26.png} & USB Power Cable & E28 & 1 & \partimg{../../../images/components/Electronics/E28.png} \\ \hline
+			Rectangular 40P 2x20 Ribbon Cable & E29 & 1 & \partimg{../../../images/components/Electronics/E29.png} & Rectangular 16P Ribbon Cable & E30 & 1 & \partimg{../../../images/components/Electronics/E39.png} \\ \hline
+			USB to TTL Serial Adapter & E 48 & 1 & \partimg{../../../images/components/Electronics/E48.png} & & & & \\ \hline
+	\end{tabular}
+\end{table}
+
+We will next plug in all the cables that allow devices to communicate to each other. 
+
+\begin{enumerate}
+	\item Connect the \textbf{E26} cable from the J10 Connector on the Control Board to the J5 Connector on the Arduino Sheild
+	\item Connect the \textbf{E28} Usb cable from J12 on the Control Board to the Micro USB port on the Raspberry Pi
+	\item Connect the \textbf{E29} 40 Position ribbon Cable from the GPIO pins on the Raspberry Pi to the J6 Connector on the Control Board
+	\item Connect the \textbf{E30} 16 Position ribbon cable from the J1 Connector to the INPUT Connector on the LED Matrix
+	\item Connect the \textbf{E48} TTL serial to USB cable from any USB port on the Raspberry Pi to the 6 Position headers at J11
+\end{enumerate}
+
+\textcolor{red}{EACH OF THESE NEEDS PICTURES ASSOCIATED}
 
 \section{Connecting Motors/Encoders}
 
