@@ -66,6 +66,60 @@
 \newpage
 
 \section{PCB Assembly}
+This document goes through the process of assembling and testing the custom Printed Circuit Boards for the project. One thing you might notice is the boards have reference designators on them that do not match the reference designators used in the parts lists. The board components mapping between these can be found below:
+
+\bigskip 
+\begin{frame}{}
+  \centering \Huge
+  \textbf{Control Board References}
+\end{frame}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{| l | l | l | }
+		\hline 
+		\textbf{Component} & \textbf{Parts list Ref} & \textbf{Schematic Ref} \\ \hline
+		Terminal block 6 pos top entry  & E4 & J1-5 \\ \hline
+		Terminal block 6 pos side entry & E3 & J17-26 \\ \hline
+		Term block 2p side entry (5.08mm) & E12 & J13,15,16 \\ \hline
+		Connector Header pin 40P 40x1 & E15 & J8,9,11 \\ \hline
+		Connector Header pin 6P 6x1 & E14 & J10 \\ \hline
+		Connector Header socket 5P 5x1 & E6 & RC1-5 \\ \hline
+		Connector Header socket 40P 2x20 & E13 & J6,7 \\ \hline
+		Connector Header socket 20 2x10 & E5 & RC1-5 \\ \hline
+		Capacitor 100nF & E11 & C1-17 \\ \hline
+		Resistor 4.7K 1/4 Watt  & E7 & R1 \\ \hline
+		Resistor 10K 1/4 Watt & E8 & R4,6,8,10 \\ \hline
+		Resistor 22K 1/4 Watt & E9 & R3,5,7,9 \\ \hline
+		Resistor 10K 1/2 Watt & E10 & R2 \\ \hline
+		LM358 Op Amp & E25 & U1,2 \\ \hline
+		DIP IC socket 8 Pos & E33 & U1,2 \\ \hline
+		Power Diode & E17 & D1 \\ \hline
+		10A Fuse & E16 & F1 \\ \hline
+		USB A Connector & E34 & J12,14 \\ \hline
+
+	\end{tabular}
+\end{table}
+
+\bigskip 
+\begin{frame}{}
+  \centering \Huge
+  \textbf{Arduino Board References}
+\end{frame}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{| l | l | l | }
+		\hline 
+		\textbf{Component} & \textbf{Parts list Ref} & \textbf{Schematic Ref} \\ \hline
+		Term block 2P side entry & E16 & J6 \\ \hline
+		Connector Header pin 40P 40x1 & E15 & J2,3,4 \\ \hline
+		Connecor Header 16P 2x8 & E30 & J1 \\ \hline
+		Connecor Header 6P 6x1 & E14 & J5 \\ \hline 
+
+	\end{tabular}
+\end{table}
+
 
 \subsection{Control Board Assembly}
 
@@ -427,9 +481,9 @@
     \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
         \hline
         \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\ \hline
-        \#6-32 Threaded Standoff & T4 & 4 & \partimg{../../../images/components/Standoffs/T4.png} & \#4-40 Threaded Standoff & T5 & 20 & \partimg{../../../images/components/Standoffs/T5.png} \\ \hline
-        \#2-56 Threaded Standoff & T6 & 4 & \partimg{../../../images/components/Standoffs/T6.png} & M2.5 Threaded Standoff & T7 & 4 & \partimg{../../../images/components/Standoffs/T7.png} \\ \hline
-        \#6-32 3/8" Button Head Screw & B2 & 4 & \partimg{../../../images/components/Screws/B2.png} & \#4-40 1/4" Button head Screw & B8 & 40 & \partimg{../../../images/components/Screws/B8.png} \\ \hline
+        \#6-32 x 3/4" Threaded Standoff & T3 & 4 & \partimg{../../../images/components/Standoffs/T3.png} & \#4-40 x 1/2 " Threaded Standoff & T11 & 20 & \partimg{../../../images/components/Standoffs/T11.png} \\ \hline
+        \#2-56 Threaded Standoff & T6 & 4 & \partimg{../../../images/components/Standoffs/T6.png} & M2.5 x 10mm Threaded Standoff & T10 & 4 & \partimg{../../../images/components/Standoffs/T11.png} \\ \hline
+        \#6-32 3/8" Button Head Screw & B2 & 8 & \partimg{../../../images/components/Screws/B2.png} & \#4-40 1/4" Button head Screw & B8 & 40 & \partimg{../../../images/components/Screws/B8.png} \\ \hline
         \#2-56 1/4" Button head Screw & B13 & 8 & \partimg{../../../images/components/Screws/B13.png} & M2.5 x 6mm & B10 & 8 & \partimg{../../../images/components/Screws/B10.png} \\ \hline
     \end{tabular}
 \end{table}
