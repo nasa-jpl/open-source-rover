@@ -573,7 +573,7 @@ Now, we will assemble the Arduino shield that will sit in the rover's head and c
 
 \begin{enumerate}
 
-	\item Begin by taking the 2-position terminal block \textbf{E18} and soldering it to top of the board at the J6 connector, such that the screw terminals face outwards as shown in Figure \ref{assembled_arduino_sheild_top}. 
+	\item Begin by taking the 2-position terminal block \textbf{E18} and soldering it to top of the board at the J6 connector, such that the screw terminals face outwards as shown in Figure \ref{assembled_arduino_sheild_top}:
 
 
 \begin{figure}[H]
@@ -583,7 +583,7 @@ Now, we will assemble the Arduino shield that will sit in the rover's head and c
 \end{figure}
 
 
-	\item Solder the 1x6 JST connector \textbf{E14} onto the top of the board at the J5 connector, such that the notch in the connector faces outwards as shown in Figure \ref{assembled_arduino_sheild_top}.
+	\item Solder the 1x6 JST connector \textbf{E14} onto the top of the board at the J5 connector such that the notch in the connector faces \textbf{OUTWARDS} as shown in Figure \ref{assembled_arduino_sheild_top}:
 
 \begin{figure}[H]
 	\centering
@@ -591,7 +591,7 @@ Now, we will assemble the Arduino shield that will sit in the rover's head and c
 	\caption{JST assembly}
 \end{figure}
 
-	\item Solder the 2x8 shrouded header pin connector \textbf{E19} to the top of the board at connector J1 such that the notch faces outwards as shown in Figure \ref{assembled_arduino_sheild_top}.
+	\item Solder the 2x8 shrouded header pin connector \textbf{E19} to the top of the board at connector J1 such that the notch faces \textbf{OUTWARDS} as shown in Figure \ref{assembled_arduino_sheild_top}.
 
 \begin{figure}[H]
 	\centering
@@ -599,7 +599,7 @@ Now, we will assemble the Arduino shield that will sit in the rover's head and c
 	\caption{Terminal Block assembly}
 \end{figure}
 
-	\item Solder the 0.1 pitch header pins \textbf{E15} to connectors J2-4 on the top side of the board. 
+	\item Solder the 0.1 pitch header pins \textbf{E15} to connectors J2-4 on the top side of the board:
 
 \begin{figure}[H]
 	\centering
@@ -609,6 +609,14 @@ Now, we will assemble the Arduino shield that will sit in the rover's head and c
 
 Flip the Arduino board over to the \textbf{BOTTOM} side where we will now install the remaining headers. The final product is shown in Figure \ref{assembled_arduino_sheild_bottom}.
 
+	\item Solder the 0.1 pitch header pins \textbf{E15} to the bottom side of the board in the remaining hole sets.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{"img/01_pitch_under".png}
+	\caption{0.1 Pitch headers}
+\end{figure}
+
 \begin{figure}[H]
   \centering
   \begin{minipage}[b]{0.75\textwidth}
@@ -616,14 +624,6 @@ Flip the Arduino board over to the \textbf{BOTTOM} side where we will now instal
   \end{minipage}
   \caption{Assembled Arduino Sheild}
   \label{assembled_arduino_sheild_bottom}
-\end{figure}
-
-	\item Solder the 0.1 pitch header pins \textbf{E15} to the bottom side of the board in the remaining hole sets.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.75\textwidth]{"img/01_pitch_under".png}
-	\caption{0.1 Pitch headers}
 \end{figure}
 
 \end{enumerate}
@@ -679,7 +679,7 @@ This next section will go over the process of integrating the electronics onto t
   \label{test_pads_1}
 \end{figure}
 
-\item Next, you will need to create jumper wires that will connect the RoboClaw motor controller power terminals to the RoboClaws. \textbf{Unplug the Tamiya battery connector before plugging in or unplugging any components, or before inserting components!!!}  (in future steps, we will not explicity say to unplug the battery, but \textbf{you should disconnect the battery at each step while inserting components and working on the board!}). Take the red and black 24 AWG wires \textbf{W1 and W2} and cut 15 2-inch long segments of each color (you should have 15 red and 15 black pieces). Using wire strippers, strip the ends about 0.1 inches at each end. Insert these jumper wires into the terminal blocks on the RoboClaw Motor Controllers \textbf{E20} in the following way:
+\item Next, you will need to create jumper wires that will connect the RoboClaw motor controller power terminals to the RoboClaws. \textbf{Unplug the Tamiya battery connector before plugging in or unplugging ANY components, or before inserting components!!!}  (in future steps, we will not explicity say to unplug the battery, but \textbf{you should disconnect the battery at each step BEFORE inserting components or working on the board!}). Take the red and black 24 AWG wires \textbf{W1 and W2} and cut 15 2-inch long segments of each color (you should have 15 red and 15 black pieces). Using wire strippers, strip the ends about 0.1 inches at each end. Insert these jumper wires into the terminal blocks on the RoboClaw Motor Controllers \textbf{E20} in the following way:
 
 \begin{table}[H]
     \centering
@@ -699,32 +699,33 @@ This next section will go over the process of integrating the electronics onto t
 	\end{tabular}
 \end{table}
 
-\item Starting by inserting one of the Roboclaws into the slot on the bottom of the board labeled ROBOCLAW 2. Connect the wires directly accross to from RoboClaw motor terminal block to the terminal block on the control board. 
+\item Start by inserting one of the RoboClaws into the slot on the bottom of the board labeled ROBOCLAW 2. Connect the wires directly across from RoboClaw motor terminal block to the terminal block on the control board as shown in Figure \ref{roboclaw_power_wires}. 
 
 \begin{figure}[H]
   \centering
-  \begin{minipage}[b]{0.55\textwidth}
-    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/rc_wires".jpg}
-  \end{minipage}
-  \hfill
   \begin{minipage}[b]{0.40\textwidth}
     \includegraphics[width=\textwidth]{"img/Pictures/Assembly/rc_wires_2".jpg}
   \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.55\textwidth}
+    \includegraphics[width=\textwidth]{"img/Pictures/Assembly/rc_wires".jpg}
+  \end{minipage}
+  \label{roboclaw_power_wires}
   \caption{RoboClaw power/motor wires}
 \end{figure}
 
 
-\item Plug in the battery. an LED on the RoboClaw will turn on, verify that it is green. If it is red it means there is an error. Error codes can be traced by looking at the roboclaw user manual:
+\item Plug in the battery. An LED on the RoboClaw will turn on; verify that it is green. If the LED is red, it means there is an error. Error codes can be traced by looking at the RoboClaw user manual:
 
 \begin{itemize}
 	\item \href{https://www.basicmicro.com/downloads}{https://www.basicmicro.com/downloads}
 \end{itemize}
 
-\item Repeat this process one RoboClaw at a time until all 5 RoboClaws have been plugged into the board, following the order of 2, 3, 4, 1, 5
+\item Repeat this process one RoboClaw at a time \textbf{following the order of 2, 3, 4, 1, 5} (testing each RoboClaw after you plug it in) until all 5 RoboClaws have been plugged into the board.
 
-\item Take the two voltage regulators \textbf{E23 and 24} and solder on their header pins, on the top side of the board (the side with large capacitors on it). 
+\item Take the two voltage regulators \textbf{E23 and 24} and solder their header pins to the bottom side of the board.  Note that you will be soldering the back side of the pins on the top side of the board (the side with large capacitors on it). 
 
-\item Insert the 5V regulator into the control board. Then test from Testpoint T4 to T2 and verify that it reads 5V. If it does not make sure the 5V regulator is slotted in properly.
+\item Insert the 5V regulator into the control board as shown in Figure \ref{test_5}. Power your board and probe between test points T4 and T2 on the top of the board (Figure \ref{test_5}) with your DMM and verify that it reads 5V. If it does not, make sure that the 5V regulator is slotted in properly and that your solder connections are solid.
 
 \begin{figure}[H]
   \centering
@@ -735,11 +736,11 @@ This next section will go over the process of integrating the electronics onto t
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_3".png}
   \end{minipage}
-  \caption{Test Step 5}
+  \caption{5V Regulator \& Test Pads}
   \label{test_5}
 \end{figure}
 
-\item Insert the 12V regulator into the control board. Then test from Testpoint T5 to T6 and verify that it reads 12V. If it does not make sure the 12V regulator is slotted in properly.
+\item Insert the 12V regulator into the control board. Power your board and probe between test point T5 and T6 on the top of the board with your DMM and verify that it reads 12V. If it does not, make sure the 12V regulator is slotted in properly and that your solder connections are solid.
 
 \begin{figure}[H]
   \centering
@@ -748,36 +749,24 @@ This next section will go over the process of integrating the electronics onto t
   \end{minipage}
   \hfill
   \begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{"img/Pictures/Testing/testing_9".png}
+    \includegraphics[width=\textwidth]{"img/Pictures/Testing/test_pads_t5_t6".jpg}
   \end{minipage}
-  \caption{Test Step 6}
+  \caption{12V Regulator \& Test Pads}
   \label{test_6}
 \end{figure}
 
-If all voltage test points read expected values and all the RoboClaw motor Controllers have green LEDs then the power systems has been verified and you are ready to move onto testing and setup of the motor controllers. 
+If all voltage test points read expected values and all the RoboClaw motor Controllers have green LEDs, the power system has been verified! 
 
 \end{enumerate}
 
 \subsection{Op-Amp Integration}
 
-\begin{enumerate}
-
-\item Press the Op-Amp LM358P \textbf{E25} into the slots in the 8 Position DIP socket. Take careful note of the direction of the chip in the DIP socket, as the notch MUST face the correct direction.
-
+Press the Op-Amp LM358P \textbf{E25} into the slots in the 8 Position DIP socket. Take careful note of the direction of the chip in the DIP socket, as the notch \textbf{MUST} face the correct direction.
 
 \begin{figure}[H]
   \centering
     \includegraphics[width=.85\textwidth]{"img/Pictures/Assembly/op_amp".PNG}
   \caption{Op-amp integration}
-\end{figure}
-
-\end{enumerate}
-
-\begin{figure}[H]
-  \centering
-    \includegraphics[width=.85\textwidth]{"img/Pictures/Testing/testing_3".PNG}
-  \caption{Test pads}
-  \label{test_pads_1}
 \end{figure}
 
 
@@ -790,11 +779,13 @@ In this section you will be going one by and and testing the operation of the Ro
 \end{itemize}
 
 
-\noindent To use the GUI insert a USB to micro USB cable from your computer to the motor controller you are going to be testing. For this step in the testing procedure we found it easiest to test using a set of male-male jumper wires, connected between the motor terminal being tested and the motor. Any way you wish to connect the wires from the terminal block to the motor wires is fine though.
+\noindent To use the GUI, insert a USB to micro USB cable from your computer to the motor controller you are going to be testing.
+
+\noindent You must now make a temporary connection between the motor controllers and your motors.  We found it easiest to test using a set of male-male jumper wires connected between the motor terminal being tested and a test motor.
 
 \subsubsection{Drive Motor Blocks}
 
-\noindent Do the following procedure for the terminal blocks labeled J17-22, these correspond to the driving motors for the rover. Make sure that while you are plugging in connections your board is powered off.  The terminal blocks correspond to the motor controlelrs/outputs in the following manner:
+\noindent Do each of the steps below for the terminal blocks labeled J17-22; these terminal blocks correspond to the driving motors for the rover. \textbf{Make sure that while you are plugging in connections, your board is powered off!}  The terminal blocks correspond to the motor controller outputs in the following manner:
 
 \begin{table}[H]
     \centering
@@ -816,7 +807,7 @@ In this section you will be going one by and and testing the operation of the Ro
 
 \begin{enumerate}
 
-\item Connect the wires in the following manner
+\item First, connect the wires in the following manner:
 
 \begin{table}[H]
     \centering
@@ -836,19 +827,19 @@ In this section you will be going one by and and testing the operation of the Ro
 	\end{tabular}
 \end{table}
 
-\item Power on the board, after a minute in the Basic Motion GUI you should see an available device appear. It might require an update to proceed, have it install the latest firmware update and then connect to the device.
+\item Power on the board. After a minute or so, in the Basic Motion GUI you should see an available device appear. It might require an update to proceed; install the latest firmware update and then connect to the device.
 
-\item Click on the PWM tab. We will use this to send a PWM signal to the motor and test that connections are all made correctly to the motor/encoder. 
+\item Click on the PWM tab. We will now send a PWM signal to the motor and test that connections are all made correctly to the motor and encoder. 
 
-\item Slowly move the slide bar for the corresponding motor output channel (Either M1 or M2 from the above table) for the terminal you are testing. Verify that the motor spins (we will worry about direction later), and that the encoder value is also changing (we'll worry about it increasing or decreasing correctly later as well). Switch direction of the slide bar and verify that it spins the other direction and the encoder value does the opposite of previous as well. If these are not happening then go back and check that you are using the correct Motor controller, terminal block etc. If all that is correct you will have to begin testing solder contact between the componenets on the board itself.
+\item Slowly move the slide bar for the corresponding motor output channel (Either M1 or M2 from the above table) for the terminal you are testing. Verify that the motor spins (we will worry about direction later), and that the encoder value is also changing (we'll worry about it increasing or decreasing correctly later as well). Switch direction of the slide bar and verify that it spins the other direction and the encoder value does the opposite of previous as well. If these are not happening or are backwards, go back and check that you are using the correct motor controller, terminal block, etc. If all your connections are correct, you may have to test your solder contact between the components on the board itself.
 
-\item Repeat this process for all the drive motor terminal blocks, labeled J17-22.
+\item Repeat the steps above for each of the drive motor terminal blocks, labeled J17-22.
 
 \end{enumerate}
 
 \subsubsection{Corner Motor Blocks}
 
-Do the following procedure for the terminal blocks labeled J23-26. These correspond to the Corner motos for the rover. Terminal blocks correspond to the motor controllers/outputs in the following manner:
+Do the following procedure for the terminal blocks labeled J23-26. These correspond to the corner motors for the rover. Terminal blocks correspond to the motor controller outputs in the following manner:
 
 \begin{table}[H]
     \centering
@@ -884,11 +875,11 @@ Do the following procedure for the terminal blocks labeled J23-26. These corresp
 	\end{tabular}
 \end{table}
 
-\item The main different between the drive and corner motor system is the encoders used. We want to test the voltage division circuit used on the Control board, which will expect up to a 5V signal in from the Absolute Hall effect encoder. To simulate this connect the +5V terminal on the motor terminal block straight into the ENA signal in the same terminal block.
+\item The main difference between the drive and corner motor systems is that for the corner system, we need to use the encoders. We want to test the voltage division circuit used on the control board; this divider which will expects a 0-5V signal from the absolute Hall effect encoder. To simulate the encoder, connect the +5V terminal on the motor terminal block straight into the ENA signal in the same terminal block.
 
-\item Connect to the motor contoller in the Basic Motion GUI. Under the General settings tab under Encoders change the type of Encoder from Quadrature to Absolute. You should see that the encoder values change to a number somewhere around 1600. As long as it is a fairly constant value and is in the range of 1400-2000 then everything is working. If that is not recheck that the OP-amp is installed in the correct direction. If this number still isn't correct then make sure you correctly installed all the resistors/capacitors in the assembly steps.
+\item Connect to the motor controller in the Basic Motion GUI. Under the General settings tab (under Encoders), change the type of encoder from Quadrature to Absolute. You should see that the encoder values change to a number somewhere around 1600. As long as it is a fairly constant value and is in the range of 1400-2000 then everything is working. If the value varies wildly or is not in the 1400-2000 range, recheck that the OP-amp is installed in the correct direction. If this number still isn't correct then make sure you correctly installed all the resistors/capacitors in the assembly steps.
 
-\item Under the PWM tab move the slide bar and verify that the motor spins accordingly.
+\item Under the PWM tab, move the slide bar and verify that the motor spins accordingly.
 
 \item Repeat this process for all the corner motor terminal blocks, labeled J23-26.
 
@@ -896,9 +887,9 @@ Do the following procedure for the terminal blocks labeled J23-26. These corresp
 
 \subsubsection{Raspberry Pi Install}
 
-Next up is to verify that power to the Raspberry Pi is working. For this you'll need a working operating system install on the SD card. Look foward to the Software Install steps to get the install instructions of that.
+Next up is to verify that power to the Raspberry Pi is working. For this, you'll need a working operating system installed on the SD card. Take a moment now to follow to the Software Install steps to install the rover software on the Raspberry Pi.
 
-\textcolor{red}{INSERT LINK TO SOFTWARE DOC?}
+\href{https://github.com/nasa-jpl/open-source-rover/blob/master/Software/Software%20Steps.pdf}{https://github.com/nasa-jpl/open-source-rover/blob/master/Software/Software\%20Steps.pdf}
 
 
 \begin{table}[H]
@@ -915,11 +906,13 @@ Next up is to verify that power to the Raspberry Pi is working. For this you'll 
     \end{tabular}
 \end{table}
 
+\noindent \textbf{ONLY PROCEED WITH THE FOLLOWING ONCE YOU HAVE SUCCESSFULLY FINISHED THE INSTALLATION OF THE ROVER CODE ON YOUR RASPBERRY PI.}
+
 \begin{enumerate}
 
-\item Insert the Raspberry Pi into the Board, making sure that the USB ports face downward on the board. Figure \ref{rpi_install} show this orientation.
+\item Attach the Raspberry Pi to the board on top of the standoffs you attached earlier, making sure that the USB ports face downward on the board as shown in Figure \ref{rpi_install}.
 
-\item Plug in the micro USB cable \textbf{E27} to the USB power port labeled J12 and the Raspberry Pi. Then Plug in the ribbon Cable \textbf{E29} into the Raspberry Pi GPIO header pins and the \textbf{J6} 40 pin GPIO connector. 
+\item Plug in the micro USB cable \textbf{E27} to the USB power port labeled J12 and to the \textbf{power port} of the Raspberry Pi (labelled 'PWR'). Then, plug in the ribbon Cable \textbf{E29} into the Raspberry Pi GPIO header pins and connect the other end to the \textbf{J6} 40 pin GPIO connector. 
 
 \begin{figure}[H]
   \centering
@@ -953,7 +946,9 @@ Next up is to verify that power to the Raspberry Pi is working. For this you'll 
     \end{tabular}
 \end{table}
 
-The testing of the arduino board is dependant on finishing the control board and having it tested fully. Slot the Arduino Uno onto the bottom of the Arduino sheild, matching the footprints.
+Note: Testing the arduino board is dependent on finishing the control board and having it tested fully. Do not proceed until you have successfully tested your main control board.
+
+Slot the Arduino Uno onto the bottom of the Arduino shield, matching the footprints on the board.
 
 \begin{figure}[H]
   \centering
@@ -964,13 +959,12 @@ The testing of the arduino board is dependant on finishing the control board and
 
 \begin{enumerate}
 
-	\item Plug in the 1x6 JST cable \textbf{E26} into the Arduino sheild and the Control board. This cable will run 12V, 5V, GND, and two serial communication lines from the main rover to the Arduino sheild to run the screen in the head. This will rely on you having already tested the 5V and 12V regulators on the control board and verifying that they work correctly.
+	\item Plug in the 1x6 JST cable \textbf{E26} into the Arduino shield and to the Control board. This cable will run 12V, 5V, GND, and two serial communication lines from the main rover to the Arduino shield which runs the screen in the head. This step relies on successful tests of the 5V and 12V regulators on the control board and verifying that they work correctly.  If you have not tested the main board successfully, you may damage the Arduino.
 
-	\item Using a Digital Multimeter probe the following test pads and verify their voltages:
+	\item Using a Digital Multimeter, probe the following \textbf{Arduino shield test pads} and verify their voltages:
 		\begin{itemize}
 			\item TP1 to TP6 should read +12V. This voltage powers the Arduino Uno board
 			\item TP5 to TP6 should read +5V. This voltage powers the LED Matrix and runs the LEDs on it
-
 			\item TP4 to TP2 should read +5V. This is the 5V converter on the Arduino board
 			\item TP3 to TP2 should read +3.3V. This is the 3.3V converter on the Arduino board
 				
@@ -978,6 +972,6 @@ The testing of the arduino board is dependant on finishing the control board and
 
 \end{enumerate}
 
-If all the above test points read the correct voltages then the Arduino Sheild board is working correctly. 
+If all the above test points read the correct voltages, then the Arduino Sheild board is working correctly!  You are now ready to finish the Electrical Assembly of the rover!
 
 \end{document}
