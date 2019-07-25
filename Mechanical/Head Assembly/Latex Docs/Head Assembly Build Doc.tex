@@ -46,7 +46,7 @@
 \makeatletter
 \def\@maketitle{
 \begin{center}
-	\makebox[\textwidth][c]{ \includegraphics[width=0.6\paperwidth]{"Pictures/Head final".png}}
+	\makebox[\textwidth][c]{ \includegraphics[width=0.6\paperwidth]{"Pictures/finala".png}}
 	{\Huge \bfseries \sffamily \@title }\\[3ex]
 	{\Large \sffamily \@author}\\[3ex]
 	\includegraphics[width=.65\linewidth]{"Pictures/JPL logo".png}
@@ -67,20 +67,14 @@
 \newpage
 
 \section{3D printing}
-There are a few components that need to be 3D printed to make the head assembly. You can find the STL files necessary for these prints in the Mechanical/Head Assembly/3D Printed Parts folder of the repository.  Based on difficulties we've seen with printing these pieces, we've also included a few different orientations of "printing pads" to help with thermal contraction as shown in Figure \ref{pads}. These pads help hold the corners down and reduce the warping of the pieces.
+There are a few components that need to be 3D printed to make the head assembly. You can find the STL files necessary for these prints in the Mechanical/Head Assembly/3D Printed Parts folder of the repository.
 
 \begin{figure}[H]
-  \centering
-  \begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{"Pictures/Head w horz pads".PNG}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{"Pictures/Head w vert pads".png}
-  \end{minipage}
-  \caption{Printing Pads}
-  \label{pads}
+	\centering
+	\includegraphics[width=0.75\textwidth]{"Pictures/S43".PNG}
+	\caption{3D printed Head piece}
 \end{figure}
+
 
 If you do not have a 3D printer there are a number of online 3D printing services available, an example of which can be found at:
 
@@ -88,7 +82,6 @@ If you do not have a 3D printer there are a number of online 3D printing service
 	\item \href{https://www.makexyz.com/}{https://www.makexyz.com/}
 \end{itemize}
 
-(If you decide to use a 3D printing service, we recommend sending them the files \textit{without} the printing pads.)
 
 \section{Machining/Fabrication}
 \subsection{Cutting the PVC Pipe}
@@ -104,8 +97,8 @@ If you do not have a 3D printer there are a number of online 3D printing service
         \hline
         \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
         \hline
-        2" PCV Pipe & S29 & 1 & \partimg{../../../images/parts_list/S29.png} & Vice or V-Clamps & D8 & & \partimg{../../../images/parts_list/D8.png} \\ \hline
-        HackSaw or Bandsaw & D4 & & \partimg{../../../images/parts_list/D4.png} & & & & \\ \hline
+        2" PCV Pipe & S29 & 1 & \partimg{../../../images/components/Structural/S29.png} & Vice or V-Clamps & D8 & & \partimg{../../../images/components/Tools/D8.png} \\ \hline
+        HackSaw or Bandsaw & D4 & & \partimg{../../../images/components/Tools/D4.png} & & & & \\ \hline
     \end{tabular}
 \end{table}
 
@@ -125,86 +118,136 @@ Take the PVC pipe \textbf{S29} (this will be the "neck" of the rover) and cut it
         \hline
         \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
         \hline
-        Head Left Back & S33A & 1 & \partimg{../../../images/parts_list/S33A.png} & \#6-32x3/8" Button Head Screw & B2 & 4 & \partimg{../../../images/parts_list/B2.png} \\ \hline
-        Head Right Back & S33C & 1 & \partimg{../../../images/parts_list/S33C.png} & \#4-40x1/4" Button Head Screw & B8 & 12 & \partimg{../../../images/parts_list/B8.png} \\ \hline
-        Head Left Side & S33B & 1 & \partimg{../../../images/parts_list/S33B.png} & \#4-40 Locking Hex Nut & B12 & 4 & \partimg{../../../images/parts_list/B12.png} \\ \hline
-        Head Right Side & S33D & 1 & \partimg{../../../images/parts_list/S33D.png} & LED Matrix & E8 & 1 & \partimg{../../../images/parts_list/E8.jpg} \\ \hline
-        Bore Clamping Hub for 1" PVC & S24 & 1 & \partimg{../../../images/parts_list/S24.jpg} & Allen Key Set & D2 & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
-        PVC Pipe (Modified) & S29A & 1 & \partimg{../../../images/parts_list/S29.png} & 5/16" Wrench & D1 & & \partimg{../../../images/parts_list/D1.jpg} \\ \hline
-        Logic Shifter PCB & E11 & 1 & \partimg{../../../images/parts_list/ls2.PNG} & & & & \\ \hline
+        3D Printed Head & S43 & 1 & \partimg{../../../images/components/Structural/S43.png} & \#6-32x3/8" Button Head Screw & B2 & 4 & \partimg{../../../images/components/Screws/B2.png} \\ \hline
+        LED Matrix & E37 & 1 & \partimg{../../../images/components/Electronics/E37.png} & \#4-40x1/4" Button Head Screw & B8 & 12 & \partimg{../../../images/components/Screws/B8.png} \\ \hline
+        Bore Clamping Hub for 1" PVC & S24 & 1 & \partimg{../../../images/components/Structural/S24.jpg} & M2.5 x 6mm  & B10 & 8 & \partimg{../../../images/components/Screws/B10.png} \\ \hline
+        PVC Pipe (Modified) & S29A & 1 & \partimg{../../../images/components/Structural/S29.png} & Arduino Sheild & E2 & 1 & \partimg{../../../images/components/Electronics/E2.png} \\ \hline
+	M3 x 6mm Socket Head Cap screw & B14 & 6 & \partimg{../../../images/components/Screws/B14.png} & Laser Cut Arduino Plate & S44 & 1 & \partimg{../../../images/components/Structural/S44.png} \\ \hline
+	Laser Cut Head Back Panel & S42 & 1 & \partimg{../../../images/components/Structural/S42.png} & Arduino Uno & E24 & 1 & \partimg{../../../images/components/Electronics/E24.png} \\ \hline 
+	M2.5 x 10mm & T10 & 4 & \partimg{../../../images/components/Standoffs/T10.png} & \#4-40 Heat Set Insert & I1 & 8 & \partimg{../../../images/components/Inserts/I1.png}  \\ \hline
     \end{tabular}
 \end{table}
 
 \begin{enumerate}
 
-	\item \textbf{Insert the LED matrix into the head:} Start by taking the LED Matrix \textbf{E8} and inserting it on the ledges in the left and right sides of the 3D printed head. Screw together the two sides of the head using screws \textbf{B8}.\footnote{The size of the holes should be such that you can use a hex key to "thread" the 3D printed holes. If it is too tight, you can use a drill/file to very slightly open up the hole}.
-
+\item \textbf{Assemble the Arduino Stack:} Begin by stacking together the Arduino Uno \textbf{E24}, Arduino Sheild \textbf{E2}, Standoffs \textbf{T10}, Screws \textbf{B10}, and Arduino Plate \textbf{S44} and assemble them in the following stack. 
 
 \begin{figure}[H]
 	\centering
   	\begin{minipage}[b]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{"Pictures/Head step 1".PNG}
+		\includegraphics[width=\textwidth]{"Pictures/step-1a".PNG}
   	\end{minipage}
   	\hfill
   	\begin{minipage}[b]{0.45\textwidth}
-    		\includegraphics[width=\textwidth]{"Pictures/Head step 2".png}
+    		\includegraphics[width=\textwidth]{"Pictures/step-1b".png}
   	\end{minipage}
-  	\caption{Inserting LED Matrix}
-  	\label{LED}
+  	\caption{Building Arduino Stack}
 \end{figure}
 
-	\item \textbf{Attach the PVC  Clamping Hub:} Attach the 1 Inch PVC Clamping Hub \textbf{S24} to the bottom of the head using screws \textbf{B2}.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.45\textwidth]{"Pictures/Head step 3".PNG}
-	\caption{Attach the PVC Clamping Hub}
-\end{figure}
-
-	\item \textbf{Mounting the Logic Shifter PCB:} Attach the Logic Shifter PCB to the support structure in the 3D printed head using screws \textbf{B8} and hex nuts \textbf{B12}.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.45\textwidth]{"Pictures/Head step 4".PNG}
-	\caption{Mounting the Logic Shifter PCB}
-\end{figure}
-
-	\item \textbf{Connecting to back plane:} Attach the two back pieces together using screws \textbf{B8}.
+\item \textbf{Inserting the Heat set inserts:} Insert the \# 4-40 Heat Set Inserts \textbf{I1} into the 3D printed head using a Solder Iron at 460 degrees F, in the locations shown in the following images.
 
 \begin{figure}[H]
 	\centering
   	\begin{minipage}[b]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{"Pictures/Head step 5".PNG}
+		\includegraphics[width=\textwidth]{"Pictures/step-2a".PNG}
   	\end{minipage}
   	\hfill
   	\begin{minipage}[b]{0.45\textwidth}
-    		\includegraphics[width=\textwidth]{"Pictures/Head step 6".png}
+    		\includegraphics[width=\textwidth]{"Pictures/step-2b".png}
   	\end{minipage}
-  	\caption{Back Plane connecting}
-  	\label{back}
+  	\caption{Back panel Inserts}
 \end{figure}
-
-	\item \textbf{Attaching the Back plane:} Attach the back plane to the rest of the head structure using screws \textbf{B8}.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.45\textwidth]{"Pictures/Head step 7".PNG}
-	\caption{Attaching the Back plane}
-\end{figure}
-
-	\item \textbf{Attach the PVC pipe:} Slide the length of PVC pipe you want for the neck into the PVC clamping hub and tighten the screws the secure it.
 
 \begin{figure}[H]
 	\centering
   	\begin{minipage}[b]{0.45\textwidth}
-		\includegraphics[width=\textwidth]{"Pictures/Head step 8".PNG}
+		\includegraphics[width=\textwidth]{"Pictures/step-3a".PNG}
   	\end{minipage}
   	\hfill
   	\begin{minipage}[b]{0.45\textwidth}
-    		\includegraphics[width=\textwidth]{"Pictures/Head final".png}
+    		\includegraphics[width=\textwidth]{"Pictures/step-3b".png}
   	\end{minipage}
-  	\caption{Attaching the PVC pipe}
-  	\label{pvc}
+  	\caption{Arduino Inserts}
+\end{figure}
+
+\item \textbf{Mount the PVC clamping hub:} Using screws \textbf{B2} and attach the PVC clamping hub to the bottom of the 3D printed Head. 
+
+\begin{figure}[H]
+	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/step-4a".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/step-4b".png}
+  	\end{minipage}
+  	\caption{PVC Clamping hub Mount}
+\end{figure}
+
+\item \textbf{Attach PVC Pipe:} Slot the PVC pipe \textbf{S29} into the clamping hub and then tighten down the screws on the clamping hub
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.8\linewidth]{"Pictures/step-5a.png}
+	\caption{Neck Attachment}
+\end{figure}
+
+\item \textbf{Attaching the LED Matrix} Using Screws \textbf{B14} attach the LED Matrix \textbf{E37} to the front of the Head assembly. 
+
+\begin{figure}[H]
+	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/step-6a".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/step-6b".png}
+  	\end{minipage}
+  	\caption{LED Matrix Attachment}
+\end{figure}
+
+\item \textbf{Mount the Arduino Inside:} Take the Arduino Plate assembly and mount it using screws \textbf{B8} to the Heat set inserts on the posts inside the head
+
+\begin{figure}[H]
+	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/step-7a".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/step-7b".png}
+  	\end{minipage}
+  	\caption{Arduino Plate Integration}
+\end{figure}
+
+\item \textbf{Back Plate Attachment:} Attach the Laser Cut Back plate \textbf{S42} onto the back of the head assembly using screws \textbf{B12}.
+
+\begin{figure}[H]
+	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/step-8a".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/step-8b".png}
+  	\end{minipage}
+  	\caption{Back Panel Assembly}
+\end{figure}
+
+
+The Head is now finished!
+
+\begin{figure}[H]
+	\centering
+  	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/finala".PNG}
+  	\end{minipage}
+  	\hfill
+  	\begin{minipage}[b]{0.45\textwidth}
+    		\includegraphics[width=\textwidth]{"Pictures/finalb".png}
+  	\end{minipage}
+  	\caption{Finished Head Assembly}
 \end{figure}
 
 \end{enumerate}
