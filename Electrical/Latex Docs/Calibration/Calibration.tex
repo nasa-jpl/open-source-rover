@@ -54,7 +54,7 @@
 
 \section{Calibration}
 \label{cal section}
-In order for the motors to all work properly and drive the rover correctly, we must calibrate the motors and encoders. We will use a program called Basic Micro Studio to assist with this. Basic Micro studio can be downloaded at 
+In order for the motors to all work properly and drive the rover correctly, we must calibrate the motors and encoders. We will use a program called Basic Micro Studio to assist with this. BasicMicro Motion Studio can be downloaded at 
 \begin{itemize}
 	\item \href{http://www.basicmicro.com/downloads}{http://www.basicmicro.com/downloads}. 
 \end{itemize}
@@ -81,7 +81,7 @@ In order for the motors to all work properly and drive the rover correctly, we m
 	\end{figure}
 	\begin{itemize}
 		\item \textbf{Temperature1:} ~ 30
-		\item \textbf{M1/M2 Amps:} ~ 0.01
+		\item \textbf{M1/M2 Amps:} ~ 0.00
 		\item \textbf{M1/M2 Encoder:} 0
 		\item \textbf{M1/M2 Speed:} 0
 		\item \textbf{Main Battery:} Between 11.5-16.7V
@@ -118,8 +118,7 @@ In order for the motors to all work properly and drive the rover correctly, we m
 
 		\item \textbf{Motors}:
 		\begin{enumerate}
-			\item M1 Max Current: 3.0A
-			\item M2 Max Current: 3.0 A
+			\item We will be updating the motor current parameters after calibration is complete. 
 		\end{enumerate}
 
 		\item \textbf{I/O}:
@@ -147,9 +146,9 @@ In order for the motors to all work properly and drive the rover correctly, we m
 			\includegraphics[width=.55\textwidth]{"Pictures/is5".PNG}
 	 		\caption{}
 		\end{figure}
-		\noindent Verify that when the forward signal is sent to the motor (the Motor1 slider is above 0), the wheel spins in the direction that would move the rover as a whole forward (note this is different clockwise vs counterclockwise based on which wheel you are testing). \textbf{If the wheel moves backwards with respect to the rover direction, switch the motor leads coming from the motor controller, which are M1A and M1B.} 
+		\noindent Verify that when the forward signal is sent to the motor (the Motor1 slider is above 0), the wheel spins in the direction that would move the rover as a whole forward (note this is different clockwise vs counterclockwise based on which wheel you are testing). \textbf{If the wheel moves backwards with respect to the rover direction, then under the General Settings tab click the checkbox labeled 'Reverse M\_ Relative Direction based on which motor is wrong.} 
 
-		\item Now as you drive M1 motor forward (which now corresponds to the rover moving forward), verify that M1 Encoder value increases\footnote{If you get no reading values for the encoder, re-check your wiring and connections}. If the encoder value decreases, you have to switch the A and B channels of the encoder signals. These are the EN1 +/- pins on the header pins. 
+		\item Now as you drive M1 motor forward (which now corresponds to the rover moving forward), verify that M1 Encoder value increases\footnote{If you get no reading values for the encoder, re-check your wiring and connections}. \textbf{If the encoder value decreases go to the General tab and under I/O click the Invert checkbox for the Encoder \_ Mode} 
 
 		\item Repeat steps 7b and 7c for M2 motor. 
 	\end{enumerate}
@@ -165,6 +164,11 @@ In order for the motors to all work properly and drive the rover correctly, we m
 		\item \href{https://medium.com/pollenrobotics/an-introduction-to-pid-control-with-dc-motor-1fa3b26ec661}{https://medium.com/pollenrobotics/an-introduction-to-pid-control-with-dc-motor-1fa3b26ec661}
 		\item \href{https://www.elprocus.com/the-working-of-a-pid-controller/}{https://www.elprocus.com/the-working-of-a-pid-controller/}
 	\end{itemize}
+
+	\noindent There has been significant feedback that the BasicMicro Motion Studio auto tune sometimes does not work, and so we have included a section at the end of this document about how to tune the motors yourself. This can be found at 
+\begin{itemize}
+	\item \hyperref[manual_calibration]{Manual PID Calibration}
+\end{itemize}
 	\begin{enumerate}
 		\item Begin by entering in the QPPS (quadrature pulses per second), or the maximum number of encoder ticks per second. To find this value, drive the motor at max speed in the PWM setting and look at the box labeled 'M1/M2 Speed'.
 
@@ -181,11 +185,12 @@ In order for the motors to all work properly and drive the rover correctly, we m
 			\includegraphics[width=.55\textwidth]{"Pictures/is9".PNG}
 	 		\caption{}
 		\end{figure}
-	
-		\item Once both motors on this motor controller have been tuned, go to \textit{Device $->$ Save Settings} and then exit. Repeat all of steps 6 through 8 for the other drive motors.
+
+		\item Once both motors on this motor controller have been tuned go back to the General settings tab and update the Motor Parameters to have a Max current of 3.0 Amps. Then go to \textit{Device $->$ Save Settings} and then exit. Repeat all of steps 6 through 8 for the other drive motors.
 	\end{enumerate}
 
 \subsection{Corner Motor Calibration}
+\label{corner_cal}
 	\item Perform the following for the \textbf{RoboClaw addresses 131 and 132}:
 	\begin{enumerate}
 		\item Perform step 6 above for the corner motors, making sure to set the encoder type to absolute. 
@@ -199,9 +204,7 @@ In order for the motors to all work properly and drive the rover correctly, we m
 			\item Spin the encoder until it reads a value of roughly half its max value and reattach the gear, coupling it back to the rover. 
 		\end{enumerate}
 		
-		\item For each motor M1 and M2, we now need to obtain what is the new min and max encoder values. Using the \textit{PWM Settings} tab, move the motors until they run into the physical hard stops. Record the min and max encoder values for each, but for the min values add at least 15 and the max subtract at least 15\footnote{We add a buffer of at least 15 encoder ticks to avoid driving the motors all the way into the hard stop; In other words, we'll impose a software 'soft stop'}.
-		
-		\item Perform the Velocity tuning for each of the corners similar to the drive motors. You will have to estimate the QPPS value for the corners as you cannot spin them at full speed without running into the physical hard stop very quickly. 
+		\item For each motor M1 and M2, we now need to obtain what is the new min and max encoder values. Using the \textit{PWM Settings} tab, move the motors until they run into the physical hard stops. Record the min and max encoder values for each, but for the min values add at least 15 and the max subtract at least 15\footnote{We add a buffer of at least 5 encoder ticks to avoid driving the motors all the way into the hard stop; In other words, we'll impose a software 'soft stop'}.
 
 		\item Navigate to the \textit{Position Settings} tab. 
 
@@ -219,7 +222,7 @@ In order for the motors to all work properly and drive the rover correctly, we m
 	 		\caption{}
 		\end{figure}	
 
-		\item Change the Autotune type to \textbf{PID} and then tune the M1 and M2 motors by clicking the 'Tune M1' and 'Tune M2' buttons. We've found that this autotuning process is more successful if you run it with the wheels down on a smooth surface, but still supporting the weight of the robot. 
+		\item Change the Autotune type to \textbf{PD} and then tune the M1 and M2 motors by clicking the 'Tune M1' and 'Tune M2' buttons. We've found that this autotuning process is more successful if you run it with the wheels down on a smooth surface, but still supporting the weight of the robot. 
 
 		\begin{figure}[H]
 	 		\centering
@@ -228,10 +231,45 @@ In order for the motors to all work properly and drive the rover correctly, we m
 		\end{figure}	
 
 		\item To verify that the corner steering motors have been calibrated, move the M1 and M2 sliders to their middle positions (halfway between min and max) and verify that the wheels all point exactly straight forwards. If they do not point straight forwards, verify that your min and max values are correct and ensure that no signal clipping is happening on the encoders.
-
+		\item After the motors have both been tuned go to General settings and set the Motor current Max to be 3.0 Amps for each motor. 
 		\item Repeat Step 9 for the remaining corner motors
 	\end{enumerate}
 
 \end{enumerate} 
+
+
+\section{Manual Calibration}
+\label{manual_calibration}
+
+This section is to preform a manual tuning and calibration of the  Corner motor system. This will be using the Ziegler-Nichols tuning method. For a more in depth explaination of how this process works you can visit:
+
+\begin{itemize}
+	\item  \href{http://faculty.mercer.edu/jenkins\_he/documents/TuningforPIDControllers.pdf}{http://faculty.mercer.edu/jenkins\_he/documents/TuningforPIDControllers.pdf}
+\end{itemize}
+
+\noindent \textit{These steps assume you have already set the max/min values of the encoders in the position tab, as well as verified the encoder direction. If you have not done those follow the steps in the \hyperref[corner_cal]{Corner Calibration}}
+\begin{enumerate}
+
+	\item Determine the QPPS of your system. This is the quadrature pulses per second at max speed of the motor. For that run your motor at max speed using the PWM settings tab, and look at the motor speed. This value just has to be initially close, so generally you can use the same number for all of the same motor types ie. Drive vs Corner motors.
+	\item In the GUI under the position settings tab have it graph the Motor(x) position, and Motor(x) setpoint, where(x) is the motor you are tuning.
+	\item Go to the Position Tab. Set all PID gains to be zero. 
+	\item Enter in the QPPS from step 1.
+	\item Increase the P value and then use the position slider to command the setpoint of the motor. Initially I started my P value at 10 for the first increment. The motor should move to this position. If it stops immediately at the value then the system is over-damped. Keep increasing the P value until the motor beings to have a stead-state osciallation which doe NOT damp out to the setpoint. This value is called $K_{c}$. I found mine to be usually between 10-20 for values of P, which I incrimented in steps of 0.5 at a time.
+	\item Now that the system is oscillating back and forth you have to get the period of the oscillation. Do this by starting a timer and timing how long it takes to do 30 osciallations. For mine it was around 10 seconds. Divide that time by the number of oscillations, this gives you the period, which is called $P_{cr}$. I found this to be generally around 0.3s
+	\item The approximate gains can be found using the following equations:
+
+\begin{equation}
+	P =  0.6 K_c 
+\end{equation}
+\begin{equation}
+	I = 0.5 P_{cr}
+\end{equation}
+\begin{equation}
+	D = 0.125 P_{cr}
+\end{equation}
+
+	\item Enter in these values into the GUI and use the slid bar to set the setpoint and see the motor response on the graph. More than likely what will happen is it will overshoot and do one oscillation. This means that the P value is slightly too high. Decrease the P value in small steps until you see no overshoot of the setpoint in the graph. Once that happens your corner motors will be appropriately tuned. 
+
+\end{enumerate}
 
 \end{document}
