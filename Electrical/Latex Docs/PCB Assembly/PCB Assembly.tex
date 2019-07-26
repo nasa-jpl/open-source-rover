@@ -768,6 +768,35 @@ Press the Op-Amp LM358P \textbf{E25} into the slots in the 8 Position DIP socket
   \caption{Op-amp integration}
 \end{figure}
 
+\subsubsection{Voltage Divider Verification}
+
+Now that the Op-amps are installed we want to check and make sure the voltage dividers are working correctly. To do this, we will run power from the motors directly back into the analog read signal, and see what voltage it gets divided down to. On the motor connectors for each corner motor (J23-26), use a jumper wire to connect the 5V signal line to the ENx line. Then, use a DMM to measure the voltage between each of the following test pads and GND and compare the values to the expected voltage ranges in Table \ref{voltage_divider_table}:
+
+\begin{table}[H]
+    \centering
+    \arrayrulecolor{lightgray}
+    \sffamily\footnotesize
+    \captionsetup{font={sf,bf}}
+    \caption{Parts/Tools Necessary}
+	\begin{tabular}{| l | l | l |}
+		\hline
+		\thead{Signal} & \thead{Test Pad} & \thead{Voltage (to ground, in Volts)} \\ \hline
+		OP amp Power                  & T13   & 5 \\ \hline
+		M7 Encoder signal divided  & T7  & 1.5 - 2.0 \\ \hline
+		M7 Encoder raw                & T9  & 5 \\ \hline
+		M7 Encoder after Op-amp  & T11 & 1.5 - 2.0 \\ \hline
+		M8 Encoder signal divided  & T18  & 1.5 - 2.0 \\ \hline
+		M8  Encoder raw               & T20  & 5 \\ \hline
+		M8 Encoder after Op-amp  & T16 & 1.5 - 2.0 \\ \hline
+		M9 Encoder signal divided  & T8  & 1.5 - 2.0 \\ \hline
+		M9  Encoder raw               & T10  & 5 \\ \hline
+		M9 Encoder after Op-amp  & T12 & 1.5 - 2.0 \\ \hline
+		M10 Encoder signal divided & T19 & 1.5 - 2.0 \\ \hline
+		M10  Encoder raw              & T21  & 5 \\ \hline
+		M10 Encoder after Op-amp  & T17 & 1.5 - 2.0 \\ \hline
+  \end{tabular}
+  \label{voltage_divider_table}
+\end{table}
 
 \subsubsection{RoboClaw Testing and Verification}
 
