@@ -1,113 +1,138 @@
 Part Name,Project Ref Code,Model/Config,Site,Link,Sold in Packs of,Total Used in Project,Quantity to Buy,Price Each,Price Total,Used in Sections
-#6-32 x 1/4 Button Head Screw,B1,92949A144,McMaster,https://www.mcmaster.com/92949a144,100,212,3,$3.45 ,$10.35,"Body, Corner Steering, Differential Pivot, Mechanical Integration, Wheel Assembly"
-M2.5 x 6mm Screw,B10,92095a458,McMaster,https://www.mcmaster.com/92095a458,25,12,1,$7.07 ,$7.07,Body
-#6-32 Locknuts,B11,90631A007,McMaster,https://www.mcmaster.com/90631A007,100,88,1,$2.72 ,$2.72,"Body, Differential Pivot, Rocker-Bogie"
-#4-40 Locknuts,B12,90631A005,McMaster,https://www.mcmaster.com/90631A005,100,8,1,$2.79 ,$2.79,"Differential Pivot, Head Assembly"
-#2-56 x 3/16” Button Head Screws,B13,91255A076,McMaster,https://www.mcmaster.com/91255A076,25,4,1,$3.76 ,$3.76,Body
-#6-32 x 3/8 Button Head Screw,B2,92949A146,McMaster,https://www.mcmaster.com/92949A146,100,80,1,$3.72 ,$3.72,"Body, Head Assembly, Rocker-Bogie"
-#6-32 x 1/2 Button Head Screw,B3,92196A148,McMaster,https://www.mcmaster.com/92949A148,100,12,1,$3.72 ,$3.72,"Body, Wheel Assembly"
+#6-32 x 1/4 Button Head Screw,B1,92949A144,McMaster,https://www.mcmaster.com/92949a144,100,236,3,$3.45 ,$10.35,"Body, Corner Steering, Differential Pivot, Mechanical Integration, Wheel Assembly"
+#6-32 x 3/8 Button Head Screw,B2,92949A146,McMaster,https://www.mcmaster.com/92949A146,100,72,1,$3.72 ,$3.72,"Body, Head Assembly, PCB Assembly, Rocker-Bogie"
+#6-32 x 1/2 Button Head Screw,B3,92196A148,McMaster,https://www.mcmaster.com/92949A148,100,8,1,$3.72 ,$3.72,Wheel Assembly
 #6-32 x 5/8 Button Head Screw,B4,92196A150,McMaster,https://www.mcmaster.com/92949A150,100,32,1,$4.07 ,$4.07,Rocker-Bogie
 #6-32 x 3/4 Button Head Screw,B5,92196A151,McMaster,https://www.mcmaster.com/92949A151,100,16,1,$4.41 ,$4.41,Corner Steering
 #6-32 x 1.0 Button Head Screw,B6,96006A252,McMaster,https://www.mcmaster.com/92949A153,50,4,1,$5.42 ,$5.42,Body
 #6-32 x 1.25 Button Head Screw,B7,92949A160,McMaster,https://www.mcmaster.com/92949A160,50,20,1,$6.51 ,$6.51,"Differential Pivot, Wheel Assembly"
-#4-40 x 1/4 Button Head Screw,B8,92949A106,McMaster,https://www.mcmaster.com/92949a106,100,84,1,$2.87 ,$2.87,"Body, Head Assembly"
+#4-40 x 1/4 Button Head Screw,B8,92949A106,McMaster,https://www.mcmaster.com/92949a106,100,52,1,$2.87 ,$2.87,"Head Assembly, PCB Assembly"
 #4-40 x 1.25 Button Head Screw,B9,92949A118,McMaster,https://www.mcmaster.com/92949A118,100,4,1,$7.70 ,$7.70,Differential Pivot
-Raspberry pi 3 model b,E1,B,Amazon,https://www.amazon.com/Raspberry-Model-1-2GHz-64-bit-quad-core/dp/B01CD5VC92/ref=sr_1_3?s=electronics&ie=UTF8&qid=1505769274&sr=1-3&keywords=raspberry+pi+3,1,1,1,$34.99 ,$34.99,"Body, Electrical Build"
-3 pin Micro Connectors,E10,CA-MIC3-W3-NC-1,US Digital,https://www.usdigital.com/products/cables-connectors/cables/3-pin/CA-MIC3-W3-NC,1,4,4,$6.80 ,$27.20,Electrical Build
-Logic Shifter,E11,74LVC245,Adafruit,https://www.adafruit.com/product/735,1,2,2,$1.50 ,$3.00,"Head Assembly, PCB Testing"
-Battery,E12,Standard Tamiya Connectors,BatterySpace,https://www.batteryspace.com/li-ion-battery-14-8v-5-2ah-77wh-8a-rate-for-diving-light---un-38-3-passed.aspx,1,1,1,$86.95 ,$86.95,Electrical Build
-Battery Charger,E13,Standard Tamiya Connectors,BatterySpace,https://www.batteryspace.com/smart-charger-3-0a-for-14-8v-li-ion-polymer-battery-pack.aspx,1,1,1,$41.95 ,$41.95,
-Wire Braid,E14,100 Ft,Amazon,https://www.amazon.com/PET-Expandable-Braided-Sleeving-10ft/dp/B00ZATM676?th=1,1,1,1,$25.00 ,$25.00,
-Battery Volt Meter,E15,,Amazon,https://www.amazon.com/DROK-Multimeter-6-5-100V-Backlight-Measuring/dp/B017FSED9I,1,1,1,$13.24 ,$13.24,Electrical Build
-SD Card,E16,8Gb,Amazon,https://www.amazon.com/SanDisk-Ultra-Micro-Adapter-SDSQUNC-016G-GN6MA/dp/B010Q57SEE,1,1,1,$9.98 ,$9.98,
-Jumper Wire Pack,E17,6inch,Adafruit,https://www.adafruit.com/product/826,1,5,5,$3.95 ,$19.75,
-"4” and 8"" Female/Female Jumper Wires",E18,,Amazon,https://www.amazon.com/GenBasic-Female-Solderless-Breadboard-Prototyping/dp/B01L5ULRUA,40,200,5,$5.99 ,$29.95,Electrical Build
-Raspberry pi heatsink,E19,,Amazon,https://www.amazon.com/Mudder-Aluminum-Heatsink-Cooling-Raspberry/dp/B01GE7Q060,1,1,1,$6.79 ,$6.79,
-Roboclaw Motor Driver,E2,,Pololu,https://www.pololu.com/product/3284,1,5,5,$69.95 ,$349.75,"Body, Electrical Build"
-Resistors 10K,E22,CF14JT10K0CT-ND,Digikey,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374,1,4,4,$0.04 ,$0.16,PCB Testing
-Resistors 22K,E23,CF14JT22K0CT-ND,Digikey,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT22K0/CF14JT22K0CT-ND/1830383,1,4,4,$0.04 ,$0.16,PCB Testing
-Tamiya Connectors,E24,E19,Amazon,https://www.amazon.com/Tamiya-Male-Female-150mm-Venom/dp/B000HKEVH6,1,1,1,$5.57 ,$5.57,Electrical Build
-Switch,E25,432-1282-ND,Digikey,https://www.digikey.com/product-detail/en/bulgin/C3900BA/1091-1026-ND/2747857,1,1,1,$4.49 ,$4.49,Electrical Build
-4.7k Ohm Resistor,E26,CF14JT4K70CT-ND,Digikey,https://www.digikey.com/products/en?keywords=CF14JT4K70CT-ND,1,1,1,$0.04 ,$0.04,PCB Testing
-Heat Shrink Tubing,E27,532 pc,Amazon,https://www.amazon.com/Shrink-Tubing-Black-532pcs-innhom/dp/B075WR9FVL,1,1,1,$7.99 ,$7.99,
-Black Wire 16AWG,E28,C76512B-50-ND,Digikey,https://www.digikey.com/products/en?keywords=C76512B-50-ND,1,1,1,$15.59 ,$15.59,Electrical Build
-Red Wire 16AWG,E29,C76512R-50-ND,Digikey,https://www.digikey.com/products/en?keywords=C76512R-50-ND,1,1,1,$15.59 ,$15.59,Electrical Build
-0.1” Pitch Pin Header (40 pins),E3,S1011EC-40-ND,Digikey,https://www.digikey.com/products/en?keywords=S1011EC-40-ND,1,5,5,$0.59 ,$2.95,PCB Testing
-Black Wire 20AWG,E30,CN538B-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN538B-50-ND,1,2,2,$12.56 ,$25.12,Electrical Build
-Red Wire 20AWG,E31,CN541R-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN541R-50-ND,1,2,2,$15.59 ,$31.18,Electrical Build
-Black Wire 30AWG,E32,C2003B-50-ND,Digikey,https://www.digikey.com/products/en?keywords=C2003B-50-ND,1,1,1,$6.32 ,$6.32,
-Red Wire 30AWG,E33,C2015R-50-ND,Digikey,https://www.digikey.com/products/en?keywords=C2015R-50-ND,1,1,1,$6.14 ,$6.14,
-White Wire 30AWG,E34,1528-1737-ND,Digikey,https://www.digikey.com/products/en?keywords=1528-1737-ND,1,1,1,$4.95 ,$4.95,Electrical Build
-Blue Wire 30AWG,E35,1528-1734-ND,Digikey,https://www.digikey.com/products/en?keywords=1528-1734-ND,1,1,1,$4.95 ,$4.95,Electrical Build
-Yellow Wire 30AWG,E36,1528-1735-ND,Digikey,https://www.digikey.com/products/en?keywords=1528-1735-ND,1,1,1,$4.95 ,$4.95,Electrical Build
-Green Wire 30AWG,E37,1528-1736-ND,Digikey,https://www.digikey.com/products/en?keywords=1528-1736-ND,1,1,1,$4.95 ,$4.95,Electrical Build
-5V Buck Boost Regulator,E4,,Pololu,https://www.pololu.com/product/2851,1,2,2,$14.95 ,$29.90,"Body, Electrical Build"
-Gear Motor w Relative Enc. (Drive Motor),E5,"172:1 gear ratio, with relative encoder",Pololu,https://www.pololu.com/product/3268,1,6,6,$34.95 ,$209.70,Wheel Assembly
-Gear Motor (Corner Motor),E6,"45 RPM HD Premium Planetary Gear Motor, NO relative encoder",ServoCity,https://www.servocity.com/45-rpm-hd-premium-planetary-gear-motor,1,4,4,$39.99 ,$159.96,Corner Steering
-Absolute Encoder,E7,"1/8 inch, 10 Bit Analog, Sleeve Bushing (N)",US Digital,https://www.usdigital.com/products/encoders/absolute/rotary/shaft/MA3,1,4,4,$55.50 ,$222.00,Corner Steering
-LED Array,E8,,Adafruit,https://www.adafruit.com/product/420,1,1,1,$24.95 ,$24.95,Head Assembly
-Op Amp LM 358P,E9,296-1395-5-ND,Digikey,https://www.digikey.com/products/en?keywords=296-1395-5-ND,1,4,4,$0.37 ,$1.48,PCB Testing
-1.5” U Channel,S1,585440,ServoCity,https://www.servocity.com/1-50-channel,1,6,6,$2.99 ,$17.94,"Body, Mechanical Integration"
+M2.5 x 6mm Screw,B10,92095a458,McMaster,https://www.mcmaster.com/92095a458,25,16,1,$7.07 ,$7.07,"Head Assembly, PCB Assembly"
+#6-32 Locknuts,B11,90631A007,McMaster,https://www.mcmaster.com/90631A007,100,72,1,$2.72 ,$2.72,"Body, Differential Pivot, Rocker-Bogie"
+#4-40 Locknuts,B12,90631A005,McMaster,https://www.mcmaster.com/90631A005,100,4,1,$2.79 ,$2.79,Differential Pivot
+"#2-56 x 1/4"" Screw",B13,91255A076,McMaster,https://www.mcmaster.com/91255a077,25,8,1,$3.78 ,$3.78,PCB Assembly
+M3 x 6mm Screw,B14,90751A110,McMaster,https://www.mcmaster.com/90751a110,100,6,1,$6.33 ,$6.33,Head Assembly
+Red Wire 20AWG,X1,CN541R-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN541R-50-ND,1,2,2,$15.59 ,$31.18,"Electrical Build, PCB Assembly"
+Black Wire 20AWG,X2,CN538B-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN538B-50-ND,1,2,2,$12.56 ,$25.12,"Electrical Build, PCB Assembly"
+White Wire 30AWG,X3,1528-1737-ND,Digikey,https://www.digikey.com/products/en?keywords=1528-1737-ND,1,1,1,$4.95 ,$4.95,Electrical Build
+Blue Wire 30AWG,X4,1528-1734-ND,Digikey,https://www.digikey.com/products/en?keywords=1528-1734-ND,1,1,1,$4.95 ,$4.95,Electrical Build
+Yellow Wire 30AWG,X5,1528-1735-ND,Digikey,https://www.digikey.com/products/en?keywords=1528-1735-ND,1,1,1,$4.95 ,$4.95,Electrical Build
+Green Wire 30AWG,X6,1528-1736-ND,Digikey,https://www.digikey.com/products/en?keywords=1528-1736-ND,1,1,1,$4.95 ,$4.95,Electrical Build
+Control Board,E1,,JLCPCB,https://jlcpcb.com/,10,1,1,$22.10 ,$22.10,"Body, PCB Assembly"
+Arduino Shield,E2,,JLCPCB,https://jlcpcb.com/,10,1,1,$5.00 ,$5.00,"Head Assembly, PCB Assembly"
+Term block 6p side entry,E3,ED2744-ND,Digikey,https://www.digikey.com/product-detail/en/OSTTE060104/ED2744-ND/2351820/?itemSeq=281160152,1,12,12,$1.24 ,$14.88,PCB Assembly
+Term block 6P top entry ,E4,ED2627-ND,Digikey,https://www.digikey.com/product-detail/en/OSTTF060161/ED2627-ND/614576/?itemSeq=281160153,1,7,7,$1.74 ,$12.18,PCB Assembly
+Connector Header socket 20P 2x10,E5,S6106-ND,Digikey,https://www.digikey.com/product-detail/en/PPPC102LFBN-RC/S6106-ND/807245/?itemSeq=281160175,1,6,6,$1.26 ,$7.56,PCB Assembly
+Connector Header socket 5P 5x1,E6,S7038-ND,Digikey,https://www.digikey.com/product-detail/en/PPPC051LFBN-RC/S7038-ND/810177/?itemSeq=281160150,1,8,8,$0.49 ,$3.92,PCB Assembly
+Resistors 4.7K 1/4 Watt,E7,CF14JT4K70CT-ND,Digikey,https://www.digikey.com/products/en?keywords=CF14JT4K70CT-ND,10,10,1,$0.04 ,$0.04,PCB Assembly
+Resistors 10K 1/4 Watt,E8,CF14JT10K0CT-ND,Digikey,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374,10,10,1,$0.04 ,$0.04,PCB Assembly
+Resistors 22K 1/4 Watt,E9,CF14JT22K0CT-ND,Digikey,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT22K0/CF14JT22K0CT-ND/1830383,10,10,1,$0.04 ,$0.04,PCB Assembly
+Resistors 10K 1/2 Watt,E10,S10KHCT-ND,Digikey,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CFM12JT10K0/S10KHCT-ND/2617547,10,10,1,$0.06 ,$0.06,PCB Assembly
+Capacitor 100nF ,E11,399-4454-1-ND,Digikey,https://www.digikey.com/product-detail/en/C410C104M5U5TA7200/399-4454-1-ND/818311/?itemSeq=283708856,1,30,30,$0.18 ,$5.40,PCB Assembly
+Term block 2P side entry (5.08mm),E12,ED2580-ND,Digikey,https://www.digikey.com/products/en?keywords=ED2580-ND,1,4,4,$0.75 ,$3.00,PCB Assembly
+Connector Header pin 40P 2x20,E13,S9175-ND,Digikey,https://www.digikey.com/product-detail/en/SBH11-PBPC-D20-ST-BK/S9175-ND/1990068/?itemSeq=281160147,1,3,3,$0.73 ,$2.19,PCB Assembly
+Connector Header pin 6P 6x1,E14,455-1708-ND,Digikey,https://www.digikey.com/product-detail/en/jst-sales-america-inc/B6B-PH-K-S-LF-SN/455-1708-ND/926615,1,3,3,$0.66 ,$1.98,PCB Assembly
+"0.1""+A72 Pitch Pin Header (40 pins)",E15,S1011EC-40-ND,Digikey,https://www.digikey.com/products/en?keywords=S1011EC-40-ND,1,5,5,$0.59 ,$2.95,PCB Assembly
+10A Fuse,E16,507-1916-ND,Digikey,https://www.digikey.com/products/en?keywords=507-1916-ND,1,3,3,$0.35 ,$1.05,PCB Assembly
+Power Diode,E17,497-2738-5-ND,Digikey,https://www.digikey.com/product-detail/en/STPS10L25D/497-2738-5-ND/603763/?itemSeq=281160145,1,1,1,$1.55 ,$1.55,PCB Assembly
+Term block 2P side entry,E18,277-1721-ND,Digikey,https://www.digikey.com/product-detail/en/phoenix-contact/1984617/277-1721-ND/950849,1,3,3,$0.48 ,$1.44,PCB Assembly
+Connector Header pin 16P 2x8,E19,ED10523-ND,Digikey,https://www.digikey.com/product-detail/en/302-S161/ED10523-ND/2794234/?itemSeq=281160135,1,2,2,$0.42 ,$0.84,PCB Assembly
+Roboclaw Motor Driver,E20,2x7A,Pololu,https://www.pololu.com/product/3284,1,5,5,$69.95 ,$349.75,PCB Assembly
+Raspberry pi 3 model b,E21,B,Amazon,https://www.amazon.com/Raspberry-Model-1-2GHz-64-bit-quad-core/dp/B01CD5VC92/ref=sr_1_3?s=electronics&ie=UTF8&qid=1505769274&sr=1-3&keywords=raspberry+pi+3,1,1,1,$34.99 ,$34.99,PCB Assembly
+5V Buck Boost Regulator,E22,D24V50F5,Pololu,https://www.pololu.com/product/2851,1,1,1,$14.95 ,$14.95,PCB Assembly
+12V Regulator,E23,D24V22F12,Pololu,https://www.pololu.com/product/2855,1,1,1,$9.95 ,$9.95,PCB Assembly
+Arduino Uno,E24,1050-1024-ND,Digikey,https://www.digikey.com/product-detail/en/A000066/1050-1024-ND/2784006/?itemSeq=283429187,1,1,1,$23.80 ,$23.80,"Head Assembly, PCB Assembly"
+Op Amp LM 358P,E25,296-1395-5-ND,Digikey,https://www.digikey.com/products/en?keywords=296-1395-5-ND,1,4,4,$0.37 ,$1.48,PCB Assembly
+Rectangular 6P (1x6) Jumper Cable,E26,455-3156-ND,Digikey,https://www.digikey.com/product-detail/en/jst-sales-america-inc/A06KR06KR26E305B/455-3156-ND/6194811,1,1,1,$1.55 ,$1.55,"Electrical Build, PCB Assembly"
+USB A to USB Micro Cable (Data),E27,380-1430-ND,Digikey,https://www.digikey.com/product-detail/en/stewart-connector/SC-2AMK001F/380-1430-ND/8544576,1,5,5,$2.46 ,$12.30,PCB Assembly
+USB A to USB Micro Cable Right Angle,E28,,Amazon,https://www.amazon.com/gp/product/B00S8GU03A/ref=crt_ewc_img_dp_2?ie=UTF8&psc=1&smid=A1AMUYYA3CT6HJ,1,1,1,$7.99 ,$7.99,"Electrical Build, PCB Assembly"
+Rectangular 40P (2x20) Ribbon Cable,E29,1988,Adafruit,https://www.adafruit.com/product/1988,1,1,1,$2.95 ,$2.95,"Electrical Build, PCB Assembly"
+Rectangular 16P (2x8) Ribbon Cable,E30,H3CCH-1606G-ND,Digikey,https://www.digikey.com/product-detail/en/H3CCH-1606G/H3CCH-1606G-ND/1218559/?itemSeq=281160137,1,1,1,$1.40 ,$1.40,Electrical Build
+4 Position USB Hub,E31,,Amazon,https://www.amazon.com/Anker-Ultra-Slim-Portable-Adapter-Notebook/dp/B0192LPK5M/ref=sr_1_7?ie=UTF8&qid=1549577176&sr=8-7&keywords=external+power++usb+hub,1,1,1,$17.99 ,$17.99,
+7 Position USB Hub,E32,,Amazon,https://www.amazon.com/Anker-7-Port-Adapter-Charging-iPhone/dp/B014ZQ07NE/ref=sr_1_15?ie=UTF8&qid=1549577308&sr=8-15&keywords=usb+hub,1,1,1,$32.99 ,$32.99,
+DIP IC socket 8P,E33,AE9986-ND,Digikey,https://www.digikey.com/product-detail/en/A+08-LC-TT/AE9986-ND/821740/?itemSeq=281160151,1,3,3,$0.17 ,$0.51,PCB Assembly
+USB A Connector ,E34,,Digikey,https://www.digikey.com/product-detail/en/USB-A1HSW6/ED2989-ND/2677750/?itemSeq=283940458,1,2,2,$0.50 ,$1.00,PCB Assembly
+Tamiya Connectors,E35,E19,Amazon,https://www.amazon.com/Tamiya-Male-Female-150mm-Venom/dp/B000HKEVH6,1,1,1,$5.57 ,$5.57,"Electrical Build, PCB Assembly"
+Battery,E36,Standard Tamiya Connectors,BatterySpace,https://www.batteryspace.com/li-ion-battery-14-8v-5-2ah-77wh-8a-rate-for-diving-light---un-38-3-passed.aspx,1,1,1,$86.95 ,$86.95,"Electrical Build, PCB Assembly"
+LED Array,E37,,Adafruit,https://www.adafruit.com/product/420,1,1,1,$24.95 ,$24.95,"Head Assembly, PCB Assembly"
+Battery Volt Meter,E38,,Amazon,https://www.amazon.com/DROK-Multimeter-6-5-100V-Backlight-Measuring/dp/B017FSED9I,1,1,1,$13.24 ,$13.24,Body
+Switch,E39,432-1282-ND,Digikey,https://www.digikey.com/product-detail/en/bulgin/C3900BA/1091-1026-ND/2747857,1,1,1,$4.49 ,$4.49,Body
+3 pin Micro Connectors,E40,CA-MIC3-W3-NC-1,US Digital,https://www.usdigital.com/products/cables-connectors/cables/3-pin/CA-MIC3-W3-NC,1,4,4,$6.80 ,$27.20,Electrical Build
+Battery Charger,E41,Standard Tamiya Connectors,BatterySpace,https://www.batteryspace.com/smart-charger-3-0a-for-14-8v-li-ion-polymer-battery-pack.aspx,1,1,1,$41.95 ,$41.95,Electrical Build
+Wire Braid,E42,25Ft 0.1875 Diameter,Amazon,https://www.amazon.com/16-Wind-Side-Entry-Sleeving/dp/B06XRKMB7N/ref=sr_1_8?keywords=side%2Bentry%2Bwire%2Bwrap&qid=1563912694&s=gateway&sr=8-8&th=1,1,1,1,$15.00 ,$15.00,Electrical Build
+SD Card,E43,8Gb,Amazon,https://www.amazon.com/SanDisk-Ultra-Micro-Adapter-SDSQUNC-016G-GN6MA/dp/B010Q57SEE,1,1,1,$9.98 ,$9.98,
+Heat Shrink Tubing,E44,532 pc,Amazon,https://www.amazon.com/Shrink-Tubing-Black-532pcs-innhom/dp/B075WR9FVL,1,1,1,$7.99 ,$7.99,Electrical Build
+Gear Motor w Relative Enc. (Drive Motor),E45,"172:1 gear ratio, with relative encoder",Pololu,https://www.pololu.com/product/3268,1,6,6,$34.95 ,$209.70,Wheel Assembly
+Gear Motor (Corner Motor),E46,"45 RPM HD Premium Planetary Gear Motor, NO relative encoder",ServoCity,https://www.servocity.com/45-rpm-hd-premium-planetary-gear-motor,1,4,4,$39.99 ,$159.96,Corner Steering
+Absolute Encoder,E47,"1/8 inch, 10 Bit Analog, Sleeve Bushing (N)",US Digital,https://www.usdigital.com/products/encoders/absolute/rotary/shaft/MA3,1,4,4,$55.50 ,$222.00,Corner Steering
+USB to TTL Serial Adapter,E48,,Amazon,https://www.amazon.com/JBtek-WINDOWS-Supported-Raspberry-Programming/dp/B00QT7LQ88/ref=sr_1_4?keywords=usb+to+ttl+serial+cable&qid=1556583541&s=gateway&sr=8-4,1,1,1,$6.99 ,$6.99,
+"1.5"" U Channel",S1,585440,ServoCity,https://www.servocity.com/1-50-channel,1,2,2,$2.99 ,$5.98,Mechanical Integration
 "0.25"" Pillow Bearing Block",S10,535110,ServoCity,https://www.servocity.com/0-250-1-4-bore-flat-bearing-mount,1,8,8,$5.99 ,$47.92,Corner Steering
-0.5” Pillow Block,S11,535118,ServoCity,https://www.servocity.com/0-500-1-2-bore-flat-bearing-mount,1,6,6,$6.99 ,$41.94,"Body, Rocker-Bogie"
-0.25” Face Tapped Clamping Hub,S12,545588,ServoCity,https://www.servocity.com/770-clamping-hubs#348=95,1,4,4,$5.99 ,$23.96,Wheel Assembly
-0.5” Face Tapped Clamping Hub,S13,545600,ServoCity,https://www.servocity.com/770-clamping-hubs#348=107,1,3,3,$5.99 ,$17.97,"Differential Pivot, Rocker-Bogie"
+"0.5"" Pillow Block",S11,535118,ServoCity,https://www.servocity.com/0-500-1-2-bore-flat-bearing-mount,1,6,6,$6.99 ,$41.94,"Body, Rocker-Bogie"
+"0.25"" Face Tapped Clamping Hub",S12,545588,ServoCity,https://www.servocity.com/770-clamping-hubs#348=95,1,4,4,$5.99 ,$23.96,Wheel Assembly
+"0.5"" Face Tapped Clamping Hub",S13,545600,ServoCity,https://www.servocity.com/770-clamping-hubs#348=107,1,4,4,$5.99 ,$23.96,"Body, Differential Pivot, Rocker-Bogie"
 4mm Face Tapped Clamp Hub,S14,545608,ServoCity,https://www.servocity.com/770-clamping-hubs#348=96,1,6,6,$5.99 ,$35.94,Wheel Assembly
 Stainless Steel D-Shaft,S15,634066,ServoCity,https://www.servocity.com/0-250-1-4-stainless-steel-d-shafting#371=276,1,4,4,$1.49 ,$5.96,Corner Steering
 0.5 x 3Ft Aluminum Rod,S16,89965K364,McMaster,https://www.mcmaster.com/89965K364,1,1,1,$23.16 ,$23.16,Differential Pivot
-Dual Side mount A,S17,585470,ServoCity,https://www.servocity.com/90-dual-side-mount,2,8,4,$5.99 ,$23.96,Body
-0.5” x 4” aluminum tube,S18,635254,ServoCity,https://www.servocity.com/0-500-1-2-aluminum-tubing#371=455,1,4,4,$2.09 ,$8.36,Differential Pivot
-0.5” x 2” aluminum tube,S19,635252,ServoCity,https://www.servocity.com/0-500-1-2-aluminum-tubing#371=246,1,1,1,$1.49 ,$1.49,Mechanical Integration
-3” Channel,S2,585442,ServoCity,https://www.servocity.com/3-0-channel,1,18,18,$3.99 ,$71.82,"Corner Steering, Rocker-Bogie, Wheel Assembly"
-.5”D Bore Bottom Tapped Clamping Mount,S20,585546,ServoCity,https://www.servocity.com/1-2-bore-bottom-tapped-clamping-mount,1,2,2,$5.99 ,$11.98,Differential Pivot
+Dual Side mount A,S17,585470,ServoCity,https://www.servocity.com/90-dual-side-mount,2,16,8,$5.99 ,$47.92,Body
+"0.5"" x 4"" aluminum tube",S18,635254,ServoCity,https://www.servocity.com/0-500-1-2-aluminum-tubing#371=455,1,5,5,$2.09 ,$10.45,"Body, Differential Pivot"
+"0.5"" x 2"" aluminum tube",S19,635252,ServoCity,https://www.servocity.com/0-500-1-2-aluminum-tubing#371=246,1,1,1,$1.49 ,$1.49,Mechanical Integration
+"3"" Channel",S2,585442,ServoCity,https://www.servocity.com/3-0-channel,1,18,18,$3.99 ,$71.82,"Corner Steering, Rocker-Bogie, Wheel Assembly"
+".5""D Bore Bottom Tapped Clamping Mount",S20,585546,ServoCity,https://www.servocity.com/1-2-bore-bottom-tapped-clamping-mount,1,4,4,$5.99 ,$23.96,"Body, Differential Pivot"
 5 Hole Aluminum Beam,S21,585404,ServoCity,https://www.servocity.com/1-54-aluminum-beam,2,8,4,$2.39 ,$9.56,Differential Pivot
-0.5” D Collar Clamp,S22,6157K14,ServoCity,https://www.servocity.com/aluminum-clamp-collars#368=229,1,11,11,$2.26 ,$24.86,"Mechanical Integration, Rocker-Bogie"
+"0.5"" D Collar Clamp",S22,6157K14,ServoCity,https://www.servocity.com/aluminum-clamp-collars#368=229,1,12,12,$2.26 ,$27.12,"Body, Mechanical Integration, Rocker-Bogie"
 "Bore Clamping Hub for 1"" PVC",S24,545512,ServoCity,https://www.servocity.com/1-315-pvc-clamp-hub-b,1,2,2,$9.99 ,$19.98,"Body, Head Assembly"
 25mm Bore Side Tapped Clamping Mount,S25,545680,ServoCity,https://www.servocity.com/25mm-bore-tube-clamp,1,6,6,$5.99 ,$35.94,Wheel Assembly
 Plain Bore Gear,S26,RHA32-36-48,ServoCity,https://www.servocity.com/32-pitch-acetyl-hub-gears-0-1875-face#199=15,1,4,4,$3.69 ,$14.76,Wheel Assembly
 Shaft Mount Pinion Gear,S27,615362,ServoCity,https://www.servocity.com/0-125-1-8-bore-32p-shaft-mount-pinion-gear,1,4,4,$7.99 ,$31.96,Corner Steering
 Custom Acrylic Electronics Board,S28,,Sculpteo,https://www.sculpteo.com/,1,1,1,$15.25 ,$15.25,
 5 Foot PVC,S29,48925K93,McMaster,https://www.mcmaster.com/48925k93,1,1,1,$4.92 ,$4.92,Head Assembly
-3.75” Channel,S3,585443,ServoCity,https://www.servocity.com/3-75-channel,1,4,4,$4.49 ,$17.96,Rocker-Bogie
+"3.75"" Channel",S3,585443,ServoCity,https://www.servocity.com/3-75-channel,1,4,4,$4.49 ,$17.96,Rocker-Bogie
 Wheel,S30,,DollarHobbyz,https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x,2,6,3,$25.27 ,$75.81,Wheel Assembly
 3D Printed Encoder Mounts,S31,,Makexyz,https://www.makexyz.com/,1,4,4,$12.90 ,$51.60,Corner Steering
 RC Turnbuckles,S32,06048B,Amazon,https://www.amazon.com/Hobbypark-Aluminum-Turnbuckle-BRONTOSAURUS-Replacement/dp/B01H5PZKMK,2,2,1,$9.25 ,$9.25,Differential Pivot
 3D Printed Head,S33,,Makexyz,https://www.makexyz.com/,1,1,1,$75.80 ,$75.80,
 Loctite Red,S34,,Amazon,https://www.amazon.com/Loctite-Threadlocker-Red-0-20-209741/dp/B000FP8EUS,1,1,1,$6.49 ,$6.49,Wheel Assembly
-9” x 12” Aluminum Plate,S35,585006,ServoCity,https://www.servocity.com/9-x-12-aluminum-pattern-plate,1,2,2,$16.99 ,$33.98,Body
+"9"" x 12"" Aluminum Plate",S35,585006,ServoCity,https://www.servocity.com/9-x-12-aluminum-pattern-plate,1,2,2,$16.99 ,$33.98,Body
 Loctite 2 Part Apoxy,S36,,Amazon,https://www.amazon.com/Loctite-Marine-0-85-Fluid-Syringe-1405604/dp/B00KH62K50,1,1,1,$5.42 ,$5.42,Wheel Assembly
-4.5” x 12” Aluminum Plate,S37,585004,ServoCity,https://www.servocity.com/4-5-x-12-pattern-plate,1,3,3,$13.99 ,$41.97,Body
-Custom Acrylic Back plate,S37B,,Sculpteo,https://www.sculpteo.com/,1,1,1,$11.75 ,$11.75,
+"4.5"" x 12"" Aluminum Plate",S37,585004,ServoCity,https://www.servocity.com/4-5-x-12-pattern-plate,1,2,2,$13.99 ,$27.98,Body
 "0.25"" to 6mm Clamping Shaft Coupler",S38,625100,ServoCity,https://www.servocity.com/heavy-duty-clamping-shaft-couplers,1,4,4,$7.99 ,$31.96,Corner Steering
-4.5” Channel,S4,585444,ServoCity,https://www.servocity.com/4-50-channel,1,4,4,$4.99 ,$19.96,Wheel Assembly
-9” Channel,S5,585450,ServoCity,https://www.servocity.com/9-0-channel,1,2,2,$7.99 ,$15.98,Rocker-Bogie
+Laser Cut Body Front Panel,S39,,Sculpteo,https://www.sculpteo.com/en/lasercutting/,1,1,1,$7.93 ,$7.93,Body
+Laser Cut Body Back Panel,S40,,Sculpteo,https://www.sculpteo.com/en/lasercutting/,1,1,1,$8.42 ,$8.42,Body
+3D printed Battery Holder,S41,,Makexyz,https://www.makexyz.com/,1,2,2,$12.50 ,$25.00,Body
+Laser Cut Head Back Panel,S42,,Sculpteo,https://www.sculpteo.com/en/lasercutting/,1,1,1,$7.63 ,$7.63,Head Assembly
+3D printed Head,S43,,Makexyz,https://www.makexyz.com/,1,1,1,$29.80 ,$29.80,Head Assembly
+Laser Cut Arduino Plate,S44,,Sculpteo,https://www.sculpteo.com/en/lasercutting/,1,1,1,$7.76 ,$7.76,Head Assembly
+"4.5"" Channel",S4,585444,ServoCity,https://www.servocity.com/4-50-channel,1,4,4,$4.99 ,$19.96,Wheel Assembly
+"9"" Channel",S5,585450,ServoCity,https://www.servocity.com/9-0-channel,1,2,2,$7.99 ,$15.98,Rocker-Bogie
 Channel Connectors,S6,545532,ServoCity,https://www.servocity.com/channel-connector-plate-a,2,30,15,$3.99 ,$59.85,"Mechanical Integration, Wheel Assembly"
 Pattern F Bracket,S7,585592,ServoCity,https://www.servocity.com/flat-bracket-f,1,8,8,$2.79 ,$22.32,Rocker-Bogie
-Single Pattern Bracket,S8,585468,ServoCity,https://www.servocity.com/flat-single-channel-bracket,1,1,1,$1.29 ,$1.29,Differential Pivot
+Single Pattern Bracket,S8,585468,ServoCity,https://www.servocity.com/flat-single-channel-bracket,1,2,2,$1.29 ,$2.58,"Body, Differential Pivot"
 Motor Mount,S9,,ServoCity,https://www.servocity.com/hd-premium-planetary-gear-motor-mount-face-tapped,1,4,4,$4.99 ,$19.96,Corner Steering
-#6 x 1/4 Spacer,T1,92510A442,McMaster,https://www.mcmaster.com/92510A442,1,60,60,$0.23 ,$13.80,"Body, Corner Steering, Rocker-Bogie"
-#6-32 x 0.75” Standoff,T3,633126,ServoCity,https://www.servocity.com/6-32-thread-1-4-od-round-aluminum-standoffs#371=256,4,4,1,$1.79 ,$1.79,Wheel Assembly
-#6-32 x 1.25” Standoff,T9,633134,ServoCity,https://www.servocity.com/6-32-thread-1-4-od-round-aluminum-standoffs,4,16,4,$3.29 ,$13.16,Corner Steering
-#4-40 x 1/4 Threaded Standoff,T4,91780A162,McMaster,https://www.mcmaster.com/91780A162,1,8,8,$0.23 ,$1.84,Body
-#4-40 x 1/2 Threaded Standoff,T5,91780A164,McMaster,https://www.mcmaster.com/91780A164,1,12,12,$0.27 ,$3.24,Body
-#4-40 x 3/4 Threaded Standoff,T6,91780A166,McMaster,https://www.mcmaster.com/91780A164,1,8,8,$0.37 ,$2.96,Body
-M2.5 x 12mm Standoff,T7,95947A007,McMaster,https://www.mcmaster.com/95947A007,1,4,4,$0.48 ,$1.92,Body
-#2-56 x 3/8” Threaded Standoff,T8,93330A252,McMaster,https://www.mcmaster.com/93330A252,1,2,2,$0.96 ,$1.92,Body
-#6 Washer,W1,92141A008,McMaster,https://www.mcmaster.com/92141A008,100,40,1,$1.17 ,$1.17,"Body, Rocker-Bogie"
+#6 Washer,W1,92141A008,McMaster,https://www.mcmaster.com/92141A008,100,28,1,$1.17 ,$1.17,Rocker-Bogie
 #4 Washer,W2,92141A005,McMaster,https://www.mcmaster.com/92141A005,100,24,1,$1.40 ,$1.40,Differential Pivot
-"0.5"" Washers",W3,91545A280,McMaster,https://www.mcmaster.com/91545A280,5,15,3,$2.47 ,$7.41,"Mechanical Integration, Rocker-Bogie"
+"0.5"" Washers",W3,91545A280,McMaster,https://www.mcmaster.com/91545A280,5,20,4,$2.47 ,$9.88,"Body, Mechanical Integration, Rocker-Bogie"
 USB Xbox receiver,,,Amazon,https://www.amazon.com/Generic-Wireless-Gaming-Receiver-Xbox/dp/B01JC68MHU,1,1,1,$12.99 ,$12.99,
 Xbox Controller,,,Amazon,https://www.amazon.com/FiveStar-Wireless-Controller-Microsoft-White/dp/B01LY6P5U4,1,1,1,$25.99 ,$25.99,
-Voltage Divider Board,,,Osh Park,https://oshpark.com/,1,1,1,$20.20 ,$20.20,
-Serial Splitter Board,,,Osh Park,https://oshpark.com/,1,1,1,$19.65 ,$19.65,
-Logic Shifter Board,,,Osh Park,https://oshpark.com/,1,1,1,$43.80 ,$43.80,
-Allen Key Set,D2,,,,,1,,,,"Head Assembly, Body, Mechanical Integration, Corner Steering, Rocker-Bogie, Wheel Assembly, Differential Pivot"
-5/16 Wrench,D1,,,,,1,,,,"Head Assembly, Body, Mechanical Integration, Rocker-Bogie, Wheel Assembly, Differential Pivot"
+#6 x 1/4 Spacer,T1,92510A442,McMaster,https://www.mcmaster.com/92510A442,1,56,56,$0.23 ,$12.88,"Body, Corner Steering, Rocker-Bogie"
+"#6-32 x 0.75"" Standoff",T3,633126,ServoCity,https://www.servocity.com/6-32-thread-1-4-od-round-aluminum-standoffs#371=256,4,8,2,$1.79 ,$3.58,"PCB Assembly, Wheel Assembly"
+"#6-32 x 1.25"" Standoff",T9,633134,ServoCity,https://www.servocity.com/6-32-thread-1-4-od-round-aluminum-standoffs,4,16,4,$3.29 ,$13.16,Corner Steering
+#4-40 x 1/4 Threaded Standoff,T4,91780A162,McMaster,https://www.mcmaster.com/91780A162,1,1,1,$0.23 ,$0.23,
+#4-40 x 1/2 Threaded Standoff,T5,91780A164,McMaster,https://www.mcmaster.com/91780A164,1,1,1,$0.27 ,$0.27,
+#4-40 x 3/4 Threaded Standoff,T6,91780A166,McMaster,https://www.mcmaster.com/91780A164,1,4,4,$0.37 ,$1.48,PCB Assembly
+M2.5 x 12mm Standoff,T7,95947A007,McMaster,https://www.mcmaster.com/95947A007,1,1,1,$0.48 ,$0.48,
+"#2-56 x 3/8"" Threaded Standoff",T8,93330A252,McMaster,https://www.mcmaster.com/93330A252,1,1,1,$0.96 ,$0.96,
+M2.5 x 10 mm Standoff,T10,95947A005,McMaster,https://www.mcmaster.com/95947a005,1,8,8,$0.59 ,$4.72,"Head Assembly, PCB Assembly"
+"#2-56 x 1/2"" Standoff",T11,91780A032,McMaster,https://www.mcmaster.com/91780a032,1,20,20,$0.41 ,$8.20,PCB Assembly
+#4-40 Heat Set Inserts,I1,93365A120,McMaster,https://www.mcmaster.com/93365a120,100,8,1,$10.82 ,$10.82,Head Assembly
+#6-32 Heat Set Inserts,I2,93365A130,McMaster,https://www.mcmaster.com/93365a130,100,4,1,$12.92 ,$12.92,Body
+Allen Key Set,D2,,,,,1,,,,"Rocker-Bogie, Body, Wheel Assembly, Mechanical Integration, Corner Steering, Differential Pivot"
 Center punch or Starter drill bit,D7,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Hand Drill or Drill Press,D3,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Drill bit \#23,D6,,,,,1,,,,"Wheel Assembly, Differential Pivot"
-Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Wheel Assembly, Head Assembly, Rocker-Bogie, Differential Pivot"
+Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Rocker-Bogie, Differential Pivot, Wheel Assembly, Head Assembly"
 Vice clamp or C Clamps,D5,,,,,1,,,,"Wheel Assembly, Differential Pivot"
-Vice or V-Clamp,D8,,,,,1,,,,"Head Assembly, Differential Pivot"
-Digital Multimeter,D9,,,,,1,,,,PCB Testing
-Solder Iron,D10,,,,,1,,,,PCB Testing
+5/16 Wrench,D1,,,,,1,,,,"Rocker-Bogie, Mechanical Integration, Wheel Assembly, Differential Pivot"
+Vice or V-Clamp,D8,,,,,1,,,,"Differential Pivot, Head Assembly"
+USB to TTL Serial Adapter,E 48,,,,,1,,,,Electrical Build
