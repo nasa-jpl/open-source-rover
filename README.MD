@@ -170,6 +170,9 @@ When updating the build docs, make sure all parts have a part reference number (
 ## Happy building!!
 If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](https://www.tapatalk.com/groups/jpl_opensource_rover/).
 
+## Releases
+The rover has undergone some major changes since its initial release.  The resources and information in this repository (on the master branch) will always be the most up-to-date information about the rover.  However, if you are interested in older versions of the rover, you can see legacy releases of the OSR at https://github.com/nasa-jpl/open-source-rover/releases
+
  ## Project Team
  ### Project Lead:
  Michael (Mik) Cox
