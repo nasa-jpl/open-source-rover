@@ -105,4 +105,16 @@ X 2 2 150 50 100 L 30 30 1 1 U
 ENDDRAW
 ENDDEF
 #
+# rover_silkscreen
+#
+DEF rover_silkscreen y 0 40 Y Y 1 F N
+F0 "y" 0 0 50 H V C CNN
+F1 "rover_silkscreen" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 0 50 50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 #End Library

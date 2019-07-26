@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# #6THRU-HOLE-JPL_Robotics_Lib
+# #6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~#6THRU-HOLE-JPL_Robotics_Lib MH 0 40 Y Y 1 F N
+DEF ~#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue MH 0 40 Y Y 1 F N
 F0 "MH" 0 90 30 H V C CNN
-F1 "#6THRU-HOLE-JPL_Robotics_Lib" 0 140 30 H I C CNN
+F1 "#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue" 0 140 30 H I C CNN
 F2 "" 0 90 30 H I C CNN
 F3 "" 0 90 30 H I C CNN
 DRAW
@@ -14,11 +14,11 @@ C 0 0 58 0 1 0 f
 ENDDRAW
 ENDDEF
 #
-# 6posheader-JPL_Robotics_Lib
+# 6posheader-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~6posheader-JPL_Robotics_Lib J 0 40 N Y 1 F N
+DEF ~6posheader-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 N Y 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "6posheader-JPL_Robotics_Lib" 200 500 50 H I C CNN
+F1 "6posheader-JPL_Robotics_Lib-Monolithic-Board-rescue" 200 500 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -32,11 +32,11 @@ X 6 6 200 50 100 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ED1501-ND-JPL_Robotics_Lib
+# ED1501-ND-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ED1501-ND-JPL_Robotics_Lib J 0 40 N Y 1 F N
+DEF ED1501-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 N Y 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "ED1501-ND-JPL_Robotics_Lib" 100 300 50 H V C CNN
+F1 "ED1501-ND-JPL_Robotics_Lib-Monolithic-Board-rescue" 100 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -46,11 +46,11 @@ X 2 2 200 50 100 L 30 30 1 1 U
 ENDDRAW
 ENDDEF
 #
-# ED2580-ND-JPL_Robotics_Lib
+# ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ED2580-ND-JPL_Robotics_Lib J 0 40 N Y 1 F N
+DEF ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 N Y 1 F N
 F0 "J" 0 200 30 H V C CNN
-F1 "ED2580-ND-JPL_Robotics_Lib" 0 250 30 H V C CNN
+F1 "ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue" 0 250 30 H V C CNN
 F2 "" 0 200 30 H I C CNN
 F3 "" 0 200 30 H I C CNN
 DRAW
@@ -60,11 +60,11 @@ X 2 2 150 50 100 L 30 30 1 1 U
 ENDDRAW
 ENDDEF
 #
-# ED2627-ND-JPL_Robotics_Lib
+# ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~ED2627-ND-JPL_Robotics_Lib J 0 40 Y Y 1 F N
+DEF ~ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 Y Y 1 F N
 F0 "J" 150 550 39 H V C CNN
-F1 "ED2627-ND-JPL_Robotics_Lib" 100 800 50 H I C CNN
+F1 "ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue" 100 800 50 H I C CNN
 F2 "" 150 550 50 H I C CNN
 F3 "" 150 550 50 H I C CNN
 DRAW
@@ -78,11 +78,11 @@ X 6 6 -100 300 100 R 30 30 1 1 U
 ENDDRAW
 ENDDEF
 #
-# ED2744-ND-JPL_Robotics_Lib
+# ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~ED2744-ND-JPL_Robotics_Lib J 0 40 Y Y 1 F N
+DEF ~ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 Y Y 1 F N
 F0 "J" -50 300 39 H V C CNN
-F1 "ED2744-ND-JPL_Robotics_Lib" 0 500 50 H I C CNN
+F1 "ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue" 0 500 50 H I C CNN
 F2 "" -50 300 50 H I C CNN
 F3 "" -50 300 50 H I C CNN
 DRAW
@@ -96,11 +96,11 @@ X 6 6 -300 50 100 R 39 39 1 1 U
 ENDDRAW
 ENDDEF
 #
-# ED2989-ND-USB-JPL_Robotics_Lib
+# ED2989-ND-USB-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ED2989-ND-USB-JPL_Robotics_Lib J 0 40 Y Y 1 F N
+DEF ED2989-ND-USB-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 Y Y 1 F N
 F0 "J" -100 250 50 H V C CNN
-F1 "ED2989-ND-USB-JPL_Robotics_Lib" 0 350 50 H V C CNN
+F1 "ED2989-ND-USB-JPL_Robotics_Lib-Monolithic-Board-rescue" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -112,11 +112,11 @@ X GND 4 150 0 100 R 30 30 1 1 w
 ENDDRAW
 ENDDEF
 #
-# LM358-N-JPL_Robotics_Lib
+# LM358-N-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF LM358-N-JPL_Robotics_Lib OP 0 40 Y N 1 F N
+DEF LM358-N-JPL_Robotics_Lib-Monolithic-Board-rescue OP 0 40 Y N 1 F N
 F0 "OP" 310 490 30 H V C CNN
-F1 "LM358-N-JPL_Robotics_Lib" 110 490 30 H V C CNN
+F1 "LM358-N-JPL_Robotics_Lib-Monolithic-Board-rescue" 110 490 30 H V C CNN
 F2 "" 0 0 30 H I C CNN
 F3 "" 0 0 30 H I C CNN
 DRAW
@@ -153,11 +153,11 @@ X VCC 8 450 400 100 L 30 30 1 1 U
 ENDDRAW
 ENDDEF
 #
-# Mounting_Holes-JPL_Robotics_Lib
+# Mounting_Holes-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF Mounting_Holes-JPL_Robotics_Lib M 0 40 N N 1 F N
+DEF Mounting_Holes-JPL_Robotics_Lib-Monolithic-Board-rescue M 0 40 N N 1 F N
 F0 "M" 180 180 30 H V C CNN
-F1 "Mounting_Holes-JPL_Robotics_Lib" 280 230 30 H V C CNN
+F1 "Mounting_Holes-JPL_Robotics_Lib-Monolithic-Board-rescue" 280 230 30 H V C CNN
 F2 "" 180 180 30 H I C CNN
 F3 "" 180 180 30 H I C CNN
 DRAW
@@ -176,11 +176,11 @@ P 3 0 1 0 350 0 500 0 500 30 N
 ENDDRAW
 ENDDEF
 #
-# RoboClaw-JPL_Robotics_Lib
+# RoboClaw-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF RoboClaw-JPL_Robotics_Lib RC 0 40 Y Y 1 F N
+DEF RoboClaw-JPL_Robotics_Lib-Monolithic-Board-rescue RC 0 40 Y Y 1 F N
 F0 "RC" 250 900 30 H V C CNN
-F1 "RoboClaw-JPL_Robotics_Lib" 250 950 30 H V C CNN
+F1 "RoboClaw-JPL_Robotics_Lib-Monolithic-Board-rescue" 250 950 30 H V C CNN
 F2 "" 250 900 30 H I C CNN
 F3 "" 250 900 30 H I C CNN
 DRAW
@@ -213,11 +213,11 @@ X EN2A 9 -100 550 100 R 30 30 1 1 U
 ENDDRAW
 ENDDEF
 #
-# S7038-ND-JPL_Robotics_Lib
+# S7038-ND-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~S7038-ND-JPL_Robotics_Lib J 0 40 Y Y 1 F N
+DEF ~S7038-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 Y Y 1 F N
 F0 "J" 350 300 39 H V C CNN
-F1 "S7038-ND-JPL_Robotics_Lib" 250 500 50 H I C CNN
+F1 "S7038-ND-JPL_Robotics_Lib-Monolithic-Board-rescue" 250 500 50 H I C CNN
 F2 "" 350 300 50 H I C CNN
 F3 "" 350 300 50 H I C CNN
 DRAW
@@ -230,11 +230,11 @@ X 5 5 100 100 100 R 30 30 1 1 U
 ENDDRAW
 ENDDEF
 #
-# S9175-ND-JPL_Robotics_Lib
+# S9175-ND-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF S9175-ND-JPL_Robotics_Lib J 0 40 N Y 1 F N
+DEF S9175-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 N Y 1 F N
 F0 "J" 250 1250 50 H V C CNN
-F1 "S9175-ND-JPL_Robotics_Lib" 800 1250 50 H V C CNN
+F1 "S9175-ND-JPL_Robotics_Lib-Monolithic-Board-rescue" 800 1250 50 H V C CNN
 F2 "" 250 1250 50 H I C CNN
 F3 "" 250 1250 50 H I C CNN
 DRAW
@@ -282,11 +282,23 @@ X GND 9 100 900 100 R 30 30 1 1 U
 ENDDRAW
 ENDDEF
 #
-# test_point-JPL_Robotics_Lib
+# rover_silkscreen-Monolithic-Board-rescue
 #
-DEF ~test_point-JPL_Robotics_Lib T 0 40 N N 1 F N
+DEF rover_silkscreen-Monolithic-Board-rescue y 0 40 Y Y 1 F N
+F0 "y" -150 100 50 H V C CNN
+F1 "rover_silkscreen-Monolithic-Board-rescue" 0 -150 50 H V C CNN
+F2 "" -150 100 50 H I C CNN
+F3 "" -150 100 50 H I C CNN
+DRAW
+S 0 0 150 150 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# test_point-JPL_Robotics_Lib-Monolithic-Board-rescue
+#
+DEF ~test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T 0 40 N N 1 F N
 F0 "T" -25 75 50 H V C CNN
-F1 "test_point-JPL_Robotics_Lib" 150 250 50 H I C CNN
+F1 "test_point-JPL_Robotics_Lib-Monolithic-Board-rescue" 150 250 50 H I C CNN
 F2 "" -50 -50 50 H I C CNN
 F3 "" -50 -50 50 H I C CNN
 DRAW

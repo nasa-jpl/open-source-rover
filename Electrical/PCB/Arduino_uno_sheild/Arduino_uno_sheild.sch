@@ -560,4 +560,15 @@ Wire Wire Line
 	4400 3350 4400 3650
 Connection ~ 5200 3200
 Connection ~ 4400 3150
+$Comp
+L Arduino_uno_sheild-rescue:rover_silkscreen y1
+U 1 1 5D3EF344
+P 2500 4050
+F 0 "y1" H 2578 4075 50  0001 L CNN
+F 1 "rover_silkscreen" H 2578 4030 50  0001 L CNN
+F 2 "JPL Robotics:rover_image" H 2500 4050 50  0001 C CNN
+F 3 "" H 2500 4050 50  0001 C CNN
+	1    2500 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
