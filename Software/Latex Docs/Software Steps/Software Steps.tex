@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{setspace}
 \usepackage{graphicx}
@@ -220,6 +220,7 @@ Now, you must build the rover code packages so that ROS can run them on your Ras
 	\item[] Move to the directory containing the main OSR logic: \colorbox{lightgray}{cd /home/pi/osr/ROS}
 	\item[] Copy the OSR source files to the catkin workspace:
 	\item[] \colorbox{lightgray}{mv led\_screen/ osr/ osr\_bringup/ osr\_msgs/ /home/pi/osr\_ws/src}
+	\item[] Make all of the source files executable:  \colorbox{lightgray}{cd /home/pi/osr\_ws/src/osr/scripts \&\& chmod +x *.py}
 	\item[] Move back to your catkin workspace: \colorbox{lightgray}{cd /home/pi/osr\_ws}
 	\item[] Build the sensor\_msgs ROS package:
 	\item[] \colorbox{lightgray}{\parbox{0.9\textwidth}{rosinstall\_generator sensor\_msgs --rosdistro kinetic --deps --wet-only --tar \textgreater kinetic-sensor\_msgs-wet.rosinstall}}
@@ -242,43 +243,45 @@ Now, you must build the rover code packages so that ROS can run them on your Ras
 \end{itemize}
 
 \subsection{Running the Rover Code Manually}
-At this point, all the code should be ready to run on your rover!  You can start the rover code by running the following commands in a terminal:
+At this point, all the code should be ready to run on your rover!  You can start the rover code by running the following command in a terminal:
 \begin{itemize}
-	\item[] Run the roslaunch command (read more about roslaunch at http://wiki.ros.org/roslaunch): \colorbox{lightgray}{roslaunch osr\_bringup osr.launch}
+	\item[] Run the roslaunch command (read more about roslaunch at \href{http://wiki.ros.org/roslaunch}{http://wiki.ros.org/roslaunch}):
+	\item[] \colorbox{lightgray}{roslaunch osr\_bringup osr.launch}
 \end{itemize}
 
-\noindent You should now see the rover trying to launch all its ros "nodes", which are the various parts of the robot that all communicate to each other.  Figure \ref{ros architecture} more information about the ROS ecosystem on this rover:
+\noindent You should now see the rover trying to launch all its ROS "nodes", which are the various parts of the robot that all communicate to each other.  Figure \ref{ros architecture} shows more information about the ROS ecosystem on this rover:
 \begin{figure}[H]
 	\centering
-   \includegraphics[width=1\textwidth]{"Pictures/ROS_architecture".PNG}
+	\includegraphics[width=1\textwidth]{"Pictures/ROS_architecture".PNG}
 	\caption{OSR ROS Architecture}
-   \label{ros architecture}
+	\label{ros architecture}
 \end{figure}
 
-You can read more details about the software / ROS architecture in the README document in the osr-rover-code repository at \href{https://github.com/nasa-jpl/osr-rover-code/tree/osr-ROS}{https://github.com/nasa-jpl/osr-rover-code/tree/osr-ROS}.
+You can find more details about the software / ROS architecture in the README document in the osr-rover-code repository at \href{https://github.com/nasa-jpl/osr-rover-code/tree/osr-ROS}{https://github.com/nasa-jpl/osr-rover-code/tree/osr-ROS}.
 
 \bigskip 
 
-\noindent If you wish to control the rover in manners other than an Xbox controller, all that must be done is to publish commands onto the "/joystick" topic using the Joystick message type from osr\_msgs. To do this you would just have to write a node to read in whatever control method you wish, and output it into that format and the rest of the ROS structure will work with that.
+\noindent If you wish to control the rover in any manner other than with an Xbox controller, you can do so by publishing commands onto the "/joystick" topic using the Joystick message type from osr\_msgs. To do this, you would simply write a ROS node to read in whatever control method you wish and output a corresponding Joystick message. The rover's ROS ecosystem will see these Joystick messages and drive the rover based on your commands!
 
 \subsection{Init Script}
 
-Starting scripts on boot using ROS is a little bit more difficult than starting scripts on boot normally from the Raspberry Pi, this has to do with permissions on the RPi and that ROS cannot be ran as root user. Instead the way that we will be creating an init script is to create a service that starts our roslaunch script, and then run that service on boot of the robot. Information on how we did this can be found at: 
+Starting scripts on boot using ROS can be a little more difficult than starting scripts on boot normally from the Raspberry Pi because of the default permission settings on the RPi and the fact that that ROS cannot be ran as the root user. The way that we will starting our rover code automatically on boot is to create a service that starts our roslaunch script, and then automatically run that service on boot of the robot. Further information on system service scripts running at boot can be found at: 
 
 \begin{itemize}
 	\item \href{https://www.linode.com/docs/quick-answers/linux/start-service-at-boot/}{https://www.linode.com/docs/quick-answers/linux/start-service-at-boot/}. 
 \end{itemize}
 
-There are two scripts in the software under the Init Scripts folder, one of which is the bash file to run the roslaunch file, and the other creates a service to start that bash script. Open up a terminal on the raspberry Pi and navigate to inside the Init Script folder and the following commands.
+There are two scripts in the "Software/Init Scripts" folder. The first is the bash file that runs the roslaunch file, and the other creates a system service to start that bash script. Open up a terminal on the raspberry Pi and execute the following commands.
 
 \begin{itemize}
+	\item[] \colorbox{lightgray}{cd /home/pi/osr/Init\textbackslash\ Scripts}
 	\item[] \colorbox{lightgray}{sudo cp LaunchOSR.sh /usr/bin/LaunchOSR.sh}
 	\item[] \colorbox{lightgray}{sudo chmod +x /usr/bin/LaunchOSR.sh}
 	\item[] \colorbox{lightgray}{sudo cp osr\_startup.service /etc/systemd/system/osr\_startup.service}
 	\item[] \colorbox{lightgray}{sudo chmod 644 /etc/systemd/system/osr\_startup.service}
 \end{itemize}
 
-\noindent The following are commands related to managing this service which you might find useful
+\noindent Your osr\_startup service is now installed on the Pi and ready to be used. The following are some commands related to managing this service which you might find useful:
 
 \begin{table}[H]
 	\centering
@@ -294,6 +297,12 @@ There are two scripts in the software under the Init Scripts folder, one of whic
 		\end{tabular}
 \end{table}
 
-Once you have fully tested the robot and made sure that everything is running correctly as you wish we you should add enable the startup service on the robot. We do not recommend adding it until that point though, as when you turn on the RPi it will try and run everything, which might be bad if not everything has been fully tested and verified yet. Additionally if you are doing development of your own software for the robot we suggest disabling the service and doing manual launch of the scripts during testing phases. 
+\textbf{Note: We do not recommend enabling the service until you have verified that everything on your robot runs successfully manually.  Once you enable the service, as soon as you power on the RPi it will try and run everything. This could cause issues if everything has not yet been fully tested and verified. Additionally, if you are doing development of your own software for the robot we suggest disabling the service and doing manual launch of the scripts during testing phases. This will help you more easily debug any issues with your code.} Once you have fully tested the robot and made sure that everything is running correctly by starting the rover code manually via \colorbox{lightgray}{roslaunch osr\_bringup osr.launch}, enable the startup service on the robot with the command below:
+
+\begin{itemize}
+	\item[] \colorbox{lightgray}{sudo systemctl enable osr\_startup.service}
+\end{itemize}
+
+At this point, your rover should be fully functional and automatically run whenever you boot it up!  Congratulations and happy roving!!
 
 \end{document}
