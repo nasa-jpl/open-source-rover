@@ -124,19 +124,22 @@ In this section, we'll go over setting up the Raspberry Pi and setting up all th
 
 \subsection{Getting the Raspberry Pi running}
 The first step is to install Raspbian on your Raspberry Pi. To install Raspbian,
-we recommend following the "Getting started with Raspberry Pi" tutorial at:
+we recommend following the "Getting started with Raspberry Pi" tutorial below.  \textbf{**NOTE: These instructions were tested and verified using Raspbian Stretch.  Newer versions of Raspbian (such as Buster) may cause complications with these instructions.  We therefore recommend installing Raspbian Stretch instead of the latest/default version of Raspbian, which the tutorial below will recommend.  Do not flash NOOBS onto your card; instead download the Raspbian Streth image below and skip the NOOBS step in the tutorial.}  In addition, we have created a pre-built image with both Raspbian Stretch and ROS already installed.  You can download this image as a last resort if you can't get Raspbian and ROS installed and working on your own, but please note that you will miss out on some the learning opportunities that come with debugging a software installation by doing so.  
 
 \begin{enumerate}
+	\item[] Tutorial for installing the latest version of Raspbian on a new Raspberry Pi:
 	\item[] \href{https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started}{https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started}
+	\item[] Direct downloadable Raspbian Stretch image: 
+	\item[] \href{https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip}{https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip}
+	\item[] Custom JPL image with both Raspbian Stretch and ROS pre-built:
+	\item[] \href{https://drive.google.com/open?id=18Tzx2tzmwUHOpBue-Hew3XYpXZIEQpiF}{https://drive.google.com/open?id=18Tzx2tzmwUHOpBue-Hew3XYpXZIEQpiF}
+	\item[] \textbf{**NOTE: If you install the Custom JPL image with Raspbian Stretch and ROS pre-built, skip to step 2.4.} 
 \end{enumerate}
 
-Once you finish the above tutorial, you should be able to boot your Raspberry Pi and see a desktop!
-
-
-
+\noindent Once you finish the above tutorial and install Raspbian Stretch, you should be able to boot your Raspberry Pi and see a desktop!
 
 \subsection{Installing ROS}
-Now that we have a clean installation of Raspbian, we need to install ROS.
+If you do not download the pre-built Raspbian Stretch / ROS image above, you will need to build ROS yourself:
 
 First, make sure you update all the packages on your pi:
 \begin{itemize}
@@ -203,11 +206,8 @@ On the Raspberry Pi, open up a terminal \textbf{(ctl + alt + t)} and then type t
 	\item[] Move to your home directory: \colorbox{lightgray}{cd /home/pi}
 	\item[] Clone the rover code repository: \colorbox{lightgray}{git clone https://github.com/nasa-jpl/osr-rover-code osr}
 	\item[] Move into the directory you just cloned: \colorbox{lightgray}{cd osr}
-	\item[] Check out the osr-ROS branch: \colorbox{lightgray}{git checkout osr-ROS}
 	\item[] Pull to make sure you have the latest code: \colorbox{lightgray}{git pull}
 \end{itemize}
-
-\textcolor{red}{Change path name once merged into master}
 
 \subsection{Building the Rover Code to work with your ROS installation}
 Now, you must build the rover code packages so that ROS can run them on your Raspberry Pi.  To do this, run the following commands in a terminal:
