@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{setspace}
 \usepackage{graphicx}
@@ -428,7 +428,7 @@ This document goes through the process of assembling and testing the custom Prin
     \includegraphics[width=\textwidth]{"img/Pictures/Assembly/fuse".jpg}
   \end{minipage}
   \caption{Fuse and Diode Soldering}
-  \label{assem_10}
+  \label{fuse_diode}
 \end{figure}
 
 \end{enumerate}
@@ -648,8 +648,7 @@ This next section will go over the process of integrating the electronics onto t
          Tamiya Battery Connectors & E35 & 1 & \partimg{../../../images/components/Electronics/E35.PNG} & Red 20 AWG & X1 & 1 & \partimg{../../../images/components/Wiring/X1.PNG} \\ \hline
 	Black 20 AWG & X2 & 1 & \partimg{../../../images/components/Wiring/X2.PNG} & 5V Regulator & E22 & 1 & \partimg{../../../images/components/Electronics/E22.PNG} \\ \hline
 	12V Regulator & E23 & 1 & \partimg{../../../images/components/Electronics/E23.PNG} & RoboClaw Motor Controller & E20 & 5 & \partimg{../../../images/components/Electronics/E20.PNG} \\ \hline
-	Op-Amp LM358P & E25 & 2 & \partimg{../../../images/components/Electronics/E25.PNG} & Micro USB Cable & E27 & 1 & \partimg{../../../images/components/Electronics/E27.PNG} \\ \hline 
-	GPIO Ribbon Cable & E28 & 1 & \partimg{../../../images/components/Electronics/E28.PNG} & & & & \\ \hline
+	Op-Amp LM358P & E25 & 2 & \partimg{../../../images/components/Electronics/E25.PNG} & Micro USB Cable & E28 & 1 & \partimg{../../../images/components/Electronics/E28.PNG} \\ \hline
     \end{tabular}
 \end{table}
 
@@ -710,8 +709,8 @@ This next section will go over the process of integrating the electronics onto t
   \begin{minipage}[b]{0.55\textwidth}
     \includegraphics[width=\textwidth]{"img/Pictures/Assembly/rc_wires".jpg}
   \end{minipage}
-  \label{roboclaw_power_wires}
   \caption{RoboClaw power/motor wires}
+  \label{roboclaw_power_wires}
 \end{figure}
 
 
@@ -771,7 +770,7 @@ Press the Op-Amp LM358P \textbf{E25} into the slots in the 8 Position DIP socket
 
 \subsubsection{Voltage Divider Verification}
 
-Now that the Op-amps are installed we want to check and make sure the voltage dividers are working correctly. To do this Jumper between the we will use the 5V line for the power of the motors on each block and feed it back into the analog read signal, and see what voltage it gets divided down to. On the motor connectors for each corner motor (J23-26) use a jumper wire and connect the 5V signal line to the ENx line. Then using a DMM measure the voltage between each of the following test pads and GND and compare the values to the expected voltage ranges below.
+Now that the Op-amps are installed we want to check and make sure the voltage dividers are working correctly. To do this, we will run power from the motors directly back into the analog read signal, and see what voltage it gets divided down to. On the motor connectors for each corner motor (J23-26), use a jumper wire to connect the 5V signal line to the ENx line. Then, use a DMM to measure the voltage between each of the following test pads and GND and compare the values to the expected voltage ranges in Table \ref{voltage_divider_table}:
 
 \begin{table}[H]
     \centering
@@ -781,21 +780,22 @@ Now that the Op-amps are installed we want to check and make sure the voltage di
     \caption{Parts/Tools Necessary}
 	\begin{tabular}{| l | l | l |}
 		\hline
-		\thead{Signal} & \thead{Test Pad} & \thead{Voltage (V)} \\ \hline
+		\thead{Signal} & \thead{Test Pad} & \thead{Voltage (to ground, in Volts)} \\ \hline
 		OP amp Power                  & T13   & 5 \\ \hline
-		M7 Encoder signal divided  & T7  & 1.5- 2.0 \\ \hline
+		M7 Encoder signal divided  & T7  & 1.5 - 2.0 \\ \hline
 		M7 Encoder raw                & T9  & 5 \\ \hline
 		M7 Encoder after Op-amp  & T11 & 1.5 - 2.0 \\ \hline
-		M8 Encoder signal divided  & T18  & 1.5- 2.0 \\ \hline
+		M8 Encoder signal divided  & T18  & 1.5 - 2.0 \\ \hline
 		M8  Encoder raw               & T20  & 5 \\ \hline
 		M8 Encoder after Op-amp  & T16 & 1.5 - 2.0 \\ \hline
-		M9 Encoder signal divided  & T8  & 1.5- 2.0 \\ \hline
+		M9 Encoder signal divided  & T8  & 1.5 - 2.0 \\ \hline
 		M9  Encoder raw               & T10  & 5 \\ \hline
 		M9 Encoder after Op-amp  & T12 & 1.5 - 2.0 \\ \hline
-		M10 Encoder signal divided & T19 & 1.5- 2.0 \\ \hline
+		M10 Encoder signal divided & T19 & 1.5 - 2.0 \\ \hline
 		M10  Encoder raw              & T21  & 5 \\ \hline
 		M10 Encoder after Op-amp  & T17 & 1.5 - 2.0 \\ \hline
-	\end{tabular}
+  \end{tabular}
+  \label{voltage_divider_table}
 \end{table}
 
 \subsubsection{RoboClaw Testing and Verification}

@@ -4,3 +4,6 @@
 [submodule "Software/rover_code"]
 	path = Software/rover_code
 	url = https://github.com/nasa-jpl/osr-rover-code
+[submodule "Software/rover-code"]
+	path = Software/rover-code
+	url = https://github.com/nasa-jpl/osr-rover-code
