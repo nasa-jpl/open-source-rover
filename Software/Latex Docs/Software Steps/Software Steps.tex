@@ -92,44 +92,6 @@ In this section we will be flashing the code that runs on the arduino to control
 \item Clone the code repo:
 	\begin{enumerate}
 	\item git clone https://github.com/nasa-jpl/osr-rover-code.git
-	\item git pull
-	\end{enumerate}
-
-\item Build our custom library:
-	\begin{enumerate}
-	\item Select the downloaded Arduino folder and create a .ZIP file from it
-	\item Rename the Zip file to OsrScreen.zip
-	\end{enumerate}
-
-\item Load the sketch onto the Arduino
-	\begin{enumerate}
-	\item Unplug the Arduino shield JST cable so the Arduino isn't powered by the control board
-	\item Connect the Arduino to your development machine with USB cable
-	\item Open Arduino IDE
-	\item Select Sketch - Include Library - Add .Zip Library 
-	\item Select the OsrScreen.zip folder created previously
-	\item Click the Upload button in the Sketch Window	
-	\end{enumerate}
-
-\item To load the example in the Arduino IDE: 
-	\begin{enumerate}
-	\item File - Examples - OsrScreen - OsrScreen 
-	\end{enumerate}
-
-\end{enumerate}
-
-\section{Flashing the Arduino Code}
-
-In this section we will be flashing the code that runs on the arduino to control the LED matrix in the head. The following steps should be performed on your laptop or development machine (not the raspberry pi)
-
-\begin{enumerate} 
-\item Install the Arduino IDE used for loading code onto the arduino:
-
-	\href{https://www.arduino.cc/en/Main/Software}{https://www.arduino.cc/en/Main/Software}
-
-\item Clone the code repo:
-	\begin{enumerate}
-	\item git clone https://github.com/nasa-jpl/osr-rover-code.git
 	\item git checkout osr-ROS
 	\item git pull
 	\end{enumerate}
