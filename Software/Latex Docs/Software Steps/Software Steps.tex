@@ -148,7 +148,18 @@ First, make sure you update all the packages on your pi:
 \end{itemize} 
 (The above commands may take a few minutes to run.)
 
-Next, we will install ROS (and specifically, the version called 'Kinetic').  To install ROS, follow the installation instructions at:
+\bigskip
+
+\noindent Next, we will install ROS (and specifically, the version called 'Kinetic').
+
+\textbf{NOTE: Follow the ROS installation directions in the link below CAREFULLY!  Do not ignore warnings, as they will lead to issues later in the installation.  Some known "gotchas" to note before you get started are:}
+\begin{enumerate}
+	\item[] - Make sure you install the Kinetic "desktop\_full" version of ROS, not the desktop ros-comm, or other versions.
+	\item[] - ROS changed their GPG keys as of June 7 2019.  The ROS install instructions do not mention this as of July 2019 and will not work unless you update your GPG keys. See \href{https://discourse.ros.org/t/new-gpg-keys-deployed-for-packages-ros-org/9454}{https://discourse.ros.org/t/new-gpg-keys-deployed-for-packages-ros-org/9454} for instructions on how to update your GPG keys. 
+	\item[] - Make sure you follow directions for KINETIC, not Indigo, Melodic, or any other ROS version. 
+\end{enumerate}
+
+\noindent Once you familiarize yourself with the above issues, go ahead and complete your ROS installation by following the instructions at:
 \begin{enumerate}
 	\item[] \href{http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi}{http://wiki.ros.org/ROSberryPi/Installing\%20ROS\%20Kinetic\%20on\%20the\%20Raspberry\%20Pi}
 \end{enumerate}
