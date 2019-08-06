@@ -78,8 +78,8 @@ This project has elements in mechanical assembly/fabrication, uses a host of ele
    * Wiring
    * Electrical Safety
  * __Software:__ The rover's brain is a Raspberry Pi.  Included in this repository is all the software ready to run the rover, but some  knowledge is required for getting everything up and ready on the Raspberry Pi:
-   * Basic Linux familarity
-   * Basic Python familarity
+   * Basic Linux familiarity
+   * Basic Python familiarity
 
 Most of the above are skills that you can learn and pick up fairly quickly from watching videos and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well.  See the build documents for more information.
 
@@ -107,7 +107,7 @@ This project assumes you have some standard tools to help assemble the project. 
  * Power Supply (to test without using battery)
 
 ### Expected time commitment
-In our experience, this project takes no less than 200 person-hours to build, and depending on the familarity and skill level of those involved could be significantly more. Experienced builders may be able to build this project in this amount of time.  However, this project is generally meant to be a teaching and learning tool.  Throughout the documentation, we try to give supplemental information for those who might be new to this kind of project.
+In our experience, this project takes no less than 200 person-hours to build, and depending on the familiarity and skill level of those involved could be significantly more. Experienced builders may be able to build this project in this amount of time.  However, this project is generally meant to be a teaching and learning tool.  Throughout the documentation, we try to give supplemental information for those who might be new to this kind of project.
 
 # Disclaimer
 **Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. Government sponsorship acknowledged.**
@@ -161,11 +161,9 @@ Above is an example roadmap of how you can build the rover and which parts of th
  * __Stage 7:__ Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
 
 ## Building the Master Parts List
-Anytime parts are changed in the build docs, you must rebuild the master parts list by running the python script `build_parts_list.py`.  
-To run you must have python installed, any version should work, but the newer the better. There are no libraries or dependencies to install.  
-Now in the root of this repo, run the command: `python build_parts_list.py` (or `python3 build_parts_list.py` for Python3).  This script will create a new `master_parts_list_raw.csv` and `master_parts_list.xlsx`, both of which need to be commited when making changes to the parts list.
+Anytime parts are changed in the build docs, you must rebuild the master parts list by running the `init.sh` script, which in turn runs the `build_parts_list.py` script after installing the necessary dependencies.  This script will create a new `master_parts_list_raw.csv` and `master_parts_list.xlsx`, both of which need to be committed when making changes to the parts list.
 
-When updating the build docs, make sure all parts have a part reference number (S1, E20, etc). If you are adding a new part, be sure to also add it to the `parts_list_reference.csv`. That file is the source of truth for the name of the part, and also contains information like the price, model, manufacturer, and link to the part. In that file, you can also overide the quantity to order for the project in case the quantities in the build documents aren't representative of the total number of parts required.
+When updating the build docs, make sure all parts have a part reference number (S1, E20, etc). If you are adding a new part, be sure to also add it to the `parts_list_reference.csv`. That file is the source of truth for the name of the part, and also contains information like the price, model, manufacturer, and link to the part. In that file, you can also override the quantity to order for the project in case the quantities in the build documents aren't representative of the total number of parts required (for example, some electrical components like resistors or capacitors are inexpensive and are also prone to failure, so we use the override to recommend buying a couple extras).
 
 ## Happy building!!
 If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](https://www.tapatalk.com/groups/jpl_opensource_rover/).
