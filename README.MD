@@ -139,7 +139,7 @@ The Bill of Materials folder contains (currently just one) Bill of materials fil
 In addition to ordering all of the parts on the parts list, we recommend that some pieces be 3D printed and laser cut. If you do not have access to a 3D printer or laser cutter, we've added some online services as examples for where you can get those manufactured and shipped to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body%20Assembly/Body%20Build%20Doc.pdf),  [Corner Steering Build Doc](Mechanical/Corner%20Steering/Corner%20Steering%20Build%20Doc.pdf), and [Head Assembly Build Doc](Mechanical/Head%20Assembly/Head%20Assembly%20Build%20Doc.pdf).
 
 #### Printed Circuit Boards (PCBs)
-There are a few single purpose circuit boards that were designed for this project. You could construct these circuits on a prototyping breadboard instead of ordering the PCBs if you wish (we have included the schematics in the Electrical section), but we have included the PCB board files as it greatly simplifies the build. You can find these files at [PCB Files](Electrical/PCB%20board%20files%20and%20schematics/Board%20files). These can be ordered at [Osh Park](https://oshpark.com/) by dropping each of the .zip files. 
+The main electrical system of this rover relies on a custom printed circuit board (PCB) that handles the routing between the majority of the electrical components.  This board greatly simplifies the build process and eliminates the need for you to route all the wires yourself. You can find the PCB board files at [PCB Files](Electrical/PCB%20board%20files%20and%20schematics/Board%20files). These can be ordered at [JLCPCB](https://jlcpcb.com/) by dropping each of the .zip files (these .zip files contain "gerber" files, a typical file format for PCB boards). 
 
 ### Rover Build Roadmap
 
@@ -182,7 +182,7 @@ The rover has undergone some major changes since its initial release.  The resou
  Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Jim Rinaldi, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
 
 ## Additional Projects!
-We recognize that there might be a some individuals, hobbyists, and groups that might be prohobited in participating in this project because of the skills/tools necessary, or the budget. We'd like to give the information to a similar project that was designed by someone who was inspired after participating in our open source rover beta group to design one for around $500, and heavily utilizing 3D printing. We think this project would be espeically great as a hobby project, and appropriate for those just getting into some of these areas, or someone looking to spend a little less money. 
+We recognize that there might be a some individuals, hobbyists, and groups that might be hesitant or unable to build the Open Source Rover due to skills/tools necessary, or budgetary constraints. We'd like to give the information to a similar project that was designed by someone who was inspired after participating in our open source rover beta group to design one for around $500, and heavily utilizing 3D printing. We think this project would be especially great as a hobby project, and appropriate for those just getting into some of these areas, or someone looking to spend a little less money. 
 
 https://hackaday.io/project/158208-sawppy-the-rover
 
