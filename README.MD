@@ -52,6 +52,10 @@ Using the above ports, you could theoretically drive the rover autonomously from
 For the power system of the rover, there is also ample spare power which can be used for your own addons and upgrades.  See the [Electrical subsystem documentation](Electrical/) for more specific details.
 
 ### Online 3D Model
+<img src="images/onshape/rover.png" width="100%"/>
+<p><img src="images/onshape/body.png" width="32%"/>
+<img src="images/onshape/rocker-bogie.png" width="32%"/>
+<img src="images/onshape/pcb.png" width="32%"/></p>
 Huge thanks to @toebes for building out an Onshape model of the Open Source Rover!!  That model can be viewed at https://cad.onshape.com/documents/5c358484057fc4c01d5e5803/w/bdf583acdf29d75695be5fbc/e/e3eb7193ecdec5b0a710978b.
 
 The model above includes the state of the rover at each individual step throughout our build instructions!!!  Therefore, you should be able to reference the online 3D model in addition to the photos in the build instructions as you are building to ensure your build is going well.
