@@ -7,23 +7,6 @@ This is a feature testing branch for an electronics rework, for moving towards a
 ## Disclaimer
 This information is not fully tested yet, and is being put here as a development branch incase some want to start working on these parts. It will eventually be added into the main repositiory once testing has been completed and documentation added. Until then this will be incomplete for information as things will be changing rapidly. 
 
-## TODO
-Things left to do for this branch and the information to incorporated into the master branch. These are all things that we greatly welcome feedback and assistance on if anyone is wanting to contribute!
-
-  * Finalize PCB Designs for both the RoboClaw breakout board and Arduino Sheild
-  * Testing done on REV-C and REV-A on respective boards
-  * Assembly Documentation written for both boards
-  * Testing procedure written for both boards
-  * Update CAD to incorporate new board mounting system
-    * Battery mounting system
-    * New Body Assembly
-  * Assembly docs for new CAD
-  * Upload all KiCAD files/libraries used for the PCBs
-  * Sofware
-    * Arduino Code written to run LED screen
-    * USB-> TTL serial code written for RPi to communicate to arduino to give commands for LED screen
-  * Finalize electrical build docuemtnation and integration
-
 
 ## Board ordering/assembly
 
@@ -50,6 +33,3 @@ To order these boards we suggest that you order from `add link to jlpcb`, this P
   * Castellated Holes - No
   * Different Design - 1
 
-## Contributing to this branch
-
-Again we greatly appreciate anyone who wants to help with this process. There are issues with all of the TODO items, if you wish to help with anything else feel free to open an issue with that and we will try and respond to that as well.
