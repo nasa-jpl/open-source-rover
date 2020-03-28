@@ -85,7 +85,7 @@ Dual Side mount A,S17,585470,ServoCity,https://www.servocity.com/90-dual-side-mo
 "Bore Clamping Hub for 1"" PVC",S24,545512,ServoCity,https://www.servocity.com/1-315-pvc-clamp-hub-b,1,2,2,$9.99 ,$19.98,"Body, Head Assembly"
 25mm Bore Side Tapped Clamping Mount,S25,545680,ServoCity,https://www.servocity.com/25mm-bore-tube-clamp,1,6,6,$6.99 ,$41.94,Wheel Assembly
 Plain Bore Gear,S26,RHA32-36-48,ServoCity,https://www.servocity.com/32-pitch-acetyl-hub-gears-0-1875-face#199=15,1,4,4,$5.20 ,$20.80,Wheel Assembly
-Shaft Mount Pinion Gear,S27,615362,ServoCity,https://www.servocity.com/0-125-1-8-bore-32p-shaft-mount-pinion-gear,1,4,4,$7.99 ,$31.96,Corner Steering
+Shaft Mount Pinion Gear (16 Tooth),S27,KPL32-32-16,ServoCity,https://www.servocity.com/0-125-1-8-bore-32p-shaft-mount-pinion-gears-steel#199=100,1,4,4,$5.99 ,$23.96,Corner Steering
 Custom Acrylic Electronics Board,S28,,Sculpteo,https://www.sculpteo.com/,1,1,1,$15.25 ,$15.25,
 5 Foot PVC,S29,48925K93,McMaster,https://www.mcmaster.com/48925k93,1,1,1,$5.28 ,$5.28,Head Assembly
 "3.75"" Channel",S3,585443,ServoCity,https://www.servocity.com/3-75-channel,1,4,4,$4.49 ,$17.96,Rocker-Bogie
@@ -127,11 +127,11 @@ M2.5 x 10 mm Standoff,T10,95947A005,McMaster,https://www.mcmaster.com/95947a005,
 "#2-56 x 1/2"" Standoff",T11,91780A032,McMaster,https://www.mcmaster.com/91780a032,1,20,20,$0.41 ,$8.20,PCB Assembly
 #4-40 Heat Set Inserts,I1,93365A120,McMaster,https://www.mcmaster.com/93365a120,100,8,1,$10.82 ,$10.82,Head Assembly
 #6-32 Heat Set Inserts,I2,93365A130,McMaster,https://www.mcmaster.com/93365a130,100,4,1,$12.92 ,$12.92,Body
-Allen Key Set,D2,,,,,1,,,,"Wheel Assembly, Rocker-Bogie, Differential Pivot, Mechanical Integration, Body, Corner Steering"
+Allen Key Set,D2,,,,,1,,,,"Wheel Assembly, Rocker-Bogie, Corner Steering, Body, Mechanical Integration, Differential Pivot"
 Center punch or Starter drill bit,D7,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Hand Drill or Drill Press,D3,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 Drill bit \#23,D6,,,,,1,,,,"Wheel Assembly, Differential Pivot"
-Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Wheel Assembly, Rocker-Bogie, Differential Pivot, Head Assembly"
+Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Rocker-Bogie, Head Assembly, Wheel Assembly, Differential Pivot"
 Vice clamp or C Clamps,D5,,,,,1,,,,"Wheel Assembly, Differential Pivot"
-5/16 Wrench,D1,,,,,1,,,,"Rocker-Bogie, Wheel Assembly, Mechanical Integration, Differential Pivot"
-Vice or V-Clamp,D8,,,,,1,,,,"Differential Pivot, Head Assembly"
+5/16 Wrench,D1,,,,,1,,,,"Rocker-Bogie, Mechanical Integration, Wheel Assembly, Differential Pivot"
+Vice or V-Clamp,D8,,,,,1,,,,"Head Assembly, Differential Pivot"
