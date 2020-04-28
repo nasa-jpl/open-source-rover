@@ -12,13 +12,11 @@ This information is not fully tested yet, and is being put here as a development
 
 If you do wish to purchase these boards/items previous to the final release to help test/document and contribute to the project we would greatly appreciate the help! There is an excel spreadsheet here which has a parts list of all things necessary.
 
-`ADD LINK TO SPREADSHEET`
+[Master Parts List](../master_parts_list.xlsx)
 
-In here currently are just the gerber files necessary to order the boards in their current revision. Eventually I will upload the libraries/kicad files so everyone can make edits to them, but in order to just get information up here it will just be the gerbers at first. They can be found at:
+In here currently are just the gerber files necessary to order the boards in their current revision. Eventually I will upload the libraries/kicad files so everyone can make edits to them, but in order to just get information up here it will just be the gerbers at first. They can be found in [the PCB folder](/Electrical/PCB/).
 
-`ADD LINK TO GERBER FILES`
-
-To order these boards we suggest that you order from `add link to jlpcb`, this PCB fabrication company is quite inexpensive for this board area and has good turnaround time. Upload the .zip files individually and make sure the following settings are set:
+To order these boards we suggest that you order from [JLCPCB](https://jlcpcb.com/), this PCB fabrication company is quite inexpensive for this board area and has good turnaround time. Upload the .zip files individually and make sure the following settings are set:
 
   * Layers - 2
   * Dimension - 53 x 69 mm (arduino sheild) & 175 x 154 mm (roboclaw breakout) 
