@@ -92,7 +92,7 @@ In this section we will be flashing the code that runs on the arduino to control
 \item Download the Arduino code:
 	\begin{enumerate}
 	\item Navigate to \href{https://github.com/nasa-jpl/osr-rover-code}{https://github.com/nasa-jpl/osr-rover-code} and click the green 'Clone or download' button. Choose 'Download ZIP'.
-	\item Unzip/extract and open the zip file, then create a new zip file named OsrScreen.zip from the Arduino folder inside the folder you just unzipped.
+	\item Unzip/extract and open the downloaded zip file. Then, select the Arduino folder and create a new zip file of just that Arduino folder. Name it OsrScreen.zip
 	\end{enumerate}
 
 \item Load the sketch onto the Arduino
@@ -100,14 +100,14 @@ In this section we will be flashing the code that runs on the arduino to control
 	\item Unplug the Arduino shield JST cable so the Arduino isn't powered by the control board
 	\item Connect the Arduino to your development machine with USB cable
 	\item Open Arduino IDE
-	\item Select Sketch - Include Library - Add .Zip Library
+	\item Select Sketch - Include Library - Add .Zip Library 
 	\item Select the OsrScreen.zip folder created previously
-	\item Click the Upload button in the Sketch Window
+	\item Click the Upload button in the Sketch Window	
 	\end{enumerate}
 
-\item To load the example in the Arduino IDE:
+\item To load the example in the Arduino IDE: 
 	\begin{enumerate}
-	\item File - Examples - OsrScreen - OsrScreen
+	\item File - Examples - OsrScreen - OsrScreen 
 	\end{enumerate}
 
 \end{enumerate}
@@ -120,16 +120,16 @@ and it is not guaranteed that those will work.
 
 \subsection{Getting the Raspberry Pi running}
 The first step is to install Raspbian on your Raspberry Pi. To install Raspbian,
-we recommend following the "Getting started with Raspberry Pi" tutorial below.  \textbf{**NOTE: These instructions were tested and verified using Raspbian Stretch.  Newer versions of Raspbian (such as Buster) may cause complications with these instructions.  We therefore recommend installing Raspbian Stretch instead of the latest/default version of Raspbian, which the tutorial below will recommend.  Do not flash NOOBS onto your card; instead download the Raspbian Streth image below and skip the NOOBS step in the tutorial.}  In addition, we have created a pre-built image with both Raspbian Stretch and ROS already installed.  You can download this image as a last resort if you can't get Raspbian and ROS installed and working on your own, but please note that you will miss out on some the learning opportunities that come with debugging a software installation by doing so.
+we recommend following the "Getting started with Raspberry Pi" tutorial below.  \textbf{**NOTE: These instructions were tested and verified using Raspbian Stretch.  Newer versions of Raspbian (such as Buster) may cause complications with these instructions.  We therefore recommend installing Raspbian Stretch instead of the latest/default version of Raspbian, which the tutorial below will recommend.  Do not flash NOOBS onto your card; instead download the Raspbian Streth image below and skip the NOOBS step in the tutorial.}  In addition, we have created a pre-built image with both Raspbian Stretch and ROS already installed.  You can download this image as a last resort if you can't get Raspbian and ROS installed and working on your own, but please note that you will miss out on some the learning opportunities that come with debugging a software installation by doing so.  
 
 \begin{enumerate}
 	\item[] Tutorial for installing the latest version of Raspbian on a new Raspberry Pi:
 	\item[] \href{https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started}{https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started}
-	\item[] Direct downloadable Raspbian Stretch image:
+	\item[] Direct downloadable Raspbian Stretch image: 
 	\item[] \href{https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip}{https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip}
 	\item[] Custom JPL image with both Raspbian Stretch and ROS pre-built:
 	\item[] \href{https://drive.google.com/drive/folders/1RbYWDRthpcktqkPEHb7qVqDiy27EiAc1}{https://drive.google.com/drive/folders/1RbYWDRthpcktqkPEHb7qVqDiy27EiAc1}
-	\item[] \textbf{**NOTE: If you install the Custom JPL image with Raspbian Stretch and ROS pre-built, skip to step 2.4.}
+	\item[] \textbf{**NOTE: If you install the Custom JPL image with Raspbian Stretch and ROS pre-built, skip to step 2.4.} 
 \end{enumerate}
 
 \noindent Once you finish the above tutorial and install Raspbian Stretch, you should be able to boot your Raspberry Pi and see a desktop!
@@ -141,7 +141,7 @@ First, make sure you update all the packages on your pi:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{sudo apt-get update}
 	\item[] \colorbox{lightgray}{sudo apt-get upgrade}
-\end{itemize}
+\end{itemize} 
 (The above commands may take a few minutes to run.)
 
 \bigskip
@@ -151,8 +151,8 @@ First, make sure you update all the packages on your pi:
 \textbf{NOTE: Follow the ROS installation directions in the link below CAREFULLY!  Do not ignore warnings, as they will lead to issues later in the installation.  Some known "gotchas" to note before you get started are:}
 \begin{enumerate}
 	\item[] - Make sure you install the Kinetic "desktop\_full" version of ROS, not the desktop ros-comm, or other versions.
-	\item[] - ROS changed their GPG keys as of June 7 2019.  The ROS install instructions do not mention this as of July 2019 and will not work unless you update your GPG keys. See \href{https://discourse.ros.org/t/new-gpg-keys-deployed-for-packages-ros-org/9454}{https://discourse.ros.org/t/new-gpg-keys-deployed-for-packages-ros-org/9454} for instructions on how to update your GPG keys.
-	\item[] - Make sure you follow directions for KINETIC, not Indigo, Melodic, or any other ROS version.
+	\item[] - ROS changed their GPG keys as of June 7 2019.  The ROS install instructions do not mention this as of July 2019 and will not work unless you update your GPG keys. See \href{https://discourse.ros.org/t/new-gpg-keys-deployed-for-packages-ros-org/9454}{https://discourse.ros.org/t/new-gpg-keys-deployed-for-packages-ros-org/9454} for instructions on how to update your GPG keys. 
+	\item[] - Make sure you follow directions for KINETIC, not Indigo, Melodic, or any other ROS version. 
 \end{enumerate}
 
 \noindent Once you familiarize yourself with the above issues, go ahead and complete your ROS installation by following the instructions at:
@@ -160,7 +160,7 @@ First, make sure you update all the packages on your pi:
 	\item[] \href{http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi}{http://wiki.ros.org/ROSberryPi/Installing\%20ROS\%20Kinetic\%20on\%20the\%20Raspberry\%20Pi}
 \end{enumerate}
 
-\subsection{Setting up serial communication}
+\subsection{Setting up serial communication}	
 
 In this project we will be using serial communication to talk to the motor controllers. Serial communication is a communication protocol that describes how bits of information are transferred between one device and another. You can find more information on serial communication at:
 \begin{itemize}
@@ -174,11 +174,11 @@ In this project we will be using serial communication to talk to the motor contr
 
 \noindent In the raspi-config menu, set the following options:
 \begin{itemize}
-	\item[-]  Interface Options $-> $ Serial
+	\item[-]  Interface Options $-> $ Serial 
 	\item[-] Would you like a login shell to be accessible over serial? $->$ No
 	\item[-] Would you like the serial port hardware to be enabled? $->$ Yes
 	\item[-] Would you like to reboot now? $->$ Yes
-\end{itemize}
+\end{itemize} 
 \noindent Once the Pi reboots, open up a terminal again and look at the serial devices:
 \begin{itemize}
 	\item[] \colorbox{lightgray}{ls -l /dev/serial*}
@@ -199,7 +199,7 @@ Make sure that this shows serial0 -$>$ ttyS0 . If it does not, ensure that you h
 
 \noindent Below is a link to help with the above steps if you need additional help:
 \begin{itemize}
-	\item \href{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}.
+	\item \href{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}{https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3/}. 
 \end{itemize}
 \noindent Once you've completed the above steps, reboot the Pi.
 \begin{itemize}
@@ -209,17 +209,15 @@ Make sure that this shows serial0 -$>$ ttyS0 . If it does not, ensure that you h
 \subsection{Building the Rover Code to work with your ROS installation}
 On the Raspberry Pi, open up a terminal \textbf{(ctl + alt + t)} and then type the following commands\footnote{In this document, terminal commands will be \colorbox{lightgray}{highlighted}.}:
 
-Create a catkin workspace which will contain all ROS compilation and source code files:
-
 \begin{itemize}
-	\item[] Create a catkin workspace directory and move into it:
+	\item[] Create a catkin workspace directory, which will contain all ROS compilation and source code files, and move into it:
     \item[] \colorbox{lightgray}{mkdir -p \url{~/osr_ws/src} \&\& cd \url{~/osr\_ws}}
 	\item[] Build a basic, empty catkin project: \colorbox{lightgray}{catkin\_make}
-	\item[] If this doesn't report any errors, check if there are two new directories \url{~/osr_ws/build} and  \url{~/osr_ws/devel}
+	\item[] If this doesn't report any errors, check if there are two new directories: \colorbox{lightgray}{ls \url{~/osr_ws/build}} and \colorbox{lightgray}{ls \url{~/osr_ws/devel}} should \textbf{not} report 'No such file or directory'
 \end{itemize}
 
 \begin{itemize}
-	\item[] Source your newly created ROS environment:
+	\item[] Source your newly created ROS environment: 
 	\item[] \colorbox{lightgray}{source /opt/ros/kinetic/setup.bash}
 	\item[] \colorbox{lightgray}{source \url{~/osr\_ws/devel/setup.bash}}
 \end{itemize}
@@ -231,7 +229,7 @@ Create a catkin workspace which will contain all ROS compilation and source code
 
 Now continue the installation steps at \href{https://github.com/nasa-jpl/osr-rover-code}{https://github.com/nasa-jpl/osr-rover-code}.
 
-\bigskip
+\bigskip 
 
 \subsection{Init Script}
 
