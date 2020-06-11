@@ -89,17 +89,10 @@ In this section we will be flashing the code that runs on the arduino to control
 
 	\href{https://www.arduino.cc/en/Main/Software}{https://www.arduino.cc/en/Main/Software}
 
-\item Clone the code repo:
+\item Download the Arduino code:
 	\begin{enumerate}
-	\item git clone https://github.com/nasa-jpl/osr-rover-code.git
-	\item git checkout osr-ROS
-	\item git pull
-	\end{enumerate}
-
-\item Build our custom library:
-	\begin{enumerate}
-	\item Select the downloaded Arduino folder and create a .ZIP file from it
-	\item Rename the Zip file to OsrScreen.zip
+	\item Navigate to \href{https://github.com/nasa-jpl/osr-rover-code}{https://github.com/nasa-jpl/osr-rover-code} and click the green 'Clone or download' button. Choose 'Download ZIP'.
+	\item Unzip/extract and open the downloaded zip file. Then, select the Arduino folder and create a new zip file of just that Arduino folder. Name it OsrScreen.zip
 	\end{enumerate}
 
 \item Load the sketch onto the Arduino
@@ -121,6 +114,9 @@ In this section we will be flashing the code that runs on the arduino to control
 
 \section{Setting up the Raspberry Pi 3}
 In this section, we'll go over setting up the Raspberry Pi and setting up all the code that will run the rover. Our rover uses ROS (Robotic Operating System), which will be installed on the Raspbian operating system; we will set up both of these below.  We will also set up the bluetooth pairing from the android device.
+
+Note that you are free to use other versions of Raspberry Pi, ROS, or OS, but setting these up is not covered here
+and it is not guaranteed that those will work.
 
 \subsection{Getting the Raspberry Pi running}
 The first step is to install Raspbian on your Raspberry Pi. To install Raspbian,
@@ -210,68 +206,30 @@ Make sure that this shows serial0 -$>$ ttyS0 . If it does not, ensure that you h
 	\item[] \colorbox{lightgray}{sudo reboot}
 \end{itemize}
 
-\subsection{Downloading the Rover Code}
+\subsection{Building the Rover Code to work with your ROS installation}
 On the Raspberry Pi, open up a terminal \textbf{(ctl + alt + t)} and then type the following commands\footnote{In this document, terminal commands will be \colorbox{lightgray}{highlighted}.}:
 
 \begin{itemize}
-	\item[] Move to your home directory: \colorbox{lightgray}{cd /home/pi}
-	\item[] Clone the rover code repository: \colorbox{lightgray}{git clone https://github.com/nasa-jpl/osr-rover-code osr}
-	\item[] Move into the directory you just cloned: \colorbox{lightgray}{cd osr}
-	\item[] Pull to make sure you have the latest code: \colorbox{lightgray}{git pull}
-\end{itemize}
-
-\subsection{Building the Rover Code to work with your ROS installation}
-Now, you must build the rover code packages so that ROS can run them on your Raspberry Pi.  To do this, run the following commands in a terminal:
-
-\begin{itemize}
-	\item[] Create a catkin workspace directory and move into it:
-	\item[] \colorbox{lightgray}{mkdir -p /home/pi/osr\_ws/src \&\& cd /home/pi/osr\_ws}
+	\item[] Create a catkin workspace directory, which will contain all ROS compilation and source code files, and move into it:
+    \item[] \colorbox{lightgray}{mkdir -p \url{~/osr_ws/src} \&\& cd \url{~/osr\_ws}}
 	\item[] Build a basic, empty catkin project: \colorbox{lightgray}{catkin\_make}
-	\item[] Move to the directory containing the main OSR logic: \colorbox{lightgray}{cd /home/pi/osr/ROS}
-	\item[] Copy the OSR source files to the catkin workspace:
-	\item[] \colorbox{lightgray}{mv led\_screen/ osr/ osr\_bringup/ osr\_msgs/ /home/pi/osr\_ws/src}
-	\item[] Make all of the source files executable:  \colorbox{lightgray}{cd /home/pi/osr\_ws/src/osr/scripts \&\& chmod +x *.py}
-	\item[] Move back to your catkin workspace: \colorbox{lightgray}{cd /home/pi/osr\_ws}
-	\item[] Build the sensor\_msgs ROS package:
-	\item[] \colorbox{lightgray}{\parbox{0.9\textwidth}{rosinstall\_generator sensor\_msgs --rosdistro kinetic --deps --wet-only --tar \textgreater kinetic-sensor\_msgs-wet.rosinstall}}
-	\item[] \colorbox{lightgray}{wstool init src kinetic-sensor\_msgs-wet.rosinstall}
-	\item[] Run a "catkin make" of the OSR workspace (this will take some time): \colorbox{lightgray}{catkin\_make}
+	\item[] If this doesn't report any errors, check if there are two new directories: \colorbox{lightgray}{ls \url{~/osr_ws/build}} and \colorbox{lightgray}{ls \url{~/osr_ws/devel}} should \textbf{not} report 'No such file or directory'
 \end{itemize}
-
-\noindent If your catkin make command succeeded, you should now see new build/ and devel/ directories in /home/pi/osr\_ws.
 
 \begin{itemize}
 	\item[] Source your newly created ROS environment: 
 	\item[] \colorbox{lightgray}{source /opt/ros/kinetic/setup.bash}
-	\item[] \colorbox{lightgray}{source /home/pi/osr\_ws/devel/setup.bash}
-	\item[] \colorbox{lightgray}{source /home/pi/osr\_ws/devel/setup.sh}
+	\item[] \colorbox{lightgray}{source \url{~/osr\_ws/devel/setup.bash}}
 \end{itemize}
 
-\noindent Use nano (or your editor of choice) to add the above three 'source' commands to the end of your $\sim$/.bashrc file, each on its own line.  This will allow you to re-launch the OSR code without needing to source the OSR ROS environment each time:
+\noindent Use nano (or your editor of choice) to add the above two 'source' commands to the end of your $\sim$/.bashrc file, each on its own line. This will run those lines for you every time you open a new terminal window so you don't have to manually run those each time.
 \begin{itemize}
-	\item[] \colorbox{lightgray}{sudo nano $\sim$/.bashrc}
+	\item[] \colorbox{lightgray}{sudo nano \url{~/.bashrc}}
 \end{itemize}
 
-\subsection{Running the Rover Code Manually}
-At this point, all the code should be ready to run on your rover!  You can start the rover code by running the following command in a terminal:
-\begin{itemize}
-	\item[] Run the roslaunch command (read more about roslaunch at \href{http://wiki.ros.org/roslaunch}{http://wiki.ros.org/roslaunch}):
-	\item[] \colorbox{lightgray}{roslaunch osr\_bringup osr.launch}
-\end{itemize}
-
-\noindent You should now see the rover trying to launch all its ROS "nodes", which are the various parts of the robot that all communicate to each other.  Figure \ref{ros architecture} shows more information about the ROS ecosystem on this rover:
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{"Pictures/ROS_architecture".PNG}
-	\caption{OSR ROS Architecture}
-	\label{ros architecture}
-\end{figure}
-
-You can find more details about the software / ROS architecture in the README document in the osr-rover-code repository at \href{https://github.com/nasa-jpl/osr-rover-code/tree/osr-ROS}{https://github.com/nasa-jpl/osr-rover-code/tree/osr-ROS}.
+Now continue the installation steps at \href{https://github.com/nasa-jpl/osr-rover-code}{https://github.com/nasa-jpl/osr-rover-code}.
 
 \bigskip 
-
-\noindent If you wish to control the rover in any manner other than with an Xbox controller, you can do so by publishing commands onto the "/joystick" topic using the Joystick message type from osr\_msgs. To do this, you would simply write a ROS node to read in whatever control method you wish and output a corresponding Joystick message. The rover's ROS ecosystem will see these Joystick messages and drive the rover based on your commands!
 
 \subsection{Init Script}
 
