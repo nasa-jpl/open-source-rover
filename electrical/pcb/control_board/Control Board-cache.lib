@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.4
 #
 # Control-Board-rescue_#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~Control-Board-rescue_#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue MH 0 40 Y Y 1 F N
+DEF Control-Board-rescue_#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue MH 0 40 Y Y 1 F N
 F0 "MH" 0 90 30 H V C CNN
 F1 "Control-Board-rescue_#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue" 0 140 30 H I C CNN
 F2 "" 0 90 30 H I C CNN
@@ -16,7 +16,7 @@ ENDDEF
 #
 # Control-Board-rescue_6posheader-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~Control-Board-rescue_6posheader-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 N Y 1 F N
+DEF Control-Board-rescue_6posheader-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 N Y 1 F N
 F0 "J" 50 400 50 H V C CNN
 F1 "Control-Board-rescue_6posheader-JPL_Robotics_Lib-Monolithic-Board-rescue" 200 500 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -62,7 +62,7 @@ ENDDEF
 #
 # Control-Board-rescue_ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~Control-Board-rescue_ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 Y Y 1 F N
+DEF Control-Board-rescue_ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 Y Y 1 F N
 F0 "J" 150 550 39 H V C CNN
 F1 "Control-Board-rescue_ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue" 100 800 50 H I C CNN
 F2 "" 150 550 50 H I C CNN
@@ -80,7 +80,7 @@ ENDDEF
 #
 # Control-Board-rescue_ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~Control-Board-rescue_ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 Y Y 1 F N
+DEF Control-Board-rescue_ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 Y Y 1 F N
 F0 "J" -50 300 39 H V C CNN
 F1 "Control-Board-rescue_ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue" 0 500 50 H I C CNN
 F2 "" -50 300 50 H I C CNN
@@ -215,7 +215,7 @@ ENDDEF
 #
 # Control-Board-rescue_S7038-ND-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~Control-Board-rescue_S7038-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 Y Y 1 F N
+DEF Control-Board-rescue_S7038-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J 0 40 Y Y 1 F N
 F0 "J" 350 300 39 H V C CNN
 F1 "Control-Board-rescue_S7038-ND-JPL_Robotics_Lib-Monolithic-Board-rescue" 250 500 50 H I C CNN
 F2 "" 350 300 50 H I C CNN
@@ -296,7 +296,7 @@ ENDDEF
 #
 # Control-Board-rescue_test_point-JPL_Robotics_Lib-Monolithic-Board-rescue
 #
-DEF ~Control-Board-rescue_test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T 0 40 N N 1 F N
+DEF Control-Board-rescue_test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T 0 40 N N 1 F N
 F0 "T" -25 75 50 H V C CNN
 F1 "Control-Board-rescue_test_point-JPL_Robotics_Lib-Monolithic-Board-rescue" 150 250 50 H I C CNN
 F2 "" -50 -50 50 H I C CNN

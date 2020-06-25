@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Control Board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1454,8 +1453,6 @@ F 3 "" H 6050 7150 30  0001 C CNN
 	1    6050 6950
 	-1   0    0    -1  
 $EndComp
-Text Label 6150 7300 0    50   ~ 0
-+BATT
 $Comp
 L Control-Board-rescue:#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue MH1
 U 1 1 5C29B1A8
@@ -2794,9 +2791,9 @@ Wire Wire Line
 Wire Wire Line
 	5950 6100 6150 6100
 Wire Wire Line
-	5900 7300 6150 7300
+	5900 7300 6100 7300
 Wire Wire Line
-	14200 8150 14600 8150
+	14200 8150 14500 8150
 Wire Wire Line
 	6150 6050 6150 6100
 Connection ~ 6150 6100
@@ -2813,4 +2810,13 @@ F 3 "" H 600 11150 50  0001 C CNN
 	1    750  11050
 	1    0    0    -1  
 $EndComp
+Connection ~ 14500 8150
+Wire Wire Line
+	14500 8150 14600 8150
+Connection ~ 5650 6100
+Connection ~ 6100 7300
+Text Label 6100 7300 0    50   ~ 0
++BATT
+Wire Wire Line
+	6100 7300 6400 7300
 $EndSCHEMATC
