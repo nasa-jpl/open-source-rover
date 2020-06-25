@@ -2817,6 +2817,24 @@ Connection ~ 5650 6100
 Connection ~ 6100 7300
 Text Label 6100 7300 0    50   ~ 0
 +BATT
+$Comp
+L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J28
+U 1 1 5EF81C85
+P 6600 6950
+F 0 "J28" V 6500 7100 30  0000 R CNN
+F 1 "ED2580-ND" V 6450 7150 30  0001 R CNN
+F 2 "JPL Robotics:ED2580-ND" H 6600 7150 30  0001 C CNN
+F 3 "" H 6600 7150 30  0001 C CNN
+	1    6600 6950
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
-	6100 7300 6400 7300
+	6450 6900 6450 7300
+Wire Wire Line
+	6100 7300 6450 7300
+Wire Wire Line
+	6250 6100 6450 6100
+Wire Wire Line
+	6450 6100 6450 6850
+Connection ~ 6250 6100
 $EndSCHEMATC
