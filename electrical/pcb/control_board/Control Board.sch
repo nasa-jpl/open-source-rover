@@ -1211,9 +1211,9 @@ GPIO19
 Text Label 1250 6400 0    30   ~ 0
 GPIO26
 Text Label 2550 5500 2    30   ~ 0
-PI_5V
++5V
 Text Label 2550 5550 2    30   ~ 0
-PI_5V
++5V
 Text Label 2550 5650 2    30   ~ 0
 TXD
 Text Label 2550 5700 2    30   ~ 0
@@ -1372,9 +1372,9 @@ GPIO26
 Text Label 1300 7750 0    30   ~ 0
 GND
 Text Label 2600 6800 2    30   ~ 0
-PI_5V
++5V
 Text Label 2600 6850 2    30   ~ 0
-PI_5V
++5V
 Text Label 2600 6900 2    30   ~ 0
 GND
 Text Label 2600 6950 2    30   ~ 0
@@ -1847,17 +1847,6 @@ Wire Wire Line
 Wire Wire Line
 	14000 6300 14000 6600
 $Comp
-L Device:C_Small C1
-U 1 1 5C660555
-P 4400 6250
-F 0 "C1" H 4500 6300 50  0000 L CNN
-F 1 "0.1mF" H 4500 6200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4400 6250 50  0001 C CNN
-F 3 "~" H 4400 6250 50  0001 C CNN
-	1    4400 6250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C2
 U 1 1 5C799779
 P 11450 1700
@@ -2049,17 +2038,6 @@ Wire Wire Line
 	4550 1700 4750 1700
 Wire Wire Line
 	4550 1750 4750 1750
-$Comp
-L Control-Board-rescue:ED2989-ND-USB-JPL_Robotics_Lib-Monolithic-Board-rescue J12
-U 1 1 5C5F8A30
-P 4800 6350
-F 0 "J12" H 5278 6425 50  0000 L CNN
-F 1 "ED2989-ND-USB" H 5277 6380 50  0001 L CNN
-F 2 "JPL Robotics:ED2989-ND USB Conn" H 4800 6350 50  0001 C CNN
-F 3 "" H 4800 6350 50  0001 C CNN
-	1    4800 6350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 5C757EDA
@@ -2425,50 +2403,6 @@ Text Notes 12100 1250 0    98   ~ 0
 Motor Connection Output
 Text Notes 3350 1050 0    98   ~ 0
 RoboClaw Pin Header
-$Comp
-L power:+5V #PWR018
-U 1 1 5C776606
-P 4400 6050
-F 0 "#PWR018" H 4400 5900 50  0001 C CNN
-F 1 "+5V" H 4415 6215 39  0000 C CNN
-F 2 "" H 4400 6050 50  0001 C CNN
-F 3 "" H 4400 6050 50  0001 C CNN
-	1    4400 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 6050 4400 6100
-$Comp
-L power:GND #PWR019
-U 1 1 5C859B9F
-P 4400 6500
-F 0 "#PWR019" H 4400 6250 50  0001 C CNN
-F 1 "GND" H 4500 6500 39  0000 C CNN
-F 2 "" H 4400 6500 50  0001 C CNN
-F 3 "" H 4400 6500 50  0001 C CNN
-	1    4400 6500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 6500 4400 6400
-Wire Wire Line
-	4400 6100 4800 6100
-Wire Wire Line
-	4800 6100 4800 6200
-Wire Wire Line
-	4800 6200 4950 6200
-Connection ~ 4400 6100
-Wire Wire Line
-	4400 6100 4400 6150
-Wire Wire Line
-	4950 6350 4800 6350
-Wire Wire Line
-	4800 6350 4800 6400
-Wire Wire Line
-	4800 6400 4400 6400
-Connection ~ 4400 6400
-Wire Wire Line
-	4400 6400 4400 6350
 $Comp
 L power:GND #PWR032
 U 1 1 5C9B3A9C
@@ -2837,4 +2771,20 @@ Wire Wire Line
 Wire Wire Line
 	6450 6100 6450 6850
 Connection ~ 6250 6100
+Text Label 2450 5600 0    30   ~ 0
+GND
+Text Label 2450 5800 0    30   ~ 0
+GND
+Text Label 2450 5950 0    30   ~ 0
+GND
+Text Label 2450 6200 0    30   ~ 0
+GND
+Text Label 2450 6300 0    30   ~ 0
+GND
+Text Label 1250 6450 0    30   ~ 0
+GND
+Text Label 1250 6100 0    30   ~ 0
+GND
+Text Label 1250 5700 0    30   ~ 0
+GND
 $EndSCHEMATC
