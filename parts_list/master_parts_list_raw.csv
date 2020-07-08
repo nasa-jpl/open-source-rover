@@ -119,19 +119,19 @@ Xbox Controller,,,Amazon,https://www.amazon.com/FiveStar-Wireless-Controller-Mic
 "#6-32 x 0.75"" Standoff",T3,633126,ServoCity,https://www.servocity.com/6-32-thread-1-4-od-round-aluminum-standoffs#371=256,4,8,2,$1.89 ,$3.78,"PCB Assembly, Wheel Assembly"
 "#6-32 x 1.25"" Standoff",T9,633134,ServoCity,https://www.servocity.com/6-32-thread-1-4-od-round-aluminum-standoffs,4,16,4,$3.39 ,$13.56,Corner Steering
 #4-40 x 1/4 Threaded Standoff,T4,91780A162,McMaster,https://www.mcmaster.com/91780A162,1,1,1,$0.23 ,$0.23,
-#4-40 x 1/2 Threaded Standoff,T5,91780A164,McMaster,https://www.mcmaster.com/91780A164,1,1,1,$0.27 ,$0.27,
+#4-40 x 1/2 Threaded Standoff,T5,91780A164,McMaster,https://www.mcmaster.com/91780A164,1,20,20,$0.27 ,$5.40,PCB Assembly
 #4-40 x 3/4 Threaded Standoff,T6,91780A166,McMaster,https://www.mcmaster.com/91780A164,1,1,1,$0.37 ,$0.37,
 M2.5 x 12mm Standoff,T7,95947A007,McMaster,https://www.mcmaster.com/95947A007,1,1,1,$0.64 ,$0.64,
-"#2-56 x 3/8"" Threaded Standoff",T8,93330A252,McMaster,https://www.mcmaster.com/93330A252,1,4,4,$1.00 ,$4.00,PCB Assembly
+"#2-56 x 3/8"" Threaded Standoff",T8,93330A252,McMaster,https://www.mcmaster.com/93330A252,1,1,1,$1.00 ,$1.00,
 M2.5 x 10 mm Standoff,T10,95947A005,McMaster,https://www.mcmaster.com/95947a005,1,8,8,$0.59 ,$4.72,"Head Assembly, PCB Assembly"
-"#2-56 x 1/2"" Standoff",T11,91780A032,McMaster,https://www.mcmaster.com/91780a032,1,20,20,$0.41 ,$8.20,PCB Assembly
+"#2-56 x 1/2"" Standoff",T11,91780A032,McMaster,https://www.mcmaster.com/91780a032,1,4,4,$0.41 ,$1.64,PCB Assembly
 #4-40 Heat Set Inserts,I1,93365A120,McMaster,https://www.mcmaster.com/93365a120,100,8,1,$10.82 ,$10.82,Head Assembly
 #6-32 Heat Set Inserts,I2,93365A130,McMaster,https://www.mcmaster.com/93365a130,100,4,1,$12.92 ,$12.92,Body
-Allen Key Set,D2,,,,,1,,,,"Wheel Assembly, Rocker-Bogie, Corner Steering, Body, Mechanical Integration, Differential Pivot"
-Center punch or Starter drill bit,D7,,,,,1,,,,"Wheel Assembly, Differential Pivot"
-Hand Drill or Drill Press,D3,,,,,1,,,,"Wheel Assembly, Differential Pivot"
-Drill bit \#23,D6,,,,,1,,,,"Wheel Assembly, Differential Pivot"
-Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Rocker-Bogie, Head Assembly, Wheel Assembly, Differential Pivot"
-Vice clamp or C Clamps,D5,,,,,1,,,,"Wheel Assembly, Differential Pivot"
-5/16 Wrench,D1,,,,,1,,,,"Rocker-Bogie, Mechanical Integration, Wheel Assembly, Differential Pivot"
-Vice or V-Clamp,D8,,,,,1,,,,"Head Assembly, Differential Pivot"
+Allen Key Set,D2,,,,,1,,,,"Wheel Assembly, Corner Steering, Mechanical Integration, Differential Pivot, Rocker-Bogie, Body"
+Center punch or Starter drill bit,D7,,,,,1,,,,"Differential Pivot, Wheel Assembly"
+Hand Drill or Drill Press,D3,,,,,1,,,,"Differential Pivot, Wheel Assembly"
+Drill bit \#23,D6,,,,,1,,,,"Differential Pivot, Wheel Assembly"
+Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Differential Pivot, Head Assembly, Wheel Assembly, Rocker-Bogie"
+Vice clamp or C Clamps,D5,,,,,1,,,,"Differential Pivot, Wheel Assembly"
+5/16 Wrench,D1,,,,,1,,,,"Differential Pivot, Wheel Assembly, Rocker-Bogie, Mechanical Integration"
+Vice or V-Clamp,D8,,,,,1,,,,"Differential Pivot, Head Assembly"
