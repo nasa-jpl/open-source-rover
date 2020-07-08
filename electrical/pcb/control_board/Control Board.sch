@@ -696,12 +696,12 @@ RC5EN2A
 $Comp
 L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J15
 U 1 1 5C5FB40D
-P 6000 5800
-F 0 "J15" V 5900 5950 30  0000 R CNN
-F 1 "ED2580-ND" V 5850 6000 30  0001 R CNN
-F 2 "JPL Robotics:ED2580-ND" H 6000 6000 30  0001 C CNN
-F 3 "" H 6000 6000 30  0001 C CNN
-	1    6000 5800
+P 4550 5950
+F 0 "J15" V 4450 6100 30  0000 R CNN
+F 1 "ED2580-ND" V 4400 6150 30  0001 R CNN
+F 2 "JPL Robotics:ED2580-ND" H 4550 6150 30  0001 C CNN
+F 3 "" H 4550 6150 30  0001 C CNN
+	1    4550 5950
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -740,12 +740,12 @@ Connection ~ 9000 6500
 $Comp
 L power:GND #PWR028
 U 1 1 5C6D828C
-P 6250 6250
-F 0 "#PWR028" H 6250 6000 50  0001 C CNN
-F 1 "GND" H 6350 6250 39  0000 C CNN
-F 2 "" H 6250 6250 50  0001 C CNN
-F 3 "" H 6250 6250 50  0001 C CNN
-	1    6250 6250
+P 7000 7000
+F 0 "#PWR028" H 7000 6750 50  0001 C CNN
+F 1 "GND" H 7100 7000 39  0000 C CNN
+F 2 "" H 7000 7000 50  0001 C CNN
+F 3 "" H 7000 7000 50  0001 C CNN
+	1    7000 7000
 	1    0    0    -1  
 $EndComp
 Text Label 8200 2650 0    30   ~ 0
@@ -1412,47 +1412,32 @@ GPIO21
 $Comp
 L Device:Fuse F1
 U 1 1 5C224EF3
-P 5900 6350
-F 0 "F1" H 5960 6396 50  0000 L CNN
-F 1 "Fuse" H 5960 6305 50  0000 L CNN
-F 2 "JPL Robotics:507-1937-1-ND" V 5830 6350 50  0001 C CNN
-F 3 "~" H 5900 6350 50  0001 C CNN
-	1    5900 6350
+P 5600 7100
+F 0 "F1" H 5660 7146 50  0000 L CNN
+F 1 "Fuse" H 5660 7055 50  0000 L CNN
+F 2 "JPL Robotics:507-1937-1-ND" V 5530 7100 50  0001 C CNN
+F 3 "~" H 5600 7100 50  0001 C CNN
+	1    5600 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D1
 U 1 1 5C2250A4
-P 5650 6350
-F 0 "D1" V 5604 6429 50  0000 L CNN
-F 1 "D" V 5695 6429 50  0000 L CNN
-F 2 "JPL Robotics:497-2738-5-ND" H 5650 6350 50  0001 C CNN
-F 3 "~" H 5650 6350 50  0001 C CNN
-	1    5650 6350
+P 5350 7100
+F 0 "D1" V 5304 7179 50  0000 L CNN
+F 1 "D" V 5395 7179 50  0000 L CNN
+F 2 "JPL Robotics:497-2738-5-ND" H 5350 7100 50  0001 C CNN
+F 3 "~" H 5350 7100 50  0001 C CNN
+	1    5350 7100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5900 5950 5900 6100
+	5350 6850 5600 6850
 Wire Wire Line
-	5950 5950 5950 6100
+	5350 6850 5350 6950
+Connection ~ 5600 6850
 Wire Wire Line
-	5650 6100 5900 6100
-Wire Wire Line
-	5650 6100 5650 6200
-Connection ~ 5900 6100
-Wire Wire Line
-	5900 6100 5900 6200
-$Comp
-L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J16
-U 1 1 5C47E476
-P 6050 6950
-F 0 "J16" V 5950 7100 30  0000 R CNN
-F 1 "ED2580-ND" V 5900 7150 30  0001 R CNN
-F 2 "JPL Robotics:ED2580-ND" H 6050 7150 30  0001 C CNN
-F 3 "" H 6050 7150 30  0001 C CNN
-	1    6050 6950
-	-1   0    0    -1  
-$EndComp
+	5600 6850 5600 6950
 $Comp
 L Control-Board-rescue:#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue MH1
 U 1 1 5C29B1A8
@@ -1500,12 +1485,12 @@ $EndComp
 $Comp
 L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T3
 U 1 1 5C331E50
-P 6100 7150
-F 0 "T3" V 6150 7100 50  0000 L CNN
-F 1 "test_point" H 6250 7400 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6050 7100 50  0001 C CNN
-F 3 "" H 6050 7100 50  0001 C CNN
-	1    6100 7150
+P 6150 7900
+F 0 "T3" V 6200 7850 50  0000 L CNN
+F 1 "test_point" H 6300 8150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6100 7850 50  0001 C CNN
+F 3 "" H 6100 7850 50  0001 C CNN
+	1    6150 7900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1522,23 +1507,23 @@ $EndComp
 $Comp
 L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T2
 U 1 1 5C412E03
-P 6150 5900
-F 0 "T2" V 6200 5850 50  0000 L CNN
-F 1 "test_point" H 6300 6150 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6100 5850 50  0001 C CNN
-F 3 "" H 6100 5850 50  0001 C CNN
-	1    6150 5900
+P 6900 6650
+F 0 "T2" V 6950 6600 50  0000 L CNN
+F 1 "test_point" H 7050 6900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6850 6600 50  0001 C CNN
+F 3 "" H 6850 6600 50  0001 C CNN
+	1    6900 6650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T1
 U 1 1 5C438314
-P 5650 5950
-F 0 "T1" V 5700 5900 50  0000 L CNN
-F 1 "test_point" H 5800 6200 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5600 5900 50  0001 C CNN
-F 3 "" H 5600 5900 50  0001 C CNN
-	1    5650 5950
+P 5350 6700
+F 0 "T1" V 5400 6650 50  0000 L CNN
+F 1 "test_point" H 5500 6950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5300 6650 50  0001 C CNN
+F 3 "" H 5300 6650 50  0001 C CNN
+	1    5350 6700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1772,63 +1757,53 @@ Connection ~ 13900 7800
 Wire Wire Line
 	13900 7800 13850 7800
 Wire Wire Line
-	5650 6500 5650 6650
+	5350 7250 5350 7400
 Wire Wire Line
-	5650 6650 5900 6650
-Connection ~ 5900 6650
+	5350 7400 5600 7400
+Connection ~ 5600 7400
 Wire Wire Line
-	5900 6650 5900 6500
+	5600 7400 5600 7250
 Wire Wire Line
-	5900 6650 5900 6750
+	5600 7400 5600 7500
 Wire Wire Line
-	6250 6250 6250 6100
-Wire Wire Line
-	5900 6900 5900 7050
+	7000 7000 7000 6850
 $Comp
 L power:+5V #PWR022
 U 1 1 5C40A972
-P 4850 6850
-F 0 "#PWR022" H 4850 6700 50  0001 C CNN
-F 1 "+5V" H 4865 7008 30  0000 C CNN
-F 2 "" H 4850 6850 50  0001 C CNN
-F 3 "" H 4850 6850 50  0001 C CNN
-	1    4850 6850
+P 4350 8400
+F 0 "#PWR022" H 4350 8250 50  0001 C CNN
+F 1 "+5V" H 4365 8558 30  0000 C CNN
+F 2 "" H 4350 8400 50  0001 C CNN
+F 3 "" H 4350 8400 50  0001 C CNN
+	1    4350 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR023
 U 1 1 5C4315CD
-P 4850 7150
-F 0 "#PWR023" H 4850 6900 50  0001 C CNN
-F 1 "GND" H 4850 7000 39  0000 C CNN
-F 2 "" H 4850 7150 50  0001 C CNN
-F 3 "" H 4850 7150 50  0001 C CNN
-	1    4850 7150
+P 4350 8700
+F 0 "#PWR023" H 4350 8450 50  0001 C CNN
+F 1 "GND" H 4350 8550 39  0000 C CNN
+F 2 "" H 4350 8700 50  0001 C CNN
+F 3 "" H 4350 8700 50  0001 C CNN
+	1    4350 8700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 7050 4850 7150
+	4350 8600 4350 8700
 $Comp
 L Device:R_US R2
 U 1 1 5C51BA25
-P 5650 6900
-F 0 "R2" H 5718 6946 50  0000 L CNN
-F 1 "10K" H 5718 6855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5690 6890 50  0001 C CNN
-F 3 "~" H 5650 6900 50  0001 C CNN
-	1    5650 6900
+P 5600 7650
+F 0 "R2" H 5668 7696 50  0000 L CNN
+F 1 "10K" H 5668 7605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5640 7640 50  0001 C CNN
+F 3 "~" H 5600 7650 50  0001 C CNN
+	1    5600 7650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 6750 5900 6750
-Connection ~ 5900 6750
-Wire Wire Line
-	5900 6750 5900 6850
-Wire Wire Line
-	5650 7050 5900 7050
-Connection ~ 5900 7050
-Wire Wire Line
-	5900 7050 5900 7300
+	5600 7800 5600 8050
 $Comp
 L Device:C_Small C16
 U 1 1 5C4A3FF5
@@ -2278,33 +2253,33 @@ Wire Wire Line
 $Comp
 L power:GND #PWR021
 U 1 1 5C9D6BAD
-P 7350 6800
-F 0 "#PWR021" H 7350 6550 50  0001 C CNN
-F 1 "GND" H 7350 6650 39  0000 C CNN
-F 2 "" H 7350 6800 50  0001 C CNN
-F 3 "" H 7350 6800 50  0001 C CNN
-	1    7350 6800
+P 7200 8750
+F 0 "#PWR021" H 7200 8500 50  0001 C CNN
+F 1 "GND" H 7200 8600 39  0000 C CNN
+F 2 "" H 7200 8750 50  0001 C CNN
+F 3 "" H 7200 8750 50  0001 C CNN
+	1    7200 8750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 6650 7350 6650
+	7000 8600 7200 8600
 Wire Wire Line
-	7150 6700 7350 6700
+	7000 8650 7200 8650
 Wire Wire Line
-	7350 6700 7350 6800
+	7200 8650 7200 8750
 $Comp
 L power:+12V #PWR020
 U 1 1 5CA40188
-P 7350 6500
-F 0 "#PWR020" H 7350 6350 50  0001 C CNN
-F 1 "+12V" H 7365 6673 50  0000 C CNN
-F 2 "" H 7350 6500 50  0001 C CNN
-F 3 "" H 7350 6500 50  0001 C CNN
-	1    7350 6500
+P 7200 8450
+F 0 "#PWR020" H 7200 8300 50  0001 C CNN
+F 1 "+12V" H 7215 8623 50  0000 C CNN
+F 2 "" H 7200 8450 50  0001 C CNN
+F 3 "" H 7200 8450 50  0001 C CNN
+	1    7200 8450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7350 6500 7350 6650
+	7200 8450 7200 8600
 $Comp
 L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T6
 U 1 1 5CADEB30
@@ -2391,7 +2366,7 @@ Text Notes 13050 5850 0    98   ~ 0
 Voltage Divider
 Text Notes 8850 5650 0    98   ~ 0
 Voltage Regulators
-Text Notes 4750 5450 0    98   ~ 0
+Text Notes 5050 5300 0    98   ~ 0
 Power Distribution
 Text Notes 1250 5100 0    98   ~ 0
 Raspberry Pi breakout
@@ -2629,29 +2604,29 @@ $EndComp
 $Comp
 L Control-Board-rescue:ED2989-ND-USB-JPL_Robotics_Lib-Monolithic-Board-rescue J14
 U 1 1 5CF080B1
-P 4800 7050
-F 0 "J14" H 5278 7125 50  0000 L CNN
-F 1 "ED2989-ND-USB" H 5277 7080 50  0001 L CNN
-F 2 "JPL Robotics:ED2989-ND USB Conn" H 4800 7050 50  0001 C CNN
-F 3 "" H 4800 7050 50  0001 C CNN
-	1    4800 7050
+P 4300 8600
+F 0 "J14" H 4778 8675 50  0000 L CNN
+F 1 "ED2989-ND-USB" H 4777 8630 50  0001 L CNN
+F 2 "JPL Robotics:ED2989-ND USB Conn" H 4300 8600 50  0001 C CNN
+F 3 "" H 4300 8600 50  0001 C CNN
+	1    4300 8600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 6900 4850 6900
+	4450 8450 4350 8450
 Wire Wire Line
-	4850 6900 4850 6850
+	4350 8450 4350 8400
 Wire Wire Line
-	4950 7050 4850 7050
+	4450 8600 4350 8600
 $Comp
 L Control-Board-rescue:ED1501-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J13
 U 1 1 5D149987
-P 6950 6750
-F 0 "J13" H 7056 7065 50  0000 C CNN
-F 1 "ED1501-ND" H 7056 6974 50  0000 C CNN
-F 2 "JPL Robotics:ED1501-ND" H 6950 6750 50  0001 C CNN
-F 3 "" H 6950 6750 50  0001 C CNN
-	1    6950 6750
+P 6800 8700
+F 0 "J13" H 6906 9015 50  0000 C CNN
+F 1 "ED1501-ND" H 6906 8924 50  0000 C CNN
+F 2 "JPL Robotics:ED1501-ND" H 6800 8700 50  0001 C CNN
+F 3 "" H 6800 8700 50  0001 C CNN
+	1    6800 8700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2723,16 +2698,12 @@ Wire Notes Line style solid rgb(0, 0, 0)
 Wire Wire Line
 	13600 7250 14200 7250
 Wire Wire Line
-	5950 6100 6150 6100
-Wire Wire Line
-	5900 7300 6100 7300
-Wire Wire Line
 	14200 8150 14500 8150
 Wire Wire Line
-	6150 6050 6150 6100
-Connection ~ 6150 6100
+	6900 6800 6900 6850
+Connection ~ 6900 6850
 Wire Wire Line
-	6150 6100 6250 6100
+	6900 6850 7000 6850
 $Comp
 L Control-Board-rescue:rover_silkscreen-Monolithic-Board-rescue y1
 U 1 1 5D3E48F3
@@ -2747,30 +2718,26 @@ $EndComp
 Connection ~ 14500 8150
 Wire Wire Line
 	14500 8150 14600 8150
-Connection ~ 5650 6100
-Connection ~ 6100 7300
-Text Label 6100 7300 0    50   ~ 0
+Connection ~ 5350 6850
+Text Label 6850 8050 0    50   ~ 0
 +BATT
 $Comp
 L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J28
 U 1 1 5EF81C85
-P 6600 6950
-F 0 "J28" V 6500 7100 30  0000 R CNN
-F 1 "ED2580-ND" V 6450 7150 30  0001 R CNN
-F 2 "JPL Robotics:ED2580-ND" H 6600 7150 30  0001 C CNN
-F 3 "" H 6600 7150 30  0001 C CNN
-	1    6600 6950
+P 7350 7700
+F 0 "J28" V 7250 7850 30  0000 R CNN
+F 1 "ED2580-ND" V 7200 7900 30  0001 R CNN
+F 2 "JPL Robotics:ED2580-ND" H 7350 7900 30  0001 C CNN
+F 3 "" H 7350 7900 30  0001 C CNN
+	1    7350 7700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 6900 6450 7300
+	7200 7650 7200 8050
 Wire Wire Line
-	6100 7300 6450 7300
+	7000 6850 7200 6850
 Wire Wire Line
-	6250 6100 6450 6100
-Wire Wire Line
-	6450 6100 6450 6850
-Connection ~ 6250 6100
+	7200 6850 7200 7600
 Text Label 2450 5600 0    30   ~ 0
 GND
 Text Label 2450 5800 0    30   ~ 0
@@ -2787,4 +2754,112 @@ Text Label 1250 6100 0    30   ~ 0
 GND
 Text Label 1250 5700 0    30   ~ 0
 GND
+$Comp
+L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J29
+U 1 1 5F19E0D2
+P 5200 5950
+F 0 "J29" V 5100 6100 30  0000 R CNN
+F 1 "ED2580-ND" V 5050 6150 30  0001 R CNN
+F 2 "JPL Robotics:ED2580-ND" H 5200 6150 30  0001 C CNN
+F 3 "" H 5200 6150 30  0001 C CNN
+	1    5200 5950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J30
+U 1 1 5F1DDA97
+P 6650 5950
+F 0 "J30" V 6550 6100 30  0000 R CNN
+F 1 "ED2580-ND" V 6500 6150 30  0001 R CNN
+F 2 "JPL Robotics:ED2580-ND" H 6650 6150 30  0001 C CNN
+F 3 "" H 6650 6150 30  0001 C CNN
+	1    6650 5950
+	0    -1   1    0   
+$EndComp
+Text Notes 4300 5750 0    50   ~ 0
+Battery
+Text Notes 5000 5750 0    50   ~ 0
+MM DC
+Text Notes 6450 5750 0    50   ~ 0
+MM LOAD
+Wire Wire Line
+	5600 6550 5600 6850
+Wire Wire Line
+	4450 6100 4450 6550
+Wire Wire Line
+	4450 6550 5600 6550
+Wire Wire Line
+	4500 6100 4500 6250
+Connection ~ 7000 6850
+Wire Wire Line
+	6600 6100 6600 6850
+Wire Wire Line
+	5600 8050 6150 8050
+Wire Wire Line
+	5900 7400 5600 7400
+Wire Wire Line
+	4500 6250 5150 6250
+Wire Wire Line
+	5150 6250 5150 6100
+Wire Wire Line
+	5100 6400 5850 6400
+Wire Wire Line
+	5100 6100 5100 6400
+Wire Wire Line
+	5850 6100 5850 6400
+Wire Wire Line
+	5900 6100 5900 7400
+Text Notes 5750 5750 0    50   ~ 0
+Switch
+$Comp
+L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J16
+U 1 1 5C47E476
+P 5950 5950
+F 0 "J16" V 5850 6100 30  0000 R CNN
+F 1 "ED2580-ND" V 5800 6150 30  0001 R CNN
+F 2 "JPL Robotics:ED2580-ND" H 5950 6150 30  0001 C CNN
+F 3 "" H 5950 6150 30  0001 C CNN
+	1    5950 5950
+	0    -1   1    0   
+$EndComp
+Text Notes 3950 6950 0    79   ~ 0
+Multimeter Notes
+Text Notes 4000 7200 0    50   ~ 0
+1. MM DC+ is internally \nconnected to MM LOAD+
+Text Notes 4000 7450 0    50   ~ 0
+2. MM DC- has a low resistance \nconnection to MM LOAD-
+Connection ~ 6150 8050
+Wire Wire Line
+	6150 8050 6550 8050
+Wire Wire Line
+	6550 6100 6550 8050
+Connection ~ 6550 8050
+Wire Wire Line
+	6550 8050 7200 8050
+Wire Wire Line
+	6600 6850 6900 6850
+Text Notes 7300 7450 0    50   ~ 0
+Battery\nOut
+Text Notes 4350 6100 0    50   ~ 0
++
+Text Notes 5000 6100 0    50   ~ 0
++
+Text Notes 6450 6100 0    50   ~ 0
++
+Text Notes 4550 6100 0    50   ~ 0
+-
+Text Notes 5200 6100 0    50   ~ 0
+-
+Text Notes 6650 6100 0    50   ~ 0
+-
+Text Notes 4000 7800 0    50   ~ 0
+3. PCB ground connects\nto battery- via MW LOAD-\nand MM DC-
+Text Label 4550 6550 0    30   ~ 0
+BATTPOS
+Text Label 4550 6250 0    30   ~ 0
+BATTNEG
+Text Label 5250 6400 0    30   ~ 0
+MMDC+
+Text Label 5700 7400 0    30   ~ 0
+SWIN
 $EndSCHEMATC
