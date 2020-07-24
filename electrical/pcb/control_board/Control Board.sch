@@ -2787,8 +2787,6 @@ Wire Wire Line
 Wire Wire Line
 	4450 6100 4450 6550
 Wire Wire Line
-	4450 6550 5600 6550
-Wire Wire Line
 	4500 6100 4500 6250
 Connection ~ 7000 6850
 Wire Wire Line
@@ -2822,11 +2820,11 @@ F 3 "" H 5950 6150 30  0001 C CNN
 	1    5950 5950
 	0    -1   1    0   
 $EndComp
-Text Notes 3950 6950 0    79   ~ 0
+Text Notes 3950 7250 0    79   ~ 0
 Multimeter Notes
-Text Notes 4000 7200 0    50   ~ 0
+Text Notes 4000 7500 0    50   ~ 0
 1. MM DC+ is internally \nconnected to MM LOAD+
-Text Notes 4000 7450 0    50   ~ 0
+Text Notes 4000 7750 0    50   ~ 0
 2. MM DC- has a low resistance \nconnection to MM LOAD-
 Connection ~ 6150 8050
 Wire Wire Line
@@ -2852,7 +2850,7 @@ Text Notes 5200 6100 0    50   ~ 0
 -
 Text Notes 6650 6100 0    50   ~ 0
 -
-Text Notes 4000 7800 0    50   ~ 0
+Text Notes 4000 8100 0    50   ~ 0
 3. PCB ground connects\nto battery- via MW LOAD-\nand MM DC-
 Text Label 4550 6550 0    30   ~ 0
 BATTPOS
@@ -2862,4 +2860,19 @@ Text Label 5250 6400 0    30   ~ 0
 MMDC+
 Text Label 5700 7400 0    30   ~ 0
 SWIN
+$Comp
+L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J31
+U 1 1 5F1E1CAE
+P 5050 6700
+F 0 "J31" V 4950 6850 30  0000 R CNN
+F 1 "ED2580-ND" V 4900 6900 30  0001 R CNN
+F 2 "JPL Robotics:ED2580-ND" H 5050 6900 30  0001 C CNN
+F 3 "" H 5050 6900 30  0001 C CNN
+	1    5050 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 6550 4950 6550
+Wire Wire Line
+	5000 6550 5600 6550
 $EndSCHEMATC
