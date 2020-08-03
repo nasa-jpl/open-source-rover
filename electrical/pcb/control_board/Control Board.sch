@@ -1097,8 +1097,6 @@ TXD
 Text Label 4450 3600 0    30   ~ 0
 RXD
 Wire Wire Line
-	1400 5500 1250 5500
-Wire Wire Line
 	1400 5550 1250 5550
 Wire Wire Line
 	1400 5600 1250 5600
@@ -2875,4 +2873,30 @@ Wire Wire Line
 	4450 6550 4950 6550
 Wire Wire Line
 	5000 6550 5600 6550
+$Comp
+L Device:C_Small C18
+U 1 1 5F265055
+P 800 5700
+F 0 "C18" H 892 5746 50  0000 L CNN
+F 1 "100nf" H 892 5655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 800 5700 50  0001 C CNN
+F 3 "~" H 800 5700 50  0001 C CNN
+	1    800  5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F2A8883
+P 800 5800
+F 0 "#PWR0103" H 800 5550 50  0001 C CNN
+F 1 "GND" H 900 5800 39  0000 C CNN
+F 2 "" H 800 5800 50  0001 C CNN
+F 3 "" H 800 5800 50  0001 C CNN
+	1    800  5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  5500 1400 5500
+Wire Wire Line
+	800  5500 800  5600
 $EndSCHEMATC
