@@ -34,8 +34,9 @@ None
 ## Overview
 
 1. Drilling the wheels
-2. Assembling the base wheels
-3. Assembling the corner wheels
+2. Assembling the base wheel mounts
+3. Assembling the corner wheel mounts
+4. Mounting the wheels
 
 # Instructions
 
@@ -90,7 +91,7 @@ Now, we need to create the four corner wheels. These build on what we made for t
 | ------------------------------ | ---- | --- | -------------------------------------------------------------------- | --- | ----------------------------- | --- | --- | -------------------------------------------------------------------- |
 | 3" channel                     | S2   | 4   | <image src="../../images/components/Structural/S2.jpg" width="100">  |     | 48 Tooth Plain Bore Gear      | S26 | 4   | <image src="../../images/components/Structural/S26.jpg" width="100"> |
 | 4.5" channel                   | S4   | 4   | <image src="../../images/components/Structural/S4.jpg" width="100">  |     | 6-32 x 1/2" Button Head Screw | B3  | 8   | <image src="../../images/components/Screws/B3.png" width="100">      |
-| Channel connector plate        | S6   | 12  | <image src="../../images/components/Structural/S6.jpg" width="100">  |     | 6-32 x 1/4" screws            | B1  | ??? | <image src="../../images/components/Screws/B1.png" width="100">      |
+| Channel connector plate        | S6   | 12  | <image src="../../images/components/Structural/S6.jpg" width="100">  |     | 6-32 x 1/4" screws            | B1  | 40 | <image src="../../images/components/Screws/B1.png" width="100">      |
 | 0.25" Face tapped clamping hub | S12  | 4   | <image src="../../images/components/Structural/S12.jpg" width="100"> |     | allen key set                 | D2  |     | <image src="../../images/components/Tools/D2.jpeg" width="100">      |
 | Loctite Threadlocker           | S34  |     | <image src="../../images/components/Structural/S34.jpg" width="100"> |     | 6-32 x 3/4" Threaded Standoff | T3  | 4   | <image src="../../images/components/Standoffs/T3.png" width="100">   |
 | wheels                         | S30A | 6   | <image src="../../images/components/Structural/S30.jpg" width="100"> |     | 6-32 x 5/8" screws            | B4  | 12  | <image src="../../images/components/Screws/B4.png" width="100">      |
@@ -115,7 +116,10 @@ Now, we need to create the four corner wheels. These build on what we made for t
     Figure 6: Attaching the hard stop that prevents the corner motor from rotating too far
 
 4. **Attaching the 4.5 inch channel**: Attach the 4.5in channel **S4** to the top of the 3in channel from the last step using two channel connectors **S6** and screws **B1** as shown in Figure 7.
+   
+    <image src="img/wheels/Corner%20Wheel%20Step%204.PNG" height="250">
 
+    Figure 7: Attach the 4.5in channel you made in step 3 to the base wheel mount
 
 5. **Repeat for the other corner wheels**: You should have 4 corner assemblies and 2 base wheel assemblies.
 
@@ -126,6 +130,6 @@ For all 6 assemblies, use screws **B4** to mount the wheels to the shaft clamp o
 
 <image src="img/wheels/Wheel%20Step%203.PNG" height="250">
 
-Figure 7: Attaching the wheels
+Figure 8: Attaching the wheels
 
 Congratulations, you finished another major assembly!
