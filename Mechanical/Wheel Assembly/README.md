@@ -73,6 +73,7 @@ Next, we will build the wheel assemblies which are divided into the middle wheel
 
     | <image src="img/fabrication/pattern_adaptors.jpg"> | <image src="img/fabrication/attaching_adaptor_motor_channel_closeup.jpg"> | <image src="img/fabrication/attaching_adaptor_motor_channel.jpg"> | <image src="img/fabrication/motor_channel_adaptor.jpg"> |
     | -------------------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------- |
+
     Figure 2: Connecting the pattern adaptors. The tolerances might be tight, in which case it's best to connect the M4 screw to the threaded plate where the hole is elongated first, then loosely insert the larger screw into the channel adaptor before you attach the remaining two screws.
 
 2. **Motor mount**: Attach the motor into the GoBilda channel **S45** you just prepared using clamping mount **S47** and screws **B15** as shown in Figure 3. Don't tighten the clamping mount to the motor all the way so we can adjust the positioning later to make the wheel center align with the corner steering axis. Slide on the motor shaft D-hub all the way back and tighten the clamp screw.
@@ -111,12 +112,12 @@ Now, we need to create the four corner wheels. These build on what we made for t
 
 3. **Preparing the 4.5 inch Channels - Hard stop mount**: In order to keep the wheels from spinning too far in either direction, we will install a physical hard stop in the system. Attach a standoff **T3** with screw **B1** and optionally Loctite Threadlocker **S34** to the channel as shown in Figure 6. This standoff will be our hard stop. Make sure that you use the correct mounting hole or the standoff will not line up with the hard stops on the encoder mount.
 
-    <image src="img/wheels/Hard%20stop%20mount.PNG" height="250">
+    <image src="img/wheels/hard%20stop%20mount.PNG" height="250">
 
     Figure 6: Attaching the hard stop that prevents the corner motor from rotating too far
 
 4. **Attaching the 4.5 inch channel**: Attach the 4.5in channel **S4** to the top of the 3in channel from the last step using two channel connectors **S6** and screws **B1** as shown in Figure 7.
-   
+
     <image src="img/wheels/Corner%20Wheel%20Step%204.PNG" height="250">
 
     Figure 7: Attach the 4.5in channel you made in step 3 to the base wheel mount
