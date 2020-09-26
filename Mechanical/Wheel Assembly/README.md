@@ -53,8 +53,9 @@ Drill holes in the wheels as shown in Figure 1 using the center drill and drill 
 
 > The wheel is normally meant to be mounted using one bolt through the middle of the rim. This will not work well in our case as the rover sees very high torque at the wheel and the one-bolt system would be difficult to attach to any part of our system without the wheel slipping. To attach more firmly, we will drill two holes on either side of the original hole where we will mount the motor hub clamp as shown in Figure 1
 
-| ![](img/fabrication/Wheel%20Drill.PNG) | ![](img/fabrication/Wheel%20Aligned.png) |
+| ![](img/fabrication/Wheel%20Drill.PNG) | ![](img/fabrication/Wheel%20Aligned.PNG) |
 | -------------------------------------- | ---------------------------------------- |
+
 Figure 1: Drilling the wheels
 
 The important dimension is that the two holes are as close to 0.770 inches apart as possible while remaining centered about the center of the wheel. We found that the geometry shown in Figure 1 allowed us to get the holes most easily. Normally for these through holes you would use drill \#25, but in order to give a little extra tolerance we recommend a few steps up from that, something around drill \#23. Test the holes with the 4mm Clamping Hub **S14** to make sure the holes align as shown in Figure 1. If the holes do not align, you can file them out slightly or even attempt to re-drill them depending on how close you are. Repeat this drilling process for all 6 of the wheels.
