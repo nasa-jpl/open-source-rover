@@ -15,19 +15,19 @@ The specific attributes of the robot you build will depend slightly on the type 
 
 | Attribute	                                | Value [imperial]         | Value [SI]             |
 | ----------                                |:-----:                   | :-------------:        |
-| Weight                                    | 25 [lbs]                 | 11.34[kg]              |
+| Weight                                    | 28 [lbs]                 | 12.7 [kg]              |
 | Footprint                                 | 24x14 [in]               | 60.96x30.48 [cm]       |
 | Battery Capacity                          | 5200 [mAh]               | 5200 [mAh]             |
 | Battery Discharge Rate                    | 8 [A]                    | 8 [A]                  |
 | Nominal Current Draw                      | 1.2 [A]                  | 1.2 [A]                |
 | Operating time                            | 5 [hrs] (continual use)  | 5 [hrs] (continual use)|
-| Approximate Max speed                                 | 9.7 [in/s]               | 24.6 [cm/s]          |
+| Approximate Max speed                     | 68.8 [in/s]              | 1.75 [m/s]             |
 | Maximum 90 deg vertical scale             | 12 [in]                  | 30.48 [cm]             | 
 | Maximum height differential between sides | 14 [in]                  | 35.56 [cm]             |
 | Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller| |
 | Cost                                      | ~ $2,500                 |                        |
 
-Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [Motor selection sheet](https://www.pololu.com/category/115/25d-mm-metal-gearmotors), where any of the 12V motors would work easily in the robot.  Note, however, that it is important to also asses the electrical current draw and make sure that all the electronics and battery can supply the power required for any change in motors.
+Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [GoBilda](https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motors/).
 
 ### Features
 This rover is designed to function similarly to the 6 wheel rover designs on Mars and employs a few of the major driving mechanics that the mars rovers use to traverse rocky surfaces:
@@ -51,6 +51,12 @@ Using the above ports, you could theoretically drive the rover autonomously from
 
 For the power system of the rover, there is also ample spare power which can be used for your own addons and upgrades.  See the [Electrical subsystem documentation](Electrical/) for more specific details.
 
+### Maintenance Status
+
+As an open-source hardware project, the rover is continuously improving. Please check ongoing [projects](https://github.com/nasa-jpl/open-source-rover/projects), [issues](https://github.com/nasa-jpl/open-source-rover/issues), [pull requests](https://github.com/nasa-jpl/open-source-rover/projects), and the forum (see below) to see if any big changes are expected soon.
+
+We are changing documentation from LaTeX to MarkDown to facilitate contributions. Some instructions might be in PDF format while other might be a `README.md` file rendered in GitHub. To print out a MarkDown page, consider using an extension like [GitHub Markdown Printer](https://chrome.google.com/webstore/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk?hl=en)
+
 ### Online 3D Model
 <img src="images/onshape/rover.png" width="100%"/>
 <p><img src="images/onshape/body.png" width="32%"/>
@@ -58,7 +64,7 @@ For the power system of the rover, there is also ample spare power which can be 
 <img src="images/onshape/pcb.png" width="32%"/></p>
 Huge thanks to @toebes for building out an Onshape model of the Open Source Rover!!  That model can be viewed at https://cad.onshape.com/documents/5c358484057fc4c01d5e5803/w/bdf583acdf29d75695be5fbc/e/e3eb7193ecdec5b0a710978b.
 
-The model above includes the state of the rover at each individual step throughout our build instructions!!!  Therefore, you should be able to reference the online 3D model in addition to the photos in the build instructions as you are building to ensure your build is going well.
+The model above includes the state of the rover at each individual step throughout our build instructions!  Therefore, you should be able to reference the online 3D model in addition to the photos in the build instructions as you are building to ensure your build is going well. NOTE: The most updated model and single source of truth are the SolidWorks assemblies.
 
 ### Other Resources
 In addition to this repository which holds all the documentation for this project, there are two additional websites tied to this project. One is a landing site which holds general information and an overview of the rover and how it works:
@@ -135,7 +141,7 @@ The main /osr/ folder contains all of the documentation and information necessar
 The [Master Parts List](master_parts_list.xlsx) contains all the parts necessary to build the entirety of the robot as it is listed in our documentation. We recognize that you may want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary __only for that section__.  Be sure to assess the quantities you need for common items (particularly screws, nuts, bolts, and other common hardware) if you are changing subassemblies.*
 
 ##### Cart Share
-In order to help this ordering process we have compiled a few links of a large number of these together already, if you wish to build exactly what is in our build documentation.
+In order to help this ordering process we have compiled a few links of a large number of these together already, if you wish to build exactly what is in our build documentation. Note that some of these parts might not be available or outdated. Please check the master parts list for the most up-to-date list of items.
 
 |[McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)|[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wb)|[Pololu](https://www.pololu.com/wishlist/1J10953)|[Adafruit](https://www.adafruit.com/wishlists/460400)|
 |---|---|---|---|
