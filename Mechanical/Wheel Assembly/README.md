@@ -119,8 +119,9 @@ Now, we need to create the four corner wheels. These build on what we made for t
 
 4. **Attaching the 4.5 inch channel**: Attach the 4.5in channel **S4** to the top of the 3in channel from the last step using two channel connectors **S6** and screws **B1** as shown in Figure 7.
 
-    <image src="img/wheels/Corner%20Wheel%20Step%204.PNG" height="250">
-
+    | <img src="img/wheels/Corner%20Wheel%20Step%204.PNG" height="250"> | <img src="img/wheels/corner_assembly_cad.jpg" height="250"> |
+    | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
+    
     Figure 7: Attach the 4.5in channel you made in step 3 to the base wheel mount
 
 5. **Repeat for the other corner wheels**: You should have 4 corner assemblies and 2 base wheel assemblies.
