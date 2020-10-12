@@ -1,9 +1,3 @@
----
-author:
-    - 'Authors: Michael Cox, Eric Junkins, Olivia Lofaro'
-title: 'Open Source Rover: Software Instructions'
----
-
 # Open Source Rover: Software Instructions
 
 Authors: Michael Cox, Eric Junkins, Olivia Lofaro
@@ -87,8 +81,8 @@ debugging a software installation by doing so.
 
     Custom JPL image with both Raspbian Stretch and ROS pre-built: https://drive.google.com/drive/folders/1RbYWDRthpcktqkPEHb7qVqDiy27EiAc1
 
-    **\*\*NOTE: If you install the Custom JPL image with Raspbian
-    Stretch and ROS pre-built, skip to step 2.4.**
+**\*\*NOTE: If you install the Custom JPL image with Raspbian
+Stretch and ROS pre-built, skip to step 2.4.**
 
 Once you finish the above tutorial and install Raspbian Stretch, you
 should be able to boot your Raspberry Pi and see a desktop!
@@ -111,20 +105,20 @@ Next, we will install ROS (and specifically, the version called
 
 **NOTE: Follow the ROS installation directions in the link below
 CAREFULLY! Do not ignore warnings, as they will lead to issues later in
-the installation. Some known \"gotchas\" to note before you get started
+the installation. Some known "gotchas" to note before you get started
 are:**
 
-    Make sure you install the Kinetic \"desktop_full\" version of
-    ROS, not the desktop ros-comm, or other versions.
+Make sure you install the Kinetic "desktop_full" version of
+ROS, not the desktop ros-comm, or other versions.
 
-    ROS changed their GPG keys as of June 7 2019. The ROS install
-    instructions do not mention this as of July 2019 and will not work
-    unless you update your GPG keys. See
-    https://discourse.ros.org/t/new-gpg-keys-deployed-for-packages-ros-org/9454
-    for instructions on how to update your GPG keys.
+ROS changed their GPG keys as of June 7 2019. The ROS install
+instructions do not mention this as of July 2019 and will not work
+unless you update your GPG keys. See
+https://discourse.ros.org/t/new-gpg-keys-deployed-for-packages-ros-org/9454
+for instructions on how to update your GPG keys.
 
-    Make sure you follow directions for KINETIC, not Indigo, Melodic,
-    or any other ROS version.
+Make sure you follow directions for KINETIC, not Indigo, Melodic,
+or any other ROS version.
 
 Once you familiarize yourself with the above issues, go ahead and
 complete your ROS installation by following the instructions at:
@@ -156,7 +150,7 @@ In the raspi-config menu, set the following options:
 Once the Pi reboots, open up a terminal again and look at the serial
 devices:
 
--   `ls -l /dev/serial\*`
+-   `ls -l /dev/serial*`
     Make sure that this shows serial0 -> ttyS0 . If it does not, ensure
     that you have followed every step in this tutorial in order. Next, edit
     the /boot/cmdline.txt file:
