@@ -62,6 +62,8 @@ with open('parts_list_reference.csv') as f:
         else:
             # Override the calculated parts count if needed
             total_count = int(part_details['Total Used in Project override'])
+        if part_details['Extras to buy']:
+            total_count += int(part_details['Extras to buy'])
         part_details['Total Used in Project'] = 1 if total_count == 0 else total_count
         # Make one value a float to have proper division
         part_details['Quantity to Buy'] = (math.ceil(part_details['Total Used in Project'] /

@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-08022019-032265";"";
+"REFERENCE";"C3900BA";"";
+"TraceParts.PartTitle";"Toggle Switches, C3900BA";"";
+"TraceParts.InstanceId";"90-08022019-0322652N3XX9WWY2MK673V115V3T3RA";"";
+"DESIGN";"Toggle Switches, C3900BA";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";
+"SUPPLIER";"Bulgin";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.ClassPath";"BULGIN:/F_BULGIN/BULGIN.020/BULGIN.020.030/90-08022019-032265";"";

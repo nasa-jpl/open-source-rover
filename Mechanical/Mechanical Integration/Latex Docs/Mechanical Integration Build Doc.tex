@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{setspace}
 \usepackage{graphicx}
@@ -57,8 +57,6 @@
 
 \noindent {\footnotesize Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. \textcopyright  2018 California Institute of Technology. Government sponsorship acknowledged.}
 
-
-
 % Introduction
 
 \newpage
@@ -66,8 +64,6 @@
 \tableofcontents
 
 \newpage
-
-
 
 \section{Mechanical/Structural Assembly}
 At this point we have every major sub assembly created and they just need to be attached together to create the rover! In the steps in this document, we will attach all the corner motors and wheels, the rocker-bogie, the differential pivot, and the head.
@@ -111,11 +107,11 @@ At this point we have every major sub assembly created and they just need to be 
         \hline
         \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
         \hline
-        1.5" Channel & S1 & 2 & \partimg{../../../images/parts_list/S1.jpg} & 0.5" Nylon Washer & W3 & 3 & \partimg{../../../images/parts_list/W3.png} \\ \hline
-        Channel Connector Plate & S6 & 14 & \partimg{../../../images/parts_list/S6.jpg} & \#6-32x1/4" Button Head Screw & B1 & 52 & \partimg{../../../images/parts_list/B1.png} \\ \hline
-        0.5" x 15" Aluminum Tube (Modified) & S16A & 1 & \partimg{../../../images/parts_list/S16A.png} & Allen Key Set & D2 & & \partimg{../../../images/parts_list/D2.jpeg} \\ \hline
-        0.5" x 2" Aluminum Tube & S19 & 1 & \partimg{../../../images/parts_list/S19.jpg} & Wrench Set & D1 & & \partimg{../../../images/parts_list/D1.jpg} \\ \hline
-        0.5” Collar Clamp & S22 & 7 & \partimg{../../../images/parts_list/S22.png} & & & & \\ \hline
+        1.5" Channel & S1 & 2 & \partimg{../../../images/components/Structural/S1.jpg} & 0.5" Nylon Washer & W3 & 3 & \partimg{../../../images/components/Washers/W3.png} \\ \hline
+        Channel Connector Plate & S6 & 14 & \partimg{../../../images/components/Structural/S6.jpg} & \#6-32x1/4" Button Head Screw & B1 & 52 & \partimg{../../../images/components/Screws/B1.png} \\ \hline
+        0.5" x 15" Aluminum Tube (Modified) & S16A & 1 & \partimg{../../../images/components/Structural/S16A.png} & Allen Key Set & D2 & & \partimg{../../../images/components/Tools/D2.jpeg} \\ \hline
+        0.5" x 2" Aluminum Tube & S19 & 1 & \partimg{../../../images/components/Structural/S19.jpg} & Wrench Set & D1 & & \partimg{../../../images/components/Tools/D1.jpg} \\ \hline
+        0.5” Collar Clamp & S22 & 7 & \partimg{../../../images/components/Structural/S22.png} & & & & \\ \hline
     \end{tabular}
 \end{table}
 
@@ -128,32 +124,23 @@ At this point we have every major sub assembly created and they just need to be 
 
 \begin{figure}[H]
   \centering
-  \begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{"Pictures/RB Step 17".PNG}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{"Pictures/RB Step 18".png}
-  \end{minipage}
+  \includegraphics[width=0.5\textwidth]{"Pictures/RB Step 19".jpg}
   \caption{Mounting the middle wheel}
   \label{mounting the middle wheel}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{"Pictures/RB Step 19".PNG}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{"Pictures/RB Final 3".png}
-  \end{minipage}
+  \includegraphics[width=\textwidth]{"Pictures/RB Final 3".jpg}
   \caption{Attaching the middle wheels}
   \label{final rocker bogie}
 \end{figure}
 
+\end{enumerate}
 
 \subsection{Attaching Corner Steering Assembly}
+
+\begin{enumerate}
 
 \item Attach one of your corner steering assemblies to the rocker bogie assembly using channel connectors \textbf{S6} and screws \textbf{B1} as shown in Figure \ref{attaching corner wheel}. Make sure that you pick a corner steering assembly that has the encoder facing outwards (on the same side as the middle wheel from the previous step).
 
@@ -185,7 +172,11 @@ At this point we have every major sub assembly created and they just need to be 
   \caption{All corner steering assemblies attached}
 \end{figure}
 
+\end{enumerate}
+
 \subsection{Attaching Corner Wheels}
+
+\begin{enumerate}
 
 \item Attach the four corner wheel assemblies to the corner steering assemblies. They are all symmetric. You may need to spin the encoder gears to mesh with the motor shaft gears if they are not aligned initially. See Figure \ref{wheels finished}
 
@@ -202,7 +193,11 @@ At this point we have every major sub assembly created and they just need to be 
   \label{wheels finished}
 \end{figure}
 
+\end{enumerate}
+
 \subsection{Mounting Body to Rocker-Bogie}
+
+\begin{enumerate}
 
 \item Mount the main body of the rover to the two separate rocker-bogie legs using 15 inch aluminum rod \textbf{S16A} and collar clamps \textbf{S22} as shown in Figure \ref{body to rb}. Make sure to maintain the order of the collar clamps shown in Figure \ref{body to rb} to fully lock all assemblies along the rod. The rod will go through the pillow blocks on each rocker-bogie leg, and it should pass through the 4th from the back and 2nd up hole on the body as shown in Figure \ref{body to rb}.
 
@@ -219,41 +214,58 @@ At this point we have every major sub assembly created and they just need to be 
   \label{body to rb}
 \end{figure}
 
+\end{enumerate}
 
 \subsection{Attach the Differential Pivot}
 
-\item \textbf{Attaching the Vertical Rods} Place a 0.5 x 2 inch hollow aluminum rod \textbf{S19} through the pillow blocks on the back of the body and secure the bottom with a collar clamp \textbf{S22}. Then place all three washers
-\textbf{W3} followed by the clamping hub around the top of the rod and tighten down on the clamping screw. See Figure \ref{attaching pivot rod}.
+\begin{enumerate}
+
+\begin{table}[H]
+  \centering
+  \arrayrulecolor{lightgray}
+  \sffamily\footnotesize
+  \captionsetup{font={sf,bf}}
+  \caption{Parts/Tools Necessary}
+  \begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+      \hline
+      \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+      \hline
+      0.5" Hollow aluminum tube 2" long & S18 & 1 & \partimg{../../../images/components/Structural/S18.png} & 0.5" Collar clamp & S22 & 1 & \partimg{../../../images/components/Structural/S22.png} \\ \hline
+      0.5" Nylon Washer & W3 & 5 & \partimg{../../../images/components/Washers/W3.png} & & & & \\ \hline
+  \end{tabular}
+\end{table}
+
+\item \textbf{Mounting the differential pivot center:} Mount a collar clamp \textbf{S22} onto the end of the 2" Aluminum Rod \textbf{S19} as well as two of the 0.5" Nylon washers \textbf{W3} as shown in Figure \ref{diff_pivot_joint}. Then, insert this rod into the pillow bearing blocks from the inside of the body assembly. Add three more nylon washers on the outside / top and then attach the clamping assembly on the middle of the differential pivot (see Figure \ref{diff_pivot_joint}).
 
 \begin{figure}[H]
-  	\centering
-  	\begin{minipage}[b]{0.35\textwidth}
-   		\includegraphics[width=\textwidth]{"Pictures/Diff step 5".PNG}
-  	\end{minipage}
-  	\hfill
-  	\begin{minipage}[b]{0.35\textwidth}
-    		\includegraphics[width=\textwidth]{"Pictures/Diff Step 6".PNG}
-  	\end{minipage}
-  	\caption{Attaching the pivot rod}
-  	\label{attaching pivot rod}
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Diff step 6b".PNG}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.35\textwidth}
+    \includegraphics[width=\textwidth]{"Pictures/Diff step 7".PNG}
+  \end{minipage}
+  \caption{Inserting differential pivot joint}
+  \label{diff_pivot_joint}
 \end{figure}
 
-	\item \textbf{Attaching the differential pivot:} Attach the clamping hub on the center of the differential pivot to the 0.5 inch aluminum tube above the three washers from the last step. Also attach the the bottom sections of the differential pivot to the 0.5 inch clamping hubs on each of the Rocker-Bogie attachments. Once these are all in place, tighten down each of the screws on the clamping hubs.  See Figure \ref{attaching diff pvt}
+\item \textbf{Attaching the differential pivot arms:} Attach the the bottom sections of the differential pivot to the 0.5 inch clamping hubs on each of the Rocker-Bogie attachments. Once these are all in place, tighten down each of the screws on all of the clamping hubs as shown in Figure \ref{attaching diff pvt}.
 
 \begin{figure}[H]
-  	\centering
-  	\begin{minipage}[b]{0.35\textwidth}
-   		\includegraphics[width=\textwidth]{"Pictures/Diff step 7".PNG}
-  	\end{minipage}
-  	\hfill
-  	\begin{minipage}[b]{0.35\textwidth}
-    		\includegraphics[width=\textwidth]{"Pictures/Diff Step 8".PNG}
-  	\end{minipage}
-  	\caption{Attaching the differential pivot}
-  	\label{attaching diff pvt}
+  \centering
+  \begin{minipage}[b]{0.35\textwidth}
+      \includegraphics[width=\textwidth]{"Pictures/Diff Step 8".PNG}
+  \end{minipage}
+  \caption{Attaching the differential pivot}
+  \label{attaching diff pvt}
 \end{figure}
+
+\end{enumerate}
 
 \subsection{Mounting the Head}
+
+\begin{enumerate}
 
 \item \textbf{Mounting the head to the body:} Slide the PVC pipe at the bottom of the head into the PVC clamping hub on the rover body and tighten down the clamping screws.
 
