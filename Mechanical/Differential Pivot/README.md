@@ -31,6 +31,16 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
 
 2. Aluminum Rods: Drilling
+    | Item | Ref | Qty | Image |
+    | :--- | :-- | :-- | :---: |
+    | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 | ![S16B](/images/components/Structural/S16B.png)|
+    | 0.5" x 3" Aluminum Tube (Modified) | S18A | 2 | ![S18A](/images/components/Structural/S18A.png)|
+    | Hand Drill or drill press | D3 | ![D3](/images/components/Tools/D3.png)|
+    | Drill bit #23 | D6 | 1 | ![D6](/images/components/Tools/D6.png)|
+    | Center punch or start drill bit | D7 | 1 |![D7](/images/components/Tools/D7.png) |
+    | Vice or V-clamp | D8 | 1 | ![D8](/images/components/Tools/D8.png) | 
+
+
     The turnbuckles must be attached to the differential pivot and rocker-bogie arm. We will accomplish this by drilling holes in the aluminum beam S16B and attaching two 5-hole aluminum bars on each side.
     1. Using a vice or clamp, firmly grab onto the 0.5 x 13.5 inch rod S16B with the end extending out around 2 inches from the edge of the vice/clamp. Mark the dimensions as shown in Figure 2. Carefully use a center drill to start the a center hole for these holes. It is important that the center hole is as centered as possible to prevent the bit from walk- ing/slipping during drilling, which could result in the bit breaking. Then, use a #23 (0.154 inch diameter) drill bit and drill all the way through both sides of the rod. This makes the S16B’ part.
 
