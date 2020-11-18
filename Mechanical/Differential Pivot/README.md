@@ -35,9 +35,9 @@ The Differential Pivot helps to offload forces from one side of the rover to the
     | :--- | :-- | :-- | :---: |
     | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 | ![S16B](/images/components/Structural/S16B.png)|
     | 0.5" x 3" Aluminum Tube (Modified) | S18A | 2 | ![S18A](/images/components/Structural/S18A.png)|
-    | Hand Drill or drill press | D3 | ![D3](/images/components/Tools/D3.png)|
-    | Drill bit #23 | D6 | 1 | ![D6](/images/components/Tools/D6.png)|
-    | Center punch or start drill bit | D7 | 1 |![D7](/images/components/Tools/D7.png) |
+    | Hand Drill or drill press | D3 | 1 |![D3](/images/components/Tools/D3.png)|
+    | Drill bit #23 | D6 | 1 | ![D6](/images/components/Tools/D6.jpeg)|
+    | Center punch or start drill bit | D7 | 1 |![D7](/images/components/Tools/D7.jpeg) |
     | Vice or V-clamp | D8 | 1 | ![D8](/images/components/Tools/D8.png) | 
 
 
