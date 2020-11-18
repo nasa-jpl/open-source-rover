@@ -14,6 +14,15 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
 1. Aluminum Rods: Cutting
 
+    Parts/Tools Necessary
+
+    | Item | Ref | Qty | Image |
+    | :--- | :-- | :-- | :---: |
+    | 0.5" x 3' Aluminum Tube | S16 | 1 | |
+    | 0.5" x 4" Aluminum Tube | S18 | 4 | |
+    | Metal Hacksaw or Bandsaw | D4 |   | |
+    | Vice clamp or C clamps | D5 | | |
+
     1. Take the 3 foot piece of 0.5 inch aluminum rod S16 and cut it into one 15 inch piece and one 13.5 inch piece. These will now be referred to as the parts S16A and S16B respectively. In addition, take two of the 4 inch aluminum rods S18 and cut them down to 3 inches in length as well.
 
 
