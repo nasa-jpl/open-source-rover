@@ -1,7 +1,7 @@
 # Differential Pivot
 The Differential Pivot helps to offload forces from one side of the rover to the other while climbing. The differential pivot is crucial in the rocker-bogie suspension system and is designed to help keep all 6 wheels on the ground at all times. It also allows a second attachment point for the body so that it does not free rotate about the center bar that runs through it and connects the two sides of the rocker-bogie.
 
-![Differential Pivot](Latex%20Docs/Pictures/Differential%20Pivot.PNG)
+![Differential Pivot](images/differential_pivot.PNG) 
 
 ## Features
   * Uses inexpensive RC turnbuckles to give multi-degree rotation about 2 separate points, allowing the geometry to be greatly simplified
@@ -62,8 +62,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
     | Figure 5 |
 
 ## Mechanical Assembly
-    Parts/Tools Necessary
-    
+  Parts/Tools Necessary
+
   | Item | Ref | Qty | Image |
   | :--- | :-- | :-- | :---: |
   | Single Pattern Bracket | S8 | 1 | ![S8](/images/components/Structural/S8.jpg) |
@@ -80,16 +80,34 @@ The Differential Pivot helps to offload forces from one side of the rover to the
   | #4-40 Hexnut | B12 | 4 | ![B12](/images/components/Screws/B12.png)|
   | #4-40 Washer | W2 | 24 | ![W2](/images/components/Washers/W2.png)| 
   | Wrench Set | D1 | 1 | ![D1](/images/components/Tools/D1.jpg)|
-  | Allen Key Set | D2 | 1 | ![D2](/images/components/Tools/D2.png)|
+  | Allen Key Set | D2 | 1 | ![D2](/images/components/Tools/D2.jpeg)|
 
 
 1. Build clamping hub assembly: Attach the the bottom bore clamping hubs S20 to the single pattern bracket S8 using screws B1. Then mount the 0.5” clamping hub S13 to the bottom of this assembly using B1 screws.
 
+  | ![Step1](images/diff_step_1.PNG) | ![Step2](images/diff_step_2.PNG)|
+  |:-:|:-:|
+  | Figure 6| Figure 7 |
+
 2. Differential Pivot: Attach the turnbuckle S32 to the modified 13.5-inch aluminum rod S16B as shown using the 5-hole aluminum bars S21, washers W2, screws B7 and B9, hex nuts B11 and B12. The outermost screw is the #4 screw, the others are #6.
+
+  | ![Step3](images/diff_step_3.PNG) | ![Step4](images/diff_step_4.PNG)|
+  |:-:|:-:|
+  | Figure 8 | Figure 9 |
+
 
 3. Differential Pivot continued: Pass the 13.5inch rod through the clamping hub assembly, making sure to center it as much as possible. Then repeat step 2 for the other side of the differential pivot. If necessary, unscrew the turnbuckles (by twisting the middle) to insert the rods into place, then screw the turnbuckle back together.
 
+  | ![Step5](images/diff_step_5.PNG) | ![Step6](images/diff_step_6.PNG)|
+  |:-:|:-:|
+  | Figure 8 | Figure 9 |
+
+
 4. Differential Pivot Vertical rods: Repeat step 2 on each of the the 3 inch aluminum rods S18B. Finally, attach all the pieces of the turnbuckles together. Your differential pivot is now complete.
+
+  | ![Step7](images/differential_pivot.PNG) |
+  | :--: |
+  | Figure 10 |
 
 ## Disclaimer
 
