@@ -31,6 +31,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
 
 2. Aluminum Rods: Drilling
+    Parts/Tools Necessary
     | Item | Ref | Qty | Image |
     | :--- | :-- | :-- | :---: |
     | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 | ![S16B](/images/components/Structural/S16B.png)|
@@ -42,23 +43,45 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
 
     The turnbuckles must be attached to the differential pivot and rocker-bogie arm. We will accomplish this by drilling holes in the aluminum beam S16B and attaching two 5-hole aluminum bars on each side.
-    1. Using a vice or clamp, firmly grab onto the 0.5 x 13.5 inch rod S16B with the end extending out around 2 inches from the edge of the vice/clamp. Mark the dimensions as shown in Figure 2. Carefully use a center drill to start the a center hole for these holes. It is important that the center hole is as centered as possible to prevent the bit from walk- ing/slipping during drilling, which could result in the bit breaking. Then, use a #23 (0.154 inch diameter) drill bit and drill all the way through both sides of the rod. This makes the S16B’ part.
+    1. Using a vice or clamp, firmly grab onto the 0.5 x 13.5 inch rod S16B with the end extending out around 2 inches from the edge of the vice/clamp. Mark the dimensions as shown in Figure 3. Carefully use a center drill to start the a center hole for these holes. It is important that the center hole is as centered as possible to prevent the bit from walk- ing/slipping during drilling, which could result in the bit breaking. Then, use a #23 (0.154 inch diameter) drill bit and drill all the way through both sides of the rod. This makes the S16B’ part.
 
     | ![differential_pivot_drilling](images/differential_pivot_cut.PNG) |
     | :--: |
     | Figure 3 |
 
-    2. Test the holes by taking the 5 Hole Aluminum Beams S21 and screws B7 and making sure that the screws go all the way through as shown in Figure 3. If they do not fit, you can Figure 3: Testing the differential pivot holes Flip the rod around and repeat the steps for the other side, making sure to align the holes’ axes as much as possible such that the holes are all parallel to the previous set.
+    2. Test the holes by taking the 5 Hole Aluminum Beams S21 and screws B7 and making sure that the screws go all the way through as shown in Figure 4. If they do not fit, you can Figure 3: Testing the differential pivot holes Flip the rod around and repeat the steps for the other side, making sure to align the holes’ axes as much as possible such that the holes are all parallel to the previous set.
 
-    | ![Test alignment of differential pivot](images/differential_align.PNG) |
+    | ![Test alignment of differential pivot](images/diff_align.PNG) |
     | :--: |
     | Figure 4 |
 
-    3. Next, take two of the 0.5x3 inch hollow rods S18 and create the same set of holes as before, showed again in Figure 4 (this time, drill holes on just one end of each of the rods). Test each of the sets of holes to make sure the 5-hole aluminum beams will attach to each of the rods. These will now be the part S18B
+    3. Next, take two of the 0.5x3 inch hollow rods S18 and create the same set of holes as before, showed again in Figure 5 (this time, drill holes on just one end of each of the rods). Test each of the sets of holes to make sure the 5-hole aluminum beams will attach to each of the rods. These will now be the part S18B
 
-
+    | ![Test alignment of differential pivot](images/differential_standoff_cut.PNG) |
+    | :--: |
+    | Figure 5 |
 
 ## Mechanical Assembly
+    Parts/Tools Necessary
+    
+    | Item | Ref | Qty | Image |
+    | :--- | :-- | :-- | :---: |
+    | Single Pattern Bracket | S8 | 1 | |
+    | 0.5" Circular Clamping Hub | S13 | 1 | |
+    | 0.5" Bottom Bore Clamp | S20 | 2 | | 
+    | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 | |
+    | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | |
+    | 5 Hole Aluminum Beam | S21 | 8 | |
+    | RC Turnbluckle | S32 | 2 | | 
+    | #6-32x1/4" Button Head Screw | B1 | 8 | |
+    | #6-32x1.25" Button Head Screw | B7 | 8 | |
+    | #4-40x1.25" Button Head Screw | B9 | 4 | |
+    | #6-32 Hexnut | B11 | 8 | |
+    | #4-40 Hexnut | B12 | 4 | |
+    | #4-40 Washer | W2 | 24 | | 
+    | Allen Key Set | D2 | | 1 | |
+    | Wrench Set | D1 | 1 | |
+
 
 1. Build clamping hub assembly: Attach the the bottom bore clamping hubs S20 to the single pattern bracket S8 using screws B1. Then mount the 0.5” clamping hub S13 to the bottom of this assembly using B1 screws.
 
