@@ -43,16 +43,14 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
     The turnbuckles must be attached to the differential pivot and rocker-bogie arm. We will accomplish this by drilling holes in the aluminum beam S16B and attaching two 5-hole aluminum bars on each side.
     1. Using a vice or clamp, firmly grab onto the 0.5 x 13.5 inch rod S16B with the end extending out around 2 inches from the edge of the vice/clamp. Mark the dimensions as shown in Figure 2. Carefully use a center drill to start the a center hole for these holes. It is important that the center hole is as centered as possible to prevent the bit from walk- ing/slipping during drilling, which could result in the bit breaking. Then, use a #23 (0.154 inch diameter) drill bit and drill all the way through both sides of the rod. This makes the S16B’ part.
-    | ![differential_pivot_drilling](images/differential_pivot_cut.png) |
+
+    | ![differential_pivot_drilling](images/differential_pivot_cut.PNG) |
     | :--: |
     | Figure 3 |
 
-    
-
-
     2. Test the holes by taking the 5 Hole Aluminum Beams S21 and screws B7 and making sure that the screws go all the way through as shown in Figure 3. If they do not fit, you can Figure 3: Testing the differential pivot holes Flip the rod around and repeat the steps for the other side, making sure to align the holes’ axes as much as possible such that the holes are all parallel to the previous set.
 
-    | ![Test alignment of differential pivot](images/differential_align.png) |
+    | ![Test alignment of differential pivot](images/differential_align.PNG) |
     | :--: |
     | Figure 4 |
 
