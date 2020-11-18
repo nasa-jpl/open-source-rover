@@ -6,33 +6,6 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 ## Features
   * Uses inexpensive RC turnbuckles to give multi-degree rotation about 2 separate points, allowing the geometry to be greatly simplified
 
-## Information about module
-
-| Author/Creator            | JPL       |
-| --------------            | -------            |
-| Cost without 3D printer   | 84.90              |
-| Cost with 3D printer      | 84.90              |
-| Date Added                | 4/11               |
-| Group/Organization/School | JPL                |
-| Time to build             | 2 hrs              |
-
-## Skills
-  * Band Saw/Dremel
-  * Drill Press/Hand Drill
-
-## Tools
-
-### Mandatory 
-  * Band saw or Dremel
-  * Drill press or Hand Drill
-  * Allen Key set
-  * Imperial Wrench Set
-
-### Optional
-
-## Dependencies on Other Modules:
-  * None
-
 ## Mechanical Interface/Attachments to Rover:
   * 1/2 inch clamping hub to 1/2 inch aluminum rod on the body
   * 1/2 inch aluminum rod to 1/2 inch clamping hub on rocker-bogie arms
@@ -50,14 +23,19 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
     2. Test the holes by taking the 5 Hole Aluminum Beams S21 and screws B7 and making sure that the screws go all the way through as shown in Figure 3. If they do not fit, you can Figure 3: Testing the differential pivot holes Flip the rod around and repeat the steps for the other side, making sure to align the holes’ axes as much as possible such that the holes are all parallel to the previous set.
 
-
-    Next, take two of the 0.5x3 inch hollow rods S18 and create the same set of holes as before, showed again in Figure 4 (this time, drill holes on just one end of each of the rods). Test each of the sets of holes to make sure the 5-hole aluminum beams will attach to each of the rods. These will now be the part S18B
+    3. Next, take two of the 0.5x3 inch hollow rods S18 and create the same set of holes as before, showed again in Figure 4 (this time, drill holes on just one end of each of the rods). Test each of the sets of holes to make sure the 5-hole aluminum beams will attach to each of the rods. These will now be the part S18B
 
 
 
 ## Mechanical Assembly
 
+1. Build clamping hub assembly: Attach the the bottom bore clamping hubs S20 to the single pattern bracket S8 using screws B1. Then mount the 0.5” clamping hub S13 to the bottom of this assembly using B1 screws.
 
+2. Differential Pivot: Attach the turnbuckle S32 to the modified 13.5-inch aluminum rod S16B as shown using the 5-hole aluminum bars S21, washers W2, screws B7 and B9, hex nuts B11 and B12. The outermost screw is the #4 screw, the others are #6.
+
+3. Differential Pivot continued: Pass the 13.5inch rod through the clamping hub assembly, making sure to center it as much as possible. Then repeat step 2 for the other side of the differential pivot. If necessary, unscrew the turnbuckles (by twisting the middle) to insert the rods into place, then screw the turnbuckle back together.
+
+4. Differential Pivot Vertical rods: Repeat step 2 on each of the the 3 inch aluminum rods S18B. Finally, attach all the pieces of the turnbuckles together. Your differential pivot is now complete.
 
 ## Disclaimer
 
