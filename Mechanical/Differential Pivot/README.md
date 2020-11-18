@@ -18,7 +18,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
     | Item | Ref | Qty | Image |
     | :--- | :-- | :-- | :---: |
-    | 0.5" x 3' Aluminum Tube | S16 | 1 | |
+    | 0.5" x 3' Aluminum Tube | S16 | 1 | ![S16](/images/Structural/S16.png) |
     | 0.5" x 4" Aluminum Tube | S18 | 4 | |
     | Metal Hacksaw or Bandsaw | D4 |   | |
     | Vice clamp or C clamps | D5 | | |
