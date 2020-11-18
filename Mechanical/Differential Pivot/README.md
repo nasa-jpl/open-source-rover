@@ -66,21 +66,21 @@ The Differential Pivot helps to offload forces from one side of the rover to the
     
   | Item | Ref | Qty | Image |
   | :--- | :-- | :-- | :---: |
-  | Single Pattern Bracket | S8 | 1 | ![S8](/images/components/Structural/S8.png) |
+  | Single Pattern Bracket | S8 | 1 | ![S8](/images/components/Structural/S8.jpg) |
   | 0.5" Circular Clamping Hub | S13 | 1 | ![S13](/images/components/Structural/S13.png)|
   | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 | ![S16B](/images/components/Structural/S16B.png)|
   | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | ![S18B](/images/components/Structural/S18B.png)|
-  | 0.5" Bottom Bore Clamp | S20 | 2 | ![S20](/images/components/Structural/S20.png)| 
-  | 5 Hole Aluminum Beam | S21 | 8 | ![S21](/images/components/Structural/S21.png)|
-  | RC Turnbluckle | S32 | 2 | ![S32](/images/components/Structural/S32.png)| 
+  | 0.5" Bottom Bore Clamp | S20 | 2 | ![S20](/images/components/Structural/S20.jpg)| 
+  | 5 Hole Aluminum Beam | S21 | 8 | ![S21](/images/components/Structural/S21.jpg)|
+  | RC Turnbluckle | S32 | 2 | ![S32](/images/components/Structural/S32.jpg)| 
   | #6-32x1/4" Button Head Screw | B1 | 8 | ![B1](/images/components/Screws/B1.png)|
   | #6-32x1.25" Button Head Screw | B7 | 8 | ![B8](/images/components/Screws/B8.png)|
   | #4-40x1.25" Button Head Screw | B9 | 4 | ![B9](/images/components/Screws/B9.png)|
   | #6-32 Hexnut | B11 | 8 | ![B11](/images/components/Screws/B11.png)|
   | #4-40 Hexnut | B12 | 4 | ![B12](/images/components/Screws/B12.png)|
   | #4-40 Washer | W2 | 24 | ![W2](/images/components/Washers/W2.png)| 
-  | Wrench Set | D1 | 1 | ![D1](/images/components/Tools/D1.png)|
-  | Allen Key Set | D2 | | 1 | ![D3](/images/components/Tools/D2.png)|
+  | Wrench Set | D1 | 1 | ![D1](/images/components/Tools/D1.jpg)|
+  | Allen Key Set | D2 | 1 | ![D2](/images/components/Tools/D2.png)|
 
 
 1. Build clamping hub assembly: Attach the the bottom bore clamping hubs S20 to the single pattern bracket S8 using screws B1. Then mount the 0.5” clamping hub S13 to the bottom of this assembly using B1 screws.
