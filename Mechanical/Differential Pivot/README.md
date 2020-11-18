@@ -25,6 +25,10 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
     1. Take the 3 foot piece of 0.5 inch aluminum rod S16 and cut it into one 15 inch piece and one 13.5 inch piece. These will now be referred to as the parts S16A and S16B respectively. In addition, take two of the 4 inch aluminum rods S18 and cut them down to 3 inches in length as well.
 
+    | ![15 inch rod cut](images/15inch_cut.PNG) | ![3 inch rod cut](images/3inch_cut.PNG)|
+    |:-:|:-:|
+    | Figure 1| Figure 2 |
+
 
 2. Aluminum Rods: Drilling
     The turnbuckles must be attached to the differential pivot and rocker-bogie arm. We will accomplish this by drilling holes in the aluminum beam S16B and attaching two 5-hole aluminum bars on each side.
