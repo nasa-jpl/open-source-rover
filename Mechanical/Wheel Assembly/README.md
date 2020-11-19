@@ -89,14 +89,16 @@ With that the base wheel assembly is completed! We will attach the wheels after 
 
 Now, we need to create the four corner wheels. These build on what we made for the base wheel assemblies in the last step. For the corner motors, we will need to extend the attachment point upwards as it is important that the axes of the corner steering motors are directly above the middle of the wheels to enable smooth steering.
 
-| item                           | ref  | qty | img                                                                  |     | item                          | ref | qty | img                                                                  |
-| ------------------------------ | ---- | --- | -------------------------------------------------------------------- | --- | ----------------------------- | --- | --- | -------------------------------------------------------------------- |
-| 3" channel                     | S2   | 4   | <image src="../../images/components/Structural/S2.jpg" width="100">  |     | 48 Tooth Plain Bore Gear      | S26 | 4   | <image src="../../images/components/Structural/S26.jpg" width="100"> |
-| 4.5" channel                   | S4   | 4   | <image src="../../images/components/Structural/S4.jpg" width="100">  |     | 6-32 x 1/2" Button Head Screw | B3  | 8   | <image src="../../images/components/Screws/B3.png" width="100">      |
-| Channel connector plate        | S6   | 12  | <image src="../../images/components/Structural/S6.jpg" width="100">  |     | 6-32 x 1/4" screws            | B1  | 40 | <image src="../../images/components/Screws/B1.png" width="100">      |
-| 0.25" Face tapped clamping hub | S12  | 4   | <image src="../../images/components/Structural/S12.jpg" width="100"> |     | allen key set                 | D2  |     | <image src="../../images/components/Tools/D2.jpeg" width="100">      |
-| Loctite Threadlocker           | S34  |     | <image src="../../images/components/Structural/S34.jpg" width="100"> |     | 6-32 x 3/4" Threaded Standoff | T3  | 4   | <image src="../../images/components/Standoffs/T3.png" width="100">   |
-| wheels                         | S30A | 6   | <image src="../../images/components/Structural/S30.jpg" width="100"> |     | 6-32 x 5/8" screws            | B4  | 12  | <image src="../../images/components/Screws/B4.png" width="100">      |
+| item                           | ref  | qty | img                                                                   |     | item                          | ref | qty | img                                                                   |
+| ------------------------------ | ---- | --- | --------------------------------------------------------------------  | --- | ----------------------------- | --- | --- | --------------------------------------------------------------------  |
+| 3" channel                     | S2   | 4   | <image src="../../images/components/Structural/S2.jpg" width="100">   |     | 48 Tooth Plain Bore Gear      | S26 | 4   | <image src="../../images/components/Structural/S26.jpg" width="100">  |
+| 4.5" channel                   | S4   | 4   | <image src="../../images/components/Structural/S4.jpg" width="100">   |     | 6-32 x 1/2" Button Head Screw | B3  | 8   | <image src="../../images/components/Screws/B3.png" width="100">       |
+| Channel connector plate        | S6   | 12  | <image src="../../images/components/Structural/S6.jpg" width="100">   |     | 6-32 x 1/4" screws            | B1  | 40  | <image src="../../images/components/Screws/B1.png" width="100">       |
+| 0.25" Face tapped clamping hub | S12  | 4   | <image src="../../images/components/Structural/S12.jpg" width="100">  |     | allen key set                 | D2  |     | <image src="../../images/components/Tools/D2.jpeg" width="100">       |
+| Loctite Threadlocker           | S34  |     | <image src="../../images/components/Structural/S34.jpg" width="100">  |     | 6-32 x 3/4" Threaded Standoff | T3  | 4   | <image src="../../images/components/Standoffs/T3.png" width="100">    |
+| wheels                         | S30A | 6   | <image src="../../images/components/Structural/S30.jpg" width="100">  |     | 6-32 x 5/8" screws            | B4  | 12  | <image src="../../images/components/Screws/B4.png" width="100">       |
+| threaded plate                 | S46  |     | <image src="../../images/components/Structural/S46.webp" width="100"> |     | pattern adaptor               | S48 |     | <image src="../../images/components/Structural/S46.webp" width="100"> |
+
 
 1. **Channel Attachments 1**: Attach 3 inch channel **S2** to your base wheel assembly using 8 screws **S6** as shown in Figure 4.
 
