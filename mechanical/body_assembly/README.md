@@ -1,6 +1,3 @@
-todo:
-fix picture sizes
-
 # Main Body Assembly
 
 The body is the housing of all the electronics for the rover. It is the attachment points for the rocker-bogie systems, as well as the differential pivot system.
