@@ -148,13 +148,13 @@ because of the PVC clamping hub. This is okay, install the other 3 circled in ye
 
 | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: |
-| Dual Side Mount A              | S17 | 12 |  <img src="../../images/components/Structural/S17.jpg" width="30%"> |
+| Dual Side Mount A              | S17 | 12 |  <img src="../../images/components/Structural/S17.jpg" width="15%"> |
 | #6-32x1/4" Button Head Screw   | B1 | 28 |   <img src="../../images/components/Screws/B1.png" width="15%"> |
 | 9"x12" Aluminum Plate          | S35 | 1 |   <img src="../../images/components/Structural/S35.jpg" width="30%"> |
 | Volt Meter                     | E38 | 1 |   <img src="../../images/components/Electronics/E38.png" width="30%"> |
 | Laser Cut Front Panel          | S39 | 1 |   <img src="../../images/components/Structural/S39.png" width="30%"> |
 | Laser Cut Back Panel           | S40 | 1 |   <img src="../../images/components/Structural/S40.png" width="30%"> |
-| Switch                         | E39 | 1 |   <img src="../../images/components/Electronics/E39.png" width="30%"> |
+| Switch                         | E39 | 1 |   <img src="../../images/components/Electronics/E39.png" width="15%"> |
 | 3D printed Battery Holder      | S41 | 2 |   <img src="../../images/components/Structural/S41.png" width="30%"> |
 | #6-32 Heat set insert          | I2 | 4 |    <img src="../../images/components/Inserts/I2.png" width="15%"> |
 
