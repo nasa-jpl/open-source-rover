@@ -75,10 +75,10 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload these 
 
 | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: |
-| Dual Side mount A            | S17 | 4 | <img src="../../images/components/Structural/S17.jpg" width="30%"> |
-| 4.5"x12" Aluminum Plate      | S37 | 2 | <img src="../../images/components/Structural/S37.jpg" width="30%"> |
-| 1" PVC Clamp                 | S24 | 1 | <img src="../../images/components/Structural/S24.jpg" width="30%"> |
-| 9"x12" Aluminum Plate        | S35A | 1 | <img src="../../images/components/Structural/S35.jpg" width="30%"> |
+| Dual Side mount A            | S17 | 4 | <img src="../../images/components/Structural/S17.jpg" width="25%"> |
+| 4.5"x12" Aluminum Plate      | S37 | 2 | <img src="../../images/components/Structural/S37.jpg" width="40%"> |
+| 1" PVC Clamp                 | S24 | 1 | <img src="../../images/components/Structural/S24.jpg" width="70%"> |
+| 9"x12" Aluminum Plate        | S35A | 1 | <img src="../../images/components/Structural/S35.jpg" width="40%"> |
 | #6-32x1/4" Button Head Screw | B1 | 16 | <img src="../../images/components/Screws/B1.png" width="15%"> |
 | #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../../images/components/Screws/B2.png" width="15%"> |
 | Allen Key Set                | | | <img src="../../images/components/Tools/D2.jpeg" width="30%"> |
@@ -127,7 +127,7 @@ The differential pivot is used to transfer weight off of the wheel that is curre
 | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: |
 | Assembled Control Board PCB | E1 | 1 | <img src="../../images/components/Electronics/E1.png" width="30%"> |
-| #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../../images/components/Screws/B1.png" width="15%"> |
+| #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../../images/components/Screws/B1.png" width="8%"> |
 
 You may want to skip this step until the PCB is completed and tested and insert the PCB late
 
@@ -149,7 +149,7 @@ because of the PVC clamping hub. This is okay, install the other 3 circled in ye
 | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: |
 | Dual Side Mount A              | S17 | 12 |  <img src="../../images/components/Structural/S17.jpg" width="15%"> |
-| #6-32x1/4" Button Head Screw   | B1 | 28 |   <img src="../../images/components/Screws/B1.png" width="15%"> |
+| #6-32x1/4" Button Head Screw   | B1 | 28 |   <img src="../../images/components/Screws/B1.png" width="8%"> |
 | 9"x12" Aluminum Plate          | S35 | 1 |   <img src="../../images/components/Structural/S35.jpg" width="30%"> |
 | Volt Meter                     | E38 | 1 |   <img src="../../images/components/Electronics/E38.png" width="30%"> |
 | Laser Cut Front Panel          | S39 | 1 |   <img src="../../images/components/Structural/S39.png" width="30%"> |
