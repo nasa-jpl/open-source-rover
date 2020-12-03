@@ -3,6 +3,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
 ![Differential Pivot](images/differential_pivot.PNG) 
 
+
 ## Features
   * Uses inexpensive RC turnbuckles to give multi-degree rotation about 2 separate points, allowing the geometry to be greatly simplified
 
@@ -18,10 +19,10 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
     | Item | Ref | Qty | Image |
     | :--- | :-- | :-- | :---: |
-    | 0.5" x 3' Aluminum Tube | S16 | 1 | ![S16](/images/components/Structural/S16.png) |
-    | 0.5" x 4" Aluminum Tube | S18 | 4 | ![S18](/images/components/Structural/S18.png) |
-    | Metal Hacksaw or Bandsaw | D4 | 1  | ![D4](/images/components/Tools/D4.png) |
-    | Vice clamp or C clamps | D5 | 1 | ![D5](/images/components/Tools/D5.png) |
+    | 0.5" x 3' Aluminum Tube | S16 | 1 | <img src="/images/components/Structural/S16.png" width="25%">|
+    | 0.5" x 4" Aluminum Tube | S18 | 4 | <img src="/images/components/Structural/S18.png" width="25%"> |
+    | Metal Hacksaw or Bandsaw | D4 | 1  |  <img src="/images/components/Tools/D4.png" width="25%"> |
+    | Vice clamp or C clamps | D5 | 1 |  <img src="/images/components/Tools/D5.png" width="25%">|
 
     1. Take the 3 foot piece of 0.5 inch aluminum rod S16 and cut it into one 15 inch piece and one 13.5 inch piece. These will now be referred to as the parts S16A and S16B respectively. In addition, take two of the 4 inch aluminum rods S18 and cut them down to 3 inches in length as well.
 
@@ -37,12 +38,12 @@ The Differential Pivot helps to offload forces from one side of the rover to the
     Parts/Tools Necessary
     | Item | Ref | Qty | Image |
     | :--- | :-- | :-- | :---: |
-    | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 | ![S16B](/images/components/Structural/S16B.png)|
-    | 0.5" x 3" Aluminum Tube (Modified) | S18A | 2 | ![S18A](/images/components/Structural/S18A.png)|
-    | Hand Drill or drill press | D3 | 1 |![D3](/images/components/Tools/D3.png)|
-    | Drill bit #23 | D6 | 1 | ![D6](/images/components/Tools/D6.jpeg)|
-    | Center punch or start drill bit | D7 | 1 |![D7](/images/components/Tools/D7.jpeg) |
-    | Vice or V-clamp | D8 | 1 | ![D8](/images/components/Tools/D8.png) | 
+    | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 |<img src="/images/components/Structural/S16.png" width="25%">|
+    | 0.5" x 3" Aluminum Tube (Modified) | S18A | 2 | <img src="/images/components/Structural/S16.png" width="25%">|
+    | Hand Drill or drill press | D3 | 1 |<img src="/images/components/Tools/D3.png" width="25%"> |
+    | Drill bit #23 | D6 | 1 | <img src="/images/components/Tools/D6.jpeg" width="25%"> |
+    | Center punch or start drill bit | D7 | 1 | <img src="/images/components/Tools/D7.jpeg" width="25%">  |
+    | Vice or V-clamp | D8 | 1 |<img src="/images/components/Tools/D8.png" width="25%">  | 
 
 
     The turnbuckles must be attached to the differential pivot and rocker-bogie arm. We will accomplish this by drilling holes in the aluminum beam S16B and attaching two 5-hole aluminum bars on each side.
@@ -84,21 +85,21 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
   | Item | Ref | Qty | Image |
   | :--- | :-- | :-- | :---: |
-  | Single Pattern Bracket | S8 | 1 | ![S8](/images/components/Structural/S8.jpg) |
-  | 0.5" Circular Clamping Hub | S13 | 1 | ![S13](/images/components/Structural/S13.png)|
-  | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 | ![S16B](/images/components/Structural/S16B.png)|
-  | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | ![S18B](/images/components/Structural/S18B.png)|
-  | 0.5" Bottom Bore Clamp | S20 | 2 | ![S20](/images/components/Structural/S20.jpg)| 
-  | 5 Hole Aluminum Beam | S21 | 8 | ![S21](/images/components/Structural/S21.jpg)|
-  | RC Turnbluckle | S32 | 2 | ![S32](/images/components/Structural/S32.jpg)| 
-  | #6-32x1/4" Button Head Screw | B1 | 8 | ![B1](/images/components/Screws/B1.png)|
-  | #6-32x1.25" Button Head Screw | B7 | 8 | ![B8](/images/components/Screws/B8.png)|
-  | #4-40x1.25" Button Head Screw | B9 | 4 | ![B9](/images/components/Screws/B9.png)|
-  | #6-32 Hexnut | B11 | 8 | ![B11](/images/components/Screws/B11.png)|
-  | #4-40 Hexnut | B12 | 4 | ![B12](/images/components/Screws/B12.png)|
-  | #4-40 Washer | W2 | 24 | ![W2](/images/components/Washers/W2.png)| 
-  | Wrench Set | D1 | 1 | ![D1](/images/components/Tools/D1.jpg)|
-  | Allen Key Set | D2 | 1 | ![D2](/images/components/Tools/D2.jpeg)|
+  | Single Pattern Bracket | S8 | 1 | <img src="/images/components/Structural/S16.png" width="25%"> |
+  | 0.5" Circular Clamping Hub | S13 | 1 | <img src="/images/components/Structural/S13.png" width="25%">|
+  | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 |<img src="/images/components/Structural/S16B.png" width="25%">|
+  | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | <img src="/images/components/Structural/S18B.png" width="25%">|
+  | 0.5" Bottom Bore Clamp | S20 | 2 | <img src="/images/components/Structural/S20.png" width="25%">| 
+  | 5 Hole Aluminum Beam | S21 | 8 | <img src="/images/components/Structural/S21.png" width="25%">|
+  | RC Turnbluckle | S32 | 2 |<img src="/images/components/Structural/S32.png" width="25%">| 
+  | #6-32x1/4" Button Head Screw | B1 | 8 | <img src="/images/components/Screws/B1.png" width="25%"> |
+  | #6-32x1.25" Button Head Screw | B7 | 8 |<img src="/images/components/Screws/B7.png" width="25%"> |
+  | #4-40x1.25" Button Head Screw | B9 | 4 | <img src="/images/components/Screws/B9.png" width="25%"> |
+  | #6-32 Hexnut | B11 | 8 | <img src="/images/components/Screws/B11.png" width="25%"> |
+  | #4-40 Hexnut | B12 | 4 | <img src="/images/components/Screws/B12.png" width="25%"> |
+  | #4-40 Washer | W2 | 24 | <img src="/images/components/Washers/W2.png" width="25%"> | 
+  | Wrench Set | D1 | 1 | <img src="/images/components/Tools/D1.png" width="25%"> |
+  | Allen Key Set | D2 | 1 | <img src="/images/components/Tools/D2.png" width="25%"> |
 
 
 1. Build clamping hub assembly: Attach the the bottom bore clamping hubs S20 to the single pattern bracket S8 using screws B1. Then mount the 0.5” clamping hub S13 to the bottom of this assembly using B1 screws.
