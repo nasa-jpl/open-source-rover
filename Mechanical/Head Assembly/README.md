@@ -14,6 +14,10 @@ The head assembly serves as the head and face of our rover. It houses a 16x32 fu
 ## 3D Printing
 There are a few components that need to be 3D printed to make the head assembly. You can find the STL files necessary for these prints in the ”Mechanical/Head Assembly/3D Printed Parts” folder of the repository.
 
+  | <img src="Pictures/S43.PNG" width="100%"> |
+  | :--: |
+  | Figure 1 |
+
 If you do not have a 3D printer there are a number of online 3D printing services available, an example of which can be found at:
  - [MakeXYZ](https://www.makexyz.com/)
 
@@ -28,6 +32,11 @@ There is an acrylic plate which mounts the arduino into the head, as well as a b
 To get the above parts from Sculpteo, go to Laser cutting and then upload the .DXF files (make sure you select mm as units!). Hit Next. Make sure scale is set to 100%, change the material to Acrylic, set thickness to 1/8 inch, and then select whatever color you wish.
 
 ## Machining/Fabrication
+  | Item | Ref | Qty | Image |
+  | :--- | :-- | :-- | :---: |
+  | 1" PVC Pipe | S29 | 1 | <img src="/images/components/Structural/S29.png" width="25%">|
+  | Metal Hacksaw or Bandsaw | D4 | 1  |  <img src="/images/components/Tools/D4.png" width="25%"> |
+  | Vice clamp or C clamps | D5 | 1 |  <img src="/images/components/Tools/D5.png" width="25%">|
 
 1. Cutting the PVC Pipe:
 
@@ -35,6 +44,24 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload the .D
 
 
 ## Mechanical Assembly
+
+  | Item | Ref | Qty | Image |
+  | :--- | :-- | :-- | :---: |
+  | Bore Clamping Hub for 1" PVC Pipe | S24 | 1 | <img src="/images/components/Structural/S24.png" width="25%">|
+  | PVC Pipe (Modified) | S29A | 1 | <img src="/images/components/Structural/S29A.png" width="25%">|
+  | Laser Cut Head Back Panel | S42 | 1 | <img src="/images/components/Structural/S42.png" width="25%">|
+  | 3D printed Head | S43 | 1 | <img src="/images/components/Structural/S43.png" width="25%">|
+  | Laser Cut Arduino Plate | S44 | 1 | <img src="/images/components/Structural/S44.png" width="25%">|
+  | #4-40 Heat set insert | I1 | 8 | <img src="/images/components/Inserts/I1.png" width="25%">|
+  | M2.5 x 10mm Standoff| T10 | 4 | <img src="/images/components/Standoffs/T10.png" width="25%">|
+  | #6-32 x 3/8" Button Head Screw | B2 | 4 | <img src="/images/components/Screws/B2.png" width="25%">|
+  | #4-40x 1/4" Button Head Screw| B8 | 12 | <img src="/images/components/Screws/B8.png" width="25%">|
+  | M2.5 x 6mm Socket Head Screw | B10 | 8| <img src="/images/components/Screws/B10.png" width="25%">|
+  | M3 x 6mm Socket Head Cap screw| B14 | 6 | <img src="/images/components/Screws/B14.png" width="25%"> |
+  | Ardiuno Sheild PCB | E2 | 1 | <img src="/images/components/Electronics/E2.png" width="25%"> |
+  | Arduino Uno| E24 | 1 | <img src="/images/components/Electronics/E24.png" width="25%"> |
+  | LED Matrix | E37 | 1  |  <img src="/images/components/Electronics/E37.png" width="25%"> |
+
 
 1. Assemble the Arduino Stack: Begin by stacking together the Arduino Uno E24, Arduino Shield E2, Standoffs T10, Screws B10, and Arduino Plate S44 and fastening them as shown in  FIGURE X
 
