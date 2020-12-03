@@ -28,7 +28,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
     <br/><br/>
 
-    | ![15 inch rod cut](images/15inch_cut.PNG) | ![3 inch rod cut](images/3inch_cut.PNG)|
+    | <img src="images/15inch_cut.PNG" width="60%"> | <img src="images/3inch_cut.PNG" width="100%">|
     |:-:|:-:|
     | Figure 1| Figure 2 |
 
@@ -53,7 +53,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
     <br/><br/>
 
-    | ![differential_pivot_drilling](images/differential_pivot_cut.PNG) |
+    | <img src="images/differential_pivot_cut.PNG" width="100%"> |
     | :--: |
     | Figure 3 |
 
@@ -64,7 +64,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
     <br/><br/>
 
-    | ![Test alignment of differential pivot](images/diff_align.PNG) |
+    | <img src="images/diff_align.PNG" width="100%"> |
     | :--: |
     | Figure 4 |
     
@@ -74,7 +74,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
     <br/><br/>
 
-    | ![Test alignment of differential pivot](images/differential_standoff_cut.PNG) |
+    | <img src="images/differential_standoff_cut.PNG" width="100%"> |
     | :--: |
     | Figure 5 |
 
@@ -98,15 +98,15 @@ The Differential Pivot helps to offload forces from one side of the rover to the
   | #6-32 Hexnut | B11 | 8 | <img src="/images/components/Screws/B11.png" width="25%"> |
   | #4-40 Hexnut | B12 | 4 | <img src="/images/components/Screws/B12.png" width="25%"> |
   | #4-40 Washer | W2 | 24 | <img src="/images/components/Washers/W2.png" width="25%"> | 
-  | Wrench Set | D1 | 1 | <img src="/images/components/Tools/D1.png" width="25%"> |
-  | Allen Key Set | D2 | 1 | <img src="/images/components/Tools/D2.png" width="25%"> |
+  | Wrench Set | D1 | 1 | <img src="/images/components/Tools/D1.jpg" width="25%"> |
+  | Allen Key Set | D2 | 1 | <img src="/images/components/Tools/D2.jpeg" width="25%"> |
 
 
 1. Build clamping hub assembly: Attach the the bottom bore clamping hubs S20 to the single pattern bracket S8 using screws B1. Then mount the 0.5” clamping hub S13 to the bottom of this assembly using B1 screws.
 
    <br/><br/>
    
-  | ![Step1](images/diff_step_1.PNG) | ![Step2](images/diff_step_2.PNG)|
+  | <img src="images/diff_step_1.PNG" width="100%"> | <img src="images/diff_step_2.PNG" width="70%">|
   |:-:|:-:|
   | Figure 6| Figure 7 |
 
@@ -117,7 +117,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-  | ![Step3](images/diff_step_3.PNG) | ![Step4](images/diff_step_4.PNG)|
+  | <img src="images/diff_step_3.PNG" width="80%"> | <img src="images/diff_step_4.PNG" width="100%">|
   |:-:|:-:|
   | Figure 8 | Figure 9 |
 
@@ -127,7 +127,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-  | ![Step5](images/diff_step_5.PNG) | ![Step6](images/diff_step_6.PNG)|
+  | <img src="images/diff_step_5.PNG" width="100%">| <img src="images/diff_step_6.PNG" width="90%">|
   |:-:|:-:|
   | Figure 8 | Figure 9 |
 
@@ -137,7 +137,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-  | ![Step7](images/differential_pivot.PNG) |
+  | <img src="images/diff_step_7.PNG" width="100%"> |
   | :--: |
   | Figure 10 |
 
