@@ -89,9 +89,9 @@ The Differential Pivot helps to offload forces from one side of the rover to the
   | 0.5" Circular Clamping Hub | S13 | 1 | <img src="/images/components/Structural/S13.png" width="25%">|
   | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 |<img src="/images/components/Structural/S16B.png" width="25%">|
   | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | <img src="/images/components/Structural/S18B.png" width="25%">|
-  | 0.5" Bottom Bore Clamp | S20 | 2 | <img src="/images/components/Structural/S20.png" width="25%">| 
-  | 5 Hole Aluminum Beam | S21 | 8 | <img src="/images/components/Structural/S21.png" width="25%">|
-  | RC Turnbluckle | S32 | 2 |<img src="/images/components/Structural/S32.png" width="25%">| 
+  | 0.5" Bottom Bore Clamp | S20 | 2 | <img src="/images/components/Structural/S20.jpg" width="25%">| 
+  | 5 Hole Aluminum Beam | S21 | 8 | <img src="/images/components/Structural/S21.jpg" width="25%">|
+  | RC Turnbluckle | S32 | 2 |<img src="/images/components/Structural/S32.jpg" width="25%">| 
   | #6-32x1/4" Button Head Screw | B1 | 8 | <img src="/images/components/Screws/B1.png" width="25%"> |
   | #6-32x1.25" Button Head Screw | B7 | 8 |<img src="/images/components/Screws/B7.png" width="25%"> |
   | #4-40x1.25" Button Head Screw | B9 | 4 | <img src="/images/components/Screws/B9.png" width="25%"> |
