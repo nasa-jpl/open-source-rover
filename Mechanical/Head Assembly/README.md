@@ -48,11 +48,11 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload the .D
   | Item | Ref | Qty | Image |
   | :--- | :-- | :-- | :---: |
   | Bore Clamping Hub for 1" PVC Pipe | S24 | 1 | <img src="/images/components/Structural/S24.jpg" width="25%">|
-  | PVC Pipe (Modified) | S29A | 1 | <img src="/images/components/Structural/S29A.jpg" width="25%">|
-  | Laser Cut Head Back Panel | S42 | 1 | <img src="/images/components/Structural/S42.jpg" width="25%">|
-  | 3D printed Head | S43 | 1 | <img src="/images/components/Structural/S43.jpg" width="25%">|
-  | Laser Cut Arduino Plate | S44 | 1 | <img src="/images/components/Structural/S44.jpg" width="25%">|
-  | #4-40 Heat set insert | I1 | 8 | <img src="/images/components/Inserts/I1.jpg" width="25%">|
+  | PVC Pipe (Modified) | S29A | 1 | <img src="/images/components/Structural/S29.jpg" width="25%">|
+  | Laser Cut Head Back Panel | S42 | 1 | <img src="/images/components/Structural/S42.PNG" width="25%">|
+  | 3D printed Head | S43 | 1 | <img src="/images/components/Structural/S43.PNG" width="25%">|
+  | Laser Cut Arduino Plate | S44 | 1 | <img src="/images/components/Structural/S44.PNG" width="25%">|
+  | #4-40 Heat set insert | I1 | 8 | <img src="/images/components/Inserts/I1.png" width="25%">|
   | M2.5 x 10mm Standoff| T10 | 4 | <img src="/images/components/Standoffs/T10.png" width="25%">|
   | #6-32 x 3/8" Button Head Screw | B2 | 4 | <img src="/images/components/Screws/B2.png" width="25%">|
   | #4-40x 1/4" Button Head Screw| B8 | 12 | <img src="/images/components/Screws/B8.png" width="25%">|
