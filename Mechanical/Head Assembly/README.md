@@ -48,16 +48,16 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload the .D
   | Item | Ref | Qty | Image |
   | :--- | :-- | :-- | :---: |
   | Bore Clamping Hub for 1" PVC Pipe | S24 | 1 | <img src="/images/components/Structural/S24.jpg" width="25%">|
-  | PVC Pipe (Modified) | S29A | 1 | <img src="/images/components/Structural/S29.jpg" width="25%">|
+  | PVC Pipe (Modified) | S29A | 1 | <img src="/images/components/Structural/S29.png" width="25%">|
   | Laser Cut Head Back Panel | S42 | 1 | <img src="/images/components/Structural/S42.PNG" width="25%">|
   | 3D printed Head | S43 | 1 | <img src="/images/components/Structural/S43.PNG" width="25%">|
   | Laser Cut Arduino Plate | S44 | 1 | <img src="/images/components/Structural/S44.PNG" width="25%">|
-  | #4-40 Heat set insert | I1 | 8 | <img src="/images/components/Inserts/I1.png" width="25%">|
+  | #4-40 Heat set insert | I1 | 8 | <img src="/images/components/Inserts/I1.PNG" width="25%">|
   | M2.5 x 10mm Standoff| T10 | 4 | <img src="/images/components/Standoffs/T10.png" width="25%">|
   | #6-32 x 3/8" Button Head Screw | B2 | 4 | <img src="/images/components/Screws/B2.png" width="25%">|
   | #4-40x 1/4" Button Head Screw| B8 | 12 | <img src="/images/components/Screws/B8.png" width="25%">|
   | M2.5 x 6mm Socket Head Screw | B10 | 8| <img src="/images/components/Screws/B10.png" width="25%">|
-  | M3 x 6mm Socket Head Cap screw| B14 | 6 | <img src="/images/components/Screws/B14.png" width="25%"> |
+  | M3 x 6mm Socket Head Cap screw| B14 | 6 | <img src="/images/components/Screws/B14.PNG" width="25%"> |
   | Ardiuno Sheild PCB | E2 | 1 | <img src="/images/components/Electronics/E2.png" width="25%"> |
   | Arduino Uno| E24 | 1 | <img src="/images/components/Electronics/E24.png" width="25%"> |
   | LED Matrix | E37 | 1  |  <img src="/images/components/Electronics/E37.png" width="25%"> |
