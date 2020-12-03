@@ -1,7 +1,7 @@
 # Head Assembly
 The head assembly serves as the head and face of our rover. It houses a 16x32 fully programmable 7 color LED matrix which we use as a display. The head can be used to show different faces and give your robot a personality, or even to show status and metrics about your rover (power, controller connectivity, battery level, etc)!
 
-![Head picture](Pictures/finala.PNG)
+![Head picture](images/finala.PNG)
 
 ## Features
   * 3D printed components allows easy assembly; the housing was designed to be modular and printed separately, then fit together.
@@ -63,8 +63,11 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload the .D
   | LED Matrix | E37 | 1  |  <img src="/images/components/Electronics/E37.png" width="25%"> |
 
 
-1. Assemble the Arduino Stack: Begin by stacking together the Arduino Uno E24, Arduino Shield E2, Standoffs T10, Screws B10, and Arduino Plate S44 and fastening them as shown in  FIGURE X
+1. Assemble the Arduino Stack: Begin by stacking together the Arduino Uno E24, Arduino Shield E2, Standoffs T10, Screws B10, and Arduino Plate S44 and fastening them as shown in figure 2 & figure 3.
 
+  | <img src="images/diff_step_3.PNG" width="80%"> | <img src="images/diff_step_4.PNG" width="100%">|
+  |:-:|:-:|
+  | Figure 2 | Figure 3 |
 
 2. Inserting the Heat set inserts: Insert the # 4-40 Heat Set Inserts I1 into the 3D printed head (using a Solder Iron at 460 degrees F) in the locations shown in Figures 3 and 4. For more information on using heat set inserts, see:
   - [Heat set insert tutorial](https://www.lulzbot.com/learn/tutorials/heat-set-inserts-tips-and-tricks)
