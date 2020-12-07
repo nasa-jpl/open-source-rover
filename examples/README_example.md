@@ -61,16 +61,12 @@ Some more text
 
 ### 4.1 Chassis
 
-| Item | Ref | Qty | Image |
-| :--- | :-- | :-- | :---: |
-| Dual Side mount A            | S17 | 4 | <img src="../images/components/structural/S17.jpg" width="25%"> |
-| 4.5"x12" Aluminum Plate      | S37 | 2 | <img src="../images/components/structural/S37.jpg" width="40%"> |
-| 1" PVC Clamp                 | S24 | 1 | <img src="../images/components/structural/S24.jpg" width="70%"> |
-| 9"x12" Aluminum Plate        | S35A | 1 | <img src="../images/components/structural/S35.jpg" width="40%"> |
-| #6-32x1/4" Button Head Screw | B1 | 16 | <img src="../images/components/screws/B1.png" width="15%"> |
-| #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../images/components/screws/B2.png" width="15%"> |
-| Allen Key Set                | | | <img src="../images/components/tools/D2.jpeg" width="30%"> |
-| 5/16" Wrench                 | | | <img src="../images/components/tools/D1.jpg" width="30%">  |
+| Item | Ref | Qty | Image | Item | Ref | Qty | Image | 
+| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: | 
+| Dual Side mount A            | S17 | 4 | <img src="../images/components/structural/S17.jpg" width="50%"> | #6-32x1/4" Button Head Screw | B1 | 16 | <img src="../images/components/screws/B1.png" width="40%"> |
+| 4.5"x12" Aluminum Plate      | S37 | 2 | <img src="../images/components/structural/S37.jpg" width="80%"> | #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../images/components/screws/B2.png" width="40%"> |
+| 1" PVC Clamp                 | S24 | 1 | <img src="../images/components/structural/S24.jpg" width="150%"> | Allen Key Set                | | | <img src="../images/components/tools/D2.jpeg" width="100%"> |
+| 9"x12" Aluminum Plate        | S35A | 1 | <img src="../images/components/structural/S35.jpg" width="80%"> | 5/16" Wrench                 | | | <img src="../images/components/tools/D1.jpg" width="100%">  |
 
 #### 4.1.1 Top panel
 
