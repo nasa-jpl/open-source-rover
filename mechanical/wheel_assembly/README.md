@@ -1,7 +1,7 @@
 # Wheel Assembly
 The wheel assembly attaches the wheels to the motors and mounts the motors to the rest of the rocker-bogie suspension system that makes up the robot chassis.
 
-![Wheels picture](img/wheels/wheels_title.PNG)
+![Wheels picture](/images/wheels/wheels_title.png)
 Final result.
 
 # Preface
@@ -44,7 +44,7 @@ None
 
 | item                              | ref | qty |                                                                 img |
 | --------------------------------- | --- | --- | ------------------------------------------------------------------: |
-| wheels                            | S30 | 6   | <img src="../../images/components/Structural/S30.jpg" height="100"> |
+| wheels                            | S30 | 6   | <img src="../../images/components/Structural/S30.png" height="100"> |
 | hand drill or drill press         | D3  |     |       <img src="../../images/components/Tools/D3.png" height="100"> |
 | center punch or starter drill bit | D7  |     |      <img src="../../images/components/Tools/D7.jpeg" height="100"> |
 | drill bit #23                     | D6  |     |      <img src="../../images/components/Tools/D6.jpeg" height="100"> |
