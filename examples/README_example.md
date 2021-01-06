@@ -2,7 +2,7 @@
 
 The body is the housing of all the electronics for the rover. It is the attachment points for the rocker-bogie systems, as well as the differential pivot system.
 
-<img src="../mechanical/body_assembly/latex_docs/Pictures/Body/Body_title.PNG" width="50%">
+<img src="/images/body/Body_title.png" width="50%">
 
 ## 1. Features
   * Gives passthrough connections for USB ports on Raspberry Pi
@@ -45,11 +45,11 @@ The body is the housing of all the electronics for the rover. It is the attachme
 
 | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: |
-| 9"x12" Aluminum Plate | S35 | 1 | <img src="../images/components/structural/S35.jpg" width="50%"> |
+| 9"x12" Aluminum Plate | S35 | 1 | <img src="/images/components/structural/S35.png" width="50%"> |
 
 First we need to drill a hole in one of the 9x12 Aluminum plates **S35** because we will need a hole of just over 0.5 in diameter for the differential pivot mount. There is already a small hole drilled in the location we want to use, but it needs to be widened substantially. Start with the drill #23 and drill the hole shown by Figure 1. Repeat this with drill sizes stepping up until you get to a drill of 0.5 in.
 
-| <img src="../mechanical/body_assembly/latex_docs/Pictures/Fabrication/9x12_Plate_cut.PNG" width="50%"> <img src="../mechanical/body_assembly/latex_docs/Pictures/Fabrication/9x12_Plate_cut2.PNG" width="40%"> |
+| <img src="/images/body/9x12_Plate_cut.png" width="50%"> <img src="/images/body/9x12_Plate_cut2.png" width="40%"> |
 |:-:|
 | Figure 1: Drilling the Aluminum Plate |
 
@@ -63,16 +63,16 @@ Some more text
 
 | Item | Ref | Qty | Image | Item | Ref | Qty | Image | 
 | :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: | 
-| Dual Side mount A            | S17 | 4 | <img src="../images/components/structural/S17.jpg" width="50%"> | #6-32x1/4" Button Head Screw | B1 | 16 | <img src="../images/components/screws/B1.png" width="40%"> |
-| 4.5"x12" Aluminum Plate      | S37 | 2 | <img src="../images/components/structural/S37.jpg" width="80%"> | #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../images/components/screws/B2.png" width="40%"> |
-| 1" PVC Clamp                 | S24 | 1 | <img src="../images/components/structural/S24.jpg" width="150%"> | Allen Key Set                | | | <img src="../images/components/tools/D2.jpeg" width="100%"> |
-| 9"x12" Aluminum Plate        | S35A | 1 | <img src="../images/components/structural/S35.jpg" width="80%"> | 5/16" Wrench                 | | | <img src="../images/components/tools/D1.jpg" width="100%">  |
+| Dual Side mount A            | S17 | 4 | <img src="/images/components/structural/S17.png" width="50%"> | #6-32x1/4" Button Head Screw | B1 | 16 | <img src="/images/components/screws/B1.png" width="40%"> |
+| 4.5"x12" Aluminum Plate      | S37 | 2 | <img src="/images/components/structural/S37.png" width="80%"> | #6-32x3/8" Button Head Screw | B2 | 4 | <img src="/images/components/screws/B2.png" width="40%"> |
+| 1" PVC Clamp                 | S24 | 1 | <img src="/images/components/structural/S24.png" width="150%"> | Allen Key Set                | | | <img src="/images/components/tools/D2.png" width="100%"> |
+| 9"x12" Aluminum Plate        | S35A | 1 | <img src="/images/components/structural/S35.png" width="80%"> | 5/16" Wrench                 | | | <img src="/images/components/tools/D1.png" width="100%">  |
 
 #### 4.1.1 Top panel
 
 Take the modified 9x12 Aluminum plate **S35A** and attach the four Dual side mount A **S1** using screws **B1** at the locations shown below. Take care to match the orientation shown.
 
-| <img src="../mechanical/body_assembly/latex_docs/Pictures/Body/body_1.PNG" width="40%"> <img src="../mechanical/body_assembly/latex_docs/Pictures/Body/body_2.PNG" width="40%">|
+| <img src="/images/body/body_1.png" width="40%"> <img src="/images/body/body_2.png" width="40%">|
 |:-:|
 | Figure 2: Attaching side mounts to top panel |
 
@@ -81,7 +81,7 @@ Take the modified 9x12 Aluminum plate **S35A** and attach the four Dual side mou
 
 Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 
-| <img src="../mechanical/body_assembly/latex_docs/Pictures/Body/body_3.PNG" width="40%"> <img src="../mechanical/body_assembly/latex_docs/Pictures/Body/body_4.PNG" width="40%">|
+| <img src="/images/body/body_3.png" width="40%"> <img src="/images/body/body_4.png" width="40%">|
 |:-:|
 | Figure 3: Attach the side panels |
 
@@ -90,6 +90,6 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 
 Attach the 1-inch PVC bore clamping hub **S24** to the top plate of the body using screws **B1** Use the location shown in Figure 4.
 
-| <img src="../mechanical/body_assembly/latex_docs/Pictures/Body/body_pvc_1.PNG" width="40%"> <img src="../mechanical/body_assembly/latex_docs/Pictures/Body/body_pvc_1.PNG" width="40%">|
+| <img src="/images/body/body_pvc_1.png" width="40%"> <img src="/images/body/body_pvc_1.png" width="40%">|
 |:-:|
 | Figure 4: Attach the PVC clamp to top plate |
