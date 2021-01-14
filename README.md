@@ -132,7 +132,8 @@ In our experience, this project takes no less than 200 person-hours to build, an
 ## Getting Started
 
 ### Folder organization
-![Rover build roadmap](images/folders.PNG)
+![Rover build folders](images/folders.png)
+
 The main /osr/ folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections: Mechanical, Electrical, and Software. Each of these sections is meant to be relatively self contained and should be fairly parallelizable, meaning that they could be completed simultaneously by different groups. There is a README.md in each section to help you navigate the information in that section. 
 
 ### Ordering parts
@@ -158,7 +159,7 @@ The main electrical system of this rover relies on a custom printed circuit boar
 
 ### Rover Build Roadmap
 
-![Rover build roadmap](images/roadmap.PNG)
+![Rover build roadmap](images/roadmap.png)
 
 Above is an example roadmap of how you can build the rover and which parts of the build are dependant on the other sections. It is broken down into 5 stages:
  * __Stage 1:__ Start getting all the parts!  

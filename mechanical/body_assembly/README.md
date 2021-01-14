@@ -1,7 +1,7 @@
 # Main Body
 The body is the housing of all the electronics for the rover. It is the attachment points for the rocker-bogie systems, as well as the differential pivot system.
 
-![Rover head picture](Latex%20Doc/Pictures/Body/Finished%20Body%201.PNG)
+<img src="/images/body/finished_body_a.png" width="50%">
 
 ## Features
   * Gives passthrough connections for USB ports on Raspberry Pi
