@@ -1,7 +1,7 @@
 # Rocker-Bogie Suspension
 The Rocker-Bogie is the suspension system that enables the rover to climb aggressive obstacles. The design allows all 6 wheels to be in contact with the ground as much as possible, increasing traction.  The suspension system on a typical consumer vehicle can traverse obstacles about half the height of one wheel; the Rocker-Bogie suspension system can traverse obstacles over 2 times the height of the wheel.
 
-<img src="/images/rocker_bogie/rocker_bogie_title.png" width="50%">
+<img src="/images/rocker_bogie/rocker_bogie_title.png" width="60%">
 
 ## Features
   * Modular link lengths give the ability to customize rover geometry
