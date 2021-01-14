@@ -1,7 +1,7 @@
 # Mechanical Integration
 This is the final mechanical integration of all of the other subassemblies to create the final rover.
 
-<img src="/images/mechanical_integration/final_title.png" width="50%">
+<img src="/images/mechanical_integration/final_title.png" width="80%">
 
 ## Features
   * All subassemblies can be combined together with the addition of very few additional components.
