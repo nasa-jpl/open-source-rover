@@ -1,7 +1,7 @@
 # Corner Steering
 The Corner Steering system gives attachment points for corner motors that we use to steer the rover.
 
-![Corner steering pic](Latex%20Docs/Pictures/CornerSt%20Final.PNG)
+<img src="/images/corner_steering/CornerSt_Final.png" width="50%">
 
 ## Features
   * Absolute encoders track the position of corners without having to recalibrate every time the rover reboots

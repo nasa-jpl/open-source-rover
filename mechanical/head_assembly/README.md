@@ -1,7 +1,7 @@
 # Head Assembly
 The head assembly serves as the head and face of our rover. It houses a 16x32 fully programmable 7 color LED matrix which we use as a display. The head can be used to show different faces and give your robot a personality, or even to show status and metrics about your rover (power, controller connectivity, battery level, etc)!
 
-![Head picture](Latex%20Docs/Pictures/Head%20final.PNG)
+<img src="/images/head/finala.png" width="50%">
 
 ## Features
   * 3D printed components allows easy assembly; the housing was designed to be modular and printed separately, then fit together.

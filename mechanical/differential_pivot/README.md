@@ -1,7 +1,7 @@
 # Differential Pivot
 The Differential Pivot helps to offload forces from one side of the rover to the other while climbing. The differential pivot is crucial in the rocker-bogie suspension system and is designed to help keep all 6 wheels on the ground at all times. It also allows a second attachment point for the body so that it does not free rotate about the center bar that runs through it and connects the two sides of the rocker-bogie.
 
-![Differential Pivot](Latex%20Docs/Pictures/Differential%20Pivot.PNG)
+<img src="/images/differential_pivot/Differential_Pivot.png" width="50%">
 
 ## Features
   * Uses inexpensive RC turnbuckles to give multi-degree rotation about 2 separate points, allowing the geometry to be greatly simplified
