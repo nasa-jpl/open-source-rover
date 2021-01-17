@@ -443,7 +443,7 @@ Press the Op-Amp LM358P **E25** into the slots in the 8 Position DIP socket.
 Take careful note of the direction of the chip in the DIP socket, as the notch
 **MUST** face the correct direction.
 
-![Op-amp integration](./../../../images/pcb_assembly/assembly/op_amp.png)
+![Op-Amp Integration](./../../../images/pcb_assembly/assembly/op_amp.png)
 
 ### Voltage Divider Verification
 
@@ -581,111 +581,75 @@ motor controller outputs in the following manner:
 5.  Repeat this process for all the corner motor terminal blocks, labeled
     J23-26.
 
-3.  Connect to the motor controller in the Basic Motion GUI. Under the
-    General settings tab (under Encoders), change the type of encoder
-    from Quadrature to Absolute. You should see that the encoder values
-    change to a number somewhere around 1600. As long as it is a fairly
-    constant value and is in the range of 1400-2000 then everything is
-    working. If the value varies wildly or is not in the 1400-2000
-    range, recheck that the OP-amp is installed in the correct
-    direction. If this number still isn't correct then make sure you
-    correctly installed all the resistors/capacitors in the assembly
-    steps.
+## Raspberry Pi Install
 
-4.  Under the PWM tab, move the slide bar and verify that the motor
-    spins accordingly.
+Next up is to verify that power to the Raspberry Pi is working. For this, you'll
+need a working operating system installed on the SD card. Take a moment now to
+follow to the
+[Software Install steps](https://github.com/nasa-jpl/open-source-rover/blob/master/Software/Software%20Steps.pdf)
+to install the rover software on the Raspberry Pi.
 
-5.  Repeat this process for all the corner motor terminal blocks,
-    labeled J23-26.
+| **Item**               | **Ref** | **Qty** | **Image**                                                                   |
+| ---------------------- | ------- | ------- | --------------------------------------------------------------------------- |
+| OSR Control Board      | E1      | 1       | ![OSR Control Board](./../../../images/components/electronics/E1.png)       |
+| Raspberry Pi 3B        | E21     | 1       | ![Raspberry Pi 3B](./../../../images/components/electronics/E21.png)        |
+| 40 Pin Ribbon Cable    | E29     | 1       | ![40 Pin Ribbon Cable](./../../../images/components/electronics/E29.png)    |
+| USB to Micro USB Cable | E27     | 1       | ![USB to Micro USB Cable](./../../../images/components/electronics/E27.png) |
 
-### Raspberry Pi Install
+**ONLY PROCEED WITH THE FOLLOWING ONCE YOU HAVE SUCCESSFULLY FINISHED THE
+INSTALLATION OF THE ROVER CODE ON YOUR RASPBERRY PI.**
 
-Next up is to verify that power to the Raspberry Pi is working. For
-this, you'll need a working operating system installed on the SD card.
-Take a moment now to follow to the Software Install steps to install the
-rover software on the Raspberry Pi.
+1.  Attach the Raspberry Pi to the board on top of the standoffs you attached
+    earlier, making sure that the USB ports face downward on the board as shown
+    below.
 
-<https://github.com/nasa-jpl/open-source-rover/blob/master/Software/Software%20Steps.pdf>
+    ![RPi Install](./../../../images/pcb_assembly/testing/rpi_power.png)
 
-\|N\|Q\|Q\|I\|N\|Q\|Q\|I\| & & & & & & &\
-OSR Control Board & E1 & 1 &
-![image](../../../images/components/Electronics/E1.png){width="2cm"
-height="1.0cm"} & Raspberry Pi 3B & E21 & 1 &
-![image](../../../images/components/Electronics/E21.png){width="2cm"
-height="1.0cm"}\
-Pin Ribbon Cable & E29 & 1 &
-![image](../../../images/components/Electronics/E29.png){width="2cm"
-height="1.0cm"} & USB to Micro USB Cable& E27 & 1 &
-![image](../../../images/components/Electronics/E27.png){width="2cm"
-height="1.0cm"}\
+2.  Plug in the micro USB cable **E27** to the USB power port labeled J12 and to
+    the **power port** of the Raspberry Pi (labelled 'PWR'). Then, plug in the
+    ribbon Cable **E29** into the Raspberry Pi GPIO header pins and connect the
+    other end to the **J6** 40 pin GPIO connector.
 
-**ONLY PROCEED WITH THE FOLLOWING ONCE YOU HAVE SUCCESSFULLY FINISHED
-THE INSTALLATION OF THE ROVER CODE ON YOUR RASPBERRY PI.**
-
-1.  Attach the Raspberry Pi to the board on top of the standoffs you
-    attached earlier, making sure that the USB ports face downward on
-    the board as shown in Figure [38](#rpi_install){reference-type="ref"
-    reference="rpi_install"}.
-
-2.  Plug in the micro USB cable **E27** to the USB power port labeled
-    J12 and to the **power port** of the Raspberry Pi (labelled 'PWR').
-    Then, plug in the ribbon Cable **E29** into the Raspberry Pi GPIO
-    header pins and connect the other end to the **J6** 40 pin GPIO
-    connector.
-
-    ![RPi Install]("img/Pictures/Assembly/rpi_power".jpg){#rpi_install
-    width="\\textwidth"}
-
-    ![RPi Install]("img/Pictures/Assembly/rpi_gpio".png){#rpi_install
-    width="\\textwidth"}
+    ![RPi Install](./../../../images/pcb_assembly/testing/rpi_gpio.png)
 
 ## Arduino Shield Testing
 
-\|N\|Q\|Q\|I\|N\|Q\|Q\|I\| & & & & & & &\
-Arduino Shield & E2 & 1 &
-![image](../../../images/components/Electronics/E2.png){width="2cm"
-height="1.0cm"} & Arduino Uno & E24 & 1 &
-![image](../../../images/components/Electronics/E24.png){width="2cm"
-height="1.0cm"}\
-1x6 JST Cable & E26 & 1 &
-![image](../../../images/components/Electronics/E26.png){width="2cm"
-height="1.0cm"} & 16x32 LED Matrix & E37 & 1 &
-![image](../../../images/components/Electronics/E37.png){width="2cm"
-height="1.0cm"}\
+| **Item**         | **Ref** | **Qty** | **Image**                                                             |
+| ---------------- | ------- | ------- | --------------------------------------------------------------------- |
+| Arduino Shield   | E2      | 1       | ![Arduino Shield](./../../../images/components/electronics/E2.png)    |
+| Arduino Uno      | E24     | 1       | ![Arduino Uno](./../../../images/components/electronics/E24.png)      |
+| 1x6 JST Cable    | E26     | 1       | ![1x6 JST Cable](./../../../images/components/electronics/E26.png)    |
+| 16x32 LED Matrix | E37     | 1       | ![16x32 LED Matrix](./../../../images/components/electronics/E37.png) |
 
-Note: Testing the arduino board is dependent on finishing the control
-board and having it tested fully. Do not proceed until you have
-successfully tested your main control board.
+Note: Testing the arduino board is dependent on finishing the control board and
+having it tested fully. Do not proceed until you have successfully tested your
+main control board.
 
 Slot the Arduino Uno onto the bottom of the Arduino shield, matching the
 footprints on the board.
 
-![Arduino Shield
-Mounted]("img/Pictures/Assembly/arduino_mounted".jpg){width=".85\\textwidth"}
+![Arduino Shield Mounted](./../../../images/pcb_assembly/testing/arduino_mounted.png)
 
-1.  Plug in the 1x6 JST cable **E26** into the Arduino shield and to the
-    Control board. This cable will run 12V, 5V, GND, and two serial
-    communication lines from the main rover to the Arduino shield which
-    runs the screen in the head. This step relies on successful tests of
-    the 5V and 12V regulators on the control board and verifying that
-    they work correctly. If you have not tested the main board
-    successfully, you may damage the Arduino.
+1.  Plug in the 1x6 JST cable **E26** into the Arduino shield and to the Control
+    board. This cable will run 12V, 5V, GND, and two serial communication lines
+    from the main rover to the Arduino shield which runs the screen in the head.
+    This step relies on successful tests of the 5V and 12V regulators on the
+    control board and verifying that they work correctly. If you have not tested
+    the main board successfully, you may damage the Arduino.
 
-2.  Using a Digital Multimeter, probe the following **Arduino shield
-    test pads** and verify their voltages:
+2.  Using a Digital Multimeter, probe the following **Arduino shield test pads**
+    and verify their voltages:
 
-    -   TP1 to TP6 should read +12V. This voltage powers the Arduino Uno
-        board
+    - TP1 to TP6 should read +12V. This voltage powers the Arduino Uno board
 
-    -   TP5 to TP6 should read +5V. This voltage powers the LED Matrix
-        and runs the LEDs on it
+    - TP5 to TP6 should read +5V. This voltage powers the LED Matrix and runs
+      the LEDs on it
 
-    -   TP4 to TP2 should read +5V. This is the 5V converter on the
-        Arduino board
+    - TP4 to TP2 should read +5V. This is the 5V converter on the Arduino board
 
-    -   TP3 to TP2 should read +3.3V. This is the 3.3V converter on the
-        Arduino board
+    - TP3 to TP2 should read +3.3V. This is the 3.3V converter on the Arduino
+      board
 
-If all the above test points read the correct voltages, then the Arduino
-Shield board is working correctly! You are now ready to finish the
-Electrical Assembly of the rover!
+If all the above test points read the correct voltages, then the Arduino Shield
+board is working correctly! You are now ready to finish the Electrical Assembly
+of the rover!
