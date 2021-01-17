@@ -59,9 +59,9 @@ below:
    J17-J26 on the PCB. Be sure that the wire terminals face **OUTWARD** (away
    from the center of the board) on all of these connectors.
 
-    ![Assembly Step 1](../../../images/pcb_assembly/assembly/assembly_1.png)
+   ![Assembly Step 1](../../../images/pcb_assembly/assembly/assembly_1.png)
 
-    ![Assembly Step 1](../../../images/pcb_assembly/assembly/top_term.png)
+   ![Assembly Step 1](../../../images/pcb_assembly/assembly/top_term.png)
 
 2. On the **bottom** of the board, solder the 6 Position top entry terminal
    blocks **E4**. They will be labeled with schematic reference designators
@@ -69,18 +69,18 @@ below:
    of RoboClaw outlines (see images below). These terminals will run battery
    power and +/- motor signals to the RoboClaw motor controllers from the PCB.
 
-    ![Assembly Step 2](../../../images/pcb_assembly/assembly/assembly_2.png)
+   ![Assembly Step 2](../../../images/pcb_assembly/assembly/assembly_2.png)
 
-    ![Assembly Step 2](../../../images/pcb_assembly/assembly/bottom_term.png)
+   ![Assembly Step 2](../../../images/pcb_assembly/assembly/bottom_term.png)
 
 3. On the **bottom** of the board, solder the 20-position female socket header
    connector **E5** and the 5-position female socket header connector **E6**.
    They will be labeled with reference designators RoboClaw 1-5. These are the
    digital signal pins for the RoboClaw motor controllers.
 
-    ![Assembly Step 3](../../../images/pcb_assembly/assembly/assembly_3.png)
+   ![Assembly Step 3](../../../images/pcb_assembly/assembly/assembly_3.png)
 
-    ![Assembly Step 3](../../../images/pcb_assembly/assembly/rc_header.png)
+   ![Assembly Step 3](../../../images/pcb_assembly/assembly/rc_header.png)
 
 ### Resistors and Capacitors
 
@@ -131,139 +131,104 @@ below:
 
 ### Power Connectors
 
-\|N\|Q\|Q\|I\|N\|Q\|Q\|I\| & & & & & & &\
-OSR Control Board & E1 & 1 &
-![image](../../../images/components/Electronics/E1.png){width="2cm"
-height="1.0cm"} & 2 Pos Side Terminal Block & E12 & 3 &
-![image](../../../images/components/Electronics/E12.png){width="2cm"
-height="1.0cm"}\
-Position 2.5mm Terminal Block & E18 & 1 &
-![image](../../../images/components/Electronics/E18.png){width="2cm"
-height="1.0cm"} & Solder Iron & N/A & &\
+| **Item**                        | **Ref** | **Qty** | **Image**                                                                            |
+| ------------------------------- | ------- | ------- | ------------------------------------------------------------------------------------ |
+| OSR Control Board               | E1      | 1       | ![OSR Control Board](./../../../images/components/electronics/E1.png)                |
+| 2 Pos Side Terminal Block       | E12     | 3       | ![2 Pos Side Terminal Block](./../../../images/components/electronics/E12.png)       |
+| 2 Position 2.5mm Terminal Block | E18     | 1       | ![2 Position 2.5mm Terminal Block](./../../../images/components/electronics/E18.png) |
+| Soldering Iron                  | N/A     |         |                                                                                      |
 
-1.  On the **top** of the board, solder the 2-position side entry
-    terminal blocks **E13**. These will have schematic reference
-    designators J14-16. Ensure that the wire terminals on these
-    components face **OUTWARDS**. Also on the **top** of the board,
-    solder the remaining 2-position 2.5mm terminal block **E18**
-    (schematic reference designator J12).
+1.  On the **top** of the board, solder the 2-position side entry terminal
+    blocks **E13**. These will have schematic reference designators J14-16.
+    Ensure that the wire terminals on these components face **OUTWARDS**. Also
+    on the **top** of the board, solder the remaining 2-position 2.5mm terminal
+    block **E18** (schematic reference designator J12).
 
-    ![Assembly Step 6]("img/Pictures/Assembly/assembly_9".png){#assem_6
-    width="\\textwidth"}
+    ![Assembly Step 6](./../../../images/pcb_assembly/assembly/assembly_6.png)
 
-    ![Assembly Step 6]("img/Pictures/Assembly/power_term".jpg){#assem_6
-    width="\\textwidth"}
+    ![Assembly Step 6](./../../../images/pcb_assembly/assembly/power_term.png)
 
-### Op amp DIP socket
+### Op Amp DIP socket
 
-\|N\|Q\|Q\|I\|N\|Q\|Q\|I\| & & & & & & &\
-OSR Control Board & E1 & 1 &
-![image](../../../images/components/Electronics/E1.png){width="2cm"
-height="1.0cm"} & 8 Pin DIP Socket & E33 & 2 &
-![image](../../../images/components/Electronics/E33.png){width="2cm"
-height="1.0cm"}\
-& & & & Solder Iron & N/A & &\
+| **Item**          | **Ref** | **Qty** | **Image**                                                             |
+| ----------------- | ------- | ------- | --------------------------------------------------------------------- |
+| OSR Control Board | E1      | 1       | ![OSR Control Board](./../../../images/components/electronics/E1.png) |
+| 8 Pin DIP Socket  | E33     | 2       | ![8 Pin DIP Socket](./../../../images/components/electronics/E33.png) |
+| Soldering Iron    | N/A     |         |                                                                       |
 
-1.  On the **top** of the board, solder the 8 Pin DIP sockets **E33**.
-    They will have schematic reference designators U1-2. Orientation of
-    these sockets does not matter, but note that you WILL (later, in
-    another document) need to plug in the Op-Amp chips themselves, and
-    orientation of those chips is important when you eventually complete
-    that step.
+1.  On the **top** of the board, solder the 8 Pin DIP sockets **E33**. They will
+    have schematic reference designators U1-2. Orientation of these sockets does
+    not matter, but note that you WILL (later, in another document) need to plug
+    in the Op-Amp chips themselves, and orientation of those chips is important
+    when you eventually complete that step. Placing the notch toward the right
+    as pictured (toward the resistors and capacitors) will align the socket's
+    notch with the chip's.
 
-    ![Assembly Step 7]("img/Pictures/Assembly/assembly_10".png){#assem_7
-    width="\\textwidth"}
+    ![Assembly Step 7](./../../../images/pcb_assembly/assembly/assembly_7.png)
 
-    ![Assembly Step 7]("img/Pictures/Assembly/dip_socket".jpg){#assem_7
-    width="\\textwidth"}
+    ![Assembly Step 7](./../../../images/pcb_assembly/assembly/dip_socket.png)
 
-### RPi GPIO connector and misc headers
+### RPi GPIO Connector and misc headers
 
-\|N\|Q\|Q\|I\|N\|Q\|Q\|I\| & & & & & & &\
-OSR Control Board & E1 & 1 &
-![image](../../../images/components/Electronics/E1.png){width="2cm"
-height="1.0cm"} & 40 Pin Header connector & E13 & 2 &
-![image](../../../images/components/Electronics/E13.png){width="2cm"
-height="1.0cm"}\
-Position Header Pins & E15 & 1 &
-![image](../../../images/components/Electronics/E15.png){width="2cm"
-height="1.0cm"} & 6 Position JST Connector & E14 & 1 &
-![image](../../../images/components/Electronics/E14.png){width="2cm"
-height="1.0cm"}\
-& & & & Solder Iron & N/A & &\
+| **Item**                 | **Ref** | **Qty** | **Image**                                                                     |
+| ------------------------ | ------- | ------- | ----------------------------------------------------------------------------- |
+| OSR Control Board        | E1      | 1       | ![OSR Control Board](./../../../images/components/electronics/E1.png)         |
+| 40 Pin Header Connector  | E13     | 2       | ![40 Pin Header Connector](./../../../images/components/electronics/E13.png)  |
+| 6 Position JST Connector | E14     | 1       | ![6 Position JST Connector](./../../../images/components/electronics/E14.png) |
+| 40 Position Header Pins  | E15     | 1       | ![40 Position Header Pins](./../../../images/components/electronics/E15.png)  |
+| Soldering Iron           | N/A     |         |                                                                               |
 
-1.  On the **top** of the board, solder the 40-position header
-    connectors **E13**. The clocking notch on the headers should face
-    **OUTWARD** as shown in Figure [12](#assem_7){reference-type="ref"
-    reference="assem_7"}. The schematic reference designators are J6 and
-    J7.
+1.  On the **top** of the board, solder the 40-position header connectors
+    **E13**. The clocking notch on the headers should face **OUTWARD** as shown
+    below. The schematic reference designators are J6 and J7.
 
-    ![Assembly Step 8]("img/Pictures/Assembly/assembly_11".png){#assem_8
-    width="\\textwidth"}
+    ![Assembly Step 8](./../../../images/pcb_assembly/assembly/assembly_8.png)
 
-    ![Assembly Step 8]("img/Pictures/Assembly/gpio".jpg){#assem_8
-    width="\\textwidth"}
+    ![Assembly Step 8](./../../../images/pcb_assembly/assembly/gpio.png)
 
-2.  Take the 40 pin header pins **E15** and break off a 6-pin segment.
-    On the **top** of the board, solder the 6-pin segment into schematic
-    reference designator J8. Then, solder the JST connector **E14** into
-    the J10 schematic reference designator. The opening in the pins on
-    the JST connector should face **INWARD** as shown in Figure
-    [16](#assem_9){reference-type="ref" reference="assem_9"}.
+2.  Take the 40 pin header pins **E15** and break off a 6-pin segment. On the
+    **top** of the board, solder the 6-pin segment into schematic reference
+    designator J8. Then, solder the JST connector **E14** into the J10 schematic
+    reference designator. The opening in the pins on the JST connector should
+    face **INWARD** as shown below.
 
-    ![Assembly Step 9]("img/Pictures/Assembly/assembly_13".png){#assem_9
-    width="\\textwidth"}
+    ![Assembly Step 9](./../../../images/pcb_assembly/assembly/assembly_9.png)
 
-    ![Assembly Step 9]("img/Pictures/Assembly/jst_top".jpg){#assem_9
-    width="\\textwidth"}
+    ![Assembly Step 9](./../../../images/pcb_assembly/assembly/jst_top.png)
 
 ### Fuse and Diode
 
-\|N\|Q\|Q\|I\|N\|Q\|Q\|I\| & & & & & & &\
-OSR Control Board & E1 & 1 &
-![image](../../../images/components/Electronics/E1.png){width="2cm"
-height="1.0cm"} & 10 Amp Fuse & E16 & 1 &
-![image](../../../images/components/Electronics/E16.png){width="2cm"
-height="1.0cm"}\
-Diode & E17 & 1 &
-![image](../../../images/components/Electronics/E17.png){width="2cm"
-height="1.0cm"} & Solder Iron & N/A & &\
+| **Item**          | **Ref** | **Qty** | **Image**                                                             |
+| ----------------- | ------- | ------- | --------------------------------------------------------------------- |
+| OSR Control Board | E1      | 1       | ![OSR Control Board](./../../../images/components/electronics/E1.png) |
+| 10 Amp Fuse       | E16     | 1       | ![10 Amp Fuse](./../../../images/components/electronics/E16.png)      |
+| Diode             | E17     | 1       | ![Diode](./../../../images/components/electronics/E17.png)            |
+| Soldering Iron    | N/A     |         |                                                                       |
 
-1.  Solder the fuse **E16** and diode **E17** onto the top of the board
-    into schematic reference designators F1 (fuse) and D1 (diode). **Pay
-    careful attention to the direction that the Diode is mounted on the
-    board**, as it will only work in one direction!
+1.  Solder the fuse **E16** and diode **E17** onto the top of the board into
+    schematic reference designators F1 (fuse) and D1 (diode). **Pay careful
+    attention to the direction that the Diode is mounted on the board**, as it
+    will only work in one direction!
 
-        ![Fuse and Diode
+![Fuse and Diode Soldering](./../../../images/pcb_assembly/assembly/fuse_diode.png)
 
-    Soldering]("img/Pictures/Assembly/fuse_diode".png){#fuse_diode
-    width="\\textwidth"}
-
-        ![Fuse and Diode
-
-    Soldering]("img/Pictures/Assembly/fuse".jpg){#fuse_diode
-    width="\\textwidth"}
+![Fuse and Diode Soldering](./../../../images/pcb_assembly/assembly/fuse.png)
 
 ### USB connectors
 
-\|N\|Q\|Q\|I\|N\|Q\|Q\|I\| & & & & & & &\
-OSR Control Board & E1 & 1 &
-![image](../../../images/components/Electronics/E1.png){width="2cm"
-height="1.0cm"} & USB Connector & E34 & 2 &
-![image](../../../images/components/Electronics/E34.png){width="2cm"
-height="1.0cm"}\
-& & & & Solder Iron & N/A & &\
+| **Item**          | **Ref** | **Qty** | **Image**                                                             |
+| ----------------- | ------- | ------- | --------------------------------------------------------------------- |
+| OSR Control Board | E1      | 1       | ![OSR Control Board](./../../../images/components/electronics/E1.png) |
+| USB Connector     | E34     | 1       | ![USB Connector](./../../../images/components/electronics/E34.png)    |
+| Diode             | E17     | 1       | ![Diode](./../../../images/components/electronics/E17.png)            |
+| Soldering Iron    | N/A     |         |                                                                       |
 
-1.  On the **top** of the board, solder the two USB Connectors **E34**.
-    They will have reference designators J12 and J14.
+1.  On the **top** of the board, solder the two USB Connectors **E34**. They
+    will have reference designators J12 and J14.
 
-        ![Assembly Step
+![Assembly Step 10](./../../../images/pcb_assembly/assembly/assembly_10.png)
 
-    10]("img/Pictures/Assembly/assembly_14".png){#assem_10
-    width="\\textwidth"}
-
-        ![Assembly Step 10]("img/Pictures/Assembly/usb".jpg){#assem_10
-        width="\\textwidth"}
+![Assembly Step 10](./../../../images/pcb_assembly/assembly/usb.png)
 
 ### Standoffs
 
