@@ -271,74 +271,57 @@ below:
 
 ## Arduino Shield Assembly
 
-\|N\|Q\|Q\|I\|N\|Q\|Q\|I\| & & & & & & &\
-Arduino Shield & E2 & 1 &
-![image](../../../images/components/Electronics/E2.png){width="2cm"
-height="1.0cm"} & 2 Position Term Block & E18 & 1 &
-![image](../../../images/components/Electronics/E18.png){width="2cm"
-height="1.0cm"}\
-2x8 Shrouded Header pins & E19 & 1 &
-![image](../../../images/components/Electronics/E19.png){width="2cm"
-height="1.0cm"} & 1x6 JST header pins & E14 & 1 &
-![image](../../../images/components/Electronics/E14.png){width="2cm"
-height="1.0cm"}\
-1x40 0.1 Pitch Header pins & E15 & 1 &
-![image](../../../images/components/Electronics/E15.png){width="2cm"
-height="1.0cm"} & & & &\
+| **Item**                   | **Ref** | **Qty** | **Image**                                                                       |
+| -------------------------- | ------- | ------- | ------------------------------------------------------------------------------- |
+| Arduino Shield             | E2      | 1       | ![Arduino Shield](./../../../images/components/electronics/E2.png)              |
+| 2 Position Term Block      | E18     | 1       | ![2 Position Term Block](./../../../images/components/electronics/E18.png)      |
+| 2x8 Shrouded Header Pins   | E19     | 1       | ![2x8 Shrouded Header Pins](./../../../images/components/electronics/E19.png)   |
+| 1x6 JST header pins        | E14     | 1       | ![1x6 JST header pins](./../../../images/components/electronics/E14.png)        |
+| 1x40 0.1 Pitch Header pins | E15     | 1       | ![1x40 0.1 Pitch Header pins](./../../../images/components/electronics/E15.png) |
+| Soldering Iron             | N/A     |         |                                                                                 |
 
-Now, we will assemble the Arduino shield that will sit in the rover's
-head and control the face. We will start with the **TOP** side of the
-Arduino board. The final product is shown in Figure
-[26](#assembled_arduino_shield_top){reference-type="ref"
-reference="assembled_arduino_shield_top"}.
+Now, we will assemble the Arduino shield that will sit in the rover's head and
+control the face. We will start with the **TOP** side of the Arduino board. The
+final product is shown below.
 
-![Assembled Arduino
-Shield]("img/arduino_sheild_top".jpg){#assembled_arduino_shield_top
-width="\\textwidth"}
+![Assembled Arduino Shield Top](./../../../images/pcb_assembly/assembly/arduino_shield_top.png)
+![Assembled Arduino Shield Bottom](./../../../images/pcb_assembly/assembly/arduino_shield_bottom.png)
 
-1.  Begin by taking the 2-position terminal block **E18** and soldering
-    it to top of the board at the J6 connector, such that the screw
-    terminals face outwards as shown in Figure
-    [26](#assembled_arduino_shield_top){reference-type="ref"
-    reference="assembled_arduino_shield_top"}:
+1.  Begin by taking the 2-position terminal block **E18** and soldering it to
+    top of the board at the J6 connector, such that the screw terminals face
+    outwards as shown below:
 
-    ![Terminal Block assembly]("img/term_block".png){width="75%"}
+    ![Terminal Block assembly](./../../../images/pcb_assembly/assembly/term_block.png)
 
-2.  Solder the 1x6 JST connector **E14** onto the top of the board at
-    the J5 connector such that the notch in the connector faces
-    **OUTWARDS** as shown in Figure
-    [26](#assembled_arduino_shield_top){reference-type="ref"
-    reference="assembled_arduino_shield_top"}:
+2.  Solder the 1x6 JST connector **E14** onto the top of the board at the J5
+    connector such that the notch in the connector faces **OUTWARDS** as shown
+    below:
 
-    ![JST assembly]("img/jst".png){width="75%"}
+    ![JST assembly](./../../../images/pcb_assembly/assembly/jst.png)
 
-3.  Solder the 2x8 shrouded header pin connector **E19** to the top of
-    the board at connector J1 such that the notch faces **OUTWARDS** as
-    shown in Figure
-    [26](#assembled_arduino_shield_top){reference-type="ref"
-    reference="assembled_arduino_shield_top"}.
+3.  Solder the 2x8 shrouded header pin connector **E19** to the top of the board
+    at connector J1 such that the notch faces **OUTWARDS** as shown in the final
+    product image above.
 
-    ![Terminal Block assembly]("img/2x8_above".png){width="75%"}
+    ![Terminal Block assembly](./../../../images/pcb_assembly/assembly/2x8_above.png)
 
-4.  Solder the 0.1 pitch header pins **E15** to connectors J2-4 on the
-    top side of the board:
+4.  Solder the 0.1 pitch header pins **E15** to connectors J2-4 on the top side
+    of the board:
 
-    ![0.1 Pitch headers]("img/01_pitch_above".png){width="75%"}
+    ![0.1 Pitch headers](./../../../images/pcb_assembly/assembly/01_pitch_above.png)
 
-    Flip the Arduino board over to the **BOTTOM** side where we will now
-    install the remaining headers. The final product is shown in Figure
-    [27](#assembled_arduino_shield_bottom){reference-type="ref"
-    reference="assembled_arduino_shield_bottom"}.
+    Flip the Arduino board over to the **BOTTOM** side where we will now install
+    the remaining headers. The final product is shown in the images below.
 
-5.  Solder the 0.1 pitch header pins **E15** to the bottom side of the
-    board in the remaining hole sets.
+5.  Solder the 0.1 pitch header pins **E15** to the bottom side of the board in
+    the remaining hole sets.
 
-        ![0.1 Pitch headers]("img/01_pitch_under".png){width="75%"}
+    ![0.1 Pitch headers](./../../../images/pcb_assembly/assembly/01_pitch_under.png)
 
-        ![Assembled Arduino
+### Assembled
 
-    Shield]("img/arduino_sheild_bottom".jpg){#assembled_arduino_shield_bottom
-    width="\\textwidth"}
+![Assembled Arduino Shield Top](./../../../images/pcb_assembly/assembly/arduino_shield_top.png)
+![Assembled Arduino Shield Bottom](./../../../images/pcb_assembly/assembly/arduino_shield_bottom.png)
 
 # Component Integration and Testing
 
