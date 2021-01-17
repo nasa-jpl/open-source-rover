@@ -232,78 +232,42 @@ below:
 
 ### Standoffs
 
-\|N\|Q\|Q\|I\|N\|Q\|Q\|I\| & & & & & & &\
-\#6-32 x 3/4\" Threaded Standoff & T3 & 4 &
-![image](../../../images/components/Standoffs/T3.png){width="2cm"
-height="1.0cm"} & \#4-40 x 1/2 \" Threaded Standoff & T11 & 20 &
-![image](../../../images/components/Standoffs/T11.png){width="2cm"
-height="1.0cm"}\
-\#2-56 x 1/2\" Threaded Standoff & T8 & 4 &
-![image](../../../images/components/Standoffs/T8.png){width="2cm"
-height="1.0cm"} & M2.5 x 10mm Threaded Standoff & T10 & 4 &
-![image](../../../images/components/Standoffs/T11.png){width="2cm"
-height="1.0cm"}\
-\#6-32 3/8\" Button Head Screw & B2 & 8 &
-![image](../../../images/components/Screws/B2.png){width="2cm"
-height="1.0cm"} & \#4-40 1/4\" Button head Screw & B8 & 40 &
-![image](../../../images/components/Screws/B8.png){width="2cm"
-height="1.0cm"}\
-\#2-56 1/4\" Button head Screw & B13 & 8 &
-![image](../../../images/components/Screws/B13.png){width="2cm"
-height="1.0cm"} & M2.5 x 6mm & B10 & 8 &
-![image](../../../images/components/Screws/B10.png){width="2cm"
-height="1.0cm"}\
+| **Item**                       | **Ref** | **Qty** | **Image**                                                                         |
+| ------------------------------ | ------- | ------- | --------------------------------------------------------------------------------- |
+| #6-32 x 3/4" Threaded Standoff | T3      | 4       | ![#6-32 x 3/4" Threaded Standoff](./../../../images/components/standoffs/T3.png)  |
+| #4-40 x 1/2" Threaded Standoff | T11     | 20      | ![#4-40 x 1/2" Threaded Standoff](./../../../images/components/standoffs/T11.png) |
+| #2-56 x 1/2" Threaded Standoff | T8      | 4       | ![#2-56 x 1/2" Threaded Standoff](./../../../images/components/standoffs/T8.png)  |
+| M2.5 x 10mm Threaded Standoff  | T10     | 4       | ![M2.5 x 10mm Threaded Standoff](./../../../images/components/standoffs/T10.png)  |
+| #6-32 3/8" Button Head Screw   | B2      | 8       | ![#6-32 3/8" Button Head Screw](./../../../images/components/screws/B2.png)       |
+| #4-40 1/4" Button Head Screw   | B8      | 40      | ![#4-40 1/4" Button Head Screw](./../../../images/components/screws/B8.png)       |
+| #2-56 1/4" Button Head Screw   | B13     | 8       | ![#2-56 1/4" Button Head Screw](./../../../images/components/screws/B13.png)      |
+| M2.5 x 6mm Socket Head Screw   | B10     | 8       | ![M2.5 x 6mm Socket Head Screw](./../../../images/components/screws/B10.png)      |
 
-1.  **Board mounting Standoffs:** On the **BOTTOM** side of the board,
-    attach the four \#6-32 Standoffs **T4** on the outermost corner four
-    mounting holes using screws **B2**. These standoffs will be used to
-    attach the board to the robot chassis.
+1.  **Board mounting Standoffs:** On the **BOTTOM** side of the board, attach
+    the four #6-32 Standoffs **T4** on the outermost corner four mounting holes
+    using screws **B2**. These standoffs will be used to attach the board to the
+    robot chassis.
+    ![Mounting Standoffs](./../../../images/pcb_assembly/assembly/standoff_2.png)
+    ![Mounting Standoffs](./../../../images/pcb_assembly/assembly/standoff_1.png)
 
-        ![Mounting
+2.  **RoboClaw mounting Standoffs:** On the **BOTTOM** side of the board, attach
+    the twenty #4-40 Standoffs **T5** using screws **B8** as shown below. You
+    can identify the RoboClaw mounting holes as the ones that are inside the
+    RoboClaw rectangles on the silk screen.
 
-    Standoffs]("img/Pictures/Assembly/standoff_2".png){#standoffs_1
-    width="\\textwidth"}
+    ![RoboClaw Mounting Standoffs](./../../../images/pcb_assembly/assembly/standoff_3.png)
 
-        ![Mounting
+3.  **Voltage Regulator Standoffs:** On the **BOTTOM** side of the board, attach
+    the four #2-56 Standoffs **T6** using screws **B13** as shown below.
 
-    Standoffs]("img/Pictures/Assembly/standoff_1".png){#standoffs_1
-    width="\\textwidth"}
+    ![Voltage regulator Mounting Standoffs](./../../../images/pcb_assembly/assembly/standoff_4.png)
 
-2.  **RoboClaw mounting Standoffs:** On the **BOTTOM** side of the
-    board, attach the twenty \#4-40 Standoffs **T5** using screws **B8**
-    as shown in Figure [23](#standoffs_2){reference-type="ref"
-    reference="standoffs_2"}. You can identify the RoboClaw mounting
-    holes as the ones that are inside the RoboClaw rectangles on the
-    silk screen.
+4.  **Raspberry Pi Standoffs:** On the **TOP** side of the board, attach the
+    four M2.5 Standoffs **T7** using screws **B10** as shown in below.
 
-        ![RoboClaw Mounting
+    ![Raspberry Pi Standoffs](./../../../images/pcb_assembly/assembly/standoff_5.png)
 
-    Standoffs]("img/Pictures/Assembly/standoff_3".png){#standoffs_2
-    width="60%"}
-
-3.  **Voltage Regulator Standoffs:** On the **BOTTOM** side of the
-    board, attach the four \#2-56 Standoffs **T6** using screws **B13**
-    as shown in Figure [24](#standoffs_3){reference-type="ref"
-    reference="standoffs_3"}.
-
-        ![Voltage regulator Mounting
-
-    Standoffs]("img/Pictures/Assembly/standoff_4".png){#standoffs_3
-    width="60%"}
-
-4.  **Raspberry Pi Standoffs:** On the **TOP** side of the board, attach
-    the four M2.5 Standoffs **T7** using screws **B10** as shown in
-    Figure [25](#standoffs_4){reference-type="ref"
-    reference="standoffs_4"}.
-
-        ![Raspberry Pi
-
-    Standoffs]("img/Pictures/Assembly/standoff_5".png){#standoffs_4
-    width="60%"}
-
-        ![Standoffs Installed (Bottom
-
-    View)]("img/Pictures/Assembly/standoffs".jpg){width="60%"}
+    ![Standoffs Installed (Bottom View)](./../../../images/pcb_assembly/assembly/standoffs.png)
 
 ## Arduino Shield Assembly
 
