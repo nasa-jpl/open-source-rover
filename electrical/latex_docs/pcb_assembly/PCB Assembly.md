@@ -325,165 +325,117 @@ final product is shown below.
 
 # Component Integration and Testing
 
-This next section will go over the process of integrating the
-electronics onto the Control Board and the testing to verify that the
-board and components are working as expected at each step. You should
-perform this section with the board **outside** of the robot chassis in
-case you need to replace components or fix any mistakes. It is important
-to do the following steps **one at time** so you can verify that
-electronics are working as intended. These tests will save you from
-accidentally breaking one or more of your components if something else
-is plugged in incorrectly or shorted.
+This next section will go over the process of integrating the electronics onto
+the Control Board and the testing to verify that the board and components are
+working as expected at each step. You should perform this section with the board
+**outside** of the robot chassis in case you need to replace components or fix
+any mistakes. It is important to do the following steps **one at time** so you
+can verify that electronics are working as intended. These tests will save you
+from accidentally breaking one or more of your components if something else is
+plugged in incorrectly or shorted.
 
 ## Testing the Control Board
 
 ### Power Distribution System
 
-\|N\|Q\|Q\|I\|N\|Q\|Q\|I\| & & & & & & &\
-OSR Control Board & E1 & 1 &
-![image](../../../images/components/Electronics/E1.png){width="2cm"
-height="1.0cm"} & Battery & E36 & 1 &
-![image](../../../images/components/Electronics/E36.png){width="2cm"
-height="1.0cm"}\
-Tamiya Battery Connectors & E35 & 1 &
-![image](../../../images/components/Electronics/E35.png){width="2cm"
-height="1.0cm"} & Red 20 AWG & X1 & 1 &
-![image](../../../images/components/Wiring/X1.png){width="2cm"
-height="1.0cm"}\
-Black 20 AWG & X2 & 1 &
-![image](../../../images/components/Wiring/X2.png){width="2cm"
-height="1.0cm"} & 5V Regulator & E22 & 1 &
-![image](../../../images/components/Electronics/E22.png){width="2cm"
-height="1.0cm"}\
-12V Regulator & E23 & 1 &
-![image](../../../images/components/Electronics/E23.png){width="2cm"
-height="1.0cm"} & RoboClaw Motor Controller & E20 & 5 &
-![image](../../../images/components/Electronics/E20.png){width="2cm"
-height="1.0cm"}\
-Op-Amp LM358P & E25 & 2 &
-![image](../../../images/components/Electronics/E25.png){width="2cm"
-height="1.0cm"} & Micro USB Cable & E28 & 1 &
-![image](../../../images/components/Electronics/E28.png){width="2cm"
-height="1.0cm"}\
+| **Item**                  | **Ref** | **Qty** | **Image**                                                                      |
+| ------------------------- | ------- | ------- | ------------------------------------------------------------------------------ |
+| OSR Control Board         | E1      | 1       | ![OSR Control Board](./../../../images/components/electronics/E1.png)          |
+| Battery                   | E36     | 1       | ![Battery](./../../../images/components/electronics/E36.png)                   |
+| Tamiya Battery Connectors | E35     | 1       | ![Tamiya Battery Connectors](./../../../images/components/electronics/E35.png) |
+| Red 20 AWG Wire           | X1      | 1       | ![Red 20 AWG Wire](./../../../images/components/wiring/X1.png)                 |
+| Black 20 AWG Wire         | X2      | 1       | ![Black 20 AWG Wire](./../../../images/components/wiring/X2.png)               |
+| 5V Regulator              | E22     | 1       | ![5V Regulator](./../../../images/components/electronics/E22.png)              |
+| 12V Regulator             | E23     | 1       | ![12V Regulator](./../../../images/components/electronics/E23.png)             |
+| RoboClaw Motor Controller | E20     | 5       | ![RoboClaw Motor Controller](./../../../images/components/electronics/E20.png) |
+| Op-Amp LM358P             | E25     | 1       | ![Op-Amp LM358P](./../../../images/components/electronics/E25.png)             |
+| Micro USB Cable           | E28     | 1       | ![Micro USB Cable](./../../../images/components/electronics/E28.png)           |
+| Soldering Iron            | N/A     |         |                                                                                |
 
-1.  Begin by powering the board. For testing purposes, we will plug the
-    battery directly into the board, bypassing the switch and volt
-    meter. Thus, the connection we use for testing will look a little
-    bit different than when you fully install the board into the rover.
-    Insert the red wire on the Tamiya Battery Connector **E35** into the
-    IN terminal on connector **J16 / POWER SWITCH**, and the black wire
-    to the GND terminal on the connector **J15 / BATTERY IN**.
+1.  Begin by powering the board. For testing purposes, we will plug the battery
+    directly into the board, bypassing the switch and volt meter. Thus, the
+    connection we use for testing will look a little bit different than when you
+    fully install the board into the rover. Insert the red wire on the Tamiya
+    Battery Connector **E35** into the IN terminal on connector **J16 / POWER
+    SWITCH**, and the black wire to the GND terminal on the connector **J15 /
+    BATTERY IN**.
 
-    ![Test Step 1]("img/Pictures/Testing/testing_1".png){#test_1
-    width="\\textwidth"}
+    ![Testing Step 1](./../../../images/pcb_assembly/testing/testing_1.png)
+    ![Testing Step 1](./../../../images/pcb_assembly/testing/testing_2.png)
 
-    ![Test Step 1]("img/Pictures/Testing/testing_2".png){#test_1
-    width="\\textwidth"}
+2.  Using a Digital Multimeter (DMM), probe the voltage across the test points
+    T1 and T2. These will tell you the voltage at which the board power rails
+    are, which should be the direct voltage of the battery. Verify that from T1
+    to T2 reads a positive number, and is between 12V and 16.7V depending on the
+    charge state of your battery.
 
-2.  Using a Digital Multimeter (DMM), probe the voltage across the test
-    points T1 and T2. These will tell you the voltage at which the board
-    power rails are, which should be the direct voltage of the battery.
-    Verify that from T1 to T2 reads a positive number, and is between
-    12V and 16.7V depending on the charge state of your battery.
+    ![Test Pads](./../../../images/pcb_assembly/testing/testing_3.png)
 
-    ![Test pads]("img/Pictures/Testing/testing_3".png){#test_pads_1
-    width=".85\\textwidth"}
-
-3.  Next, you will need to create jumper wires that will connect the
-    RoboClaw motor controller power terminals to the RoboClaws. **Unplug
-    the Tamiya battery connector before plugging in or unplugging ANY
-    components, or before inserting components!!!** (in future steps, we
-    will not explicitly say to unplug the battery, but **you should
-    disconnect the battery at each step BEFORE inserting components or
-    working on the board!**). Take the red and black 24 AWG wires **W1
-    and W2** and cut 15 2-inch long segments of each color (you should
-    have 15 red and 15 black pieces). Using wire strippers, strip the
-    ends about 0.1 inches at each end. Insert these jumper wires into
+3.  Next, you will need to create jumper wires that will connect the RoboClaw
+    motor controller power terminals to the RoboClaws. **Unplug the Tamiya
+    battery connector before plugging in or unplugging ANY components, or before
+    inserting components!!!** (in future steps, we will not explicitly say to
+    unplug the battery, but **you must disconnect the battery at each step
+    BEFORE inserting components or working on the board!**). Take the red and
+    black 24 AWG wires **W1 and W2** and cut 15 2-inch long segments of each
+    color (you should have 15 red and 15 black pieces). Using wire strippers,
+    strip the ends about 0.1 inches at each end. Insert these jumper wires into
     the terminal blocks on the RoboClaw Motor Controllers **E20** in the
     following way:
 
-    ***
+    | **Terminal** | **Wire Color** |
+    | ------------ | -------------- |
+    | M1A          | Red            |
+    | M1B          | Black          |
+    | +            | Red            |
+    | -            | Black          |
+    | M2A          | Red            |
+    | M2B          | Black          |
 
-    M1A Red
-    M1B Black
-    \+ Red
-    \- Black
-    M2A Red
-    M2B Black
+4.  Start by inserting one of the RoboClaws into the slot on the bottom of the
+    board labeled `ROBOCLAW 2`. Connect the wires directly across from RoboClaw
+    motor terminal block to the terminal block on the control board as shown
+    below:
 
-    ***
+    ![RoboClaw power/motor wires](./../../../images/pcb_assembly/testing/rc_wires_2.png)
 
-    : Parts/Tools Necessary
+    ![RoboClaw power/motor wires](./../../../images/pcb_assembly/testing/rc_wires.png)
 
-4.  Start by inserting one of the RoboClaws into the slot on the bottom
-    of the board labeled ROBOCLAW 2. Connect the wires directly across
-    from RoboClaw motor terminal block to the terminal block on the
-    control board as shown in Figure
-    [32](#roboclaw_power_wires){reference-type="ref"
-    reference="roboclaw_power_wires"}.
+5.  Plug in the battery. An LED on the RoboClaw will turn on; verify that it is
+    green. If the LED is red, it means there is an error. Error codes can be
+    traced by looking at
+    [the RoboClaw user manual](https://basicmicro.com/downloads).
 
-        ![RoboClaw power/motor
+6.  Repeat this process one RoboClaw at a time **following the order of 2, 3, 4,
+    1, 5** (testing each RoboClaw after you plug it in) until all 5 RoboClaws
+    have been plugged into the board.
 
-    wires]("img/Pictures/Assembly/rc_wires_2".jpg){#roboclaw_power_wires
-    width="\\textwidth"}
+7.  Take the two voltage regulators **E23 and 24** and solder their header pins
+    to the bottom side of the board. Note that you will be soldering the short
+    side of the pins on the top side of the board (the side with large
+    capacitors on it).
 
-        ![RoboClaw power/motor
+8.  Insert the 5V regulator into the control board as shown below. Power your
+    board and probe between test points T4 and T2 on the top of the board below
+    with your DMM and verify that it reads 5V. If it does not, make sure that
+    the 5V regulator is slotted in properly and that your solder connections are
+    solid.
 
-    wires]("img/Pictures/Assembly/rc_wires".jpg){#roboclaw_power_wires
-    width="\\textwidth"}
+    ![5V Regulator & Test Pads](./../../../images/pcb_assembly/testing/testing_7.png)
 
-5.  Plug in the battery. An LED on the RoboClaw will turn on; verify
-    that it is green. If the LED is red, it means there is an error.
-    Error codes can be traced by looking at the RoboClaw user manual:
+    ![5V Regulator & Test Pads](./../../../images/pcb_assembly/testing/testing_3.png)
 
-    -   <https://www.basicmicro.com/downloads>
+9.  Insert the 12V regulator into the control board. Power your board and probe
+    between test point T5 and T6 on the top of the board with your DMM and
+    verify that it reads 12V. If it does not, make sure the 12V regulator is
+    slotted in properly and that your solder connections are solid.
 
-6.  Repeat this process one RoboClaw at a time **following the order of
-    2, 3, 4, 1, 5** (testing each RoboClaw after you plug it in) until
-    all 5 RoboClaws have been plugged into the board.
+    ![12V Regulator & Test Pads](./../../../images/pcb_assembly/testing/testing_8.png)
 
-7.  Take the two voltage regulators **E23 and 24** and solder their
-    header pins to the bottom side of the board. Note that you will be
-    soldering the back side of the pins on the top side of the board
-    (the side with large capacitors on it).
+    ![12V Regulator & Test Pads](./../../../images/pcb_assembly/testing/test_pads_t5_t6.png)
 
-8.  Insert the 5V regulator into the control board as shown in Figure
-    [34](#test_5){reference-type="ref" reference="test_5"}. Power your
-    board and probe between test points T4 and T2 on the top of the
-    board (Figure [34](#test_5){reference-type="ref"
-    reference="test_5"}) with your DMM and verify that it reads 5V. If
-    it does not, make sure that the 5V regulator is slotted in properly
-    and that your solder connections are solid.
-
-        ![5V Regulator & Test
-
-    Pads]("img/Pictures/Testing/testing_7".png){#test_5
-    width="\\textwidth"}
-
-        ![5V Regulator & Test
-
-    Pads]("img/Pictures/Testing/testing_3".png){#test_5
-    width="\\textwidth"}
-
-9.  Insert the 12V regulator into the control board. Power your board
-    and probe between test point T5 and T6 on the top of the board with
-    your DMM and verify that it reads 12V. If it does not, make sure the
-    12V regulator is slotted in properly and that your solder
-    connections are solid.
-
-        ![12V Regulator & Test
-
-    Pads]("img/Pictures/Testing/testing_8".png){#test_6
-    width="\\textwidth"}
-
-        ![12V Regulator & Test
-
-    Pads]("img/Pictures/Testing/test_pads_t5_t6".jpg){#test_6
-    width="\\textwidth"}
-
-        If all voltage test points read expected values and all the RoboClaw
-        motor Controllers have green LEDs, the power system has been
-        verified!
+    If all voltage test points read expected values and all the RoboClaw motor
+    Controllers have green LEDs, the power system has been verified!
 
 ## Op-Amp Integration
 
