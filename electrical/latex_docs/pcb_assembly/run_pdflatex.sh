@@ -1,1 +1,0 @@
-pdflatex PCB\ Assembly.tex
