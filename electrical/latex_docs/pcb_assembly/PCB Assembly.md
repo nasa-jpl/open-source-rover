@@ -439,168 +439,147 @@ plugged in incorrectly or shorted.
 
 ## Op-Amp Integration
 
-Press the Op-Amp LM358P **E25** into the slots in the 8 Position DIP
-socket. Take careful note of the direction of the chip in the DIP
-socket, as the notch **MUST** face the correct direction.
+Press the Op-Amp LM358P **E25** into the slots in the 8 Position DIP socket.
+Take careful note of the direction of the chip in the DIP socket, as the notch
+**MUST** face the correct direction.
 
-![Op-amp
-integration]("img/Pictures/Assembly/op_amp".png){width=".85\\textwidth"}
+![Op-amp integration](./../../../images/pcb_assembly/assembly/op_amp.png)
 
 ### Voltage Divider Verification
 
-Now that the Op-amps are installed we want to check and make sure the
-voltage dividers are working correctly. To do this, we will run power
-from the motors directly back into the analog read signal, and see what
-voltage it gets divided down to. On the motor connectors for each corner
-motor (J23-26), use a jumper wire to connect the 5V signal line to the
-ENx line. Then, use a DMM to measure the voltage between each of the
-following test pads and GND and compare the values to the expected
-voltage ranges in Table [1](#voltage_divider_table){reference-type="ref"
-reference="voltage_divider_table"}:
+Now that the Op-amps are installed we want to check and make sure the voltage
+dividers are working correctly. To do this, we will run power from the motors
+directly back into the analog read signal, and see what voltage it gets divided
+down to. On the motor connectors for each corner motor (J23-26), use a jumper
+wire to connect the 5V signal line to the ENx line. Then, use a DMM to measure
+the voltage between each of the following test pads and GND and compare the
+values to the expected voltage ranges:
 
-::: {#voltage_divider_table}
-
----
-
-OP amp Power T13 5
-M7 Encoder signal divided T7 1.5 - 2.0
-M7 Encoder raw T9 5
-M7 Encoder after Op-amp T11 1.5 - 2.0
-M8 Encoder signal divided T18 1.5 - 2.0
-M8 Encoder raw T20 5
-M8 Encoder after Op-amp T16 1.5 - 2.0
-M9 Encoder signal divided T8 1.5 - 2.0
-M9 Encoder raw T10 5
-M9 Encoder after Op-amp T12 1.5 - 2.0
-M10 Encoder signal divided T19 1.5 - 2.0
-M10 Encoder raw T21 5
-M10 Encoder after Op-amp T17 1.5 - 2.0
-
----
-
-: Parts/Tools Necessary
-:::
-
-[\[voltage_divider_table\]]{#voltage_divider_table
-label="voltage_divider_table"}
+| Signal                     | Test Pad | Voltage (to ground, in Volts) |
+| -------------------------- | -------- | ----------------------------- |
+| Op Amp Power               | T13      | 5                             |
+| M7 Encoder Signal Divided  | T7       | 1.5 – 2.0                     |
+| M7 Encoder Raw             | T9       | 5                             |
+| M7 Encoder after Op-Amp    | T11      | 1.5 – 2.0                     |
+| M8 Encoder Signal Divided  | T18      | 1.5 – 2.0                     |
+| M8 Encoder Raw             | T20      | 5                             |
+| M8 Encoder after Op-Amp    | T16      | 1.5 – 2.0                     |
+| M9 Encoder Signal Divided  | T8       | 1.5 – 2.0                     |
+| M9 Encoder Raw             | T10      | 5                             |
+| M9 Encoder after Op-Amp    | T12      | 1.5 – 2.0                     |
+| M10 Encoder Signal Divided | T19      | 1.5 – 2.0                     |
+| M10 Encoder Raw            | T21      | 5                             |
+| M10 Encoder after Op-Amp   | T17      | 1.5 – 2.0                     |
 
 ### RoboClaw Testing and Verification
 
-In this section you will be going one by and and testing the operation
-of the RoboClaw Motor controllers. You will be doing this by using the
-GUI provided by the manufacturer of the motor controllers. The GUI can
-be found at the following link, under general downloads, then BasicMicro
-Motion Studio
+In this section you will be going one by one and and testing the operation of
+the RoboClaw Motor controllers. You will be doing this by using the GUI provided
+by the manufacturer of the motor controllers. The GUI can be found at
+[this link](https://www.basicmicro.com/downloads), under general downloads, then
+BasicMicro Motion Studio.
 
--   <https://www.basicmicro.com/downloads>
+You'll also need the `USB RoboClaw Windows Driver` from the RoboClaw General
+Downloads section of the page. This should be installed before you run the
+Motion Studio.
 
-You'll also need the "USB Roboclaw Windows Driver" from the RoboClaw
-General Downloads section of the page. This should be installed before
-you run the Motion Studio.
+To use the GUI, insert a USB to Micro USB cable from your computer to the motor
+controller you are going to be testing.
 
-To use the GUI, insert a USB to micro USB cable from your computer to
-the motor controller you are going to be testing.
-
-You must now make a temporary connection between the motor controllers
-and your motors. We found it easiest to test using a set of male-male
-jumper wires connected between the motor terminal being tested and a
-test motor.
+You must now make a temporary connection between the motor controllers and your
+motors. We found it easiest to test using a set of male-male jumper wires
+connected between the motor terminal being tested and a test motor.
 
 ### Drive Motor Blocks
 
 Do each of the steps below for the terminal blocks labeled J17-22; these
-terminal blocks correspond to the driving motors for the rover. **Make
-sure that while you are plugging in connections, your board is powered
-off!** The terminal blocks correspond to the motor controller outputs in
-the following manner:
+terminal blocks correspond to the driving motors for the rover. **Make sure that
+while you are plugging in connections, your board is powered off!** The terminal
+blocks correspond to the motor controller outputs in the following manner:
 
----
-
-J17 RC1 M1
-J18 RC1 M2
-J19 RC2 M1
-J20 RC2 M2
-J21 RC3 M1
-J22 RC3 M2
-
----
-
-: Parts/Tools Necessary
+| Terminal Block Label | RoboClaw Board Label | Motor Output Channel |
+| -------------------- | -------------------- | -------------------- |
+| J17                  | RC1                  | M1                   |
+| J18                  | RC1                  | M2                   |
+| J19                  | RC2                  | M1                   |
+| J20                  | RC2                  | M2                   |
+| J21                  | RC3                  | M1                   |
+| J22                  | RC3                  | M2                   |
 
 1.  First, connect the wires in the following manner:
 
-    ***
+    | Signal    | Terminal Block Label | Motor Connector Wire Color |
+    | --------- | -------------------- | -------------------------- |
+    | Motor (+) | M+                   | Red                        |
+    | Motor (-) | M-                   | Black                      |
+    | Ground    | GND                  | Green                      |
+    | +5V       | +5V                  | Blue                       |
+    | Encoder A | ENA                  | Yellow                     |
+    | Encoder   | B                    | ENB White                  |
 
-    Motor (+) M+ Red
-    Motor (-) M- Black
-    Ground GND Green
-    +5V +5V Blue
-    Encoder A ENA Yellow
-    Encoder B ENB White
+2.  Power on the board. After a minute or so, in the Basic Motion GUI you should
+    see an available device appear. It might require an update to proceed;
+    install the latest firmware update and then connect to the device.
 
-    ***
+3.  Click on the PWM tab. We will now send a PWM signal to the motor and test
+    that connections are all made correctly to the motor and encoder.
 
-    : Parts/Tools Necessary
+4.  Slowly move the slide bar for the corresponding motor output channel (Either
+    M1 or M2 from the above table) for the terminal you are testing. Verify that
+    the motor spins (we will worry about direction later), and that the encoder
+    value is also changing (we'll worry about it increasing or decreasing
+    correctly later as well). Switch direction of the slide bar and verify that
+    it spins the other direction and the encoder value does the opposite of
+    previous as well. If these are not happening or are backwards, go back and
+    check that you are using the correct motor controller, terminal block, etc.
+    If all your connections are correct, you may have to test your solder
+    contact between the components on the board itself.
 
-2.  Power on the board. After a minute or so, in the Basic Motion GUI
-    you should see an available device appear. It might require an
-    update to proceed; install the latest firmware update and then
-    connect to the device.
-
-3.  Click on the PWM tab. We will now send a PWM signal to the motor and
-    test that connections are all made correctly to the motor and
-    encoder.
-
-4.  Slowly move the slide bar for the corresponding motor output channel
-    (Either M1 or M2 from the above table) for the terminal you are
-    testing. Verify that the motor spins (we will worry about direction
-    later), and that the encoder value is also changing (we'll worry
-    about it increasing or decreasing correctly later as well). Switch
-    direction of the slide bar and verify that it spins the other
-    direction and the encoder value does the opposite of previous as
-    well. If these are not happening or are backwards, go back and check
-    that you are using the correct motor controller, terminal block,
-    etc. If all your connections are correct, you may have to test your
-    solder contact between the components on the board itself.
-
-5.  Repeat the steps above for each of the drive motor terminal blocks,
-    labeled J17-22.
+5.  Repeat the steps above for each of the drive motor terminal blocks, labeled
+    J17-22.
 
 ### Corner Motor Blocks
 
 Do the following procedure for the terminal blocks labeled J23-26. These
-correspond to the corner motors for the rover. Terminal blocks
-correspond to the motor controller outputs in the following manner:
+correspond to the corner motors for the rover. Terminal blocks correspond to the
+motor controller outputs in the following manner:
 
----
-
-J23 RC4 M1
-J24 RC4 M2
-J25 RC5 M1
-J26 RC5 M2
-
----
-
-: Parts/Tools Necessary
+| Terminal Block Label | RoboClaw Board Label | Motor Output Channel |
+| -------------------- | -------------------- | -------------------- |
+| J23                  | RC4                  | M1                   |
+| J24                  | RC4                  | M2                   |
+| J25                  | RC5                  | M1                   |
+| J26                  | RC5                  | M2                   |
 
 1.  Connect the wires to the motor in the following manner
 
-    ***
+    | Signal    | Terminal Block Label | Motor Connector Wire Color |
+    | --------- | -------------------- | -------------------------- |
+    | Motor (+) | M+                   | Red                        |
+    | Motor (-) | M-                   | Black                      |
 
-    Motor (+) M+ Red
-    Motor (-) M- Black
+2.  The main difference between the drive and corner motor systems is that for
+    the corner system, we need to use the encoders. We want to test the voltage
+    division circuit used on the control board; this divider which will expects
+    a 0-5V signal from the absolute Hall effect encoder. To simulate the
+    encoder, connect the +5V terminal on the motor terminal block straight into
+    the ENA signal in the same terminal block.
 
-    ***
+3.  Connect to the motor controller in the Basic Motion GUI. Under the General
+    settings tab (under Encoders), change the type of encoder from Quadrature to
+    Absolute. You should see that the encoder values change to a number
+    somewhere around 1600. As long as it is a fairly constant value and is in
+    the range of 1400-2000 then everything is working. If the value varies
+    wildly or is not in the 1400-2000 range, recheck that the OP-amp is
+    installed in the correct direction. If this number still isn't correct then
+    make sure you correctly installed all the resistors/capacitors in the
+    assembly steps.
 
-    : Parts/Tools Necessary
+4.  Under the PWM tab, move the slide bar and verify that the motor spins
+    accordingly.
 
-2.  The main difference between the drive and corner motor systems is
-    that for the corner system, we need to use the encoders. We want to
-    test the voltage division circuit used on the control board; this
-    divider which will expects a 0-5V signal from the absolute Hall
-    effect encoder. To simulate the encoder, connect the +5V terminal on
-    the motor terminal block straight into the ENA signal in the same
-    terminal block.
+5.  Repeat this process for all the corner motor terminal blocks, labeled
+    J23-26.
 
 3.  Connect to the motor controller in the Basic Motion GUI. Under the
     General settings tab (under Encoders), change the type of encoder
