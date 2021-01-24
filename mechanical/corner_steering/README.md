@@ -53,13 +53,13 @@ The Corner Steering assembly contains the steering motors which allow the rover 
 
 | item                                | ref | qty | img                                                                  |     | item                            | ref | qty | img                                                                   |
 | ----------------------------------- | --- | --- | -------------------------------------------------------------------- | --- | ------------------------------- | --- | --- | --------------------------------------------------------------------- |
-| 3" channel                          | S2  | 4   | <image src="../../images/components/structural/S2.jpg" width="100">  |     | Motor (Corner)                  | E46 | 4   | <image src="../../images/components/electronics/E46.png" width="100"> |
-| Motor mount                         | S9  | 4   | <image src="../../images/components/structural/S9.jpg" width="100">  |     | Absolute Encoder                | E47 | 4   | <image src="../../images/components/electronics/E47.png" width="100"> |
-| 0.25" Pillow Block                  | S10 | 8   | <image src="../../images/components/structural/S10.jpg" width="100"> |     | #6-32 x 1/4" spacer             | T1  | 16  | <image src="../../images/components/standoffs/T1.png" width="100">    |
-| 0.25" D-shaft                       | S15 | 4   | <image src="../../images/components/structural/S15.jpg" width="100"> |     | #6-32 x 1.25" Threaded Standoff | T9  | 16  | <image src="../../images/components/standoffs/T9.jpg" width="100">    |
-| 0.25" to 6mm clamping shaft coupler | S38 | 4   | <image src="../../images/components/structural/S38.jpg" width="100"> |     | 6-32 x 1/4" Button Head Screw   | B3  | 16  | <image src="../../images/components/screws/B1.png" width="100">       |
-| 1/8" Bore Pinion Gear               | S27 | 4   | <image src="../../images/components/structural/S27.jpg" width="100"> |     | 6-32 x 3/4" Button Head Screw   | B5  | 16  | <image src="../../images/components/screws/B5.png" width="100">       |
-| 3D Printed Encoder Mount            | S31 | 4   | <image src="../../images/components/structural/S31.png" width="100"> |     | Allen Key Set                   | D2  |     | <image src="../../images/components/tools/D2.jpeg" width="100">       |
+| 3" channel                          | S2  | 4   | <image src="../../images/components/structural/S2.png" width="100">  |     | Motor (Corner)                  | E46 | 4   | <image src="../../images/components/electronics/E46.png" width="100"> |
+| Motor mount                         | S9  | 4   | <image src="../../images/components/structural/S9.png" width="100">  |     | Absolute Encoder                | E47 | 4   | <image src="../../images/components/electronics/E47.png" width="100"> |
+| 0.25" Pillow Block                  | S10 | 8   | <image src="../../images/components/structural/S10.png" width="100"> |     | #6-32 x 1/4" spacer             | T1  | 16  | <image src="../../images/components/standoffs/T1.png" width="100">    |
+| 0.25" D-shaft                       | S15 | 4   | <image src="../../images/components/structural/S15.png" width="100"> |     | #6-32 x 1.25" Threaded Standoff | T9  | 16  | <image src="../../images/components/standoffs/T9.jpg" width="100">    |
+| 0.25" to 6mm clamping shaft coupler | S38 | 4   | <image src="../../images/components/structural/S38.png" width="100"> |     | 6-32 x 1/4" Button Head Screw   | B3  | 16  | <image src="../../images/components/screws/B1.png" width="100">       |
+| 1/8" Bore Pinion Gear               | S27 | 4   | <image src="../../images/components/structural/S27.png" width="100"> |     | 6-32 x 3/4" Button Head Screw   | B5  | 16  | <image src="../../images/components/screws/B5.png" width="100">       |
+| 3D Printed Encoder Mount            | S31 | 4   | <image src="../../images/components/structural/S31.png" width="100"> |     | Allen Key Set                   | D2  |     | <image src="../../images/components/tools/D2.png" width="100">       |
 
 ### Motor Mount
 
