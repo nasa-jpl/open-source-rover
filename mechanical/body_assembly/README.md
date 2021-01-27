@@ -53,7 +53,7 @@ First we need to drill a hole in one of the 9x12 Aluminum plates **S35** because
 
 Take the 0.5 in hollow rod **S19** and make sure it spins freely in the hole you have created. If it does not, drill the hole slightly larger or sand/file the hole until the rod spins with no resistance (The 0.5 in hollow rod must spin _freely_ while mounted inside the bearing blocks. See step 2.2 Differential pivot for example. It may help to follow step 2.2 in this document to test if you have enough clearance)
 
-| <img src="../../images/body/9x12_Plate_cut.png" height="220"> <img src="../../images/body/9x12_Plate_cut2.png" height="220"> |
+| <img src="../../images/body/9x12_Plate_cut.png" height="300"> <img src="../../images/body/9x12_Plate_cut2.png" height="300"> |
 |:-:|
 | Figure 1: Drilling the Aluminum Plate |
 
@@ -82,7 +82,7 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload these 
 
 Take the modified 9x12 Aluminum plate **S35A** and attach the four Dual side mount A **S1** using screws **B1** at the locations shown below. Take care to match the orientation shown.
 
-| <img src="../../images/body/body_1.png" height="200"> <img src="../../images/body/body_2.png" height="150">|
+| <img src="../../images/body/body_1.png" height="300"> <img src="../../images/body/body_2.png" height="150">|
 |:-:|
 | Figure 2: Attaching side mounts to top panel |
 
@@ -91,7 +91,7 @@ Take the modified 9x12 Aluminum plate **S35A** and attach the four Dual side mou
 
 Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 
-| <img src="../../images/body/body_3.png" height="170"> <img src="../../images/body/body_4.png" height="170">|
+| <img src="../../images/body/body_3.png" height="300"> <img src="../../images/body/body_4.png" height="300">|
 |:-:|
 | Figure 3: Attach the side panels |
 
@@ -100,7 +100,7 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 
 Attach the 1-inch PVC bore clamping hub **S24** to the top plate of the body using screws **B1** Use the location shown in Figure 4.
 
-| <img src="../../images/body/body_pvc_1.png" height="230"> <img src="../../images/body/body_pvc_2.png" height="230">|
+| <img src="../../images/body/body_pvc_1.png" height="300"> <img src="../../images/body/body_pvc_2.png" height="300">|
 |:-:|
 | Figure 4: Attach the PVC clamp to top plate |
 
@@ -136,7 +136,7 @@ You may want to skip this step until the PCB is completed and tested and insert 
 
 Mount the PCB **E1** to the top of the chassis using screws **B2**. Note the position of the PCB below.
 
-| <img src="../../images/body/body_5.png" height="250"> <img src="../../images/body/body_6.png" height="250">|
+| <img src="../../images/body/body_5.png" height="300"> <img src="../../images/body/body_6.png" height="300">|
 |:-:|
 | Figure 6: Mounting the PCB |
 
@@ -163,7 +163,7 @@ because of the PVC clamping hub. This is okay, install the other 3 circled in ye
 
 Mount Dual Side Mounts A **S17** using screws **B1** on the side plates in both the front and back.
 
-| <img src="../../images/body/body_8a.png" height="200"> <img src="../../images/body/body_8.png" height="200">|
+| <img src="../../images/body/body_8a.png" height="300"> <img src="../../images/body/body_8.png" height="300">|
 |:-:|
 | Figure 8: Dual Side Mount A locations |
 
@@ -171,7 +171,7 @@ Mount Dual Side Mounts A **S17** using screws **B1** on the side plates in both 
 
 Also attach Dual Side Mounts A **S17** using **B1** screws on the top plate, in the front and back
 
-| <img src="../../images/body/body_9.png" height="200"> <img src="../../images/body/body_10.png" height="200">|
+| <img src="../../images/body/body_9.png" height="300"> <img src="../../images/body/body_10.png" height="300">|
 |:-:|
 | Figure 9: Dual Side Mount A (cont) |
 
@@ -179,7 +179,7 @@ Also attach Dual Side Mounts A **S17** using **B1** screws on the top plate, in 
 
 Using screws **B1** attach the front and back laser cut panels to the chassis.
 
-| <img src="../../images/body/body_12.png" height="200"> <img src="../../images/body/body_13.png" height="200">|
+| <img src="../../images/body/body_12.png" height="300"> <img src="../../images/body/body_13.png" height="300">|
 |:-:|
 | Figure 10: Front and Back Panels attached |
 
@@ -187,7 +187,7 @@ Using screws **B1** attach the front and back laser cut panels to the chassis.
 
 Take the Volt Meter **E38** and the Switch **E39** and attach them to the back panel. Note that the switch goes in from the inside of the body, and the volt meter should snap press fit in from the outside.
 
-| <img src="../../images/body/voltmeter_switch.png" height="170"> <img src="../../images/body/voltmeter_switch_b.png" height="170">|
+| <img src="../../images/body/voltmeter_switch.png" height="300"> <img src="../../images/body/voltmeter_switch_b.png" height="300">|
 |:-:|
 | Figure 11: Volt Meter/Switch Installation |
 
@@ -195,7 +195,7 @@ Take the Volt Meter **E38** and the Switch **E39** and attach them to the back p
 
 Take the 3D printed Battery holder **S41** and using a solder Iron at 460 degrees F, push the #6-32 heat-set insert **I2** into the battery holder as shown below.
 
-| <img src="../../images/body/battery_holder_a.png" height="200"> <img src="../../images/body/battery_holder_b.png" height="200">|
+| <img src="../../images/body/battery_holder_a.png" height="300"> <img src="../../images/body/battery_holder_b.png" height="300">|
 |:-:|
 | Figure 12: Installing heat set inserts|
 
@@ -203,7 +203,7 @@ Take the 3D printed Battery holder **S41** and using a solder Iron at 460 degree
 
 Mount the Battery holders onto the body assembly using screws **B1** as shown in Figure 13.
 
-| <img src="../../images/body/battery_install_a.png" height="250"> <img src="../../images/body/battery_install_b.png" height="250">|
+| <img src="../../images/body/battery_install_a.png" height="300"> <img src="../../images/body/battery_install_b.png" height="300">|
 |:-:|
 | Figure 13: Battery holder installation |
 
@@ -225,6 +225,6 @@ Take the bottom plate assembly you constructed in the previous step and attach i
 
 The Body Assembly is now Complete!
 
-| <img src="../../images/body/finished_body_a.png" height="200"> <img src="../../images/body/finished_body_b.png" height="200">|
+| <img src="../../images/body/finished_body_a.png" height="300"> <img src="../../images/body/finished_body_b.png" height="300">|
 |:-:|
 | Figure 16: Completed Body Assembly |
