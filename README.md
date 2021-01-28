@@ -1,8 +1,10 @@
 # JPL Open Source Rover Project
 The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
 
-<p><img src="images/rover.png" width="50%">
-<img src="images/patch.png" width="40%"></p>
+<p><img src="images/rover.png" width="45%">
+<a href="https://github.com/lschooley/open-source-rover-mission-patch">
+<img src="images/patch.png" width="45%">
+</a> </p>
 <p><img src="images/rover-silver.png" width="43%"/><img src="images/rover-climbing.jpg" width="57%"/></p>
 
 ## About the Project
@@ -66,6 +68,13 @@ We are changing documentation from LaTeX to MarkDown to facilitate contributions
 Huge thanks to @toebes for building out an Onshape model of the Open Source Rover!!  That model can be viewed at https://cad.onshape.com/documents/5c358484057fc4c01d5e5803/w/bdf583acdf29d75695be5fbc/e/e3eb7193ecdec5b0a710978b.
 
 The model above includes the state of the rover at each individual step throughout our build instructions!  Therefore, you should be able to reference the online 3D model in addition to the photos in the build instructions as you are building to ensure your build is going well. NOTE: The most updated model and single source of truth are the SolidWorks assemblies.
+
+### Rover Mission Patch ###
+<a href = "https://github.com/lschooley/open-source-rover-mission-patch"> <img src="images/patch.png" width="25%"> </a>
+
+Thank you to Lauren Schooley for creating a mission patch for the project. The patch is free for use as a team patch, for stickers, or decorating your rover. The design is released under the Creative Commons Attribution-NoDerivatives public license. A variety of file formats is available.
+
+* [Mission Patch](https://github.com/lschooley/open-source-rover-mission-patch)
 
 ### Other Resources
 In addition to this repository which holds all the documentation for this project, there are two additional websites tied to this project. One is a landing site which holds general information and an overview of the rover and how it works:
