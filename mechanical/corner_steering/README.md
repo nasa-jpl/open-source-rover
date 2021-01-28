@@ -57,7 +57,7 @@ The Corner Steering assembly contains the steering motors which allow the rover 
 Begin by mounting the motor mount **S9** to the motor **E46** using the screws procured with the mount. Once completed,
 insert the **B3** screws that will be used to connect the mount through the 3-inch channel. Due to the orientation of the motor inside of the 3-inch channel, adding these screws later is difficult. See Figure 1.
 
-| <image src="../../images/corner_steering/CornerSt_Step_1.png" height="450"> | <image src="../../images/corner_steering/CornerSt_Step_2.png" height="450"> |
+| <image src="../../images/corner_steering/CornerSt_Step_1.png" height="350"> | <image src="../../images/corner_steering/CornerSt_Step_2.png" height="350"> |
 | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
 
 Figure 1: Corner Steering Motor Mount attachment (left) and **B3** screw insertion (right)
@@ -66,7 +66,7 @@ Figure 1: Corner Steering Motor Mount attachment (left) and **B3** screw inserti
 
 Attach the motor and motor mount to the 3-inch channel using the threaded standoffs **T9** as seen in Figure 2.
 
-<image src="../../images/corner_steering/CornerSt_Step_3.png" width="65%">
+<image src="../../images/corner_steering/CornerSt_Step_3.png" width="30%">
 
 Figure 2: Slide the **B5** screws through the 3-inch channel and screw down the standoffs. Note that the motor is "inside" the channel.
 
@@ -74,7 +74,7 @@ Figure 2: Slide the **B5** screws through the 3-inch channel and screw down the 
 
 Using the shaft coupler **S38**, attach the motor shaft to the 0.25 inch D-shaft **S15** as in Figure 3.
 
-<image src="../../images/corner_steering/CornerSt_Step_4.png" width="65%">
+<image src="../../images/corner_steering/CornerSt_Step_4.png" width="30%">
 
 Figure 3: Shaft coupler installation
 
@@ -82,7 +82,7 @@ Figure 3: Shaft coupler installation
 
 The size and tolerance of the holes will vary slighty based on different 3D printers and materials. Press the 0.25 inch spacers **T1** into the 3D printed encoder mount **S31**. If they do not fit easily, tapping them with a small hammer may help. If the holes are too small for that, you can drill out or file the holes slightly until the spacers fit snugly as show in Figure 4.
 
-<image src="../../images/corner_steering/CornerSt_Step_5.png" width="65%">
+<image src="../../images/corner_steering/CornerSt_Step_5.png" width="30%">
 
 Figure 4: Fitting the spacers into the 3D printed parts. 
 
@@ -97,7 +97,7 @@ Figure 5: Encoder mount installation
 
 Attach the absolute encoder **S27** to the encoder shaft as shown in Figure 6. Don't worry about its exact position or rotation as we will adjust that later on.
 
-<image src="../../images/corner_steering/CornerSt_Step_7.png" width="65%">
+<image src="../../images/corner_steering/CornerSt_Step_7.png" width="40%">
 
 Figure 6: Encoder and gear installed
 
