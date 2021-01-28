@@ -1,15 +1,47 @@
 # Head Assembly
 The head assembly serves as the head and face of our rover. It houses a 16x32 fully programmable 7 color LED matrix which we use as a display. The head can be used to show different faces and give your robot a personality, or even to show status and metrics about your rover (power, controller connectivity, battery level, etc)!
 
+## Picture
+
 ![Head picture](/images/head/finala.png)
 
-## Features
+## Features 
+
   * 3D printed components allows easy assembly; the housing was designed to be modular and printed separately, then fit together.
   * Fully programmable 7-color LED matrix
   * Custom PCB handles the switching the digital signal level between the Raspberry Pi and the LED matrix
 
-## Mechanical Interface/Attachments:
-  * 1" PVC pipe to 1" PVC clamping hub on body
+## Information about module
+
+| Author/Creator            | JPL       |
+| --------------            | -------            |
+| Cost without 3D printer   | 84.90              |
+| Cost with 3D printer      | 84.90              |
+| Date Added                | 4/11               |
+| Group/Organization/School | JPL                |
+| Time to build             | 2 hrs              |
+
+## Skills
+
+  * Band Saw/Dremel
+  * Drill Press/Hand Drill
+
+## Tools
+
+### Mandatory 
+  * Band saw or Dremel
+  * Drill press or Hand Drill
+  * Allen Key set
+  * Imperial Wrench Set
+
+### Optional
+
+## Dependencies on Other Modules:
+  * None
+## Mechanical Interface/Attachments to Rover:
+  * 1/2 inch clamping hub to 1/2 inch aluminum rod on the body
+  * 1/2 inch aluminum rod to 1/2 inch clamping hub on rocker-bogie arms
+
 
 ## 3D Printing
 There are a few components that need to be 3D printed to make the head assembly. You can find the STL files necessary for these prints in the ”Mechanical/Head Assembly/3D Printed Parts” folder of the repository.
