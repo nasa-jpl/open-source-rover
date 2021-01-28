@@ -24,7 +24,7 @@ One important thing to note from the above is that there are multiple different 
 
 For the data transmission, we use both 3.3V and 5V digital logic systems, analog signals (of varying max voltages), and serial communication between devices. Information on these protocols can be found at:
 
-* [Serial Communications](https://en.wikipedia.org/wiki/Serial communication)
+* [Serial Communications](https://en.wikipedia.org/wiki/Serial%20communication)
 * [Analog vs. Digital](https://learn.sparkfun.com/tutorials/analog-vs-digital)
 
 **Table 1. Electrical Components**
@@ -49,12 +49,12 @@ Control Board PCB | Custom Printed Circuit Board to manage power and data transm
 
 Part | Image
 ---- | -----
-Heat Shrink Gun |![]()
-Digital Mutimeter |![]()
-Soldering Iron |![]()
-Solder |![]()
-Solder Wick |![]()
-Power Supply (optional) |![]()
+Heat Shrink Gun |![](../images/electronics/tools/heat_gun.png)
+Digital Mutimeter |![](../images/electronics/tools/multimeter.png)
+Soldering Iron |![](../images/electronics/tools/soldering_iron.png)
+Solder |![](../images/electronics/tools/solder.png)
+Solder Wick |![](../images/electronics/tools/solder_wick.png)
+Power Supply (optional) |![](../images/electronics/tools/power_supply.png)
 
 
 
@@ -78,13 +78,13 @@ The LED Matrix is a 16x32 pixel display that is controlled by the Arduino Uno. T
 ### 1.2.7. Motors
 Motors cause the actual movement of the robot. There are many types of motors; in this project we will be used brushed DC motors. More information on different types of motors and a link about how brushed DC motors work can be found at the following links:
 
-* [Brushed DC Motors](https://en.wikipedia.org/wiki/Brushed DC electric motor) 
-* [Electric Motors](https://en.wikipedia.org/wiki/Electric motor)
+* [Brushed DC Motors](https://en.wikipedia.org/wiki/Brushed%20DC%20electric%20motor) 
+* [Electric Motors](https://en.wikipedia.org/wiki/Electric%20motor)
 
 ### 1.2.8. Encoders
 Encoders give us readings on the position and speed of motors as they spin. There are two types of encoders in this project: absolute and quadrature. An absolute encoder is used to get the position of the motor on a fixed scale such that you always know the absolute position of the motor even after power cycling the system. Absolute encoders will usually have one output, which will either be a PWM digital signal or an analog signal. Each of these signals will have a specific reading corresponding to where the motor currently is on the fixed position scale. Absolute encoders are typically more expensive than their quadrature encoder counterparts, which will sense position only relative to the last time the power was cycled or the signal was reset. Quadrature encoders use two digital signals and look at the difference between the signals to sense movement. More information about quadrature encoders can be found at:
 
-* [Quadrature Encoder Basics](http://www.dynapar.com/Technology/Encoder Basics/Quadrature Encoder/)
+* [Quadrature Encoder Basics](http://www.dynapar.com/Technology/Encoder%20Basics/Quadrature%20Encoder/)
 
 In this project, we use absolute encoders on the corner wheels to get absolute measurements on where the corner wheels are turned/pointed. We use quadrature encoders at each of the driving wheels to get speed measurements.
 # 2. Powering Components
