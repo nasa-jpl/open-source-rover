@@ -3,7 +3,7 @@
 The Corner Steering system gives attachment points for corner motors that we use to steer the rover.
 As a rough estimate, these components will take around 5 hours to build and assemble.
 
-<img src="/images/corner_steering/CornerSt_Final.png" width="75%">
+<img src="/images/corner_steering/CornerSt_Final.png" width="60%">
 
 ## 1. Features
 
@@ -11,32 +11,34 @@ As a rough estimate, these components will take around 5 hours to build and asse
 * Mechanically isolates the motor from moments/loads, keeping the motor gearbox more safe
 * Custom 3D printed pieces help with calibration and provide a physical limit on corner movement
 
-## 2. Skills
+## 2. Information about module
+
+## 2.1 Skills
 
 * Band Saw/Dremel
 
-## 3. Tools
+## 2.2 Tools
 
-### 3. 1 Mandatory
+### 2.2.1 Mandatory
 
 * Allen Key set
 * 3D Printer
 
-## 4. Dependencies on Other Modules
+## 2.3 Dependencies on Other Modules
 
 * None
 
-## 5. Mechanical Interface/Attachments to Rover
+## 2.4 Mechanical Interface/Attachments to Rover
 
 * Actobotics aluminum channels with channel connectors interface to Rocker-Bogie
 * 1/4 Inch steel shaft to 1/4 Inch clamping hub on corner wheels
 
-## 6. 3D printing
+## 3. 3D printing
 
 First, print the 3D printed encoder mounts. The STL files for this are located in the Corner Steering Assembly folder, under 3D Printed Parts. If you do not have a 3D printer there are many online 3D printing services available. One such service is [www.makexyz.com](https://www.makexyz.com).
 To order these parts from Makexyz upload the STL file, select FDM under process, and PLA for Material, and then your desired color. **You will need a total of 4 of these encoder mount pieces**.
 
-## 7. Mechanical/Structural Assembly
+## 4. Mechanical/Structural Assembly
 
 The Corner Steering assembly contains the steering motors which allow the rover to utilize Ackerman steering. One important aspect of this assembly is the use of the bearing blocks. These blocks help to take forces on the motor shaft against the gearbox and minimize lateral moments applied against the motor shaft. By using the bearing blocks, we help protect the motor and motor shaft from these forces that could otherwise damage the motor and its gearbox. The lever arm for the corner steering system is much farther away from the motor than at the drive motors, where we can get away with directly attaching the load path to the motor shaft.
 
@@ -50,7 +52,7 @@ The Corner Steering assembly contains the steering motors which allow the rover 
 | 1/8" Bore Pinion Gear               | S27 | 4   | <image src="../../images/components/structural/S27.png" width="100"> |     | 6-32 x 3/4" Button Head Screw   | B5  | 16  | <image src="../../images/components/screws/B5.png" width="100">       |
 | 3D Printed Encoder Mount            | S31 | 4   | <image src="../../images/components/structural/S31.png" width="100"> |     | Allen Key Set                   | D2  |     | <image src="../../images/components/tools/D2.png" width="100">       |
 
-### 7.1 Motor Mount
+### 4.1 Motor Mount
 
 Begin by mounting the motor mount **S9** to the motor **E46** using the screws procured with the mount. Once completed,
 insert the **B3** screws that will be used to connect the mount through the 3-inch channel. Due to the orientation of the motor inside of the 3-inch channel, adding these screws later is difficult. See Figure 1.
@@ -60,7 +62,7 @@ insert the **B3** screws that will be used to connect the mount through the 3-in
 
 Figure 1: Corner Steering Motor Mount attachment (left) and **B3** screw insertion (right)
 
-### 7.2 3-inch Channel Attachment
+### 4.2 3-inch Channel Attachment
 
 Attach the motor and motor mount to the 3-inch channel using the threaded standoffs **T9** as seen in Figure 2.
 
@@ -68,7 +70,7 @@ Attach the motor and motor mount to the 3-inch channel using the threaded stando
 
 Figure 2: Slide the **B5** screws through the 3-inch channel and screw down the standoffs. Note that the motor is "inside" the channel.
 
-### 7.3 Shaft Coupler/Standoffs Attachment
+### 4.3 Shaft Coupler/Standoffs Attachment
 
 Using the shaft coupler **S38**, attach the motor shaft to the 0.25 inch D-shaft **S15** as in Figure 3.
 
@@ -76,7 +78,7 @@ Using the shaft coupler **S38**, attach the motor shaft to the 0.25 inch D-shaft
 
 Figure 3: Shaft coupler installation
 
-### 7.4 Encoder Mount
+### 4.4 Encoder Mount
 
 The size and tolerance of the holes will vary slighty based on different 3D printers and materials. Press the 0.25 inch spacers **T1** into the 3D printed encoder mount **S31**. If they do not fit easily, tapping them with a small hammer may help. If the holes are too small for that, you can drill out or file the holes slightly until the spacers fit snugly as show in Figure 4.
 
@@ -91,7 +93,7 @@ Next, attach the 0.25 inch pillow bearing blocks **S10** and encoder mount **S31
 
 Figure 5: Encoder mount installation
 
-### 7.5 Absolute Encoder
+### 4.5 Absolute Encoder
 
 Attach the absolute encoder **S27** to the encoder shaft as shown in Figure 6. Don't worry about its exact position or rotation as we will adjust that later on.
 
