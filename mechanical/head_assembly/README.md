@@ -106,13 +106,18 @@ Insert the # 4-40 Heat Set Inserts I1 into the 3D printed head (using a Solder I
   |:-:|:-:|
   | Figure 4 | Figure 5 |
 
+  | <img src="/images/head/step-3a.png" width="100%"> | <img src="/images/head/step-3b.png" width="100%">|
+  |:-:|:-:|
+  | Figure 6 | Figure 7 |
+
+
 ### 6.3 Mount the PVC clamping hub
 
 Using screws B2, attach the PVC clamping hub to the bottom of the 3D printed head.
 
-  | <img src="/images/head/step-3a.png" width="100%"> | <img src="/images/head/step-3b.png" width="100%">|
+  | <img src="/images/head/step-4a.png" width="80%"> | <img src="/images/head/step-4b.png" width="80%">|
   |:-:|:-:|
-  | Figure 6 | Figure 7 |
+  | Figure 8 | Figure 9 |
 
 ### 6.4 Attach PVC Pipe
 
@@ -120,7 +125,7 @@ Slot the PVC pipe S29 into the clamping hub and then tighten down the screws on 
 
   | <img src="/images/head/step-5a.png" width="50%"> |
   |:-:|
-  | Figure 8 |
+  | Figure 10 |
 
 ### 6.5 Attaching the LED Matrix
 
@@ -128,23 +133,22 @@ Attach the LED Matrix E37 to the front of the head assembly using Screws B14.
 
   | <img src="/images/head/step-6a.png" width="70%"> | <img src="/images/head/step-6b.png" width="100%">|
   |:-:|:-:|
-  | Figure 9 | Figure 10 |
+  | Figure 11 | Figure 12 |
 
 ### 6.6 Mount the Arduino Stack
 
-Take the Arduino Plate assembly and mount it using screws B8 to the heat set inserts on the posts inside the head as shown in Figure 8
+Take the Arduino Plate assembly and mount it using screws B8 to the heat set inserts on the posts inside the head as shown in Figure 10
 
   | <img src="/images/head/step-7a.png" width="100%"> | <img src="/images/head/step-7b.png" width="70%">|
   |:-:|:-:|
-  | Figure 11 | Figure 12 |
+  | Figure 13 | Figure 14 |
 
 ### 6.7 Back Plate Attachment
 
 Attach the Laser Cut Back Plate S42 onto the back of the head assembly using screws B2.
 
-
   | <img src="/images/head/step-8a.png" width="100%"> | <img src="/images/head/step-8b.png" width="100%">|
   |:-:|:-:|
-  | Figure 13 | Figure 14 |
+  | Figure 15 | Figure 16 |
 
 The head is now finished!
