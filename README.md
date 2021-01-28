@@ -1,11 +1,18 @@
 # JPL Open Source Rover Project
 The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
 
-<p><img src="images/rover.png" width="45%">
-<a href="https://github.com/lschooley/open-source-rover-mission-patch">
-<img src="images/patch.png" width="45%">
-</a> </p>
-<p><img src="images/rover-silver.png" width="43%"/><img src="images/rover-climbing.jpg" width="57%"/></p>
+<table>
+ <tr>
+  <td align="center" > <img src="images/rover.png" width="60%"> </td>
+  <td align="center" > <a href="https://github.com/lschooley/open-source-rover-mission-patch">
+   <img src="images/patch.png" width="60%"> </a> 
+  </td>
+ </tr>
+ <tr>
+  <td align="center" ><img src="images/rover-silver.png" width="43%"/> </td>
+	<td align="center" ><img src="images/rover-climbing.jpg" width="57%"/></td>
+ </tr>
+</table>
 
 ## About the Project
 
