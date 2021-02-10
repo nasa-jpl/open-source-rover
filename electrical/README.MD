@@ -116,7 +116,7 @@ Battery | E36 | 1 | <img src="../images/components/electronics/E36.png" width="2
 Battery Charger | E41 | 1 | <img src="../images/components/electronics/E41.png" width="25%"> 
 Tamiya Connectors| E35 | 1 | <img src="../images/components/electronics/E35.png" width="25%">
 
-![Battery and board connections](../images/electronics/battery_wiring.PNG)
+![Battery and board connections](../images/electronics/battery_wiring.png)
 
 **Figure 4. Connecting the Battery to switch and board**
  
@@ -229,7 +229,7 @@ The big difference between the corner motors and drive motors is that the corner
 
 *Make sure you are using a REV-E or newer board. There was an initial release of board files that had the silkscreen reversed from left-right for all motors (drive and corner). If you have a REV-D or earlier board, the silkscreen may have these labels backwards.*
 
-![Encoder connection](../images/electronics/3_pin_encoder.PNG)
+![Encoder connection](../images/electronics/3_pin_encoder.png)
 
   **Figure 10. 3-pin Micro connector**
  
