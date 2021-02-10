@@ -145,12 +145,12 @@ Rectangular 16P Ribbon Cable | E30 | 1| <img src="../images/components/electroni
 
 Control Board PCB J8 pin | TTL Serial cable wire color
 ------------------------ | ---------------------------
-1. GND | Black
-2. N/A | Not Connected
-3. 5V | Red
-4. TxD | Green
-5. RxD | White
-6. N/A | Not Connected
+GND | Black
+N/A | Not Connected
+5V | Red
+TxD | Green
+RxD | White
+N/A | Not Connected
 
 ![USB-serial](../images/electronics/usb_ttl_serial.png)
 
