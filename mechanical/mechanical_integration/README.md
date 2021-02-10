@@ -110,9 +110,9 @@ assembly, again making sure to select the encoder mounts such that the encoders 
 
 |Item |Ref |Qty |Image|
 |-----|----|----|-----|
-|0.5” Hollow aluminum tube 2” long| S18|1|<img src="../../images/components/structural/S18.png" width="30%">
-|0.5” Collar clamp| S22| 1| <img src="../../images/components/structural/S22.png" width="30%">
-|0.5” Nylon Washer |W3 |5| <img src="../../images/components/washers/W3.png" width=30%">
+|0.5” Hollow aluminum tube 2” long|S18|1|<img src="../../images/components/structural/S18.png" width="30%">|
+|0.5” Collar clamp|S22|1| <img src="../../images/components/structural/S22.png" width="30%">|
+|0.5” Nylon Washer |W3|5| <img src="../../images/components/washers/W3.png" width=30%">|
 
  1. Mounting the differential pivot center: Mount a collar clamp S22 onto the end of the 2” Alu- minum Rod S19 as well as two of the 0.5” Nylon washers W3 as shown in Figure 8. Then, insert this rod into the pillow bearing blocks from the inside of the body assembly. Add three more nylon washers on the outside / top and then attach the clamping assembly on the middle of the differential pivot (see Figure 8).
  
