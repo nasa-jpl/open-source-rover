@@ -126,28 +126,31 @@ There has been significant feedback that the BasicMicro Motion Studio auto tune 
 
 	(c) Repeat step 9b for M2 motor
 
-	(d) You may need to set the absolute encoder ”zero” point in a different location. In order to avoid ”clipping”3 of the range of the encoder, we’ll set the mid-point of the absolute encoder to be the middle of the turning arc.
+	(d) You may need to set the absolute encoder ”zero” point in a different location. In order to avoid ”clipping” of the range of the encoder, we’ll set the mid-point of the absolute encoder to be the middle of the turning arc.
 
 		* Navigate to the PWM Settings tab to move the corner to its ”center” position, which is where the wheel is directly forward.
 		* Unscrew the small gear at the bottom of the absolute encoder
-Once the absolute encoder shaft is uncoupled from the robot, spin the encoder
-until you determine the max value. This should be somewhere in the range
-of 1400-18004.
-2As opposed to the drive motors, the corners use absolute encoders that are defined in one direction only, so you cannot switch the direction of the encoder
-3Clipping would be where you go past the 360 deg mark on the encoder and it starts again at 0
-4If you are getting encoder values of close to 2000 and the value stays above 2000 and does not reset to 0 while the shaft is spinning, it means that the voltage divider board is not working properly. Check to make sure the resistors on the voltage divider board are the correct values
+		* Once the absolute encoder shaft is uncoupled from the robot, spin the encoderuntil you determine the max value. This should be somewhere in the range of 1400-18004.
+		* As opposed to the drive motors, the corners use absolute encoders that are defined in one direction only, so you cannot switch the direction of the encoder
+
+Clipping would be where you go past the 360 deg mark on the encoder and it starts again at 0
+
+If you are getting encoder values of close to 2000 and the value stays above 2000 and does not reset to 0 while the shaft is spinning, it means that the voltage divider board is not working properly. Check to make sure the resistors on the voltage divider board are the correct values
 
 * Spin the encoder until it reads a value of roughly half its max value and reattach the gear, coupling it back to the rover.
+
 	(e) For each motor M1 and M2, we now need to obtain what is the new min and max encoder values. Using the PWM Settings tab, move the motors until they run into the physical hard stops. Record the min and max encoder values for each, but for the min values add at least 15 and the max subtract at least 155.
+	
 	(f) Navigate to the Position Settings tab.
 
 ![](../images/calibration/is9.png)
 **Figure 9**
 
 	(g) Enter your Min and Max encoder values for each M1 and M2 motor
-5We add a buffer of at least 5 encoder ticks to avoid driving the motors all the way into the hard stop; In other words, we’ll impose a software ’soft stop’
+
+We add a buffer of at least 5 encoder ticks to avoid driving the motors all the way into the hard stop; In other words, we’ll impose a software ’soft stop’
  
- ![](../images/calibration/is10.png)  
+![](../images/calibration/is10.png)  
      **Figure 10**
      
 	(h) Change the Autotune type to PD and then tune the M1 and M2 motors by clicking the ’Tune M1’ and ’Tune M2’ buttons. We’ve found that this autotuning process is more successful if you run it with the wheels down on a smooth surface, but still supporting the weight of the robot.
