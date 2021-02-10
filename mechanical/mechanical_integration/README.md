@@ -38,7 +38,7 @@ At this point we have every major sub assembly created and they just need to be 
 
   
 
-1. Mounting the Middle Wheel: Mount one base wheel (not the corner wheels) to the lowest arm of each of the two rocker bogie subassemblies using a 1.5 inch channel S1 and channel connectors S6. See Figures 2 and 3. Note that you should mirror the wheels so that they are both on the ”outside” of the rocker bogey subassemblies.
+1. Mounting the Middle Wheel: Mount one base wheel (not the corner wheels) to the lowest arm of each of the two rocker bogie subassemblies using a 1.5 inch channel **S1** and channel connectors S6. See Figures 2 and 3. Note that you should mirror the wheels so that they are both on the ”outside” of the rocker bogey subassemblies.
  
 <img src="../../images/mechanical_integration/rb_step_19.png" width="50%">
  
@@ -53,7 +53,7 @@ At this point we have every major sub assembly created and they just need to be 
   **Figure 3: Attaching the middle wheels**
 
 
-1. Attach one of your corner steering assemblies to the rocker bogie assembly using channel connectors S6 and screws B1 as shown in Figure 4. Make sure that you pick a corner steering assembly that has the encoder facing outwards (on the same side as the middle wheel from the previous step).
+1. Attach one of your corner steering assemblies to the rocker bogie assembly using channel connectors **S6** and screws **B1** as shown in Figure 4. Make sure that you pick a corner steering assembly that has the encoder facing outwards (on the same side as the middle wheel from the previous step).
  
 <table>
 <tr>
@@ -93,7 +93,7 @@ assembly, again making sure to select the encoder mounts such that the encoders 
 
 ## 1.4 Mounting Body to Rocker-Bogie
 
-1. Mount the main body of the rover to the two separate rocker-bogie legs using 15 inch aluminum rod S16A and collar clamps S22 as shown in Figure 7. Make sure to maintain the order of the collar clamps shown in Figure 7 to fully lock all assemblies along the rod. The rod will go through the pillow blocks on each rocker-bogie leg, and it should pass through the 4th from the back and 2nd up hole on the body as shown in Figure 7.
+1. Mount the main body of the rover to the two separate rocker-bogie legs using 15 inch aluminum rod S16A and collar clamps **S22** as shown in Figure 7. Make sure to maintain the order of the collar clamps shown in Figure 7 to fully lock all assemblies along the rod. The rod will go through the pillow blocks on each rocker-bogie leg, and it should pass through the 4th from the back and 2nd up hole on the body as shown in Figure 7.
 
 <table>
 <tr>
@@ -114,7 +114,7 @@ assembly, again making sure to select the encoder mounts such that the encoders 
 |0.5” Collar clamp|S22|1| <img src="../../images/components/structural/S22.png" width="30%">|
 |0.5” Nylon Washer |W3 |5| <img src="../../images/components/washers/W3.png" width="30%">
 
- 1. Mounting the differential pivot center: Mount a collar clamp S22 onto the end of the 2” Alu- minum Rod S19 as well as two of the 0.5” Nylon washers W3 as shown in Figure 8. Then, insert this rod into the pillow bearing blocks from the inside of the body assembly. Add three more nylon washers on the outside / top and then attach the clamping assembly on the middle of the differential pivot (see Figure 8).
+ 1. Mounting the differential pivot center: Mount a collar clamp **S22** onto the end of the 2” Aluminum Rod **S18** as well as two of the 0.5” Nylon washers **W3** as shown in Figure 8. Then, insert this rod into the pillow bearing blocks from the inside of the body assembly. Add three more nylon washers on the outside / top and then attach the clamping assembly on the middle of the differential pivot (see Figure 8).
  
 ## 1.5 Attach the Differential Pivot
 
