@@ -49,12 +49,12 @@ Control Board PCB | Custom Printed Circuit Board to manage power and data transm
 
 Part | Image
 ---- | -----
-Heat Shrink Gun |![](../images/electronics/tools/heat_gun.png)
-Digital Mutimeter |![](../images/electronics/tools/multimeter.png)
-Soldering Iron |![](../images/electronics/tools/soldering_iron.png)
-Solder |![](../images/electronics/tools/solder.png)
-Solder Wick |![](../images/electronics/tools/solder_wick.png)
-Power Supply (optional) |![](../images/electronics/tools/power_supply.png)
+Heat Shrink Gun |<p align="center"> <img src="../images/electronics/tools/heat_gun.png"> </p>
+Digital Mutimeter |<p align="center"> <img src="../images/electronics/tools/multimeter.png"> </p>
+Soldering Iron |<p align="center"> <img src="../images/electronics/tools/soldering_iron.png"> </p>
+Solder |<p align="center"> <img src="../images/electronics/tools/solder.png"> </p>
+Solder Wick |<p align="center"> <img src="../images/electronics/tools/solder_wick.png"> </p>
+Power Supply (optional) |<p align="center"> <img src="../images/electronics/tools/power_supply.png"> </p>
 
 
 
@@ -110,11 +110,11 @@ Using the Tamiya connectors, connect the battery to the switch and then the volt
 
 Item | Ref | Qty | Image 
 ---- | --- | --- | ----- 
-Battery | E36 | 1 | <img src="../images/components/electronics/E36.png" width="25%">
-16 AWG Wire (Black) | X2 | 1 | <img src="../images/components/wiring/X2.png" width="25%"> 
-16 AWG Wire (Red) | X1 | 1 |  <img src="../images/components/wiring/X1.png" width="25%"> 
-Battery Charger | E41 | 1 | <img src="../images/components/electronics/E41.png" width="25%"> 
-Tamiya Connectors| E35 | 1 | <img src="../images/components/electronics/E35.png" width="25%">
+Battery | E36 | 1 | <p align="center"> <img src="../images/components/electronics/E36.png" width="25%"> </p>
+16 AWG Wire (Black) | X2 | 1 | <p align="center"> <img src="../images/components/wiring/X2.png" width="25%"> </p>
+16 AWG Wire (Red) | X1 | 1 |  <p align="center"> <img src="../images/components/wiring/X1.png" width="25%"> </p>
+Battery Charger | E41 | 1 | <p align="center"> <img src="../images/components/electronics/E41.png" width="25%"> </p>
+Tamiya Connectors| E35 | 1 | <p align="center"> <img src="../images/components/electronics/E35.png" width="25%"> </p>
 
 ![Battery and board connections](../images/electronics/battery_wiring.png)
 
@@ -129,11 +129,11 @@ Next, we will next plug in all the cables that allow the various devices to comm
 
 Item | Ref | Qty | Image 
 ---- | --- | --- | ----- 
-Rectangular 6P 1x6 Jumper Cable | E26 | 1 | <img src="../images/components/electronics/E26.png" width="25%">
-USB Power Cable | E28 | 1| <img src="../images/components/electronics/E28.png" width="25%">
-Rectangular 40P 2x20 Ribbon Cable | E29 | 1 | <img src="../images/components/electronics/E29.png" width="25%">
-Rectangular 16P Ribbon Cable | E30 | 1| <img src="../images/components/electronics/E30.png" width="25%">
- USB to TTL Serial Adapter | E48 | 1| <img src="../images/components/electronics/E48.png" width="25%">
+Rectangular 6P 1x6 Jumper Cable | E26 | 1 | <p align="center"> <img src="../images/components/electronics/E26.png" width="25%"> </p>
+USB Power Cable | E28 | 1| <p align="center"> <img src="../images/components/electronics/E28.png" width="25%"> </p>
+Rectangular 40P 2x20 Ribbon Cable | E29 | 1 | <p align="center"> <img src="../images/components/electronics/E29.png" width="25%"> </p>
+Rectangular 16P Ribbon Cable | E30 | 1| <p align="center"> <img src="../images/components/electronics/E30.png" width="25%"> </p>
+ USB to TTL Serial Adapter | E48 | 1| <p align="center"> <img src="../images/components/electronics/E48.png" width="25%"> </p>
  
 
  
@@ -176,15 +176,15 @@ An example of how we routed our wiring is shown by Figure 6. It is important to 
 
 Item | Ref | Qty | Image
 ---- | --- | --- | ----- 
-20AWG Wire (Black) | X2 | N/A | <img src="../images/components/wiring/X2.png" width="25%"> 
-20AWG Wire (Red) | X1 | N/A | <img src="../images/components/wiring/X1.png" width="25%"> 
-30AWG Wire (White) | X3 | N/A | <img src="../images/components/wiring/X3.png" width="25%"> 
-30AWG Wire (Blue) | X4 | N/A | <img src="../images/components/wiring/X4.png" width="25%"> 
-30AWG Wire (Yellow) | X5 | N/A | <img src="../images/components/wiring/X5.png" width="25%"> 
-30AWG Wire (Green) | X6 | N/A | <img src="../images/components/wiring/X6.png" width="25%"> 
-3 Pin Micro Connector | E40 | 4 | <img src="../images/components/electronics/E40.png" width="25%">
-Wire Braid | E42 | N/A | <img src="../images/components/electronics/E42.png" width="25%">
-Heat Shrink Tubing | E44 | 1 | <img src="../images/components/electronics/E44.png" width="25%">
+20AWG Wire (Black) | X2 | N/A | <p align="center"> <img src="../images/components/wiring/X2.png" width="25%"> </p>
+20AWG Wire (Red) | X1 | N/A | <p align="center"> <img src="../images/components/wiring/X1.png" width="25%"> </p> 
+30AWG Wire (White) | X3 | N/A | <p align="center"> <img src="../images/components/wiring/X3.png" width="25%"> </p> 
+30AWG Wire (Blue) | X4 | N/A | <p align="center"> <img src="../images/components/wiring/X4.png" width="25%"> </p> 
+30AWG Wire (Yellow) | X5 | N/A | <p align="center"> <img src="../images/components/wiring/X5.png" width="25%"> </p> 
+30AWG Wire (Green) | X6 | N/A | <p align="center"> <img src="../images/components/wiring/X6.png" width="25%"> </p> 
+3 Pin Micro Connector | E40 | 4 | <p align="center"> <img src="../images/components/electronics/E40.png" width="25%"> </p>
+Wire Braid | E42 | N/A | <p align="center"> <img src="../images/components/electronics/E42.png" width="25%"> </p>
+Heat Shrink Tubing | E44 | 1 | <p align="center"> <img src="../images/components/electronics/E44.png" width="25%"> </p>
 
 
 The below table and figure shows an approximate amount of length of wire you will need to reach each of the motors, based on how we think is best to route the wiring through the suspension system. Cut these lengths and strip both ends of the wires.
@@ -208,11 +208,13 @@ We will begin with the drive motors (the 6 motors that are directly connected to
 
 ![Roboclaw Motor Assignments](../images/electronics/motor_id.png)
 
-  Figure 9: RoboClaw - Motor Assignments
+**Figure 9: RoboClaw - Motor Assignments**
   
 The terminal blocks that correspond to the drive motors are connectors J17-J22. You will see them labeled on the control board corresponding to which motor it should connect to1.
 Each of the terminal blocks are identical for the drive motors; pay attention to the silkscreen to know which screw terminal to plug the wire into. The terminal block position on the board will correspond roughly with which motor it goes to on the robot, ie. the J17 connector is in the front-right of the
 board when installed in the robot, and connects to the front-right drive wheel.
+
+**Table 8. Drive Motor and Encoder Wiring**
 
 Control Board Label | Motor Wire Color | Signal
 ------------------- | ---------------- | ------
@@ -243,6 +245,8 @@ Pin | Description | Color
 Similar to the drive motors, connect each of the corner motors and encoders to its corresponding terminal block (J23-26 on the control board). Below is the pinout for how to connect the encoders: 
 
 **Note:** **These are NOT the same color and pinout as the drive motors!**
+
+**Table 9. Steering Motor and Encoder Wiring**
 
 Control Board Label | Motor Wire Color | Signal
 ------------------- | ---------------- | ------
