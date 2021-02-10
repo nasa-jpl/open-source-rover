@@ -1,12 +1,12 @@
 <!--[title](Pictures/Electronics/electronics title.png)
 -->
 # Open Source Rover: Electrical Assembly Instructions
-Authors: Michael Cox, Eric Junkins, Olivia Lofaro
+<!--Authors: Michael Cox, Eric Junkins, Olivia Lofaro
 
 Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology.
 
 Copyright 2018 California Institute of Technology. Government sponsorship acknowledged
-
+-->
 # 1. Overview
 First, it is important to examine the components we will use in the rover and understand how both data and power travel through the system. Figure 1 shows how each of the electrical components and boards receives power, and Figure 2 shows how data are sent from each of the electrical systems and what communication protocol it uses.
 
@@ -84,7 +84,7 @@ Motors cause the actual movement of the robot. There are many types of motors; i
 ### 1.2.8. Encoders
 Encoders give us readings on the position and speed of motors as they spin. There are two types of encoders in this project: absolute and quadrature. An absolute encoder is used to get the position of the motor on a fixed scale such that you always know the absolute position of the motor even after power cycling the system. Absolute encoders will usually have one output, which will either be a PWM digital signal or an analog signal. Each of these signals will have a specific reading corresponding to where the motor currently is on the fixed position scale. Absolute encoders are typically more expensive than their quadrature encoder counterparts, which will sense position only relative to the last time the power was cycled or the signal was reset. Quadrature encoders use two digital signals and look at the difference between the signals to sense movement. More information about quadrature encoders can be found at:
 
-* [Quadrature Encoder Basics](http://www.dynapar.com/Technology/Encoder%20Basics/Quadrature%20Encoder/)
+* [Quadrature Encoder Basics](https://www.dynapar.com/Technology/Encoder_Basics/Quadrature_Encoder/)
 
 In this project, we use absolute encoders on the corner wheels to get absolute measurements on where the corner wheels are turned/pointed. We use quadrature encoders at each of the driving wheels to get speed measurements.
 # 2. Powering Components
@@ -92,7 +92,7 @@ This section will go through the process of powering each of the components from
 
 * [SparkFun Stripping Wire](https://learn.sparkfun.com/tutorials/working-with-wire/how-to-strip-a-wire) 
 * [Splicing Wire](https://www.wikihow.com/Splice-Wire)
-* [YouTube Making Connections](https://www.youtube.com/watch?v=Y8wjv6lj5KU)
+* [YouTube Making Connections and Heat Shrink Tubing](https://www.youtube.com/watch?v=Y8wjv6lj5KU)
 
 **Note** Please read through this entire section and understand it fully before starting to connect devices and electronics together.
 
@@ -252,4 +252,6 @@ GND | Brown | Ground
 +5V | Orange | Encoder Power
 ENx | Blue | 0-5V Analog Signal
 
-With that, all of the electrical wiring on your rover has been completed! You can now move onto the calibration process! (see /Electrical/Calibration.pdf)
+With that, all of the electrical wiring on your rover has been completed! You can now move onto the calibration process! 
+
+* [Calibration](calibration.MD)
