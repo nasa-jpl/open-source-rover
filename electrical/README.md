@@ -42,46 +42,46 @@ Motor Controllers | Sends voltage signals to the motors telling the motors the d
 Encoders | Monitors the position of the motor to give information about speed and position
 Control Board PCB | Custom Printed Circuit Board to manage power and data transmition between electronics components.
 
+## 1.1 Prerequisite: Circuit Board Assembly
+**NOTE**: Before proceeding, you need to have completed the assembly of the custom PCB board and populated all the components. If you have not yet done so, build the Control Board now by following the document at /Electrical/PCB Assembly.pdf.
 
-## 1.1. Tools Necessary
+
+## 1.2. Tools Necessary
 
 **Table 2. Necessary Tools**
 
-Part | Image
----- | -----
-Heat Shrink Gun |<p align="center"> <img src="../images/electronics/tools/heat_gun.png"> </p>
-Digital Mutimeter |<p align="center"> <img src="../images/electronics/tools/multimeter.png"> </p>
-Soldering Iron |<p align="center"> <img src="../images/electronics/tools/soldering_iron.png"> </p>
-Solder |<p align="center"> <img src="../images/electronics/tools/solder.png"> </p>
-Solder Wick |<p align="center"> <img src="../images/electronics/tools/solder_wick.png"> </p>
-Power Supply (optional) |<p align="center"> <img src="../images/electronics/tools/power_supply.png"> </p>
+Part|Image |Part| Image
+----|------|----|-----
+Heat Shrink Gun |<p align="center"> <img src="../images/electronics/tools/heat_gun.png"> </p> |Solder |<p align="center"> <img src="../images/electronics/tools/solder.png"> </p>
+Digital Mutimeter |<p align="center"> <img src="../images/electronics/tools/multimeter.png"> </p> |Solder Wick |<p align="center"> <img src="../images/electronics/tools/solder_wick.png"> </p>
+Soldering Iron |<p align="center"> <img src="../images/electronics/tools/soldering_iron.png"> </p> |Power Supply (optional) |<p align="center"> <img src="../images/electronics/tools/power_supply.png"> </p>
 
 
 
 This project assumes you have the tools shown in Figure 3. These will all be used in the construction and testing/debugging of this project. Most of these can be purchased inexpensively though DigiKey, Amazon, or other retailers.
 
-## 1.2. Component Descriptions
+## 1.3. Component Descriptions
 The following are brief descriptions and basic notes about some of the components we use in this project. For more detailed information on each component, consult the data sheet for that component.
-### 1.2.1 Battery
+### 1.3.1 Battery
 The battery is used to power all the electrical components and the motors in our rover. The biggest driving factor for battery selection was safety of the battery chemistry while still being able to drive the current and voltage necessary for operation of all the electronics (we’ll go into these requirements more later). The recommended battery was chosen because of its Poly Switch and PCB protection. These limit the amount of current that can be pulled from the battery, as well as give protection against things like electrical shorts and overcharging/fully discharging the battery.
-### 1.2.2. Voltage Regulators
+### 1.3.2. Voltage Regulators
 As our battery outputs unregulated voltage based on its charge level, voltage regulators are added to give steady DC power to the electronic components. There is a 5V regulator that runs the raspberry pi and the LED matrix, and a 12V regulator that supplies power to the Arduino Uno.
-### 1.2.3. Raspberry Pi 3
+### 1.3.3. Raspberry Pi 3
 We selected the Raspberry Pi 3 Model B as the ”brain” of the rover. We chose the Pi because it allows users at many levels of programming knowledge to gain familiarity in basic programming concepts without a complicated learning curve. It is also widely used in the maker community, so modifications and additions on the base rover should be easy. The Pi 3 also comes with WiFi and bluetooth modules built into the board and we therefore don’t need additional dongles to communicate over WiFi or bluetooth. This retains all 4 USB ports for addons and modifications to the project.
-### 1.2.4. Arduino Uno
+### 1.3.4. Arduino Uno
 An Arduino Uno runs the LED matrix. The matrix is controlled by a set of GPIO pins from the Arduino and is multiplexed such that these few pins can control all the LEDs. Arduino is designed for these kinds of applications where very high frequency switching of GPIO pins are necessary. The Uno is better suited for this than the RPi, and offloads some compute power so that the Pi has more capacity to run rover software.
 
-### 1.2.5. Control Board PCB
+### 1.3.5. Control Board PCB
 The custom Printed Circuit Board is designed to help manage the power distribution and data signals for the rover. It takes in battery power, splits it up to each of the voltage regulators and motor controllers which in turn power each of the individual electronics on the robot. It also takes in encoders from the motors and distributes them to the motor controllers, and provides serial UART communication between the RPi and the Motor controllers as well as the Arduino Uno. The first version of the Open Source Rover required you to run each of these wires by hand; the custom Control Board does much of the routing for you.
-### 1.2.6. LED Matrix
+### 1.3.6. LED Matrix
 The LED Matrix is a 16x32 pixel display that is controlled by the Arduino Uno. The LED matrix is controllable via software and can be programmed to display anything you like.
-### 1.2.7. Motors
+### 1.3.7. Motors
 Motors cause the actual movement of the robot. There are many types of motors; in this project we will be used brushed DC motors. More information on different types of motors and a link about how brushed DC motors work can be found at the following links:
 
 * [Brushed DC Motors](https://en.wikipedia.org/wiki/Brushed%20DC%20electric%20motor) 
 * [Electric Motors](https://en.wikipedia.org/wiki/Electric%20motor)
 
-### 1.2.8. Encoders
+### 1.3.8. Encoders
 Encoders give us readings on the position and speed of motors as they spin. There are two types of encoders in this project: absolute and quadrature. An absolute encoder is used to get the position of the motor on a fixed scale such that you always know the absolute position of the motor even after power cycling the system. Absolute encoders will usually have one output, which will either be a PWM digital signal or an analog signal. Each of these signals will have a specific reading corresponding to where the motor currently is on the fixed position scale. Absolute encoders are typically more expensive than their quadrature encoder counterparts, which will sense position only relative to the last time the power was cycled or the signal was reset. Quadrature encoders use two digital signals and look at the difference between the signals to sense movement. More information about quadrature encoders can be found at:
 
 * [Quadrature Encoder Basics](https://www.dynapar.com/Technology/Encoder_Basics/Quadrature_Encoder/)
@@ -108,31 +108,26 @@ Using the Tamiya connectors, connect the battery to the switch and then the volt
 
 **Table 3. Necessary Parts**
 
-Item | Ref | Qty | Image 
----- | --- | --- | ----- 
-Battery | E36 | 1 | <p align="center"> <img src="../images/components/electronics/E36.png" width="25%"> </p>
-16 AWG Wire (Black) | X2 | 1 | <p align="center"> <img src="../images/components/wiring/X2.png" width="25%"> </p>
-16 AWG Wire (Red) | X1 | 1 |  <p align="center"> <img src="../images/components/wiring/X1.png" width="25%"> </p>
+Item | Ref | Qty | Image |Item | Ref | Qty | Image |
+---- | --- | --- | ----- |---- | --- | --- | ----- |
+Battery | E36 | 1 | <p align="center"> <img src="../images/components/electronics/E36.png" width="25%"> </p> |Tamiya Connectors| E35 | 1 | <p align="center"> <img src="../images/components/electronics/E35.png"> </p>
+16 AWG Wire (Black) | X2 | 1 | <p align="center"> <img src="../images/components/wiring/X2.png" width="25%"> </p> |16 AWG Wire (Red) | X1 | 1 |  <p align="center"> <img src="../images/components/wiring/X1.png" > </p>
 Battery Charger | E41 | 1 | <p align="center"> <img src="../images/components/electronics/E41.png" width="25%"> </p>
-Tamiya Connectors| E35 | 1 | <p align="center"> <img src="../images/components/electronics/E35.png" width="25%"> </p>
 
 ![Battery and board connections](../images/electronics/battery_wiring.png)
 
 **Figure 4. Connecting the Battery to switch and board**
  
 # 3. Connecting Data Cables
-**NOTE**: Before proceeding, you need to have completed the assembly of the custom PCB board and populated all the components. If you have not yet done so, build the Control Board now by following the document at /Electrical/PCB Assembly.pdf.
 
 Next, we will next plug in all the cables that allow the various devices to communicate with each other.
 
 **Table 4. Necessary Parts**
 
-Item | Ref | Qty | Image 
----- | --- | --- | ----- 
-Rectangular 6P 1x6 Jumper Cable | E26 | 1 | <p align="center"> <img src="../images/components/electronics/E26.png" width="25%"> </p>
-USB Power Cable | E28 | 1| <p align="center"> <img src="../images/components/electronics/E28.png" width="25%"> </p>
-Rectangular 40P 2x20 Ribbon Cable | E29 | 1 | <p align="center"> <img src="../images/components/electronics/E29.png" width="25%"> </p>
-Rectangular 16P Ribbon Cable | E30 | 1| <p align="center"> <img src="../images/components/electronics/E30.png" width="25%"> </p>
+Item | Ref | Qty | Image |Item | Ref | Qty | Image 
+---- | --- | --- | ----- |---- | --- | --- | ----- 
+Rectangular 6P 1x6 Jumper Cable | E26 | 1 | <p align="center"> <img src="../images/components/electronics/E26.png" width="25%"> </p>| USB Power Cable | E28 | 1| <p align="center"> <img src="../images/components/electronics/E28.png"> </p>
+Rectangular 40P 2x20 Ribbon Cable | E29 | 1 | <p align="center"> <img src="../images/components/electronics/E29.png" width="25%"> </p>| Rectangular 16P Ribbon Cable | E30 | 1| <p align="center"> <img src="../images/components/electronics/E30.png"> </p>
  USB to TTL Serial Adapter | E48 | 1| <p align="center"> <img src="../images/components/electronics/E48.png" width="25%"> </p>
  
 
@@ -174,16 +169,12 @@ An example of how we routed our wiring is shown by Figure 6. It is important to 
 
 **Table 6. Necessary Parts**
 
-Item | Ref | Qty | Image
----- | --- | --- | ----- 
-20AWG Wire (Black) | X2 | N/A | <p align="center"> <img src="../images/components/wiring/X2.png" width="25%"> </p>
-20AWG Wire (Red) | X1 | N/A | <p align="center"> <img src="../images/components/wiring/X1.png" width="25%"> </p> 
-30AWG Wire (White) | X3 | N/A | <p align="center"> <img src="../images/components/wiring/X3.png" width="25%"> </p> 
-30AWG Wire (Blue) | X4 | N/A | <p align="center"> <img src="../images/components/wiring/X4.png" width="25%"> </p> 
-30AWG Wire (Yellow) | X5 | N/A | <p align="center"> <img src="../images/components/wiring/X5.png" width="25%"> </p> 
-30AWG Wire (Green) | X6 | N/A | <p align="center"> <img src="../images/components/wiring/X6.png" width="25%"> </p> 
-3 Pin Micro Connector | E40 | 4 | <p align="center"> <img src="../images/components/electronics/E40.png" width="25%"> </p>
-Wire Braid | E42 | N/A | <p align="center"> <img src="../images/components/electronics/E42.png" width="25%"> </p>
+Item | Ref | Qty | Image |Item | Ref | Qty | Image
+---- | --- | --- | ----- |---- | --- | --- | ----- 
+20AWG Wire (Black) | X2 | N/A | <p align="center"> <img src="../images/components/wiring/X2.png" width="25%"> </p> | 20AWG Wire (Red) | X1 | N/A | <p align="center"> <img src="../images/components/wiring/X1.png"> </p> 
+30AWG Wire (White) | X3 | N/A | <p align="center"> <img src="../images/components/wiring/X3.png" width="25%"> </p> | 30AWG Wire (Blue) | X4 | N/A | <p align="center"> <img src="../images/components/wiring/X4.png" > </p> 
+30AWG Wire (Yellow) | X5 | N/A | <p align="center"> <img src="../images/components/wiring/X5.png" width="25%"> </p> | 30AWG Wire (Green) | X6 | N/A | <p align="center"> <img src="../images/components/wiring/X6.png" > </p> 
+3 Pin Micro Connector | E40 | 4 | <p align="center"> <img src="../images/components/electronics/E40.png" width="25%"> </p>| Wire Braid | E42 | N/A | <p align="center"> <img src="../images/components/electronics/E42.png" > </p>
 Heat Shrink Tubing | E44 | 1 | <p align="center"> <img src="../images/components/electronics/E44.png" width="25%"> </p>
 
 
@@ -258,4 +249,4 @@ ENx | Blue | 0-5V Analog Signal
 
 With that, all of the electrical wiring on your rover has been completed! You can now move onto the calibration process! 
 
-* [Calibration](calibration.MD)
+* [Calibration](calibration.md)
