@@ -23,17 +23,15 @@ At this point we have every major sub assembly created and they just need to be 
 ## 1.1 Mounting Wheels
  **Table 1: Parts/Tools Necessary**
  
-| Item | Ref | Qty | Image|
-|------|-----|-----|------|
-|1.5” Channel|S1| 2|<img src="../../images/components/structural/S1.png" width="30%">
-|Channel Connector Plate|S6|14|<img src="../../images/components/structural/S6.png" width="30%">
-|0.5” x 15” Aluminum Tube (Modified)|S16A|1|<img src="../../images/components/structural/S16A.png" width="30%">
-|0.5” x 2” Aluminum Tube|S19|1|<img src="../../images/components/structural/S19.png" width="30%">
+| Item | Ref | Qty | Image| Item | Ref | Qty | Image|
+|------|-----|-----|------|------|-----|-----|------|
+|1.5” Channel|S1| 2|<img src="../../images/components/structural/S1.png" width="30%">|0.5” Nylon Washer|W3|3| <img src="../../images/components/washers/W3.png" width="60%">
+|Channel Connector Plate|S6|14|<img src="../../images/components/structural/S6.png" width="30%">|#6-32x1/4” Button Head Screw|B1|52| <img src="../../images/components/screws/B1.png" width="60%">
+|0.5” x 15” Aluminum Tube (Modified)|S16A|1|<img src="../../images/components/structural/S16A.png" width="60%">|Allen Key Set|D2||<img src="../../images/components/tools/D2.png" width="30%">
+|0.5” x 2” Aluminum Tube|S19|1|<img src="../../images/components/structural/S19.png" width="30%">|Wrench Set|D1||<img src="../../images/components/tools/D1.png" width="60%">
 |0.5” Collar Clamp|S22|7|<img src="../../images/components/structural/S22.png" width="30%">
-|0.5” Nylon Washer|W3|3| <img src="../../images/components/washers/W3.png" width="30%">
-|#6-32x1/4” Button Head Screw|B1|52| <img src="../../images/components/screws/B1.png" width="30%">
-|Wrench Set|D1||<img src="../../images/components/tools/D1.png" width="30%">
-|Allen Key Set|D2||<img src="../../images/components/tools/D2.png" width="30%">
+
+
 
 
   
