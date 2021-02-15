@@ -1,9 +1,12 @@
-#Mechanical Integration Assembly Instructions
+# Mechanical Integration Assembly Instructions
+
+At this point we have every major sub assembly created and they just need to be attached together to create the rover! In the steps in this document, we will attach all the corner motors and wheels, the rocker-bogie, the differential pivot, and the head.
 
 ![](../../images/mechanical_integration/final_title.png)
 
 #  1. Mechanical/Structural Assembly
-At this point we have every major sub assembly created and they just need to be attached together to create the rover! In the steps in this document, we will attach all the corner motors and wheels, the rocker-bogie, the Integdifferential pivot, and the head.
+ 
+The first step is to attach the wheels and corner-steering assemblies to the rocker-bogie arms. The completed rocker-bogie arms are then mounted to the body and connected to the differential pivot. The final step is to mount the head. 
 
 <table>
 <tr>
@@ -27,10 +30,10 @@ At this point we have every major sub assembly created and they just need to be 
 | Item | Ref | Qty | Image| Item | Ref | Qty | Image|
 |------|-----|-----|------|------|-----|-----|------|
 |1.5” Channel|S1| 2|<img src="../../images/components/structural/S1.png" width="30%">|0.5” Nylon Washer|W3|3| <img src="../../images/components/washers/W3.png">
-|Channel Connector Plate|S6|14|<img src="../../images/components/structural/S6.png" width="30%">|#6-32x1/4” Button Head Screw|B1|52| <img src="../../images/components/screws/B1.png">
+|Channel Connector Plate|S6|14|<img src="../../images/components/structural/S6.png" width="60%">|#6-32x1/4” Button Head Screw|B1|52| <img src="../../images/components/screws/B1.png">
 |0.5” x 15” Aluminum Tube (Modified)|S16A|1|<img src="../../images/components/structural/S16A.png" width="60%">|Allen Key Set|D2||<img src="../../images/components/tools/D2.png">
-|0.5” x 2” Aluminum Tube|S19|1|<img src="../../images/components/structural/S19.png" width="30%">|Wrench Set|D1||<img src="../../images/components/tools/D1.png">
-|0.5” Collar Clamp|S22|7|<img src="../../images/components/structural/S22.png" width="30%">
+|0.5” x 2” Aluminum Tube|S19|1|<img src="../../images/components/structural/S19.png" width="60%">|Wrench Set|D1||<img src="../../images/components/tools/D1.png">
+|0.5” Collar Clamp|S22|7|<img src="../../images/components/structural/S22.png" width="60%">
 
 
 
