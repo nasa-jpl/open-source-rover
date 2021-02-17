@@ -136,7 +136,7 @@ Mount a collar clamp **S22** onto the end of the 2” Aluminum Rod **S18** as we
 **Figure 8: Inserting differential pivot joint**
 
    
-###1.5.2 Attaching the differential pivot arms
+### 1.5.2 Attaching the differential pivot arms
 Attach the the bottom sections of the differential pivot to the 0.5 inch clamping hubs on each of the Rocker-Bogie attachments. Once these are all in place, tighten down each of the screws on all of the clamping hubs as shown in Figure 9.
 
 <img src="../../images/mechanical_integration/diff_step_8.png" width="50%">
