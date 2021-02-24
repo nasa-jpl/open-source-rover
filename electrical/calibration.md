@@ -186,11 +186,14 @@ These steps assume you have already set the max/min values of the encoders in th
 7. The approximate gains can be found using the following equations:
 <!-- Maybe convert the equations to graphics -->
 
-	P = 0.6Kc  <!-- (1)-->
+	P = 0.6Kc  
+	<!-- (1)-->
 
-	I = 0.5Pcr <!-- (2) -->
+	I = 0.5Pcr 
+	<!-- (2) -->
 	
-	D = 0.125Pcr <!-- (3)-->
+	D = 0.125Pcr 
+	<!-- (3)-->
 
 8. Enter in these values into the GUI and use the slid bar to set the setpoint and see the motor response on the graph. More than likely what will happen is it will overshoot and do one oscillation. This means that the P value is slightly too high. Decrease the P value in small steps until you see no overshoot of the setpoint in the graph. Once that happens your corner motors will be appropriately tuned.
 
