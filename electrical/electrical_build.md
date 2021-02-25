@@ -94,7 +94,7 @@ This section will go through the process of powering each of the components from
 * [Splicing Wire](https://www.wikihow.com/Splice-Wire)
 * [YouTube Making Connections and Heat Shrink Tubing](https://www.youtube.com/watch?v=Y8wjv6lj5KU)
 
-**Note** Please read through this entire section and understand it fully before starting to connect devices and electronics together.
+**Note: Please read through this entire section and understand it fully before starting to connect devices and electronics together.**
 
 ## 2.1. Switch, Volt Meter, and Control Board
 There are a couple of very important things to be aware of as you are making these connections, as with any project where you are working with batteries or electrical current:
