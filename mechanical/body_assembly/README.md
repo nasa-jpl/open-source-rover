@@ -80,7 +80,7 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload these 
 
 #### 4.1.1 Top panel
 
-Take the modified 9x12 Aluminum plate **S35A** and attach the four Dual side mount A **S1** using screws **B1** at the locations shown below. Take care to match the orientation shown.
+Take the modified 9x12 Aluminum plate **S35A** and attach the four Dual side mount A **S17** using screws **B1** at the locations shown below. Take care to match the orientation shown.
 
 | <img src="../../images/body/body_1.png" height="300"> <img src="../../images/body/body_2.png" height="150">|
 |:-:|
