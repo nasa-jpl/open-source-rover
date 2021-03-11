@@ -1,8 +1,18 @@
 # JPL Open Source Rover Project
 The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
 
-<img src="images/rover.png" width="100%">
-<p><img src="images/rover-silver.png" width="43%"/><img src="images/rover-climbing.jpg" width="57%"/></p>
+<table>
+ <tr>
+  <td align="center" > <img src="images/rover.png" width="60%"> </td>
+  <td align="center" > <a href="https://github.com/lschooley/open-source-rover-mission-patch">
+   <img src="images/patch.png" width="60%"> </a> 
+  </td>
+ </tr>
+ <tr>
+  <td align="center" ><img src="images/rover-silver.png" width="43%"/> </td>
+	<td align="center" ><img src="images/rover-climbing.jpg" width="57%"/></td>
+ </tr>
+</table>
 
 ## About the Project
 
@@ -25,9 +35,11 @@ The specific attributes of the robot you build will depend slightly on the type 
 | Maximum 90 deg vertical scale             | 12 [in]                  | 30.48 [cm]             | 
 | Maximum height differential between sides | 14 [in]                  | 35.56 [cm]             |
 | Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller| |
-| Cost                                      | ~ $2,500                 |                        |
+| Cost (*)                                  | ~ $2,500                 |                        |
 
 Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [GoBilda](https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motors/).
+
+(*) Other open-source, cheaper alternatives exist but are slower, less strong, and are more fragile. See [Additional Projects](##additional-projects).
 
 ### Features
 This rover is designed to function similarly to the 6 wheel rover designs on Mars and employs a few of the major driving mechanics that the mars rovers use to traverse rocky surfaces:
@@ -62,22 +74,23 @@ We are changing documentation from LaTeX to MarkDown to facilitate contributions
 <p><img src="images/onshape/body.png" width="32%"/>
 <img src="images/onshape/rocker-bogie.png" width="32%"/>
 <img src="images/onshape/pcb.png" width="32%"/></p>
-Huge thanks to @toebes for building out an Onshape model of the Open Source Rover!!  That model can be viewed at https://cad.onshape.com/documents/5c358484057fc4c01d5e5803/w/bdf583acdf29d75695be5fbc/e/e3eb7193ecdec5b0a710978b.
 
-The model above includes the state of the rover at each individual step throughout our build instructions!  Therefore, you should be able to reference the online 3D model in addition to the photos in the build instructions as you are building to ensure your build is going well. NOTE: The most updated model and single source of truth are the SolidWorks assemblies.
+There is also an [Onshape model of the Open Source Rover](https://cad.onshape.com/documents/5c358484057fc4c01d5e5803/w/bdf583acdf29d75695be5fbc/e/e3eb7193ecdec5b0a710978b). The model includes the state of the rover at each individual step throughout our build instructions! Therefore, you should be able to reference the online 3D model in addition to the photos in the build instructions as you are building to ensure your build is going well. NOTE: The most updated model and single source of truth are the SolidWorks assemblies and the OnShape model may be out of date.
+
+### Rover Mission Patch ###
+<a href = "https://github.com/lschooley/open-source-rover-mission-patch"> <img src="images/patch.png" width="25%"> </a>
+
+Thank you to Lauren Schooley for creating a mission patch for the project. The patch is free for use as a team patch, for stickers, or decorating your rover. The design is released under the Creative Commons Attribution-NoDerivatives public license. A variety of file formats is available.
+
+* [Mission Patch](https://github.com/lschooley/open-source-rover-mission-patch)
 
 ### Other Resources
-In addition to this repository which holds all the documentation for this project, there are two additional websites tied to this project. One is a landing site which holds general information and an overview of the rover and how it works:
+In addition to this repository which holds all the documentation for this project, there are two additional websites tied to this project. One is a [landing site](https://opensourcerover.jpl.nasa.gov) which holds general information and an overview of the rover and how it works:
 
-https://opensourcerover.jpl.nasa.gov
+There is also a user-run forum to help facilitate discussion about the project. **__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__** On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted so that this project and community can grow.
 
-There is also a user-run forum to help facilitate discussion about the project.
-
-**__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__**
-
-On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted on the forum so that this project and community can grow.
-
-https://www.tapatalk.com/groups/jpl_opensource_rover/
+* [TapaTalk - JPL Open Source Rover](https://www.tapatalk.com/groups/jpl_opensource_rover/)
+* We also use [Github Discussions](https://github.com/nasa-jpl/open-source-rover/discussions) and have a Slack group you can join - please post in Discussions to request an invite!
 
 
 ### Skills Necessary
@@ -176,13 +189,13 @@ Above is an example roadmap of how you can build the rover and which parts of th
 
  * __Stage 7:__ Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
 
-## Happy building!!
-If you have any questions or run into problems during your build, please search for answers and/or reach out on the [forum](https://www.tapatalk.com/groups/jpl_opensource_rover/).
-
-## Releases
-The rover has undergone some major changes since its initial release.  The resources and information in this repository (on the master branch) will always be the most up-to-date information about the rover.  However, if you are interested in older versions of the rover, you can see legacy releases of the OSR at https://github.com/nasa-jpl/open-source-rover/releases
+## Getting help / joining the community
+If you have any questions or run into problems during your build, please search for answers and/or reach out on [Github Discussions](https://github.com/nasa-jpl/open-source-rover/discussions). Please also take a look at the list of [open issues](https://github.com/nasa-jpl/open-source-rover/issues). If you think there is an error or a part is missing, please create a new issue.
 
  ## Project Team
+
+These were the original creators of this project. Now, this open-source repository is run by volunteer maintainers from the community. 
+
  ### Project Lead:
  Michael (Mik) Cox
  ### Development Team:
@@ -191,8 +204,7 @@ The rover has undergone some major changes since its initial release.  The resou
  Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Jim Rinaldi, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
 
 ## Additional Projects!
-We recognize that there might be a some individuals, hobbyists, and groups that might be hesitant or unable to build the Open Source Rover due to skills/tools necessary, or budgetary constraints. We'd like to give the information to a similar project that was designed by someone who was inspired after participating in our open source rover beta group to design one for around $500, and heavily utilizing 3D printing. We think this project would be especially great as a hobby project, and appropriate for those just getting into some of these areas, or someone looking to spend a little less money. 
+We recognize that there might be a some individuals, hobbyists, and groups that might be hesitant or unable to build the Open Source Rover due to skills/tools necessary, or budgetary constraints. Here are some other open-source alternatives.
 
-https://hackaday.io/project/158208-sawppy-the-rover
-
-https://github.com/Roger-random/Sawppy_Rover
+* [Sawppy Rover](https://hackaday.io/project/158208-sawppy-the-rover)
+* [ESA ExoMy](https://github.com/esa-prl/ExoMy)
