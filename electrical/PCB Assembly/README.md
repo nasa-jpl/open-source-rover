@@ -1,10 +1,13 @@
 # PCB Assembly
 
+<img src="../../images/pcb_assembly/assembly/assembly_15.png" width="50%">
+
 This document goes through the process of assembling and testing the custom
 Printed Circuit Boards for the project. One thing you might notice is the boards
 have reference designators on them that do not match the reference designators
 used in the parts lists. The board components mapping between these can be found
 below:
+
 
 ## Control Board References
 
@@ -42,16 +45,16 @@ below:
 
 ### Motor & RoboClaw Connectors
 
-| **Item**              | **Ref** | **Qty** | **Image**                                                                       |
-| --------------------- | ------- | ------- | ------------------------------------------------------------------------------- |
-| OSR Control Board     | E1      | 1       | OSR Control Board<img src="/images/components/electronics/E1.png" height="100"> |
-| 6 Pos Side Term Block | E3      | 10      | <img src="/images/components/electronics/E3.png" height="100">                  |
-| 6 Pos Top Term Block  | E4      | 5       | <img src="/images/components/electronics/E4.png" height="100">                  |
-| 10 Pos Header Socket  | E5      | 5       | <img src="/images/components/electronics/E5.png" height="100">                  |
-| 5 Pos Header Socket   | E6      | 5       | <img src="/images/components/electronics/E6.png" height="100">                  |
-| Soldering Iron        | N/A     |         |                                                                                 |
+| **Item**              | **Ref** | **Qty** | **Image**                                                           | **Item**              | **Ref** | **Qty** | **Image**                                                           |
+| --------------------- | ------- | ------- | --------------------------------------------------------------------| --------------------- | ------- | ------- | --------------------------------------------------------------------|
+| OSR Control Board     | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100"> |  10 Pos Header Socket  | E5      | 5       | <img src="../../images/components/electronics/E5.png" width="100">     |
+| 6 Pos Side Term Block | E3      | 10      | <img src="../../images/components/electronics/E3.png" width="100"> |  5 Pos Header Socket   | E6      | 5       | <img src="../../images/components/electronics/E6.png" width="100">     |
+| 6 Pos Top Term Block  | E4      | 5       | <img src="../../images/components/electronics/E4.png" width="100"> |  Soldering Iron        | N/A     |         |                                                                    |
 
-1. Begin by soldering the 6 Position Side entry terminal blocks **E3** into the
+
+#### Solder terminal blocks on bottom of board (1)
+
+Begin by soldering the 6 Position Side entry terminal blocks **E3** into the
    **top** side of the PCB, on the edge of the board as shown in the images
    below. These terminal blocks will run motor power, encoder power, and encoder
    signals between the motors/encoders and the RoboClaw motor controllers. The 6
@@ -59,42 +62,44 @@ below:
    J17-J26 on the PCB. Be sure that the wire terminals face **OUTWARD** (away
    from the center of the board) on all of these connectors.
 
-    ![Assembly Step 1](./../images/pcb_assembly/assembly/assembly_1.png)
+| <img src="../../images/pcb_assembly/assembly/assembly_1.png" height="300"> <img src="../../images/pcb_assembly/assembly/top_term.png" height="300"> |
+|:-:|
+| Figure 1: Assembly Step 1 |
 
-    ![Assembly Step 1](./../images/pcb_assembly/assembly/top_term.png)
+#### Solder terminal blocks on bottom of board (2)
 
-2. On the **bottom** of the board, solder the 6 Position top entry terminal
+On the **bottom** of the board, solder the 6 Position top entry terminal
    blocks **E4**. They will be labeled with schematic reference designators
    J1-5. The orientation of the wire terminal face should be AWAY from the each
    of RoboClaw outlines (see images below). These terminals will run battery
    power and +/- motor signals to the RoboClaw motor controllers from the PCB.
 
-    ![Assembly Step 2](./../images/pcb_assembly/assembly/assembly_2.png)
+| <img src="../../images/pcb_assembly/assembly/assembly_2.png" height="300"> <img src="../../images/pcb_assembly/assembly/bottom_term.png" height="300"> |
+|:-:|
+| Figure 1: Assembly Step 2 |
 
-    ![Assembly Step 2](./../images/pcb_assembly/assembly/bottom_term.png)
+#### Solder socket header connectors on bottom of board
 
-3. On the **bottom** of the board, solder the 20-position female socket header
+On the **bottom** of the board, solder the 20-position female socket header
    connector **E5** and the 5-position female socket header connector **E6**.
    They will be labeled with reference designators RoboClaw 1-5. These are the
    digital signal pins for the RoboClaw motor controllers.
 
-    ![Assembly Step 3](./../images/pcb_assembly/assembly/assembly_3.png)
-
-    ![Assembly Step 3](./../images/pcb_assembly/assembly/rc_header.png)
+| <img src="../../images/pcb_assembly/assembly/assembly_3.png" height="300"> <img src="../../images/pcb_assembly/assembly/rc_header.png" height="300"> |
+|:-:|
+| Figure 1: Assembly Step 3 |
 
 ### Resistors and Capacitors
 
-| **Item**               | **Ref** | **Qty** | **Image**                                                       |
-| ---------------------- | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board      | E1      | 1       | <img src="/images/components/electronics/E1.png" height="100">  |
-| 4.7K 1/4 Watt Resistor | E7      | 1       | <img src="/images/components/electronics/E7.png" height="100">  |
-| 10K 1/4 Watt Resistor  | E8      | 4       | <img src="/images/components/electronics/E8.png" height="100">  |
-| 22K 1/4 Watt Resistor  | E9      | 4       | <img src="/images/components/electronics/E9.png" height="100">  |
-| 10K 1/2 Watt Resistor  | E10     | 1       | <img src="/images/components/electronics/E10.png" height="100"> |
-| 100nF Capacitor        | E11     | 17      | <img src="/images/components/electronics/E11.png" height="100"> |
-| Soldering Iron         | N/A     |         |                                                                 |
+| **Item**               | **Ref** | **Qty** | **Image**                                                       | **Item**               | **Ref** | **Qty** | **Image**                                                       |
+| ---------------------- | ------- | ------- | --------------------------------------------------------------- | ---------------------- | ------- | ------- | --------------------------------------------------------------- |
+| OSR Control Board      | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">  | 22K 1/4 Watt Resistor  | E9      | 4       | <img src="../../images/components/electronics/E9.png" width="100">  |
+| 4.7K 1/4 Watt Resistor | E7      | 1       | <img src="../../images/components/electronics/E7.png" width="100">  | 10K 1/2 Watt Resistor  | E10     | 1       | <img src="../../images/components/electronics/E10.png" width="100"> |
+| 10K 1/4 Watt Resistor  | E8      | 4       | <img src="../../images/components/electronics/E8.png" width="100">  | 100nF Capacitor        | E11     | 17      | <img src="../../images/components/electronics/E11.png" width="100"> |
 
-1.  On the **top** of the board, solder the resistors and capacitors by
+#### Solder resistors and capicitors
+
+On the **top** of the board, solder the resistors and capacitors by
     comparing the reference designator on the board to the part number listed in
     the table below. Some of these capacitors are used to store energy for
     powering components (to help protect against voltage fluctuations). Others
@@ -109,54 +114,58 @@ below:
 | 22K 1/4 Watt Resistor  | E9                 | R3, R5, R7, R9          |
 | 10K 1/2 Watt Resistor  | E10                | R2                      |
 | 100nF Capacitor        | E11                | C1-17                   |
-| Soldering Iron         | N/A                |                         |
 
-![soldering](./../images/pcb_assembly/assembly/caps_res.png)
+| <img src="../../images/pcb_assembly/assembly/caps_res.png" height="400">|
+|:-:|
+| Figure 4: Resistor and Capacitor soldering |
 
 ### Voltage Regulator connectors
 
 | **Item**            | **Ref** | **Qty** | **Image**                                                      |
 | ------------------- | ------- | ------- | -------------------------------------------------------------- |
-| OSR Control Board   | E1      | 1       | <img src="/images/components/electronics/E1.png" height="100"> |
-| 5 Pos Header Socket | E6      | 2       | <img src="/images/components/electronics/E6.png" height="100"> |
-| Soldering Iron      | N/A     |         |                                                                |
+| OSR Control Board   | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100"> |
+| 5 Pos Header Socket | E6      | 2       | <img src="../../images/components/electronics/E6.png" width="100"> |
 
-1.  On the **bottom** of the board, solder the 5-position female header sockets
+#### Solder 5-position header sockets
+
+On the **bottom** of the board, solder the 5-position female header sockets
     **E6**. The sockets will have schematic reference designators of J9 and J11.
     These connectors are what the 12V and 5V voltage regulators will slot into.
 
-    ![Assembly Step 5](./../images/pcb_assembly/assembly/assembly_5.png)
-
-    ![Assembly Step 5](./../images/pcb_assembly/assembly/regs_header.png)
+| <img src="../../images/pcb_assembly/assembly/assembly_5.png" height="300"> <img src="../../images/pcb_assembly/assembly/regs_header.png" height="300"> |
+|:-:|
+| Figure 5: Assembly Step 5 |
 
 ### Power Connectors
 
 | **Item**                        | **Ref** | **Qty** | **Image**                                                        |
 | ------------------------------- | ------- | ------- | ---------------------------------------------------------------- |
-| OSR Control Board               | E1      | 1       | <img src="/images/components/electronics/E1.png" height="100">   |
-| 2 Pos Side Terminal Block       | E12     | 3       |  <img src="/images/components/electronics/E12.png" height="100"> |
-| 2 Position 2.5mm Terminal Block | E18     | 1       | <img src="/images/components/electronics/E18.png" height="100">  |
-| Soldering Iron                  | N/A     |         |                                                                  |
+| OSR Control Board               | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">   |
+| 2 Pos Side Terminal Block       | E12     | 3       |  <img src="../../images/components/electronics/E12.png" width="100"> |
+| 2 Position 2.5mm Terminal Block | E18     | 1       | <img src="../../images/components/electronics/E18.png" width="100">  |
 
-1.  On the **top** of the board, solder the 2-position side entry terminal
+#### Solder 2-position terminal blocks on top of board
+
+On the **top** of the board, solder the 2-position side entry terminal
     blocks **E13**. These will have schematic reference designators J14-16.
     Ensure that the wire terminals on these components face **OUTWARDS**. Also
     on the **top** of the board, solder the remaining 2-position 2.5mm terminal
     block **E18** (schematic reference designator J12).
 
-    ![Assembly Step 6](./../images/pcb_assembly/assembly/assembly_6.png)
-
-    ![Assembly Step 6](./../images/pcb_assembly/assembly/power_term.png)
+| <img src="../../images/pcb_assembly/assembly/assembly_6.png" height="300"> <img src="../../images/pcb_assembly/assembly/power_term.png" height="300"> |
+|:-:|
+| Figure 6: Assembly Step 6 |
 
 ### Op Amp DIP socket
 
 | **Item**          | **Ref** | **Qty** | **Image**                                                       |
 | ----------------- | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board | E1      | 1       | <img src="/images/components/electronics/E1.png" height="100">  |
-| 8 Pin DIP Socket  | E33     | 2       | <img src="/images/components/electronics/E33.png" height="100"> |
-| Soldering Iron    | N/A     |         |                                                                 |
+| OSR Control Board | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">  |
+| 8 Pin DIP Socket  | E33     | 2       | <img src="../../images/components/electronics/E33.png" width="100"> |
 
-1.  On the **top** of the board, solder the 8 Pin DIP sockets **E33**. They will
+#### Solder 8-pin DIP sockets
+
+On the **top** of the board, solder the 8 Pin DIP sockets **E33**. They will
     have schematic reference designators U1-2. Orientation of these sockets does
     not matter, but note that you WILL (later, in another document) need to plug
     in the Op-Amp chips themselves, and orientation of those chips is important
@@ -164,164 +173,202 @@ below:
     as pictured (toward the resistors and capacitors) will align the socket's
     notch with the chip's.
 
-    ![Assembly Step 7](./../images/pcb_assembly/assembly/assembly_7.png)
-
-    ![Assembly Step 7](./../images/pcb_assembly/assembly/dip_socket.png)
+| <img src="../../images/pcb_assembly/assembly/assembly_7.png" height="300"> <img src="../../images/pcb_assembly/assembly/dip_socket.png" height="300"> |
+|:-:|
+| Figure 7: Assembly Step 7 |
 
 ### RPi GPIO Connector and misc headers
 
-| **Item**                 | **Ref** | **Qty** | **Image**                                                       |
-| ------------------------ | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board        | E1      | 1       | <img src="/images/components/electronics/E1.png" height="100">  |
-| 40 Pin Header Connector  | E13     | 2       | <img src="/images/components/electronics/E13.png" height="100"> |
-| 6 Position JST Connector | E14     | 1       | <img src="/images/components/electronics/E14.png" height="100"> |
-| 40 Position Header Pins  | E15     | 1       | <img src="/images/components/electronics/E15.png" height="100"> |
-| Soldering Iron           | N/A     |         |                                                                 |
+| **Item**                 | **Ref** | **Qty** | **Image**                                                       | **Item**                 | **Ref** | **Qty** | **Image**                                                       |
+| ------------------------ | ------- | ------- | --------------------------------------------------------------- | ------------------------ | ------- | ------- | --------------------------------------------------------------- |
+| OSR Control Board        | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">  | 6 Position JST Connector | E14     | 1       | <img src="../../images/components/electronics/E14.png" width="100"> |
+| 40 Pin Header Connector  | E13     | 2       | <img src="../../images/components/electronics/E13.png" width="100"> | 40 Position Header Pins  | E15     | 1       | <img src="../../images/components/electronics/E15.png" width="100"> |
 
-1.  On the **top** of the board, solder the 40-position header connectors
+#### Solder 40-position headers
+
+On the **top** of the board, solder the 40-position header connectors
     **E13**. The clocking notch on the headers should face **OUTWARD** as shown
     below. The schematic reference designators are J6 and J7.
 
-    ![Assembly Step 8](./../images/pcb_assembly/assembly/assembly_8.png)
+| <img src="../../images/pcb_assembly/assembly/assembly_8.png" height="300"> <img src="../../images/pcb_assembly/assembly/gpio.png" height="300"> |
+|:-:|
+| Figure 8: Assembly Step 8 |
 
-    ![Assembly Step 8](./../images/pcb_assembly/assembly/gpio.png)
+#### Solder 40-position headers (2)
 
-2.  Take the 40 pin header pins **E15** and break off a 6-pin segment. On the
+Take the 40 pin header pins **E15** and break off a 6-pin segment. On the
     **top** of the board, solder the 6-pin segment into schematic reference
     designator J8. Then, solder the JST connector **E14** into the J10 schematic
     reference designator. The opening in the pins on the JST connector should
     face **INWARD** as shown below.
 
-    ![Assembly Step 9](./../images/pcb_assembly/assembly/assembly_9.png)
-
-    ![Assembly Step 9](./../images/pcb_assembly/assembly/jst_top.png)
+| <img src="../../images/pcb_assembly/assembly/assembly_9.png" height="300"> <img src="../../images/pcb_assembly/assembly/jst_top.png" height="300"> |
+|:-:|
+| Figure 9: Assembly Step 9 |
 
 ### Fuse and Diode
 
 | **Item**          | **Ref** | **Qty** | **Image**                                                       |
 | ----------------- | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board | E1      | 1       | <img src="/images/components/electronics/E1.png" height="100">  |
-| 10 Amp Fuse       | E16     | 1       | <img src="/images/components/electronics/E16.png" height="100"> |
-| Diode             | E17     | 1       | <img src="/images/components/electronics/E17.png" height="100"> |
-| Soldering Iron    | N/A     |         |                                                                 |
+| OSR Control Board | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">  |
+| 10 Amp Fuse       | E16     | 1       | <img src="../../images/components/electronics/E16.png" width="100"> |
+| Diode             | E17     | 1       | <img src="../../images/components/electronics/E17.png" width="100"> |
 
-1.  Solder the fuse **E16** and diode **E17** onto the top of the board into
+#### Solder fuse and diode
+
+Solder the fuse **E16** and diode **E17** onto the top of the board into
     schematic reference designators F1 (fuse) and D1 (diode). **Pay careful
     attention to the direction that the Diode is mounted on the board**, as it
     will only work in one direction!
 
-![Fuse and Diode Soldering](./../images/pcb_assembly/assembly/fuse_diode.png)
-
-![Fuse and Diode Soldering](./../images/pcb_assembly/assembly/fuse.png)
+| <img src="../../images/pcb_assembly/assembly/fuse_diode.png" width="250"> <img src="../../images/pcb_assembly/assembly/fuse.png" width="250"> |
+|:-:|
+| Figure 10: Fuse and Diode Soldering |
 
 ### USB connectors
 
 | **Item**          | **Ref** | **Qty** | **Image**                                                       |
 | ----------------- | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board | E1      | 1       | <img src="/images/components/electronics/E1.png" height="100">  |
-| USB Connector     | E34     | 1       | <img src="/images/components/electronics/E34.png" height="100"> |
-| Diode             | E17     | 1       | <img src="/images/components/electronics/E17.png" height="100"> |
-| Soldering Iron    | N/A     |         |                                                                 |
+| OSR Control Board | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">  |
+| USB Connector     | E34     | 1       | <img src="../../images/components/electronics/E34.png" width="100"> |
 
-1.  On the **top** of the board, solder the two USB Connectors **E34**. They
+#### Solder USB connectors
+
+On the **top** of the board, solder the two USB Connectors **E34**. They
     will have reference designators J12 and J14.
 
-![Assembly Step 10](./../images/pcb_assembly/assembly/assembly_10.png)
-
-![Assembly Step 10](./../images/pcb_assembly/assembly/usb.png)
+| <img src="../../images/pcb_assembly/assembly/assembly_10.png" width="200"> <img src="../../images/pcb_assembly/assembly/usb.png" width="200"> |
+|:-:|
+| Figure 10: Assembly Step 10 |
 
 ### Standoffs
 
-| **Item**                       | **Ref** | **Qty** | **Image**                                                       |
-| ------------------------------ | ------- | ------- | --------------------------------------------------------------- |
-| #6-32 x 3/4" Threaded Standoff | T3      | 4       |   <img src="/images/components/standoffs/T3.png" height="100">  |
-| #4-40 x 1/2" Threaded Standoff | T11     | 20      |   <img src="/images/components/standoffs/T11.png" height="100"> |
-| #2-56 x 1/2" Threaded Standoff | T8      | 4       |   <img src="/images/components/standoffs/T8.png" height="100">  |
-| M2.5 x 10mm Threaded Standoff  | T10     | 4       | <img src="/images/components/standoffs/T10.png" height="100">   |
-| #6-32 3/8" Button Head Screw   | B2      | 8       |   <img src="/images/components/screws/B2.png" height="100">     |
-| #4-40 1/4" Button Head Screw   | B8      | 40      |   <img src="/images/components/screws/B8.png" height="100">     |
-| #2-56 1/4" Button Head Screw   | B13     | 8       |   <img src="/images/components/screws/B13.png" height="100">    |
-| M2.5 x 6mm Socket Head Screw   | B10     | 8       | <img src="/images/components/screws/B10.png" height="100">      |
+| **Item**                       | **Ref** | **Qty** | **Image**                                                       | **Item**                       | **Ref** | **Qty** | **Image**                                                       |
+| ------------------------------ | ------- | ------- | --------------------------------------------------------------- | ------------------------------ | ------- | ------- | --------------------------------------------------------------- |
+| #6-32 x 3/4" Threaded Standoff | T3      | 4       |   <img src="../../images/components/standoffs/T3.png" width="100">  | #6-32 3/8" Button Head Screw   | B2      | 8       |   <img src="../../images/components/screws/B2.png" width="100">     |
+| #4-40 x 1/2" Threaded Standoff | T11     | 20      |   <img src="../../images/components/standoffs/T11.png" width="100"> | #4-40 1/4" Button Head Screw   | B8      | 40      |   <img src="../../images/components/screws/B8.png" width="100">     |
+| #2-56 x 1/2" Threaded Standoff | T8      | 4       |   <img src="../../images/components/standoffs/T8.png" width="100">  | #2-56 1/4" Button Head Screw   | B13     | 8       |   <img src="../../images/components/screws/B13.png" width="100">    |
+| M2.5 x 10mm Threaded Standoff  | T10     | 4       | <img src="../../images/components/standoffs/T10.png" width="100">   | M2.5 x 6mm Socket Head Screw   | B10     | 8       | <img src="../../images/components/screws/B10.png" width="100">      |
 
-1.  **Board mounting Standoffs:** On the **BOTTOM** side of the board, attach
+#### Board mounting Standoffs
+
+On the **BOTTOM** side of the board, attach
     the four #6-32 Standoffs **T4** on the outermost corner four mounting holes
     using screws **B2**. These standoffs will be used to attach the board to the
     robot chassis.
-    ![Mounting Standoffs](./../images/pcb_assembly/assembly/standoff_2.png)
-    ![Mounting Standoffs](./../images/pcb_assembly/assembly/standoff_1.png)
 
-2.  **RoboClaw mounting Standoffs:** On the **BOTTOM** side of the board, attach
+| <img src="../../images/pcb_assembly/assembly/standoff_2.png" width="300"> <img src="../../images/pcb_assembly/assembly/standoff_1.png" width="300"> |
+|:-:|
+| Figure 12: Mounting Standoffs |    
+
+#### RoboClaw mounting Standoffs
+
+On the **BOTTOM** side of the board, attach
     the twenty #4-40 Standoffs **T5** using screws **B8** as shown below. You
     can identify the RoboClaw mounting holes as the ones that are inside the
     RoboClaw rectangles on the silk screen.
 
-    ![RoboClaw Mounting Standoffs](./../images/pcb_assembly/assembly/standoff_3.png)
+| <img src="../../images/pcb_assembly/assembly/standoff_3.png" width="300"> |
+|:-:|
+| Figure 13: RoboClaw Mounting Standoffs |
 
-3.  **Voltage Regulator Standoffs:** On the **BOTTOM** side of the board, attach
+#### Voltage Regulator Standoffs
+
+On the **BOTTOM** side of the board, attach
     the four #2-56 Standoffs **T6** using screws **B13** as shown below.
 
-    ![Voltage regulator Mounting Standoffs](./../images/pcb_assembly/assembly/standoff_4.png)
+| <img src="../../images/pcb_assembly/assembly/standoff_4.png" width="300"> |
+|:-:|
+| Figure 14: Voltage regulator Mounting Standoffs |
 
-4.  **Raspberry Pi Standoffs:** On the **TOP** side of the board, attach the
+#### Raspberry Pi Standoffs
+
+On the **TOP** side of the board, attach the
     four M2.5 Standoffs **T7** using screws **B10** as shown in below.
 
-    ![Raspberry Pi Standoffs](./../images/pcb_assembly/assembly/standoff_5.png)
+| <img src="../../images/pcb_assembly/assembly/standoff_5.png" width="300"> |
+|:-:|
+| Figure 15: Raspberry Pi Standoffs |
 
-    ![Standoffs Installed (Bottom View)](./../images/pcb_assembly/assembly/standoffs.png)
+| <img src="../../images/pcb_assembly/assembly/standoffs.png" width="300"> |
+|:-:|
+| Figure 16: Standoffs Installed (Bottom View) |
 
 ## Arduino Shield Assembly
 
-| **Item**                   | **Ref** | **Qty** | **Image**                                                       |
-| -------------------------- | ------- | ------- | --------------------------------------------------------------- |
-| Arduino Shield             | E2      | 1       | <img src="/images/components/electronics/E2.png" height="100">  |
-| 2 Position Term Block      | E18     | 1       | <img src="/images/components/electronics/E18.png" height="100"> |
-| 2x8 Shrouded Header Pins   | E19     | 1       | <img src="/images/components/electronics/E19.png" height="100"> |
-| 1x6 JST header pins        | E14     | 1       | <img src="/images/components/electronics/E14.png" height="100"> |
-| 1x40 0.1 Pitch Header pins | E15     | 1       | <img src="/images/components/electronics/E15.png" height="100"> |
-| Soldering Iron             | N/A     |         |                                                                 |
+| **Item**                   | **Ref** | **Qty** | **Image**                                                       | **Item**                   | **Ref** | **Qty** | **Image**                                                       |
+| -------------------------- | ------- | ------- | --------------------------------------------------------------- | -------------------------- | ------- | ------- | --------------------------------------------------------------- |
+| Arduino Shield             | E2      | 1       | <img src="../../images/components/electronics/E2.png" width="100">  | 1x6 JST header pins        | E14     | 1       | <img src="../../images/components/electronics/E14.png" width="100"> |
+| 2 Position Term Block      | E18     | 1       | <img src="../../images/components/electronics/E18.png" width="100"> | 1x40 0.1 Pitch Header pins | E15     | 1       | <img src="../../images/components/electronics/E15.png" width="100"> |
+| 2x8 Shrouded Header Pins   | E19     | 1       | <img src="../../images/components/electronics/E19.png" width="100"> | Soldering Iron             | N/A     |         |                                                                 |
+
+
 
 Now, we will assemble the Arduino shield that will sit in the rover's head and
 control the face. We will start with the **TOP** side of the Arduino board. The
 final product is shown below.
 
-![Assembled Arduino Shield Top](./../images/pcb_assembly/assembly/arduino_shield_top.png)
-![Assembled Arduino Shield Bottom](./../images/pcb_assembly/assembly/arduino_shield_bottom.png)
+| <img src="../../images/pcb_assembly/assembly/arduino_shield_top.png" width="300"> <img src="../../images/pcb_assembly/assembly/arduino_shield_bottom.png" width="300"> |
+|:-:|
+| Figure 17: Assembled Arduino Shield |
 
-1.  Begin by taking the 2-position terminal block **E18** and soldering it to
+
+#### Terminal Block assembly
+
+Begin by taking the 2-position terminal block **E18** and soldering it to
     top of the board at the J6 connector, such that the screw terminals face
     outwards as shown below:
 
-    ![Terminal Block assembly](./../images/pcb_assembly/assembly/term_block.png)
+| <img src="../../images/pcb_assembly/assembly/term_block.png" width="300"> |
+|:-:|
+| Figure 18: Terminal Block assembly |
 
-2.  Solder the 1x6 JST connector **E14** onto the top of the board at the J5
+#### JST assembly
+
+Solder the 1x6 JST connector **E14** onto the top of the board at the J5
     connector such that the notch in the connector faces **OUTWARDS** as shown
     below:
 
-    ![JST assembly](./../images/pcb_assembly/assembly/jst.png)
+| <img src="../../images/pcb_assembly/assembly/jst.png" width="300"> |
+|:-:|
+| Figure 19: JST assembly |
 
-3.  Solder the 2x8 shrouded header pin connector **E19** to the top of the board
+#### Terminal Block assembly
+
+Solder the 2x8 shrouded header pin connector **E19** to the top of the board
     at connector J1 such that the notch faces **OUTWARDS** as shown in the final
     product image above.
 
-    ![Terminal Block assembly](./../images/pcb_assembly/assembly/2x8_above.png)
+| <img src="../../images/pcb_assembly/assembly/2x8_above.png" width="300"> |
+|:-:|
+| Figure 20: Terminal Block assembly |
 
-4.  Solder the 0.1 pitch header pins **E15** to connectors J2-4 on the top side
+#### 0.1 Pitch headers (1)
+
+Solder the 0.1 pitch header pins **E15** to connectors J2-4 on the top side
     of the board:
 
-    ![0.1 Pitch headers](./../images/pcb_assembly/assembly/01_pitch_above.png)
+| <img src="../../images/pcb_assembly/assembly/01_pitch_above.png" width="300"> |
+|:-:|
+| Figure 21: 0.1 Pitch headers (1) |
 
-    Flip the Arduino board over to the **BOTTOM** side where we will now install
+Flip the Arduino board over to the **BOTTOM** side where we will now install
     the remaining headers. The final product is shown in the images below.
 
-5.  Solder the 0.1 pitch header pins **E15** to the bottom side of the board in
+#### 0.1 Pitch headers (2)
+
+Solder the 0.1 pitch header pins **E15** to the bottom side of the board in
     the remaining hole sets.
 
-    ![0.1 Pitch headers](./../images/pcb_assembly/assembly/01_pitch_under.png)
+| <img src="../../images/pcb_assembly/assembly/01_pitch_under.png" width="300"> |
+|:-:|
+| Figure 22: 0.1 Pitch headers (2) |
 
-### Assembled
+#### Assembled
 
-![Assembled Arduino Shield Top](./../images/pcb_assembly/assembly/arduino_shield_top.png)
-![Assembled Arduino Shield Bottom](./../images/pcb_assembly/assembly/arduino_shield_bottom.png)
+| <img src="../../images/pcb_assembly/assembly/arduino_shield_top.png" width="300"> <img src="../../images/pcb_assembly/assembly/arduino_shield_bottom.png" width="300"> |
+|:-:|
+| Figure 23: Assembled Arduino Shield  |
 
 # Component Integration and Testing
 
@@ -338,21 +385,17 @@ plugged in incorrectly or shorted.
 
 ### Power Distribution System
 
-| **Item**                  | **Ref** | **Qty** | **Image**                                                       |
-| ------------------------- | ------- | ------- | --------------------------------------------------------------- |
-| OSR Control Board         | E1      | 1       | <img src="/images/components/electronics/E1.png" height="100">  |
-| Battery                   | E36     | 1       | <img src="/images/components/electronics/E36.png" height="100"> |
-| Tamiya Battery Connectors | E35     | 1       | <img src="/images/components/electronics/E35.png" height="100"> |
-| Red 20 AWG Wire           | X1      | 1       | <img src="/images/components/wiring/X1.png" height="100">       |
-| Black 20 AWG Wire         | X2      | 1       | <img src="/images/components/wiring/X2.png" height="100">       |
-| 5V Regulator              | E22     | 1       | <img src="/images/components/electronics/E22.png" height="100"> |
-| 12V Regulator             | E23     | 1       | <img src="/images/components/electronics/E23.png" height="100"> |
-| RoboClaw Motor Controller | E20     | 5       | <img src="/images/components/electronics/E20.png" height="100"> |
-| Op-Amp LM358P             | E25     | 1       | <img src="/images/components/electronics/E25.png" height="100"> |
-| Micro USB Cable           | E28     | 1       | <img src="/images/components/electronics/E28.png" height="100"> |
-| Soldering Iron            | N/A     |         |                                                                 |
+| **Item**                  | **Ref** | **Qty** | **Image**                                                       | **Item**                  | **Ref** | **Qty** | **Image**                                                       |
+| ------------------------- | ------- | ------- | --------------------------------------------------------------- | ------------------------- | ------- | ------- | --------------------------------------------------------------- |
+| OSR Control Board         | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="150">  | 5V Regulator              | E22     | 1       | <img src="../../images/components/electronics/E22.png" width="150"> |
+| Battery                   | E36     | 1       | <img src="../../images/components/electronics/E36.png" width="150"> | 12V Regulator             | E23     | 1       | <img src="../../images/components/electronics/E23.png" width="150"> |
+| Tamiya Battery Connectors | E35     | 1       | <img src="../../images/components/electronics/E35.png" width="150"> | RoboClaw Motor Controller | E20     | 5       | <img src="../../images/components/electronics/E20.png" width="150"> |
+| Red 20 AWG Wire           | X1      | 1       | <img src="../../images/components/wiring/X1.png"       width="150">       | Op-Amp LM358P             | E25     | 1       | <img src="../../images/components/electronics/E25.png" width="150"> |
+| Black 20 AWG Wire         | X2      | 1       | <img src="../../images/components/wiring/X2.png"       width="150">       | Micro USB Cable           | E28     | 1       | <img src="../../images/components/electronics/E28.png" width="150"> |
 
-1.  Begin by powering the board. For testing purposes, we will plug the battery
+#### Test Step 1
+
+Begin by powering the board. For testing purposes, we will plug the battery
     directly into the board, bypassing the switch and volt meter. Thus, the
     connection we use for testing will look a little bit different than when you
     fully install the board into the rover. Insert the red wire on the Tamiya
@@ -360,18 +403,25 @@ plugged in incorrectly or shorted.
     SWITCH**, and the black wire to the GND terminal on the connector **J15 /
     BATTERY IN**.
 
-    ![Testing Step 1](./../images/pcb_assembly/testing/testing_1.png)
-    ![Testing Step 1](./../images/pcb_assembly/testing/testing_2.png)
+| <img src="../../images/pcb_assembly/testing/testing_1.png" width="300"> <img src="../../images/pcb_assembly/testing/testing_2.png" width="300"> |
+|:-:|
+| Figure 24: Test Step 1 |
 
-2.  Using a Digital Multimeter (DMM), probe the voltage across the test points
+#### Test Step 2
+
+Using a Digital Multimeter (DMM), probe the voltage across the test points
     T1 and T2. These will tell you the voltage at which the board power rails
     are, which should be the direct voltage of the battery. Verify that from T1
     to T2 reads a positive number, and is between 12V and 16.7V depending on the
     charge state of your battery.
 
-    ![Test Pads](./../images/pcb_assembly/testing/testing_3.png)
+| <img src="../../images/pcb_assembly/testing/testing_3.png" width="300"> |
+|:-:|
+| Figure 25: Test Pads |
 
-3.  Next, you will need to create jumper wires that will connect the RoboClaw
+#### Test Step 3
+
+Next, you will need to create jumper wires that will connect the RoboClaw
     motor controller power terminals to the RoboClaws. **Unplug the Tamiya
     battery connector before plugging in or unplugging ANY components, or before
     inserting components!!!** (in future steps, we will not explicitly say to
@@ -383,58 +433,69 @@ plugged in incorrectly or shorted.
     the terminal blocks on the RoboClaw Motor Controllers **E20** in the
     following way:
 
-    | **Terminal** | **Wire Color** |
-    | ------------ | -------------- |
-    | M1A          | Red            |
-    | M1B          | Black          |
-    | +            | Red            |
-    | -            | Black          |
-    | M2A          | Red            |
-    | M2B          | Black          |
+| **Terminal** | **Wire Color** |
+| ------------ | -------------- |
+| M1A          | Red            |
+| M1B          | Black          |
+| +            | Red            |
+| -            | Black          |
+| M2A          | Red            |
+| M2B          | Black          |
 
-4.  Start by inserting one of the RoboClaws into the slot on the bottom of the
+#### Test Step 4
+
+Start by inserting one of the RoboClaws into the slot on the bottom of the
     board labeled `ROBOCLAW 2`. Connect the wires directly across from RoboClaw
     motor terminal block to the terminal block on the control board as shown
     below:
 
-    ![RoboClaw power/motor wires](./../images/pcb_assembly/testing/rc_wires_2.png)
+| <img src="../../images/pcb_assembly/testing/rc_wires_2.png" width="300"> <img src="../../images/pcb_assembly/testing/rc_wires.png" width="300"> |
+|:-:|
+| Figure 26: RoboClaw power/motor wires |
 
-    ![RoboClaw power/motor wires](./../images/pcb_assembly/testing/rc_wires.png)
+#### Test Step 5
 
-5.  Plug in the battery. An LED on the RoboClaw will turn on; verify that it is
+Plug in the battery. An LED on the RoboClaw will turn on; verify that it is
     green. If the LED is red, it means there is an error. Error codes can be
     traced by looking at
     [the RoboClaw user manual](https://basicmicro.com/downloads).
 
-6.  Repeat this process one RoboClaw at a time **following the order of 2, 3, 4,
+#### Test Step 6
+
+Repeat this process one RoboClaw at a time **following the order of 2, 3, 4,
     1, 5** (testing each RoboClaw after you plug it in) until all 5 RoboClaws
     have been plugged into the board.
 
-7.  Take the two voltage regulators **E23 and 24** and solder their header pins
+#### Test Step 7
+
+Take the two voltage regulators **E23 and 24** and solder their header pins
     to the bottom side of the board. Note that you will be soldering the short
     side of the pins on the top side of the board (the side with large
     capacitors on it).
 
-8.  Insert the 5V regulator into the control board as shown below. Power your
+#### Test Step 8
+
+Insert the 5V regulator into the control board as shown below. Power your
     board and probe between test points T4 and T2 on the top of the board below
     with your DMM and verify that it reads 5V. If it does not, make sure that
     the 5V regulator is slotted in properly and that your solder connections are
     solid.
 
-    ![5V Regulator & Test Pads](./../images/pcb_assembly/testing/testing_7.png)
+| <img src="../../images/pcb_assembly/testing/testing_7.png" width="300"> <img src="../../images/pcb_assembly/testing/testing_3.png" width="300"> |
+|:-:|
+| Figure 27: 5V Regulator & Test Pads |
+#### Test Step 9
 
-    ![5V Regulator & Test Pads](./../images/pcb_assembly/testing/testing_3.png)
-
-9.  Insert the 12V regulator into the control board. Power your board and probe
+Insert the 12V regulator into the control board. Power your board and probe
     between test point T5 and T6 on the top of the board with your DMM and
     verify that it reads 12V. If it does not, make sure the 12V regulator is
     slotted in properly and that your solder connections are solid.
 
-    ![12V Regulator & Test Pads](./../images/pcb_assembly/testing/testing_8.png)
+| <img src="../../images/pcb_assembly/testing/testing_8.png" width="300"> <img src="../../images/pcb_assembly/testing/test_pads_t5_t6.png" width="300"> |
+|:-:|
+| Figure 28: 12V Regulator & Test Pads |
 
-    ![12V Regulator & Test Pads](./../images/pcb_assembly/testing/test_pads_t5_t6.png)
-
-    If all voltage test points read expected values and all the RoboClaw motor
+If all voltage test points read expected values and all the RoboClaw motor
     Controllers have green LEDs, the power system has been verified!
 
 ## Op-Amp Integration
@@ -443,7 +504,10 @@ Press the Op-Amp LM358P **E25** into the slots in the 8 Position DIP socket.
 Take careful note of the direction of the chip in the DIP socket, as the notch
 **MUST** face the correct direction.
 
-![Op-Amp Integration](./../images/pcb_assembly/assembly/op_amp.png)
+| <img src="../../images/pcb_assembly/assembly/op_amp.png" width="300"> |
+|:-:|
+| Figure 29: Op-Amp Integration |
+![]()
 
 ### Voltage Divider Verification
 
@@ -506,25 +570,33 @@ blocks correspond to the motor controller outputs in the following manner:
 | J21                  | RC3                  | M1                   |
 | J22                  | RC3                  | M2                   |
 
-1.  First, connect the wires in the following manner:
+#### Connect Wires
 
-    | Signal    | Terminal Block Label | Motor Connector Wire Color |
-    | --------- | -------------------- | -------------------------- |
-    | Motor (+) | M+                   | Red                        |
-    | Motor (-) | M-                   | Black                      |
-    | Ground    | GND                  | Green                      |
-    | +5V       | +5V                  | Blue                       |
-    | Encoder A | ENA                  | Yellow                     |
-    | Encoder   | B                    | ENB White                  |
+First, connect the wires in the following manner:
 
-2.  Power on the board. After a minute or so, in the Basic Motion GUI you should
+| Signal    | Terminal Block Label | Motor Connector Wire Color |
+| --------- | -------------------- | -------------------------- |
+| Motor (+) | M+                   | Red                        |
+| Motor (-) | M-                   | Black                      |
+| Ground    | GND                  | Green                      |
+| +5V       | +5V                  | Blue                       |
+| Encoder A | ENA                  | Yellow                     |
+| Encoder   | B                    | ENB White                  |
+
+####  Power on
+
+Power on the board. After a minute or so, in the Basic Motion GUI you should
     see an available device appear. It might require an update to proceed;
     install the latest firmware update and then connect to the device.
 
-3.  Click on the PWM tab. We will now send a PWM signal to the motor and test
+#### Prepare PWM signal
+
+Click on the PWM tab. We will now send a PWM signal to the motor and test
     that connections are all made correctly to the motor and encoder.
 
-4.  Slowly move the slide bar for the corresponding motor output channel (Either
+#### Vary PWM signal
+
+Slowly move the slide bar for the corresponding motor output channel (Either
     M1 or M2 from the above table) for the terminal you are testing. Verify that
     the motor spins (we will worry about direction later), and that the encoder
     value is also changing (we'll worry about it increasing or decreasing
@@ -535,7 +607,9 @@ blocks correspond to the motor controller outputs in the following manner:
     If all your connections are correct, you may have to test your solder
     contact between the components on the board itself.
 
-5.  Repeat the steps above for each of the drive motor terminal blocks, labeled
+#### Repeat for other motor terminals
+
+Repeat the steps above for each of the drive motor terminal blocks, labeled
     J17-22.
 
 ### Corner Motor Blocks
@@ -551,21 +625,27 @@ motor controller outputs in the following manner:
 | J25                  | RC5                  | M1                   |
 | J26                  | RC5                  | M2                   |
 
-1.  Connect the wires to the motor in the following manner
+#### Connect wires
 
-    | Signal    | Terminal Block Label | Motor Connector Wire Color |
-    | --------- | -------------------- | -------------------------- |
-    | Motor (+) | M+                   | Red                        |
-    | Motor (-) | M-                   | Black                      |
+Connect the wires to the motor in the following manner
 
-2.  The main difference between the drive and corner motor systems is that for
+| Signal    | Terminal Block Label | Motor Connector Wire Color |
+| --------- | -------------------- | -------------------------- |
+| Motor (+) | M+                   | Red                        |
+| Motor (-) | M-                   | Black                      |
+
+#### Prepare encoder simulation
+
+The main difference between the drive and corner motor systems is that for
     the corner system, we need to use the encoders. We want to test the voltage
     division circuit used on the control board; this divider which will expects
     a 0-5V signal from the absolute Hall effect encoder. To simulate the
     encoder, connect the +5V terminal on the motor terminal block straight into
     the ENA signal in the same terminal block.
 
-3.  Connect to the motor controller in the Basic Motion GUI. Under the General
+#### Connect to Basic Motion GUI
+
+Connect to the motor controller in the Basic Motion GUI. Under the General
     settings tab (under Encoders), change the type of encoder from Quadrature to
     Absolute. You should see that the encoder values change to a number
     somewhere around 1600. As long as it is a fairly constant value and is in
@@ -575,10 +655,14 @@ motor controller outputs in the following manner:
     make sure you correctly installed all the resistors/capacitors in the
     assembly steps.
 
-4.  Under the PWM tab, move the slide bar and verify that the motor spins
+#### Test PWM signal
+
+Under the PWM tab, move the slide bar and verify that the motor spins
     accordingly.
 
-5.  Repeat this process for all the corner motor terminal blocks, labeled
+#### Repeat for other motors
+
+Repeat this process for all the corner motor terminal blocks, labeled
     J23-26.
 
 ## Raspberry Pi Install
@@ -589,37 +673,39 @@ follow to the
 [Software Install steps](https://github.com/nasa-jpl/open-source-rover/blob/master/Software/Software%20Steps.pdf)
 to install the rover software on the Raspberry Pi.
 
-| **Item**               | **Ref** | **Qty** | **Image**                                                                  |
-| ---------------------- | ------- | ------- | -------------------------------------------------------------------------- |
-| OSR Control Board      | E1      | 1       | <img src="/images/components/electronics/E1.png" height="100">             |
-| Raspberry Pi 3B        | E21     | 1       | <img src="/images/components/electronics/E21.png" height="100">            |
-| 40 Pin Ribbon Cable    | E29     | 1       | <img src="/images/components/electronics/E29.png" height="100">            |
-| USB to Micro USB Cable | E27     | 1       |            <img src="/images/components/electronics/E27.png" height="100"> |
+| **Item**               | **Ref** | **Qty** | **Image**                                                                  | **Item**               | **Ref** | **Qty** | **Image**                                                                  |
+| ---------------------- | ------- | ------- | -------------------------------------------------------------------------- | ---------------------- | ------- | ------- | -------------------------------------------------------------------------- |
+| OSR Control Board      | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">             | 40 Pin Ribbon Cable    | E29     | 1       | <img src="../../images/components/electronics/E29.png" width="100">            |
+| Raspberry Pi 3B        | E21     | 1       | <img src="../../images/components/electronics/E21.png" width="100">            | USB to Micro USB Cable | E27     | 1       |            <img src="../../images/components/electronics/E27.png" width="100"> |
 
 **ONLY PROCEED WITH THE FOLLOWING ONCE YOU HAVE SUCCESSFULLY FINISHED THE
 INSTALLATION OF THE ROVER CODE ON YOUR RASPBERRY PI.**
 
-1.  Attach the Raspberry Pi to the board on top of the standoffs you attached
+#### Attach RPi
+
+Attach the Raspberry Pi to the board on top of the standoffs you attached
     earlier, making sure that the USB ports face downward on the board as shown
     below.
 
-    ![RPi Install](./../images/pcb_assembly/testing/rpi_power.png)
 
-2.  Plug in the micro USB cable **E27** to the USB power port labeled J12 and to
+#### Plug in cables
+
+Plug in the micro USB cable **E27** to the USB power port labeled J12 and to
     the **power port** of the Raspberry Pi (labelled 'PWR'). Then, plug in the
     ribbon Cable **E29** into the Raspberry Pi GPIO header pins and connect the
     other end to the **J6** 40 pin GPIO connector.
 
-    ![RPi Install](./../images/pcb_assembly/testing/rpi_gpio.png)
+| <img src="../../images/pcb_assembly/testing/rpi_power.png" width="350"> <img src="../../images/pcb_assembly/testing/rpi_gpio.png" width="275"> |
+|:-:|
+| Figure 30: RPi Install |
+
 
 ## Arduino Shield Testing
 
-| **Item**         | **Ref** | **Qty** | **Image**                                                       |
-| ---------------- | ------- | ------- | --------------------------------------------------------------- |
-| Arduino Shield   | E2      | 1       | <img src="/images/components/electronics/E2.png" height="100">  |
-| Arduino Uno      | E24     | 1       | <img src="/images/components/electronics/E24.png" height="100"> |
-| 1x6 JST Cable    | E26     | 1       | <img src="/images/components/electronics/E26.png" height="100"> |
-| 16x32 LED Matrix | E37     | 1       | <img src="/images/components/electronics/E37.png" height="100"> |
+| **Item**         | **Ref** | **Qty** | **Image**                                                       | **Item**         | **Ref** | **Qty** | **Image**                                                       |
+| ---------------- | ------- | ------- | --------------------------------------------------------------- | ---------------- | ------- | ------- | --------------------------------------------------------------- |
+| Arduino Shield   | E2      | 1       | <img src="../../images/components/electronics/E2.png" height="100">  | 1x6 JST Cable    | E26     | 1       | <img src="../../images/components/electronics/E26.png" height="100"> |
+| Arduino Uno      | E24     | 1       | <img src="../../images/components/electronics/E24.png" height="100"> | 16x32 LED Matrix | E37     | 1       | <img src="../../images/components/electronics/E37.png" height="100"> |
 
 Note: Testing the arduino board is dependent on finishing the control board and
 having it tested fully. Do not proceed until you have successfully tested your
@@ -628,26 +714,32 @@ main control board.
 Slot the Arduino Uno onto the bottom of the Arduino shield, matching the
 footprints on the board.
 
-![Arduino Shield Mounted](./../images/pcb_assembly/testing/arduino_mounted.png)
+| <img src="../../images/pcb_assembly/testing/arduino_mounted.png" width="300"> |
+|:-:|
+| Figure 31: Arduino Shield Mounted |
 
-1.  Plug in the 1x6 JST cable **E26** into the Arduino shield and to the Control
+#### Plug in cable
+
+Plug in the 1x6 JST cable **E26** into the Arduino shield and to the Control
     board. This cable will run 12V, 5V, GND, and two serial communication lines
     from the main rover to the Arduino shield which runs the screen in the head.
     This step relies on successful tests of the 5V and 12V regulators on the
     control board and verifying that they work correctly. If you have not tested
     the main board successfully, you may damage the Arduino.
 
-2.  Using a Digital Multimeter, probe the following **Arduino shield test pads**
+#### Measure
+
+Using a Digital Multimeter, probe the following **Arduino shield test pads**
     and verify their voltages:
 
-    -   TP1 to TP6 should read +12V. This voltage powers the Arduino Uno board
+-   TP1 to TP6 should read +12V. This voltage powers the Arduino Uno board
 
-    -   TP5 to TP6 should read +5V. This voltage powers the LED Matrix and runs
+-   TP5 to TP6 should read +5V. This voltage powers the LED Matrix and runs
         the LEDs on it
 
-    -   TP4 to TP2 should read +5V. This is the 5V converter on the Arduino board
+-   TP4 to TP2 should read +5V. This is the 5V converter on the Arduino board
 
-    -   TP3 to TP2 should read +3.3V. This is the 3.3V converter on the Arduino
+-   TP3 to TP2 should read +3.3V. This is the 3.3V converter on the Arduino
         board
 
 If all the above test points read the correct voltages, then the Arduino Shield
