@@ -670,7 +670,7 @@ Repeat this process for all the corner motor terminal blocks, labeled
 Next up is to verify that power to the Raspberry Pi is working. For this, you'll
 need a working operating system installed on the SD card. Take a moment now to
 follow to the
-[Software Install steps](https://github.com/nasa-jpl/open-source-rover/blob/master/Software/Software%20Steps.pdf)
+[software setup](https://github.com/nasa-jpl/osr-rover-code#setup)
 to install the rover software on the Raspberry Pi.
 
 | **Item**               | **Ref** | **Qty** | **Image**                                                                  | **Item**               | **Ref** | **Qty** | **Image**                                                                  |
