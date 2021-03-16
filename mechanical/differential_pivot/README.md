@@ -10,17 +10,6 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
   * Uses inexpensive RC turnbuckles to give multi-degree rotation about 2 separate points, allowing the geometry to be greatly simplified
 
-## Information about module
-
-| Author/Creator            |        |
-| --------------            | -------|
-| Contact email (optional)  |        |
-| Cost without 3D printer   |        |
-| Cost with 3D printer      |        |
-| Date Added                |        |
-| Group/Organization/School |        |
-| Time to build             |        |
-
 ## Skills
 
   * Band Saw/Dremel
@@ -34,8 +23,6 @@ The Differential Pivot helps to offload forces from one side of the rover to the
   * Drill press or Hand Drill
   * Allen Key set
   * Imperial Wrench Set
-
-### Optional
 
 ## Dependencies on Other Modules:
 
