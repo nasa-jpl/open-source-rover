@@ -93,36 +93,29 @@ The Differential Pivot helps to offload forces from one side of the rover to the
    <br/><br/>
 
 ### 3.2.3 Hole drilling
-   Next, take two of the 0.5x3 inch hollow rods S18 and create the same set of holes as before, showed again in Figure 5 (this time, drill holes on just one end of each of the rods). Test each of the sets of holes to make sure the 5-hole aluminum beams will attach to each of the rods. These will now be the part S18B
+  Next, take two of the 0.5x3 inch hollow rods S18 and create the same set of holes as before, showed again in Figure 5 (this time, drill holes on just one end of each of the rods). Test each of the sets of holes to make sure the 5-hole aluminum beams will attach to each of the rods. These will now be the part S18B
 
-   <br/><br/>
+  <br/><br/>
 
-   | <img src="/images/differential_pivot/Differential_Standoff_Cut.png" width="100%"> |
-   | :--: |
-   | Figure 5 |
+  | <img src="/images/differential_pivot/Differential_Standoff_Cut.png" width="100%"> |
+  | :--: |
+  | Figure 5 |
 
-   <br/><br/>
+  <br/><br/>
 
 ## 4. Mechanical Assembly
   Parts/Tools Necessary
 
-  | Item | Ref | Qty | Image |
+  | Item | Ref | Qty | Image | Item | Ref | Qty | Image|
   | :--- | :-- | :-- | :---: |
-  | Single Pattern Bracket | S8 | 1 | <img src="/images/components/structural/S16.png" width="25%"> |
-  | 0.5" Circular Clamping Hub | S13 | 1 | <img src="/images/components/structural/S13.png" width="25%">|
-  | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 |<img src="/images/components/structural/S16B.png" width="25%">|
-  | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | <img src="/images/components/structural/S18B.png" width="25%">|
-  | 0.5" Bottom Bore Clamp | S20 | 2 | <img src="/images/components/structural/S20pngjpg" width="25%">| 
-  | 5 Hole Aluminum Beam | S21 | 8 | <img src="/images/components/structural/S21.png" width="25%">|
-  | RC Turnbluckle | S32 | 2 |<img src="/images/components/structural/S32.jpg" width="25%">| 
-  | #6-32x1/4" Button Head Screw | B1 | 8 | <img src="/images/components/screws/B1.png" width="25%"> |
-  | #6-32x1.25" Button Head Screw | B7 | 8 |<img src="/images/components/screws/B7.png" width="25%"> |
-  | #4-40x1.25" Button Head Screw | B9 | 4 | <img src="/images/components/screws/B9.png" width="25%"> |
-  | #6-32 Hexnut | B11 | 8 | <img src="/images/components/screws/B11.png" width="25%"> |
-  | #4-40 Hexnut | B12 | 4 | <img src="/images/components/screws/B12.png" width="25%"> |
-  | #4-40 Washer | W2 | 24 | <img src="/images/components/washers/W2.png" width="25%"> | 
-  | Wrench Set | D1 | 1 | <img src="/images/components/tools/D1.png" width="25%"> |
-  | Allen Key Set | D2 | 1 | <img src="/images/components/tools/D2.png" width="25%"> |
+  | Single Pattern Bracket | S8 | 1 | <img src="/images/components/structural/S16.png" width="25%"> | #6-32x1.25" Button Head Screw | B7 | 8 |<img src="/images/components/screws/B7.png" width="25%"> |
+  | 0.5" Circular Clamping Hub | S13 | 1 | <img src="/images/components/structural/S13.png" width="25%">| #4-40x1.25" Button Head Screw | B9 | 4 | <img src="/images/components/screws/B9.png" width="25%"> |
+  | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 |<img src="/images/components/structural/S16B.png" width="25%">| #6-32 Hexnut | B11 | 8 | <img src="/images/components/screws/B11.png" width="25%"> |
+  | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | <img src="/images/components/structural/S18B.png" width="25%">| #4-40 Hexnut | B12 | 4 | <img src="/images/components/screws/B12.png" width="25%"> |
+  | 0.5" Bottom Bore Clamp | S20 | 2 | <img src="/images/components/structural/S20pngjpg" width="25%">| #4-40 Washer | W2 | 24 | <img src="/images/components/washers/W2.png" width="25%"> | 
+  | 5 Hole Aluminum Beam | S21 | 8 | <img src="/images/components/structural/S21.png" width="25%">| Wrench Set | D1 | 1 | <img src="/images/components/tools/D1.png" width="25%"> |
+  | RC Turnbluckle | S32 | 2 |<img src="/images/components/structural/S32.jpg" width="25%">|  Allen Key Set | D2 | 1 | <img src="/images/components/tools/D2.png" width="25%"> |
+  | #6-32x1/4" Button Head Screw | B1 | 8 | <img src="/images/components/screws/B1.png" width="25%"> | | | | | 
 
 ### 4.1 Build the Differential pivot block
 ### 4.1.1 
