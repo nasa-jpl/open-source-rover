@@ -118,8 +118,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
   | #6-32x1/4" Button Head Screw | B1 | 8 | <img src="/images/components/screws/B1.png" width="30%"> | | | | | 
 
 ### 4.1 Build the Differential pivot block
-### 4.1.1 
-  Build clamping hub assembly: Attach the the bottom bore clamping hubs S20 to the single pattern bracket S8 using screws B1. Then mount the 0.5” clamping hub S13 to the bottom of this assembly using B1 screws.
+### 4.1.1 Build clamping hub assembly
+  Attach the the bottom bore clamping hubs S20 to the single pattern bracket S8 using screws B1. Then mount the 0.5” clamping hub S13 to the bottom of this assembly using B1 screws.
 
    <br/><br/>
    
@@ -130,9 +130,9 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-### 4.1.2
+### 4.1.2 Differential Pivot:
 
-  Differential Pivot: Attach the turnbuckle S32 to the modified 13.5-inch aluminum rod S16B as shown using the 5-hole aluminum bars S21, washers W2, screws B7 and B9, hex nuts B11 and B12. The outermost screw is the #4 screw, the others are #6.
+   Attach the turnbuckle S32 to the modified 13.5-inch aluminum rod S16B as shown using the 5-hole aluminum bars S21, washers W2, screws B7 and B9, hex nuts B11 and B12. The outermost screw is the #4 screw, the others are #6.
 
    <br/><br/>
 
@@ -142,8 +142,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-### 4.1.3
-  Differential Pivot continued: Pass the 13.5inch rod through the clamping hub assembly, making sure to center it as much as possible. Then repeat step 2 for the other side of the differential pivot. If necessary, unscrew the turnbuckles (by twisting the middle) to insert the rods into place, then screw the turnbuckle back together.
+### 4.1.3 Differential Pivot continued
+ Pass the 13.5inch rod through the clamping hub assembly, making sure to center it as much as possible. Then repeat step 2 for the other side of the differential pivot. If necessary, unscrew the turnbuckles (by twisting the middle) to insert the rods into place, then screw the turnbuckle back together.
 
    <br/><br/>
 
@@ -153,8 +153,8 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
    <br/><br/>
 
-### 4.1.3
-  Differential Pivot Vertical rods: Repeat step 2 on each of the the 3 inch aluminum rods S18B. Finally, attach all the pieces of the turnbuckles together. Your differential pivot is now complete.
+### 4.1.3 Differential Pivot Vertical rods
+  Repeat step 2 on each of the the 3 inch aluminum rods S18B. Finally, attach all the pieces of the turnbuckles together. Your differential pivot is now complete.
 
    <br/><br/>
 
