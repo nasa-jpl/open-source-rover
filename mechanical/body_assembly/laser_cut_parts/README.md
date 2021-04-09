@@ -18,7 +18,7 @@ The laser cut replacements are approximately 1/8" thicker than the original alum
 
 ## Notes
 * *front\_plate.DXF* and *back_plate.DXF* can be cut from the same material as the top and bottom plates if desired. These plates should remain as 1/8" or 3 mm thick.
-* The holes to mount the head have beem moved forward slightly to allow for additional clearance between the head and the PCB.  
+* The holes to mount the head have been moved forward slightly to allow for additional clearance between the head and the PCB.  
 
 
 
