@@ -671,9 +671,8 @@ to install the rover software on the Raspberry Pi.
 | OSR Control Board      | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">             | 40 Pin Ribbon Cable    | E29     | 1       | <img src="../../images/components/electronics/E29.png" width="100">            |
 | Raspberry Pi 3B        | E21     | 1       | <img src="../../images/components/electronics/E21.png" width="100">            | USB to Micro USB Cable | E27     | 1       |            <img src="../../images/components/electronics/E27.png" width="100"> |
 
-| :exclamation: :exclamation: :exclamation: |
+| :exclamation: Only proceed with the following once you have successfully finished the installation of the rover code on your raspberry pi |
 |:---------------------------|
-| Only proceed with the following once you have successfully finished the installation of the rover code on your raspberry pi |
 
 #### 7.1.1 Attach RPi
 
