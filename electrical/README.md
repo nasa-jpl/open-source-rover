@@ -16,7 +16,7 @@ If you do wish to purchase these boards/items previous to the final release to h
 
 In here currently are just the gerber files necessary to order the boards in their current revision. Eventually I will upload the libraries/kicad files so everyone can make edits to them, but in order to just get information up here it will just be the gerbers at first. They can be found in [the PCB folder](/Electrical/PCB/).
 
-To order these boards we suggest that you order from [JLCPCB](https://jlcpcb.com/), this PCB fabrication company is quite inexpensive for this board area and has good turnaround time. Upload the .zip files individually and make sure the following settings are set:
+To order these boards we suggest that you order from [JLCPCB](https://jlcpcb.com/), this PCB fabrication company is quite inexpensive for this board size and has good turnaround time. Upload the .zip files individually and make sure the following settings are set:
 
   * Layers - 2
   * Dimension - 53 x 69 mm (arduino sheild) & 175 x 154 mm (roboclaw breakout) 
