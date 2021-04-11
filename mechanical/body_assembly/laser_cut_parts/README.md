@@ -8,6 +8,15 @@ These plates are the same size as the originals, so everything else is the same 
 ## Cutting the Plates
 The plates should be laser-cut using 1/4" or 5- to 6-mm plywood or MDF. Acrylic is likely to be too brittle for this purpose. Online services such as Sculpteo can do the laser cutting if needed.
 
+### Plywood or MDF?
+It really doesn't matter if you use plywood or MDF, although there are slight advantages to each.
+
+MDF (medium density fiber-board) from online services such as Sculpteo is an easy choice. It is a bit cheaper than plywood and comes in multiple colors for an additional cost. If buying MDF from Sculpteo, choose 6mm for the thickness. 
+
+Sourcing MDF requires care if you are cutting the plates yourself. Some MDF has a high formaldehyde content, which can be toxic. If you are cutting the plates yourself, a high-quality plywood is probably your best choice. 
+
+Plywood might cost a bit more from online services, but the cost increase should be minor. Plywood has advantages if you are cutting the plates locally due increased availability and to the possiblity of formaldehyde in some MDF products. If using plywood from Sculpteo, choose 5mm for the thickness in either Okoume or Poplar, depending on the color you want. 
+
 ## Installing the Plates - Changes to Screw Lengths
 The laser cut replacements are approximately 1/8" thicker than the original aluminum plates, so all screw sizes need to be increased by 1/8" to compensate.
 
