@@ -17,13 +17,19 @@ Sourcing MDF requires care if you are cutting the plates yourself. Some MDF has 
 
 Plywood might cost a bit more from online services, but the cost increase should be minor. Plywood has advantages if you are cutting the plates locally due increased availability and to the possiblity of formaldehyde in some MDF products. If using plywood from Sculpteo, choose 5mm for the thickness in either Okoume or Poplar, depending on the color you want. 
 
-## Installing the Plates - Changes to Screw Lengths
+## Installing the Plates
+
+### Changes to Screw Lengths
 The laser cut replacements are approximately 1/8" thicker than the original aluminum plates, so all screw sizes need to be increased by 1/8" to compensate.
 
 * Use 3/8" screws (B2) instead of 1/4" screws (B1) to attach the plates to the side mounts, 
 * Use 1.25" screws (B7) instead of the 1" screws (B6) when assembling the [differential pivot block](../differential_pivot/README.md>). 
 
 **Use #6 washers (W1) with the 3/8" screws when attaching the side mounts to prevent the screws from digging into the plywood or MDF.**
+
+### Extra Side Mounts
+
+The laser cut top and bottom plates have holes for two extra side mounts on each plate. These extra side mounts are intended to compensate for any warping in the plywood or MDF. Their use is optional.
 
 ## Notes
 * *front\_plate.DXF* and *back_plate.DXF* can be cut from the same material as the top and bottom plates if desired. These plates should remain as 1/8" or 3 mm thick.
