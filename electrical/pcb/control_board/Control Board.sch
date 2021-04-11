@@ -3211,4 +3211,6 @@ Wire Wire Line
 	14500 3550 14650 3550
 Text Label 14500 3550 0    30   ~ 0
 RC3EN2B
+Text Notes 4250 6900 0    50   ~ 0
+Adafruit INA260 v+/-
 $EndSCHEMATC
