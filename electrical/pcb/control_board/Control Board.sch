@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Control-Board-rescue:ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J17
+L JPL_Robotics_Lib:ED2744-ND J17
 U 1 1 5C1C977C
 P 12150 2000
 F 0 "J17" H 12127 2351 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 11950 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J1
+L JPL_Robotics_Lib:ED2627-ND J1
 U 1 1 5C1D38D8
 P 8100 2100
 F 0 "J1" H 8250 2650 39  0000 C CNN
@@ -44,7 +44,7 @@ RC1M2A
 Text Label 8200 1800 0    30   ~ 0
 RC1M2B
 $Comp
-L Control-Board-rescue:ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J2
+L JPL_Robotics_Lib:ED2627-ND J2
 U 1 1 5C1D3CC3
 P 8100 2450
 F 0 "J2" H 8250 3000 39  0000 L CNN
@@ -71,7 +71,7 @@ RC1EN1A
 Text Label 11650 1950 0    30   ~ 0
 RC1EN1B
 $Comp
-L Control-Board-rescue:ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J18
+L JPL_Robotics_Lib:ED2744-ND J18
 U 1 1 5C1D910F
 P 12150 2350
 F 0 "J18" H 12127 2701 50  0000 L CNN
@@ -90,7 +90,7 @@ RC1EN2A
 Text Label 11650 2300 0    30   ~ 0
 RC1EN2B
 $Comp
-L Control-Board-rescue:ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J3
+L JPL_Robotics_Lib:ED2627-ND J3
 U 1 1 5C1DDF02
 P 8100 2800
 F 0 "J3" H 8250 3350 39  0000 L CNN
@@ -109,7 +109,7 @@ RC3M2A
 Text Label 8200 2500 0    30   ~ 0
 RC3M2B
 $Comp
-L Control-Board-rescue:ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J4
+L JPL_Robotics_Lib:ED2627-ND J4
 U 1 1 5C1DE3E6
 P 8100 3150
 F 0 "J4" H 8250 3700 39  0000 L CNN
@@ -126,7 +126,7 @@ RC4M2A
 Text Label 8200 2850 0    30   ~ 0
 RC4M2B
 $Comp
-L Control-Board-rescue:ED2627-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J5
+L JPL_Robotics_Lib:ED2627-ND J5
 U 1 1 5C1DE8CB
 P 8100 3500
 F 0 "J5" H 8250 4050 39  0000 L CNN
@@ -157,7 +157,7 @@ Wire Wire Line
 Wire Wire Line
 	11650 2300 11850 2300
 $Comp
-L Control-Board-rescue:ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J19
+L JPL_Robotics_Lib:ED2744-ND J19
 U 1 1 5C1FC5EE
 P 12150 2850
 F 0 "J19" H 12127 3201 50  0000 L CNN
@@ -176,7 +176,7 @@ RC2EN1A
 Text Label 11650 2800 0    30   ~ 0
 RC2EN1B
 $Comp
-L Control-Board-rescue:ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J20
+L JPL_Robotics_Lib:ED2744-ND J20
 U 1 1 5C1FC5FB
 P 12150 3200
 F 0 "J20" H 12127 3551 50  0000 L CNN
@@ -211,7 +211,7 @@ Wire Wire Line
 Wire Wire Line
 	11650 3150 11850 3150
 $Comp
-L Control-Board-rescue:ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J21
+L JPL_Robotics_Lib:ED2744-ND J21
 U 1 1 5C1FDF7A
 P 13550 2000
 F 0 "J21" H 13527 2351 50  0000 L CNN
@@ -230,7 +230,7 @@ RC3EN1A
 Text Label 13050 1950 0    30   ~ 0
 RC3EN1B
 $Comp
-L Control-Board-rescue:ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J22
+L JPL_Robotics_Lib:ED2744-ND J22
 U 1 1 5C1FDF87
 P 13550 2350
 F 0 "J22" H 13527 2701 50  0000 L CNN
@@ -265,7 +265,7 @@ Wire Wire Line
 Wire Wire Line
 	13050 2300 13250 2300
 $Comp
-L Control-Board-rescue:ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J23
+L JPL_Robotics_Lib:ED2744-ND J23
 U 1 1 5C2002D6
 P 13550 3050
 F 0 "J23" H 13527 3401 50  0000 L CNN
@@ -282,7 +282,7 @@ RC4M1B
 Text Label 12950 2950 0    30   ~ 0
 RC4EN1A_RAW
 $Comp
-L Control-Board-rescue:ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J24
+L JPL_Robotics_Lib:ED2744-ND J24
 U 1 1 5C2002E3
 P 13550 3400
 F 0 "J24" H 13527 3751 50  0000 L CNN
@@ -311,7 +311,7 @@ Wire Wire Line
 Wire Wire Line
 	13050 3350 13250 3350
 $Comp
-L Control-Board-rescue:ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J25
+L JPL_Robotics_Lib:ED2744-ND J25
 U 1 1 5C20319E
 P 14850 2100
 F 0 "J25" H 14827 2451 50  0000 L CNN
@@ -328,7 +328,7 @@ RC5M1B
 Text Label 14250 2000 0    30   ~ 0
 RC5EN1A_RAW
 $Comp
-L Control-Board-rescue:ED2744-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J26
+L JPL_Robotics_Lib:ED2744-ND J26
 U 1 1 5C2031AB
 P 14850 2450
 F 0 "J26" H 14827 2801 50  0000 L CNN
@@ -357,7 +357,7 @@ Wire Wire Line
 Wire Wire Line
 	14350 2400 14550 2400
 $Comp
-L Control-Board-rescue:S9175-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J6
+L JPL_Robotics_Lib:S9175-ND J6
 U 1 1 5C20DA5C
 P 1300 6600
 F 0 "J6" H 1900 7915 50  0000 C CNN
@@ -379,7 +379,7 @@ F 3 "~" H 850 6600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Control-Board-rescue:S7038-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J9
+L JPL_Robotics_Lib:S7038-ND J9
 U 1 1 5C216499
 P 9150 6450
 F 0 "J9" V 9500 6700 50  0000 L CNN
@@ -431,7 +431,7 @@ $EndComp
 Text Label 850  6800 3    30   ~ 0
 RXD
 $Comp
-L Control-Board-rescue:LM358-N-JPL_Robotics_Lib-Monolithic-Board-rescue U1
+L JPL_Robotics_Lib:LM358-N U1
 U 1 1 5C42F3B4
 P 13400 7000
 F 0 "U1" H 13575 7568 30  0000 C CNN
@@ -570,7 +570,7 @@ Connection ~ 13200 6600
 Text Label 13850 6700 0    30   ~ 0
 RC4EN2A
 $Comp
-L Control-Board-rescue:LM358-N-JPL_Robotics_Lib-Monolithic-Board-rescue U2
+L JPL_Robotics_Lib:LM358-N U2
 U 1 1 5C5E7B82
 P 13400 8200
 F 0 "U2" H 13575 8768 30  0000 C CNN
@@ -694,7 +694,7 @@ Connection ~ 13200 7800
 Text Label 13850 7900 0    30   ~ 0
 RC5EN2A
 $Comp
-L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J15
+L JPL_Robotics_Lib:ED2580-ND J15
 U 1 1 5C5FB40D
 P 4550 5950
 F 0 "J15" V 4450 6100 30  0000 R CNN
@@ -777,7 +777,7 @@ $EndComp
 Wire Wire Line
 	850  6750 850  6800
 $Comp
-L Control-Board-rescue:Mounting_Holes-JPL_Robotics_Lib-Monolithic-Board-rescue M1
+L JPL_Robotics_Lib:Mounting_Holes M1
 U 1 1 5C8D5DB2
 P 750 10200
 F 0 "M1" V 1180 10379 30  0000 L CNN
@@ -788,7 +788,7 @@ F 3 "" H 930 10380 30  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Control-Board-rescue:RoboClaw-JPL_Robotics_Lib-Monolithic-Board-rescue RC1
+L JPL_Robotics_Lib:RoboClaw RC1
 U 1 1 5C98E834
 P 2100 2300
 F 0 "RC1" H 2350 3218 30  0000 C CNN
@@ -853,7 +853,7 @@ TXD
 Text Label 1750 2100 0    30   ~ 0
 RXD
 $Comp
-L Control-Board-rescue:RoboClaw-JPL_Robotics_Lib-Monolithic-Board-rescue RC3
+L JPL_Robotics_Lib:RoboClaw RC3
 U 1 1 5CA49659
 P 3450 2300
 F 0 "RC3" H 3700 3218 30  0000 C CNN
@@ -918,7 +918,7 @@ TXD
 Text Label 3100 2100 0    30   ~ 0
 RXD
 $Comp
-L Control-Board-rescue:RoboClaw-JPL_Robotics_Lib-Monolithic-Board-rescue RC5
+L JPL_Robotics_Lib:RoboClaw RC5
 U 1 1 5CA5531B
 P 4850 2300
 F 0 "RC5" H 5100 3218 30  0000 C CNN
@@ -983,7 +983,7 @@ TXD
 Text Label 4500 2100 0    30   ~ 0
 RXD
 $Comp
-L Control-Board-rescue:RoboClaw-JPL_Robotics_Lib-Monolithic-Board-rescue RC2
+L JPL_Robotics_Lib:RoboClaw RC2
 U 1 1 5CA6278B
 P 2550 3850
 F 0 "RC2" H 2800 4768 30  0000 C CNN
@@ -1040,7 +1040,7 @@ TXD
 Text Label 2200 3650 0    30   ~ 0
 RXD
 $Comp
-L Control-Board-rescue:RoboClaw-JPL_Robotics_Lib-Monolithic-Board-rescue RC4
+L JPL_Robotics_Lib:RoboClaw RC4
 U 1 1 5CA715BC
 P 4800 3800
 F 0 "RC4" H 5050 4718 30  0000 C CNN
@@ -1239,7 +1239,7 @@ GPIO20
 Text Label 2550 6450 2    30   ~ 0
 GPIO21
 $Comp
-L Control-Board-rescue:S9175-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J7
+L JPL_Robotics_Lib:S9175-ND J7
 U 1 1 5CC617F0
 P 1350 7900
 F 0 "J7" H 1950 9215 50  0000 C CNN
@@ -1437,7 +1437,7 @@ Connection ~ 5600 6850
 Wire Wire Line
 	5600 6850 5600 6950
 $Comp
-L Control-Board-rescue:#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue MH1
+L JPL_Robotics_Lib:#6THRU-HOLE MH1
 U 1 1 5C29B1A8
 P 1600 10250
 F 0 "MH1" H 1731 10250 30  0000 L CNN
@@ -1448,7 +1448,7 @@ F 3 "" H 1600 10340 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue MH2
+L JPL_Robotics_Lib:#6THRU-HOLE MH2
 U 1 1 5C29B335
 P 1600 10400
 F 0 "MH2" H 1731 10400 30  0000 L CNN
@@ -1459,7 +1459,7 @@ F 3 "" H 1600 10490 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue MH3
+L JPL_Robotics_Lib:#6THRU-HOLE MH3
 U 1 1 5C2C0841
 P 1600 10550
 F 0 "MH3" H 1731 10550 30  0000 L CNN
@@ -1470,7 +1470,7 @@ F 3 "" H 1600 10640 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:#6THRU-HOLE-JPL_Robotics_Lib-Monolithic-Board-rescue MH4
+L JPL_Robotics_Lib:#6THRU-HOLE MH4
 U 1 1 5C2E5D4E
 P 1600 10700
 F 0 "MH4" H 1731 10700 30  0000 L CNN
@@ -1481,7 +1481,7 @@ F 3 "" H 1600 10790 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T3
+L JPL_Robotics_Lib:test_point T3
 U 1 1 5C331E50
 P 6150 7900
 F 0 "T3" V 6200 7850 50  0000 L CNN
@@ -1492,7 +1492,7 @@ F 3 "" H 6100 7850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T4
+L JPL_Robotics_Lib:test_point T4
 U 1 1 5C3ED8ED
 P 9200 6150
 F 0 "T4" V 9250 6100 50  0000 L CNN
@@ -1503,7 +1503,7 @@ F 3 "" H 9150 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T2
+L JPL_Robotics_Lib:test_point T2
 U 1 1 5C412E03
 P 6900 6650
 F 0 "T2" V 6950 6600 50  0000 L CNN
@@ -1514,7 +1514,7 @@ F 3 "" H 6850 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T1
+L JPL_Robotics_Lib:test_point T1
 U 1 1 5C438314
 P 5350 6700
 F 0 "T1" V 5400 6650 50  0000 L CNN
@@ -1525,7 +1525,7 @@ F 3 "" H 5300 6650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T9
+L JPL_Robotics_Lib:test_point T9
 U 1 1 5C45D826
 P 12950 6350
 F 0 "T9" V 13000 6300 50  0000 L CNN
@@ -1536,7 +1536,7 @@ F 3 "" H 12900 6300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T11
+L JPL_Robotics_Lib:test_point T11
 U 1 1 5C482D39
 P 13150 6350
 F 0 "T11" V 13200 6300 50  0000 L CNN
@@ -1561,7 +1561,7 @@ Connection ~ 13200 6500
 Wire Wire Line
 	13200 6500 13200 6450
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T20
+L JPL_Robotics_Lib:test_point T20
 U 1 1 5C72CE72
 P 14550 6350
 F 0 "T20" V 14600 6300 50  0000 L CNN
@@ -1577,7 +1577,7 @@ Wire Wire Line
 	14200 6500 14200 6450
 Connection ~ 14200 6500
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T7
+L JPL_Robotics_Lib:test_point T7
 U 1 1 5C7A0C73
 P 12750 6700
 F 0 "T7" V 12800 6650 50  0000 L CNN
@@ -1588,7 +1588,7 @@ F 3 "" H 12700 6650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T18
+L JPL_Robotics_Lib:test_point T18
 U 1 1 5C7C77B3
 P 14500 6750
 F 0 "T18" V 14550 6700 50  0000 L CNN
@@ -1603,7 +1603,7 @@ Wire Wire Line
 Wire Wire Line
 	12950 6850 12750 6850
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T14
+L JPL_Robotics_Lib:test_point T14
 U 1 1 5C83C337
 P 13950 7100
 F 0 "T14" V 14000 7050 50  0000 L CNN
@@ -1614,7 +1614,7 @@ F 3 "" H 13900 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T16
+L JPL_Robotics_Lib:test_point T16
 U 1 1 5C863510
 P 14100 6650
 F 0 "T16" V 14150 6600 50  0000 L CNN
@@ -1633,7 +1633,7 @@ Connection ~ 13600 7250
 Wire Wire Line
 	13850 6950 14200 6950
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T10
+L JPL_Robotics_Lib:test_point T10
 U 1 1 5C950487
 P 12950 7550
 F 0 "T10" V 13000 7500 50  0000 L CNN
@@ -1649,7 +1649,7 @@ Wire Wire Line
 	13600 8450 13950 8450
 Connection ~ 13600 8450
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T12
+L JPL_Robotics_Lib:test_point T12
 U 1 1 5C9EE3A4
 P 13150 7600
 F 0 "T12" V 13200 7550 50  0000 L CNN
@@ -1660,7 +1660,7 @@ F 3 "" H 13100 7550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T13
+L JPL_Robotics_Lib:test_point T13
 U 1 1 5CA156A5
 P 13900 7600
 F 0 "T13" V 13950 7550 50  0000 L CNN
@@ -1671,7 +1671,7 @@ F 3 "" H 13850 7550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T21
+L JPL_Robotics_Lib:test_point T21
 U 1 1 5CA3C9A1
 P 14550 7550
 F 0 "T21" V 14600 7500 50  0000 L CNN
@@ -1687,7 +1687,7 @@ Wire Wire Line
 	14200 7700 14200 7650
 Connection ~ 14200 7700
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T19
+L JPL_Robotics_Lib:test_point T19
 U 1 1 5CAB2CDC
 P 14500 8000
 F 0 "T19" V 14550 7950 50  0000 L CNN
@@ -1698,7 +1698,7 @@ F 3 "" H 14450 7950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T8
+L JPL_Robotics_Lib:test_point T8
 U 1 1 5CADA3D0
 P 12750 7900
 F 0 "T8" V 12800 7850 50  0000 L CNN
@@ -1711,7 +1711,7 @@ $EndComp
 Wire Wire Line
 	12750 8050 12950 8050
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T17
+L JPL_Robotics_Lib:test_point T17
 U 1 1 5CB511FD
 P 14100 7850
 F 0 "T17" V 14150 7800 50  0000 L CNN
@@ -1727,7 +1727,7 @@ Wire Wire Line
 	14100 8050 14100 8000
 Connection ~ 14000 8050
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T15
+L JPL_Robotics_Lib:test_point T15
 U 1 1 5CBA1043
 P 13950 8250
 F 0 "T15" V 14000 8200 50  0000 L CNN
@@ -2173,7 +2173,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 2050 8550 2050
 $Comp
-L Control-Board-rescue:S7038-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J11
+L JPL_Robotics_Lib:S7038-ND J11
 U 1 1 5C66C569
 P 9900 6450
 F 0 "J11" V 10250 6700 50  0000 L CNN
@@ -2231,7 +2231,7 @@ F 3 "" H 9800 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T5
+L JPL_Robotics_Lib:test_point T5
 U 1 1 5C8D22CC
 P 10050 6150
 F 0 "T5" V 10100 6100 50  0000 L CNN
@@ -2279,7 +2279,7 @@ $EndComp
 Wire Wire Line
 	7200 8450 7200 8600
 $Comp
-L Control-Board-rescue:test_point-JPL_Robotics_Lib-Monolithic-Board-rescue T6
+L JPL_Robotics_Lib:test_point T6
 U 1 1 5CADEB30
 P 10200 6350
 F 0 "T6" V 10250 6300 50  0000 L CNN
@@ -2295,7 +2295,7 @@ Wire Wire Line
 	10050 6500 10200 6500
 Connection ~ 10050 6500
 $Comp
-L Control-Board-rescue:6posheader-JPL_Robotics_Lib-Monolithic-Board-rescue J8
+L JPL_Robotics_Lib:6posheader J8
 U 1 1 5CBB3432
 P 1250 9150
 F 0 "J8" H 1356 9573 50  0000 C CNN
@@ -2318,7 +2318,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 9100 1700 9100
 $Comp
-L Control-Board-rescue:6posheader-JPL_Robotics_Lib-Monolithic-Board-rescue J10
+L JPL_Robotics_Lib:6posheader J10
 U 1 1 5CD65A72
 P 1950 9150
 F 0 "J10" H 2056 9573 50  0000 C CNN
@@ -2600,7 +2600,7 @@ F 3 "" H 14000 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:ED2989-ND-USB-JPL_Robotics_Lib-Monolithic-Board-rescue J14
+L JPL_Robotics_Lib:ED2989-ND-USB J14
 U 1 1 5CF080B1
 P 4300 8600
 F 0 "J14" H 4778 8675 50  0000 L CNN
@@ -2617,7 +2617,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 8600 4350 8600
 $Comp
-L Control-Board-rescue:ED1501-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J13
+L JPL_Robotics_Lib:ED1501-ND J13
 U 1 1 5D149987
 P 6800 8700
 F 0 "J13" H 6906 9015 50  0000 C CNN
@@ -2703,11 +2703,11 @@ Connection ~ 6900 6850
 Wire Wire Line
 	6900 6850 7000 6850
 $Comp
-L Control-Board-rescue:rover_silkscreen-Monolithic-Board-rescue y1
+L JPL_Robotics_Lib:rover_silkscreen y1
 U 1 1 5D3E48F3
 P 750 11050
-F 0 "y1" H 928 11125 50  0001 L CNN
-F 1 "rover_silkscreen" H 928 11080 50  0001 L CNN
+F 0 "y1" H 928 11125 50  0000 L CNN
+F 1 "rover_silkscreen" H 928 11080 50  0000 L CNN
 F 2 "JPL Robotics:rover_image" H 600 11150 50  0001 C CNN
 F 3 "" H 600 11150 50  0001 C CNN
 	1    750  11050
@@ -2720,7 +2720,7 @@ Connection ~ 5350 6850
 Text Label 6850 8050 0    50   ~ 0
 +BATT
 $Comp
-L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J28
+L JPL_Robotics_Lib:ED2580-ND J28
 U 1 1 5EF81C85
 P 7350 7700
 F 0 "J28" V 7250 7850 30  0000 R CNN
@@ -2753,7 +2753,7 @@ GND
 Text Label 1250 5700 0    30   ~ 0
 GND
 $Comp
-L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J29
+L JPL_Robotics_Lib:ED2580-ND J29
 U 1 1 5F19E0D2
 P 5200 5950
 F 0 "J29" V 5100 6100 30  0000 R CNN
@@ -2764,7 +2764,7 @@ F 3 "" H 5200 6150 30  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J30
+L JPL_Robotics_Lib:ED2580-ND J30
 U 1 1 5F1DDA97
 P 6650 5950
 F 0 "J30" V 6550 6100 30  0000 R CNN
@@ -2808,7 +2808,7 @@ Wire Wire Line
 Text Notes 5750 5750 0    50   ~ 0
 Switch
 $Comp
-L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J16
+L JPL_Robotics_Lib:ED2580-ND J16
 U 1 1 5C47E476
 P 5950 5950
 F 0 "J16" V 5850 6100 30  0000 R CNN
@@ -2859,7 +2859,7 @@ MMDC+
 Text Label 5700 7400 0    30   ~ 0
 SWIN
 $Comp
-L Control-Board-rescue:ED2580-ND-JPL_Robotics_Lib-Monolithic-Board-rescue J31
+L JPL_Robotics_Lib:ED2580-ND J31
 U 1 1 5F1E1CAE
 P 5050 6700
 F 0 "J31" V 4950 6850 30  0000 R CNN
