@@ -303,13 +303,9 @@ Wire Wire Line
 Wire Wire Line
 	13050 2800 13250 2800
 Wire Wire Line
-	13050 3000 13250 3000
-Wire Wire Line
 	13050 3100 13250 3100
 Wire Wire Line
 	13050 3150 13250 3150
-Wire Wire Line
-	13050 3350 13250 3350
 $Comp
 L JPL_Robotics_Lib:ED2744-ND J25
 U 1 1 5C20319E
@@ -349,24 +345,9 @@ Wire Wire Line
 Wire Wire Line
 	14350 1850 14550 1850
 Wire Wire Line
-	14350 2050 14550 2050
-Wire Wire Line
 	14350 2150 14550 2150
 Wire Wire Line
 	14350 2200 14550 2200
-Wire Wire Line
-	14350 2400 14550 2400
-$Comp
-L JPL_Robotics_Lib:S9175-ND J6
-U 1 1 5C20DA5C
-P 1300 6600
-F 0 "J6" H 1900 7915 50  0000 C CNN
-F 1 "S9175-ND" H 1900 7824 50  0000 C CNN
-F 2 "JPL Robotics:S9175-ND" H 1550 7850 50  0001 C CNN
-F 3 "" H 1550 7850 50  0001 C CNN
-	1    1300 6600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R1
 U 1 1 5C20DD67
@@ -378,19 +359,6 @@ F 3 "~" H 850 6600 50  0001 C CNN
 	1    850  6600
 	-1   0    0    1   
 $EndComp
-$Comp
-L JPL_Robotics_Lib:S7038-ND J9
-U 1 1 5C216499
-P 9150 6450
-F 0 "J9" V 9500 6700 50  0000 L CNN
-F 1 "S7038-ND" H 9427 6605 50  0001 L CNN
-F 2 "JPL Robotics:S7038-ND" H 9300 6850 50  0001 C CNN
-F 3 "" H 9300 6850 50  0001 C CNN
-	1    9150 6450
-	0    -1   1    0   
-$EndComp
-Text Label 8850 6550 1    30   ~ 0
-5REG_EN
 $Comp
 L power:+5V #PWR07
 U 1 1 5C21E475
@@ -1028,10 +996,6 @@ RC4EN2A
 Wire Wire Line
 	3150 3100 3450 3100
 Wire Wire Line
-	5450 1700 5700 1700
-Wire Wire Line
-	5450 1750 5700 1750
-Wire Wire Line
 	2450 3600 2200 3600
 Wire Wire Line
 	2450 3650 2200 3650
@@ -1085,10 +1049,6 @@ RC5EN2A
 Wire Wire Line
 	5400 3050 5700 3050
 Wire Wire Line
-	5400 3200 5650 3200
-Wire Wire Line
-	5400 3250 5650 3250
-Wire Wire Line
 	4700 3550 4450 3550
 Wire Wire Line
 	4700 3600 4450 3600
@@ -1097,41 +1057,11 @@ TXD
 Text Label 4450 3600 0    30   ~ 0
 RXD
 Wire Wire Line
-	1400 5550 1250 5550
-Wire Wire Line
-	1400 5600 1250 5600
-Wire Wire Line
-	1400 5650 1250 5650
-Wire Wire Line
 	1400 5700 1250 5700
-Wire Wire Line
-	1400 5750 1250 5750
-Wire Wire Line
-	1400 5800 1250 5800
-Wire Wire Line
-	1400 5850 1250 5850
 Wire Wire Line
 	1400 5900 1250 5900
 Wire Wire Line
-	1400 5950 1250 5950
-Wire Wire Line
-	1400 6000 1250 6000
-Wire Wire Line
-	1400 6050 1250 6050
-Wire Wire Line
 	1400 6100 1250 6100
-Wire Wire Line
-	1400 6150 1250 6150
-Wire Wire Line
-	1400 6200 1250 6200
-Wire Wire Line
-	1400 6250 1250 6250
-Wire Wire Line
-	1400 6300 1250 6300
-Wire Wire Line
-	1400 6350 1250 6350
-Wire Wire Line
-	1400 6400 1250 6400
 Wire Wire Line
 	1400 6450 1250 6450
 Wire Wire Line
@@ -1145,69 +1075,19 @@ Wire Wire Line
 Wire Wire Line
 	2550 5700 2400 5700
 Wire Wire Line
-	2550 5750 2400 5750
-Wire Wire Line
 	2550 5800 2400 5800
 Wire Wire Line
 	2550 5850 2400 5850
 Wire Wire Line
-	2550 5900 2400 5900
-Wire Wire Line
 	2550 5950 2400 5950
-Wire Wire Line
-	2550 6000 2400 6000
-Wire Wire Line
-	2550 6050 2400 6050
-Wire Wire Line
-	2550 6100 2400 6100
-Wire Wire Line
-	2550 6150 2400 6150
 Wire Wire Line
 	2550 6200 2400 6200
 Wire Wire Line
-	2550 6250 2400 6250
-Wire Wire Line
 	2550 6300 2400 6300
-Wire Wire Line
-	2550 6350 2400 6350
-Wire Wire Line
-	2550 6400 2400 6400
-Wire Wire Line
-	2550 6450 2400 6450
 Text Label 1250 5500 0    30   ~ 0
 3.3V
-Text Label 1250 5550 0    30   ~ 0
-SDA1
-Text Label 1250 5600 0    30   ~ 0
-SCL1
-Text Label 1250 5650 0    30   ~ 0
-GPIO_CLK
-Text Label 1250 5750 0    30   ~ 0
-GPIO_GEN0
-Text Label 1250 5800 0    30   ~ 0
-GPIO_GEN2
-Text Label 1250 5850 0    30   ~ 0
-GPIO_GEN3
 Text Label 1250 5900 0    30   ~ 0
 3.3V
-Text Label 1250 5950 0    30   ~ 0
-SPI_MOSI
-Text Label 1250 6000 0    30   ~ 0
-SPI_MISO
-Text Label 1250 6050 0    30   ~ 0
-SPI_CLK
-Text Label 1250 6150 0    30   ~ 0
-I2C_ID1
-Text Label 1250 6200 0    30   ~ 0
-GPIO05
-Text Label 1250 6250 0    30   ~ 0
-GPIO06
-Text Label 1250 6300 0    30   ~ 0
-GPIO13
-Text Label 1250 6350 0    30   ~ 0
-GPIO19
-Text Label 1250 6400 0    30   ~ 0
-GPIO26
 Text Label 2550 5500 2    30   ~ 0
 +5V
 Text Label 2550 5550 2    30   ~ 0
@@ -1216,34 +1096,14 @@ Text Label 2550 5650 2    30   ~ 0
 TXD
 Text Label 2550 5700 2    30   ~ 0
 RXD
-Text Label 2550 5750 2    30   ~ 0
-GPIO_GEN1
 Text Label 2550 5850 2    30   ~ 0
 E_STOP
-Text Label 2550 5900 2    30   ~ 0
-GPIO_GEN5
-Text Label 2550 6000 2    30   ~ 0
-GPIO_GEN6
-Text Label 2550 6050 2    30   ~ 0
-SPI_CEO_N
-Text Label 2550 6100 2    30   ~ 0
-GPI_CE1_N
-Text Label 2550 6150 2    30   ~ 0
-I2C_ID2
-Text Label 2550 6250 2    30   ~ 0
-GPIO12
-Text Label 2550 6350 2    30   ~ 0
-GPIO16
-Text Label 2550 6400 2    30   ~ 0
-GPIO20
-Text Label 2550 6450 2    30   ~ 0
-GPIO21
 $Comp
-L JPL_Robotics_Lib:S9175-ND J7
+L JPL_Robotics_Lib:S9175-ND_rpi_breakout J7
 U 1 1 5CC617F0
 P 1350 7900
 F 0 "J7" H 1950 9215 50  0000 C CNN
-F 1 "S9175-ND" H 1950 9124 50  0000 C CNN
+F 1 "S9175-ND_rpi_breakout" H 1950 9124 50  0000 C CNN
 F 2 "JPL Robotics:S9175-ND" H 1600 9150 50  0001 C CNN
 F 3 "" H 1600 9150 50  0001 C CNN
 	1    1350 7900
@@ -1252,41 +1112,11 @@ $EndComp
 Wire Wire Line
 	1450 6800 1300 6800
 Wire Wire Line
-	1450 6850 1300 6850
-Wire Wire Line
-	1450 6900 1300 6900
-Wire Wire Line
-	1450 6950 1300 6950
-Wire Wire Line
 	1450 7000 1300 7000
-Wire Wire Line
-	1450 7050 1300 7050
-Wire Wire Line
-	1450 7100 1300 7100
-Wire Wire Line
-	1450 7150 1300 7150
 Wire Wire Line
 	1450 7200 1300 7200
 Wire Wire Line
-	1450 7250 1300 7250
-Wire Wire Line
-	1450 7300 1300 7300
-Wire Wire Line
-	1450 7350 1300 7350
-Wire Wire Line
 	1450 7400 1300 7400
-Wire Wire Line
-	1450 7450 1300 7450
-Wire Wire Line
-	1450 7500 1300 7500
-Wire Wire Line
-	1450 7550 1300 7550
-Wire Wire Line
-	1450 7600 1300 7600
-Wire Wire Line
-	1450 7650 1300 7650
-Wire Wire Line
-	1450 7700 1300 7700
 Wire Wire Line
 	1450 7750 1300 7750
 Wire Wire Line
@@ -1300,73 +1130,21 @@ Wire Wire Line
 Wire Wire Line
 	2600 7000 2450 7000
 Wire Wire Line
-	2600 7050 2450 7050
-Wire Wire Line
 	2600 7100 2450 7100
-Wire Wire Line
-	2600 7150 2450 7150
-Wire Wire Line
-	2600 7200 2450 7200
 Wire Wire Line
 	2600 7250 2450 7250
 Wire Wire Line
-	2600 7300 2450 7300
-Wire Wire Line
-	2600 7350 2450 7350
-Wire Wire Line
-	2600 7400 2450 7400
-Wire Wire Line
-	2600 7450 2450 7450
-Wire Wire Line
 	2600 7500 2450 7500
 Wire Wire Line
-	2600 7550 2450 7550
-Wire Wire Line
 	2600 7600 2450 7600
-Wire Wire Line
-	2600 7650 2450 7650
-Wire Wire Line
-	2600 7700 2450 7700
-Wire Wire Line
-	2600 7750 2450 7750
 Text Label 1300 6800 0    30   ~ 0
 3.3V
-Text Label 1300 6850 0    30   ~ 0
-SDA1
-Text Label 1300 6900 0    30   ~ 0
-SCL1
-Text Label 1300 6950 0    30   ~ 0
-GPIO_CLK
 Text Label 1300 7000 0    30   ~ 0
 GND
-Text Label 1300 7050 0    30   ~ 0
-GPIO_GEN0
-Text Label 1300 7100 0    30   ~ 0
-GPIO_GEN2
-Text Label 1300 7150 0    30   ~ 0
-GPIO_GEN3
 Text Label 1300 7200 0    30   ~ 0
 3.3V
-Text Label 1300 7250 0    30   ~ 0
-SPI_MOSI
-Text Label 1300 7300 0    30   ~ 0
-SPI_MISO
-Text Label 1300 7350 0    30   ~ 0
-SPI_CLK
 Text Label 1300 7400 0    30   ~ 0
 GND
-Text Label 1300 7450 0    30   ~ 0
-I2C_ID1
-Text Label 1300 7500 0    30   ~ 0
-GPIO05
-Text Label 1300 7550 0    30   ~ 0
-GPIO06
-Text Label 1300 7600 0    30   ~ 0
-GPIO13
-Text Label 1300 7650 0    30   ~ 0
-GPIO19
-Text Label 1300 7700 0    30   ~ 0
-GPIO26
 Text Label 1300 7750 0    30   ~ 0
 GND
 Text Label 2600 6800 2    30   ~ 0
@@ -1379,34 +1157,14 @@ Text Label 2600 6950 2    30   ~ 0
 TXD
 Text Label 2600 7000 2    30   ~ 0
 RXD
-Text Label 2600 7050 2    30   ~ 0
-GPIO_GEN1
 Text Label 2600 7100 2    30   ~ 0
 GND
-Text Label 2600 7200 2    30   ~ 0
-GPIO_GEN5
 Text Label 2600 7250 2    30   ~ 0
 GND
-Text Label 2600 7300 2    30   ~ 0
-GPIO_GEN6
-Text Label 2600 7350 2    30   ~ 0
-SPI_CEO_N
-Text Label 2600 7400 2    30   ~ 0
-GPI_CE1_N
-Text Label 2600 7450 2    30   ~ 0
-I2C_ID2
 Text Label 2600 7500 2    30   ~ 0
 GND
-Text Label 2600 7550 2    30   ~ 0
-GPIO12
 Text Label 2600 7600 2    30   ~ 0
 GND
-Text Label 2600 7650 2    30   ~ 0
-GPIO16
-Text Label 2600 7700 2    30   ~ 0
-GPIO20
-Text Label 2600 7750 2    30   ~ 0
-GPIO21
 $Comp
 L Device:Fuse F1
 U 1 1 5C224EF3
@@ -1605,12 +1363,12 @@ Wire Wire Line
 $Comp
 L JPL_Robotics_Lib:test_point T14
 U 1 1 5C83C337
-P 13950 7100
-F 0 "T14" V 14000 7050 50  0000 L CNN
-F 1 "test_point" H 14100 7350 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 13900 7050 50  0001 C CNN
-F 3 "" H 13900 7050 50  0001 C CNN
-	1    13950 7100
+P 13950 7050
+F 0 "T14" V 14000 7000 50  0000 L CNN
+F 1 "test_point" H 14100 7300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 13900 7000 50  0001 C CNN
+F 3 "" H 13900 7000 50  0001 C CNN
+	1    13950 7050
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2173,24 +1931,16 @@ Wire Wire Line
 Wire Wire Line
 	8200 2050 8550 2050
 $Comp
-L JPL_Robotics_Lib:S7038-ND J11
+L JPL_Robotics_Lib:S7038-ND_regulator_D24V22F12 J11
 U 1 1 5C66C569
 P 9900 6450
-F 0 "J11" V 10250 6700 50  0000 L CNN
+F 0 "J11" V 10329 6700 50  0000 L CNN
 F 1 "S7038-ND" H 10177 6605 50  0001 L CNN
 F 2 "JPL Robotics:D24V22F12 Regulator" H 10050 6850 50  0001 C CNN
 F 3 "" H 10050 6850 50  0001 C CNN
 	1    9900 6450
 	0    -1   1    0   
 $EndComp
-Text Label 9600 6450 3    30   ~ 0
-PG
-Wire Wire Line
-	9600 6450 9600 6550
-Text Label 9650 6300 3    30   ~ 0
-12REG_EN
-Wire Wire Line
-	9650 6300 9650 6550
 $Comp
 L power:+BATT #PWR012
 U 1 1 5C737A2E
@@ -2217,8 +1967,6 @@ Wire Wire Line
 	9750 6500 9750 6550
 Wire Wire Line
 	9750 6500 10050 6500
-Wire Wire Line
-	9800 6550 9800 6300
 $Comp
 L power:+12V #PWR013
 U 1 1 5C8D21AF
@@ -2233,51 +1981,48 @@ $EndComp
 $Comp
 L JPL_Robotics_Lib:test_point T5
 U 1 1 5C8D22CC
-P 10050 6150
-F 0 "T5" V 10100 6100 50  0000 L CNN
-F 1 "test_point" H 10200 6400 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10000 6100 50  0001 C CNN
-F 3 "" H 10000 6100 50  0001 C CNN
-	1    10050 6150
+P 10050 6000
+F 0 "T5" V 10100 5950 50  0000 L CNN
+F 1 "test_point" H 10200 6250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 10000 5950 50  0001 C CNN
+F 3 "" H 10000 5950 50  0001 C CNN
+	1    10050 6000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10050 6300 9800 6300
-Connection ~ 9800 6300
-Wire Wire Line
-	9800 6300 9800 6050
+	10050 6150 9800 6150
 Wire Wire Line
 	9700 6300 9700 6550
 $Comp
 L power:GND #PWR021
 U 1 1 5C9D6BAD
-P 7200 8750
-F 0 "#PWR021" H 7200 8500 50  0001 C CNN
-F 1 "GND" H 7200 8600 39  0000 C CNN
-F 2 "" H 7200 8750 50  0001 C CNN
-F 3 "" H 7200 8750 50  0001 C CNN
-	1    7200 8750
+P 5950 8750
+F 0 "#PWR021" H 5950 8500 50  0001 C CNN
+F 1 "GND" H 5950 8600 39  0000 C CNN
+F 2 "" H 5950 8750 50  0001 C CNN
+F 3 "" H 5950 8750 50  0001 C CNN
+	1    5950 8750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 8600 7200 8600
+	5750 8600 5950 8600
 Wire Wire Line
-	7000 8650 7200 8650
+	5750 8650 5950 8650
 Wire Wire Line
-	7200 8650 7200 8750
+	5950 8650 5950 8750
 $Comp
 L power:+12V #PWR020
 U 1 1 5CA40188
-P 7200 8450
-F 0 "#PWR020" H 7200 8300 50  0001 C CNN
-F 1 "+12V" H 7215 8623 50  0000 C CNN
-F 2 "" H 7200 8450 50  0001 C CNN
-F 3 "" H 7200 8450 50  0001 C CNN
-	1    7200 8450
+P 5950 8450
+F 0 "#PWR020" H 5950 8300 50  0001 C CNN
+F 1 "+12V" H 5965 8623 50  0000 C CNN
+F 2 "" H 5950 8450 50  0001 C CNN
+F 3 "" H 5950 8450 50  0001 C CNN
+	1    5950 8450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 8450 7200 8600
+	5950 8450 5950 8600
 $Comp
 L JPL_Robotics_Lib:test_point T6
 U 1 1 5CADEB30
@@ -2310,8 +2055,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 8900 1700 8900
 Wire Wire Line
-	1450 8950 1700 8950
-Wire Wire Line
 	1450 9000 1700 9000
 Wire Wire Line
 	1450 9050 1700 9050
@@ -2334,8 +2077,6 @@ Wire Wire Line
 	2150 8900 2400 8900
 Wire Wire Line
 	2150 8950 2400 8950
-Wire Wire Line
-	2150 9100 2400 9100
 Text Label 1700 8850 2    30   ~ 0
 GND
 Text Label 1700 8900 2    30   ~ 0
@@ -2352,8 +2093,6 @@ Text Label 2400 8900 2    30   ~ 0
 +5V
 Text Label 2400 8950 2    30   ~ 0
 GND
-Wire Wire Line
-	2150 9000 2400 9000
 Wire Wire Line
 	2150 9050 2400 9050
 Text Label 2400 9000 2    30   ~ 0
@@ -2619,12 +2358,12 @@ Wire Wire Line
 $Comp
 L JPL_Robotics_Lib:ED1501-ND J13
 U 1 1 5D149987
-P 6800 8700
-F 0 "J13" H 6906 9015 50  0000 C CNN
-F 1 "ED1501-ND" H 6906 8924 50  0000 C CNN
-F 2 "JPL Robotics:ED1501-ND" H 6800 8700 50  0001 C CNN
-F 3 "" H 6800 8700 50  0001 C CNN
-	1    6800 8700
+P 5550 8700
+F 0 "J13" H 5656 9015 50  0000 C CNN
+F 1 "ED1501-ND" H 5656 8924 50  0000 C CNN
+F 2 "JPL Robotics:ED1501-ND" H 5550 8700 50  0001 C CNN
+F 3 "" H 5550 8700 50  0001 C CNN
+	1    5550 8700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2694,7 +2433,7 @@ Wire Notes Line style solid rgb(0, 0, 0)
 Wire Notes Line style solid rgb(0, 0, 0)
 	600  9300 3350 9300
 Wire Wire Line
-	13600 7250 14200 7250
+	13600 7250 13950 7250
 Wire Wire Line
 	14200 8150 14500 8150
 Wire Wire Line
@@ -2896,7 +2635,7 @@ F 3 "" H 800 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  5500 1400 5500
+	800  5500 900  5500
 Wire Wire Line
 	800  5500 800  5600
 $Comp
@@ -3262,7 +3001,6 @@ NoConn ~ 5450 1800
 NoConn ~ 5450 1850
 NoConn ~ 5450 1900
 NoConn ~ 5450 1950
-NoConn ~ 5450 2000
 NoConn ~ 2450 3150
 NoConn ~ 2450 3200
 NoConn ~ 2450 3350
@@ -3295,4 +3033,156 @@ NoConn ~ 5400 3350
 NoConn ~ 5400 3400
 NoConn ~ 5400 3450
 NoConn ~ 5400 3500
+NoConn ~ 5450 2000
+NoConn ~ 5450 1700
+NoConn ~ 5450 1750
+NoConn ~ 14550 2050
+NoConn ~ 14550 2400
+NoConn ~ 13250 3000
+NoConn ~ 13250 3350
+NoConn ~ 4450 8500
+NoConn ~ 4450 8550
+NoConn ~ 1450 8950
+Wire Wire Line
+	2150 9000 2400 9000
+Wire Wire Line
+	2600 7150 2450 7150
+NoConn ~ 2150 9100
+NoConn ~ 1700 9100
+NoConn ~ 1700 8900
+$Comp
+L JPL_Robotics_Lib:S7038-ND_regulator_D24V50F5 J9
+U 1 1 5C216499
+P 9150 6450
+F 0 "J9" V 9579 6700 50  0000 L CNN
+F 1 "S7038-ND" H 9427 6605 50  0001 L CNN
+F 2 "JPL Robotics:S7038-ND" H 9300 6850 50  0001 C CNN
+F 3 "" H 9300 6850 50  0001 C CNN
+	1    9150 6450
+	0    -1   1    0   
+$EndComp
+Connection ~ 9800 6150
+Wire Wire Line
+	9800 6150 9800 6050
+Wire Wire Line
+	9800 6150 9800 6550
+NoConn ~ 5400 3200
+NoConn ~ 5400 3250
+NoConn ~ 9600 6550
+NoConn ~ 9650 6550
+Wire Wire Line
+	13950 7200 13950 7250
+Connection ~ 13950 7250
+Wire Wire Line
+	13950 7250 14200 7250
+NoConn ~ 2600 7150
+NoConn ~ 8850 6550
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6174B714
+P 7450 8050
+F 0 "#FLG0101" H 7450 8125 50  0001 C CNN
+F 1 "PWR_FLAG" H 7450 8223 50  0000 C CNN
+F 2 "" H 7450 8050 50  0001 C CNN
+F 3 "~" H 7450 8050 50  0001 C CNN
+	1    7450 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 8050 7450 8050
+Connection ~ 7200 8050
+NoConn ~ 1650 6550
+NoConn ~ 1400 5950
+NoConn ~ 1400 6050
+NoConn ~ 1400 6000
+NoConn ~ 2400 6050
+NoConn ~ 2400 6100
+NoConn ~ 1450 7250
+NoConn ~ 1450 7300
+NoConn ~ 1450 7350
+NoConn ~ 2450 7350
+NoConn ~ 2450 7400
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 61C30193
+P 7450 6850
+F 0 "#FLG0102" H 7450 6925 50  0001 C CNN
+F 1 "PWR_FLAG" H 7450 7023 50  0000 C CNN
+F 2 "" H 7450 6850 50  0001 C CNN
+F 3 "~" H 7450 6850 50  0001 C CNN
+	1    7450 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 6850 7450 6850
+Connection ~ 7200 6850
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 61CCF821
+P 900 5450
+F 0 "#FLG0103" H 900 5525 50  0001 C CNN
+F 1 "PWR_FLAG" H 900 5623 50  0000 C CNN
+F 2 "" H 900 5450 50  0001 C CNN
+F 3 "~" H 900 5450 50  0001 C CNN
+	1    900  5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  5450 900  5500
+Connection ~ 900  5500
+Wire Wire Line
+	900  5500 1400 5500
+Text Notes 650  6100 0    50   ~ 0
+*3.3v bus is \nnot powered
+$Comp
+L JPL_Robotics_Lib:S9175-ND_rpi_breakout J6
+U 1 1 5C20DA5C
+P 1300 6600
+F 0 "J6" H 1900 7915 50  0000 C CNN
+F 1 "S9175-ND_rpi_breakout" H 1900 7824 50  0000 C CNN
+F 2 "JPL Robotics:S9175-ND" H 1550 7850 50  0001 C CNN
+F 3 "" H 1550 7850 50  0001 C CNN
+	1    1300 6600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1400 5650
+NoConn ~ 1400 5750
+NoConn ~ 1400 5800
+NoConn ~ 1400 5850
+NoConn ~ 1400 6150
+NoConn ~ 1400 6200
+NoConn ~ 1400 6250
+NoConn ~ 1400 6300
+NoConn ~ 1400 6350
+NoConn ~ 1400 6400
+NoConn ~ 2400 6250
+NoConn ~ 2400 6400
+NoConn ~ 2400 6350
+NoConn ~ 2400 6450
+NoConn ~ 2400 6150
+NoConn ~ 2400 6000
+NoConn ~ 2400 5900
+NoConn ~ 2400 5750
+NoConn ~ 1450 6950
+NoConn ~ 1450 7050
+NoConn ~ 1450 7100
+NoConn ~ 1450 7150
+NoConn ~ 1450 7450
+NoConn ~ 1450 7500
+NoConn ~ 1450 7550
+NoConn ~ 1450 7600
+NoConn ~ 1450 7650
+NoConn ~ 1450 7700
+NoConn ~ 2450 7750
+NoConn ~ 2450 7700
+NoConn ~ 2450 7650
+NoConn ~ 2450 7550
+NoConn ~ 2450 7450
+NoConn ~ 2450 7300
+NoConn ~ 2450 7200
+NoConn ~ 2450 7050
+NoConn ~ 1400 5550
+NoConn ~ 1400 5600
+NoConn ~ 1450 6850
+NoConn ~ 1450 6900
 $EndSCHEMATC
