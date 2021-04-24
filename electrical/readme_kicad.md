@@ -1,7 +1,3 @@
-## steps
-
-1. add JPL_Robotics_Lib.lib to project specific symbols libraries
-
 ## Important things to keep in mind when updating schematics
 
 - make sure you're being cleanly about updating symbols in the schematic
