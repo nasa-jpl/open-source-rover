@@ -12,9 +12,9 @@ This information is not fully tested yet, and is being put here as a development
 
 If you do wish to purchase these boards/items previous to the final release to help test/document and contribute to the project we would greatly appreciate the help! There is an excel spreadsheet here which has a parts list of all things necessary.
 
-[Master Parts List](../master_parts_list.xlsx)
+[Master Parts List](../parts_list/master_parts_list_raw.csv)
 
-In here currently are just the gerber files necessary to order the boards in their current revision. Eventually I will upload the libraries/kicad files so everyone can make edits to them, but in order to just get information up here it will just be the gerbers at first. They can be found in [the PCB folder](/Electrical/PCB/).
+In here currently are just the gerber files necessary to order the boards in their current revision. Eventually I will upload the libraries/kicad files so everyone can make edits to them, but in order to just get information up here it will just be the gerbers at first. They can be found in [the PCB folder](/electrical/pcb/).
 
 To order these boards we suggest that you order from [JLCPCB](https://jlcpcb.com/), this PCB fabrication company is quite inexpensive for this board size and has good turnaround time. Upload the .zip files individually and make sure the following settings are set:
 
