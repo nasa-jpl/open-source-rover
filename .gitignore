@@ -8,3 +8,6 @@
 *.log
 *.out
 *.toc
+
+# Mac files
+.DS_Store
