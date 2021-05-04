@@ -14,349 +14,440 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R?
+L Device:R R10
 U 1 1 60A8A8D9
-P 2350 3100
-F 0 "R?" H 2280 3054 50  0000 R CNN
-F 1 "4.7K" H 2280 3145 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2280 3100 50  0001 C CNN
-F 3 "~" H 2350 3100 50  0001 C CNN
-	1    2350 3100
+P 3250 3300
+F 0 "R10" H 3180 3254 50  0000 R CNN
+F 1 "4.7K" H 3180 3345 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3180 3300 50  0001 C CNN
+F 3 "~" H 3250 3300 50  0001 C CNN
+	1    3250 3300
 	-1   0    0    1   
 $EndComp
-Text Label 2350 3300 3    30   ~ 0
+Text Label 3250 3500 3    30   ~ 0
 RXD
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR048
 U 1 1 60A8A8E0
-P 2350 2950
-F 0 "#PWR?" H 2350 2800 50  0001 C CNN
-F 1 "+5V" H 2365 3108 30  0000 C CNN
-F 2 "" H 2350 2950 50  0001 C CNN
-F 3 "" H 2350 2950 50  0001 C CNN
-	1    2350 2950
+P 3250 3150
+F 0 "#PWR048" H 3250 3000 50  0001 C CNN
+F 1 "+5V" H 3265 3308 30  0000 C CNN
+F 2 "" H 3250 3150 50  0001 C CNN
+F 3 "" H 3250 3150 50  0001 C CNN
+	1    3250 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 3250 2350 3300
+	3250 3450 3250 3500
 Wire Wire Line
-	2900 2200 2750 2200
+	3800 2400 3650 2400
 Wire Wire Line
-	2900 2400 2750 2400
+	3800 2600 3650 2600
 Wire Wire Line
-	2900 2600 2750 2600
+	3800 2800 3650 2800
 Wire Wire Line
-	2900 2950 2750 2950
+	3800 3150 3650 3150
 Wire Wire Line
-	4050 2000 3900 2000
+	4950 2200 4800 2200
 Wire Wire Line
-	4050 2050 3900 2050
+	4950 2250 4800 2250
 Wire Wire Line
-	4050 2100 3900 2100
+	4950 2300 4800 2300
 Wire Wire Line
-	4050 2150 3900 2150
+	4950 2350 4800 2350
 Wire Wire Line
-	4050 2200 3900 2200
+	4950 2400 4800 2400
 Wire Wire Line
-	4050 2300 3900 2300
+	4950 2500 4800 2500
 Wire Wire Line
-	4050 2350 3900 2350
+	4950 2550 4800 2550
 Wire Wire Line
-	4050 2450 3900 2450
+	4950 2650 4800 2650
 Wire Wire Line
-	4050 2700 3900 2700
+	4950 2900 4800 2900
 Wire Wire Line
-	4050 2800 3900 2800
-Text Label 2750 2000 0    30   ~ 0
+	4950 3000 4800 3000
+Text Label 3650 2200 0    30   ~ 0
 3.3V
-Text Label 2750 2400 0    30   ~ 0
+Text Label 3650 2600 0    30   ~ 0
 3.3V
-Text Label 4050 2000 2    30   ~ 0
+Text Label 4950 2200 2    30   ~ 0
 +5V
-Text Label 4050 2050 2    30   ~ 0
+Text Label 4950 2250 2    30   ~ 0
 +5V
-Text Label 4050 2150 2    30   ~ 0
+Text Label 4950 2350 2    30   ~ 0
 TXD
-Text Label 4050 2200 2    30   ~ 0
+Text Label 4950 2400 2    30   ~ 0
 RXD
-Text Label 4050 2350 2    30   ~ 0
+Text Label 4950 2550 2    30   ~ 0
 E_STOP
 $Comp
-L JPL_Robotics_Lib:S9175-ND_rpi_breakout J?
+L JPL_Robotics_Lib:S9175-ND_rpi_breakout J29
 U 1 1 60A8A8FC
-P 2850 4400
-F 0 "J?" H 3450 5715 50  0000 C CNN
-F 1 "S9175-ND_rpi_breakout" H 3450 5624 50  0000 C CNN
-F 2 "JPL Robotics:S9175-ND" H 3100 5650 50  0001 C CNN
-F 3 "" H 3100 5650 50  0001 C CNN
-	1    2850 4400
+P 3750 4600
+F 0 "J29" H 4350 5915 50  0000 C CNN
+F 1 "S9175-ND_rpi_breakout" H 4350 5824 50  0000 C CNN
+F 2 "JPL Robotics:S9175-ND" H 4000 5850 50  0001 C CNN
+F 3 "" H 4000 5850 50  0001 C CNN
+	1    3750 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 3300 2800 3300
+	3850 3500 3700 3500
 Wire Wire Line
-	2950 3500 2800 3500
+	3850 3700 3700 3700
 Wire Wire Line
-	2950 3700 2800 3700
+	3850 3900 3700 3900
 Wire Wire Line
-	2950 3900 2800 3900
+	3850 4100 3700 4100
 Wire Wire Line
-	2950 4250 2800 4250
+	3850 4450 3700 4450
 Wire Wire Line
-	4100 3300 3950 3300
+	5000 3500 4850 3500
 Wire Wire Line
-	4100 3350 3950 3350
+	5000 3550 4850 3550
 Wire Wire Line
-	4100 3400 3950 3400
+	5000 3600 4850 3600
 Wire Wire Line
-	4100 3450 3950 3450
+	5000 3650 4850 3650
 Wire Wire Line
-	4100 3500 3950 3500
+	5000 3700 4850 3700
 Wire Wire Line
-	4100 3600 3950 3600
+	5000 3800 4850 3800
 Wire Wire Line
-	4100 3750 3950 3750
+	5000 3950 4850 3950
 Wire Wire Line
-	4100 4000 3950 4000
+	5000 4200 4850 4200
 Wire Wire Line
-	4100 4100 3950 4100
-Text Label 2800 3300 0    30   ~ 0
+	5000 4300 4850 4300
+Text Label 3700 3500 0    30   ~ 0
 3.3V
-Text Label 2800 3500 0    30   ~ 0
+Text Label 3700 3700 0    30   ~ 0
 GND
-Text Label 2800 3700 0    30   ~ 0
+Text Label 3700 3900 0    30   ~ 0
 3.3V
-Text Label 2800 3900 0    30   ~ 0
+Text Label 3700 4100 0    30   ~ 0
 GND
-Text Label 2800 4250 0    30   ~ 0
+Text Label 3700 4450 0    30   ~ 0
 GND
-Text Label 4100 3300 2    30   ~ 0
+Text Label 5000 3500 2    30   ~ 0
 +5V
-Text Label 4100 3350 2    30   ~ 0
+Text Label 5000 3550 2    30   ~ 0
 +5V
-Text Label 4100 3400 2    30   ~ 0
+Text Label 5000 3600 2    30   ~ 0
 GND
-Text Label 4100 3450 2    30   ~ 0
+Text Label 5000 3650 2    30   ~ 0
 TXD
-Text Label 4100 3500 2    30   ~ 0
+Text Label 5000 3700 2    30   ~ 0
 RXD
-Text Label 4100 3600 2    30   ~ 0
+Text Label 5000 3800 2    30   ~ 0
 GND
-Text Label 4100 3750 2    30   ~ 0
+Text Label 5000 3950 2    30   ~ 0
 GND
-Text Label 4100 4000 2    30   ~ 0
+Text Label 5000 4200 2    30   ~ 0
 GND
-Text Label 4100 4100 2    30   ~ 0
+Text Label 5000 4300 2    30   ~ 0
 GND
 $Comp
-L JPL_Robotics_Lib:6posheader J?
+L JPL_Robotics_Lib:6posheader J27
 U 1 1 60A8A91E
-P 2750 5650
-F 0 "J?" H 2856 6073 50  0000 C CNN
-F 1 "6posheader" H 2950 6150 50  0001 C CNN
-F 2 "JPL Robotics:6x1 Header Pin 0.1 Pitch" H 2750 5650 50  0001 C CNN
-F 3 "" H 2750 5650 50  0001 C CNN
-	1    2750 5650
+P 3650 5850
+F 0 "J27" H 3756 6273 50  0000 C CNN
+F 1 "6posheader" H 3850 6350 50  0001 C CNN
+F 2 "JPL Robotics:6x1 Header Pin 0.1 Pitch" H 3650 5850 50  0001 C CNN
+F 3 "" H 3650 5850 50  0001 C CNN
+	1    3650 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 5350 3200 5350
+	3850 5550 4100 5550
 Wire Wire Line
-	2950 5400 3200 5400
+	3850 5600 4100 5600
 Wire Wire Line
-	2950 5500 3200 5500
+	3850 5700 4100 5700
 Wire Wire Line
-	2950 5550 3200 5550
+	3850 5750 4100 5750
 Wire Wire Line
-	2950 5600 3200 5600
+	3850 5800 4100 5800
 $Comp
-L JPL_Robotics_Lib:6posheader J?
+L JPL_Robotics_Lib:6posheader J30
 U 1 1 60A8A929
-P 3450 5650
-F 0 "J?" H 3556 6073 50  0000 C CNN
-F 1 "6posheader" H 3650 6150 50  0001 C CNN
-F 2 "JPL Robotics:455-1708-ND" H 3450 5650 50  0001 C CNN
-F 3 "" H 3450 5650 50  0001 C CNN
-	1    3450 5650
+P 4350 5850
+F 0 "J30" H 4456 6273 50  0000 C CNN
+F 1 "6posheader" H 4550 6350 50  0001 C CNN
+F 2 "JPL Robotics:455-1708-ND" H 4350 5850 50  0001 C CNN
+F 3 "" H 4350 5850 50  0001 C CNN
+	1    4350 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 5350 3900 5350
+	4550 5550 4800 5550
 Wire Wire Line
-	3650 5400 3900 5400
+	4550 5600 4800 5600
 Wire Wire Line
-	3650 5450 3900 5450
-Text Label 3200 5350 2    30   ~ 0
+	4550 5650 4800 5650
+Text Label 4100 5550 2    30   ~ 0
 GND
-Text Label 3200 5400 2    30   ~ 0
+Text Label 4100 5600 2    30   ~ 0
 CTS#
-Text Label 3200 5500 2    30   ~ 0
+Text Label 4100 5700 2    30   ~ 0
 TTL_TXD
-Text Label 3200 5550 2    30   ~ 0
+Text Label 4100 5750 2    30   ~ 0
 TTL_RXD
-Text Label 3200 5600 2    30   ~ 0
+Text Label 4100 5800 2    30   ~ 0
 RTS#
-Text Label 3900 5350 2    30   ~ 0
+Text Label 4800 5550 2    30   ~ 0
 +12V
-Text Label 3900 5400 2    30   ~ 0
+Text Label 4800 5600 2    30   ~ 0
 +5V
-Text Label 3900 5450 2    30   ~ 0
+Text Label 4800 5650 2    30   ~ 0
 GND
 Wire Wire Line
-	3650 5550 3900 5550
-Text Label 3900 5500 2    30   ~ 0
+	4550 5750 4800 5750
+Text Label 4800 5700 2    30   ~ 0
 TTL_TXD
-Text Label 3900 5550 2    30   ~ 0
+Text Label 4800 5750 2    30   ~ 0
 TTL_RXD
-Text Notes 2750 1600 0    98   ~ 0
+Text Notes 3650 1800 0    98   ~ 0
 Raspberry Pi breakout
-Text Notes 2550 5000 0    98   ~ 0
+Text Notes 3450 5200 0    98   ~ 0
 Arduino Communication
 Wire Notes Line style solid
-	4850 1200 4850 4550
+	5750 1400 5750 4750
 Wire Notes Line style solid
-	4850 4550 2100 4550
+	5750 4750 3000 4750
 Wire Notes Line style solid
-	2100 4550 2100 1200
+	3000 4750 3000 1400
 Wire Notes Line style solid
-	2100 1200 4850 1200
+	3000 1400 5750 1400
 Wire Notes Line style solid rgb(0, 0, 0)
-	4850 5800 4850 4700
+	5750 6000 5750 4900
 Wire Notes Line style solid rgb(0, 0, 0)
-	4850 4700 2100 4700
+	5750 4900 3000 4900
 Wire Notes Line style solid rgb(0, 0, 0)
-	2100 4700 2100 5800
+	3000 4900 3000 6000
 Wire Notes Line style solid rgb(0, 0, 0)
-	2100 5800 4850 5800
-Text Label 3950 2100 0    30   ~ 0
+	3000 6000 5750 6000
+Text Label 4850 2300 0    30   ~ 0
 GND
-Text Label 3950 2300 0    30   ~ 0
+Text Label 4850 2500 0    30   ~ 0
 GND
-Text Label 3950 2450 0    30   ~ 0
+Text Label 4850 2650 0    30   ~ 0
 GND
-Text Label 3950 2700 0    30   ~ 0
+Text Label 4850 2900 0    30   ~ 0
 GND
-Text Label 3950 2800 0    30   ~ 0
+Text Label 4850 3000 0    30   ~ 0
 GND
-Text Label 2750 2950 0    30   ~ 0
+Text Label 3650 3150 0    30   ~ 0
 GND
-Text Label 2750 2600 0    30   ~ 0
+Text Label 3650 2800 0    30   ~ 0
 GND
-Text Label 2750 2200 0    30   ~ 0
+Text Label 3650 2400 0    30   ~ 0
 GND
 $Comp
-L Device:C_Small C?
+L Device:C_Small C29
 U 1 1 60A8A94F
-P 2300 2200
-F 0 "C?" H 2392 2246 50  0000 L CNN
-F 1 "100nf" H 2392 2155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2300 2200 50  0001 C CNN
-F 3 "~" H 2300 2200 50  0001 C CNN
-	1    2300 2200
+P 3200 2400
+F 0 "C29" H 3292 2446 50  0000 L CNN
+F 1 "100nf" H 3292 2355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3200 2400 50  0001 C CNN
+F 3 "~" H 3200 2400 50  0001 C CNN
+	1    3200 2400
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 60A8A955
+P 3200 2500
+F 0 "#PWR047" H 3200 2250 50  0001 C CNN
+F 1 "GND" H 3300 2500 39  0000 C CNN
+F 2 "" H 3200 2500 50  0001 C CNN
+F 3 "" H 3200 2500 50  0001 C CNN
+	1    3200 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2200 3300 2200
+Wire Wire Line
+	3200 2200 3200 2300
+NoConn ~ 3850 5650
+Wire Wire Line
+	4550 5700 4800 5700
+Wire Wire Line
+	5000 3850 4850 3850
+NoConn ~ 4550 5800
+NoConn ~ 4100 5800
+NoConn ~ 4100 5600
+NoConn ~ 5000 3850
+NoConn ~ 4050 3250
+NoConn ~ 3800 2650
+NoConn ~ 3800 2750
+NoConn ~ 3800 2700
+NoConn ~ 4800 2750
+NoConn ~ 4800 2800
+NoConn ~ 3850 3950
+NoConn ~ 3850 4000
+NoConn ~ 3850 4050
+NoConn ~ 4850 4050
+NoConn ~ 4850 4100
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 60A8A96F
+P 3300 2150
+F 0 "#FLG03" H 3300 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 3300 2323 50  0000 C CNN
+F 2 "" H 3300 2150 50  0001 C CNN
+F 3 "~" H 3300 2150 50  0001 C CNN
+	1    3300 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2150 3300 2200
+Connection ~ 3300 2200
+Wire Wire Line
+	3300 2200 3800 2200
+Text Notes 3050 2800 0    50   ~ 0
+*3.3v bus is \nnot powered
+$Comp
+L JPL_Robotics_Lib:S9175-ND_rpi_breakout J28
+U 1 1 60A8A979
+P 3700 3300
+F 0 "J28" H 4300 4615 50  0000 C CNN
+F 1 "S9175-ND_rpi_breakout" H 4300 4524 50  0000 C CNN
+F 2 "JPL Robotics:S9175-ND" H 3950 4550 50  0001 C CNN
+F 3 "" H 3950 4550 50  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3800 2350
+NoConn ~ 3800 2450
+NoConn ~ 3800 2500
+NoConn ~ 3800 2550
+NoConn ~ 3800 2850
+NoConn ~ 3800 2900
+NoConn ~ 3800 2950
+NoConn ~ 3800 3000
+NoConn ~ 3800 3050
+NoConn ~ 3800 3100
+NoConn ~ 4800 2950
+NoConn ~ 4800 3100
+NoConn ~ 4800 3050
+NoConn ~ 4800 3150
+NoConn ~ 4800 2850
+NoConn ~ 4800 2700
+NoConn ~ 4800 2600
+NoConn ~ 4800 2450
+NoConn ~ 3850 3650
+NoConn ~ 3850 3750
+NoConn ~ 3850 3800
+NoConn ~ 3850 3850
+NoConn ~ 3850 4150
+NoConn ~ 3850 4200
+NoConn ~ 3850 4250
+NoConn ~ 3850 4300
+NoConn ~ 3850 4350
+NoConn ~ 3850 4400
+NoConn ~ 4850 4450
+NoConn ~ 4850 4400
+NoConn ~ 4850 4350
+NoConn ~ 4850 4250
+NoConn ~ 4850 4150
+NoConn ~ 4850 4000
+NoConn ~ 4850 3900
+NoConn ~ 4850 3750
+NoConn ~ 3800 2250
+NoConn ~ 3800 2300
+NoConn ~ 3850 3550
+NoConn ~ 3850 3600
+Wire Notes Line style solid rgb(0, 0, 0)
+	8450 1400 8450 5300
+Wire Notes Line style solid rgb(0, 0, 0)
+	8450 5300 6000 5300
+Wire Notes Line style solid rgb(0, 0, 0)
+	6000 5300 6000 1400
+Wire Notes Line style solid rgb(0, 0, 0)
+	6000 1400 8450 1400
+Text Notes 6350 1650 0    98   ~ 0
+Inter-Board Connection
+$Comp
+L power:+5V #PWR?
+U 1 1 60ED7C4A
+P 6700 3000
+AR Path="/60A51BAC/60ED7C4A" Ref="#PWR?"  Part="1" 
+AR Path="/60A5279E/60ED7C4A" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 6700 2850 50  0001 C CNN
+F 1 "+5V" V 6715 3128 50  0000 L CNN
+F 2 "" H 6700 3000 50  0001 C CNN
+F 3 "" H 6700 3000 50  0001 C CNN
+	1    6700 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 60ED7C50
+P 7650 3000
+AR Path="/60A51BAC/60ED7C50" Ref="#PWR?"  Part="1" 
+AR Path="/60A5279E/60ED7C50" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 7650 2850 50  0001 C CNN
+F 1 "+12V" V 7665 3128 50  0000 L CNN
+F 2 "" H 7650 3000 50  0001 C CNN
+F 3 "" H 7650 3000 50  0001 C CNN
+	1    7650 3000
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 60A8A955
-P 2300 2300
-F 0 "#PWR?" H 2300 2050 50  0001 C CNN
-F 1 "GND" H 2400 2300 39  0000 C CNN
-F 2 "" H 2300 2300 50  0001 C CNN
-F 3 "" H 2300 2300 50  0001 C CNN
-	1    2300 2300
-	1    0    0    -1  
+U 1 1 60ED7C56
+P 6700 3100
+AR Path="/60A51BAC/60ED7C56" Ref="#PWR?"  Part="1" 
+AR Path="/60A5279E/60ED7C56" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 6700 2850 50  0001 C CNN
+F 1 "GND" V 6705 2972 50  0000 R CNN
+F 2 "" H 6700 3100 50  0001 C CNN
+F 3 "" H 6700 3100 50  0001 C CNN
+	1    6700 3100
+	0    1    1    0   
 $EndComp
+Text Label 6650 3200 0    50   ~ 0
+TXD
+Text Label 7700 3200 2    50   ~ 0
+RXD
+Text Label 6650 3300 0    50   ~ 0
+E_STOP
 Wire Wire Line
-	2300 2000 2400 2000
+	6700 3000 6950 3000
 Wire Wire Line
-	2300 2000 2300 2100
-NoConn ~ 2950 5450
+	6700 3100 6950 3100
 Wire Wire Line
-	3650 5500 3900 5500
+	6650 3200 6950 3200
 Wire Wire Line
-	4100 3650 3950 3650
-NoConn ~ 3650 5600
-NoConn ~ 3200 5600
-NoConn ~ 3200 5400
-NoConn ~ 4100 3650
-NoConn ~ 3150 3050
-NoConn ~ 2900 2450
-NoConn ~ 2900 2550
-NoConn ~ 2900 2500
-NoConn ~ 3900 2550
-NoConn ~ 3900 2600
-NoConn ~ 2950 3750
-NoConn ~ 2950 3800
-NoConn ~ 2950 3850
-NoConn ~ 3950 3850
-NoConn ~ 3950 3900
+	6650 3300 6950 3300
+Wire Wire Line
+	7450 3200 7700 3200
+Wire Wire Line
+	7450 3000 7650 3000
 $Comp
-L power:PWR_FLAG #FLG?
-U 1 1 60A8A96F
-P 2400 1950
-F 0 "#FLG?" H 2400 2025 50  0001 C CNN
-F 1 "PWR_FLAG" H 2400 2123 50  0000 C CNN
-F 2 "" H 2400 1950 50  0001 C CNN
-F 3 "~" H 2400 1950 50  0001 C CNN
-	1    2400 1950
+L JPL_Robotics_Lib:PPTC102LFBN-RC J31
+U 1 1 60EE139B
+P 7200 2850
+F 0 "J31" H 7200 2925 50  0000 C CNN
+F 1 "PPTC102LFBN-RC" H 7200 2834 50  0000 C CNN
+F 2 "" H 7500 2850 50  0001 C CNN
+F 3 "" H 7500 2850 50  0001 C CNN
+	1    7200 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2400 1950 2400 2000
-Connection ~ 2400 2000
-Wire Wire Line
-	2400 2000 2900 2000
-Text Notes 2150 2600 0    50   ~ 0
-*3.3v bus is \nnot powered
-$Comp
-L JPL_Robotics_Lib:S9175-ND_rpi_breakout J?
-U 1 1 60A8A979
-P 2800 3100
-F 0 "J?" H 3400 4415 50  0000 C CNN
-F 1 "S9175-ND_rpi_breakout" H 3400 4324 50  0000 C CNN
-F 2 "JPL Robotics:S9175-ND" H 3050 4350 50  0001 C CNN
-F 3 "" H 3050 4350 50  0001 C CNN
-	1    2800 3100
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2900 2150
-NoConn ~ 2900 2250
-NoConn ~ 2900 2300
-NoConn ~ 2900 2350
-NoConn ~ 2900 2650
-NoConn ~ 2900 2700
-NoConn ~ 2900 2750
-NoConn ~ 2900 2800
-NoConn ~ 2900 2850
-NoConn ~ 2900 2900
-NoConn ~ 3900 2750
-NoConn ~ 3900 2900
-NoConn ~ 3900 2850
-NoConn ~ 3900 2950
-NoConn ~ 3900 2650
-NoConn ~ 3900 2500
-NoConn ~ 3900 2400
-NoConn ~ 3900 2250
-NoConn ~ 2950 3450
-NoConn ~ 2950 3550
-NoConn ~ 2950 3600
-NoConn ~ 2950 3650
-NoConn ~ 2950 3950
-NoConn ~ 2950 4000
-NoConn ~ 2950 4050
-NoConn ~ 2950 4100
-NoConn ~ 2950 4150
-NoConn ~ 2950 4200
-NoConn ~ 3950 4250
-NoConn ~ 3950 4200
-NoConn ~ 3950 4150
-NoConn ~ 3950 4050
-NoConn ~ 3950 3950
-NoConn ~ 3950 3800
-NoConn ~ 3950 3700
-NoConn ~ 3950 3550
-NoConn ~ 2900 2050
-NoConn ~ 2900 2100
-NoConn ~ 2950 3350
-NoConn ~ 2950 3400
+NoConn ~ 7450 3300
+NoConn ~ 7450 3400
+NoConn ~ 7450 3500
+NoConn ~ 7450 3600
+NoConn ~ 7450 3700
+NoConn ~ 7450 3800
+NoConn ~ 7450 3900
+NoConn ~ 6950 3400
+NoConn ~ 6950 3500
+NoConn ~ 6950 3600
+NoConn ~ 6950 3700
+NoConn ~ 6950 3800
+NoConn ~ 6950 3900
 $EndSCHEMATC
