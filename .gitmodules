@@ -1,6 +1,6 @@
-[submodule "Software/android_app"]
-	path = Software/android_app
+[submodule "software/android-app"]
+	path = software/android-app
 	url = https://github.com/nasa-jpl/osr-android-app
-[submodule "Software/rover-code"]
-	path = Software/rover-code
+[submodule "software/rover-code"]
+	path = software/rover-code
 	url = https://github.com/nasa-jpl/osr-rover-code
