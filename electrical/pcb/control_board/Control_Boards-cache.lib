@@ -127,6 +127,66 @@ C 0 0 58 0 1 0 f
 ENDDRAW
 ENDDEF
 #
+# JPL_Robotics_Lib_+12V_brain
+#
+DEF JPL_Robotics_Lib_+12V_brain #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "JPL_Robotics_Lib_+12V_brain" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V_brain 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# JPL_Robotics_Lib_+12V_motor
+#
+DEF JPL_Robotics_Lib_+12V_motor #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "JPL_Robotics_Lib_+12V_motor" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V_motor 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# JPL_Robotics_Lib_+5V_brain
+#
+DEF JPL_Robotics_Lib_+5V_brain #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "JPL_Robotics_Lib_+5V_brain" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V_brain 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# JPL_Robotics_Lib_+5V_motor
+#
+DEF JPL_Robotics_Lib_+5V_motor #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "JPL_Robotics_Lib_+5V_motor" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V_motor 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # JPL_Robotics_Lib_6posheader
 #
 DEF JPL_Robotics_Lib_6posheader J 0 40 N Y 1 F N
@@ -222,6 +282,32 @@ X VCC 1 150 150 100 R 30 30 1 1 P
 X D- 2 150 100 100 R 30 30 1 1 B
 X D+ 3 150 50 100 R 30 30 1 1 B
 X GND 4 150 0 100 R 30 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+# JPL_Robotics_Lib_GND_brain
+#
+DEF JPL_Robotics_Lib_GND_brain #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "JPL_Robotics_Lib_GND_brain" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND_brain 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# JPL_Robotics_Lib_GND_motor
+#
+DEF JPL_Robotics_Lib_GND_motor #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "JPL_Robotics_Lib_GND_motor" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND_motor 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -501,36 +587,6 @@ X 1 1 -150 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power_+12V
-#
-DEF power_+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # power_+BATT
 #
 DEF power_+BATT #PWR 0 0 Y Y 1 F P
@@ -543,19 +599,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +BATT 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
