@@ -36,3 +36,23 @@
 - have to use a PWR_FLAG on the +BATT bus because this power net is not output from the battery directly, it's only available after a series of passive components (diode, fuse)
 - also, doesn't really make sense to mark the battery connector ground pin as a "power output", so use PWR_FLAG for GND bus as well
 - the 3.3v bus is not actaully powered; RPi's get power on the 5v bus
+- We need separate power buses on the two boards, thus we created different power port symbols (e.g. the little triangle that says "GND")
+    - the ports on the motor board are post-fixed "\_motor"
+    - the ports on the brain board are post-fixed "\_brain"
+    - We need different power ports because they function as a "global label" that can be seen across all sheets in a single schematic. So it's important to have different names. 
+    - Note it's different for "net labels" - those are local in scope, to the given sheet
+    - see https://forum.kicad.info/t/understanding-power-port-components/8945/14 for more background
+
+## Important things to keep in mind when updating schematics
+
+- make sure you're being cleanly about updating symbols in the schematic
+    - you should update them in the JPL_Robotics_Lib.lib file, then pull those changes into the local schematic file in kicad
+- if kicad creates "cache" or "rescue" libarary files, think before committing those to git. 
+    - cache files _should_ be okay, but that's unclear. Ask someone before adding those to git versioning.
+    - rescue files _should not_ be commited - but that's also unclear. Ask someone before adding those to git versioning.
+- Reference Designators
+    - it's important to retain the same reference designators (e.g. J12, U1, C3, etc) when revving the PCB - a lot of the discussion in the open source rover forums have referenced components by the reference designator, so that's a useful well-known name.
+    - whenever annotating reference designators in kicad (with `Annotate Schematic...` ), make sure to check `keep existing annotations`
+    - of course, if new components are added to the PCB schematic, these will need new completely designators. It's fine to use auto numbering for these.
+    - in the worst case, you can always go into the .sch file and fix things by hand in a text editor
+
