@@ -341,7 +341,7 @@ Wire Notes Line style solid rgb(0, 0, 0)
 Wire Notes Line style solid rgb(0, 0, 0)
 	8450 5300 6000 5300
 Wire Notes Line style solid rgb(0, 0, 0)
-	6000 5250 6000 1350
+	6000 5300 6000 1400
 Wire Notes Line style solid rgb(0, 0, 0)
 	6000 1400 8450 1400
 Text Notes 6350 1650 0    98   ~ 0
@@ -364,7 +364,7 @@ U 1 1 60EE139B
 P 7200 2850
 F 0 "J27" H 7200 2925 50  0000 C CNN
 F 1 "PPTC102LFBN-RC" H 7200 2834 50  0000 C CNN
-F 2 "" H 7500 2850 50  0001 C CNN
+F 2 "JPL Robotics:PPTC102LFBN-RC" H 7500 2850 50  0001 C CNN
 F 3 "" H 7500 2850 50  0001 C CNN
 	1    7200 2850
 	1    0    0    -1  

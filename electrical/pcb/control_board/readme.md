@@ -30,6 +30,17 @@
 - 5V
     - [Datasheet](https://www.pololu.com/product/2851)
 
+### Inter-board connectors
+
+- Male
+    - PEC10DAAN
+    - [Digikey](https://www.digikey.com/en/products/detail/PEC10DAAN/S2012E-10-ND/860601?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart)
+    - [Summary drawing](https://drawings-pdf.s3.amazonaws.com/C10419.pdf)
+- Female
+    - PPTC102LFBN-RC
+    - [Digikey](https://www.digikey.com/en/products/detail/PPTC102LFBN-RC/S7078-ND/810216?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart)
+    - [Summary drawing](https://drawings-pdf.s3.amazonaws.com/10492.pdf)
+
 ## Notes on the schematic (Control Board.sch)
     
 - for library part ED2989-ND-USB, made VCC and GND passive because these are _alternative_ ways to power the +5V bus, and the electrical rules check-in kicad doesn't allow multiple power output sources for the same bus. Normally this bus is powered by the battery and voltage regulators.
