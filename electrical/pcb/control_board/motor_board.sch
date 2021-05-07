@@ -148,19 +148,6 @@ Text Label 4100 2250 0    30   ~ 0
 TXD
 Text Label 4100 2300 0    30   ~ 0
 RXD
-$Comp
-L JPL_Robotics_Lib:RoboClaw RC?
-U 1 1 60AB7B1E
-P 2150 4050
-AR Path="/60AB7B1E" Ref="RC?"  Part="1" 
-AR Path="/60A51BAC/60AB7B1E" Ref="RC2"  Part="1" 
-F 0 "RC2" H 2400 4968 30  0000 C CNN
-F 1 "RoboClaw" H 2400 4908 30  0000 C CNN
-F 2 "JPL Robotics:Roboclaw Mount" H 2400 4950 30  0001 C CNN
-F 3 "" H 2400 4950 30  0001 C CNN
-	1    2150 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 3150 1850 3300
 Wire Wire Line
@@ -264,7 +251,6 @@ NoConn ~ 1600 2050
 NoConn ~ 1600 2100
 NoConn ~ 1600 2150
 NoConn ~ 1600 2200
-NoConn ~ 1600 2400
 NoConn ~ 1600 2450
 NoConn ~ 2950 1800
 NoConn ~ 2950 1850
@@ -273,7 +259,6 @@ NoConn ~ 2950 2050
 NoConn ~ 2950 2100
 NoConn ~ 2950 2150
 NoConn ~ 2950 2200
-NoConn ~ 2950 2400
 NoConn ~ 2950 2450
 NoConn ~ 3650 1800
 NoConn ~ 3650 1850
@@ -289,7 +274,6 @@ NoConn ~ 4350 2050
 NoConn ~ 4350 2100
 NoConn ~ 4350 2150
 NoConn ~ 4350 2200
-NoConn ~ 4350 2400
 NoConn ~ 4350 2450
 NoConn ~ 5050 1800
 NoConn ~ 5050 1850
@@ -304,7 +288,6 @@ NoConn ~ 2050 3600
 NoConn ~ 2050 3650
 NoConn ~ 2050 3700
 NoConn ~ 2050 3750
-NoConn ~ 2050 3950
 NoConn ~ 2050 4000
 NoConn ~ 2750 3350
 NoConn ~ 2750 3400
@@ -320,7 +303,6 @@ NoConn ~ 4300 3550
 NoConn ~ 4300 3600
 NoConn ~ 4300 3650
 NoConn ~ 4300 3700
-NoConn ~ 4300 3900
 NoConn ~ 4300 3950
 NoConn ~ 5000 3300
 NoConn ~ 5000 3350
@@ -2503,8 +2485,6 @@ Connection ~ 10100 7950
 Wire Wire Line
 	14550 7000 14750 7000
 Wire Wire Line
-	14550 7200 14800 7200
-Wire Wire Line
 	13750 7300 14050 7300
 Wire Wire Line
 	13750 7200 14050 7200
@@ -2514,7 +2494,7 @@ Wire Wire Line
 	13800 7000 14050 7000
 Text Label 13750 7300 0    50   ~ 0
 E_STOP
-Text Label 14800 7200 2    50   ~ 0
+Text Label 14900 7200 2    50   ~ 0
 RXD
 Text Label 13750 7200 0    50   ~ 0
 TXD
@@ -2551,7 +2531,6 @@ NoConn ~ 14050 7600
 NoConn ~ 14050 7700
 NoConn ~ 14050 7800
 NoConn ~ 14050 7900
-NoConn ~ 14550 7300
 $Comp
 L JPL_Robotics_Lib:Mounting_Holes M1
 U 1 1 609530FB
@@ -3118,4 +3097,43 @@ Wire Notes Line style solid rgb(0, 0, 0)
 	14650 1150 14650 4400
 Wire Notes Line style solid rgb(0, 0, 0)
 	9850 1150 9850 4400
+Wire Wire Line
+	14550 7300 14900 7300
+Text Label 14600 7300 0    50   ~ 0
+E_STOP2
+Wire Wire Line
+	14550 7200 14900 7200
+Wire Wire Line
+	1600 2400 1350 2400
+Text Label 1350 2400 0    30   ~ 0
+E_STOP2
+$Comp
+L JPL_Robotics_Lib:RoboClaw RC?
+U 1 1 60AB7B1E
+P 2150 4050
+AR Path="/60AB7B1E" Ref="RC?"  Part="1" 
+AR Path="/60A51BAC/60AB7B1E" Ref="RC2"  Part="1" 
+F 0 "RC2" H 2400 4968 30  0000 C CNN
+F 1 "RoboClaw" H 2400 4908 30  0000 C CNN
+F 2 "JPL Robotics:Roboclaw Mount" H 2400 4950 30  0001 C CNN
+F 3 "" H 2400 4950 30  0001 C CNN
+	1    2150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3950 1800 3950
+Text Label 1800 3950 0    30   ~ 0
+E_STOP2
+Wire Wire Line
+	2950 2400 2700 2400
+Text Label 2700 2400 0    30   ~ 0
+E_STOP2
+Wire Wire Line
+	4350 2400 4100 2400
+Text Label 4100 2400 0    30   ~ 0
+E_STOP2
+Wire Wire Line
+	4300 3900 4050 3900
+Text Label 4050 3900 0    30   ~ 0
+E_STOP2
 $EndSCHEMATC
