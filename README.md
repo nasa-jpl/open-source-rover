@@ -160,7 +160,7 @@ The main electrical system of this rover relies on a custom printed circuit boar
 
 ![Rover build roadmap](images/roadmap.png)
 
-Above is an example roadmap of how you can build the rover and which parts of the build are dependant on the other sections. It is broken down into 5 stages:
+Above is an example roadmap of how you can build the rover and which parts of the build are dependent on the other sections. It is broken down into 5 stages:
  * __Stage 1:__ Start getting all the parts!  
  
  * __Stage 2:__ Once you have all the parts, everything in stage 2 can be completed in parallel. It is *highly* recommended to start on the electrical testing of components outside the robot before doing any electrical work inside the completed robot body. You can also work on the software at any stage between here and the end.
