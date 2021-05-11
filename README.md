@@ -67,8 +67,6 @@ For the power system of the rover, there is also ample spare power which can be 
 
 As an open-source hardware project, the rover is continuously improving. Please check ongoing [projects](https://github.com/nasa-jpl/open-source-rover/projects), [issues](https://github.com/nasa-jpl/open-source-rover/issues), [pull requests](https://github.com/nasa-jpl/open-source-rover/projects), and the forum (see below) to see if any big changes are expected soon.
 
-We are changing documentation from LaTeX to MarkDown to facilitate contributions. Some instructions might be in PDF format while other might be a `README.md` file rendered in GitHub. To print out a MarkDown page, consider using an extension like [GitHub Markdown Printer](https://chrome.google.com/webstore/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk?hl=en)
-
 ### Online 3D Model
 <img src="images/onshape/rover.png" width="100%"/>
 <p><img src="images/onshape/body.png" width="32%"/>
@@ -105,9 +103,7 @@ This project has elements in mechanical assembly/fabrication, uses a host of ele
    * Electrical debugging
    * Wiring
    * Electrical Safety
- * __Software:__ The rover's brain is a Raspberry Pi.  Included in this repository is all the software ready to run the rover, but some  knowledge is required for getting everything up and ready on the Raspberry Pi:
-   * Basic Linux familiarity
-   * Basic Python familiarity
+ * __Software:__ The rover's brain is a Raspberry Pi. All code can be found in the [osr-rover-code](https://github.com/nasa-jpl/osr-rover-code) repository along with step-by-step instructions to set it up. Basic familiarity with Linux, ROS, and Python will be helpful though.
 
 Most of the above are skills that you can learn and pick up fairly quickly from watching videos and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well.  See the build documents for more information.
 
