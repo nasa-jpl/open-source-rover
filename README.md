@@ -138,11 +138,6 @@ In our experience, this project takes no less than 200 person-hours to build, an
 
 ## Getting Started
 
-### Folder organization
-![Rover build folders](images/folders.png)
-
-The main /osr/ folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections: Mechanical, Electrical, and Software. Each of these sections is meant to be relatively self contained and should be fairly parallelizable, meaning that they could be completed simultaneously by different groups. There is a README.md in each section to help you navigate the information in that section. 
-
 ### Ordering parts
 
 #### Parts Lists
