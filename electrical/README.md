@@ -5,7 +5,7 @@ The JPL Open Source Rover is an open source, build it yourself, scaled down vers
 This is a feature testing branch for an electronics rework, for moving towards a monolithic "motherboard" approach for to reduce wiring complexity and lower the barrier of entry for the project, as well as make the system more robust. 
 
 ## Disclaimer
-This information is not fully tested yet, and is being put here as a development branch incase some want to start working on these parts. It will eventually be added into the main repositiory once testing has been completed and documentation added. Until then this will be incomplete for information as things will be changing rapidly. 
+This information is not fully tested yet, and is being put here as a development branch incase some want to start working on these parts. It will eventually be added into the main repository once testing has been completed and documentation added. Until then this will be incomplete for information as things will be changing rapidly. 
 
 
 ## Board ordering/assembly
@@ -25,9 +25,8 @@ To order these boards we suggest that you order from [JLCPCB](https://jlcpcb.com
   * PCB Color - Whatever color you want
   * Surface Finish - HASL
   * Copper Weight - 1oz
-  * Gold Finers - No
+  * Gold Fingers - No
   * Panel by JLPCB - No
   * Flying Probe Test - Fully Tested
   * Castellated Holes - No
   * Different Design - 1
-

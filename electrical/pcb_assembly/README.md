@@ -97,7 +97,7 @@ On the **bottom** of the board, solder the 20-position female socket header
 | 4.7K 1/4 Watt Resistor | E7      | 1       | <img src="../../images/components/electronics/E7.png" width="100">  | 10K 1/2 Watt Resistor  | E10     | 1       | <img src="../../images/components/electronics/E10.png" width="100"> |
 | 10K 1/4 Watt Resistor  | E8      | 4       | <img src="../../images/components/electronics/E8.png" width="100">  | 100nF Capacitor        | E11     | 17      | <img src="../../images/components/electronics/E11.png" width="100"> |
 
-#### 3.2.1 Solder resistors and capicitors
+#### 3.2.1 Solder resistors and capacitors
 
 On the **top** of the board, solder the resistors and capacitors by
     comparing the reference designator on the board to the part number listed in

@@ -40,7 +40,7 @@ Arduino Uno | Runs the LED Matrix
 LED Matrix | Gives the robot a display and a personality
 Motor Controllers | Sends voltage signals to the motors telling the motors the direction and speed at which to spin. Reads encoder data
 Encoders | Monitors the position of the motor to give information about speed and position
-Control Board PCB | Custom Printed Circuit Board to manage power and data transmition between electronics components.
+Control Board PCB | Custom Printed Circuit Board to manage power and data transmission between electronics components.
 
 ## 1.1 Prerequisite: Circuit Board Assembly
 **NOTE**: Before proceeding, you need to have completed the assembly of the custom PCB board and populated all the components. If you have not yet done so, build the Control Board now by following the document at /Electrical/PCB Assembly.pdf.

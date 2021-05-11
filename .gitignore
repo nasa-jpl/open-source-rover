@@ -1,7 +1,7 @@
 *.synctex.gz
 ~*
 
-# LeTeX build files
+# LaTeX build files
 *.aux
 *.fdb_latexmk
 *.fls
