@@ -149,9 +149,6 @@ In order to help this ordering process we have compiled a few links of a large n
 |[McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)|[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wb)|[Pololu](https://www.pololu.com/wishlist/1J10953)|[Adafruit](https://www.adafruit.com/wishlists/460400)|
 |---|---|---|---|
 
-**Digikey:** 
-The Bill of Materials folder contains (currently just one) Bill of materials file for a specific vendor. We are searching for better ways to help with the ordering process, however for now the easiest way is to take the [Digikey Bill of Materials](parts_list/Digikey_BOM.csv) and upload it to [Digikey](https://www.digikey.com/). You can find the "BOM Manager" on their homepage and then start a new BOM, where you can upload this file.  
-
 #### 3D printing and Laser cutting
 
 In addition to ordering all of the parts on the parts list, we recommend that some pieces be 3D printed and laser cut. If you do not have access to a 3D printer or laser cutter, we've added some online services as examples for where you can get those manufactured and shipped to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body%20Assembly/Body%20Build%20Doc.pdf),  [Corner Steering Build Doc](Mechanical/Corner%20Steering/Corner%20Steering%20Build%20Doc.pdf), and [Head Assembly Build Doc](Mechanical/Head%20Assembly/Head%20Assembly%20Build%20Doc.pdf).
