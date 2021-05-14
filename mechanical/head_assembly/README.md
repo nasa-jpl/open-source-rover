@@ -51,11 +51,11 @@ There are a few components that need to be 3D printed to make the head assembly.
 If you do not have a 3D printer there are a number of online 3D printing services available, an example of which can be found at:
  - [MakeXYZ](https://www.makexyz.com/)
 
-Print the "head base.STL" piece from the [3d Printed head](https://github.com/nasa-jpl/open-source-rover/blob/master/Mechanical/Head%20Assembly/3D%20Printed%20Parts/head%20base.STL)
+Print the "head base.STL" piece from the [3d Printed head](https://github.com/nasa-jpl/open-source-rover/blob/master/mechanical/head_assembly/3d_printed_parts/head%20base.STL)
 
 ## 4. Laser Cutting
 
-There is an acrylic plate which mounts the arduino into the head, as well as a back plate for the panel of the head. The 2D cutout files are the .DXF files and can be found in the GitHub repository at [Laser cut parts](https://github.com/nasa-jpl/open-source-rover/tree/master/Mechanical/Head%20Assembly/Laser%20Cut%20Files). If you do not have access to a laser cutting there is an online service in which you can order these from below:
+There is an acrylic plate which mounts the arduino into the head, as well as a back plate for the panel of the head. The 2D cutout files are the .DXF files and can be found in the GitHub repository at [Laser cut parts](https://github.com/nasa-jpl/open-source-rover/tree/master/mechanical/head_assembly/laser_cut_files). If you do not have access to a laser cutting there is an online service in which you can order these from below:
 
   - [Scupteo](https://sculpteo.com)
 
