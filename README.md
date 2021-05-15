@@ -41,6 +41,17 @@ Again, the above statistics depend on which components you select when buying pa
 
 (*) Other open-source, cheaper alternatives exist but are slower, less strong, and are more fragile. See [Additional Projects](#additional-projects).
 
+### Communication
+In addition to this repository which holds all the documentation for this project, there are two additional websites tied to this project. One is a [landing site](https://opensourcerover.jpl.nasa.gov) which holds general information and an overview of the rover and how it works:
+
+We have a few ways to connect with the team and community of Open Source Rover builders:
+
+* [Slack](https://join.slack.com/t/opensourcerover/shared_invite/zt-mfe0viua-FhcYsNb3S9vUra99uF3IBw) (Preferred method)
+* [TapaTalk - JPL Open Source Rover](https://www.tapatalk.com/groups/jpl_opensource_rover/) (Tapatalk is being monitored less since the addition of Slack, that's the easiest way to reach many of us now)
+* We also use [Github Discussions](https://github.com/nasa-jpl/open-source-rover/discussions)
+
+**__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__** On these you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted so that this project and community can grow.
+
 ### Features
 This rover is designed to function similarly to the 6 wheel rover designs on Mars and employs a few of the major driving mechanics that the mars rovers use to traverse rocky surfaces:
  * __Rocker-Bogie:__ The Rocker-Bogie suspension system allows all 6 wheels to continually be in contact with the ground while climbing over obstacles
@@ -83,15 +94,6 @@ There is also an [Onshape model of the Open Source Rover](https://cad.onshape.co
 Thank you to Lauren Schooley for creating a mission patch for the project. The patch is free for use as a team patch, for stickers, or decorating your rover. The design is released under the Creative Commons Attribution-NoDerivatives public license. A variety of file formats is available.
 
 * [Mission Patch](https://github.com/lschooley/open-source-rover-mission-patch)
-
-### Other Resources
-In addition to this repository which holds all the documentation for this project, there are two additional websites tied to this project. One is a [landing site](https://opensourcerover.jpl.nasa.gov) which holds general information and an overview of the rover and how it works:
-
-There is also a user-run forum to help facilitate discussion about the project. **__Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.__** On this forum, you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted so that this project and community can grow.
-
-* [TapaTalk - JPL Open Source Rover](https://www.tapatalk.com/groups/jpl_opensource_rover/)
-* We also use [Github Discussions](https://github.com/nasa-jpl/open-source-rover/discussions) and have a Slack group you can join - please post in Discussions to request an invite!
-
 
 ### Skills Necessary
 This project has elements in mechanical assembly/fabrication, uses a host of electrical components, and has software that will run it all. In order to complete this project, you will need to have some experience in the following:
