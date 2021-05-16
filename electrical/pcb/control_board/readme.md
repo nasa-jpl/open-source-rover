@@ -47,6 +47,22 @@
 - [Digikey](https://www.digikey.com/en/products/detail/PPTC021LFBN-RC/S7000-ND/810142?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart)
 - [Summary drawing](https://drawings-pdf.s3.amazonaws.com/10492.pdf)
 
+### Adafruit INA260 headers
+
+- The ina260 
+    - https://www.adafruit.com/product/4226#technical-details
+    - [pin details](https://learn.adafruit.com/assets/77678)
+- 8 pin header
+    - PEC08SAAN
+    - [Digikey](https://www.digikey.com/en/products/detail/PEC08SAAN/S1012E-08-ND/859161?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart)
+    - [Summary drawing](https://drawings-pdf.s3.amazonaws.com/C10436.pdf)
+    - Don't need to connect vbus because we're doing high side sensing
+- 2 pin header
+    - PEC02SAAN
+    - [Digikey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC02SAAN/859155?s=N4IgTCBcDaIAoFEDCAGMBlAgpgciAugL5A)
+    - note! This header is actually 0.1" pitch, but we need 0.2" pitch. So the builder will have to go in and manually cut the pins apart. Shouldn't be too hard though.
+    - for this reason, using a custom footprint with 0.2" spacing
+
 
 ## Notes on the schematic (Control Board.sch)
     

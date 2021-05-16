@@ -294,7 +294,6 @@ F 3 "" H 3950 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3800 2350
-NoConn ~ 3800 2450
 NoConn ~ 3800 2500
 NoConn ~ 3800 2550
 NoConn ~ 3800 2850
@@ -312,7 +311,6 @@ NoConn ~ 4800 2700
 NoConn ~ 4800 2600
 NoConn ~ 4800 2450
 NoConn ~ 3850 3650
-NoConn ~ 3850 3750
 NoConn ~ 3850 3800
 NoConn ~ 3850 3850
 NoConn ~ 3850 4150
@@ -329,10 +327,6 @@ NoConn ~ 4850 4150
 NoConn ~ 4850 4000
 NoConn ~ 4850 3900
 NoConn ~ 4850 3750
-NoConn ~ 3800 2250
-NoConn ~ 3800 2300
-NoConn ~ 3850 3550
-NoConn ~ 3850 3600
 Wire Notes Line style solid rgb(0, 0, 0)
 	6000 1400 8450 1400
 Text Notes 6350 1650 0    98   ~ 0
@@ -358,14 +352,11 @@ F 3 "" H 7500 2300 50  0001 C CNN
 	1    7200 2300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7450 2850
 NoConn ~ 7450 2950
 NoConn ~ 7450 3050
 NoConn ~ 7450 3150
 NoConn ~ 7450 3250
 NoConn ~ 7450 3350
-NoConn ~ 6950 2850
-NoConn ~ 6950 2950
 NoConn ~ 6950 3050
 NoConn ~ 6950 3150
 NoConn ~ 6950 3250
@@ -493,7 +484,6 @@ Wire Wire Line
 	7850 2400 7850 2450
 Connection ~ 7850 2450
 NoConn ~ 4850 3850
-NoConn ~ 5200 4200
 Wire Notes Line
 	6000 1400 6000 3550
 Wire Notes Line
@@ -517,7 +507,7 @@ F 3 "" H 7500 4150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 2750 7800 2750
-Text Label 7500 2750 0    50   ~ 0
+Text Label 7800 2750 2    50   ~ 0
 E_STOP2
 Wire Wire Line
 	7450 2650 7800 2650
@@ -535,4 +525,40 @@ Wire Notes Line
 	6000 4550 8450 4550
 Wire Notes Line
 	8450 4550 8450 3700
+Wire Wire Line
+	3800 2450 3650 2450
+Text Label 3650 2450 0    30   ~ 0
+alert
+Wire Wire Line
+	6950 2950 6650 2950
+Text Label 6650 2950 0    50   ~ 0
+alert
+Wire Wire Line
+	6950 2850 6650 2850
+Text Label 6650 2850 0    50   ~ 0
+SCL_rpi
+Wire Wire Line
+	7450 2850 7800 2850
+Text Label 7800 2850 2    50   ~ 0
+SDA_rpi
+Wire Wire Line
+	3800 2250 3650 2250
+Wire Wire Line
+	3800 2300 3650 2300
+Text Label 3650 2250 0    30   ~ 0
+SDA_rpi
+Text Label 3650 2300 0    30   ~ 0
+SCL_rpi
+Wire Wire Line
+	3850 3550 3700 3550
+Wire Wire Line
+	3850 3600 3700 3600
+Text Label 3700 3550 0    30   ~ 0
+SDA_rpi
+Text Label 3700 3600 0    30   ~ 0
+SCL_rpi
+Wire Wire Line
+	3850 3750 3700 3750
+Text Label 3700 3750 0    30   ~ 0
+alert
 $EndSCHEMATC
