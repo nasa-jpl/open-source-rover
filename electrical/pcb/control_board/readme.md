@@ -74,6 +74,11 @@
     - 3 of them for each section of 4 output channels on the servo driver board
 - note that we don't need to connect the two pin power header, because we aren't routing power through the servo controller board, we're exclusively providing it through the control board
 
+## Corner servo motor connectors
+
+- 3 pin header
+    - [Digikey](https://www.digikey.com/en/products/detail/PPTC031LFBN-RC/S7001-ND/810143?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart)
+
 ## Notes on the schematic (Control Board.sch)
     
 - for library part ED2989-ND-USB, made VCC and GND passive because these are _alternative_ ways to power the +5V bus, and the electrical rules check-in kicad doesn't allow multiple power output sources for the same bus. Normally this bus is powered by the battery and voltage regulators.
