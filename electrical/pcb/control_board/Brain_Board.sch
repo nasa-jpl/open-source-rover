@@ -561,4 +561,8 @@ Wire Wire Line
 	3850 3750 3700 3750
 Text Label 3700 3750 0    30   ~ 0
 alert
+Text Notes 5100 3750 0    31   ~ 0
+Todo: certain we don't want\n to connect E_STOP on j7?
+Text Notes 2750 3850 0    31   ~ 0
+todo: Is GPIO_GEN0 good to use for\n ina260 alert signal?
 $EndSCHEMATC
