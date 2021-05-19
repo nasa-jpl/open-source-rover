@@ -93,10 +93,10 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload the .D
   | Laser Cut Head Back Panel | S42 | 1 | <img src="/images/components/structural/S42.png" width="200">   | M2.5 x 6mm Socket Head Screw | B10 | 8| <img src="/images/components/screws/B10.png" width="70">|
   | 3D printed Head | S43 | 1 | <img src="/images/components/structural/S43.png" width="200">   | M3 x 6mm Socket Head Cap screw| B14 | 6 | <img src="/images/components/screws/B14.png" width="70"> |
   | Laser Cut Arduino Plate | S44 | 1 | <img src="/images/components/structural/S44.png" width="200">   | Ardiuno Sheild PCB | E2 | 1 | <img src="/images/components/electronics/E2.png" width="200"> |
-  | #4-40 Heat set insert | I1 | 8 | <img src="/images/components/inserts/I1.png" width="70"> | #6-32 Heat set insert | I2 | 6 | | <img src="/images/components/inserts/I1.png" width="70">
+  | #4-40 Heat set insert | I1 | 8 | <img src="/images/components/inserts/I1.png" width="70"> | #6-32 Heat set insert | I2 | 6 | <img src="/images/components/inserts/I2.png" width="70">
   | Arduino Uno| E24 | 1 | <img src="/images/components/electronics/E24.png" width="200"> | #6-32 x 5/8" Button Head Screw | B4| 2 | <img src="/images/components/screws/B2.png" width="70">|
   | M2.5 x 10mm Standoff| T10 | 4 | <img src="/images/components/standoffs/T10.png" width="70">   | LED Matrix | E37 | 1  |  <img src="/images/components/electronics/E37.png" width="200"> |
-  |#6 Washer| W1| 2| <img src="/images/components/screws/B2.png" width="70">|
+  |#6 Washer| W1| 2| <img src="/images/components/washers/W1.png" width="70">|
 
 ## 6.1 Assemble the Arduino Stack
 
