@@ -82,9 +82,10 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload the .D
   | Laser Cut Head Back Panel | S42 | 1 | <img src="/images/components/structural/S42.png" width="200">   | M2.5 x 6mm Socket Head Screw | B10 | 8| <img src="/images/components/screws/B10.png" width="70">|
   | 3D printed Head | S43 | 1 | <img src="/images/components/structural/S43.png" width="200">   | M3 x 6mm Socket Head Cap screw| B14 | 6 | <img src="/images/components/screws/B14.png" width="70"> |
   | Laser Cut Arduino Plate | S44 | 1 | <img src="/images/components/structural/S44.png" width="200">   | Ardiuno Sheild PCB | E2 | 1 | <img src="/images/components/electronics/E2.png" width="200"> |
-  | #4-40 Heat set insert | I1 | 10 | <img src="/images/components/inserts/I1.png" width="70"> | #6-32 Heat set insert | I2 | 4 | | <img src="/images/components/inserts/I1.png" width="70">
-  | Arduino Uno| E24 | 1 | <img src="/images/components/electronics/E24.png" width="200"> |
+  | #4-40 Heat set insert | I1 | 8 | <img src="/images/components/inserts/I1.png" width="70"> | #6-32 Heat set insert | I2 | 6 | | <img src="/images/components/inserts/I1.png" width="70">
+  | Arduino Uno| E24 | 1 | <img src="/images/components/electronics/E24.png" width="200"> | #6-32 x 5/8" Button Head Screw | B4| 2 | <img src="/images/components/screws/B2.png" width="70">|
   | M2.5 x 10mm Standoff| T10 | 4 | <img src="/images/components/standoffs/T10.png" width="70">   | LED Matrix | E37 | 1  |  <img src="/images/components/electronics/E37.png" width="200"> |
+  |#6 Washer| W1| 2| <img src="/images/components/screws/B2.png" width="70">|
 
 
 ## 6.1 Assemble the Arduino Stack
@@ -112,14 +113,17 @@ Insert the # 4-40 Heat Set Inserts I1 into the 3D printed head (using a Solder I
 
 ### 6.2.2 3D-printed PVC clamping hub
 
-* Insert the #6-32 Heat Set Inserts I2 into the 3D-printed clamping hub S51 in the locations shown in Figure 6. 
-* Insert the #4-40 Heat Set Inserts I1 into the 3D-printed clamping hub in the locations shown in Figure 7. The inserts should go in from the left side as shown in Figure 7. 
+* Insert the #6-32 Heat Set Inserts I2 into the 3D-printed clamping hub S51 in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 6. 
+
+| <img src="/images/head/step-3a.png" width="100%"> | <img src="/images/head/step-3b.png" width="100%">|
+  |:-:|
+  | Figure 7 |
 
 ## 6.3 Assemble and Mount the PVC clamping hub
 
 ### 6.3.1 
 
-Using washers W2, insert screws Bx into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe later. 
+Using washers W1, insert screws B4 into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe later. 
 
 
 ### 6.3.2
