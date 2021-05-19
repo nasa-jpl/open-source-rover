@@ -75,7 +75,7 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload these 
 | :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
 | Dual Side mount A            | S17 | 4 | <img src="../../images/components/structural/S17.png" width="200"> | #6-32x1/4" Button Head Screw | B1 | 16 | <img src="../../images/components/screws/B1.png" width="70"> |
 | 4.5"x12" Aluminum Plate      | S37 | 2 | <img src="../../images/components/structural/S37.png" width="200"> | #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../../images/components/screws/B2.png" width="70"> |
-| 1" PVC Clamp                 | S24 | 1 | <img src="../../images/components/structural/S24.png" width="200"> | Allen Key Set                | | | <img src="../../images/components/tools/D2.png" width="200"> |
+| 3D-printed PVC Clamp                 | S51 | 1 | <img src="../../images/components/structural/S24.png" width="200"> | Allen Key Set                | | | <img src="../../images/components/tools/D2.png" width="200"> |
 | 9"x12" Aluminum Plate        | S35A | 1 | <img src="../../images/components/structural/S35.png" width="200"> | 5/16" Wrench                 | | | <img src="../../images/components/tools/D1.png" width="200">  |
 
 #### 4.1.1 Top panel
@@ -95,8 +95,13 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 |:-:|
 | Figure 3: Attach the side panels |
 
+#### 4.1.3 Assmble the PVC clamping hub
 
-#### 4.1.3 Attach the PVC clamping hub
+* Insert the #6-32 Heat Set Inserts I2 into the 3D-printed clamping hub in the locations shown in Figure 6. 
+* Insert the #4-40 Heat Set Inserts I1 into the 3D-printed clamping hub in the locations shown in Figure 7. The inserts should go in from the left side as shown in Figure 7. 
+* Using washers xx, insert screws Bx into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe. 
+
+#### 4.1.4 Attach the PVC clamping hub
 
 Attach the 1-inch PVC bore clamping hub **S24** to the top plate of the body using screws **B1** Use the location shown in Figure 4.
 
