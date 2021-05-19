@@ -63,6 +63,16 @@
     - note! This header is actually 0.1" pitch, but we need 0.2" pitch. So the builder will have to go in and manually cut the pins apart. Shouldn't be too hard though.
     - for this reason, using a custom footprint with 0.2" spacing
 
+### Adafruit 16-Channel Servo Driver
+
+- 6 pin header
+    - PPTC061LFBN-RC
+    - [Digikey](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC061LFBN-RC/810145?s=N4IgTCBcDaIApwCoGEAMA2AjAGQGICEA5AWgCVkQBdAXyA)
+- Motor output headers
+    - PPTC041LFBN-RC
+    - [Digikey](https://www.digikey.com/en/products/detail/PPTC041LFBN-RC/S7002-ND/810144?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart)
+    - 3 of them for each section of 4 output channels on the servo driver board
+- note that we don't need to connect the two pin power header, because we aren't routing power through the servo controller board, we're exclusively providing it through the control board
 
 ## Notes on the schematic (Control Board.sch)
     

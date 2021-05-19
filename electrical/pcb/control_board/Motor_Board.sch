@@ -2108,12 +2108,6 @@ Wire Notes Line style solid rgb(0, 0, 0)
 Wire Notes Line style solid rgb(0, 0, 0)
 	8300 5450 8300 9350
 Wire Notes Line style solid rgb(0, 0, 0)
-	7850 5450 7850 9350
-Wire Notes Line style solid rgb(0, 0, 0)
-	7850 9350 5400 9350
-Wire Notes Line style solid rgb(0, 0, 0)
-	5400 9350 5400 5450
-Wire Notes Line style solid rgb(0, 0, 0)
 	5400 5450 7850 5450
 Wire Notes Line
 	4900 9350 4900 4900
@@ -3014,8 +3008,6 @@ Wire Wire Line
 	2750 8100 3300 8100
 Wire Wire Line
 	3300 8500 3400 8500
-Text Label 3650 8500 0    50   ~ 0
-+5V_motor
 Wire Wire Line
 	3650 8500 4050 8500
 Text Label 3650 8600 0    50   ~ 0
@@ -3161,4 +3153,143 @@ F 3 "" H 14050 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 6600 2750 6600
+Wire Notes Line
+	5400 5450 5400 7100
+Wire Notes Line
+	5400 7100 7850 7100
+Wire Notes Line
+	7850 7100 7850 5450
+Wire Notes Line
+	5400 7300 7850 7300
+Wire Notes Line
+	7850 7300 7850 9350
+Wire Notes Line
+	7850 9350 5400 9350
+Text Notes 5650 7550 0    98   ~ 0
+Servo Controller Headers
+$Comp
+L JPL_Robotics_Lib:PPTC061LFBN-RC J?
+U 1 1 60BBA8E7
+P 6000 8500
+F 0 "J?" H 6128 8675 39  0000 L CNN
+F 1 "PPTC061LFBN-RC" H 6050 8950 50  0001 C CNN
+F 2 "" H 6150 8800 50  0001 C CNN
+F 3 "" H 6150 8800 50  0001 C CNN
+	1    6000 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:PPTC041LFBN-RC J?
+U 1 1 60BBCE9F
+P 6450 7950
+F 0 "J?" V 6450 7850 39  0000 L CNN
+F 1 "PPTC041LFBN-RC" H 6500 8300 50  0001 C CNN
+F 2 "" H 6600 8150 50  0001 C CNN
+F 3 "" H 6600 8150 50  0001 C CNN
+	1    6450 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:PPTC041LFBN-RC J?
+U 1 1 60BBD6E1
+P 6450 8350
+F 0 "J?" V 6450 8250 39  0000 L CNN
+F 1 "PPTC041LFBN-RC" H 6500 8700 50  0001 C CNN
+F 2 "" H 6600 8550 50  0001 C CNN
+F 3 "" H 6600 8550 50  0001 C CNN
+	1    6450 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:PPTC041LFBN-RC J?
+U 1 1 60BBDC32
+P 6450 8750
+F 0 "J?" V 6450 8650 39  0000 L CNN
+F 1 "PPTC041LFBN-RC" H 6500 9100 50  0001 C CNN
+F 2 "" H 6600 8950 50  0001 C CNN
+F 3 "" H 6600 8950 50  0001 C CNN
+	1    6450 8750
+	0    1    1    0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:PPTC041LFBN-RC J?
+U 1 1 60BBE216
+P 7100 7950
+F 0 "J?" V 7092 8228 39  0000 L CNN
+F 1 "PPTC041LFBN-RC" H 7150 8300 50  0001 C CNN
+F 2 "" H 7250 8150 50  0001 C CNN
+F 3 "" H 7250 8150 50  0001 C CNN
+	1    7100 7950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 8200 5600 8200
+Text Label 5600 8200 0    30   ~ 0
+GND_motor
+Wire Wire Line
+	5900 8300 5600 8300
+Text Label 5600 8300 0    30   ~ 0
+SCL_rpi
+Wire Wire Line
+	5900 8350 5600 8350
+Text Label 5600 8350 0    30   ~ 0
+SDA_rpi
+Wire Wire Line
+	5900 8400 5600 8400
+Text Label 5600 8400 0    30   ~ 0
++5V_motor
+Text Label 3650 8500 0    50   ~ 0
++5V_motor
+NoConn ~ 5900 8450
+NoConn ~ 5900 8250
+Text Notes 5250 8650 0    31   ~ 0
+Todo: do we want OE (output enable)\n on the servo controller board?
+Wire Notes Line
+	5400 7300 5400 9350
+NoConn ~ 6500 8250
+NoConn ~ 6550 8250
+NoConn ~ 6600 8250
+NoConn ~ 6650 8250
+NoConn ~ 6500 8650
+NoConn ~ 6550 8650
+NoConn ~ 6600 8650
+NoConn ~ 6650 8650
+$Comp
+L JPL_Robotics_Lib:PPTC041LFBN-RC J?
+U 1 1 60F4216F
+P 7100 8350
+F 0 "J?" V 7092 8628 39  0000 L CNN
+F 1 "PPTC041LFBN-RC" H 7150 8700 50  0001 C CNN
+F 2 "" H 7250 8550 50  0001 C CNN
+F 3 "" H 7250 8550 50  0001 C CNN
+	1    7100 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:PPTC041LFBN-RC J?
+U 1 1 60F42175
+P 7100 8750
+F 0 "J?" V 7092 9028 39  0000 L CNN
+F 1 "PPTC041LFBN-RC" H 7150 9100 50  0001 C CNN
+F 2 "" H 7250 8950 50  0001 C CNN
+F 3 "" H 7250 8950 50  0001 C CNN
+	1    7100 8750
+	0    1    1    0   
+$EndComp
+NoConn ~ 7150 8250
+NoConn ~ 7200 8250
+NoConn ~ 7250 8250
+NoConn ~ 7300 8250
+NoConn ~ 7150 8650
+NoConn ~ 7200 8650
+NoConn ~ 7250 8650
+NoConn ~ 7300 8650
+Text Notes 7500 8500 0    31   ~ 0
+V+ and GND \nheaders for \nmechanical \nsupport only\n\nonly using\ntwo sets of \n3x4 headers
+Text Notes 6750 8400 0    31   ~ 0
+V+ headers
+Text Notes 6750 8800 0    31   ~ 0
+GND headers
+Text Notes 6750 8000 0    31   ~ 0
+PWM headers
 $EndSCHEMATC
