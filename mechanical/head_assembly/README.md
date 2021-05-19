@@ -36,7 +36,11 @@ The head assembly serves as the head and face of our rover. It houses a 16x32 fu
 
 ## 2.3 Dependencies on Other Modules:
   * None
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> d66b887 (Initial pass at README documents)
 ## 2.4 Mechanical Interface/Attachments to Rover:
   * None
 
@@ -44,10 +48,16 @@ The head assembly serves as the head and face of our rover. It houses a 16x32 fu
 ## 3. 3D Printing
 There are a few components that need to be 3D printed to make the head assembly. You can find the STL files necessary for these prints in the ”Mechanical/Head Assembly/3D Printed Parts” folder of the repository.
 
+<<<<<<< HEAD
 | <img src="../../images/components/structural/S43.png" width="50%"> |
 | :--: |
 | Figure 1: 3D Printed Parts |
 
+=======
+  | <img src="/images/components/structural/S43.png" width="50%"> |
+  | :--: |:--: |
+  | Figure 1. 3D-printed Head Base | Figure 2. 3D-printed PVC Hub
+>>>>>>> d66b887 (Initial pass at README documents)
 
 If you do not have a 3D printer there are a number of online 3D printing services available, an example of which can be found at:
  - [MakeXYZ](https://www.makexyz.com/)
@@ -76,18 +86,16 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload the .D
 
 ## 6. Mechanical/Structural Assembly
 
-| Item | Ref | Qty | Image | Item | Ref | Qty | Image |
-| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
-| 3D-printed Clamping Hub for 1" PVC Pipe | S24 | 1 | <img src="/images/components/structural/S24.png" width="200"> | #6-32 x 3/8" Button Head Screw | B2 | 4 | <img src="/images/components/screws/B2.png" width="70">|
-| PVC Pipe (Modified ) | S29A | 1 | <img src="/images/components/structural/S29.png" width="200">   | #4-40x 1/4" Button Head Screw| B8 | 12 | <img src="/images/components/screws/B8.png" width="70">|
-| Laser Cut Head Back Panel | S42 | 1 | <img src="/images/components/structural/S42.png" width="200">   | M2.5 x 6mm Socket Head Screw | B10 | 8| <img src="/images/components/screws/B10.png" width="70">|
-| 3D printed Head | S43 | 1 | <img src="/images/components/structural/S43.png" width="200">   | M3 x 6mm Socket Head Cap screw| B14 | 6 | <img src="/images/components/screws/B14.png" width="70"> |
-| Laser Cut Arduino Plate | S44 | 1 | <img src="/images/components/structural/S44.png" width="200">   | Ardiuno Shield PCB |E2 | 1 | <img src="/images/components/electronics/E2.png" width="200"> |
-| #4-40 Heat set insert | I1 | 8 | <img src="/images/components/inserts/I1.png" width="70"> | #6-32 Heat set insert | I2 | 6 | <img src="/images/components/inserts/I2.png" width="70">|
-| Arduino Uno| E24 | 1 | <img src="/images/components/electronics/E24.png" width="200"> | #6-32 x 5/8" Button Head Screw | B4| 2 | <img src="/images/components/screws/B2.png" width="70">|
-| M2.5 x 10mm Standoff| T10 | 4 | <img src="/images/components/standoffs/T10.png" width="70">   | LED Matrix | E37 | 1  |  <img src="/images/components/electronics/E37.png" width="200"> |
-|#6 Washer| W1| 2| <img src="/images/components/washers/W1.png" width="70">|||||
-
+  | Item | Ref | Qty | Image | Item | Ref | Qty | Image |
+  | :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
+  | 3D-printed Clamping Hub for 1" PVC Pipe | S24 | 1 | <img src="/images/components/structural/S24.png" width="200"> | #6-32 x 3/8" Button Head Screw | B2 | 4 | <img src="/images/components/screws/B2.png" width="70">|
+  | PVC Pipe (Modified ) | S29A | 1 | <img src="/images/components/structural/S29.png" width="200">   | #4-40x 1/4" Button Head Screw| B8 | 12 | <img src="/images/components/screws/B8.png" width="70">|
+  | Laser Cut Head Back Panel | S42 | 1 | <img src="/images/components/structural/S42.png" width="200">   | M2.5 x 6mm Socket Head Screw | B10 | 8| <img src="/images/components/screws/B10.png" width="70">|
+  | 3D printed Head | S43 | 1 | <img src="/images/components/structural/S43.png" width="200">   | M3 x 6mm Socket Head Cap screw| B14 | 6 | <img src="/images/components/screws/B14.png" width="70"> |
+  | Laser Cut Arduino Plate | S44 | 1 | <img src="/images/components/structural/S44.png" width="200">   | Ardiuno Sheild PCB | E2 | 1 | <img src="/images/components/electronics/E2.png" width="200"> |
+  | #4-40 Heat set insert | I1 | 10 | <img src="/images/components/inserts/I1.png" width="70"> | #6-32 Heat set insert | I2 | 4 | | <img src="/images/components/inserts/I1.png" width="70">
+  | Arduino Uno| E24 | 1 | <img src="/images/components/electronics/E24.png" width="200"> |
+  | M2.5 x 10mm Standoff| T10 | 4 | <img src="/images/components/standoffs/T10.png" width="70">   | LED Matrix | E37 | 1  |  <img src="/images/components/electronics/E37.png" width="200"> |
 
 ## 6.1 Assemble the Arduino Stack
 
@@ -130,6 +138,17 @@ Using washers W1, insert screws B4 into clamp part of the clamping hub and screw
 | :------------------------------------------------: |
 |                      Figure 9                      |
 
+
+### 6.2.2 3D-printed PVC clamping hub
+
+* Insert the #6-32 Heat Set Inserts I2 into the 3D-printed clamping hub S51 in the locations shown in Figure 6. 
+* Insert the #4-40 Heat Set Inserts I1 into the 3D-printed clamping hub in the locations shown in Figure 7. The inserts should go in from the left side as shown in Figure 7. 
+
+## 6.3 Assemble and Mount the PVC clamping hub
+
+### 6.3.1 
+
+Using washers W2, insert screws Bx into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe later. 
 
 
 ### 6.3.2
