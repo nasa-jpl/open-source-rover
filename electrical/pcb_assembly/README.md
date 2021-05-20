@@ -246,14 +246,14 @@ On the **top** of the board, solder the two USB Connectors **E34**. They
 | **Item**                       | **Ref** | **Qty** | **Image**                                                       | **Item**                       | **Ref** | **Qty** | **Image**                                                       |
 | ------------------------------ | ------- | ------- | --------------------------------------------------------------- | ------------------------------ | ------- | ------- | --------------------------------------------------------------- |
 | #6-32 x 3/4" Threaded Standoff | T3      | 4       |   <img src="../../images/components/standoffs/T3.png" width="100">  | #6-32 3/8" Button Head Screw   | B2      | 8       |   <img src="../../images/components/screws/B2.png" width="100">     |
-| #4-40 x 1/2" Threaded Standoff | T11     | 20      |   <img src="../../images/components/standoffs/T11.png" width="100"> | #4-40 1/4" Button Head Screw   | B8      | 40      |   <img src="../../images/components/screws/B8.png" width="100">     |
-| #2-56 x 1/2" Threaded Standoff | T8      | 4       |   <img src="../../images/components/standoffs/T8.png" width="100">  | #2-56 1/4" Button Head Screw   | B13     | 8       |   <img src="../../images/components/screws/B13.png" width="100">    |
+| #4-40 x 1/2" Threaded Standoff | T5     | 20      |   <img src="../../images/components/standoffs/T11.png" width="100"> | #4-40 1/4" Button Head Screw   | B8      | 40      |   <img src="../../images/components/screws/B8.png" width="100">     |
+| #2-56 x 1/2" Threaded Standoff | T11      | 4       |   <img src="../../images/components/standoffs/T8.png" width="100">  | #2-56 1/4" Button Head Screw   | B13     | 8       |   <img src="../../images/components/screws/B13.png" width="100">    |
 | M2.5 x 10mm Threaded Standoff  | T10     | 4       | <img src="../../images/components/standoffs/T10.png" width="100">   | M2.5 x 6mm Socket Head Screw   | B10     | 8       | <img src="../../images/components/screws/B10.png" width="100">      |
 
 #### 3.9.1 Board mounting Standoffs
 
 On the **BOTTOM** side of the board, attach
-    the four #6-32 Standoffs **T4** on the outermost corner four mounting holes
+    the four #6-32 Standoffs **T3** on the outermost corner four mounting holes
     using screws **B2**. These standoffs will be used to attach the board to the
     robot chassis.
 
@@ -264,7 +264,7 @@ On the **BOTTOM** side of the board, attach
 #### 3.9.2 RoboClaw mounting Standoffs
 
 On the **BOTTOM** side of the board, attach
-    the twenty #4-40 Standoffs **T5** using screws **B8** as shown below. You
+    the twenty #4-40 Standoffs **T5* using screws **B8** as shown below. You
     can identify the RoboClaw mounting holes as the ones that are inside the
     RoboClaw rectangles on the silk screen.
 
@@ -275,7 +275,7 @@ On the **BOTTOM** side of the board, attach
 #### 3.9.3 Voltage Regulator Standoffs
 
 On the **BOTTOM** side of the board, attach
-    the four #2-56 Standoffs **T6** using screws **B13** as shown below.
+    the four #2-56 Standoffs **T11** using screws **B13** as shown below.
 
 | <img src="../../images/pcb_assembly/assembly/standoff_4.png" width="300"> |
 |:-:|
@@ -284,7 +284,7 @@ On the **BOTTOM** side of the board, attach
 #### 3.9.4 Raspberry Pi Standoffs
 
 On the **TOP** side of the board, attach the
-    four M2.5 Standoffs **T7** using screws **B10** as shown in below.
+    four M2.5 Standoffs **T10** using screws **B10** as shown in below.
 
 | <img src="../../images/pcb_assembly/assembly/standoff_5.png" width="300"> |
 |:-:|
