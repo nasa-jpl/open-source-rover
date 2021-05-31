@@ -71,7 +71,7 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload these 
 
 ### 4.1 Chassis
 
-| Item | Ref | Qty | Image | Item | Ref | Qty | Image | 
+| Item | Ref | Qty | Image | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
 | Dual Side mount A            | S17 | 4 | <img src="../../images/components/structural/S17.png" width="200"> | #6-32x1/4" Button Head Screw | B1 | 16 | <img src="../../images/components/screws/B1.png" width="70"> |
 | 4.5"x12" Aluminum Plate      | S37 | 2 | <img src="../../images/components/structural/S37.png" width="200"> | #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../../images/components/screws/B2.png" width="70"> |
@@ -98,10 +98,10 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 
 #### 4.1.3 Assmble the PVC clamping hub
 
-* Insert the #6-32 Heat Set Inserts I2 into the 3D-printed clamping hub in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 6. 
-* Using washers W1, insert screws B4 into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe later. 
+* Insert the #6-32 Heat Set Inserts I2 into the 3D-printed clamping hub **S51** in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 6. 
+* Using washers W1, insert screws **B4** into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe later. 
 
-| <img src="../../images/body/hub_lower.png" height="300">|
+| <img src="../../images/body/hub_lower.png" height="300"> <img src="../../images/body/hub_lower_screws.png" height="300">|
 |:-:|
 | Figure 4: Assemble PVC Clamping Hub |
 
@@ -117,7 +117,7 @@ Attach the 1-inch PVC bore clamping hub **S24** to the top plate of the body usi
 
 The differential pivot is used to transfer weight off of the wheel that is currently climbing to the other front wheel, allowing the rover to climb more easily. Additionally, it serves as a second contact point for the rover’s body such that it does not rotate freely about the cross rod.
 
-| Item | Ref | Qty | Image | Item | Ref | Qty | Image | 
+| Item | Ref | Qty | Image | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
 | 0.5" Pillow Bearing Block  | S11 | 2 | <img src="../../images/components/structural/S11.png" width="200"> | #6-32x1" Button Head Screw | B6 | 4 | <img src="../../images/components/screws/B6.png" width="200"> |
 | #6-32x1/4" Spacer          | T1 | 8 | <img src="../../images/components/standoffs/T1.png" width="70"> | Allen Key Set              | D2 | | <img src="../../images/components/tools/D2.png" width="200"> |
@@ -160,7 +160,7 @@ because of the PVC clamping hub. This is okay, install the other 3 circled in ye
 
 
 
-| Item | Ref | Qty | Image | Item | Ref | Qty | Image | 
+| Item | Ref | Qty | Image | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
 | Dual Side Mount A              | S17 | 12 |  <img src="../../images/components/structural/S17.png" width="200"> | Laser Cut Back Panel           | S40 | 1 |   <img src="../../images/components/structural/S40.png" width="200"> |
 | #6-32x1/4" Button Head Screw   | B1 | 28 |   <img src="../../images/components/screws/B1.png" width="70"> | Switch                         | E39 | 1 |   <img src="../../images/components/electronics/E39.png" width="200"> |
