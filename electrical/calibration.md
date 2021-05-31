@@ -96,7 +96,7 @@ As you perform the calibration and testing outlined in this document, make sure 
 
 (b) Verify that when the forward signal is sent to the motor (the Motor1 slider is above 0), the wheel spins in the direction that would move the rover as a whole forward (note this is different clockwise vs counterclockwise based on which wheel you are testing). **If the wheel moves backwards with respect to the rover direction, then under the General Settings tab click the checkbox labeled ’Reverse M Relative Direction based on which motor is wrong.**
 
-(c) Now as you drive M1 motor forward (which now corresponds to the rover moving forward), verify that M1 Encoder value increases1. **If the encoder value decreases go to the General tab and under I/O click the Invert checkbox for the Encoder Mode.**
+(c) Now as you drive M1 motor forward (which now corresponds to the rover moving forward), verify that M1 Encoder value increases. **If the encoder value decreases go to the General tab and under I/O click the Invert checkbox for the Encoder Mode.**
 
 (d) Repeat steps 1.2.1 b) and 1.2.1 c) for M2 motor.
 	
