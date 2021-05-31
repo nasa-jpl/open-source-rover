@@ -139,7 +139,7 @@ Using spacers **T1**, screws **B6**, and hex nut **B11**, mount the pillow block
 | Assembled Control Board PCB | E1 | 1 | <img src="../../images/components/electronics/E1.png" width="250"> |
 | #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../../images/components/screws/B1.png" width="70"> |
 
-You may want to skip this step until the PCB is completed and tested and insert the PCB late
+You may want to skip this step until the PCB is completed and tested and insert the PCB later.
 
 #### 4.3.1 Mount the PCB
 
