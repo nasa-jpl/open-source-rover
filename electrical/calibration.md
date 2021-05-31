@@ -22,7 +22,7 @@ We will now go through and check the encoders and motors one at a time and perfo
 
 ![](../images/calibration/ion_sutudio_1.png)
  **Figure 1: Ion Studio Firmware Update**
-  
+
 1.1.4 Click the ’Connect Selected Unit’ box in the upper left
 
 1.1.5 Verify that all the motor control parameters are roughly nominal:
@@ -57,6 +57,7 @@ As you perform the calibration and testing outlined in this document, make sure 
 *  (Robo- Claw 1 is address 128, 2 is address 129, etc)
 * Baudrate: 115200
 			
+
 (c) Battery:
 			
 * Max Main Battery: 17.5V 
@@ -87,7 +88,7 @@ As you perform the calibration and testing outlined in this document, make sure 
 
 ![](../images/calibration/is5.png)
  **Figure 4**
-  
+
 (a) Under the control pane, slowly move the slider bar up for Motor1.
 
 ![](../images/calibration/is5.png)
@@ -96,7 +97,7 @@ As you perform the calibration and testing outlined in this document, make sure 
 (b) Verify that when the forward signal is sent to the motor (the Motor1 slider is above 0), the wheel spins in the direction that would move the rover as a whole forward (note this is different clockwise vs counterclockwise based on which wheel you are testing). **If the wheel moves backwards with respect to the rover direction, then under the General Settings tab click the checkbox labeled ’Reverse M Relative Direction based on which motor is wrong.**
 
 (c) Now as you drive M1 motor forward (which now corresponds to the rover moving forward), verify that M1 Encoder value increases1. **If the encoder value decreases go to the General tab and under I/O click the Invert checkbox for the Encoder Mode.**
- 
+
 (d) Repeat steps 1.2.1 b) and 1.2.1 c) for M2 motor.
 	
 1.2.2 Once both motors are spinning the correct direction and the encoders respond accordingly when commanded through the PWM Signal tab, move on to the Velocity Settings tab.
@@ -121,7 +122,7 @@ There has been significant feedback that the BasicMicro Motion Studio auto tune 
 ![](../images/calibration/is8.png)
 **Figure 8**
 
-(c) Once both motors on this motor controller have been tuned go back to the General settings tab and update the Motor Parameters to have a Max current of 3.0 Amps. Then go to Device − > Save Settings and then exit. Repeat all of steps 6 through 8 for the other drive motors.
+(c) Once both motors on this motor controller have been tuned go back to the General settings tab and update the Motor Parameters to have a Max current of 15.0 Amps. Then go to Device − > Save Settings and then exit. Repeat all of steps 6 through 8 for the other drive motors.
  	
 ## 1.3 Corner Motor Calibration
 1.3.1 Perform the following for the **RoboClaw addresses 131 and 132**:
@@ -138,7 +139,7 @@ There has been significant feedback that the BasicMicro Motion Studio auto tune 
 
 * Unscrew the small gear at the bottom of the absolute encoder
 		* Once the absolute encoder shaft is uncoupled from the robot, spin the encoderuntil you determine the max value. This should be somewhere in the range of 1400-18004.
-		
+	
 * As opposed to the drive motors, the corners use absolute encoders that are defined in one direction only, so you cannot switch the direction of the encoder.
 
 Clipping occurs when you go past the 360 deg mark on the encoder and it starts again at 0.
@@ -155,7 +156,7 @@ If you are getting encoder values of close to 2000 and the value stays above 200
 **Figure 9**
 
 (g) Enter your Min and Max encoder values for each M1 and M2 motor. We add a buffer of at least 5 encoder ticks to avoid driving the motors all the way into the hard stop; In other words, we’ll impose a software ’soft stop’
- 
+
 ![](../images/calibration/is11.png)  
      **Figure 10**
      
@@ -166,7 +167,7 @@ If you are getting encoder values of close to 2000 and the value stays above 200
 
 (i) To verify that the corner steering motors have been calibrated, move the M1 and M2 sliders to their middle positions (halfway between min and max) and verify that the wheels all point exactly straight forwards. If they do not point straight forwards, verify that your min and max values are correct and ensure that no signal clipping is happening on the encoders.
 
-(j) After the motors have both been tuned go to General settings and set the Motor current Max to be 3.0 Amps for each motor.
+(j) After the motors have both been tuned go to General settings and set the Motor current Max to be 15.0 Amps for each motor.
 
 (k) Repeat Step 9 for the remaining corner motors
 
