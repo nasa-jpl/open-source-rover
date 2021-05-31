@@ -14,8 +14,9 @@ M2.5 x 6mm Screw,B10,92095a458,McMaster,https://www.mcmaster.com/92095a458,25,16
 #4-40 Locknuts,B12,90631A005,McMaster,https://www.mcmaster.com/90631A005,100,4,1,$2.79 ,$2.79,Differential Pivot
 "#2-56 x 1/4"" Screw",B13,91255A076,McMaster,https://www.mcmaster.com/91255a077,25,8,1,$3.78 ,$3.78,PCB Assembly
 M3 x 6mm Screw,B14,90751A110,McMaster,https://www.mcmaster.com/90751a110,100,6,1,$6.33 ,$6.33,Head Assembly
-Red Wire 20AWG,X1,CN541R-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN541R-50-ND,1,2,2,$15.59 ,$31.18,Electrical Build, PCB Assembly
-Black Wire 20AWG,X2,CN538B-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN538B-50-ND,1,2,2,$12.56 ,$25.12,Electrical Build, PCB Assembly
+Red Wire 20AWG,X1,CN541R-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN541R-50-ND,1,2,2,$15.59 ,$31.18,"Electrical Build, PCB Assembly"
+Black Wire 20AWG,X2,CN538B-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN538B-50-ND,1,2,2,$12.56 ,$25.12,"Electrical Build, PCB Assembly"
+
 White Wire 24AWG,X3,CN519W-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN519W-50-ND,1,1,1,$9.16 ,$9.16,Electrical Build
 Blue Wire 24AWG,X4,CN522L-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN522L-50-ND,1,1,1,$9.16 ,$9.16,Electrical Build
 Yellow Wire 24AWG,X5,CN520Y-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN520Y-50-ND,1,1,1,$9.16 ,$9.16,Electrical Build
