@@ -107,6 +107,10 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 |:-:|
 | Figure 4: Assemble PVC Clamping Hub |
 
+| <img src="../../images/body/hub_lower.png" height="300">|
+|:-:|
+| Figure 4: Assemble PVC Clamping Hub |
+
 #### 4.1.4 Attach the PVC clamping hub
 
 Attach the 1-inch PVC bore clamping hub **S24** to the top plate of the body using screws **B1** Use the location shown in Figure 5.
