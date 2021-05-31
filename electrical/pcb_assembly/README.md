@@ -243,12 +243,12 @@ On the **top** of the board, solder the two USB Connectors **E34**. They
 
 ### 3.9 Standoffs
 
-| **Item**                       | **Ref** | **Qty** | **Image**                                                       | **Item**                       | **Ref** | **Qty** | **Image**                                                       |
-| ------------------------------ | ------- | ------- | --------------------------------------------------------------- | ------------------------------ | ------- | ------- | --------------------------------------------------------------- |
-| #6-32 x 3/4" Threaded Standoff | T3      | 4       |   <img src="../../images/components/standoffs/T3.png" width="100">  | #6-32 3/8" Button Head Screw   | B2      | 8       |   <img src="../../images/components/screws/B2.png" width="100">     |
-| #4-40 x 1/2" Threaded Standoff | T11     | 20      |   <img src="../../images/components/standoffs/T11.png" width="100"> | #4-40 1/4" Button Head Screw   | B8      | 40      |   <img src="../../images/components/screws/B8.png" width="100">     |
-| #2-56 x 1/2" Threaded Standoff | T8      | 4       |   <img src="../../images/components/standoffs/T8.png" width="100">  | #2-56 1/4" Button Head Screw   | B13     | 8       |   <img src="../../images/components/screws/B13.png" width="100">    |
-| M2.5 x 10mm Threaded Standoff  | T10     | 4       | <img src="../../images/components/standoffs/T10.png" width="100">   | M2.5 x 6mm Socket Head Screw   | B10     | 8       | <img src="../../images/components/screws/B10.png" width="100">      |
+| **Item**                       | **Ref** | **Qty** | **Image**                                                    | **Item**                     | **Ref** | **Qty** | **Image**                                                    |
+| ------------------------------ | ------- | ------- | ------------------------------------------------------------ | ---------------------------- | ------- | ------- | ------------------------------------------------------------ |
+| #6-32 x 3/4" Threaded Standoff | T3      | 4       | <img src="../../images/components/standoffs/T3.png" width="100"> | #6-32 3/8" Button Head Screw | B2      | 8       | <img src="../../images/components/screws/B2.png" width="100"> |
+| #4-40 x 1/2" Threaded Standoff | T5      | 20      | <img src="../../images/components/standoffs/T11.png" width="100"> | #4-40 1/4" Button Head Screw | B8      | 40      | <img src="../../images/components/screws/B8.png" width="100"> |
+| #2-56 x 1/2" Threaded Standoff | T8      | 4       | <img src="../../images/components/standoffs/T8.png" width="100"> | #2-56 1/4" Button Head Screw | B13     | 8       | <img src="../../images/components/screws/B13.png" width="100"> |
+| M2.5 x 10mm Threaded Standoff  | T10     | 4       | <img src="../../images/components/standoffs/T10.png" width="100"> | M2.5 x 6mm Socket Head Screw | B10     | 8       | <img src="../../images/components/screws/B10.png" width="100"> |
 
 #### 3.9.1 Board mounting Standoffs
 
@@ -259,7 +259,7 @@ On the **BOTTOM** side of the board, attach
 
 | <img src="../../images/pcb_assembly/assembly/standoff_2.png" width="300"> <img src="../../images/pcb_assembly/assembly/standoff_1.png" width="300"> |
 |:-:|
-| Figure 12: Mounting Standoffs |    
+| Figure 12: Mounting Standoffs |
 
 #### 3.9.2 RoboClaw mounting Standoffs
 
