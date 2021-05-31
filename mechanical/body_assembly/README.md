@@ -78,6 +78,7 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload these 
 | 3D-printed PVC Clamp                 | S51 | 1 | <img src="../../images/components/structural/S24.png" width="200"> | Allen Key Set                | | | <img src="../../images/components/tools/D2.png" width="200"> |
 | 9"x12" Aluminum Plate        | S35A | 1 | <img src="../../images/components/structural/S35.png" width="200"> | 5/16" Wrench                 | | | <img src="../../images/components/tools/D1.png" width="200">  |
 | #6-32x5/8" Button Head Screw | B4 | 6 | <img src="../../images/components/screws/B4.png" width="70"> |#6 Washer| W1| 2| <img src="/images/components/washers/W1.png" width="70">|
+| #6-32 Heat set insert | I2 | 6 | <img src="/images/components/inserts/I2.png" width="70">|
 
 #### 4.1.1 Top panel
 
@@ -98,8 +99,8 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 
 #### 4.1.3 Assmble the PVC clamping hub
 
-* Insert the #6-32 Heat Set Inserts I2 into the 3D-printed clamping hub **S51** in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 6. 
-* Using washers W1, insert screws **B4** into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe later. 
+* Insert the #6-32 Heat Set Inserts **I2** into the 3D-printed clamping hub **S51** in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 6. 
+* Using washers W1, insert screws **B4** into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the PVC pipe later. 
 
 | <img src="../../images/body/hub_lower.png" height="300"> <img src="../../images/body/hub_lower_screws.png" height="300">|
 |:-:|
