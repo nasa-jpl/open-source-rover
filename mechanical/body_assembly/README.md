@@ -101,13 +101,17 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 * Insert the #6-32 Heat Set Inserts I2 into the 3D-printed clamping hub in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 6. 
 * Using washers W1, insert screws B4 into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe later. 
 
+| <img src="../../images/body/hub_lower.png" height="300">|
+|:-:|
+| Figure 4: Assemble PVC Clamping Hub |
+
 #### 4.1.4 Attach the PVC clamping hub
 
-Attach the 1-inch PVC bore clamping hub **S24** to the top plate of the body using screws **B1** Use the location shown in Figure 4.
+Attach the 1-inch PVC bore clamping hub **S24** to the top plate of the body using screws **B1** Use the location shown in Figure 5.
 
 | <img src="../../images/body/body_pvc_1.png" height="300"> <img src="../../images/body/body_pvc_2.png" height="300">|
 |:-:|
-| Figure 4: Attach the PVC clamp to top plate |
+| Figure 5: Attach the PVC clamp to top plate |
 
 ### 4.2 Differential Pivot Block
 
@@ -122,11 +126,11 @@ The differential pivot is used to transfer weight off of the wheel that is curre
 
 #### 4.2.1 Mount the pillow bearing blocks
 
-Using spacers **T1**, screws **B6**, and hex nut **B11**, mount the pillow blocks **S11** to the top of the body over the hole in the aluminum plate that you drilled earlier as shown in Figure 5.
+Using spacers **T1**, screws **B6**, and hex nut **B11**, mount the pillow blocks **S11** to the top of the body over the hole in the aluminum plate that you drilled earlier as shown in Figure 6.
 
 | <img src="../../images/body/Step_5_a.png" height="250"> <img src="../../images/body/Step_5_b.png" height="250">|
 |:-:|
-| Figure 5: Mounting the pillow bloc |
+| Figure 6: Mounting the pillow bloc |
 
 ### 4.3 Control Board PCB
 
@@ -143,13 +147,13 @@ Mount the PCB **E1** to the top of the chassis using screws **B2**. Note the pos
 
 | <img src="../../images/body/body_5.png" height="300"> <img src="../../images/body/body_6.png" height="300">|
 |:-:|
-| Figure 6: Mounting the PCB |
+| Figure 7: Mounting the PCB |
 
 | <img src="../../images/body/body_7A.png" height="300"> |
 |:-:|
-| Figure 7: Mounting the PCB |
+| Figure 8: Mounting the PCB |
 
-Note the screw positions in Figure 7. You might not be able to get the screw circled in light blue in
+Note the screw positions in Figure 8. You might not be able to get the screw circled in light blue in
 because of the PVC clamping hub. This is okay, install the other 3 circled in yellow.
 
 ### 4.4 Closing the body
@@ -170,7 +174,7 @@ Mount Dual Side Mounts A **S17** using screws **B1** on the side plates in both 
 
 | <img src="../../images/body/body_8a.png" height="300"> <img src="../../images/body/body_8.png" height="300">|
 |:-:|
-| Figure 8: Dual Side Mount A locations |
+| Figure 9: Dual Side Mount A locations |
 
 #### 4.4.2 Attach dual side mounts (2)
 
@@ -178,7 +182,7 @@ Also attach Dual Side Mounts A **S17** using **B1** screws on the top plate, in 
 
 | <img src="../../images/body/body_9.png" height="300"> <img src="../../images/body/body_10.png" height="300">|
 |:-:|
-| Figure 9: Dual Side Mount A (cont) |
+| Figure 10: Dual Side Mount A (cont) |
 
 #### 4.4.3 Front and back panels
 
@@ -186,7 +190,7 @@ Using screws **B1** attach the front and back laser cut panels to the chassis.
 
 | <img src="../../images/body/body_12.png" height="300"> <img src="../../images/body/body_13.png" height="300">|
 |:-:|
-| Figure 10: Front and Back Panels attached |
+| Figure 11: Front and Back Panels attached |
 
 #### 4.4.4 Attach the switch and volt meter
 
@@ -194,7 +198,7 @@ Take the Volt Meter **E38** and the Switch **E39** and attach them to the back p
 
 | <img src="../../images/body/voltmeter_switch.png" height="300"> <img src="../../images/body/voltmeter_switch_b.png" height="300">|
 |:-:|
-| Figure 11: Volt Meter/Switch Installation |
+| Figure 12: Volt Meter/Switch Installation |
 
 #### 4.4.5 Attach the Battery Holder
 
@@ -202,23 +206,23 @@ Take the 3D printed Battery holder **S41** and using a solder Iron at 460 degree
 
 | <img src="../../images/body/battery_holder_a.png" height="300"> <img src="../../images/body/battery_holder_b.png" height="300">|
 |:-:|
-| Figure 12: Installing heat set inserts|
+| Figure 13: Installing heat set inserts|
 
 #### 4.4.6 Install the battery holders
 
-Mount the Battery holders onto the body assembly using screws **B1** as shown in Figure 13.
+Mount the Battery holders onto the body assembly using screws **B1** as shown in Figure 14.
 
 | <img src="../../images/body/battery_install_a.png" height="300"> <img src="../../images/body/battery_install_b.png" height="300">|
 |:-:|
-| Figure 13: Battery holder installation |
+| Figure 14: Battery holder installation |
 
 #### 4.4.7 Build bottom plate assembly
 
-Take the 9x12 Aluminum Plate **S35** and attach 6 dual side mount A **S17** along the edges as shown in Figure 14. Be sure to verify that the orientation of the dual side mounts **S17** matches the pictures.
+Take the 9x12 Aluminum Plate **S35** and attach 6 dual side mount A **S17** along the edges as shown in Figure 15. Be sure to verify that the orientation of the dual side mounts **S17** matches the pictures.
 
 | <img src="../../images/body/body_bottom_1.png" width="50%"> |
 |:-:|
-| Figure 14: Building the Bottom Panel |
+| Figure 15: Building the Bottom Panel |
 
 #### 4.4.8 Attach the bottom plate
 
@@ -226,10 +230,10 @@ Take the bottom plate assembly you constructed in the previous step and attach i
 
 | <img src="../../images/body/body_bottom.png" width="50%"> |
 |:-:|
-| Figure 15: Attaching the Bottom Panel |
+| Figure 16: Attaching the Bottom Panel |
 
 The Body Assembly is now Complete!
 
 | <img src="../../images/body/finished_body_a.png" height="300"> <img src="../../images/body/finished_body_b.png" height="300">|
 |:-:|
-| Figure 16: Completed Body Assembly |
+| Figure 17: Completed Body Assembly |
