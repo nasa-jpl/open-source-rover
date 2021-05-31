@@ -36,11 +36,7 @@ The head assembly serves as the head and face of our rover. It houses a 16x32 fu
 
 ## 2.3 Dependencies on Other Modules:
   * None
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> d66b887 (Initial pass at README documents)
 ## 2.4 Mechanical Interface/Attachments to Rover:
   * None
 
@@ -48,16 +44,9 @@ The head assembly serves as the head and face of our rover. It houses a 16x32 fu
 ## 3. 3D Printing
 There are a few components that need to be 3D printed to make the head assembly. You can find the STL files necessary for these prints in the ”Mechanical/Head Assembly/3D Printed Parts” folder of the repository.
 
-<<<<<<< HEAD
 | <img src="../../images/components/structural/S43.png" width="50%"> |
 | :--: |
 | Figure 1: 3D Printed Parts |
-
-=======
-  | <img src="/images/components/structural/S43.png" width="50%"> |
-  | :--: |:--: |
-  | Figure 1. 3D-printed Head Base | Figure 2. 3D-printed PVC Hub
->>>>>>> d66b887 (Initial pass at README documents)
 
 If you do not have a 3D printer there are a number of online 3D printing services available, an example of which can be found at:
  - [MakeXYZ](https://www.makexyz.com/)
