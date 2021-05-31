@@ -3,7 +3,8 @@ Part Name,Project Ref Code,Model/Config,Site,Link,Sold in Packs of,Total Used in
 #6-32 x 3/8 Button Head Screw,B2,92949A146,McMaster,https://www.mcmaster.com/92949A146,100,72,1,$3.72 ,$3.72,"Body, Head Assembly, PCB Assembly, Rocker-Bogie"
 #6-32 x 1/2 Button Head Screw,B3,92949A148,McMaster,https://www.mcmaster.com/92949A148,100,8,1,$3.72 ,$3.72,Wheel Assembly
 #6-32 x 5/8 Button Head Screw,B4,92949A150,McMaster,https://www.mcmaster.com/92949A150,100,44,1,$4.07 ,$4.07,Rocker-Bogie
-#6-32 x 3/4 Button Head Screw,B5,92949A151,McMaster,https://www.mcmaster.com/92949A151,100,28,1,$4.41 ,$4.41,Corner Steering, Wheel Assembly
+#6-32 x 3/4 Button Head Screw,B5,92949A151,McMaster,https://www.mcmaster.com/92949A151,100,28,1,$4.41 ,$4.41, "Corner Steering, Wheel Assembly"
+
 #6-32 x 1.0 Button Head Screw,B6,92949A153,McMaster,https://www.mcmaster.com/92949A153,50,4,1,$5.42 ,$5.42,Body
 #6-32 x 1.25 Button Head Screw,B7,92949A160,McMaster,https://www.mcmaster.com/92949A160,50,8,1,$6.51 ,$6.51,Differential Pivot
 #4-40 x 1/4 Button Head Screw,B8,92949A106,McMaster,https://www.mcmaster.com/92949a106,100,52,1,$3.02 ,$3.02,"Head Assembly, PCB Assembly"
