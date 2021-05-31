@@ -14,7 +14,7 @@ The body is the housing of all the electronics for the rover. It is the attachme
 
 | Author/Creator            | JPL       |
 | --------------            | -------            |
-| Cost without 3D printer   | 240.38             |
+| Cost without 3D printer   | 253.28             |
 | Cost with 3D printer      | 240.38             |
 | Date Added                | 4/11               |
 | Group/Organization/School | JPL                |

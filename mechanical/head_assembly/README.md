@@ -13,7 +13,7 @@ The head assembly serves as the head and face of our rover. It houses a 16x32 fu
 
 | Author/Creator            | JPL       |
 | --------------            | -------            |
-| Cost without 3D printer   | 84.90              |
+| Cost without 3D printer   | 97.80              |
 | Cost with 3D printer      | 84.90              |
 | Date Added                | 4/11               |
 | Group/Organization/School | JPL                |
@@ -45,8 +45,9 @@ The head assembly serves as the head and face of our rover. It houses a 16x32 fu
 There are a few components that need to be 3D printed to make the head assembly. You can find the STL files necessary for these prints in the ”Mechanical/Head Assembly/3D Printed Parts” folder of the repository.
 
   | <img src="/images/components/structural/S43.png" width="50%"> |
-  | :--: |:--: |
-  | Figure 1. 3D-printed Head Base | Figure 2. 3D-printed PVC Hub
+  | :--: |
+  | Figure 1 |
+  
 
 If you do not have a 3D printer there are a number of online 3D printing services available, an example of which can be found at:
  - [MakeXYZ](https://www.makexyz.com/)
