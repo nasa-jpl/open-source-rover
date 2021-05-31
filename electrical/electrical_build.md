@@ -199,11 +199,11 @@ The below table and figure shows an approximate amount of length of wire you wil
 
 Section | Wires Needed | Length [inches]
 ------- | ------------ | --------------- 
-A | 2x | 20AWG & 4x 24AWG | 35
-B | 2x | 20AWG & 4x 24AWG | 28
-C | 2x | 20AWG & 4x 24AWG | 48
-D | 2x | 20AWG & 3x 24AWG | 20
-E | 2x | 20AWG & 3x 24AWG | 32
+A | 2x 20AWG & 4x 24AWG | 35
+B | 2x 20AWG & 4x 24AWG | 28
+C | 2x 20AWG & 4x 24AWG | 48
+D | 2x 20AWG & 3x 24AWG | 20
+E | 2x 20AWG & 3x 24AWG | 32
 
 ![Wire Lengths](../images/electronics/wire_labels.png)
 
