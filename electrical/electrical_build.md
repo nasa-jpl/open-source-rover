@@ -40,7 +40,7 @@ Arduino Uno | Runs the LED Matrix
 LED Matrix | Gives the robot a display and a personality
 Motor Controllers | Sends voltage signals to the motors telling the motors the direction and speed at which to spin. Reads encoder data
 Encoders | Monitors the position of the motor to give information about speed and position
-Control Board PCB | Custom Printed Circuit Board to manage power and data transmition between electronics components.
+Control Board PCB | Custom Printed Circuit Board to manage power and data transmission between electronics components.
 
 ## 1.1 Prerequisite: Circuit Board Assembly
 **NOTE**: Before proceeding, you need to have completed the assembly of the custom PCB board and populated all the components. If you have not yet done so, build the Control Board now by following the document at /Electrical/PCB Assembly.pdf.
@@ -121,12 +121,24 @@ Battery Charger | E41 | 1 | <p align="center"> <img src="../images/components/el
 ![Battery and board connections](../images/electronics/battery_wiring.png)
 
 **Figure 4. Connecting the Battery to switch and board**
- 
+
+## 2.2. Powering the LED Screen
+
+**Table 4. Necessary Parts**
+Item | Ref | Qty | Image |Item | Ref | Qty | Image |
+---- | --- | --- | ----- |---- | --- | --- | ----- |
+LED Screen/Assembled Head | NA | 1 | <p align="center"> <img src="../images/components/electronics/E37.png" width="25%"> </p> |4 Pin Molex Connector | E50 | 1 | <p align="center"> <img src="../images/components/electronics/E50.png"> </p>
+
+Using The 4 Pin molex Cable that comes with the LED matrix, connect the LED matrix to the 5V output from the Arduino PCB mounted inside the Head assembly.
+
+![Powering the LED Screen](../images/electronics/molex_power.png)
+
+
 # 3. Connecting Data Cables
 
 Next, we will next plug in all the cables that allow the various devices to communicate with each other.
 
-**Table 4. Necessary Parts**
+**Table 5. Necessary Parts**
 
 Item | Ref | Qty | Image |Item | Ref | Qty | Image 
 ---- | --- | --- | ----- |---- | --- | --- | ----- 
@@ -140,7 +152,7 @@ Rectangular 40P 2x20 Ribbon Cable | E29 | 1 | <p align="center"> <img src="../im
 1. Connect the E30 16 Position ribbon cable from the J1 Connector to the INPUT Connector on the LED Matrix
 1. Connect the E48 TTL serial to USB cable from any USB port on the Raspberry Pi to the 6 Position headers at J8. The pinout should match the table below (see Figure 5):
 
-**Table 5. J8 Pins and Wire Colors**
+**Table 6. J8 Pins and Wire Colors**
 
 Control Board PCB J8 pin | TTL Serial cable wire color
 ------------------------ | ---------------------------
@@ -171,7 +183,7 @@ An example of how we routed our wiring is shown by Figure 6. It is important to 
 
 **Figure 7. Serial signal routing**
 
-**Table 6. Necessary Parts**
+**Table 7. Necessary Parts**
 
 Item | Ref | Qty | Image |Item | Ref | Qty | Image
 ---- | --- | --- | ----- |---- | --- | --- | ----- 
@@ -184,7 +196,7 @@ Heat Shrink Tubing | E44 | 1 | <p align="center"> <img src="../images/components
 
 The below table and figure shows an approximate amount of length of wire you will need to reach each of the motors, based on how we think is best to route the wiring through the suspension system. Cut these lengths and strip both ends of the wires.
    
-**Table 7. Wire Lengths by Section**
+**Table 8. Wire Lengths by Section**
 
 Section | Wires Needed | Length [inches]
 ------- | ------------ | --------------- 
@@ -209,7 +221,7 @@ The terminal blocks that correspond to the drive motors are connectors J17-J22. 
 Each of the terminal blocks are identical for the drive motors; pay attention to the silkscreen to know which screw terminal to plug the wire into. The terminal block position on the board will correspond roughly with which motor it goes to on the robot, ie. the J17 connector is in the front-right of the
 board when installed in the robot, and connects to the front-right drive wheel.
 
-**Table 8. Drive Motor and Encoder Wiring**
+**Table 9. Drive Motor and Encoder Wiring**
 
 Control Board Label | Motor Wire Color | Signal
 ------------------- | ---------------- | ------
@@ -241,7 +253,7 @@ Similar to the drive motors, connect each of the corner motors and encoders to i
 
 **Note:** **These are NOT the same color and pinout as the drive motors!**
 
-**Table 9. Steering Motor and Encoder Wiring**
+**Table 10. Steering Motor and Encoder Wiring**
 
 Control Board Label | Motor Wire Color | Signal
 ------------------- | ---------------- | ------
