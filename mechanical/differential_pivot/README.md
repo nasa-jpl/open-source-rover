@@ -110,11 +110,11 @@ The Differential Pivot helps to offload forces from one side of the rover to the
   | :--- | :-- | :-- | :---: | :--- | :-- | :-- | :--: |
   | Single Pattern Bracket | S8 | 1 | <img src="/images/components/structural/S16.png" width="30%"> | #6-32x1.25" Button Head Screw | B7 | 8 |<img src="/images/components/screws/B7.png" width="100%"> |
   | 0.5" Circular Clamping Hub | S13 | 1 | <img src="/images/components/structural/S13.png" width="30%">| #4-40x1.25" Button Head Screw | B9 | 4 | <img src="/images/components/screws/B9.png" width="100%"> |
-  | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 |<img src="/images/components/structural/S16B.png" width="30%">| #6-32 Hexnut | B11 | 8 | <img src="/images/components/screws/B11.png" width="100%"> |
-  | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | <img src="/images/components/structural/S18B.png" width="30%">| #4-40 Hexnut | B12 | 4 | <img src="/images/components/screws/B12.png" width="100%"> |
+  | 0.5" x 13.5" Aluminum Tube (Modified) | S16B | 1 |<img src="/images/components/structural/S16B.png" width="30%">| #6-32 Hex nut | B11 | 8 | <img src="/images/components/screws/B11.png" width="100%"> |
+  | 0.5" x 3" Aluminum Tube (Modified) | S18B | 2 | <img src="/images/components/structural/S18B.png" width="30%">| #4-40 Hex nut | B12 | 4 | <img src="/images/components/screws/B12.png" width="100%"> |
   | 0.5" Bottom Bore Clamp | S20 | 2 | <img src="/images/components/structural/S20.png" width="15%">| #4-40 Washer | W2 | 24 | <img src="/images/components/washers/W2.png" width="100%"> | 
   | 5 Hole Aluminum Beam | S21 | 8 | <img src="/images/components/structural/S21.png" width="15%">| Wrench Set | D1 | 1 | <img src="/images/components/tools/D1.png" width="100%"> |
-  | RC Turnbluckle | S32 | 2 |<img src="/images/components/structural/S32.png" width="15%">|  Allen Key Set | D2 | 1 | <img src="/images/components/tools/D2.png" width="100%"> |
+  | RC Turnbuckle | S32 | 2 |<img src="/images/components/structural/S32.png" width="15%">|  Allen Key Set | D2 | 1 | <img src="/images/components/tools/D2.png" width="100%"> |
   | #6-32x1/4" Button Head Screw | B1 | 8 | <img src="/images/components/screws/B1.png" width="30%"> | | | | | 
 
 ### 4.1 Build the Differential pivot block
@@ -166,4 +166,4 @@ The Differential Pivot helps to offload forces from one side of the rover to the
    
 ## Disclaimer
 
-Reference herein to any specific commercial product, process, or service by trade name, trademark, manu- facturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. ⃝c 2018 California Institute of Technology. Government sponsorship acknowledged.
+Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. ⃝c 2018 California Institute of Technology. Government sponsorship acknowledged.

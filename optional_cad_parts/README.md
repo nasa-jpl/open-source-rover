@@ -1,7 +1,7 @@
 # Optional CAD parts
 These are parts that have been designed as addons and additional parts for the open source rover. Some of these will be eventually included into build doc instructions. 
 
-These 3D printed parts were designed to be printed in PLA on the Raise 3D printer, and as such the tolerances/dimensions are designed to print well on that specific printer. Your indivindual printer may very on how it prints these based on individual settings, however they should be designed such that any modern converntional printer can complete the parts. 
+These 3D printed parts were designed to be printed in PLA on the Raise 3D printer, and as such the tolerances/dimensions are designed to print well on that specific printer. Your individual printer may very on how it prints these based on individual settings, however they should be designed such that any modern conventional printer can complete the parts.
 
 
 ## Folder Structure
@@ -17,7 +17,7 @@ Every part has a SolidWorks and STEP file associated with it, in case you wish t
 
 [https://www.mcmaster.com/heat-set-inserts](https://www.mcmaster.com/heat-set-inserts)
 
-I'll give a breif description of the each of the parts as well as list any items that are necessary for that part.
+I'll give a brief description of the each of the parts as well as list any items that are necessary for that part.
 
 ### 3D printed parts
   * Battery holder - Clamps for the batteries, to be held against the side walls of the body/chassis. 

@@ -114,7 +114,7 @@ Mount the main body of the rover to the two separate rocker-bogie legs using 15 
 
 ## 1.5 Attach the Differential Pivot
 
-**Table 2: Parts/Tools Necessar**y
+**Table 2: Parts/Tools Necessary**
 
 |Item |Ref |Qty |Image|
 |-----|----|----|-----|
@@ -163,4 +163,3 @@ You rover should now be fully assembled! Verify that your rover looks like the r
 <img src="../../images/mechanical_integration/final.png">
 
 **Figure 11: Final Mechanical Rover**
-
