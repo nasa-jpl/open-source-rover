@@ -122,6 +122,7 @@ This project assumes you have some standard tools to help assemble the project. 
  * Hand Drill or Drill Press
  * Dremel, Band saw, or hand saw
  * Items for operating a Raspberry Pi (Keyboard, mouse, monitor, 5V micro USB power adapter)
+ * Wire strippers, e.g. [these](https://www.amazon.com/dp/B07DWVSR41/?coliid=ISMG8XMBILGFK&colid=1IM7RHK25RIBB&psc=0&ref_=lv_vv_lig_dp_it)
 
 #### Optional Tools
  * 3D printer
