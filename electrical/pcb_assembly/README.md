@@ -264,7 +264,7 @@ On the **BOTTOM** side of the board, attach
 #### 3.9.2 RoboClaw mounting Standoffs
 
 On the **BOTTOM** side of the board, attach
-    the twenty #4-40 Standoffs **T5* using screws **B8** as shown below. You
+    the twenty #4-40 Standoffs **T5** using screws **B8** as shown below. You
     can identify the RoboClaw mounting holes as the ones that are inside the
     RoboClaw rectangles on the silk screen.
 
