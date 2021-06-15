@@ -1,6 +1,10 @@
 *.synctex.gz
 ~*
 
+# MkDocs
+.venv
+_site
+
 # LaTeX build files
 *.aux
 *.fdb_latexmk

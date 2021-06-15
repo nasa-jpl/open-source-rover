@@ -15,3 +15,18 @@ On a Windows machine, set it to true — this converts LF endings into CRLF 
 ### Markdown
 
 Image paths should be relative so they display correctly in a local preview.
+
+
+## Building the site
+
+The site is build with [MkDocs](https://www.mkdocs.org/) and the
+[readthedocs](https://www.mkdocs.org/user-guide/choosing-your-theme/#readthedocs) theme.
+You may build the site locally to preview your changes.
+
+    python -m venv .venv
+    source ./.venv/bin/activate
+    pip install -U pip
+    pip install -r requirements.txt
+    mkdocs serve
+
+And point your browser to http://127.0.0.1:8000/.
