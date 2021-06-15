@@ -184,14 +184,14 @@ In order to help this ordering process we have compiled a few links of a large n
 |---|---|---|---|
 
 **Digikey:** 
-The Bill of Materials folder contains (currently just one) Bill of materials file for a specific vendor. We are searching for better ways to help with the ordering process, however for now the easiest way is to take the [Digikey Bill of Materials](Bill%20of%20Materials%20Files/Digikey_BOM.csv) and upload it to [Digikey](https://www.digikey.com/). You can find the "BOM Manager" on their homepage and then start a new BOM, where you can upload this file.  
+The Bill of Materials folder contains (currently just one) Bill of materials file for a specific vendor. We are searching for better ways to help with the ordering process, however for now the easiest way is to take the [Digikey Bill of Materials](bill_of_materials/Digikey_BOM.csv) and upload it to [Digikey](https://www.digikey.com/). You can find the "BOM Manager" on their homepage and then start a new BOM, where you can upload this file.
 
 #### 3D printing and Laser cutting
 
-In addition to ordering all of the parts on the parts list, we recommend that some pieces be 3D printed and laser cut. If you do not have access to a 3D printer or laser cutter, we've added some online services as examples for where you can get those manufactured and shipped to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body%20Assembly/Body%20Build%20Doc.pdf),  [Corner Steering Build Doc](Mechanical/Corner%20Steering/Corner%20Steering%20Build%20Doc.pdf), and [Head Assembly Build Doc](Mechanical/Head%20Assembly/Head%20Assembly%20Build%20Doc.pdf).
+In addition to ordering all of the parts on the parts list, we recommend that some pieces be 3D printed and laser cut. If you do not have access to a 3D printer or laser cutter, we've added some online services as examples for where you can get those manufactured and shipped to you. You'll find instructions on this in the [Body Build Doc](mechanical/body_assembly/README.md),  [Corner Steering Build Doc](mechanical/corner_steering/README.md), and [Head Assembly Build Doc](mechanical/head_assembly/README.md).
 
 #### Printed Circuit Boards (PCBs)
-The main electrical system of this rover relies on a custom printed circuit board (PCB) that handles the routing between the majority of the electrical components.  This board greatly simplifies the build process and eliminates the need for you to route all the wires yourself. You can find the PCB board files at [PCB Files](Electrical/PCB/). These can be ordered at [JLCPCB](https://jlcpcb.com/) by dropping each of the .zip files (these .zip files contain "gerber" files, a typical file format for PCB boards). 
+The main electrical system of this rover relies on a custom printed circuit board (PCB) that handles the routing between the majority of the electrical components.  This board greatly simplifies the build process and eliminates the need for you to route all the wires yourself. You can find the PCB board files at [PCB Files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcb). These can be ordered at [JLCPCB](https://jlcpcb.com/) by dropping each of the .zip files (these .zip files contain "gerber" files, a typical file format for PCB boards).
 
 ---
 

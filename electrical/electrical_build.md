@@ -43,8 +43,7 @@ Encoders | Monitors the position of the motor to give information about speed an
 Control Board PCB | Custom Printed Circuit Board to manage power and data transmission between electronics components.
 
 ## 1.1 Prerequisite: Circuit Board Assembly
-**NOTE**: Before proceeding, you need to have completed the assembly of the custom PCB board and populated all the components. If you have not yet done so, build the Control Board now by following the document at /Electrical/PCB Assembly.pdf.
-
+**NOTE**: Before proceeding, you need to have completed the assembly of the custom PCB board and populated all the components. If you have not yet done so, build the Control Board now by following the [PCB assembly instructions](pcb_assembly/README.md).
 
 ## 1.2. Tools Necessary
 
@@ -173,7 +172,7 @@ Next, we will connect the motors and encoders to the RoboClaw motor controllers.
 * [Techopedia Strain Relief](https://www.techopedia.com/definition/2301/strain-relief) 
 * [YouTube Wire Braid](https://www.youtube.com/watch?v=FeCs98TSsYQ)
 
-![](Pictures/Routing/route1.PNG)![](../images/electronics/route2.png)![](Pictures/Routing/route3.PNG)
+![](../images/electronics/route1.png)![](../images/electronics/route2.png)![](../images/electronics/route3.png)
 
 **Figure 6. Motor Wire Routing**
     
