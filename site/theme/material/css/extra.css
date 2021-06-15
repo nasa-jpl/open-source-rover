@@ -1,0 +1,14 @@
+.md-content a[href^="https://"]:after,
+.md-content a[href^="http://"]:after {
+    font-family: FontAwesome;
+    content: "";
+    margin-left: 4px;
+}
+
+.md-content a[href^="https://github.com"]:after,
+a[href^="http://github.com"]:after {
+    font-family: FontAwesome;
+    content: "\f09b";
+    margin-left: 4px;
+}
+

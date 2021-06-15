@@ -1,0 +1,65 @@
+site_name: JPL Open Source Rover
+site_url: https://osr-demo.readthedocs.io
+site_description: |
+  A build-it-yourself, 6-wheel rover based on the rovers on Mars!
+copyright: |
+  Copyright &copy; 2018 California Institute of Technology. Government Sponsorship Acknowledged.
+
+docs_dir: .
+site_dir: _site
+use_directory_urls: false
+repo_url: https://github.com/nasa-jpl/open-source-rover
+edit_uri: edit/master
+
+nav:
+  - Home: README.md
+  - Electrical:
+      - Overview: electrical/README.md
+      - PCB assembly: electrical/pcb_assembly/README.md
+      - Build: electrical/electrical_build.md
+      - Calibration: electrical/calibration.md
+  - Mechanical:
+      - Subsystem: mechanical/README.md
+      - Body assembly: mechanical/body_assembly/README.md
+      - Corner steering: mechanical/corner_steering/README.md
+      - Differential pivot: mechanical/differential_pivot/README.md
+      - Head assembly: mechanical/head_assembly/README.md
+      - Integration: mechanical/mechanical_integration/README.md
+      - Rocker bogie: mechanical/rocker_bogie/README.md
+      - Wheel assembly: mechanical/wheel_assembly/README.md
+  - Parts:
+      - Parts list: parts_list/README.md
+      - Optional parts: optional_cad_parts/README.md
+  - Software:
+      - software/README.md
+      - Software on GitHub: https://github.com/nasa-jpl/osr-rover-code
+  - OSR@JPL: https://opensourcerover.jpl.nasa.gov
+
+plugins:
+  - same-dir
+  - search:
+      prebuild_index: true
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_alt
+
+extra_css:
+  - /site/theme/material/css/extra.css
+
+theme:
+  name: material
+  logo: /site/theme/logo.svg
+  features:
+    - navigation.tabs
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/NASAJPL/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/nasajpl/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/NASAJPL/
+    - icon: fontawesome/brands/slack
+      link: https://join.slack.com/t/opensourcerover/shared_invite/zt-mfe0viua-FhcYsNb3S9vUra99uF3IBw
