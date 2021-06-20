@@ -14,4 +14,4 @@ multi:
     bom: electrical/pcb/control_board/BOM.csv
     eda:
       type: kicad
-      pcb: electrical/pcb/control_board/Control_Boards.kicad_pcb
+      pcb: electrical/pcb/control_board/Control Board.kicad_pcb
