@@ -1,4 +1,8 @@
 root = true
 
 [*]
+end_of_line = lf
 insert_final_newline = true
+
+[parts_list/master_parts_list_raw.csv]
+end_of_line = crlf
