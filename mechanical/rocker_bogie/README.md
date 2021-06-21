@@ -111,9 +111,9 @@ Attach another 3.75 inch channel **S3** to the bottom hole of the pattern F brac
 
 ### 4.5 Opposite edge of Rocker-Bogie Joint
 
-Attach another Pattern F bracket **S7** to the opposite side of the channels using washers **W1** and **W3**, screws **B4**, and hex nuts **B8** as shown in Figure 7.
+Attach another Pattern F bracket **S7** to the opposite side of the channels using washers **W1** and **W3**, screws **B2**, and hex nuts **B8** as shown in Figure 7.
 
-| <img src="../../images/rocker_bogie/step_8.png" height="300"> <img src="../../images/rocker_bogie/step_9b.png" height="300"> |
+| <img src="../../images/rocker_bogie/step_1.png" height="300"> <img src="../../images/rocker_bogie/step_9b.png" height="300"> |
 |:-:|
 | Figure 7: Start the other side of Rocker-Bogie joint|
 
@@ -143,7 +143,7 @@ Attach two Pillow Bearing Blocks **S11** using screws **B2** and hex huts **B11*
 
 ### 4.9 Attach Clamping Hub
 
-Attach the Clamping Hub **S13** using screws **B2** and hex nuts **B11** as shown in Figure 11. The clamping hub should be centered above where you just placed the pillow bearing blocks.
+Attach the Clamping Hub **S13** using screws **B2** as shown in Figure 11. The clamping hub should be centered above where you just placed the pillow bearing blocks.
 
 | <img src="../../images/rocker_bogie/step_15.png" height="300"> <img src="../../images/rocker_bogie/step_16.png" height="300"> |
 |:-:|
