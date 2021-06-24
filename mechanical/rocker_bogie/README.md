@@ -111,7 +111,7 @@ Attach another 3.75 inch channel **S3** to the bottom hole of the pattern F brac
 
 ### 4.5 Opposite edge of Rocker-Bogie Joint
 
-Attach another Pattern F bracket **S7** to the opposite side of the channels using washers **W1** and **W3**, screws **B2**, and hex nuts **B8** as shown in Figure 7.
+Attach another Pattern F bracket **S7** to the opposite side of the channels using washers **W1** and **W3**, screws **B2**, and hex nuts **B11** as shown in Figure 7.
 
 | <img src="../../images/rocker_bogie/step_9a.png" height="300"> <img src="../../images/rocker_bogie/step_9b.png" height="300"> |
 |:-:|
