@@ -187,8 +187,8 @@ An example of how we routed our wiring is shown by Figure 6. It is important to 
 Item | Ref | Qty | Image |Item | Ref | Qty | Image
 ---- | --- | --- | ----- |---- | --- | --- | ----- 
 20AWG Wire (Black) | X2 | N/A | <p align="center"> <img src="../images/components/wiring/X2.png" width="25%"> </p> | 20AWG Wire (Red) | X1 | N/A | <p align="center"> <img src="../images/components/wiring/X1.png"> </p> 
-30AWG Wire (White) | X3 | N/A | <p align="center"> <img src="../images/components/wiring/X3.png" width="25%"> </p> | 30AWG Wire (Blue) | X4 | N/A | <p align="center"> <img src="../images/components/wiring/X4.png" > </p> 
-30AWG Wire (Yellow) | X5 | N/A | <p align="center"> <img src="../images/components/wiring/X5.png" width="25%"> </p> | 30AWG Wire (Green) | X6 | N/A | <p align="center"> <img src="../images/components/wiring/X6.png" > </p> 
+24AWG Wire (White) | X3 | N/A | <p align="center"> <img src="../images/components/wiring/X3.png" width="25%"> </p> | 24AWG Wire (Blue) | X4 | N/A | <p align="center"> <img src="../images/components/wiring/X4.png" > </p> 
+24AWG Wire (Yellow) | X5 | N/A | <p align="center"> <img src="../images/components/wiring/X5.png" width="25%"> </p> | 24AWG Wire (Green) | X6 | N/A | <p align="center"> <img src="../images/components/wiring/X6.png" > </p> 
 3 Pin Micro Connector | E40 | 4 | <p align="center"> <img src="../images/components/electronics/E40.png" width="25%"> </p>| Wire Braid | E42 | N/A | <p align="center"> <img src="../images/components/electronics/E42.png" > </p>
 Heat Shrink Tubing | E44 | 1 | <p align="center"> <img src="../images/components/electronics/E44.png" width="25%"> </p>
 
@@ -199,11 +199,11 @@ The below table and figure shows an approximate amount of length of wire you wil
 
 Section | Wires Needed | Length [inches]
 ------- | ------------ | --------------- 
-A | 2x | 20AWG & 4x 30AWG | 35
-B | 2x | 20AWG & 4x 30AWG | 28
-C | 2x | 20AWG & 4x 30AWG | 48
-D | 2x | 20AWG & 3x 30AWG | 20
-E | 2x | 20AWG & 3x 30AWG | 32
+A | 2x 20AWG & 4x 24AWG | 35
+B | 2x 20AWG & 4x 24AWG | 28
+C | 2x 20AWG & 4x 24AWG | 48
+D | 2x 20AWG & 3x 24AWG | 20
+E | 2x 20AWG & 3x 24AWG | 32
 
 ![Wire Lengths](../images/electronics/wire_labels.png)
 
