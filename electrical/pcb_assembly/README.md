@@ -52,7 +52,7 @@ below:
 | 6 Pos Top Term Block  | E4      | 5       | <img src="../../images/components/electronics/E4.png" width="100"> |  Soldering Iron        | N/A     |         |                                                                    |
 
 
-#### 3.1.1 Solder terminal blocks on bottom of board (1)
+#### 3.1.1 Solder terminal blocks on top of board
 
 Begin by soldering the 6 Position Side entry terminal blocks **E3** into the
    **top** side of the PCB, on the edge of the board as shown in the images
@@ -66,7 +66,7 @@ Begin by soldering the 6 Position Side entry terminal blocks **E3** into the
 |:-:|
 | Figure 1: Assembly Step 1 |
 
-#### 3.1.2 Solder terminal blocks on bottom of board (2)
+#### 3.1.2 Solder terminal blocks on bottom of board
 
 On the **bottom** of the board, solder the 6 Position top entry terminal
    blocks **E4**. They will be labeled with schematic reference designators
@@ -97,7 +97,7 @@ On the **bottom** of the board, solder the 20-position female socket header
 | 4.7K 1/4 Watt Resistor | E7      | 1       | <img src="../../images/components/electronics/E7.png" width="100">  | 10K 1/2 Watt Resistor  | E10     | 1       | <img src="../../images/components/electronics/E10.png" width="100"> |
 | 10K 1/4 Watt Resistor  | E8      | 4       | <img src="../../images/components/electronics/E8.png" width="100">  | 100nF Capacitor        | E11     | 17      | <img src="../../images/components/electronics/E11.png" width="100"> |
 
-#### 3.2.1 Solder resistors and capicitors
+#### 3.2.1 Solder resistors and capacitors
 
 On the **top** of the board, solder the resistors and capacitors by
     comparing the reference designator on the board to the part number listed in
@@ -246,14 +246,14 @@ On the **top** of the board, solder the two USB Connectors **E34**. They
 | **Item**                       | **Ref** | **Qty** | **Image**                                                       | **Item**                       | **Ref** | **Qty** | **Image**                                                       |
 | ------------------------------ | ------- | ------- | --------------------------------------------------------------- | ------------------------------ | ------- | ------- | --------------------------------------------------------------- |
 | #6-32 x 3/4" Threaded Standoff | T3      | 4       |   <img src="../../images/components/standoffs/T3.png" width="100">  | #6-32 3/8" Button Head Screw   | B2      | 8       |   <img src="../../images/components/screws/B2.png" width="100">     |
-| #4-40 x 1/2" Threaded Standoff | T11     | 20      |   <img src="../../images/components/standoffs/T11.png" width="100"> | #4-40 1/4" Button Head Screw   | B8      | 40      |   <img src="../../images/components/screws/B8.png" width="100">     |
-| #2-56 x 1/2" Threaded Standoff | T8      | 4       |   <img src="../../images/components/standoffs/T8.png" width="100">  | #2-56 1/4" Button Head Screw   | B13     | 8       |   <img src="../../images/components/screws/B13.png" width="100">    |
+| #4-40 x 1/2" Threaded Standoff | T5     | 20      |   <img src="../../images/components/standoffs/T11.png" width="100"> | #4-40 1/4" Button Head Screw   | B8      | 40      |   <img src="../../images/components/screws/B8.png" width="100">     |
+| #2-56 x 1/2" Threaded Standoff | T11      | 4       |   <img src="../../images/components/standoffs/T8.png" width="100">  | #2-56 1/4" Button Head Screw   | B13     | 8       |   <img src="../../images/components/screws/B13.png" width="100">    |
 | M2.5 x 10mm Threaded Standoff  | T10     | 4       | <img src="../../images/components/standoffs/T10.png" width="100">   | M2.5 x 6mm Socket Head Screw   | B10     | 8       | <img src="../../images/components/screws/B10.png" width="100">      |
 
 #### 3.9.1 Board mounting Standoffs
 
 On the **BOTTOM** side of the board, attach
-    the four #6-32 Standoffs **T4** on the outermost corner four mounting holes
+    the four #6-32 Standoffs **T3** on the outermost corner four mounting holes
     using screws **B2**. These standoffs will be used to attach the board to the
     robot chassis.
 
@@ -275,7 +275,7 @@ On the **BOTTOM** side of the board, attach
 #### 3.9.3 Voltage Regulator Standoffs
 
 On the **BOTTOM** side of the board, attach
-    the four #2-56 Standoffs **T6** using screws **B13** as shown below.
+    the four #2-56 Standoffs **T11** using screws **B13** as shown below.
 
 | <img src="../../images/pcb_assembly/assembly/standoff_4.png" width="300"> |
 |:-:|
@@ -284,7 +284,7 @@ On the **BOTTOM** side of the board, attach
 #### 3.9.4 Raspberry Pi Standoffs
 
 On the **TOP** side of the board, attach the
-    four M2.5 Standoffs **T7** using screws **B10** as shown in below.
+    four M2.5 Standoffs **T10** using screws **B10** as shown in below.
 
 | <img src="../../images/pcb_assembly/assembly/standoff_5.png" width="300"> |
 |:-:|
@@ -421,17 +421,11 @@ Using a Digital Multimeter (DMM), probe the voltage across the test points
 
 #### 5.1.3 Test Step 3
 
-Next, you will need to create jumper wires that will connect the RoboClaw
-    motor controller power terminals to the RoboClaws. **Unplug the Tamiya
-    battery connector before plugging in or unplugging ANY components, or before
-    inserting components!!!** (in future steps, we will not explicitly say to
-    unplug the battery, but **you must disconnect the battery at each step
-    BEFORE inserting components or working on the board!**). Take the red and
-    black 24 AWG wires **W1 and W2** and cut 15 2-inch long segments of each
-    color (you should have 15 red and 15 black pieces). Using wire strippers,
-    strip the ends about 0.1 inches at each end. Insert these jumper wires into
-    the terminal blocks on the RoboClaw Motor Controllers **E20** in the
-    following way:
+| :exclamation: :exclamation: :exclamation: Battery Safety :exclamation: :exclamation: :exclamation: |
+|:---------------------------|
+| Unplug the Tamiya battery connector before plugging in or unplugging ANY components, or before inserting components!!!** (in future steps, we will not explicitly say to unplug the battery, but **you must disconnect the battery at each step BEFORE inserting components or working on the board!**).
+
+Next, you will need to create jumper wires that will connect the RoboClaw motor controller power terminals to the RoboClaws. Take the red and black 24 AWG wires **W1 and W2** and cut 15 2-inch long segments of each color (you should have 15 red and 15 black pieces). Using wire strippers, strip the ends about 0.1 inches at each end. Insert these jumper wires into the terminal blocks on the RoboClaw Motor Controllers **E20** in the following way:
 
 | **Terminal** | **Wire Color** |
 | ------------ | -------------- |
@@ -638,7 +632,7 @@ Connect the wires to the motor in the following manner
 
 The main difference between the drive and corner motor systems is that for
     the corner system, we need to use the encoders. We want to test the voltage
-    division circuit used on the control board; this divider which will expects
+    division circuit used on the control board; this divider which will expect
     a 0-5V signal from the absolute Hall effect encoder. To simulate the
     encoder, connect the +5V terminal on the motor terminal block straight into
     the ENA signal in the same terminal block.
@@ -668,9 +662,8 @@ Repeat this process for all the corner motor terminal blocks, labeled
 ## 7. Raspberry Pi Install
 
 Next up is to verify that power to the Raspberry Pi is working. For this, you'll
-need a working operating system installed on the SD card. Take a moment now to
-follow to the
-[software setup](https://github.com/nasa-jpl/osr-rover-code#setup)
+need a working operating system installed on the SD card. This will take some time; follow the 
+[software setup instructions](https://github.com/nasa-jpl/osr-rover-code#setup)
 to install the rover software on the Raspberry Pi.
 
 | **Item**               | **Ref** | **Qty** | **Image**                                                                  | **Item**               | **Ref** | **Qty** | **Image**                                                                  |
@@ -678,8 +671,8 @@ to install the rover software on the Raspberry Pi.
 | OSR Control Board      | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100">             | 40 Pin Ribbon Cable    | E29     | 1       | <img src="../../images/components/electronics/E29.png" width="100">            |
 | Raspberry Pi 3B        | E21     | 1       | <img src="../../images/components/electronics/E21.png" width="100">            | USB to Micro USB Cable | E27     | 1       |            <img src="../../images/components/electronics/E27.png" width="100"> |
 
-**ONLY PROCEED WITH THE FOLLOWING ONCE YOU HAVE SUCCESSFULLY FINISHED THE
-INSTALLATION OF THE ROVER CODE ON YOUR RASPBERRY PI.**
+| :exclamation: Only proceed with the following once you have successfully finished the installation of the rover code on your raspberry pi |
+|:---------------------------|
 
 #### 7.1.1 Attach RPi
 

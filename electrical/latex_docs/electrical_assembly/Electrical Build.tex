@@ -219,6 +219,35 @@ There are a couple of \textbf{very important} things to be aware of as you are m
 	\label{battery_wiring}
 \end{figure}
 
+
+\subsection{Powering the LED Screen}
+
+\begin{table}[H]
+	\centering
+	\arrayrulecolor{lightgray}
+	\sffamily\footnotesize
+	\captionsetup{font={sf,bf}}
+	\caption{Parts Necessary}
+	\begin{tabular}{|N|Q|Q|I|N|Q|Q|I|}
+			\hline
+			\thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} & \thead{Item} & \thead{Ref} & \thead{Qty} & \thead{Image} \\
+			\hline
+			LED Screen/Assembled Head & NA & 1 & \partimg{../../../images/components/Electronics/E37.png} & 4 Pin Molex Connector & E49 & 1 & \partimg{../../../images/components/Electronics/E49.png} \\ \hline
+	\end{tabular}
+\end{table}
+
+\noindent Using The 4 Pin molex Cable that comes with the LED matrix, connect the LED matrix to the 5V output from the Arduino PCB mounted inside the Head assembly.
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.45\textwidth}
+		\includegraphics[width=\textwidth]{"Pictures/Electronics/molex_power.png}
+	\end{minipage}
+	\caption{Powering the LED Screen}
+	\label{led_power}
+\end{figure}
+
+
 \section{Connecting Data Cables}
 
 \textbf{**NOTE: Before proceeding, you need to have completed the assembly of the custom PCB board and populated all the components.  If you have not yet done so, build the Control Board now by following the document at \href{https://github.com/nasa-jpl/open-source-rover/blob/master/Electrical/PCB Assembly.pdf}{/Electrical/PCB Assembly.pdf}.}

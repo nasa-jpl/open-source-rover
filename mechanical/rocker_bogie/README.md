@@ -71,9 +71,9 @@ The Rocker-Bogie assembly is what attaches your wheels to the rover's body and a
 | 3" Channel (Modified) | S2A | 4 | <img src="../../images/components/structural/S2A.png" width="200"> | #6 Washer  | W1 | 28  | <img src="../../images/components/washers/W1.png" width="70"> |
 | 3.75" Channel | S3 | 4 | <img src="../../images/components/structural/S3.png" width="200"> | 0.5" Nylon Washer  | W3 | 12  | <img src="../../images/components/washers/W3.png" width="70"> |
 | 9" Channel | S5 | 2 | <img src="../../images/components/structural/S5.png" width="200"> | #6 x 1/4" Standoff  | T1 | 32  | <img src="../../images/components/standoffs/T1.png" width="70"> |
-| Pattern F Bracket | S7 | 8 | <img src="../../images/components/structural/S7.png" width="200"> | #6-32 x 3/8" Button Head Screw  | B2 | 52  | <img src="../../images/components/screws/B2.png" width="70"> |
+| Pattern F Bracket | S7 | 8 | <img src="../../images/components/structural/S7.png" width="200"> | #6-32 x 3/8" Button Head Screw  | B2 | 40  | <img src="../../images/components/screws/B2.png" width="70"> |
 | 0.5” Pillow Block | S11 | 4 | <img src="../../images/components/structural/S11.png" width="200"> | #6-32 x 5/8" Button Head Screw  | B4 | 32  | <img src="../../images/components/screws/B3.png" width="70"> |
-| 0.5” Face Tapped Clamping Hub | S13 | 2 | <img src="../../images/components/structural/S13.png" width="200"> | #6-32 Locking Hex Net  | B11 | 60  | <img src="../../images/components/screws/B11.png" width="70"> |
+| 0.5” Face Tapped Clamping Hub | S13 | 2 | <img src="../../images/components/structural/S13.png" width="200"> | #6-32 Locking Hex Net  | B11 | 68  | <img src="../../images/components/screws/B11.png" width="70"> |
 | 0.5" x 3" Aluminum Tube (Modified) | S18A | 2 | <img src="../../images/components/structural/S18A.png" width="200"> | Allen Key Set  | D2 |  | <img src="../../images/components/tools/D2.png" width="200"> |
 | 0.5” Collar Clamp | S22 | 4 | <img src="../../images/components/structural/S22.png" width="200"> | 5/16 Wrench  | D1 |   | <img src="../../images/components/tools/D1.png" width="200"> |
 
@@ -111,9 +111,9 @@ Attach another 3.75 inch channel **S3** to the bottom hole of the pattern F brac
 
 ### 4.5 Opposite edge of Rocker-Bogie Joint
 
-Attach another Pattern F bracket **S7** to the opposite side of the channels using washers **W1** and **W3**, screws **B4**, and hex nuts **B8** as shown in Figure 7.
+Attach another Pattern F bracket **S7** to the opposite side of the channels using washers **W1** and **W3**, screws **B2**, and hex nuts **B11** as shown in Figure 7.
 
-| <img src="../../images/rocker_bogie/step_8.png" height="300"> <img src="../../images/rocker_bogie/step_9b.png" height="300"> |
+| <img src="../../images/rocker_bogie/step_9a.png" height="300"> <img src="../../images/rocker_bogie/step_9b.png" height="300"> |
 |:-:|
 | Figure 7: Start the other side of Rocker-Bogie joint|
 
@@ -143,7 +143,7 @@ Attach two Pillow Bearing Blocks **S11** using screws **B2** and hex huts **B11*
 
 ### 4.9 Attach Clamping Hub
 
-Attach the Clamping Hub **S13** using screws **B2** and hex nuts **B11** as shown in Figure 11. The clamping hub should be centered above where you just placed the pillow bearing blocks.
+Attach the Clamping Hub **S13** using screws **B2** as shown in Figure 11. The clamping hub should be centered above where you just placed the pillow bearing blocks.
 
 | <img src="../../images/rocker_bogie/step_15.png" height="300"> <img src="../../images/rocker_bogie/step_16.png" height="300"> |
 |:-:|

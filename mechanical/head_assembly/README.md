@@ -51,11 +51,11 @@ There are a few components that need to be 3D printed to make the head assembly.
 If you do not have a 3D printer there are a number of online 3D printing services available, an example of which can be found at:
  - [MakeXYZ](https://www.makexyz.com/)
 
-Print the "head base.STL" piece from the [3d Printed head](https://github.com/nasa-jpl/open-source-rover/blob/master/Mechanical/Head%20Assembly/3D%20Printed%20Parts/head%20base.STL)
+Print the "head base.STL" piece from the [3d Printed head](https://github.com/nasa-jpl/open-source-rover/blob/master/mechanical/head_assembly/3d_printed_parts/head%20base.STL)
 
 ## 4. Laser Cutting
 
-There is an acrylic plate which mounts the arduino into the head, as well as a back plate for the panel of the head. The 2D cutout files are the .DXF files and can be found in the GitHub repository at [Laser cut parts](https://github.com/nasa-jpl/open-source-rover/tree/master/Mechanical/Head%20Assembly/Laser%20Cut%20Files). If you do not have access to a laser cutting there is an online service in which you can order these from below:
+There is an acrylic plate which mounts the arduino into the head, as well as a back plate for the panel of the head. The 2D cutout files are the .DXF files and can be found in the GitHub repository at [Laser cut parts](https://github.com/nasa-jpl/open-source-rover/tree/master/mechanical/head_assembly/laser_cut_files). If you do not have access to a laser cutting there is an online service in which you can order these from below:
 
   - [Scupteo](https://sculpteo.com)
 
@@ -81,7 +81,7 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload the .D
   | PVC Pipe (Modified ) | S29A | 1 | <img src="/images/components/structural/S29.png" width="200">   | #4-40x 1/4" Button Head Screw| B8 | 12 | <img src="/images/components/screws/B8.png" width="70">|
   | Laser Cut Head Back Panel | S42 | 1 | <img src="/images/components/structural/S42.png" width="200">   | M2.5 x 6mm Socket Head Screw | B10 | 8| <img src="/images/components/screws/B10.png" width="70">|
   | 3D printed Head | S43 | 1 | <img src="/images/components/structural/S43.png" width="200">   | M3 x 6mm Socket Head Cap screw| B14 | 6 | <img src="/images/components/screws/B14.png" width="70"> |
-  | Laser Cut Arduino Plate | S44 | 1 | <img src="/images/components/structural/S44.png" width="200">   | Ardiuno Sheild PCB | E2 | 1 | <img src="/images/components/electronics/E2.png" width="200"> |
+  | Laser Cut Arduino Plate | S44 | 1 | <img src="/images/components/structural/S44.png" width="200">   | Arduino Shield PCB | E2 | 1 | <img src="/images/components/electronics/E2.png" width="200"> |
   | #4-40 Heat set insert | I1 | 8 | <img src="/images/components/inserts/I1.png" width="70">   | Arduino Uno| E24 | 1 | <img src="/images/components/electronics/E24.png" width="200"> |
   | M2.5 x 10mm Standoff| T10 | 4 | <img src="/images/components/standoffs/T10.png" width="70">   | LED Matrix | E37 | 1  |  <img src="/images/components/electronics/E37.png" width="200"> |
 
