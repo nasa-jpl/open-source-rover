@@ -1,0 +1,17 @@
+multi:
+  open-source-rover-shield:
+    summary: Arduino shield for a 6-wheel rover based on the rovers on Mars!
+    site: https://opensourcerover.jpl.nasa.gov/
+    readme: README.md
+    bom: electrical/pcb/arduino_uno_sheild/BOM.csv
+    eda:
+      type: kicad
+      pcb: electrical/pcb/arduino_uno_sheild/Arduino_uno_sheild.kicad_pcb
+  open-source-rover-control-board:
+    summary: Control board for a 6-wheel rover based on the rovers on Mars!
+    site: https://opensourcerover.jpl.nasa.gov/
+    readme: README.md
+    bom: electrical/pcb/control_board/BOM.csv
+    eda:
+      type: kicad
+      pcb: electrical/pcb/control_board/Control Board.kicad_pcb

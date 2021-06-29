@@ -80,7 +80,7 @@ Figure 3: Shaft coupler installation
 
 ### 4.4 Encoder Mount
 
-The size and tolerance of the holes will vary slighty based on different 3D printers and materials. Press the 0.25 inch spacers **T1** into the 3D printed encoder mount **S31**. If they do not fit easily, tapping them with a small hammer may help. If the holes are too small for that, you can drill out or file the holes slightly until the spacers fit snugly as show in Figure 4.
+The size and tolerance of the holes will vary slightly based on different 3D printers and materials. Press the 0.25 inch spacers **T1** into the 3D printed encoder mount **S31**. If they do not fit easily, tapping them with a small hammer may help. If the holes are too small for that, you can drill out or file the holes slightly until the spacers fit snugly as show in Figure 4.
 
 <image src="../../images/corner_steering/CornerSt_Step_5.png" width="30%">
 

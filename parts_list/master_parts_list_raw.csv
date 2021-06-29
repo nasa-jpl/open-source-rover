@@ -63,7 +63,6 @@ Battery Charger,E41,Standard Tamiya Connectors,BatterySpace,https://www.batterys
 Wire Braid,E42,25Ft 0.1875 Diameter,Amazon,https://www.amazon.com/16-Wind-Side-Entry-Sleeving/dp/B06XRKMB7N/ref=sr_1_8?keywords=side%2Bentry%2Bwire%2Bwrap&qid=1563912694&s=gateway&sr=8-8&th=1,1,1,1,$15.00 ,$15.00,Electrical Build
 SD Card,E43,8Gb,Amazon,https://www.amazon.com/SanDisk-Ultra-Micro-Adapter-SDSQUNC-016G-GN6MA/dp/B010Q57SEE,1,1,1,$9.98 ,$9.98,
 Heat Shrink Tubing,E44,532 pc,Amazon,https://www.amazon.com/Shrink-Tubing-Black-532pcs-innhom/dp/B075WR9FVL,1,1,1,$7.99 ,$7.99,Electrical Build
-Gear Motor w Relative Enc. (Drive Motor),E45,"172:1 gear ratio, with relative encoder",Pololu,https://www.pololu.com/product/4888,1,6,6,$34.95 ,$209.70,Wheel Assembly
 Gear Motor (Corner Motor),E46,"45 RPM HD Premium Planetary Gear Motor, NO relative encoder",ServoCity,https://www.servocity.com/45-rpm-hd-premium-planetary-gear-motor,1,4,4,$39.99 ,$159.96,Corner Steering
 Absolute Encoder,E47,"1/8 inch, 10 Bit Analog, Sleeve Bushing (N)",US Digital,https://www.usdigital.com/products/encoders/absolute/rotary/shaft/MA3,1,4,4,$55.50 ,$222.00,Corner Steering
 USB to TTL Serial Adapter,E48,,Amazon,https://www.amazon.com/JBtek-WINDOWS-Supported-Raspberry-Programming/dp/B00QT7LQ88/ref=sr_1_4?keywords=usb+to+ttl+serial+cable&qid=1556583541&s=gateway&sr=8-4,1,1,1,$6.99 ,$6.99,Electrical Build
@@ -135,7 +134,7 @@ Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Rocker-Bogie, Head Assembly, Wheel Assembl
 Vice clamp or C Clamps,D5,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 5/16 Wrench,D1,,,,,1,,,,"Rocker-Bogie, Mechanical Integration, Wheel Assembly, Differential Pivot"
 Vice or V-Clamp,D8,,,,,1,,,,"Head Assembly, Differential Pivot"
-YellowJacket 223 rpm drive motor,E46,5202-0002-0027,GoBilda,https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-223-rpm-3-3-5v-encoder/,1,6,6,$39.99,$239.94,Wheel Assembly
+YellowJacket 223 rpm drive motor,E49,5202-0002-0027,GoBilda,https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-223-rpm-3-3-5v-encoder/,1,6,6,$39.99,$239.94,Wheel Assembly
 M4 x 0.7mm 6mm screws,B15,2802-0004-0006,GoBilda,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-6mm-length-25-pack/,25,48,2,$1.79,$3.58,Wheel Assembly
 GoBilda 2 hole U-Channel,S45,1120-0002-0072,GoBilda,https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/,1,6,6,$2.79,$33.48,Wheel Assembly
 GoBilda 23mm threaded plate,S46,2803-0023-0023,GoBilda,https://www.gobilda.com/2803-series-stainless-steel-threaded-plate-23-23/,1,12,12,$2.49,$29.88,Wheel Assembly

@@ -14,6 +14,8 @@ The JPL Open Source Rover is an open source, build it yourself, scaled down vers
  </tr>
 </table>
 
+A gallery of some community builds can be found [here](examples/builders_gallery.md).
+
 ## About the Project
 
 ### Motivation
@@ -183,15 +185,29 @@ In order to help this ordering process we have compiled a few links of a large n
 |[McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)|[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wb)|[Pololu](https://www.pololu.com/wishlist/1J10953)|[Adafruit](https://www.adafruit.com/wishlists/460400)|
 |---|---|---|---|
 
-**Digikey:** 
-The Bill of Materials folder contains (currently just one) Bill of materials file for a specific vendor. We are searching for better ways to help with the ordering process, however for now the easiest way is to take the [Digikey Bill of Materials](Bill%20of%20Materials%20Files/Digikey_BOM.csv) and upload it to [Digikey](https://www.digikey.com/). You can find the "BOM Manager" on their homepage and then start a new BOM, where you can upload this file.  
+**Electronics**
+
+The easiest way to buy the electronics parts is to use the links (to e.g. Digikey) on the Kitspace pages:
+
+- [control-board](https://kitspace.org/boards/github.com/nasa-jpl/open-source-rover/open-source-rover-control-board/)
+- [arduino-shield](https://kitspace.org/boards/github.com/nasa-jpl/open-source-rover/open-source-rover-shield/)
+
+Another way to order from Digikey is to upload the [Digikey Bill of Materials](bill_of_materials/Digikey_BOM.csv) at [Digikey.com](https://www.digikey.com/).
 
 #### 3D printing and Laser cutting
 
-In addition to ordering all of the parts on the parts list, we recommend that some pieces be 3D printed and laser cut. If you do not have access to a 3D printer or laser cutter, we've added some online services as examples for where you can get those manufactured and shipped to you. You'll find instructions on this in the [Body Build Doc](Mechanical/Body%20Assembly/Body%20Build%20Doc.pdf),  [Corner Steering Build Doc](Mechanical/Corner%20Steering/Corner%20Steering%20Build%20Doc.pdf), and [Head Assembly Build Doc](Mechanical/Head%20Assembly/Head%20Assembly%20Build%20Doc.pdf).
+In addition to ordering all of the parts on the parts list, we recommend that some pieces be 3D printed and laser cut. If you do not have access to a 3D printer or laser cutter, we've added some online services as examples for where you can get those manufactured and shipped to you. You'll find instructions on this in the [Body Build Doc](mechanical/body_assembly/README.md),  [Corner Steering Build Doc](mechanical/corner_steering/README.md), and [Head Assembly Build Doc](mechanical/head_assembly/README.md).
 
 #### Printed Circuit Boards (PCBs)
-The main electrical system of this rover relies on a custom printed circuit board (PCB) that handles the routing between the majority of the electrical components.  This board greatly simplifies the build process and eliminates the need for you to route all the wires yourself. You can find the PCB board files at [PCB Files](Electrical/PCB/). These can be ordered at [JLCPCB](https://jlcpcb.com/) by dropping each of the .zip files (these .zip files contain "gerber" files, a typical file format for PCB boards). 
+
+The main electrical system of this rover relies on a custom printed circuit board (PCB) that handles the routing between the majority of the electrical components. This board greatly simplifies the build process and eliminates the need for you to route all the wires yourself. You can find the PCB board files at [PCB Files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcbelectrical/pcb/).
+
+The easiest way to order the PCBs is through the links (to e.g JLCPCB) on the Kitspace pages:
+
+- [control-board](https://kitspace.org/boards/github.com/nasa-jpl/open-source-rover/open-source-rover-control-board/)
+- [arduino-shield](https://kitspace.org/boards/github.com/nasa-jpl/open-source-rover/open-source-rover-shield/)
+
+You can also download the "Gerber" files there (a typical file format for PCBs) and upload them to any other PCB service that doesn't have a direct link on Kitspace.
 
 ---
 
