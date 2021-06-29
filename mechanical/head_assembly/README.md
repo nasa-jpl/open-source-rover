@@ -118,24 +118,7 @@ Insert the # 4-40 Heat Set Inserts I1 into the 3D printed head (using a Solder I
 | :------------------------------------------------: |
 |                      Figure 8                      |
 
-## 6.3 Assemble and Mount the PVC clamping hub
 
-### 6.3.1 
-
-Using washers W1, insert screws B4 into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe later. 
-
-| <img src="/images/head/hub_upper_screws.png" width="50%"> |
-| :------------------------------------------------: |
-|                      Figure 9                      |
-
-
-### 6.2.2 3D-printed PVC clamping hub
-
-* Insert the #6-32 Heat Set Inserts I2 into the 3D-printed clamping hub S51 in the locations shown in Figure 8. The inserts on the side of the clamp should go in from the left side as shown in Figure 8. 
-
-| <img src="/images/head/hub_upper.png" width="50%"> |
-| :------------------------------------------------: |
-|                      Figure 8                      |
 
 ## 6.3 Assemble and Mount the PVC clamping hub
 
