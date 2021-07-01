@@ -138,15 +138,7 @@ Using screws B2, attach the completed PVC clamping hub to the bottom of the 3D p
 
 | <img src="/images/head/step-4a.png" width="80%"> | <img src="/images/head/step-4b.png" width="80%">|
 |:-:|:-:|
-<<<<<<< HEAD
-<<<<<<< HEAD
 | Figure 10 | Figure 11 |
-=======
-| Figure 9 | Figure 10 |
->>>>>>> 8b6d8ef (added image to head README.md)
-=======
-| Figure 10 | Figure 11 |
->>>>>>> 41905d5 (Added images showing screws in PVC hubs)
 
 ## 6.4 Attach PVC Pipe
 
@@ -154,15 +146,7 @@ Slot the PVC pipe S29 into the clamping hub and then tighten down the screws on 
 
 | <img src="/images/head/step-5a.png" width="50%"> |
 |:-:|
-<<<<<<< HEAD
-<<<<<<< HEAD
 | Figure 12 |
-=======
-| Figure 11 |
->>>>>>> 8b6d8ef (added image to head README.md)
-=======
-| Figure 12 |
->>>>>>> 41905d5 (Added images showing screws in PVC hubs)
 
 ## 6.5 Attaching the LED Matrix
 
@@ -170,9 +154,8 @@ Attach the LED Matrix E37 to the front of the head assembly using Screws B14.
 
 | <img src="/images/head/step-6a.png" width="70%"> | <img src="/images/head/step-6b.png" width="100%">|
 |:-:|:-:|
-<<<<<<< HEAD
-<<<<<<< HEAD
 | Figure 13 | Figure 14 |
+
 
 ## 6.6 Mount the Arduino Stack
 
@@ -181,24 +164,6 @@ Take the Arduino Plate assembly and mount it using screws B8 to the heat set ins
 | <img src="/images/head/step-7a.png" width="100%"> | <img src="/images/head/step-7b.png" width="70%">|
 |:-:|:-:|
 | Figure 15 | Figure 16 |
-=======
-| Figure 12 | Figure 13 |
-=======
-| Figure 13 | Figure 14 |
->>>>>>> 41905d5 (Added images showing screws in PVC hubs)
-
-## 6.6 Mount the Arduino Stack
-
-Take the Arduino Plate assembly and mount it using screws B8 to the heat set inserts on the posts inside the head as shown in Figure 15
-
-| <img src="/images/head/step-7a.png" width="100%"> | <img src="/images/head/step-7b.png" width="70%">|
-|:-:|:-:|
-<<<<<<< HEAD
-| Figure 14 | Figure 15 |
->>>>>>> 8b6d8ef (added image to head README.md)
-=======
-| Figure 15 | Figure 16 |
->>>>>>> 41905d5 (Added images showing screws in PVC hubs)
 
 ##6.7 Back Plate Attachment
 
@@ -206,14 +171,7 @@ Attach the Laser Cut Back Plate S42 onto the back of the head assembly using scr
 
 | <img src="/images/head/step-8a.png" width="100%"> | <img src="/images/head/step-8b.png" width="100%">|
 |:-:|:-:|
-<<<<<<< HEAD
-<<<<<<< HEAD
 | Figure 17 | Figure 18 |
-=======
-| Figure 16 | Figure 17 |
->>>>>>> 8b6d8ef (added image to head README.md)
-=======
-| Figure 17 | Figure 18 |
->>>>>>> 41905d5 (Added images showing screws in PVC hubs)
+
 
 The head is now finished!
