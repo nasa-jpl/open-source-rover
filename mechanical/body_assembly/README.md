@@ -99,23 +99,11 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 
 #### 4.1.3 Assmble the PVC clamping hub
 
-* Insert the #6-32 Heat Set Inserts **I2** into the 3D-printed clamping hub **S51** in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 6. 
+* Insert the #6-32 Heat Set Inserts **I2** into the 3D-printed clamping hub **S51** in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 4. 
 * Using washers W1, insert screws **B4** into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the PVC pipe later. 
 
 
 | <img src="../../images/body/hub_lower.png" height="300"> <img src="../../images/body/hub_lower_screws.png" height="300">|
-|:-:|
-| Figure 4: Assemble PVC Clamping Hub |
-
-
-* Insert the #6-32 Heat Set Inserts **I2** into the 3D-printed clamping hub **S51** in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 6. 
-* Using washers W1, insert screws **B4** into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the PVC pipe later. 
-
-| <img src="../../images/body/hub_lower.png" height="300"> <img src="../../images/body/hub_lower_screws.png" height="300">|
-|:-:|
-| Figure 4: Assemble PVC Clamping Hub |
-
-| <img src="../../images/body/hub_lower.png" height="300">|
 |:-:|
 | Figure 4: Assemble PVC Clamping Hub |
 
