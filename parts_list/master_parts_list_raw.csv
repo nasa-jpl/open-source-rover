@@ -13,12 +13,12 @@ M2.5 x 6mm Screw,B10,92095a458,McMaster,https://www.mcmaster.com/92095a458,25,16
 #4-40 Locknuts,B12,90631A005,McMaster,https://www.mcmaster.com/90631A005,100,4,1,$2.79 ,$2.79,Differential Pivot
 "#2-56 x 1/4"" Screw",B13,91255A076,McMaster,https://www.mcmaster.com/91255a077,25,8,1,$3.78 ,$3.78,PCB Assembly
 M3 x 6mm Screw,B14,90751A110,McMaster,https://www.mcmaster.com/90751a110,100,6,1,$6.33 ,$6.33,Head Assembly
-Red Wire 20AWG,X1,CN541R-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN541R-50-ND,1,2,2,$15.59 ,$31.18,"Electrical Build, PCB Assembly"
-Black Wire 20AWG,X2,CN538B-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN538B-50-ND,1,2,2,$12.56 ,$25.12,"Electrical Build, PCB Assembly"
-White Wire 24AWG,X3,CN519W-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN519W-50-ND,1,1,1,$9.16 ,$9.16 ,Electrical Build,
-Blue Wire 24AWG,X4,CN522L-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN522L-50-ND,1,1,1,$9.16 ,$9.16 ,Electrical Build,
-Yellow Wire 24AWG,X5,CN520Y-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN520Y-50-ND,1,1,1,$9.16 ,$9.16 ,Electrical Build,
-Green Wire 24AWG,X6,CN524G-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN524G-50-ND,1,1,1,$9.16 ,$9.16 ,Electrical Build,
+Red Wire 20AWG,X1,CN541R-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN541R-50-ND,1,2,2,$15.59 ,$31.18,Electrical Build
+Black Wire 20AWG,X2,CN538B-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN538B-50-ND,1,2,2,$12.56 ,$25.12,Electrical Build
+White Wire 24AWG,X3,CN519W-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN519W-50-ND,1,1,1,$9.16 ,$9.16 ,Electrical Build
+Blue Wire 24AWG,X4,CN522L-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN522L-50-ND,1,1,1,$9.16 ,$9.16 ,Electrical Build
+Yellow Wire 24AWG,X5,CN520Y-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN520Y-50-ND,1,1,1,$9.16 ,$9.16 ,Electrical Build
+Green Wire 24AWG,X6,CN524G-50-ND,Digikey,https://www.digikey.com/products/en?keywords=CN524G-50-ND,1,1,1,$9.16 ,$9.16 ,Electrical Build
 Control Board,E1,,JLCPCB,https://jlcpcb.com/,10,1,1,$22.10 ,$22.10,"Body, PCB Assembly"
 Arduino Shield,E2,,JLCPCB,https://jlcpcb.com/,10,1,1,$5.00 ,$5.00,"Head Assembly, PCB Assembly"
 Term block 6p side entry,E3,ED2744-ND,Digikey,https://www.digikey.com/product-detail/en/OSTTE060104/ED2744-ND/2351820/?itemSeq=281160152,1,12,12,$1.24 ,$14.88,PCB Assembly
@@ -93,7 +93,7 @@ Wheel,S30,,DollarHobbyz,https://www.dollarhobbyz.com/collections/all/products/tr
 RC Turnbuckles,S32,06048B,Amazon,https://www.amazon.com/Hobbypark-Aluminum-Turnbuckle-BRONTOSAURUS-Replacement/dp/B01H5PZKMK,2,2,1,$9.25 ,$9.25,Differential Pivot
 3D Printed Head,S33,,Makexyz,https://www.makexyz.com/,1,1,1,$75.80 ,$75.80,
 Loctite Red,S34,,Amazon,https://www.amazon.com/Loctite-Threadlocker-Red-0-20-209741/dp/B000FP8EUS,1,1,1,$6.49 ,$6.49,Wheel Assembly
-"9"" x 12"" Aluminum Plate",S35,585006,ServoCity,https://www.servocity.com/9-x-12-aluminum-pattern-plate,1,2,2,$16.99 ,$33.98,Body
+9 x 12 Top Plate,S35,,Sculpteo,https://www.sculpteo.com/,1,1,1,$12.06 ,$33.98 ,Body
 Loctite 2 Part Apoxy,S36,,Amazon,https://www.amazon.com/Loctite-Marine-0-85-Fluid-Syringe-1405604/dp/B00KH62K50,1,1,1,$5.42 ,$5.42,Wheel Assembly
 "4.5"" x 12"" Aluminum Plate",S37,585004,ServoCity,https://www.servocity.com/4-5-x-12-pattern-plate,1,2,2,$13.99 ,$27.98,Body
 "0.25"" to 6mm Clamping Shaft Coupler",S38,625100,ServoCity,https://www.servocity.com/heavy-duty-clamping-shaft-couplers,1,4,4,$7.99 ,$31.96,Corner Steering
@@ -134,11 +134,12 @@ Metal Hacksaw or Bandsaw,D4,,,,,1,,,,"Rocker-Bogie, Head Assembly, Wheel Assembl
 Vice clamp or C Clamps,D5,,,,,1,,,,"Wheel Assembly, Differential Pivot"
 5/16 Wrench,D1,,,,,1,,,,"Rocker-Bogie, Mechanical Integration, Wheel Assembly, Differential Pivot"
 Vice or V-Clamp,D8,,,,,1,,,,"Head Assembly, Differential Pivot"
-YellowJacket 223 rpm drive motor,E49,5202-0002-0027,GoBilda,https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-223-rpm-3-3-5v-encoder/,1,6,6,$39.99,$239.94,Wheel Assembly
-M4 x 0.7mm 6mm screws,B15,2802-0004-0006,GoBilda,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-6mm-length-25-pack/,25,48,2,$1.79,$3.58,Wheel Assembly
-GoBilda 2 hole U-Channel,S45,1120-0002-0072,GoBilda,https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/,1,6,6,$2.79,$33.48,Wheel Assembly
-GoBilda 23mm threaded plate,S46,2803-0023-0023,GoBilda,https://www.gobilda.com/2803-series-stainless-steel-threaded-plate-23-23/,1,12,12,$2.49,$29.88,Wheel Assembly
-2-post 43-32mm drive motor clamping mount,S47,1401-0043-0032,GoBilda,https://www.gobilda.com/1401-series-2-side-2-post-clamping-mount-43mm-width-32mm-bore/,1,6,6,$5.99,$35.94,Wheel Assembly
-GoBilda Pattern Adaptor,S48,1206-0016-0004,GoBilda,https://www.gobilda.com/1206-series-pattern-adaptor-16-4/,1,12,12,$4.99,$59.88,Wheel Assembly
-6mm Bore Clamping D-Hub 0.770in,S49,545618,ServoCity,https://www.servocity.com/6mm-bore-clamping-d-hub-tapped-0-770-pattern/,1,6,6,$7.99,$47.94,Wheel Assembly
-3D Printed PVC Clamping Hub (bottom),S50,,Makexyz,https://www.makexyz.com/,1,1,1,$12.90 ,$12.90 ,Body, Head Assembly
+YellowJacket 223 rpm drive motor,E46,5202-0002-0027,GoBilda,https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-223-rpm-3-3-5v-encoder/,1,6,6,$39.99 ,$239.94 ,Wheel Assembly
+M4 x 0.7mm 6mm screws,B15,2802-0004-0006,GoBilda,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-6mm-length-25-pack/,25,48,2,$1.79 ,$3.58 ,Wheel Assembly
+GoBilda 2 hole U-Channel,S45,1120-0002-0072,GoBilda,https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/,1,6,6,$2.79 ,$33.48 ,Wheel Assembly
+GoBilda 23mm threaded plate,S46,2803-0023-0023,GoBilda,https://www.gobilda.com/2803-series-stainless-steel-threaded-plate-23-23/,1,12,12,$2.49 ,$29.88 ,Wheel Assembly
+2-post 43-32mm drive motor clamping mount,S47,1401-0043-0032,GoBilda,https://www.gobilda.com/1401-series-2-side-2-post-clamping-mount-43mm-width-32mm-bore/,1,6,6,$5.99 ,$35.94 ,Wheel Assembly
+GoBilda Pattern Adaptor,S48,1206-0016-0004,GoBilda,https://www.gobilda.com/1206-series-pattern-adaptor-16-4/,1,12,12,$4.99 ,$59.88 ,Wheel Assembly
+6mm Bore Clamping D-Hub 0.770in,S49,545618,ServoCity,https://www.servocity.com/6mm-bore-clamping-d-hub-tapped-0-770-pattern/,1,6,6,$7.99 ,$47.94 ,Wheel Assembly
+9 x 12 Bottom Plate,S51,,Sculpteo,https://www.sculpteo.com/,1,1,1,$11.43 ,$11.43 ,Body
+

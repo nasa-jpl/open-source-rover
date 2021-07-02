@@ -45,6 +45,8 @@ The body is the housing of all the electronics for the rover. It is the attachme
 
 ### 3.1 9x12 Aluminum Plate Drilling
 
+**Note: ServoCity has discontinued the 12x9 aluminum plates. Designs for replacment plates are avialble in the *[laser\_cut\_parts](laser_cut_parts/)* directory. If you need to use the laser cut parts, read the information found in [laser cut parts/README.md](laser_cut_parts/README.md) and then skip to section 3.2 of this document. The laser cut replacments have the necessary holes.**
+
 | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: |
 | 9"x12" Aluminum Plate | S35 | 1 | <img src="../../images/components/structural/S35.png" width="60%"> |
