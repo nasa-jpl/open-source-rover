@@ -8,4 +8,4 @@ start of a section.
 This CSV file is a standard text file; do not use Excel or Numbers to edit it as
 doing so will change the encoding. The format is:
 
-> Part Name,Project Ref Code,Model/Config,Site,Link,Sold in Packs of,Total Used in Project,Quantity to Buy,Price Each,Price Total,Used in Sections
+    > Part Name,Project Ref Code,Model/Config,Site,Link,Sold in Packs of,Total Used in Project,Quantity to Buy,Price Each,Price Total,Used in Sections
