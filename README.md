@@ -200,7 +200,7 @@ In addition to ordering all of the parts on the parts list, we recommend that so
 
 #### Printed Circuit Boards (PCBs)
 
-The main electrical system of this rover relies on a custom printed circuit board (PCB) that handles the routing between the majority of the electrical components. This board greatly simplifies the build process and eliminates the need for you to route all the wires yourself. You can find the PCB board files at [PCB Files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcbelectrical/pcb/).
+The main electrical system of this rover relies on a custom printed circuit board (PCB) that handles the routing between the majority of the electrical components. This board greatly simplifies the build process and eliminates the need for you to route all the wires yourself. You can find the PCB board files at [PCB Files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcb/).
 
 The easiest way to order the PCBs is through the links (to e.g JLCPCB) on the Kitspace pages:
 
