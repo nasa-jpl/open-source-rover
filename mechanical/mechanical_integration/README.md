@@ -41,7 +41,7 @@ The first step is to attach the wheels and corner-steering assemblies to the roc
 
 
 ### 1.1.1 Mounting the Middle Wheel 
-Mount one base wheel (not the corner wheels) to the lowest arm of each of the two rocker bogie subassemblies using a 1.5 inch channel **S1** and channel connectors S6. See Figures 2 and 3. Note that you should mirror the wheels so that they are both on the ”outside” of the rocker bogey subassemblies.
+Mount one base wheel (not the corner wheels) to the lowest arm of each of the two rocker bogie subassemblies using a 1.5 inch channel **S1** and channel connectors **S6**. See Figures 2 and 3. Note that you should mirror the wheels so that they are both on the ”outside” of the rocker bogey subassemblies.
  
 <img src="../../images/mechanical_integration/rb_step_19.png" width="50%">
  
@@ -101,7 +101,7 @@ assembly, again making sure to select the encoder mounts such that the encoders 
 
 
 ### 1.4.1 Attach Rocker-Bogie Legs to Body
-Mount the main body of the rover to the two separate rocker-bogie legs using 15 inch aluminum rod S16A and collar clamps **S22** as shown in Figure 7. Make sure to maintain the order of the collar clamps shown in Figure 7 to fully lock all assemblies along the rod. The rod will go through the pillow blocks on each rocker-bogie leg, and it should pass through the 4th from the back and 2nd up hole on the body as shown in Figure 7.
+Mount the main body of the rover to the two separate rocker-bogie legs using 15 inch aluminum rod **S16A** and collar clamps **S22** as shown in Figure 7. Make sure to maintain the order of the collar clamps shown in Figure 7 to fully lock all assemblies along the rod. The rod will go through the pillow blocks on each rocker-bogie leg, and it should pass through the 4th from the back and 2nd up hole on the body as shown in Figure 7.
 
 <table>
 <tr>

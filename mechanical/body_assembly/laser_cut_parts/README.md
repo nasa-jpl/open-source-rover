@@ -22,8 +22,8 @@ Plywood might cost a bit more from online services, but the cost increase should
 ### Changes to Screw Lengths
 The laser cut replacements are approximately 1/8" thicker than the original aluminum plates, so all screw sizes need to be increased by 1/8" to compensate.
 
-* Use 3/8" screws (B2) instead of 1/4" screws (B1) to attach the plates to the side mounts, 
-* Use 1.25" screws (B7) instead of the 1" screws (B6) when assembling the [differential pivot block](../differential_pivot/README.md>). 
+* Use 3/8" screws (**B2**) instead of 1/4" screws (**B1**) to attach the plates to the side mounts,
+* Use 1.25" screws (**B7**) instead of the 1" screws (**B6**) when assembling the [differential pivot block](../differential_pivot/README.md>).
 
 **Use #6 washers (W1) with the 3/8" screws when attaching the side mounts to prevent the screws from digging into the plywood or MDF.**
 
