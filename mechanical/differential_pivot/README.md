@@ -44,7 +44,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
    | Metal Hacksaw or Bandsaw | D4 | 1  |  <img src="/images/components/tools/D4.png" width="25%"> |
    | Vice clamp or C clamps | D5 | 1 |  <img src="/images/components/tools/D5.png" width="25%">|
 
-   1. Take the 3 foot piece of 0.5 inch aluminum rod S16 and cut it into one 15 inch piece and one 13.5 inch piece. These will now be referred to as the parts S16A and S16B respectively. In addition, take two of the 4 inch aluminum rods S18 and cut them down to 3 inches in length as well.
+   1. Take the 3 foot piece of 0.5 inch aluminum rod **S16** and cut it into one 15 inch piece and one 13.5 inch piece. These will now be referred to as the parts **S16A** and **S16B** respectively. In addition, take two of the 4 inch aluminum rods **S18** and cut them down to 3 inches in length as well.
 
    <br/><br/>
 
@@ -69,7 +69,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
    The turnbuckles must be attached to the differential pivot and rocker-bogie arm. We will accomplish this by drilling holes in the aluminum beam S16B and attaching two 5-hole aluminum bars on each side.
     
 ### 3.2.1 Hole drilling  
-   Using a vice or clamp, firmly grab onto the 0.5 x 13.5 inch rod S16B with the end extending out around 2 inches from the edge of the vice/clamp. Mark the dimensions as shown in Figure 3. Carefully use a center drill to start the a center hole for these holes. It is important that the center hole is as centered as possible to prevent the bit from walk- ing/slipping during drilling, which could result in the bit breaking. Then, use a #23 (0.154 inch diameter) drill bit and drill all the way through both sides of the rod. This makes the S16B’ part.
+   Using a vice or clamp, firmly grab onto the 0.5 x 13.5 inch rod **S16B** with the end extending out around 2 inches from the edge of the vice/clamp. Mark the dimensions as shown in Figure 3. Carefully use a center drill to start the a center hole for these holes. It is important that the center hole is as centered as possible to prevent the bit from walk- ing/slipping during drilling, which could result in the bit breaking. Then, use a #23 (0.154 inch diameter) drill bit and drill all the way through both sides of the rod. This makes the **S16B** part.
 
 
    <br/><br/>
@@ -93,7 +93,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
    <br/><br/>
 
 ### 3.2.3 Hole drilling
-  Next, take two of the 0.5x3 inch hollow rods S18 and create the same set of holes as before, showed again in Figure 5 (this time, drill holes on just one end of each of the rods). Test each of the sets of holes to make sure the 5-hole aluminum beams will attach to each of the rods. These will now be the part S18B
+  Next, take two of the 0.5x3 inch hollow rods **S18** and create the same set of holes as before, showed again in Figure 5 (this time, drill holes on just one end of each of the rods). Test each of the sets of holes to make sure the 5-hole aluminum beams will attach to each of the rods. These will now be the part **S18B**.
 
   <br/><br/>
 
@@ -119,7 +119,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
 ### 4.1 Build the Differential pivot block
 ### 4.1.1 Build clamping hub assembly
-  Attach the the bottom bore clamping hubs S20 to the single pattern bracket S8 using screws B1. Then mount the 0.5” clamping hub S13 to the bottom of this assembly using B1 screws.
+  Attach the the bottom bore clamping hubs **S20** to the single pattern bracket **S8** using screws **B1**. Then mount the 0.5” clamping hub **S13** to the bottom of this assembly using **B1** screws.
 
    <br/><br/>
    
@@ -132,7 +132,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
 
 ### 4.1.2 Differential Pivot:
 
-   Attach the turnbuckle S32 to the modified 13.5-inch aluminum rod S16B as shown using the 5-hole aluminum bars S21, washers W2, screws B7 and B9, hex nuts B11 and B12. The outermost screw is the #4 screw, the others are #6.
+   Attach the turnbuckle **S32** to the modified 13.5-inch aluminum rod **S16B** as shown using the 5-hole aluminum bars **S21**, washers **W2**, screws **B7** and **B9**, hex nuts **B11** and **B12**. The outermost screw is the #4 screw, the others are #6.
 
    <br/><br/>
 
@@ -154,7 +154,7 @@ The Differential Pivot helps to offload forces from one side of the rover to the
    <br/><br/>
 
 ### 4.1.3 Differential Pivot Vertical rods
-  Repeat step 2 on each of the the 3 inch aluminum rods S18B. Finally, attach all the pieces of the turnbuckles together. Your differential pivot is now complete.
+  Repeat step 2 on each of the the 3 inch aluminum rods **S18B**. Finally, attach all the pieces of the turnbuckles together. Your differential pivot is now complete.
 
    <br/><br/>
 

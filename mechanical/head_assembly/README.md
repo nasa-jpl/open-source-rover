@@ -89,7 +89,7 @@ To get the above parts from Sculpteo, go to Laser cutting and then upload the .D
 
 ## 6.1 Assemble the Arduino Stack
 
-Begin by stacking together the Arduino Uno E24, Arduino Shield E2, Standoffs T10, Screws B10, and Arduino Plate S44 and fastening them as shown in figure 2 & figure 3.
+Begin by stacking together the Arduino Uno **E24**, Arduino Shield **E2**, Standoffs **T10**, Screws **B10**, and Arduino Plate **S44** and fastening them as shown in figure 2 & figure 3.
 
 | <img src="/images/head/step-1a.png" width="80%"> | <img src="/images/head/step-1b.png" width="100%">|
 |:-:|:-:|
@@ -99,7 +99,7 @@ Begin by stacking together the Arduino Uno E24, Arduino Shield E2, Standoffs T10
 
 ### 6.2.1 3D-printed head
 
-Insert the # 4-40 Heat Set Inserts I1 into the 3D printed head (using a Solder Iron at 460 degrees F) in the locations shown in Figures 4 and 5. For more information on using heat set inserts, see:
+Insert the # 4-40 Heat Set Inserts **I1** into the 3D printed head (using a Solder Iron at 460 degrees F) in the locations shown in Figures 4 and 5. For more information on using heat set inserts, see:
   - [Heat set insert tutorial](https://www.lulzbot.com/learn/tutorials/heat-set-inserts-tips-and-tricks)
 
 | <img src="/images/head/step-2a.png" width="80%"> | <img src="/images/head/step-2b.png" width="100%">|
@@ -112,7 +112,7 @@ Insert the # 4-40 Heat Set Inserts I1 into the 3D printed head (using a Solder I
 
 ### 6.2.2 3D-printed PVC clamping hub
 
-* Insert the #6-32 Heat Set Inserts I2 into the 3D-printed clamping hub S51 in the locations shown in Figure 8. The inserts on the side of the clamp should go in from the left side as shown in Figure 8. 
+* Insert the #6-32 Heat Set Inserts **I2** into the 3D-printed clamping hub **S51** in the locations shown in Figure 8. The inserts on the side of the clamp should go in from the left side as shown in Figure 8.
 
 | <img src="/images/head/hub_upper.png" width="50%"> |
 | :------------------------------------------------: |
@@ -124,7 +124,7 @@ Insert the # 4-40 Heat Set Inserts I1 into the 3D printed head (using a Solder I
 
 ### 6.3.1 
 
-Using washers W1, insert screws B4 into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe later. 
+Using washers **W1**, insert screws **B4** into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the pipe later.
 
 | <img src="/images/head/hub_upper_screws.png" width="50%"> |
 | :------------------------------------------------: |
@@ -134,7 +134,7 @@ Using washers W1, insert screws B4 into clamp part of the clamping hub and screw
 
 ### 6.3.2
 
-Using screws B2, attach the completed PVC clamping hub to the bottom of the 3D printed head.
+Using screws **B2**, attach the completed PVC clamping hub to the bottom of the 3D printed head.
 
 | <img src="/images/head/step-4a.png" width="80%"> | <img src="/images/head/step-4b.png" width="80%">|
 |:-:|:-:|
@@ -142,7 +142,7 @@ Using screws B2, attach the completed PVC clamping hub to the bottom of the 3D p
 
 ## 6.4 Attach PVC Pipe
 
-Slot the PVC pipe S29 into the clamping hub and then tighten down the screws on the clamping hub
+Slot the PVC pipe **S29** into the clamping hub and then tighten down the screws on the clamping hub
 
 | <img src="/images/head/step-5a.png" width="50%"> |
 |:-:|
@@ -150,7 +150,7 @@ Slot the PVC pipe S29 into the clamping hub and then tighten down the screws on 
 
 ## 6.5 Attaching the LED Matrix
 
-Attach the LED Matrix E37 to the front of the head assembly using Screws B14.
+Attach the LED Matrix **E37** to the front of the head assembly using Screws **B14**.
 
 | <img src="/images/head/step-6a.png" width="70%"> | <img src="/images/head/step-6b.png" width="100%">|
 |:-:|:-:|
@@ -159,7 +159,7 @@ Attach the LED Matrix E37 to the front of the head assembly using Screws B14.
 
 ## 6.6 Mount the Arduino Stack
 
-Take the Arduino Plate assembly and mount it using screws B8 to the heat set inserts on the posts inside the head as shown in Figure 15
+Take the Arduino Plate assembly and mount it using screws **B8** to the heat set inserts on the posts inside the head as shown in Figure 15
 
 | <img src="/images/head/step-7a.png" width="100%"> | <img src="/images/head/step-7b.png" width="70%">|
 |:-:|:-:|
@@ -167,7 +167,7 @@ Take the Arduino Plate assembly and mount it using screws B8 to the heat set ins
 
 ##6.7 Back Plate Attachment
 
-Attach the Laser Cut Back Plate S42 onto the back of the head assembly using screws B2.
+Attach the Laser Cut Back Plate **S42** onto the back of the head assembly using screws **B2**.
 
 | <img src="/images/head/step-8a.png" width="100%"> | <img src="/images/head/step-8b.png" width="100%">|
 |:-:|:-:|

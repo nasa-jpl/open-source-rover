@@ -147,9 +147,9 @@ Rectangular 40P 2x20 Ribbon Cable | E29 | 1 | <p align="center"> <img src="../im
  
 
  
-1. Connect the E26 cable from the J10 Connector on the Control Board to the J5 Connector on the Arduino Shield
-1. Connect the E30 16 Position ribbon cable from the J1 Connector to the INPUT Connector on the LED Matrix
-1. Connect the E48 TTL serial to USB cable from any USB port on the Raspberry Pi to the 6 Position headers at J8. The pinout should match the table below (see Figure 5):
+1. Connect the **E26** cable from the J10 Connector on the Control Board to the J5 Connector on the Arduino Shield
+1. Connect the **E30** 16 Position ribbon cable from the J1 Connector to the INPUT Connector on the LED Matrix
+1. Connect the **E48** TTL serial to USB cable from any USB port on the Raspberry Pi to the 6 Position headers at J8. The pinout should match the table below (see Figure 5):
 
 **Table 6. J8 Pins and Wire Colors**
 
