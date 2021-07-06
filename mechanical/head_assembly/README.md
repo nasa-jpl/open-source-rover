@@ -42,7 +42,7 @@ The head assembly serves as the head and face of our rover. It houses a 16x32 fu
 
 
 ## 3. 3D Printing
-There are a few components that need to be 3D printed to make the head assembly. You can find the STL files necessary for these prints in the ”Mechanical/Head Assembly/3D Printed Parts” folder of the repository.
+There are a few components that need to be 3D printed to make the head assembly. You can find the STL files necessary for these prints in the [mechanical/head_assembly/3d_printed_parts](3d_printed_parts) folder of the repository.
 
 | <img src="../../images/components/structural/S43.png" width="50%"> |
 | :--: |
