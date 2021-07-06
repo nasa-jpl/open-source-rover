@@ -165,7 +165,7 @@ Take the Arduino Plate assembly and mount it using screws **B8** to the heat set
 |:-:|:-:|
 | Figure 15 | Figure 16 |
 
-##6.7 Back Plate Attachment
+## 6.7 Back Plate Attachment
 
 Attach the Laser Cut Back Plate **S42** onto the back of the head assembly using screws **B2**.
 
