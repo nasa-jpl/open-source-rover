@@ -62,8 +62,6 @@ As you perform the calibration and testing outlined in this document, make sure 
 			
 * Max Main Battery: 17.5V 
 * Min Main Battery: 11.5V
-* Max Logic Battery: 5.5V 
-* Min Logic Battery: 4.5V
 
 (d) Motors:
 
@@ -74,7 +72,7 @@ As you perform the calibration and testing outlined in this document, make sure 
 * Encoder 1 Mode: Quadrature for addresses 128,129,130; Absolute for addresses 131 and 132
 * Encoder 2 Mode: Quadrature for addresses 128,129,130; Absolute for addresses 131 and 132
 
-**1.1.7 After changing these settings, make sure to save them! (Device − > Save Settings )**
+**1.1.7 After changing these settings, make sure to save them! (Device − > Write Settings )**
 
 
 
