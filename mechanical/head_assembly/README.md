@@ -31,6 +31,7 @@ The head assembly serves as the head and face of our rover. It houses a 16x32 fu
   * Drill press or Hand Drill
   * Allen Key set
   * Imperial Wrench Set
+  * Soldering Iron
 
 ### 2.2.2 Optional
 
