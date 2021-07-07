@@ -45,7 +45,7 @@ The body is the housing of all the electronics for the rover. It is the attachme
 
 ### 3.1 9x12 Aluminum Plate Drilling
 
-**Note: ServoCity has discontinued the 12x9 aluminum plates. Designs for replacment plates are avialble in the *[laser\_cut\_parts](laser_cut_parts/)* directory. If you need to use the laser cut parts, read the information found in [laser cut parts/README.md](laser_cut_parts/README.md) and then skip to section 3.2 of this document. The laser cut replacments have the necessary holes.**
+**Note: ServoCity has discontinued the 12x9 aluminum plates. Designs for replacement plates are available in the *[laser\_cut\_parts](laser_cut_parts/)* directory. If you need to use the laser cut parts, read the information found in [laser cut parts/README.md](laser_cut_parts/README.md) and then skip to section 3.2 of this document. The laser cut replacements have the necessary holes.**
 
 | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: |
@@ -99,7 +99,7 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 |:-:|
 | Figure 3: Attach the side panels |
 
-#### 4.1.3 Assmble the PVC clamping hub
+#### 4.1.3 Assemble the PVC clamping hub
 
 * Insert the #6-32 Heat Set Inserts **I2** into the 3D-printed clamping hub **S50** in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 4. 
 * Using washers **W1**, insert screws **B4** into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the PVC pipe later.

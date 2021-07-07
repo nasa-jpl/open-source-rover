@@ -19,7 +19,7 @@ In here currently are just the gerber files necessary to order the boards in the
 To order these boards we suggest that you order from [JLCPCB](https://jlcpcb.com/), this PCB fabrication company is quite inexpensive for this board size and has good turnaround time. Upload the .zip files individually and make sure the following settings are set:
 
   * Layers - 2
-  * Dimension - 53 x 69 mm (arduino sheild) & 175 x 154 mm (roboclaw breakout) 
+  * Dimension - 53 x 69 mm (arduino shield) & 175 x 154 mm (roboclaw breakout) 
   * PCB Qty - 10
   * PCB Thickness - 1.6 mm
   * PCB Color - Whatever color you want
