@@ -27,10 +27,6 @@ F 3 "" H 1950 3400 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 1600 1400 1750
-Wire Wire Line
-	1400 1750 1600 1750
-Wire Wire Line
 	2600 1750 2600 2550
 Text Label 1350 1900 0    30   ~ 0
 RC1EN1A
@@ -71,10 +67,6 @@ F 3 "" H 3300 3400 30  0001 C CNN
 	1    3050 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 1600 2750 1750
-Wire Wire Line
-	2750 1750 2950 1750
 Wire Wire Line
 	3950 1750 3950 2550
 Text Label 1800 3450 0    30   ~ 0
@@ -119,10 +111,6 @@ Wire Wire Line
 	2700 1900 2950 1900
 Wire Wire Line
 	2700 1950 2950 1950
-Wire Wire Line
-	1850 3150 1850 3300
-Wire Wire Line
-	1850 3300 2050 3300
 Wire Wire Line
 	3050 3300 3050 4100
 Wire Wire Line
@@ -787,250 +775,6 @@ Wire Wire Line
 Text Label 9150 3650 0    30   ~ 0
 RC3EN2B
 $Comp
-L JPL_Robotics_Lib:LM358-N U?
-U 1 1 60B752F6
-P 13600 7050
-AR Path="/60B752F6" Ref="U?"  Part="1" 
-AR Path="/60A51BAC/60B752F6" Ref="U1"  Part="1" 
-F 0 "U1" H 13775 7618 30  0000 C CNN
-F 1 "LM358-N" H 13775 7558 30  0000 C CNN
-F 2 "JPL Robotics:AE9986-ND" H 13600 7050 30  0001 C CNN
-F 3 "" H 13600 7050 30  0001 C CNN
-	1    13600 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60B75302
-P 13150 6750
-AR Path="/60B75302" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/60B75302" Ref="R3"  Part="1" 
-F 0 "R3" H 13209 6796 50  0000 L CNN
-F 1 "22K" H 13209 6705 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 13150 6750 50  0001 C CNN
-F 3 "~" H 13150 6750 50  0001 C CNN
-	1    13150 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60B75308
-P 13150 7150
-AR Path="/60B75308" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/60B75308" Ref="R4"  Part="1" 
-F 0 "R4" H 13209 7196 50  0000 L CNN
-F 1 "10K" H 13209 7105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 13150 7150 50  0001 C CNN
-F 3 "~" H 13150 7150 50  0001 C CNN
-	1    13150 7150
-	1    0    0    -1  
-$EndComp
-Text Label 12800 6550 0    30   ~ 0
-RC4EN1A_RAW
-Wire Wire Line
-	12800 6550 13150 6550
-Wire Wire Line
-	13150 7250 13150 7300
-Wire Wire Line
-	13150 7300 13400 7300
-Wire Wire Line
-	13500 6650 13400 6650
-Wire Wire Line
-	13400 6650 13400 6750
-Wire Wire Line
-	13400 6750 13500 6750
-Wire Wire Line
-	13150 6850 13150 6900
-Wire Wire Line
-	13500 6900 13150 6900
-Connection ~ 13150 6900
-Wire Wire Line
-	13500 7000 13400 7000
-Wire Wire Line
-	13150 6550 13150 6650
-$Comp
-L Device:R_Small R?
-U 1 1 60B7531A
-P 14400 6850
-AR Path="/60B7531A" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/60B7531A" Ref="R7"  Part="1" 
-F 0 "R7" H 14459 6896 50  0000 L CNN
-F 1 "22K" H 14459 6805 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 14400 6850 50  0001 C CNN
-F 3 "~" H 14400 6850 50  0001 C CNN
-	1    14400 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60B75320
-P 14400 7150
-AR Path="/60B75320" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/60B75320" Ref="R8"  Part="1" 
-F 0 "R8" H 14459 7196 50  0000 L CNN
-F 1 "10K" H 14459 7105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 14400 7150 50  0001 C CNN
-F 3 "~" H 14400 7150 50  0001 C CNN
-	1    14400 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14400 6950 14400 7000
-Connection ~ 14400 7000
-Wire Wire Line
-	14400 7000 14400 7050
-Text Label 14400 6550 0    30   ~ 0
-RC4EN2A_RAW
-Wire Wire Line
-	14400 6550 14400 6750
-Wire Wire Line
-	14400 7250 14400 7300
-Connection ~ 13400 7300
-Wire Wire Line
-	13400 7000 13400 7300
-Wire Wire Line
-	13150 6900 13150 7000
-Wire Wire Line
-	13800 7350 13800 7300
-Wire Wire Line
-	13800 7300 13400 7300
-Wire Wire Line
-	14050 6750 14200 6750
-Wire Wire Line
-	14200 6750 14200 6900
-Wire Wire Line
-	14200 6900 14050 6900
-Text Label 13400 6500 0    30   ~ 0
-RC4EN1A
-Wire Wire Line
-	13400 6650 13400 6550
-Connection ~ 13400 6650
-Text Label 14050 6750 0    30   ~ 0
-RC4EN2A
-$Comp
-L JPL_Robotics_Lib:LM358-N U?
-U 1 1 60B7533E
-P 13600 8450
-AR Path="/60B7533E" Ref="U?"  Part="1" 
-AR Path="/60A51BAC/60B7533E" Ref="U2"  Part="1" 
-F 0 "U2" H 13775 9018 30  0000 C CNN
-F 1 "LM358-N" H 13775 8958 30  0000 C CNN
-F 2 "JPL Robotics:AE9986-ND" H 13600 8450 30  0001 C CNN
-F 3 "" H 13600 8450 30  0001 C CNN
-	1    13600 8450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14200 8050 14100 8050
-$Comp
-L Device:R_Small R?
-U 1 1 60B75345
-P 13150 8150
-AR Path="/60B75345" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/60B75345" Ref="R5"  Part="1" 
-F 0 "R5" H 13209 8196 50  0000 L CNN
-F 1 "22K" H 13209 8105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 13150 8150 50  0001 C CNN
-F 3 "~" H 13150 8150 50  0001 C CNN
-	1    13150 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60B7534B
-P 13150 8550
-AR Path="/60B7534B" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/60B7534B" Ref="R6"  Part="1" 
-F 0 "R6" H 13209 8596 50  0000 L CNN
-F 1 "10K" H 13209 8505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 13150 8550 50  0001 C CNN
-F 3 "~" H 13150 8550 50  0001 C CNN
-	1    13150 8550
-	1    0    0    -1  
-$EndComp
-Text Label 12800 7950 0    30   ~ 0
-RC5EN1A_RAW
-Wire Wire Line
-	12800 7950 13150 7950
-Wire Wire Line
-	13150 8650 13150 8700
-Wire Wire Line
-	13150 8700 13400 8700
-Wire Wire Line
-	13500 8050 13400 8050
-Wire Wire Line
-	13400 8050 13400 8150
-Wire Wire Line
-	13400 8150 13500 8150
-Wire Wire Line
-	13150 8250 13150 8300
-Wire Wire Line
-	13500 8300 13150 8300
-Connection ~ 13150 8300
-Wire Wire Line
-	13500 8400 13400 8400
-Wire Wire Line
-	13150 7950 13150 8050
-$Comp
-L Device:R_Small R?
-U 1 1 60B7535D
-P 14400 8250
-AR Path="/60B7535D" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/60B7535D" Ref="R9"  Part="1" 
-F 0 "R9" H 14459 8296 50  0000 L CNN
-F 1 "22K" H 14459 8205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 14400 8250 50  0001 C CNN
-F 3 "~" H 14400 8250 50  0001 C CNN
-	1    14400 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60B75363
-P 14400 8550
-AR Path="/60B75363" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/60B75363" Ref="R10"  Part="1" 
-F 0 "R10" H 14459 8596 50  0000 L CNN
-F 1 "10K" H 14459 8505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 14400 8550 50  0001 C CNN
-F 3 "~" H 14400 8550 50  0001 C CNN
-	1    14400 8550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14400 8350 14400 8400
-Connection ~ 14400 8400
-Wire Wire Line
-	14400 8400 14400 8450
-Text Label 14400 7950 0    30   ~ 0
-RC5EN2A_RAW
-Wire Wire Line
-	14400 7950 14400 8150
-Wire Wire Line
-	14400 8650 14400 8700
-Connection ~ 13400 8700
-Wire Wire Line
-	13400 8400 13400 8700
-Wire Wire Line
-	13150 8300 13150 8400
-Wire Wire Line
-	13800 8750 13800 8700
-Wire Wire Line
-	13800 8700 13400 8700
-Wire Wire Line
-	14050 8150 14200 8150
-Wire Wire Line
-	14200 8150 14200 8300
-Wire Wire Line
-	14200 8300 14050 8300
-Text Label 13400 7900 0    30   ~ 0
-RC5EN1A
-Wire Wire Line
-	13400 8050 13400 8000
-Connection ~ 13400 8050
-Text Label 14050 8150 0    30   ~ 0
-RC5EN2A
-$Comp
 L JPL_Robotics_Lib:XT60-F J?
 U 1 1 60B75381
 P 1700 6000
@@ -1136,32 +880,6 @@ F 3 "" H 2450 6700 50  0001 C CNN
 	1    2500 6750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753C7
-P 13150 6400
-AR Path="/60B753C7" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753C7" Ref="T9"  Part="1" 
-F 0 "T9" V 13200 6350 50  0000 L CNN
-F 1 "test_point" H 13300 6650 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 13100 6350 50  0001 C CNN
-F 3 "" H 13100 6350 50  0001 C CNN
-	1    13150 6400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753CD
-P 13350 6400
-AR Path="/60B753CD" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753CD" Ref="T11"  Part="1" 
-F 0 "T11" V 13400 6350 50  0000 L CNN
-F 1 "test_point" H 13500 6650 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 13300 6350 50  0001 C CNN
-F 3 "" H 13300 6350 50  0001 C CNN
-	1    13350 6400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	11050 4300 11050 4400
 Wire Wire Line
@@ -1169,228 +887,6 @@ Wire Wire Line
 Connection ~ 11050 4400
 Wire Wire Line
 	11050 4400 11050 4600
-Wire Wire Line
-	13350 6550 13400 6550
-Connection ~ 13400 6550
-Wire Wire Line
-	13400 6550 13400 6500
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753DB
-P 14750 6400
-AR Path="/60B753DB" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753DB" Ref="T20"  Part="1" 
-F 0 "T20" V 14800 6350 50  0000 L CNN
-F 1 "test_point" H 14900 6650 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14700 6350 50  0001 C CNN
-F 3 "" H 14700 6350 50  0001 C CNN
-	1    14750 6400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14400 6550 14750 6550
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753E4
-P 12950 6750
-AR Path="/60B753E4" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753E4" Ref="T7"  Part="1" 
-F 0 "T7" V 13000 6700 50  0000 L CNN
-F 1 "test_point" H 13100 7000 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 12900 6700 50  0001 C CNN
-F 3 "" H 12900 6700 50  0001 C CNN
-	1    12950 6750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753EA
-P 14700 6800
-AR Path="/60B753EA" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753EA" Ref="T18"  Part="1" 
-F 0 "T18" V 14750 6750 50  0000 L CNN
-F 1 "test_point" H 14850 7050 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14650 6750 50  0001 C CNN
-F 3 "" H 14650 6750 50  0001 C CNN
-	1    14700 6800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14700 7000 14400 7000
-Wire Wire Line
-	13150 6900 12950 6900
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753F2
-P 14150 7100
-AR Path="/60B753F2" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753F2" Ref="T14"  Part="1" 
-F 0 "T14" V 14200 7050 50  0000 L CNN
-F 1 "test_point" H 14300 7350 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14100 7050 50  0001 C CNN
-F 3 "" H 14100 7050 50  0001 C CNN
-	1    14150 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753F8
-P 14300 6700
-AR Path="/60B753F8" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753F8" Ref="T16"  Part="1" 
-F 0 "T16" V 14350 6650 50  0000 L CNN
-F 1 "test_point" H 14450 6950 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14250 6650 50  0001 C CNN
-F 3 "" H 14250 6650 50  0001 C CNN
-	1    14300 6700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14200 6900 14300 6900
-Wire Wire Line
-	14300 6900 14300 6850
-Connection ~ 14200 6900
-Connection ~ 13800 7300
-Wire Wire Line
-	14050 7000 14400 7000
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B75403
-P 13150 7800
-AR Path="/60B75403" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B75403" Ref="T10"  Part="1" 
-F 0 "T10" V 13200 7750 50  0000 L CNN
-F 1 "test_point" H 13300 8050 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 13100 7750 50  0001 C CNN
-F 3 "" H 13100 7750 50  0001 C CNN
-	1    13150 7800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14050 8400 14400 8400
-Wire Wire Line
-	13800 8700 14150 8700
-Connection ~ 13800 8700
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B7540C
-P 13350 7850
-AR Path="/60B7540C" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B7540C" Ref="T12"  Part="1" 
-F 0 "T12" V 13400 7800 50  0000 L CNN
-F 1 "test_point" H 13500 8100 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 13300 7800 50  0001 C CNN
-F 3 "" H 13300 7800 50  0001 C CNN
-	1    13350 7850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B75412
-P 14100 7850
-AR Path="/60B75412" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B75412" Ref="T13"  Part="1" 
-F 0 "T13" V 14150 7800 50  0000 L CNN
-F 1 "test_point" H 14250 8100 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14050 7800 50  0001 C CNN
-F 3 "" H 14050 7800 50  0001 C CNN
-	1    14100 7850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B75418
-P 14750 7800
-AR Path="/60B75418" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B75418" Ref="T21"  Part="1" 
-F 0 "T21" V 14800 7750 50  0000 L CNN
-F 1 "test_point" H 14900 8050 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14700 7750 50  0001 C CNN
-F 3 "" H 14700 7750 50  0001 C CNN
-	1    14750 7800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14400 7950 14750 7950
-Wire Wire Line
-	14400 7950 14400 7900
-Connection ~ 14400 7950
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B75421
-P 14700 8250
-AR Path="/60B75421" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B75421" Ref="T19"  Part="1" 
-F 0 "T19" V 14750 8200 50  0000 L CNN
-F 1 "test_point" H 14850 8500 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14650 8200 50  0001 C CNN
-F 3 "" H 14650 8200 50  0001 C CNN
-	1    14700 8250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B75427
-P 12950 8150
-AR Path="/60B75427" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B75427" Ref="T8"  Part="1" 
-F 0 "T8" V 13000 8100 50  0000 L CNN
-F 1 "test_point" H 13100 8400 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 12900 8100 50  0001 C CNN
-F 3 "" H 12900 8100 50  0001 C CNN
-	1    12950 8150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12950 8300 13150 8300
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B7542E
-P 14300 8100
-AR Path="/60B7542E" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B7542E" Ref="T17"  Part="1" 
-F 0 "T17" V 14350 8050 50  0000 L CNN
-F 1 "test_point" H 14450 8350 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14250 8050 50  0001 C CNN
-F 3 "" H 14250 8050 50  0001 C CNN
-	1    14300 8100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	14200 8300 14300 8300
-Wire Wire Line
-	14300 8300 14300 8250
-Connection ~ 14200 8300
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B75437
-P 14150 8500
-AR Path="/60B75437" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B75437" Ref="T15"  Part="1" 
-F 0 "T15" V 14200 8450 50  0000 L CNN
-F 1 "test_point" H 14300 8750 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14100 8450 50  0001 C CNN
-F 3 "" H 14100 8450 50  0001 C CNN
-	1    14150 8500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13400 8000 13350 8000
-Connection ~ 13400 8000
-Wire Wire Line
-	13400 8000 13400 7900
-Wire Wire Line
-	14150 8650 14150 8700
-Connection ~ 14150 8700
-Wire Wire Line
-	14150 8700 14400 8700
-Wire Wire Line
-	14700 6950 14700 7000
-Wire Wire Line
-	14100 8000 14100 8050
-Connection ~ 14100 8050
-Wire Wire Line
-	14100 8050 14050 8050
 Wire Wire Line
 	2500 7300 2500 7450
 Wire Wire Line
@@ -1419,79 +915,6 @@ F 3 "~" H 2750 7700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2750 7850 2750 8100
-$Comp
-L Device:C_Small C?
-U 1 1 60B75461
-P 11650 7300
-AR Path="/60B75461" Ref="C?"  Part="1" 
-AR Path="/60A51BAC/60B75461" Ref="C16"  Part="1" 
-F 0 "C16" H 11742 7346 50  0000 L CNN
-F 1 "100nf" H 11742 7255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 11650 7300 50  0001 C CNN
-F 3 "~" H 11650 7300 50  0001 C CNN
-	1    11650 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11850 7500 11850 7700
-Wire Wire Line
-	14200 7750 14200 8050
-Wire Wire Line
-	14200 6350 14200 6650
-$Comp
-L Device:C_Small C?
-U 1 1 60B7546A
-P 12900 7150
-AR Path="/60B7546A" Ref="C?"  Part="1" 
-AR Path="/60A51BAC/60B7546A" Ref="C12"  Part="1" 
-F 0 "C12" V 13000 7150 50  0000 C CNN
-F 1 "100nF" V 12800 7150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12900 7150 50  0001 C CNN
-F 3 "~" H 12900 7150 50  0001 C CNN
-	1    12900 7150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60B75470
-P 14800 7150
-AR Path="/60B75470" Ref="C?"  Part="1" 
-AR Path="/60A51BAC/60B75470" Ref="C14"  Part="1" 
-F 0 "C14" V 14900 7150 50  0000 C CNN
-F 1 "100nF" V 14700 7150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 14800 7150 50  0001 C CNN
-F 3 "~" H 14800 7150 50  0001 C CNN
-	1    14800 7150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60B75476
-P 14800 8550
-AR Path="/60B75476" Ref="C?"  Part="1" 
-AR Path="/60A51BAC/60B75476" Ref="C15"  Part="1" 
-F 0 "C15" V 14900 8550 50  0000 C CNN
-F 1 "100nF" V 14700 8550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 14800 8550 50  0001 C CNN
-F 3 "~" H 14800 8550 50  0001 C CNN
-	1    14800 8550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60B7547C
-P 12900 8550
-AR Path="/60B7547C" Ref="C?"  Part="1" 
-AR Path="/60A51BAC/60B7547C" Ref="C13"  Part="1" 
-F 0 "C13" V 13000 8550 50  0000 C CNN
-F 1 "100nF" V 12800 8550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12900 8550 50  0001 C CNN
-F 3 "~" H 12900 8550 50  0001 C CNN
-	1    12900 8550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14050 6650 14200 6650
 $Comp
 L JPL_Robotics_Lib:S7038-ND_regulator_D24V22F12 J?
 U 1 1 60B75483
@@ -1565,84 +988,10 @@ Wire Wire Line
 Wire Wire Line
 	12100 4550 12250 4550
 Connection ~ 12100 4550
-Text Notes 13250 5900 0    98   ~ 0
-Voltage Divider
 Text Notes 10900 3700 0    98   ~ 0
 Voltage Regulators
 Text Notes 2200 5350 0    98   ~ 0
 Power Distribution
-Wire Wire Line
-	13150 7000 12900 7000
-Wire Wire Line
-	12900 7000 12900 7050
-Connection ~ 13150 7000
-Wire Wire Line
-	13150 7000 13150 7050
-Wire Wire Line
-	12900 7250 12900 7300
-Wire Wire Line
-	12900 7300 13150 7300
-Connection ~ 13150 7300
-Wire Wire Line
-	14700 7000 14800 7000
-Wire Wire Line
-	14800 7000 14800 7050
-Connection ~ 14700 7000
-Wire Wire Line
-	14800 7250 14800 7300
-Wire Wire Line
-	14800 7300 14400 7300
-Connection ~ 14400 7300
-Wire Wire Line
-	13150 8400 12900 8400
-Wire Wire Line
-	12900 8400 12900 8450
-Connection ~ 13150 8400
-Wire Wire Line
-	13150 8400 13150 8450
-Wire Wire Line
-	12900 8650 12900 8700
-Wire Wire Line
-	12900 8700 13150 8700
-Connection ~ 13150 8700
-Wire Wire Line
-	14800 8400 14800 8450
-Wire Wire Line
-	14800 8650 14800 8700
-Wire Wire Line
-	14800 8700 14400 8700
-Connection ~ 14400 8700
-$Comp
-L Device:C_Small C?
-U 1 1 60B754DF
-P 12050 7300
-AR Path="/60B754DF" Ref="C?"  Part="1" 
-AR Path="/60A51BAC/60B754DF" Ref="C17"  Part="1" 
-F 0 "C17" H 12142 7346 50  0000 L CNN
-F 1 "100nf" H 12142 7255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12050 7300 50  0001 C CNN
-F 3 "~" H 12050 7300 50  0001 C CNN
-	1    12050 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12050 7400 12050 7500
-Wire Wire Line
-	12050 7500 11850 7500
-Wire Wire Line
-	11650 7400 11650 7500
-Wire Wire Line
-	11650 7500 11850 7500
-Connection ~ 11850 7500
-Wire Wire Line
-	11650 7200 11650 7150
-Wire Wire Line
-	11650 7150 11850 7150
-Wire Wire Line
-	12050 7200 12050 7150
-Wire Wire Line
-	12050 7150 11850 7150
-Connection ~ 11850 7150
 $Comp
 L JPL_Robotics_Lib:ED2989-ND-USB J?
 U 1 1 60B754FB
@@ -1675,14 +1024,6 @@ F 3 "" H 2100 8800 50  0001 C CNN
 	1    2100 8800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11850 7000 11850 7150
-Wire Notes Line style solid rgb(0, 0, 0)
-	15600 9350 15600 5450
-Wire Notes Line style solid rgb(0, 0, 0)
-	15600 5450 11350 5450
-Wire Notes Line style solid rgb(0, 0, 0)
-	11350 5450 11350 9350
 Wire Notes Line style solid rgb(0, 0, 0)
 	10300 3450 12750 3450
 Wire Notes Line
@@ -1694,17 +1035,10 @@ Wire Notes Line style solid rgb(0, 0, 0)
 Wire Notes Line style solid rgb(0, 0, 0)
 	1000 9350 4900 9350
 Wire Wire Line
-	13800 7300 14150 7300
-Wire Wire Line
-	14400 8400 14700 8400
-Wire Wire Line
 	4050 6850 4050 6900
 Connection ~ 4050 6900
 Wire Wire Line
 	4050 6900 4150 6900
-Connection ~ 14700 8400
-Wire Wire Line
-	14700 8400 14800 8400
 Connection ~ 2500 6900
 Text Label 4000 8100 0    50   ~ 0
 +BATT
@@ -1834,8 +1168,6 @@ Text Label 2400 6450 0    30   ~ 0
 MMDC+
 Text Label 2850 7450 0    30   ~ 0
 SWIN
-Text Notes 13350 6100 0    39   ~ 0
-note: opamps are used to \nbuffer raw encoder signals
 NoConn ~ 1400 8700
 NoConn ~ 1400 8750
 $Comp
@@ -1858,11 +1190,6 @@ Wire Wire Line
 	11850 4200 11850 4600
 NoConn ~ 11650 4600
 NoConn ~ 11700 4600
-Wire Wire Line
-	14150 7250 14150 7300
-Connection ~ 14150 7300
-Wire Wire Line
-	14150 7300 14400 7300
 NoConn ~ 10850 4600
 $Comp
 L power:PWR_FLAG #FLG?
@@ -1896,8 +1223,6 @@ $EndComp
 Wire Wire Line
 	4350 6900 4600 6900
 Connection ~ 4350 6900
-Connection ~ 13150 6550
-Connection ~ 13150 7950
 Wire Wire Line
 	14600 2550 14800 2550
 Wire Wire Line
@@ -2008,39 +1333,6 @@ F 1 "rover_silkscreen" H 1278 10780 50  0000 L CNN
 F 2 "JPL Robotics:rover_image" H 950 10850 50  0001 C CNN
 F 3 "" H 950 10850 50  0001 C CNN
 	1    1100 10750
-	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:+5V_motor #PWR0101
-U 1 1 60B12E2F
-P 1400 1600
-F 0 "#PWR0101" H 1400 1450 50  0001 C CNN
-F 1 "+5V_motor" H 1415 1773 50  0000 C CNN
-F 2 "" H 1400 1600 50  0001 C CNN
-F 3 "" H 1400 1600 50  0001 C CNN
-	1    1400 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:+5V_motor #PWR0102
-U 1 1 60C0F469
-P 2750 1600
-F 0 "#PWR0102" H 2750 1450 50  0001 C CNN
-F 1 "+5V_motor" H 2765 1773 50  0000 C CNN
-F 2 "" H 2750 1600 50  0001 C CNN
-F 3 "" H 2750 1600 50  0001 C CNN
-	1    2750 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:+5V_motor #PWR0104
-U 1 1 60C63015
-P 1850 3150
-F 0 "#PWR0104" H 1850 3000 50  0001 C CNN
-F 1 "+5V_motor" H 1865 3323 50  0000 C CNN
-F 2 "" H 1850 3150 50  0001 C CNN
-F 3 "" H 1850 3150 50  0001 C CNN
-	1    1850 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2332,74 +1624,6 @@ F 3 "" H 11850 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JPL_Robotics_Lib:+5V_motor #PWR0135
-U 1 1 615EE366
-P 11850 7000
-F 0 "#PWR0135" H 11850 6850 50  0001 C CNN
-F 1 "+5V_motor" H 11865 7173 50  0000 C CNN
-F 2 "" H 11850 7000 50  0001 C CNN
-F 3 "" H 11850 7000 50  0001 C CNN
-	1    11850 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:+5V_motor #PWR0136
-U 1 1 6166B49E
-P 14200 6350
-F 0 "#PWR0136" H 14200 6200 50  0001 C CNN
-F 1 "+5V_motor" H 14215 6523 50  0000 C CNN
-F 2 "" H 14200 6350 50  0001 C CNN
-F 3 "" H 14200 6350 50  0001 C CNN
-	1    14200 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:+5V_motor #PWR0137
-U 1 1 61694F1B
-P 14200 7750
-F 0 "#PWR0137" H 14200 7600 50  0001 C CNN
-F 1 "+5V_motor" H 14215 7923 50  0000 C CNN
-F 2 "" H 14200 7750 50  0001 C CNN
-F 3 "" H 14200 7750 50  0001 C CNN
-	1    14200 7750
-	1    0    0    -1  
-$EndComp
-Wire Notes Line style solid rgb(0, 0, 0)
-	11350 9350 15600 9350
-$Comp
-L JPL_Robotics_Lib:GND_motor #PWR0138
-U 1 1 61765D64
-P 11850 7700
-F 0 "#PWR0138" H 11850 7450 50  0001 C CNN
-F 1 "GND_motor" H 11855 7527 50  0000 C CNN
-F 2 "" H 11850 7700 50  0001 C CNN
-F 3 "" H 11850 7700 50  0001 C CNN
-	1    11850 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:GND_motor #PWR0139
-U 1 1 6178F6D3
-P 13800 7350
-F 0 "#PWR0139" H 13800 7100 50  0001 C CNN
-F 1 "GND_motor" H 13805 7177 50  0000 C CNN
-F 2 "" H 13800 7350 50  0001 C CNN
-F 3 "" H 13800 7350 50  0001 C CNN
-	1    13800 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:GND_motor #PWR0140
-U 1 1 617B913C
-P 13800 8750
-F 0 "#PWR0140" H 13800 8500 50  0001 C CNN
-F 1 "GND_motor" H 13805 8577 50  0000 C CNN
-F 2 "" H 13800 8750 50  0001 C CNN
-F 3 "" H 13800 8750 50  0001 C CNN
-	1    13800 8750
-	1    0    0    -1  
-$EndComp
-$Comp
 L JPL_Robotics_Lib:GND_motor #PWR0141
 U 1 1 6180C6BB
 P 13850 2650
@@ -2681,8 +1905,6 @@ $EndComp
 Wire Wire Line
 	12000 2650 12000 2700
 Connection ~ 12000 2650
-Text Notes 11600 6100 0    31   ~ 0
-Todo: all this voltage divider stuff goes away, right?
 Wire Notes Line
 	1000 950  4800 950 
 Wire Notes Line
@@ -3060,4 +2282,7 @@ Text Notes 3500 3200 0    31   ~ 0
 Todo: do we want to connect S5 on the roboclaws to E_STOP2 as well?\n
 Text Notes 3350 3350 0    31   ~ 0
 Todo: do we Need pull-up resistors for S4 (and S5)?\n
+NoConn ~ 1600 1750
+NoConn ~ 2950 1750
+NoConn ~ 2050 3300
 $EndSCHEMATC
