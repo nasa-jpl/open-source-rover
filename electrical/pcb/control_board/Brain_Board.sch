@@ -352,7 +352,6 @@ F 3 "" H 7500 2300 50  0001 C CNN
 	1    7200 2300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7450 2950
 NoConn ~ 7450 3050
 NoConn ~ 7450 3150
 NoConn ~ 7450 3250
@@ -422,7 +421,6 @@ Text Label 6750 2550 0    50   ~ 0
 GND
 Text Label 7500 2450 0    50   ~ 0
 +12V
-NoConn ~ 7450 2550
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6195B322
@@ -519,12 +517,6 @@ Text Label 6600 4300 0    50   ~ 0
 E_STOP2
 Text Label 6600 4400 0    50   ~ 0
 GND
-Wire Notes Line
-	6000 3700 6000 4550
-Wire Notes Line
-	6000 4550 8450 4550
-Wire Notes Line
-	8450 4550 8450 3700
 Wire Wire Line
 	3800 2450 3650 2450
 Text Label 3650 2450 0    30   ~ 0
@@ -565,4 +557,62 @@ Text Notes 5100 3750 0    31   ~ 0
 Todo: certain we don't want\n to connect E_STOP on j7?
 Text Notes 2750 3850 0    31   ~ 0
 todo: Is GPIO_GEN0 good to use for\n ina260 alert signal?
+$Comp
+L JPL_Robotics_Lib:PPTC021LFBN-RC J45
+U 1 1 60ED1AE6
+P 7200 4600
+F 0 "J45" H 7228 4451 50  0000 L CNN
+F 1 "PPTC021LFBN-RC" H 7228 4360 50  0000 L CNN
+F 2 "JPL Robotics:PPTC021LFBN-RC" H 7500 4600 50  0001 C CNN
+F 3 "" H 7500 4600 50  0001 C CNN
+	1    7200 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2550 7800 2550
+Text Label 7800 2550 2    50   ~ 0
+E_STOP3
+Wire Wire Line
+	6600 4850 6950 4850
+Wire Wire Line
+	6600 4750 6950 4750
+Text Label 6600 4750 0    50   ~ 0
+E_STOP3
+Text Label 6600 4850 0    50   ~ 0
+GND
+Text Notes 6750 4200 0    50   ~ 0
+Roboclaw S4 Breakout
+Text Notes 6750 4650 0    50   ~ 0
+Roboclaw S5 Breakout
+Wire Wire Line
+	7450 2950 7800 2950
+Text Label 7800 2950 2    50   ~ 0
+OE_servos
+$Comp
+L JPL_Robotics_Lib:PPTC021LFBN-RC J46
+U 1 1 6103131A
+P 7200 5000
+F 0 "J46" H 7228 4851 50  0000 L CNN
+F 1 "PPTC021LFBN-RC" H 7228 4760 50  0000 L CNN
+F 2 "JPL Robotics:PPTC021LFBN-RC" H 7500 5000 50  0001 C CNN
+F 3 "" H 7500 5000 50  0001 C CNN
+	1    7200 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5250 6950 5250
+Wire Wire Line
+	6600 5150 6950 5150
+Text Label 6600 5150 0    50   ~ 0
+OE_servos
+Text Label 6600 5250 0    50   ~ 0
+GND
+Text Notes 6500 5050 0    50   ~ 0
+Corner Servo Output Enable Breakout
+Wire Notes Line
+	6000 3700 6000 5500
+Wire Notes Line
+	6000 5500 8450 5500
+Wire Notes Line
+	8450 5500 8450 3700
 $EndSCHEMATC
