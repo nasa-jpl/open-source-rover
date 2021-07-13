@@ -2382,10 +2382,10 @@ Wire Notes Line
 Text Notes 7650 8450 0    31   ~ 0
 Note: servo channels 4 to 15 currently left unconnected
 $Comp
-L JPL_Robotics_Lib:GND_motor #PWR?
+L JPL_Robotics_Lib:GND_motor #PWR048
 U 1 1 60FDA9F9
 P 14900 2750
-F 0 "#PWR?" H 14900 2500 50  0001 C CNN
+F 0 "#PWR048" H 14900 2500 50  0001 C CNN
 F 1 "GND_motor" V 14905 2419 50  0000 C CNN
 F 2 "" H 14900 2750 50  0001 C CNN
 F 3 "" H 14900 2750 50  0001 C CNN
@@ -2395,10 +2395,10 @@ $EndComp
 Wire Wire Line
 	14600 2750 14900 2750
 $Comp
-L JPL_Robotics_Lib:+5V_motor #PWR?
+L JPL_Robotics_Lib:+5V_motor #PWR049
 U 1 1 610774EE
 P 14950 2550
-F 0 "#PWR?" H 14950 2400 50  0001 C CNN
+F 0 "#PWR049" H 14950 2400 50  0001 C CNN
 F 1 "+5V_motor" V 14965 2882 50  0000 C CNN
 F 2 "" H 14950 2550 50  0001 C CNN
 F 3 "" H 14950 2550 50  0001 C CNN
@@ -2410,10 +2410,10 @@ Wire Wire Line
 Wire Wire Line
 	14950 2950 14600 2950
 $Comp
-L JPL_Robotics_Lib:+12V_motor #PWR?
+L JPL_Robotics_Lib:+12V_motor #PWR047
 U 1 1 6112A222
 P 13800 2950
-F 0 "#PWR?" H 13800 2800 50  0001 C CNN
+F 0 "#PWR047" H 13800 2800 50  0001 C CNN
 F 1 "+12V_motor" V 13815 3320 50  0000 C CNN
 F 2 "" H 13800 2950 50  0001 C CNN
 F 3 "" H 13800 2950 50  0001 C CNN
@@ -2437,4 +2437,58 @@ Wire Wire Line
 	14600 3350 14950 3350
 Text Label 14950 3350 2    50   ~ 0
 OEservos
+Wire Notes Line style solid rgb(0, 0, 0)
+	11650 5300 9250 5300
+Text Notes 9850 5550 0    98   ~ 0
+Test Pin Header
+Wire Notes Line
+	9250 5300 9250 6800
+Wire Notes Line
+	9250 6800 11650 6800
+Wire Notes Line
+	11650 6800 11650 5300
+Text Label 9850 6100 0    50   ~ 0
+TXD
+NoConn ~ 10300 6500
+Wire Wire Line
+	9850 6200 10300 6200
+Wire Wire Line
+	9850 6100 10300 6100
+Text Label 9850 6200 0    50   ~ 0
+RXD
+Wire Wire Line
+	9850 6400 10300 6400
+Wire Wire Line
+	9850 6300 10300 6300
+Wire Wire Line
+	9850 6000 10300 6000
+Wire Wire Line
+	9850 5900 10300 5900
+Wire Wire Line
+	9850 5800 10300 5800
+Text Label 9850 5900 0    50   ~ 0
++12V_motor
+Text Label 9850 5800 0    50   ~ 0
++5V_motor
+Text Label 9850 6400 0    50   ~ 0
+SDA_rpi
+Text Label 9850 6300 0    50   ~ 0
+SCL_rpi
+Text Label 9850 6000 0    50   ~ 0
+GND_motor
+$Comp
+L JPL_Robotics_Lib:PEC08SAAN J53
+U 1 1 6127184F
+P 10650 5650
+F 0 "J53" H 10578 5201 50  0000 L CNN
+F 1 "PEC08SAAN" H 10578 5110 50  0000 L CNN
+F 2 "" H 10700 5650 50  0001 C CNN
+F 3 "" H 10700 5650 50  0001 C CNN
+	1    10650 5650
+	1    0    0    -1  
+$EndComp
+Text Notes 9600 6700 0    31   ~ 0
+Note: header is female, to prevent accidental shorts
+NoConn ~ 14100 3050
+NoConn ~ 14600 3050
 $EndSCHEMATC

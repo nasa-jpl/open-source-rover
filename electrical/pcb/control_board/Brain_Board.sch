@@ -625,4 +625,9 @@ Wire Wire Line
 Connection ~ 7950 2700
 Text Notes 6100 3450 0    31   ~ 0
 Note: arranged these pins in a convenient way to make sure that if \nconnectors are connected with reverse polarity, there should be no fires
+NoConn ~ 6950 2800
+NoConn ~ 7450 2800
+NoConn ~ 6950 3000
+NoConn ~ 6950 3200
+NoConn ~ 7450 3200
 $EndSCHEMATC
