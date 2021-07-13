@@ -294,8 +294,6 @@ F 3 "" H 3950 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3800 2350
-NoConn ~ 3800 2500
-NoConn ~ 3800 2550
 NoConn ~ 3800 2850
 NoConn ~ 3800 2900
 NoConn ~ 3800 2950
@@ -311,8 +309,6 @@ NoConn ~ 4800 2700
 NoConn ~ 4800 2600
 NoConn ~ 4800 2450
 NoConn ~ 3850 3650
-NoConn ~ 3850 3800
-NoConn ~ 3850 3850
 NoConn ~ 3850 4150
 NoConn ~ 3850 4200
 NoConn ~ 3850 4250
@@ -331,35 +327,27 @@ Wire Notes Line style solid rgb(0, 0, 0)
 	6000 1400 8450 1400
 Text Notes 6350 1650 0    98   ~ 0
 Inter-Board Connection
-Text Label 6650 2650 0    50   ~ 0
+Text Label 6650 2400 0    50   ~ 0
 TXD
-Text Label 7800 2650 2    50   ~ 0
+Text Label 7800 2400 2    50   ~ 0
 RXD
-Text Label 6650 2750 0    50   ~ 0
+Text Label 6650 2900 0    50   ~ 0
 E_STOP
 Wire Wire Line
-	6650 2650 6950 2650
+	6650 2400 6950 2400
 Wire Wire Line
-	6650 2750 6950 2750
+	6650 2900 6950 2900
 $Comp
-L JPL_Robotics_Lib:PPTC102LFBN-RC J27
+L JPL_Robotics_Lib:PEC10DAAN J27
 U 1 1 60EE139B
-P 7200 2300
-F 0 "J27" H 7200 2375 50  0000 C CNN
-F 1 "PPTC102LFBN-RC" H 7200 2284 50  0000 C CNN
-F 2 "JPL Robotics:PPTC102LFBN-RC" H 7500 2300 50  0001 C CNN
-F 3 "" H 7500 2300 50  0001 C CNN
-	1    7200 2300
+P 7200 2150
+F 0 "J27" H 7200 2225 50  0000 C CNN
+F 1 "PEC10DAAN" H 7200 2134 50  0000 C CNN
+F 2 "JPL Robotics:PEC10DAAN" H 7500 2150 50  0001 C CNN
+F 3 "" H 7500 2150 50  0001 C CNN
+	1    7200 2150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7450 3050
-NoConn ~ 7450 3150
-NoConn ~ 7450 3250
-NoConn ~ 7450 3350
-NoConn ~ 6950 3050
-NoConn ~ 6950 3150
-NoConn ~ 6950 3250
-NoConn ~ 6950 3350
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR0144
 U 1 1 618E53AB
@@ -385,102 +373,75 @@ $EndComp
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR0146
 U 1 1 618ECDE5
-P 6300 2300
-F 0 "#PWR0146" H 6300 2150 50  0001 C CNN
-F 1 "+5V_brain" V 6200 2200 50  0000 L CNN
-F 2 "" H 6300 2300 50  0001 C CNN
-F 3 "" H 6300 2300 50  0001 C CNN
-	1    6300 2300
+P 6300 2150
+F 0 "#PWR0146" H 6300 2000 50  0001 C CNN
+F 1 "+5V_brain" V 6200 2050 50  0000 L CNN
+F 2 "" H 6300 2150 50  0001 C CNN
+F 3 "" H 6300 2150 50  0001 C CNN
+	1    6300 2150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L JPL_Robotics_Lib:GND_brain #PWR0147
 U 1 1 618EE99B
-P 6300 2700
-F 0 "#PWR0147" H 6300 2450 50  0001 C CNN
-F 1 "GND_brain" V 6200 2800 50  0000 R CNN
-F 2 "" H 6300 2700 50  0001 C CNN
-F 3 "" H 6300 2700 50  0001 C CNN
-	1    6300 2700
+P 6300 2650
+F 0 "#PWR0147" H 6300 2400 50  0001 C CNN
+F 1 "GND_brain" V 6200 2750 50  0000 R CNN
+F 2 "" H 6300 2650 50  0001 C CNN
+F 3 "" H 6300 2650 50  0001 C CNN
+	1    6300 2650
 	0    1    1    0   
 $EndComp
-$Comp
-L JPL_Robotics_Lib:+12V_brain #PWR0148
-U 1 1 618F0639
-P 7850 2450
-F 0 "#PWR0148" H 7850 2300 50  0001 C CNN
-F 1 "+12V_brain" V 7865 2578 50  0000 L CNN
-F 2 "" H 7850 2450 50  0001 C CNN
-F 3 "" H 7850 2450 50  0001 C CNN
-	1    7850 2450
-	0    1    1    0   
-$EndComp
-Text Label 6750 2450 0    50   ~ 0
+Text Label 6750 2300 0    50   ~ 0
 +5V
-Text Label 6750 2550 0    50   ~ 0
+Text Label 6750 2500 0    50   ~ 0
 GND
-Text Label 7500 2450 0    50   ~ 0
+Text Label 7600 2700 0    50   ~ 0
 +12V
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6195B322
-P 6350 2200
-F 0 "#FLG0101" H 6350 2275 50  0001 C CNN
-F 1 "PWR_FLAG" H 6350 2373 50  0000 C CNN
-F 2 "" H 6350 2200 50  0001 C CNN
-F 3 "~" H 6350 2200 50  0001 C CNN
-	1    6350 2200
+P 6350 2050
+F 0 "#FLG0101" H 6350 2125 50  0001 C CNN
+F 1 "PWR_FLAG" H 6350 2223 50  0000 C CNN
+F 2 "" H 6350 2050 50  0001 C CNN
+F 3 "~" H 6350 2050 50  0001 C CNN
+	1    6350 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 6195CC58
-P 6350 2800
-F 0 "#FLG0102" H 6350 2875 50  0001 C CNN
-F 1 "PWR_FLAG" H 6350 2973 50  0000 C CNN
-F 2 "" H 6350 2800 50  0001 C CNN
-F 3 "~" H 6350 2800 50  0001 C CNN
-	1    6350 2800
+P 6350 2750
+F 0 "#FLG0102" H 6350 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 6350 2923 50  0000 C CNN
+F 2 "" H 6350 2750 50  0001 C CNN
+F 3 "~" H 6350 2750 50  0001 C CNN
+	1    6350 2750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6450 2700 6350 2700
+	6450 2650 6350 2650
 Wire Wire Line
-	6450 2550 6950 2550
+	6450 2500 6950 2500
 Wire Wire Line
-	6350 2700 6350 2800
-Connection ~ 6350 2700
+	6350 2650 6350 2750
+Connection ~ 6350 2650
 Wire Wire Line
-	6350 2700 6300 2700
+	6350 2650 6300 2650
 Wire Wire Line
-	6450 2300 6350 2300
+	6450 2150 6350 2150
 Wire Wire Line
-	6450 2450 6950 2450
+	6450 2300 6950 2300
 Wire Wire Line
-	6350 2300 6350 2200
-Connection ~ 6350 2300
+	6350 2150 6350 2050
+Connection ~ 6350 2150
 Wire Wire Line
-	6350 2300 6300 2300
+	6350 2150 6300 2150
 Wire Wire Line
-	6450 2550 6450 2700
+	6450 2500 6450 2650
 Wire Wire Line
-	6450 2300 6450 2450
-Wire Wire Line
-	7450 2450 7850 2450
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 619765A5
-P 7850 2400
-F 0 "#FLG0103" H 7850 2475 50  0001 C CNN
-F 1 "PWR_FLAG" H 7850 2573 50  0000 C CNN
-F 2 "" H 7850 2400 50  0001 C CNN
-F 3 "~" H 7850 2400 50  0001 C CNN
-	1    7850 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 2400 7850 2450
-Connection ~ 7850 2450
+	6450 2150 6450 2300
 NoConn ~ 4850 3850
 Wire Notes Line
 	6000 1400 6000 3550
@@ -504,11 +465,11 @@ F 3 "" H 7500 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 2750 7800 2750
-Text Label 7800 2750 2    50   ~ 0
+	7450 2900 7800 2900
+Text Label 7800 2900 2    50   ~ 0
 E_STOP2
 Wire Wire Line
-	7450 2650 7800 2650
+	7450 2400 7800 2400
 Wire Wire Line
 	6600 4400 6950 4400
 Wire Wire Line
@@ -518,20 +479,20 @@ E_STOP2
 Text Label 6600 4400 0    50   ~ 0
 GND
 Wire Wire Line
-	3800 2450 3650 2450
-Text Label 3650 2450 0    30   ~ 0
+	3800 2500 3650 2500
+Text Label 3650 2500 0    30   ~ 0
 alert
 Wire Wire Line
-	6950 2950 6650 2950
-Text Label 6650 2950 0    50   ~ 0
+	6950 3100 6650 3100
+Text Label 6650 3100 0    50   ~ 0
 alert
 Wire Wire Line
-	6950 2850 6650 2850
-Text Label 6650 2850 0    50   ~ 0
+	6950 2600 6650 2600
+Text Label 6650 2600 0    50   ~ 0
 SCL_rpi
 Wire Wire Line
-	7450 2850 7800 2850
-Text Label 7800 2850 2    50   ~ 0
+	7450 2600 7800 2600
+Text Label 7800 2600 2    50   ~ 0
 SDA_rpi
 Wire Wire Line
 	3800 2250 3650 2250
@@ -550,13 +511,9 @@ SDA_rpi
 Text Label 3700 3600 0    30   ~ 0
 SCL_rpi
 Wire Wire Line
-	3850 3750 3700 3750
-Text Label 3700 3750 0    30   ~ 0
+	3850 3800 3700 3800
+Text Label 3700 3800 0    30   ~ 0
 alert
-Text Notes 5100 3750 0    31   ~ 0
-Todo: certain we don't want\n to connect E_STOP on j7?
-Text Notes 2750 3850 0    31   ~ 0
-todo: Is GPIO_GEN0 good to use for\n ina260 alert signal?
 $Comp
 L JPL_Robotics_Lib:PPTC021LFBN-RC J45
 U 1 1 60ED1AE6
@@ -569,8 +526,8 @@ F 3 "" H 7500 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 2550 7800 2550
-Text Label 7800 2550 2    50   ~ 0
+	7450 3000 7800 3000
+Text Label 7800 3000 2    50   ~ 0
 E_STOP3
 Wire Wire Line
 	6600 4850 6950 4850
@@ -585,9 +542,9 @@ Roboclaw S4 Breakout
 Text Notes 6750 4650 0    50   ~ 0
 Roboclaw S5 Breakout
 Wire Wire Line
-	7450 2950 7800 2950
-Text Label 7800 2950 2    50   ~ 0
-OE_servos
+	7450 3100 7800 3100
+Text Label 7800 3100 2    50   ~ 0
+OEservos
 $Comp
 L JPL_Robotics_Lib:PPTC021LFBN-RC J46
 U 1 1 6103131A
@@ -615,4 +572,57 @@ Wire Notes Line
 	6000 5500 8450 5500
 Wire Notes Line
 	8450 5500 8450 3700
+NoConn ~ 3850 3750
+NoConn ~ 3800 2450
+Text Notes 5100 2200 0    31   ~ 0
+Todo: Add the coupling \ncapacitor for 5v line
+Wire Wire Line
+	3800 2550 3650 2550
+Text Label 3650 2550 0    30   ~ 0
+OEservos
+Wire Wire Line
+	3850 3850 3700 3850
+Text Label 3700 3850 0    30   ~ 0
+OEservos
+Text Label 7800 2500 2    50   ~ 0
+GND
+Text Label 7800 2300 2    50   ~ 0
++5V
+Wire Wire Line
+	7450 2300 7800 2300
+Wire Wire Line
+	7450 2500 7800 2500
+Text Label 6650 2700 0    50   ~ 0
++12V
+Wire Wire Line
+	6950 2700 6650 2700
+Wire Wire Line
+	7950 2650 7950 2700
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 619765A5
+P 7950 2650
+F 0 "#FLG0103" H 7950 2725 50  0001 C CNN
+F 1 "PWR_FLAG" H 8050 2800 50  0000 C CNN
+F 2 "" H 7950 2650 50  0001 C CNN
+F 3 "~" H 7950 2650 50  0001 C CNN
+	1    7950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:+12V_brain #PWR0148
+U 1 1 618F0639
+P 7950 2700
+F 0 "#PWR0148" H 7950 2550 50  0001 C CNN
+F 1 "+12V_brain" V 8000 2750 50  0000 L CNN
+F 2 "" H 7950 2700 50  0001 C CNN
+F 3 "" H 7950 2700 50  0001 C CNN
+	1    7950 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 2700 7950 2700
+Connection ~ 7950 2700
+Text Notes 6100 3450 0    31   ~ 0
+Note: arranged these pins in a convenient way to make sure that if \nconnectors are connected with reverse polarity, there should be no fires
 $EndSCHEMATC
