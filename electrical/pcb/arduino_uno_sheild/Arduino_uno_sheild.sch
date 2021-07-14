@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Arduino_uno_sheild-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -99,9 +98,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 3300 4350 3300
 Text Label 4350 3250 2    30   ~ 0
-RX
+SCL
 Text Label 4350 3300 2    30   ~ 0
-TX
+SDA
 Wire Wire Line
 	2250 2700 2600 2700
 Wire Wire Line

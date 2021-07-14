@@ -138,65 +138,34 @@ GND
 Text Label 5000 4300 2    30   ~ 0
 GND
 $Comp
-L JPL_Robotics_Lib:6posheader J8
-U 1 1 60A8A91E
-P 3650 5850
-F 0 "J8" H 3756 6273 50  0000 C CNN
-F 1 "6posheader" H 3850 6350 50  0001 C CNN
-F 2 "JPL Robotics:6x1 Header Pin 0.1 Pitch" H 3650 5850 50  0001 C CNN
-F 3 "" H 3650 5850 50  0001 C CNN
-	1    3650 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 5550 4100 5550
-Wire Wire Line
-	3850 5600 4100 5600
-Wire Wire Line
-	3850 5700 4100 5700
-Wire Wire Line
-	3850 5750 4100 5750
-Wire Wire Line
-	3850 5800 4100 5800
-$Comp
 L JPL_Robotics_Lib:6posheader J10
 U 1 1 60A8A929
-P 4350 5850
-F 0 "J10" H 4456 6273 50  0000 C CNN
-F 1 "6posheader" H 4550 6350 50  0001 C CNN
-F 2 "JPL Robotics:455-1708-ND" H 4350 5850 50  0001 C CNN
-F 3 "" H 4350 5850 50  0001 C CNN
-	1    4350 5850
+P 4150 5850
+F 0 "J10" H 4256 6273 50  0000 C CNN
+F 1 "6posheader" H 4350 6350 50  0001 C CNN
+F 2 "JPL Robotics:455-1708-ND" H 4150 5850 50  0001 C CNN
+F 3 "" H 4150 5850 50  0001 C CNN
+	1    4150 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 5550 4800 5550
+	4350 5550 4600 5550
 Wire Wire Line
-	4550 5600 4800 5600
+	4350 5600 4600 5600
 Wire Wire Line
-	4550 5650 4800 5650
-Text Label 4100 5550 2    30   ~ 0
-GND
-Text Label 4100 5600 2    30   ~ 0
-CTS#
-Text Label 4100 5700 2    30   ~ 0
-TTL_TXD
-Text Label 4100 5750 2    30   ~ 0
-TTL_RXD
-Text Label 4100 5800 2    30   ~ 0
-RTS#
-Text Label 4800 5550 2    30   ~ 0
+	4350 5650 4600 5650
+Text Label 4600 5550 2    30   ~ 0
 +12V
-Text Label 4800 5600 2    30   ~ 0
+Text Label 4600 5600 2    30   ~ 0
 +5V
-Text Label 4800 5650 2    30   ~ 0
+Text Label 4600 5650 2    30   ~ 0
 GND
 Wire Wire Line
-	4550 5750 4800 5750
-Text Label 4800 5700 2    30   ~ 0
-TTL_TXD
-Text Label 4800 5750 2    30   ~ 0
-TTL_RXD
+	4350 5750 4600 5750
+Text Label 4600 5700 2    30   ~ 0
+SCL_rpi
+Text Label 4600 5750 2    30   ~ 0
+SDA_rpi
 Text Notes 3650 1800 0    98   ~ 0
 Raspberry Pi breakout
 Text Notes 3450 5200 0    98   ~ 0
@@ -248,12 +217,9 @@ Wire Wire Line
 	3200 2200 3300 2200
 Wire Wire Line
 	3200 2200 3200 2300
-NoConn ~ 3850 5650
 Wire Wire Line
-	4550 5700 4800 5700
-NoConn ~ 4550 5800
-NoConn ~ 4100 5800
-NoConn ~ 4100 5600
+	4350 5700 4600 5700
+NoConn ~ 4350 5800
 NoConn ~ 3800 2650
 NoConn ~ 3800 2750
 NoConn ~ 3800 2700
