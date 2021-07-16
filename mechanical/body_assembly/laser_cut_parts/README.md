@@ -15,7 +15,7 @@ MDF (medium density fiber-board) from online services such as Sculpteo is an eas
 
 Sourcing MDF requires care if you are cutting the plates yourself. Some MDF has a high formaldehyde content, which can be toxic. If you are cutting the plates yourself, a high-quality plywood is probably your best choice. 
 
-Plywood might cost a bit more from online services, but the cost increase should be minor. Plywood has advantages if you are cutting the plates locally due increased availability and to the possiblity of formaldehyde in some MDF products. If using plywood from Sculpteo, choose 5mm for the thickness in either Okoume or Poplar, depending on the color you want. 
+Plywood might cost a bit more from online services, but the cost increase should be minor. Plywood has advantages if you are cutting the plates locally due increased availability and to the possibility of formaldehyde in some MDF products. If using plywood from Sculpteo, choose 5mm for the thickness in either Okoume or Poplar, depending on the color you want. 
 
 ## Installing the Plates
 
@@ -34,6 +34,3 @@ The laser cut top and bottom plates have holes for two extra side mounts on each
 ## Notes
 * *front\_plate.DXF* and *back_plate.DXF* can be cut from the same material as the top and bottom plates if desired. These plates should remain as 1/8" or 3 mm thick.
 * The holes to mount the head have been moved forward slightly to allow for additional clearance between the head and the PCB.  
-
-
-
