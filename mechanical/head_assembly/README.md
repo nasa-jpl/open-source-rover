@@ -113,7 +113,7 @@ Insert the # 4-40 Heat Set Inserts **I1** into the 3D printed head (using a Sold
 
 ### 6.2.2 3D-printed PVC clamping hub
 
-* Insert the #6-32 Heat Set Inserts **I2** into the 3D-printed clamping hub **S51** in the locations shown in Figure 8. The inserts on the side of the clamp should go in from the left side as shown in Figure 8.
+* Insert the #6-32 Heat Set Inserts **I2** into the 3D-printed clamping hub **S24** in the locations shown in Figure 8. The inserts on the side of the clamp should go in from the left side as shown in Figure 8.
 
 | <img src="../../images/head/hub_upper.png" width="50%"> |
 | :------------------------------------------------: |
