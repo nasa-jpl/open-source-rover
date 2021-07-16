@@ -30,6 +30,7 @@ The body is the housing of all the electronics for the rover. It is the attachme
   * Band saw or Dremel
   * Allen Key set
   * Imperial Wrench Set
+  * Soldering Iron
 
 #### 2.2.2 Optional
   * Laser cutter
