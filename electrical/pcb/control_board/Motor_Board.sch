@@ -1209,14 +1209,14 @@ Wire Wire Line
 	4350 6900 4600 6900
 Connection ~ 4350 6900
 Wire Wire Line
-	13800 3150 14100 3150
+	13800 3450 14100 3450
 Wire Wire Line
 	13800 2650 14100 2650
 Wire Wire Line
 	13850 2750 14100 2750
 Wire Wire Line
 	13850 2550 14100 2550
-Text Label 13800 3150 0    50   ~ 0
+Text Label 13800 3450 0    50   ~ 0
 E_STOP
 Text Label 14950 2650 2    50   ~ 0
 RXD
@@ -1232,9 +1232,7 @@ Wire Notes Line style solid rgb(0, 0, 0)
 	15600 4850 13150 4850
 Wire Notes Line style solid rgb(0, 0, 0)
 	15600 950  15600 4850
-NoConn ~ 14600 3450
 NoConn ~ 14100 3250
-NoConn ~ 14100 3450
 $Comp
 L JPL_Robotics_Lib:Mounting_Holes M1
 U 1 1 609530FB
@@ -1610,8 +1608,8 @@ Wire Notes Line style solid rgb(0, 0, 0)
 Wire Notes Line style solid rgb(0, 0, 0)
 	5150 950  5150 4200
 Wire Wire Line
-	14600 3150 14950 3150
-Text Label 14950 3150 2    50   ~ 0
+	14600 3450 14950 3450
+Text Label 14950 3450 2    50   ~ 0
 E_STOP2
 Wire Wire Line
 	14600 2650 14950 2650
@@ -1770,7 +1768,7 @@ Wire Notes Line
 Wire Notes Line
 	12750 5100 12750 3450
 Text Label 3650 8500 0    50   ~ 0
-+5V_motor
+3.3V
 $Comp
 L JPL_Robotics_Lib:ED2627-ND J?
 U 1 1 60B1CB30
@@ -2079,8 +2077,6 @@ Text Label 5850 8450 0    30   ~ 0
 SDA_rpi
 Wire Wire Line
 	6150 8500 5850 8500
-Text Label 5850 8500 0    30   ~ 0
-+5V_motor
 Wire Notes Line
 	5650 7400 5650 9450
 NoConn ~ 7100 8550
@@ -2520,4 +2516,14 @@ Wire Wire Line
 	3450 3900 3450 3850
 Text Notes 2900 3500 0    31   ~ 0
 todo: remove?
+Wire Wire Line
+	14100 3150 13800 3150
+Text Label 13800 3150 0    50   ~ 0
+3.3V
+Wire Wire Line
+	14600 3150 14950 3150
+Text Label 14950 3150 2    50   ~ 0
+3.3V
+Text Label 5850 8500 0    30   ~ 0
+3.3V
 $EndSCHEMATC

@@ -16,18 +16,18 @@ $EndDescr
 $Comp
 L Device:R R1
 U 1 1 60A8A8D9
-P 3250 3300
-F 0 "R1" H 3180 3254 50  0000 R CNN
-F 1 "4.7K" H 3180 3345 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3180 3300 50  0001 C CNN
-F 3 "~" H 3250 3300 50  0001 C CNN
-	1    3250 3300
+P 3250 3550
+F 0 "R1" H 3180 3504 50  0000 R CNN
+F 1 "4.7K" H 3180 3595 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3180 3550 50  0001 C CNN
+F 3 "~" H 3250 3550 50  0001 C CNN
+	1    3250 3550
 	-1   0    0    1   
 $EndComp
-Text Label 3250 3500 3    30   ~ 0
+Text Label 3250 3750 3    30   ~ 0
 RXD
 Wire Wire Line
-	3250 3450 3250 3500
+	3250 3700 3250 3750
 Wire Wire Line
 	3800 2400 3650 2400
 Wire Wire Line
@@ -246,8 +246,8 @@ Wire Wire Line
 Connection ~ 3300 2200
 Wire Wire Line
 	3300 2200 3800 2200
-Text Notes 3050 2800 0    50   ~ 0
-*3.3v bus is \nnot powered
+Text Notes 3100 2900 0    50   ~ 0
+*3.3v bus \nsupplied\nby rpi
 $Comp
 L JPL_Robotics_Lib:S9175-ND_rpi_breakout J6
 U 1 1 60A8A979
@@ -297,12 +297,12 @@ Text Label 6650 2400 0    50   ~ 0
 TXD
 Text Label 7800 2400 2    50   ~ 0
 RXD
-Text Label 6650 2900 0    50   ~ 0
+Text Label 6650 3200 0    50   ~ 0
 E_STOP
 Wire Wire Line
 	6650 2400 6950 2400
 Wire Wire Line
-	6650 2900 6950 2900
+	6650 3200 6950 3200
 $Comp
 L JPL_Robotics_Lib:PEC10DAAN J27
 U 1 1 60EE139B
@@ -317,12 +317,12 @@ $EndComp
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR0144
 U 1 1 618E53AB
-P 3250 3150
-F 0 "#PWR0144" H 3250 3000 50  0001 C CNN
-F 1 "+5V_brain" H 3265 3323 50  0000 C CNN
-F 2 "" H 3250 3150 50  0001 C CNN
-F 3 "" H 3250 3150 50  0001 C CNN
-	1    3250 3150
+P 3250 3400
+F 0 "#PWR0144" H 3250 3250 50  0001 C CNN
+F 1 "+5V_brain" H 3265 3573 50  0000 C CNN
+F 2 "" H 3250 3400 50  0001 C CNN
+F 3 "" H 3250 3400 50  0001 C CNN
+	1    3250 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -431,8 +431,8 @@ F 3 "" H 7500 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 2900 7800 2900
-Text Label 7800 2900 2    50   ~ 0
+	7450 3200 7800 3200
+Text Label 7800 3200 2    50   ~ 0
 E_STOP2
 Wire Wire Line
 	7450 2400 7800 2400
@@ -527,7 +527,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 5150 6950 5150
 Text Label 6600 5150 0    50   ~ 0
-OE_servos
+OEservos
 Text Label 6600 5250 0    50   ~ 0
 GND
 Text Notes 6500 5050 0    50   ~ 0
@@ -590,10 +590,16 @@ Wire Wire Line
 	7450 2700 7950 2700
 Connection ~ 7950 2700
 Text Notes 6100 3450 0    31   ~ 0
-Note: arranged these pins in a convenient way to make sure that if \nconnectors are connected with reverse polarity, there should be no fires
+Note: arranged these pins in a convenient way to make sure that if \nconnectors are connected with reverse polarity, there should be no\npower rails plugged into sensitive pins
 NoConn ~ 6950 2800
 NoConn ~ 7450 2800
 NoConn ~ 6950 3000
-NoConn ~ 6950 3200
-NoConn ~ 7450 3200
+Wire Wire Line
+	6950 2900 6650 2900
+Text Label 6650 2900 0    50   ~ 0
+3.3V
+Text Label 7800 2900 2    50   ~ 0
+3.3V
+Wire Wire Line
+	7450 2900 7800 2900
 $EndSCHEMATC
