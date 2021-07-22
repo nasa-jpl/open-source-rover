@@ -26,16 +26,12 @@ F 3 "" H 1950 3400 30  0001 C CNN
 	1    1700 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2600 1750 2600 2550
 Text Label 1350 1900 0    30   ~ 0
 RC1EN1A
 Text Label 1350 1950 0    30   ~ 0
 RC1EN2A
 Text Label 2550 1900 2    30   ~ 0
 RC1EN1B
-Wire Wire Line
-	2300 1750 2600 1750
 Wire Wire Line
 	2300 1900 2550 1900
 Wire Wire Line
@@ -67,26 +63,22 @@ F 3 "" H 3300 3400 30  0001 C CNN
 	1    3050 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 1750 3950 2550
-Text Label 1800 3450 0    30   ~ 0
+Text Label 1350 3300 0    30   ~ 0
 RC2EN1A
-Text Label 1800 3500 0    30   ~ 0
+Text Label 1350 3350 0    30   ~ 0
 RC2EN2A
-Text Label 3000 3450 2    30   ~ 0
+Text Label 2550 3300 2    30   ~ 0
 RC2EN1B
 Wire Wire Line
-	3650 1750 3950 1750
+	2300 3300 2550 3300
 Wire Wire Line
-	2750 3450 3000 3450
-Wire Wire Line
-	2750 3500 3000 3500
-Text Label 3000 3500 2    30   ~ 0
+	2300 3350 2550 3350
+Text Label 2550 3350 2    30   ~ 0
 RC2EN2B
 Wire Wire Line
-	1800 3450 2050 3450
+	1350 3300 1600 3300
 Wire Wire Line
-	1800 3500 2050 3500
+	1350 3350 1600 3350
 Wire Wire Line
 	2950 2250 2700 2250
 Wire Wire Line
@@ -112,20 +104,16 @@ Wire Wire Line
 Wire Wire Line
 	2700 1950 2950 1950
 Wire Wire Line
-	3050 3300 3050 4100
+	1600 3650 1350 3650
 Wire Wire Line
-	2750 3300 3050 3300
-Wire Wire Line
-	2050 3800 1800 3800
-Wire Wire Line
-	2050 3850 1800 3850
-Text Label 1800 3800 0    30   ~ 0
+	1600 3700 1350 3700
+Text Label 1350 3650 0    30   ~ 0
 TXD
-Text Label 1800 3850 0    30   ~ 0
+Text Label 1350 3700 0    30   ~ 0
 RXD
 Wire Wire Line
-	2050 3900 1800 3900
-Text Label 1800 3900 0    30   ~ 0
+	1600 3750 1350 3750
+Text Label 1350 3750 0    30   ~ 0
 E_STOP
 Wire Wire Line
 	2950 2350 2700 2350
@@ -169,20 +157,20 @@ NoConn ~ 3650 2050
 NoConn ~ 3650 2100
 NoConn ~ 3650 2150
 NoConn ~ 3650 2200
-NoConn ~ 2050 3350
-NoConn ~ 2050 3400
-NoConn ~ 2050 3550
-NoConn ~ 2050 3600
-NoConn ~ 2050 3650
-NoConn ~ 2050 3700
-NoConn ~ 2050 3750
-NoConn ~ 2750 3350
-NoConn ~ 2750 3400
-NoConn ~ 2750 3550
-NoConn ~ 2750 3600
-NoConn ~ 2750 3650
-NoConn ~ 2750 3700
-NoConn ~ 2750 3750
+NoConn ~ 1600 3200
+NoConn ~ 1600 3250
+NoConn ~ 1600 3400
+NoConn ~ 1600 3450
+NoConn ~ 1600 3500
+NoConn ~ 1600 3550
+NoConn ~ 1600 3600
+NoConn ~ 2300 3200
+NoConn ~ 2300 3250
+NoConn ~ 2300 3400
+NoConn ~ 2300 3450
+NoConn ~ 2300 3500
+NoConn ~ 2300 3550
+NoConn ~ 2300 3600
 Text Label 11000 1700 0    30   ~ 0
 RC1M1A
 Text Label 11000 1750 0    30   ~ 0
@@ -1314,39 +1302,6 @@ F 3 "" H 950 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JPL_Robotics_Lib:GND_motor #PWR0106
-U 1 1 60D5E118
-P 2600 2550
-F 0 "#PWR0106" H 2600 2300 50  0001 C CNN
-F 1 "GND_motor" H 2605 2377 50  0000 C CNN
-F 2 "" H 2600 2550 50  0001 C CNN
-F 3 "" H 2600 2550 50  0001 C CNN
-	1    2600 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:GND_motor #PWR0107
-U 1 1 60D5EA44
-P 3950 2550
-F 0 "#PWR0107" H 3950 2300 50  0001 C CNN
-F 1 "GND_motor" H 3955 2377 50  0000 C CNN
-F 2 "" H 3950 2550 50  0001 C CNN
-F 3 "" H 3950 2550 50  0001 C CNN
-	1    3950 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:GND_motor #PWR0109
-U 1 1 60DB2478
-P 3050 4100
-F 0 "#PWR0109" H 3050 3850 50  0001 C CNN
-F 1 "GND_motor" H 3055 3927 50  0000 C CNN
-F 2 "" H 3050 4100 50  0001 C CNN
-F 3 "" H 3050 4100 50  0001 C CNN
-	1    3050 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L JPL_Robotics_Lib:GND_motor #PWR0112
 U 1 1 60FADCD7
 P 5550 1600
@@ -1665,8 +1620,8 @@ Wire Wire Line
 Text Label 1350 2400 0    30   ~ 0
 E_STOP2
 Wire Wire Line
-	2050 3950 1800 3950
-Text Label 1800 3950 0    30   ~ 0
+	1600 3800 1350 3800
+Text Label 1350 3800 0    30   ~ 0
 E_STOP2
 Wire Wire Line
 	2950 2400 2700 2400
@@ -2215,11 +2170,9 @@ Text Label 7200 8150 1    30   ~ 0
 servo_pwm_ch2
 Text Label 7250 8150 1    30   ~ 0
 servo_pwm_ch3
-Text Notes 3350 3350 0    31   ~ 0
-Todo: do we Need pull-up resistors for S4 (and S5)?\n
 NoConn ~ 1600 1750
 NoConn ~ 2950 1750
-NoConn ~ 2050 3300
+NoConn ~ 1600 3150
 Wire Wire Line
 	14600 3250 14950 3250
 Text Label 14950 3250 2    50   ~ 0
@@ -2227,14 +2180,14 @@ E_STOP3
 $Comp
 L JPL_Robotics_Lib:RoboClaw RC?
 U 1 1 60AB7B1E
-P 2150 4050
+P 1700 3900
 AR Path="/60AB7B1E" Ref="RC?"  Part="1" 
 AR Path="/60A51BAC/60AB7B1E" Ref="RC2"  Part="1" 
-F 0 "RC2" H 2400 4968 30  0000 C CNN
-F 1 "RoboClaw" H 2400 4908 30  0000 C CNN
-F 2 "JPL Robotics:Roboclaw Mount" H 2400 4950 30  0001 C CNN
-F 3 "" H 2400 4950 30  0001 C CNN
-	1    2150 4050
+F 0 "RC2" H 1950 4818 30  0000 C CNN
+F 1 "RoboClaw" H 1950 4758 30  0000 C CNN
+F 2 "JPL Robotics:Roboclaw Mount" H 1950 4800 30  0001 C CNN
+F 3 "" H 1950 4800 30  0001 C CNN
+	1    1700 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2242,12 +2195,12 @@ Wire Wire Line
 Wire Wire Line
 	2950 2450 2700 2450
 Wire Wire Line
-	2050 4000 1800 4000
+	1600 3850 1350 3850
 Text Label 1350 2450 0    30   ~ 0
 E_STOP3
 Text Label 2700 2450 0    30   ~ 0
 E_STOP3
-Text Label 1800 4000 0    30   ~ 0
+Text Label 1350 3850 0    30   ~ 0
 E_STOP3
 Wire Wire Line
 	6150 8350 5850 8350
@@ -2491,4 +2444,80 @@ Text Notes 9600 6700 0    31   ~ 0
 Note: header is female, to prevent accidental shorts
 NoConn ~ 14100 3050
 NoConn ~ 14600 3050
+NoConn ~ 2300 3150
+NoConn ~ 2300 1750
+NoConn ~ 3650 1750
+Wire Wire Line
+	3150 3250 3150 3500
+Wire Wire Line
+	3450 3250 3450 3500
+Wire Wire Line
+	3750 3250 3750 3500
+$Comp
+L JPL_Robotics_Lib:+5V_motor #PWR01
+U 1 1 610C772D
+P 3450 3900
+F 0 "#PWR01" H 3450 3750 50  0001 C CNN
+F 1 "+5V_motor" H 3465 4073 50  0000 C CNN
+F 2 "" H 3450 3900 50  0001 C CNN
+F 3 "" H 3450 3900 50  0001 C CNN
+	1    3450 3900
+	-1   0    0    1   
+$EndComp
+Text Label 3150 3250 3    30   ~ 0
+E_STOP
+Text Label 3450 3250 3    30   ~ 0
+E_STOP2
+Text Label 3750 3250 3    30   ~ 0
+E_STOP3
+Text Notes 3250 3150 0    31   ~ 0
+Pulllups for e_stop signals
+$Comp
+L Device:R R3
+U 1 1 61145EF5
+P 3150 3650
+F 0 "R3" H 3220 3696 50  0000 L CNN
+F 1 "4.7k" H 3220 3605 50  0000 L CNN
+F 2 "" V 3080 3650 50  0001 C CNN
+F 3 "~" H 3150 3650 50  0001 C CNN
+	1    3150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6115BE1A
+P 3450 3650
+F 0 "R4" H 3520 3696 50  0000 L CNN
+F 1 "4.7k" H 3520 3605 50  0000 L CNN
+F 2 "" V 3380 3650 50  0001 C CNN
+F 3 "~" H 3450 3650 50  0001 C CNN
+	1    3450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 6115C337
+P 3750 3650
+F 0 "R5" H 3820 3696 50  0000 L CNN
+F 1 "4.7k" H 3820 3605 50  0000 L CNN
+F 2 "" V 3680 3650 50  0001 C CNN
+F 3 "~" H 3750 3650 50  0001 C CNN
+	1    3750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3800 3150 3850
+Wire Wire Line
+	3150 3850 3450 3850
+Wire Wire Line
+	3450 3850 3450 3800
+Wire Wire Line
+	3450 3850 3750 3850
+Wire Wire Line
+	3750 3850 3750 3800
+Connection ~ 3450 3850
+Wire Wire Line
+	3450 3900 3450 3850
+Text Notes 2900 3500 0    31   ~ 0
+todo: remove?
 $EndSCHEMATC
