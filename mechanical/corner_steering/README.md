@@ -3,7 +3,7 @@
 The Corner Steering system gives attachment points for corner motors that we use to steer the rover.
 As a rough estimate, these components will take around 5 hours to build and assemble.
 
-<img src="/images/corner_steering/CornerSt_Final.png" width="60%">
+<img src="../../images/corner_steering/CornerSt_Final.png" width="60%">
 
 ## 1. Features
 
