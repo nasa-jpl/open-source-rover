@@ -127,7 +127,7 @@ There has been significant feedback that the BasicMicro Motion Studio auto tune 
 
 (a) Perform step 6 above for the corner motors, making sure to set the encoder type to absolute.
 
-(b) Go to the PWM Settings tab and **slowly** drive the M1 corner forward. Verify that the encoder value goes up. If it does not, switch the motor wire leads at M1A and M1B.2
+(b) Go to the PWM Settings tab and **slowly** drive the M1 corner forward. Verify that the encoder value goes up. If it does not, go to the General Settings tab and invert the motor direction
 
 (c) Repeat step 9b for M2 motor
 
@@ -137,7 +137,6 @@ There has been significant feedback that the BasicMicro Motion Studio auto tune 
 
 * Unscrew the small gear at the bottom of the absolute encoder
     * Once the absolute encoder shaft is uncoupled from the robot, spin the encoder until you determine the max value. This should be somewhere in the range of 1400-18004.
-
 
 * As opposed to the drive motors, the corners use absolute encoders that are defined in one direction only, so you cannot switch the direction of the encoder.
 
