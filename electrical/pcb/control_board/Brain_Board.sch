@@ -476,10 +476,6 @@ Text Label 3700 3550 0    30   ~ 0
 SDA_rpi
 Text Label 3700 3600 0    30   ~ 0
 SCL_rpi
-Wire Wire Line
-	3850 3800 3700 3800
-Text Label 3700 3800 0    30   ~ 0
-alert
 $Comp
 L JPL_Robotics_Lib:PPTC021LFBN-RC J45
 U 1 1 60ED1AE6
@@ -546,10 +542,6 @@ Wire Wire Line
 	3800 2550 3650 2550
 Text Label 3650 2550 0    30   ~ 0
 OEservos
-Wire Wire Line
-	3850 3850 3700 3850
-Text Label 3700 3850 0    30   ~ 0
-OEservos
 Text Label 7800 2500 2    50   ~ 0
 GND
 Text Label 7800 2300 2    50   ~ 0
@@ -602,4 +594,6 @@ Text Label 7800 2900 2    50   ~ 0
 3.3V
 Wire Wire Line
 	7450 2900 7800 2900
+NoConn ~ 3850 3800
+NoConn ~ 3850 3850
 $EndSCHEMATC
