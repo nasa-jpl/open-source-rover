@@ -596,4 +596,39 @@ Wire Wire Line
 	7450 2900 7800 2900
 NoConn ~ 3850 3800
 NoConn ~ 3850 3850
+NoConn ~ 5150 3900
+Text Notes 8800 1700 0    98   ~ 0
+RPi I2C Header
+$Comp
+L JPL_Robotics_Lib:PPTC041LFBN-RC J67
+U 1 1 61023155
+P 9300 2200
+F 0 "J67" H 9428 2325 39  0000 L CNN
+F 1 "PPTC041LFBN-RC" H 9350 2550 50  0001 C CNN
+F 2 "" H 9450 2400 50  0001 C CNN
+F 3 "" H 9450 2400 50  0001 C CNN
+	1    9300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2000 9000 2000
+Text Label 9000 2000 0    30   ~ 0
+SDA_rpi
+Wire Wire Line
+	9200 2050 9000 2050
+Text Label 9000 2050 0    30   ~ 0
+SCL_rpi
+Wire Wire Line
+	9200 2100 9000 2100
+Text Label 9000 2100 0    30   ~ 0
+GND
+NoConn ~ 9200 2150
+Wire Notes Line
+	8600 1400 8600 2500
+Wire Notes Line
+	8600 1400 10150 1400
+Wire Notes Line
+	10150 1400 10150 2500
+Wire Notes Line
+	10150 2500 8600 2500
 $EndSCHEMATC
