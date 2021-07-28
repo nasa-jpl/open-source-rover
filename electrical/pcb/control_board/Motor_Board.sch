@@ -775,24 +775,24 @@ $EndComp
 $Comp
 L power:+BATT #PWR?
 U 1 1 60B75387
-P 10900 4500
+P 10950 6000
 AR Path="/60B75387" Ref="#PWR?"  Part="1" 
 AR Path="/60A51BAC/60B75387" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 10900 4350 50  0001 C CNN
-F 1 "+BATT" H 10915 4658 30  0000 C CNN
-F 2 "" H 10900 4500 50  0001 C CNN
-F 3 "" H 10900 4500 50  0001 C CNN
-	1    10900 4500
+F 0 "#PWR016" H 10950 5850 50  0001 C CNN
+F 1 "+BATT" H 10965 6158 30  0000 C CNN
+F 2 "" H 10950 6000 50  0001 C CNN
+F 3 "" H 10950 6000 50  0001 C CNN
+	1    10950 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10900 4500 10900 4600
+	10950 6000 10950 6100
 Wire Wire Line
-	10950 4600 10950 4550
+	11000 6100 11000 6050
 Wire Wire Line
-	10950 4550 11000 4550
+	11000 6050 11050 6050
 Wire Wire Line
-	11000 4550 11000 4600
+	11050 6050 11050 6100
 $Comp
 L Device:Fuse F?
 U 1 1 60B7539F
@@ -866,12 +866,12 @@ F 3 "" H 2450 6700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	11050 4300 11050 4400
+	11100 5800 11100 5900
 Wire Wire Line
-	11050 4400 11200 4400
-Connection ~ 11050 4400
+	11100 5900 11250 5900
+Connection ~ 11100 5900
 Wire Wire Line
-	11050 4400 11050 4600
+	11100 5900 11100 6100
 Wire Wire Line
 	2500 7300 2500 7450
 Wire Wire Line
@@ -900,53 +900,6 @@ F 3 "~" H 2750 7700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2750 7850 2750 8100
-$Comp
-L JPL_Robotics_Lib:S7038-ND_regulator_D24V22F12 J?
-U 1 1 60B75483
-P 11950 4500
-AR Path="/60B75483" Ref="J?"  Part="1" 
-AR Path="/60A51BAC/60B75483" Ref="J11"  Part="1" 
-F 0 "J11" V 12379 4750 50  0000 L CNN
-F 1 "S7038-ND" H 12227 4655 50  0001 L CNN
-F 2 "JPL Robotics:D24V22F12 Regulator" H 12100 4900 50  0001 C CNN
-F 3 "" H 12100 4900 50  0001 C CNN
-	1    11950 4500
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 60B75489
-P 11750 4350
-AR Path="/60B75489" Ref="#PWR?"  Part="1" 
-AR Path="/60A51BAC/60B75489" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 11750 4200 50  0001 C CNN
-F 1 "+BATT" H 11765 4508 30  0000 C CNN
-F 2 "" H 11750 4350 50  0001 C CNN
-F 3 "" H 11750 4350 50  0001 C CNN
-	1    11750 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11800 4550 11800 4600
-Wire Wire Line
-	11800 4550 12100 4550
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B7549D
-P 12100 4050
-AR Path="/60B7549D" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B7549D" Ref="T5"  Part="1" 
-F 0 "T5" V 12150 4000 50  0000 L CNN
-F 1 "test_point" H 12250 4300 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 12050 4000 50  0001 C CNN
-F 3 "" H 12050 4000 50  0001 C CNN
-	1    12100 4050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12100 4200 11850 4200
-Wire Wire Line
-	11750 4350 11750 4600
 Wire Wire Line
 	2250 8700 2450 8700
 Wire Wire Line
@@ -955,25 +908,7 @@ Wire Wire Line
 	2450 8750 2450 8850
 Wire Wire Line
 	2450 8550 2450 8700
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B754B5
-P 12250 4400
-AR Path="/60B754B5" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B754B5" Ref="T6"  Part="1" 
-F 0 "T6" V 12300 4350 50  0000 L CNN
-F 1 "test_point" H 12400 4650 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 12200 4350 50  0001 C CNN
-F 3 "" H 12200 4350 50  0001 C CNN
-	1    12250 4400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12100 4550 12100 4750
-Wire Wire Line
-	12100 4550 12250 4550
-Connection ~ 12100 4550
-Text Notes 10900 3700 0    98   ~ 0
+Text Notes 9700 5400 0    98   ~ 0
 Voltage Regulators
 Text Notes 2200 5350 0    98   ~ 0
 Power Distribution
@@ -1009,8 +944,6 @@ F 3 "" H 2100 8800 50  0001 C CNN
 	1    2100 8800
 	1    0    0    -1  
 $EndComp
-Wire Notes Line style solid rgb(0, 0, 0)
-	10300 3450 12750 3450
 Wire Notes Line
 	4900 9350 4900 4900
 Wire Notes Line style solid rgb(0, 0, 0)
@@ -1158,24 +1091,17 @@ NoConn ~ 1400 8750
 $Comp
 L JPL_Robotics_Lib:S7038-ND_regulator_D24V50F5 J?
 U 1 1 60B7556D
-P 11150 4500
+P 11200 6000
 AR Path="/60B7556D" Ref="J?"  Part="1" 
 AR Path="/60A51BAC/60B7556D" Ref="J9"  Part="1" 
-F 0 "J9" V 11579 4750 50  0000 L CNN
-F 1 "S7038-ND" H 11427 4655 50  0001 L CNN
-F 2 "JPL Robotics:S7038-ND" H 11300 4900 50  0001 C CNN
-F 3 "" H 11300 4900 50  0001 C CNN
-	1    11150 4500
+F 0 "J9" V 11550 5900 50  0000 L CNN
+F 1 "S7038-ND" H 11477 6155 50  0001 L CNN
+F 2 "JPL Robotics:S7038-ND" H 11350 6400 50  0001 C CNN
+F 3 "" H 11350 6400 50  0001 C CNN
+	1    11200 6000
 	0    -1   1    0   
 $EndComp
-Connection ~ 11850 4200
-Wire Wire Line
-	11850 4200 11850 4100
-Wire Wire Line
-	11850 4200 11850 4600
-NoConn ~ 11650 4600
-NoConn ~ 11700 4600
-NoConn ~ 10850 4600
+NoConn ~ 10900 6100
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 60B7557C
@@ -1509,50 +1435,28 @@ F 3 "" H 2450 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JPL_Robotics_Lib:GND_motor #PWR0132
-U 1 1 6146DE6E
-P 12100 4750
-F 0 "#PWR0132" H 12100 4500 50  0001 C CNN
-F 1 "GND_motor" H 12105 4577 50  0000 C CNN
-F 2 "" H 12100 4750 50  0001 C CNN
-F 3 "" H 12100 4750 50  0001 C CNN
-	1    12100 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L JPL_Robotics_Lib:+5V_motor #PWR0133
 U 1 1 614C46CC
-P 11050 4300
-F 0 "#PWR0133" H 11050 4150 50  0001 C CNN
-F 1 "+5V_motor" H 11065 4473 50  0000 C CNN
-F 2 "" H 11050 4300 50  0001 C CNN
-F 3 "" H 11050 4300 50  0001 C CNN
-	1    11050 4300
+P 11100 5800
+F 0 "#PWR0133" H 11100 5650 50  0001 C CNN
+F 1 "+5V_motor" H 11115 5973 50  0000 C CNN
+F 2 "" H 11100 5800 50  0001 C CNN
+F 3 "" H 11100 5800 50  0001 C CNN
+	1    11100 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:test_point T?
 U 1 1 60B753B5
-P 11200 4250
+P 11250 5750
 AR Path="/60B753B5" Ref="T?"  Part="1" 
 AR Path="/60A51BAC/60B753B5" Ref="T4"  Part="1" 
-F 0 "T4" V 11250 4200 50  0000 L CNN
-F 1 "test_point" H 11350 4500 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 11150 4200 50  0001 C CNN
-F 3 "" H 11150 4200 50  0001 C CNN
-	1    11200 4250
+F 0 "T4" V 11300 5700 50  0000 L CNN
+F 1 "test_point" H 11400 6000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 11200 5700 50  0001 C CNN
+F 3 "" H 11200 5700 50  0001 C CNN
+	1    11250 5750
 	0    -1   -1   0   
-$EndComp
-$Comp
-L JPL_Robotics_Lib:+12V_motor #PWR0134
-U 1 1 615C2CA5
-P 11850 4100
-F 0 "#PWR0134" H 11850 3950 50  0001 C CNN
-F 1 "+12V_motor" H 11865 4273 50  0000 C CNN
-F 2 "" H 11850 4100 50  0001 C CNN
-F 3 "" H 11850 4100 50  0001 C CNN
-	1    11850 4100
-	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR0141
@@ -1588,21 +1492,21 @@ F 3 "" H 14950 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11000 4550 11000 4500
-Connection ~ 11000 4550
+	11050 6050 11050 6000
+Connection ~ 11050 6050
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR0131
 U 1 1 6144403C
-P 11200 4500
-F 0 "#PWR0131" H 11200 4250 50  0001 C CNN
-F 1 "GND_motor" H 11300 4350 50  0000 C CNN
-F 2 "" H 11200 4500 50  0001 C CNN
-F 3 "" H 11200 4500 50  0001 C CNN
-	1    11200 4500
+P 11250 6000
+F 0 "#PWR0131" H 11250 5750 50  0001 C CNN
+F 1 "GND_motor" H 11350 5850 50  0000 C CNN
+F 2 "" H 11250 6000 50  0001 C CNN
+F 3 "" H 11250 6000 50  0001 C CNN
+	1    11250 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11000 4500 11200 4500
+	11050 6000 11250 6000
 Wire Notes Line style solid rgb(0, 0, 0)
 	9950 950  9950 4200
 Wire Notes Line style solid rgb(0, 0, 0)
@@ -1762,11 +1666,7 @@ $EndComp
 Wire Wire Line
 	1600 6600 2750 6600
 Wire Notes Line
-	10300 3450 10300 5100
-Wire Notes Line
-	10300 5100 12750 5100
-Wire Notes Line
-	12750 5100 12750 3450
+	9100 5150 9100 6800
 Text Label 3650 8500 0    50   ~ 0
 3.3V
 $Comp
@@ -2224,58 +2124,56 @@ Wire Wire Line
 	14600 3150 14950 3150
 Text Label 14950 3150 2    50   ~ 0
 3.3V
-Text Notes 9600 6700 0    31   ~ 0
-Note: header is female, to prevent accidental shorts
 $Comp
 L JPL_Robotics_Lib:PEC08SAAN J53
 U 1 1 6127184F
-P 10650 5650
-F 0 "J53" H 10578 5201 50  0000 L CNN
-F 1 "PEC08SAAN" H 10578 5110 50  0000 L CNN
-F 2 "" H 10700 5650 50  0001 C CNN
-F 3 "" H 10700 5650 50  0001 C CNN
-	1    10650 5650
+P 11700 3600
+F 0 "J53" H 11628 3151 50  0000 L CNN
+F 1 "PEC08SAAN" H 11628 3060 50  0000 L CNN
+F 2 "" H 11750 3600 50  0001 C CNN
+F 3 "" H 11750 3600 50  0001 C CNN
+	1    11700 3600
 	1    0    0    -1  
 $EndComp
-Text Label 9850 6000 0    50   ~ 0
+Text Label 10900 3950 0    50   ~ 0
 GND_motor
-Text Label 9850 6300 0    50   ~ 0
+Text Label 10900 4250 0    50   ~ 0
 SCL_rpi
-Text Label 9850 6400 0    50   ~ 0
+Text Label 10900 4350 0    50   ~ 0
 SDA_rpi
-Text Label 9850 5800 0    50   ~ 0
+Text Label 10900 3750 0    50   ~ 0
 +5V_motor
-Text Label 9850 5900 0    50   ~ 0
+Text Label 10900 3850 0    50   ~ 0
 +12V_motor
 Wire Wire Line
-	9850 5800 10300 5800
+	10900 3750 11350 3750
 Wire Wire Line
-	9850 5900 10300 5900
+	10900 3850 11350 3850
 Wire Wire Line
-	9850 6000 10300 6000
+	10900 3950 11350 3950
 Wire Wire Line
-	9850 6300 10300 6300
+	10900 4250 11350 4250
 Wire Wire Line
-	9850 6400 10300 6400
-Text Label 9850 6200 0    50   ~ 0
+	10900 4350 11350 4350
+Text Label 10900 4150 0    50   ~ 0
 RXD
 Wire Wire Line
-	9850 6100 10300 6100
+	10900 4050 11350 4050
 Wire Wire Line
-	9850 6200 10300 6200
-NoConn ~ 10300 6500
-Text Label 9850 6100 0    50   ~ 0
+	10900 4150 11350 4150
+NoConn ~ 11350 4450
+Text Label 10900 4050 0    50   ~ 0
 TXD
 Wire Notes Line
-	11650 6800 11650 5300
+	12700 4750 12700 3250
 Wire Notes Line
-	9250 6800 11650 6800
+	10300 4750 12700 4750
 Wire Notes Line
-	9250 5300 9250 6800
-Text Notes 9850 5550 0    98   ~ 0
+	10300 3250 10300 4750
+Text Notes 10900 3500 0    98   ~ 0
 Test Pin Header
 Wire Notes Line style solid rgb(0, 0, 0)
-	11650 5300 9250 5300
+	12700 3250 10300 3250
 Text Label 5750 5850 0    30   ~ 0
 3.3V
 Text Notes 7550 5800 0    31   ~ 0
@@ -3154,4 +3052,134 @@ Text Label 11800 8600 0    30   ~ 0
 servo_pwm_ch14
 Text Label 11800 8950 0    30   ~ 0
 servo_pwm_ch15
+$Comp
+L JPL_Robotics_Lib:PEC04SAAN J69
+U 1 1 61178C74
+P 10550 6400
+F 0 "J69" V 10350 6350 50  0000 L CNN
+F 1 "PEC04SAAN" V 10362 6338 50  0001 L CNN
+F 2 "" H 10600 6400 50  0001 C CNN
+F 3 "" H 10600 6400 50  0001 C CNN
+	1    10550 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:GND_motor #PWR070
+U 1 1 6119EED9
+P 10150 5750
+F 0 "#PWR070" H 10150 5500 50  0001 C CNN
+F 1 "GND_motor" H 10200 5600 30  0000 C CNN
+F 2 "" H 10150 5750 50  0001 C CNN
+F 3 "" H 10150 5750 50  0001 C CNN
+	1    10150 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 611C1BFC
+P 10350 5750
+AR Path="/611C1BFC" Ref="#PWR?"  Part="1" 
+AR Path="/60A51BAC/611C1BFC" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 10350 5600 50  0001 C CNN
+F 1 "+BATT" H 10350 5900 30  0000 C CNN
+F 2 "" H 10350 5750 50  0001 C CNN
+F 3 "" H 10350 5750 50  0001 C CNN
+	1    10350 5750
+	1    0    0    -1  
+$EndComp
+Text Notes 9250 6400 0    31   ~ 0
+5V Regulator Vout header
+$Comp
+L JPL_Robotics_Lib:PEC04SAAN J68
+U 1 1 61374ACB
+P 9850 6400
+F 0 "J68" V 9650 6350 50  0000 L CNN
+F 1 "PEC04SAAN" V 9662 6338 50  0001 L CNN
+F 2 "" H 9900 6400 50  0001 C CNN
+F 3 "" H 9900 6400 50  0001 C CNN
+	1    9850 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:GND_motor #PWR069
+U 1 1 61374AD1
+P 9650 5750
+F 0 "#PWR069" H 9650 5500 50  0001 C CNN
+F 1 "GND_motor" H 9600 5600 30  0000 C CNN
+F 2 "" H 9650 5750 50  0001 C CNN
+F 3 "" H 9650 5750 50  0001 C CNN
+	1    9650 5750
+	-1   0    0    1   
+$EndComp
+Text Notes 9950 6400 0    31   ~ 0
+5V Regulator Vin header
+$Comp
+L JPL_Robotics_Lib:+5V_motor #PWR068
+U 1 1 6139A844
+P 9450 5750
+F 0 "#PWR068" H 9450 5600 50  0001 C CNN
+F 1 "+5V_motor" H 9400 5900 30  0000 C CNN
+F 2 "" H 9450 5750 50  0001 C CNN
+F 3 "" H 9450 5750 50  0001 C CNN
+	1    9450 5750
+	1    0    0    -1  
+$EndComp
+Text Label 10300 6050 1    30   ~ 0
+5v_reg_vin
+Wire Wire Line
+	10300 5750 10300 6050
+Wire Wire Line
+	10400 5750 10400 6050
+Text Label 10400 6050 1    30   ~ 0
+5v_reg_vin
+Text Label 10100 6050 1    30   ~ 0
+5v_reg_gnd
+Wire Wire Line
+	10100 5750 10100 6050
+Wire Wire Line
+	10200 5750 10200 6050
+Text Label 10200 6050 1    30   ~ 0
+5v_reg_gnd
+Wire Wire Line
+	9500 5750 9500 6050
+Wire Wire Line
+	9600 5750 9600 6050
+Wire Wire Line
+	9700 5750 9700 6050
+Wire Wire Line
+	9400 5750 9450 5750
+Connection ~ 9450 5750
+Wire Wire Line
+	9450 5750 9500 5750
+Wire Wire Line
+	9600 5750 9650 5750
+Connection ~ 9650 5750
+Wire Wire Line
+	9650 5750 9700 5750
+Text Label 9500 6050 1    30   ~ 0
+5v_reg_vout
+Text Label 9400 6050 1    30   ~ 0
+5v_reg_vout
+Wire Wire Line
+	9400 5750 9400 6050
+Text Label 9600 6050 1    30   ~ 0
+5v_reg_gnd
+Text Label 9700 6050 1    30   ~ 0
+5v_reg_gnd
+Wire Wire Line
+	10100 5750 10150 5750
+Connection ~ 10150 5750
+Wire Wire Line
+	10150 5750 10200 5750
+Wire Wire Line
+	10300 5750 10350 5750
+Connection ~ 10350 5750
+Wire Wire Line
+	10350 5750 10400 5750
+Wire Notes Line
+	9100 5150 11700 5150
+Wire Notes Line
+	11700 5150 11700 6800
+Wire Notes Line
+	11700 6800 9100 6800
 $EndSCHEMATC
