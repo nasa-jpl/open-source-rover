@@ -631,84 +631,309 @@ Wire Notes Line
 Wire Notes Line
 	4450 3400 6900 3400
 Wire Wire Line
-	7450 2900 7600 2900
+	7950 2850 8100 2850
 $Comp
 L JPL_Robotics_Lib:GND_brain #PWR?
 U 1 1 615F0C13
-P 7600 3000
-F 0 "#PWR?" H 7600 2750 50  0001 C CNN
-F 1 "GND_brain" H 7800 2850 50  0000 R CNN
-F 2 "" H 7600 3000 50  0001 C CNN
-F 3 "" H 7600 3000 50  0001 C CNN
-	1    7600 3000
-	1    0    0    -1  
+P 7750 3000
+F 0 "#PWR?" H 7750 2750 50  0001 C CNN
+F 1 "GND_brain" V 7750 2850 50  0000 R CNN
+F 2 "" H 7750 3000 50  0001 C CNN
+F 3 "" H 7750 3000 50  0001 C CNN
+	1    7750 3000
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7600 2900 7600 3000
+	8100 2850 8250 2850
+Connection ~ 8100 2850
 Wire Wire Line
-	7600 2900 7750 2900
-Connection ~ 7600 2900
-$Comp
-L Device:R R?
-U 1 1 615FD963
-P 8200 3100
-F 0 "R?" H 8130 3054 50  0000 R CNN
-F 1 "4.7K" H 8130 3145 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8130 3100 50  0001 C CNN
-F 3 "~" H 8200 3100 50  0001 C CNN
-	1    8200 3100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8200 2900 8200 2950
-Wire Wire Line
-	7900 2900 8200 2900
-Wire Wire Line
-	8200 2900 8450 2900
-Connection ~ 8200 2900
-Text Label 8450 2900 0    50   ~ 0
+	8400 2850 8600 2850
+Text Label 8950 2850 2    50   ~ 0
 E_STOP
 $Comp
 L JPL_Robotics_Lib:GND_brain #PWR?
 U 1 1 61606D72
-P 8200 3550
-F 0 "#PWR?" H 8200 3300 50  0001 C CNN
-F 1 "GND_brain" H 8400 3400 50  0000 R CNN
-F 2 "" H 8200 3550 50  0001 C CNN
-F 3 "" H 8200 3550 50  0001 C CNN
-	1    8200 3550
-	1    0    0    -1  
+P 9450 3000
+F 0 "#PWR?" H 9450 2750 50  0001 C CNN
+F 1 "GND_brain" V 9450 2850 50  0000 R CNN
+F 2 "" H 9450 3000 50  0001 C CNN
+F 3 "" H 9450 3000 50  0001 C CNN
+	1    9450 3000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 61604AEF
-P 8200 3400
-F 0 "D?" V 8239 3282 50  0000 R CNN
-F 1 "LED - WP1503GT" V 8148 3282 50  0000 R CNN
-F 2 "" H 8200 3400 50  0001 C CNN
-F 3 "~" H 8200 3400 50  0001 C CNN
-	1    8200 3400
-	0    -1   -1   0   
+P 9250 3000
+F 0 "D?" H 9300 2850 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 9400 2750 31  0000 R CNN
+F 2 "" H 9250 3000 50  0001 C CNN
+F 3 "~" H 9250 3000 50  0001 C CNN
+	1    9250 3000
+	-1   0    0    1   
 $EndComp
-Text Label 7450 2900 2    50   ~ 0
+Text Label 7950 2850 2    50   ~ 0
 E_STOP_pi
 Wire Wire Line
-	7450 2650 7800 2650
+	7950 2600 8300 2600
 Wire Wire Line
-	7800 2650 7800 2750
+	8300 2600 8300 2700
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR?
 U 1 1 61618007
-P 7450 2650
-F 0 "#PWR?" H 7450 2500 50  0001 C CNN
-F 1 "+5V_brain" V 7550 2650 50  0000 L CNN
-F 2 "" H 7450 2650 50  0001 C CNN
-F 3 "" H 7450 2650 50  0001 C CNN
-	1    7450 2650
+P 7950 2600
+F 0 "#PWR?" H 7950 2450 50  0001 C CNN
+F 1 "+5V_brain" V 7950 2750 50  0000 L CNN
+F 2 "" H 7950 2600 50  0001 C CNN
+F 3 "" H 7950 2600 50  0001 C CNN
+	1    7950 2600
 	0    -1   -1   0   
 $EndComp
-Text Notes 7500 3950 0    31   ~ 0
+Text Notes 7550 5100 0    31   ~ 0
 Todo:\n- add switch\n- add LED circuits for other e_stops
-Text Notes 7500 4250 0    31   ~ 0
+Text Notes 7550 5400 0    31   ~ 0
 Todo add rest of the LEDs for other lines
+$Comp
+L Device:R R?
+U 1 1 6114BB8C
+P 7950 3000
+F 0 "R?" V 7950 2800 50  0000 R CNN
+F 1 "4.7K" V 7850 2850 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7880 3000 50  0001 C CNN
+F 3 "~" H 7950 3000 50  0001 C CNN
+	1    7950 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615FD963
+P 8750 3000
+F 0 "R?" V 8750 2800 50  0000 R CNN
+F 1 "120" V 8850 2850 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8680 3000 50  0001 C CNN
+F 3 "~" H 8750 3000 50  0001 C CNN
+	1    8750 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 2850 8600 3000
+Wire Wire Line
+	7750 3000 7800 3000
+Wire Wire Line
+	8100 2850 8100 3000
+Connection ~ 8600 2850
+Wire Wire Line
+	8600 2850 8950 2850
+Wire Wire Line
+	9400 3000 9450 3000
+Wire Wire Line
+	8900 3000 9100 3000
+Text Notes 8150 2800 0    31   ~ 0
+Todo: add switch
+Wire Wire Line
+	7950 3550 8100 3550
+$Comp
+L JPL_Robotics_Lib:GND_brain #PWR?
+U 1 1 611A028F
+P 7750 3700
+F 0 "#PWR?" H 7750 3450 50  0001 C CNN
+F 1 "GND_brain" V 7750 3550 50  0000 R CNN
+F 2 "" H 7750 3700 50  0001 C CNN
+F 3 "" H 7750 3700 50  0001 C CNN
+	1    7750 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 3550 8250 3550
+Connection ~ 8100 3550
+Wire Wire Line
+	8400 3550 8600 3550
+Text Label 8950 3550 2    50   ~ 0
+E_STOP
+$Comp
+L JPL_Robotics_Lib:GND_brain #PWR?
+U 1 1 611A0299
+P 9450 3700
+F 0 "#PWR?" H 9450 3450 50  0001 C CNN
+F 1 "GND_brain" V 9450 3550 50  0000 R CNN
+F 2 "" H 9450 3700 50  0001 C CNN
+F 3 "" H 9450 3700 50  0001 C CNN
+	1    9450 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 611A029F
+P 9250 3700
+F 0 "D?" H 9300 3550 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 9400 3450 31  0000 R CNN
+F 2 "" H 9250 3700 50  0001 C CNN
+F 3 "~" H 9250 3700 50  0001 C CNN
+	1    9250 3700
+	-1   0    0    1   
+$EndComp
+Text Label 7950 3550 2    50   ~ 0
+E_STOP_pi
+Wire Wire Line
+	7950 3300 8300 3300
+Wire Wire Line
+	8300 3300 8300 3400
+$Comp
+L JPL_Robotics_Lib:+5V_brain #PWR?
+U 1 1 611A02A8
+P 7950 3300
+F 0 "#PWR?" H 7950 3150 50  0001 C CNN
+F 1 "+5V_brain" V 7950 3450 50  0000 L CNN
+F 2 "" H 7950 3300 50  0001 C CNN
+F 3 "" H 7950 3300 50  0001 C CNN
+	1    7950 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611A02AE
+P 7950 3700
+F 0 "R?" V 7950 3500 50  0000 R CNN
+F 1 "4.7K" V 7850 3550 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7880 3700 50  0001 C CNN
+F 3 "~" H 7950 3700 50  0001 C CNN
+	1    7950 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611A02B4
+P 8750 3700
+F 0 "R?" V 8750 3500 50  0000 R CNN
+F 1 "120" V 8850 3550 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8680 3700 50  0001 C CNN
+F 3 "~" H 8750 3700 50  0001 C CNN
+	1    8750 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 3550 8600 3700
+Wire Wire Line
+	7750 3700 7800 3700
+Wire Wire Line
+	8100 3550 8100 3700
+Connection ~ 8600 3550
+Wire Wire Line
+	8600 3550 8950 3550
+Wire Wire Line
+	9400 3700 9450 3700
+Wire Wire Line
+	8900 3700 9100 3700
+Text Notes 8150 3500 0    31   ~ 0
+Todo: add switch
+Wire Wire Line
+	7950 4200 8100 4200
+$Comp
+L JPL_Robotics_Lib:GND_brain #PWR?
+U 1 1 611A5DFB
+P 7750 4350
+F 0 "#PWR?" H 7750 4100 50  0001 C CNN
+F 1 "GND_brain" V 7750 4200 50  0000 R CNN
+F 2 "" H 7750 4350 50  0001 C CNN
+F 3 "" H 7750 4350 50  0001 C CNN
+	1    7750 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 4200 8250 4200
+Connection ~ 8100 4200
+Wire Wire Line
+	8400 4200 8600 4200
+Text Label 8950 4200 2    50   ~ 0
+E_STOP
+$Comp
+L JPL_Robotics_Lib:GND_brain #PWR?
+U 1 1 611A5E05
+P 9450 4350
+F 0 "#PWR?" H 9450 4100 50  0001 C CNN
+F 1 "GND_brain" V 9450 4200 50  0000 R CNN
+F 2 "" H 9450 4350 50  0001 C CNN
+F 3 "" H 9450 4350 50  0001 C CNN
+	1    9450 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 611A5E0B
+P 9250 4350
+F 0 "D?" H 9300 4200 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 9400 4100 31  0000 R CNN
+F 2 "" H 9250 4350 50  0001 C CNN
+F 3 "~" H 9250 4350 50  0001 C CNN
+	1    9250 4350
+	-1   0    0    1   
+$EndComp
+Text Label 7950 4200 2    50   ~ 0
+E_STOP_pi
+Wire Wire Line
+	7950 3950 8300 3950
+Wire Wire Line
+	8300 3950 8300 4050
+$Comp
+L JPL_Robotics_Lib:+5V_brain #PWR?
+U 1 1 611A5E14
+P 7950 3950
+F 0 "#PWR?" H 7950 3800 50  0001 C CNN
+F 1 "+5V_brain" V 7950 4100 50  0000 L CNN
+F 2 "" H 7950 3950 50  0001 C CNN
+F 3 "" H 7950 3950 50  0001 C CNN
+	1    7950 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611A5E1A
+P 7950 4350
+F 0 "R?" V 7950 4150 50  0000 R CNN
+F 1 "4.7K" V 7850 4200 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7880 4350 50  0001 C CNN
+F 3 "~" H 7950 4350 50  0001 C CNN
+	1    7950 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 611A5E20
+P 8750 4350
+F 0 "R?" V 8750 4150 50  0000 R CNN
+F 1 "120" V 8850 4200 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8680 4350 50  0001 C CNN
+F 3 "~" H 8750 4350 50  0001 C CNN
+	1    8750 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 4200 8600 4350
+Wire Wire Line
+	7750 4350 7800 4350
+Wire Wire Line
+	8100 4200 8100 4350
+Connection ~ 8600 4200
+Wire Wire Line
+	8600 4200 8950 4200
+Wire Wire Line
+	9400 4350 9450 4350
+Wire Wire Line
+	8900 4350 9100 4350
+Text Notes 8150 4150 0    31   ~ 0
+Todo: add switch
+Wire Notes Line
+	7050 2300 7050 4550
+Wire Notes Line
+	7050 4550 10150 4550
+Wire Notes Line
+	10150 4550 10150 2300
+Wire Notes Line
+	10150 2300 7050 2300
+Text Notes 8050 2500 0    98   ~ 0
+ESTOP LEDs
+Wire Notes Line
+	8450 2400 8450 2450
+Wire Notes Line
+	8450 2450 8500 2450
 $EndSCHEMATC
