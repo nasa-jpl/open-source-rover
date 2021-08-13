@@ -57,7 +57,7 @@ Soldering Iron |<p align="center"> <img src="../images/electronics/tools/solderi
 
 
 
-This project assumes you have the tools shown in Figure 3. These will all be used in the construction and testing/debugging of this project. Most of these can be purchased inexpensively though DigiKey, Amazon, or other retailers.
+This project assumes you have the tools shown in Table 2. These will all be used in the construction and testing/debugging of this project. Most of these can be purchased inexpensively though DigiKey, Amazon, or other retailers.
 
 ## 1.3. Component Descriptions
 The following are brief descriptions and basic notes about some of the components we use in this project. For more detailed information on each component, consult the data sheet for that component.
