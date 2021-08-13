@@ -1,7 +1,7 @@
 # Mechanical Subsystem
-The mechanical subsystem makes up the physical rover without any of its brains or electronics installed.  Building the mechanical body of the rover is the first step to creating the rover, as outlined in the project's main [roadmap](/images/roadmap.png).
+The mechanical subsystem makes up the physical rover without any of its brains or electronics installed.  Building the mechanical body of the rover is the first step to creating the rover, as outlined in the project's main [roadmap](../images/roadmap.png).
 
-<img src="/images/rover.png" width="70%">
+<img src="../images/rover.png" width="70%">
 
 # Disclaimer
 **By downloading, cloning, or otherwise using the contents of this repository, you agree to the terms specified in the attached [DISCLAIMER.txt file](/DISCLAIMER.txt).**
@@ -23,4 +23,4 @@ Note that some subassemblies also include files that can be used to laser cut or
 
 The image below shows our suggested progression through the mechanical build process for this project. All individual subassemblies are meant to be completely parallelizable, so each individual subassembly could be built on its own at the same time. Once all the subassemblies are finished, there is one mechanical integration process where each of the subassemblies is integrated together to create the final rover body. Note that the mechanical integration instructions are meant only for the base assemblies that were originally released with the project, and may differ when using other modules/subassemblies that were not originally included in the base assembly. 
 
-<img src="/images/mechanical_integration/mech_roadmap.png" width="100%">
+<img src="../images/mechanical_integration/mech_roadmap.png" width="100%">

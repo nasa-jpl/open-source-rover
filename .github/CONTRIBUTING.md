@@ -2,6 +2,8 @@
 
 ## Formatting
 
+### General
+
 Contributors should configure their editor to use Unix line endings (`LF`).
 
 If you’re on a Windows machine and your editor is not correctly using Unix line endings,
@@ -10,3 +12,7 @@ On a Windows machine, set it to true — this converts LF endings into CRLF 
 
     $ git config core.autocrlf true
 
+
+### Markdown
+
+Image paths should be relative so they display correctly in a local preview.
