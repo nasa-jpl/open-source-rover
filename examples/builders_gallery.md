@@ -4,6 +4,11 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 ## JPL Rover
 
+| <image src="images/jpl_rover/rover_at_open_house_1.jpg" height="350"> <image src="images/jpl_rover/rover_at_open_house_2.jpg" height="350"> |
+|:-:|
+| <image src="images/jpl_rover/jpl_rover_1.jpg" height="350"> <image src="images/jpl_rover/dsub.jpg" height="350"> |
+|:-:|
+
 <details>
   <summary>Expand to learn more about this build!</summary>
   
@@ -16,6 +21,7 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
   * Micro D-Sub connectors at each of the rocker-bogies, so that both can be taken off easily and rover can be transported much easier!
     * [micro d-sub male](https://www.digikey.com/en/products/detail/itt-cannon-llc/M83513-03-D04N/2432917)
     * [micro d-sub female](https://www.digikey.com/en/products/detail/itt-cannon-llc/MDM-25SH006B/10491746)
+  * JPL Beanie! :) 
   
 </details>
 
