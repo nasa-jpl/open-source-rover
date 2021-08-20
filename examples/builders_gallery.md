@@ -2,6 +2,29 @@
 
 OSRs in the wild and under construction! Please [add your rover](#Instructions-for-adding-your-build) and add updates and pictures here as it evolves.
 
+## JPL Rover
+
+| <image src="images/jpl_rover/rover_at_open_house_1.jpg" height="350"> <image src="images/jpl_rover/rover_at_open_house_2.jpg" height="350"> |
+|:-:|
+| <image src="images/jpl_rover/jpl_rover_1.jpg" height="350"> <image src="images/jpl_rover/dsub.jpg" height="350"> |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+  
+  * Constructed in 2017, upgraded many times since!
+  * JPL has used this rover for many different events, from JPL/Mars outreach events, taking it to schools, local robotics clubs, and even a few robotic conferences!
+  * Maintained by a few different JPL employees over the years
+  
+  ### modifications
+  * Annodization! Before assembly of this version we got the metal pieces annodized a mix of red/black
+  * Micro D-Sub connectors at each of the rocker-bogies, so that both can be taken off easily and rover can be transported much easier!
+    * [micro d-sub male](https://www.digikey.com/en/products/detail/itt-cannon-llc/M83513-03-D04N/2432917)
+    * [micro d-sub female](https://www.digikey.com/en/products/detail/itt-cannon-llc/MDM-25SH006B/10491746)
+  * JPL Beanie! :) 
+  
+</details>
+
 ## Robert the Rover ([Achille](https://github.com/Achllle))
 
 | <image src="images/robert/robert1.png" height="150"> <image src="images/robert/robert2.jpg" height="150"> |
