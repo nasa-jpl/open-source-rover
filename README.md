@@ -89,10 +89,6 @@ For the power system of the rover, there is also ample spare power which can be 
 
 As an open-source hardware project, the rover is continuously improving. Please check ongoing [projects](https://github.com/nasa-jpl/open-source-rover/projects), [issues](https://github.com/nasa-jpl/open-source-rover/issues), [pull requests](https://github.com/nasa-jpl/open-source-rover/projects), and the forum (see below) to see if any big changes are expected soon.
 
-We are changing documentation from LaTeX to MarkDown to facilitate contributions. Some instructions might be in PDF format while other might be a `README.md` file rendered in GitHub. To print out a MarkDown page, consider using an extension like [GitHub Markdown Printer](https://chrome.google.com/webstore/detail/github-markdown-printer/fehpdlpmcegfpbkgcnaleindodeegapk?hl=en)
-
----
-
 ### Online 3D Model
 <img src="images/onshape/rover.png" width="100%"/>
 <p><img src="images/onshape/body.png" width="32%"/>
@@ -124,9 +120,7 @@ This project has elements in mechanical assembly/fabrication, uses a host of ele
    * Electrical debugging
    * Wiring
    * Electrical Safety
- * __Software:__ The rover's brain is a Raspberry Pi.  Included in this repository is all the software ready to run the rover, but some  knowledge is required for getting everything up and ready on the Raspberry Pi:
-   * Basic Linux familiarity
-   * Basic Python familiarity
+ * __Software:__ The rover's brain is a Raspberry Pi. All code can be found in the [osr-rover-code](https://github.com/nasa-jpl/osr-rover-code) repository along with step-by-step instructions to set it up. Basic familiarity with Linux, ROS, and Python will be helpful though.
 
 Most of the above are skills that you can learn and pick up fairly quickly from watching videos and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well.  See the build documents for more information.
 
@@ -147,8 +141,7 @@ This project assumes you have some standard tools to help assemble the project. 
  * Hand Drill or Drill Press
  * Dremel, Band saw, or hand saw
  * Items for operating a Raspberry Pi (Keyboard, mouse, monitor, 5V micro USB power adapter)
- 
- Here is [an Amazon list of some of the tools that may be useful](http://a.co/gnoN2LW)
+ * Wire strippers, e.g. [these](https://www.amazon.com/dp/B07DWVSR41/?coliid=ISMG8XMBILGFK&colid=1IM7RHK25RIBB&psc=0&ref_=lv_vv_lig_dp_it)
 
 #### Optional Tools
  * 3D printer
@@ -166,11 +159,6 @@ In our experience, this project takes no less than 200 person-hours to build, an
 **By downloading, cloning, or otherwise using the contents of this repository, you agree to the terms specified in the attached [DISCLAIMER.txt file](/DISCLAIMER.txt).**
 
 ## Getting Started
-
-### Folder organization
-![Rover build folders](images/folders.png)
-
-The main /osr/ folder contains all of the documentation and information necessary for the project, broken down into the 3 main sections: Mechanical, Electrical, and Software. Each of these sections is meant to be relatively self contained and should be fairly parallelizable, meaning that they could be completed simultaneously by different groups. There is a README.md in each section to help you navigate the information in that section. 
 
 ---
 
@@ -215,7 +203,7 @@ You can also download the "Gerber" files there (a typical file format for PCBs) 
 
 ![Rover build roadmap](images/roadmap.png)
 
-Above is an example roadmap of how you can build the rover and which parts of the build are dependant on the other sections. It is broken down into 5 stages:
+Above is an example roadmap of how you can build the rover and which parts of the build are dependent on the other sections. It is broken down into 5 stages:
  * __Stage 1:__ Start getting all the parts!  
  
  * __Stage 2:__ Once you have all the parts, everything in stage 2 can be completed in parallel. It is *highly* recommended to start on the electrical testing of components outside the robot before doing any electrical work inside the completed robot body. You can also work on the software at any stage between here and the end.
