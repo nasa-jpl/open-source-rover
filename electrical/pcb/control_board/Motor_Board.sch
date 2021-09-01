@@ -879,7 +879,7 @@ P 2750 7700
 AR Path="/60B7545A" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/60B7545A" Ref="R2"  Part="1" 
 F 0 "R2" H 2818 7746 50  0000 L CNN
-F 1 "10K" H 2818 7655 50  0000 L CNN
+F 1 "10k" H 2818 7655 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2790 7690 50  0001 C CNN
 F 3 "~" H 2750 7700 50  0001 C CNN
 	1    2750 7700
@@ -931,14 +931,6 @@ F 3 "" H 2100 8800 50  0001 C CNN
 	1    2100 8800
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	4900 9350 4900 4900
-Wire Notes Line style solid rgb(0, 0, 0)
-	4900 4900 1000 4900
-Wire Notes Line style solid rgb(0, 0, 0)
-	1000 4900 1000 9350
-Wire Notes Line style solid rgb(0, 0, 0)
-	1000 9350 4900 9350
 Wire Wire Line
 	4050 6850 4050 6900
 Connection ~ 4050 6900
@@ -1539,8 +1531,6 @@ Wire Wire Line
 	14100 3350 13800 3350
 Text Label 13800 3350 0    50   ~ 0
 alert
-Wire Wire Line
-	4050 8900 3650 8900
 Text Label 3650 8900 0    50   ~ 0
 alert
 $Comp
@@ -1797,7 +1787,7 @@ P 7050 8200
 AR Path="/6133954D" Ref="C?"  Part="1" 
 AR Path="/60A51BAC/6133954D" Ref="C32"  Part="1" 
 F 0 "C32" V 7150 8150 50  0000 L CNN
-F 1 "10uf" V 6950 8150 50  0000 L CNN
+F 1 "100uf" V 6950 8150 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7050 8200 50  0001 C CNN
 F 3 "~" H 7050 8200 50  0001 C CNN
 	1    7050 8200
@@ -1810,7 +1800,7 @@ P 7050 8550
 AR Path="/61339A14" Ref="C?"  Part="1" 
 AR Path="/60A51BAC/61339A14" Ref="C33"  Part="1" 
 F 0 "C33" V 7150 8500 50  0000 L CNN
-F 1 "10uf" V 6950 8500 50  0000 L CNN
+F 1 "100uf" V 6950 8500 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7050 8550 50  0001 C CNN
 F 3 "~" H 7050 8550 50  0001 C CNN
 	1    7050 8550
@@ -1823,7 +1813,7 @@ P 7050 8900
 AR Path="/61339C74" Ref="C?"  Part="1" 
 AR Path="/60A51BAC/61339C74" Ref="C34"  Part="1" 
 F 0 "C34" V 7150 8850 50  0000 L CNN
-F 1 "10uf" V 6950 8850 50  0000 L CNN
+F 1 "100uf" V 6950 8850 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7050 8900 50  0001 C CNN
 F 3 "~" H 7050 8900 50  0001 C CNN
 	1    7050 8900
@@ -1849,7 +1839,7 @@ P 7050 7850
 AR Path="/6116B053" Ref="C?"  Part="1" 
 AR Path="/60A51BAC/6116B053" Ref="C31"  Part="1" 
 F 0 "C31" V 7150 7800 50  0000 L CNN
-F 1 "10uf" V 6950 7800 50  0000 L CNN
+F 1 "100uf" V 6950 7800 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7050 7850 50  0001 C CNN
 F 3 "~" H 7050 7850 50  0001 C CNN
 	1    7050 7850
@@ -1879,19 +1869,6 @@ F 1 "GND_motor" H 7205 8927 50  0000 C CNN
 F 2 "" H 7200 9100 50  0001 C CNN
 F 3 "" H 7200 9100 50  0001 C CNN
 	1    7200 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 60C1AC43
-P 6850 7750
-AR Path="/60C1AC43" Ref="#PWR?"  Part="1" 
-AR Path="/60A51BAC/60C1AC43" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 6850 7600 50  0001 C CNN
-F 1 "+BATT" H 6865 7915 39  0000 C CNN
-F 2 "" H 6850 7750 50  0001 C CNN
-F 3 "" H 6850 7750 50  0001 C CNN
-	1    6850 7750
 	1    0    0    -1  
 $EndComp
 Text Notes 5900 9550 0    31   ~ 0
@@ -2567,19 +2544,6 @@ F 3 "" H 9950 9100 50  0001 C CNN
 	1    9950 9100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 610BBC5A
-P 9600 7750
-AR Path="/610BBC5A" Ref="#PWR?"  Part="1" 
-AR Path="/60A51BAC/610BBC5A" Ref="#PWR055"  Part="1" 
-F 0 "#PWR055" H 9600 7600 50  0001 C CNN
-F 1 "+BATT" H 9615 7915 39  0000 C CNN
-F 2 "" H 9600 7750 50  0001 C CNN
-F 3 "" H 9600 7750 50  0001 C CNN
-	1    9600 7750
-	1    0    0    -1  
-$EndComp
 Connection ~ 11300 9050
 Wire Wire Line
 	11300 9100 11300 9050
@@ -2773,19 +2737,6 @@ F 3 "" H 11300 9100 50  0001 C CNN
 	1    11300 9100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 610F682D
-P 10950 7750
-AR Path="/610F682D" Ref="#PWR?"  Part="1" 
-AR Path="/60A51BAC/610F682D" Ref="#PWR057"  Part="1" 
-F 0 "#PWR057" H 10950 7600 50  0001 C CNN
-F 1 "+BATT" H 10965 7915 39  0000 C CNN
-F 2 "" H 10950 7750 50  0001 C CNN
-F 3 "" H 10950 7750 50  0001 C CNN
-	1    10950 7750
-	1    0    0    -1  
-$EndComp
 Connection ~ 12600 9050
 Wire Wire Line
 	12600 9100 12600 9050
@@ -2969,19 +2920,6 @@ F 1 "GND_motor" H 12605 8927 50  0000 C CNN
 F 2 "" H 12600 9100 50  0001 C CNN
 F 3 "" H 12600 9100 50  0001 C CNN
 	1    12600 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 61117DA4
-P 12250 7750
-AR Path="/61117DA4" Ref="#PWR?"  Part="1" 
-AR Path="/60A51BAC/61117DA4" Ref="#PWR059"  Part="1" 
-F 0 "#PWR059" H 12250 7600 50  0001 C CNN
-F 1 "+BATT" H 12265 7915 39  0000 C CNN
-F 2 "" H 12250 7750 50  0001 C CNN
-F 3 "" H 12250 7750 50  0001 C CNN
-	1    12250 7750
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -3194,4 +3132,287 @@ F 3 "" H 11050 5750 50  0001 C CNN
 $EndComp
 Text Notes 10700 6500 0    31   ~ 0
 12V Regulator header
+Text Notes 12700 5350 0    98   ~ 0
+Power LEDs
+Text Label 12300 5650 0    50   ~ 0
+BATTPOS
+$Comp
+L JPL_Robotics_Lib:+5V_motor #PWR?
+U 1 1 6132F3BA
+P 12400 6400
+F 0 "#PWR?" H 12400 6250 50  0001 C CNN
+F 1 "+5V_motor" V 12500 6450 50  0000 C CNN
+F 2 "" H 12400 6400 50  0001 C CNN
+F 3 "" H 12400 6400 50  0001 C CNN
+	1    12400 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:GND_motor #PWR?
+U 1 1 6132FC0D
+P 13550 6000
+F 0 "#PWR?" H 13550 5750 50  0001 C CNN
+F 1 "GND_motor" H 13600 5850 50  0000 C CNN
+F 2 "" H 13550 6000 50  0001 C CNN
+F 3 "" H 13550 6000 50  0001 C CNN
+	1    13550 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6139BB6C
+P 12800 5650
+AR Path="/6139BB6C" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/6139BB6C" Ref="R?"  Part="1" 
+F 0 "R?" V 12900 5500 50  0000 L CNN
+F 1 "690" V 12900 5650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 12840 5640 50  0001 C CNN
+F 3 "~" H 12800 5650 50  0001 C CNN
+	1    12800 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 613EAEB5
+P 12800 5900
+AR Path="/613EAEB5" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/613EAEB5" Ref="R?"  Part="1" 
+F 0 "R?" V 12900 5750 50  0000 L CNN
+F 1 "690" V 12900 5900 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 12840 5890 50  0001 C CNN
+F 3 "~" H 12800 5900 50  0001 C CNN
+	1    12800 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 6132E899
+P 12400 5900
+AR Path="/6132E899" Ref="#PWR?"  Part="1" 
+AR Path="/60A51BAC/6132E899" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12400 5750 50  0001 C CNN
+F 1 "+BATT" V 12500 5950 50  0000 C CNN
+F 2 "" H 12400 5900 50  0001 C CNN
+F 3 "" H 12400 5900 50  0001 C CNN
+	1    12400 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12300 5650 12650 5650
+$Comp
+L Device:LED D?
+U 1 1 61439D17
+P 13200 5650
+AR Path="/60A5279E/61439D17" Ref="D?"  Part="1" 
+AR Path="/60A51BAC/61439D17" Ref="D?"  Part="1" 
+F 0 "D?" H 13350 5550 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 13150 5500 31  0000 R CNN
+F 2 "" H 13200 5650 50  0001 C CNN
+F 3 "~" H 13200 5650 50  0001 C CNN
+	1    13200 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12950 5650 13050 5650
+Wire Wire Line
+	13350 5650 13550 5650
+Wire Wire Line
+	13550 5650 13550 5900
+$Comp
+L Device:R_US R?
+U 1 1 615119DC
+P 12800 6150
+AR Path="/615119DC" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/615119DC" Ref="R?"  Part="1" 
+F 0 "R?" V 12900 6000 50  0000 L CNN
+F 1 "490" V 12900 6150 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 12840 6140 50  0001 C CNN
+F 3 "~" H 12800 6150 50  0001 C CNN
+	1    12800 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61511E53
+P 12800 6400
+AR Path="/61511E53" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/61511E53" Ref="R?"  Part="1" 
+F 0 "R?" V 12900 6250 50  0000 L CNN
+F 1 "140" V 12900 6400 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 12840 6390 50  0001 C CNN
+F 3 "~" H 12800 6400 50  0001 C CNN
+	1    12800 6400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12400 5900 12650 5900
+Wire Wire Line
+	12400 6150 12650 6150
+Wire Wire Line
+	12400 6400 12650 6400
+$Comp
+L Device:LED D?
+U 1 1 6168132B
+P 13200 5900
+AR Path="/60A5279E/6168132B" Ref="D?"  Part="1" 
+AR Path="/60A51BAC/6168132B" Ref="D?"  Part="1" 
+F 0 "D?" H 13350 5800 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 13150 5750 31  0001 R CNN
+F 2 "" H 13200 5900 50  0001 C CNN
+F 3 "~" H 13200 5900 50  0001 C CNN
+	1    13200 5900
+	-1   0    0    1   
+$EndComp
+Text Notes 12250 6650 0    31   ~ 0
+Todo: are these weird/non-standard R values? Sized for 20mA. Better values?
+$Comp
+L Device:LED D?
+U 1 1 61682BA2
+P 13200 6150
+AR Path="/60A5279E/61682BA2" Ref="D?"  Part="1" 
+AR Path="/60A51BAC/61682BA2" Ref="D?"  Part="1" 
+F 0 "D?" H 13350 6050 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 13150 6000 31  0001 R CNN
+F 2 "" H 13200 6150 50  0001 C CNN
+F 3 "~" H 13200 6150 50  0001 C CNN
+	1    13200 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61682F73
+P 13200 6400
+AR Path="/60A5279E/61682F73" Ref="D?"  Part="1" 
+AR Path="/60A51BAC/61682F73" Ref="D?"  Part="1" 
+F 0 "D?" H 13350 6300 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 13150 6250 31  0001 R CNN
+F 2 "" H 13200 6400 50  0001 C CNN
+F 3 "~" H 13200 6400 50  0001 C CNN
+	1    13200 6400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12950 5900 13050 5900
+Wire Wire Line
+	12950 6150 13050 6150
+Wire Wire Line
+	12950 6400 13050 6400
+Connection ~ 13550 6000
+Wire Wire Line
+	13550 6150 13350 6150
+Wire Wire Line
+	13550 6000 13550 6150
+Wire Wire Line
+	13350 6400 13550 6400
+Wire Wire Line
+	13550 6400 13550 6150
+Connection ~ 13550 6150
+Wire Wire Line
+	13350 5900 13550 5900
+Connection ~ 13550 5900
+Wire Wire Line
+	13550 5900 13550 6000
+Wire Notes Line
+	12050 5150 14050 5150
+Wire Notes Line
+	14050 5150 14050 6750
+Wire Notes Line
+	14050 6750 12050 6750
+Wire Notes Line
+	12050 6750 12050 5150
+$Comp
+L JPL_Robotics_Lib:+12V_motor #PWR?
+U 1 1 6132ED86
+P 12400 6150
+F 0 "#PWR?" H 12400 6000 50  0001 C CNN
+F 1 "+12V_motor" V 12500 6200 50  0000 C CNN
+F 2 "" H 12400 6150 50  0001 C CNN
+F 3 "" H 12400 6150 50  0001 C CNN
+	1    12400 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 613B820D
+P 3450 9100
+AR Path="/613B820D" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/613B820D" Ref="R?"  Part="1" 
+F 0 "R?" H 3518 9146 50  0000 L CNN
+F 1 "4.7k" H 3518 9055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3490 9090 50  0001 C CNN
+F 3 "~" H 3450 9100 50  0001 C CNN
+	1    3450 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 8900 3450 8950
+Wire Wire Line
+	3450 8900 4050 8900
+$Comp
+L JPL_Robotics_Lib:GND_motor #PWR?
+U 1 1 6140721C
+P 3450 9250
+F 0 "#PWR?" H 3450 9000 50  0001 C CNN
+F 1 "GND_motor" H 3455 9077 50  0000 C CNN
+F 2 "" H 3450 9250 50  0001 C CNN
+F 3 "" H 3450 9250 50  0001 C CNN
+	1    3450 9250
+	1    0    0    -1  
+$EndComp
+Text Notes 2800 9150 0    31   ~ 0
+Todo: good pull up value?
+Wire Notes Line
+	4900 9550 1000 9550
+Wire Notes Line
+	4900 4900 4900 9550
+Wire Notes Line
+	4900 4900 1000 4900
+Wire Notes Line
+	1000 4900 1000 9550
+$Comp
+L JPL_Robotics_Lib:+5V_motor #PWR?
+U 1 1 614843D2
+P 6850 7750
+F 0 "#PWR?" H 6850 7600 50  0001 C CNN
+F 1 "+5V_motor" H 6865 7923 50  0000 C CNN
+F 2 "" H 6850 7750 50  0001 C CNN
+F 3 "" H 6850 7750 50  0001 C CNN
+	1    6850 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:+5V_motor #PWR?
+U 1 1 6148535B
+P 9600 7750
+F 0 "#PWR?" H 9600 7600 50  0001 C CNN
+F 1 "+5V_motor" H 9615 7923 50  0000 C CNN
+F 2 "" H 9600 7750 50  0001 C CNN
+F 3 "" H 9600 7750 50  0001 C CNN
+	1    9600 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:+5V_motor #PWR?
+U 1 1 61485C7D
+P 10950 7750
+F 0 "#PWR?" H 10950 7600 50  0001 C CNN
+F 1 "+5V_motor" H 10965 7923 50  0000 C CNN
+F 2 "" H 10950 7750 50  0001 C CNN
+F 3 "" H 10950 7750 50  0001 C CNN
+	1    10950 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:+5V_motor #PWR?
+U 1 1 61485F68
+P 12250 7750
+F 0 "#PWR?" H 12250 7600 50  0001 C CNN
+F 1 "+5V_motor" H 12265 7923 50  0000 C CNN
+F 2 "" H 12250 7750 50  0001 C CNN
+F 3 "" H 12250 7750 50  0001 C CNN
+	1    12250 7750
+	1    0    0    -1  
+$EndComp
+Text Notes 7350 8150 0    31   ~ 0
+*Electrolytic caps
 $EndSCHEMATC
