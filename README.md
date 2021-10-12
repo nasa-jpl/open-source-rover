@@ -49,7 +49,7 @@ Again, the above statistics depend on which components you select when buying pa
 ---
 
 ### Communication
-In addition to this repository which holds all the documentation for this project, there are two additional websites tied to this project. One is a [landing site](https://opensourcerover.jpl.nasa.gov) which holds general information and an overview of the rover and how it works:
+In addition to this repository which holds all the documentation for this project, there are two additional websites tied to this project. One is a [web landing page](https://opensourcerover.jpl.nasa.gov) which holds general information and an overview of the rover and how it works:
 
 We have a few ways to connect with the team and community of Open Source Rover builders:
 
