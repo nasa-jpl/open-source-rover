@@ -854,10 +854,10 @@ F 3 "~" H 8100 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_BJT:2N3906 Q49
+L Transistor_BJT:2N3906 Q2
 U 1 1 6129E305
 P 8650 4150
-F 0 "Q49" H 8840 4104 50  0000 L CNN
+F 0 "Q2" H 8840 4104 50  0000 L CNN
 F 1 "2N3906" H 8840 4195 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8850 4075 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 8650 4150 50  0001 L CNN
@@ -865,10 +865,10 @@ F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 8650 4150 50  0001 L 
 	1    0    0    1   
 $EndComp
 $Comp
-L Diode:1N4148 D53
+L Diode:1N4148 D13
 U 1 1 612DF187
 P 7700 4050
-F 0 "D53" H 7700 4267 50  0000 C CNN
+F 0 "D13" H 7700 4267 50  0000 C CNN
 F 1 "1N4148" H 7700 4176 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7700 3875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7700 4050 50  0001 C CNN
@@ -946,10 +946,10 @@ F 3 "~" H 8100 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_BJT:2N3906 Q50
+L Transistor_BJT:2N3906 Q3
 U 1 1 6132632F
 P 8650 4850
-F 0 "Q50" H 8840 4804 50  0000 L CNN
+F 0 "Q3" H 8840 4804 50  0000 L CNN
 F 1 "2N3906" H 8840 4895 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8850 4775 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 8650 4850 50  0001 L CNN
@@ -957,10 +957,10 @@ F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 8650 4850 50  0001 L 
 	1    0    0    1   
 $EndComp
 $Comp
-L Diode:1N4148 D54
+L Diode:1N4148 D14
 U 1 1 61326335
 P 7700 4750
-F 0 "D54" H 7700 4967 50  0000 C CNN
+F 0 "D14" H 7700 4967 50  0000 C CNN
 F 1 "1N4148" H 7700 4876 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7700 4575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7700 4750 50  0001 C CNN
@@ -1234,10 +1234,10 @@ alert
 Wire Wire Line
 	7500 5950 7150 5950
 $Comp
-L Diode:1N4148 D52
+L Diode:1N4148 D12
 U 1 1 6133EEF4
 P 7650 5950
-F 0 "D52" H 7650 6167 50  0000 C CNN
+F 0 "D12" H 7650 6167 50  0000 C CNN
 F 1 "1N4148" H 7650 6076 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7650 5775 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 5950 50  0001 C CNN
@@ -1245,10 +1245,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3906 Q48
+L Transistor_BJT:2N3906 Q1
 U 1 1 6133EEEE
 P 8550 5950
-F 0 "Q48" H 8740 5904 50  0000 L CNN
+F 0 "Q1" H 8740 5904 50  0000 L CNN
 F 1 "2N3906" H 8740 5995 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8750 5875 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 8550 5950 50  0001 L CNN
