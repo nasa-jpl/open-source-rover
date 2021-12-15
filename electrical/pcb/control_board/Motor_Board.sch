@@ -3497,4 +3497,16 @@ Wire Notes Line
 	9100 5000 9100 6800
 Text Notes 10950 6700 0    31   ~ 0
 Placeholder for second header
+Text Notes 3350 4250 0    31   ~ 0
+todo: change to 3.3v (roboclaws can work either way)
+Text Notes 8550 2500 0    31   ~ 0
+Filtering caps for cheap snubber circuits on motors
+Text Notes 5400 6250 0    31   ~ 0
+Todo: need decoupling cap, use 100nF
+Text Notes 5350 6600 0    31   ~ 0
+Todo: also maybe add another header \non the opposite side from J31?
+Text Notes 7000 6750 0    31   ~ 0
+Todo: do we really need these for mechanical support?
+Text Notes 1300 5600 0    31   ~ 0
+Todo: Todo: merge J29 and J30
 $EndSCHEMATC

@@ -622,47 +622,17 @@ $EndComp
 Wire Wire Line
 	8150 1650 8300 1650
 Connection ~ 8150 1650
-Wire Wire Line
-	8450 1650 8650 1650
-Text Label 9000 1650 2    50   ~ 0
-E_STOP
-$Comp
-L JPL_Robotics_Lib:GND_brain #PWR076
-U 1 1 61606D72
-P 9500 1800
-F 0 "#PWR076" H 9500 1550 50  0001 C CNN
-F 1 "GND_brain" V 9500 1650 50  0000 R CNN
-F 2 "" H 9500 1800 50  0001 C CNN
-F 3 "" H 9500 1800 50  0001 C CNN
-	1    9500 1800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D6
-U 1 1 61604AEF
-P 9300 1800
-F 0 "D6" H 9350 1650 50  0000 R CNN
-F 1 "LED - WP1503GT (green)" H 9450 1550 31  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 9300 1800 50  0001 C CNN
-F 3 "~" H 9300 1800 50  0001 C CNN
-	1    9300 1800
-	-1   0    0    1   
-$EndComp
 Text Label 8000 1650 2    50   ~ 0
 E_STOP_pi
-Wire Wire Line
-	8000 1400 8350 1400
-Wire Wire Line
-	8350 1400 8350 1500
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR066
 U 1 1 61618007
-P 8000 1400
-F 0 "#PWR066" H 8000 1250 50  0001 C CNN
-F 1 "+5V_brain" V 8000 1550 50  0000 L CNN
-F 2 "" H 8000 1400 50  0001 C CNN
-F 3 "" H 8000 1400 50  0001 C CNN
-	1    8000 1400
+P 8000 1450
+F 0 "#PWR066" H 8000 1300 50  0001 C CNN
+F 1 "+5V_brain" V 8000 1600 50  0000 L CNN
+F 2 "" H 8000 1450 50  0001 C CNN
+F 3 "" H 8000 1450 50  0001 C CNN
+	1    8000 1450
 	0    -1   -1   0   
 $EndComp
 Text Notes 1850 6200 0    31   ~ 0
@@ -670,20 +640,11 @@ Todo:\n- add switch\n- add LED circuits for other e_stops
 Text Notes 1850 6500 0    31   ~ 0
 Todo add rest of the LEDs for other lines
 Wire Wire Line
-	8650 1650 8650 1800
+	8750 1550 8750 1700
 Wire Wire Line
 	7800 1800 7850 1800
 Wire Wire Line
 	8150 1650 8150 1800
-Connection ~ 8650 1650
-Wire Wire Line
-	8650 1650 9000 1650
-Wire Wire Line
-	9450 1800 9500 1800
-Wire Wire Line
-	8950 1800 9150 1800
-Text Notes 8200 1600 0    31   ~ 0
-Todo: add switch
 Wire Wire Line
 	8000 2350 8150 2350
 $Comp
@@ -700,64 +661,55 @@ $EndComp
 Wire Wire Line
 	8150 2350 8300 2350
 Connection ~ 8150 2350
-Wire Wire Line
-	8450 2350 8650 2350
-Text Label 9000 2350 2    50   ~ 0
+Text Label 9100 2250 2    50   ~ 0
 E_STOP2
 $Comp
 L JPL_Robotics_Lib:GND_brain #PWR077
 U 1 1 611A0299
-P 9500 2500
-F 0 "#PWR077" H 9500 2250 50  0001 C CNN
-F 1 "GND_brain" V 9500 2350 50  0000 R CNN
-F 2 "" H 9500 2500 50  0001 C CNN
-F 3 "" H 9500 2500 50  0001 C CNN
-	1    9500 2500
+P 9600 2400
+F 0 "#PWR077" H 9600 2150 50  0001 C CNN
+F 1 "GND_brain" V 9600 2250 50  0000 R CNN
+F 2 "" H 9600 2400 50  0001 C CNN
+F 3 "" H 9600 2400 50  0001 C CNN
+	1    9600 2400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D7
 U 1 1 611A029F
-P 9300 2500
-F 0 "D7" H 9350 2350 50  0000 R CNN
-F 1 "LED - WP1503GT (green)" H 9450 2250 31  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 9300 2500 50  0001 C CNN
-F 3 "~" H 9300 2500 50  0001 C CNN
-	1    9300 2500
+P 9400 2400
+F 0 "D7" H 9450 2250 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 9550 2150 31  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 9400 2400 50  0001 C CNN
+F 3 "~" H 9400 2400 50  0001 C CNN
+	1    9400 2400
 	-1   0    0    1   
 $EndComp
 Text Label 8000 2350 2    50   ~ 0
 E_STOP2_in
-Wire Wire Line
-	8000 2100 8350 2100
-Wire Wire Line
-	8350 2100 8350 2200
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR067
 U 1 1 611A02A8
-P 8000 2100
-F 0 "#PWR067" H 8000 1950 50  0001 C CNN
-F 1 "+5V_brain" V 8000 2250 50  0000 L CNN
-F 2 "" H 8000 2100 50  0001 C CNN
-F 3 "" H 8000 2100 50  0001 C CNN
-	1    8000 2100
+P 8000 2150
+F 0 "#PWR067" H 8000 2000 50  0001 C CNN
+F 1 "+5V_brain" V 8000 2300 50  0000 L CNN
+F 2 "" H 8000 2150 50  0001 C CNN
+F 3 "" H 8000 2150 50  0001 C CNN
+	1    8000 2150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8650 2350 8650 2500
+	8750 2250 8750 2400
 Wire Wire Line
 	7800 2500 7850 2500
 Wire Wire Line
 	8150 2350 8150 2500
-Connection ~ 8650 2350
 Wire Wire Line
-	8650 2350 9000 2350
+	8750 2250 9100 2250
 Wire Wire Line
-	9450 2500 9500 2500
+	9550 2400 9600 2400
 Wire Wire Line
-	8950 2500 9150 2500
-Text Notes 8200 2300 0    31   ~ 0
-Todo: add switch
+	9050 2400 9250 2400
 Wire Wire Line
 	8000 3000 8150 3000
 $Comp
@@ -774,64 +726,51 @@ $EndComp
 Wire Wire Line
 	8150 3000 8300 3000
 Connection ~ 8150 3000
-Wire Wire Line
-	8450 3000 8650 3000
-Text Label 9000 3000 2    50   ~ 0
+Text Label 9100 2900 2    50   ~ 0
 E_STOP3
 $Comp
 L JPL_Robotics_Lib:GND_brain #PWR078
 U 1 1 611A5E05
-P 9500 3150
-F 0 "#PWR078" H 9500 2900 50  0001 C CNN
-F 1 "GND_brain" V 9500 3000 50  0000 R CNN
-F 2 "" H 9500 3150 50  0001 C CNN
-F 3 "" H 9500 3150 50  0001 C CNN
-	1    9500 3150
+P 9600 3050
+F 0 "#PWR078" H 9600 2800 50  0001 C CNN
+F 1 "GND_brain" V 9600 2900 50  0000 R CNN
+F 2 "" H 9600 3050 50  0001 C CNN
+F 3 "" H 9600 3050 50  0001 C CNN
+	1    9600 3050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D8
 U 1 1 611A5E0B
-P 9300 3150
-F 0 "D8" H 9350 3000 50  0000 R CNN
-F 1 "LED - WP1503GT (green)" H 9450 2900 31  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 9300 3150 50  0001 C CNN
-F 3 "~" H 9300 3150 50  0001 C CNN
-	1    9300 3150
+P 9400 3050
+F 0 "D8" H 9450 2900 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 9550 2800 31  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 9400 3050 50  0001 C CNN
+F 3 "~" H 9400 3050 50  0001 C CNN
+	1    9400 3050
 	-1   0    0    1   
 $EndComp
 Text Label 8000 3000 2    50   ~ 0
 E_STOP3_in
-Wire Wire Line
-	8000 2750 8350 2750
-Wire Wire Line
-	8350 2750 8350 2850
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR072
 U 1 1 611A5E14
-P 8000 2750
-F 0 "#PWR072" H 8000 2600 50  0001 C CNN
-F 1 "+5V_brain" V 8000 2900 50  0000 L CNN
-F 2 "" H 8000 2750 50  0001 C CNN
-F 3 "" H 8000 2750 50  0001 C CNN
-	1    8000 2750
+P 8000 2800
+F 0 "#PWR072" H 8000 2650 50  0001 C CNN
+F 1 "+5V_brain" V 8000 2950 50  0000 L CNN
+F 2 "" H 8000 2800 50  0001 C CNN
+F 3 "" H 8000 2800 50  0001 C CNN
+	1    8000 2800
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8650 3000 8650 3150
+	8750 2900 8750 3050
 Wire Wire Line
 	7800 3150 7850 3150
 Wire Wire Line
 	8150 3000 8150 3150
-Connection ~ 8650 3000
 Wire Wire Line
-	8650 3000 9000 3000
-Wire Wire Line
-	9450 3150 9500 3150
-Wire Wire Line
-	8950 3150 9150 3150
-Text Notes 8200 2950 0    31   ~ 0
-Todo: add switch
+	9550 3050 9600 3050
 Wire Notes Line
 	7100 1100 7100 3350
 Wire Notes Line
@@ -1044,44 +983,30 @@ F 3 "~" H 1700 3250 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 613A416D
-P 8800 1800
-AR Path="/613A416D" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/613A416D" Ref="R?"  Part="1" 
-AR Path="/60A5279E/613A416D" Ref="R59"  Part="1" 
-F 0 "R59" V 8700 1700 50  0000 L CNN
-F 1 "140" V 8900 1750 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8840 1790 50  0001 C CNN
-F 3 "~" H 8800 1800 50  0001 C CNN
-	1    8800 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R?
 U 1 1 613A639A
-P 8800 2500
+P 8900 2400
 AR Path="/613A639A" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/613A639A" Ref="R?"  Part="1" 
 AR Path="/60A5279E/613A639A" Ref="R60"  Part="1" 
-F 0 "R60" V 8700 2400 50  0000 L CNN
-F 1 "140" V 8900 2450 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8840 2490 50  0001 C CNN
-F 3 "~" H 8800 2500 50  0001 C CNN
-	1    8800 2500
+F 0 "R60" V 8800 2300 50  0000 L CNN
+F 1 "140" V 9000 2350 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8940 2390 50  0001 C CNN
+F 3 "~" H 8900 2400 50  0001 C CNN
+	1    8900 2400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 613A6626
-P 8800 3150
+P 8900 3050
 AR Path="/613A6626" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/613A6626" Ref="R?"  Part="1" 
 AR Path="/60A5279E/613A6626" Ref="R61"  Part="1" 
-F 0 "R61" V 8700 3050 50  0000 L CNN
-F 1 "140" V 8900 3100 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8840 3140 50  0001 C CNN
-F 3 "~" H 8800 3150 50  0001 C CNN
-	1    8800 3150
+F 0 "R61" V 8800 2950 50  0000 L CNN
+F 1 "140" V 9000 3000 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8940 3040 50  0001 C CNN
+F 3 "~" H 8900 3050 50  0001 C CNN
+	1    8900 3050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1324,4 +1249,110 @@ Wire Wire Line
 Connection ~ 1900 1900
 Wire Wire Line
 	1900 1900 2250 1900
+Text Notes 8200 950  0    31   ~ 0
+Todo: all estop pull ups need to be 3.3v
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 61BA1EE6
+P 8500 1550
+F 0 "SW1" H 8450 1450 50  0000 C CNN
+F 1 "SW_SPDT" H 8500 1316 50  0001 C CNN
+F 2 "" H 8500 1550 50  0001 C CNN
+F 3 "~" H 8500 1550 50  0001 C CNN
+	1    8500 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 1450 8300 1450
+$Comp
+L Device:R_US R?
+U 1 1 613A416D
+P 8900 1700
+AR Path="/613A416D" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/613A416D" Ref="R?"  Part="1" 
+AR Path="/60A5279E/613A416D" Ref="R59"  Part="1" 
+F 0 "R59" V 8800 1600 50  0000 L CNN
+F 1 "140" V 9000 1650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8940 1690 50  0001 C CNN
+F 3 "~" H 8900 1700 50  0001 C CNN
+	1    8900 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9050 1700 9250 1700
+Wire Wire Line
+	9550 1700 9600 1700
+Wire Wire Line
+	8750 1550 9100 1550
+$Comp
+L Device:LED D6
+U 1 1 61604AEF
+P 9400 1700
+F 0 "D6" H 9450 1550 50  0000 R CNN
+F 1 "LED - WP1503GT (green)" H 9550 1450 31  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 9400 1700 50  0001 C CNN
+F 3 "~" H 9400 1700 50  0001 C CNN
+	1    9400 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:GND_brain #PWR076
+U 1 1 61606D72
+P 9600 1700
+F 0 "#PWR076" H 9600 1450 50  0001 C CNN
+F 1 "GND_brain" V 9600 1550 50  0000 R CNN
+F 2 "" H 9600 1700 50  0001 C CNN
+F 3 "" H 9600 1700 50  0001 C CNN
+	1    9600 1700
+	0    -1   -1   0   
+$EndComp
+Text Label 9100 1550 2    50   ~ 0
+E_STOP
+Wire Wire Line
+	8700 1550 8750 1550
+Connection ~ 8750 1550
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 61BDD503
+P 8500 2250
+F 0 "SW2" H 8450 2150 50  0000 C CNN
+F 1 "SW_SPDT" H 8500 2016 50  0001 C CNN
+F 2 "" H 8500 2250 50  0001 C CNN
+F 3 "~" H 8500 2250 50  0001 C CNN
+	1    8500 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 2150 8300 2150
+Wire Wire Line
+	8700 2250 8750 2250
+Connection ~ 8750 2250
+$Comp
+L Switch:SW_SPDT SW3
+U 1 1 61C0A1A1
+P 8500 2900
+F 0 "SW3" H 8450 2800 50  0000 C CNN
+F 1 "SW_SPDT" H 8500 2666 50  0001 C CNN
+F 2 "" H 8500 2900 50  0001 C CNN
+F 3 "~" H 8500 2900 50  0001 C CNN
+	1    8500 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 2800 8300 2800
+Wire Wire Line
+	8700 2900 8750 2900
+Connection ~ 8750 2900
+Wire Wire Line
+	8750 2900 9100 2900
+Wire Wire Line
+	9050 3050 9250 3050
+Text Notes 7150 5650 0    31   ~ 0
+Todo: make sure d12 right direction
+Text Notes 7200 3750 0    31   ~ 0
+Todo: make sure d13 \nand d14 are right direction
+Text Notes 3600 3250 0    31   ~ 0
+Todo: add more leds for \nthe other gpio pins
+Text Notes 550  2000 0    31   ~ 0
+Todo: remove C18…was originally for ina260
 $EndSCHEMATC
