@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V_brain
+D Power symbol creates a global label with name "+12V_brain"
+K power-flag
+$ENDCMP
+#
+$CMP +12V_motor
+D Power symbol creates a global label with name "+12V_motor"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_brain
+D Power symbol creates a global label with name "+3.3V_brain"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_motor
+D Power symbol creates a global label with name "+3.3V_motor"
+K power-flag
+$ENDCMP
+#
+$CMP +5V_brain
+D Power symbol creates a global label with name "+5V_brain"
+K power-flag
+$ENDCMP
+#
+$CMP +5V_motor
+D Power symbol creates a global label with name "+5V_motor"
+K power-flag
+$ENDCMP
+#
+$CMP GND_brain
+D Power symbol creates a global label with name "GND_brain" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GND_motor
+D Power symbol creates a global label with name "GND_motor" , ground
+K power-flag
+$ENDCMP
+#
+#End Doc Library

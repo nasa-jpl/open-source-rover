@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.4
 #
 # Arduino_uno_sheild-rescue_6posheader-JPL_Robotics_Lib
 #
-DEF ~Arduino_uno_sheild-rescue_6posheader-JPL_Robotics_Lib J 0 40 N Y 1 F N
+DEF Arduino_uno_sheild-rescue_6posheader-JPL_Robotics_Lib J 0 40 N Y 1 F N
 F0 "J" 50 400 50 H V C CNN
 F1 "Arduino_uno_sheild-rescue_6posheader-JPL_Robotics_Lib" 200 500 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
