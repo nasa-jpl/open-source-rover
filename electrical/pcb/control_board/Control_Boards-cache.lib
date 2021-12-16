@@ -198,6 +198,21 @@ X +3.3V_brain 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# JPL_Robotics_Lib_+3.3V_motor
+#
+DEF JPL_Robotics_Lib_+3.3V_motor #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "JPL_Robotics_Lib_+3.3V_motor" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3.3V_motor 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # JPL_Robotics_Lib_+5V_brain
 #
 DEF JPL_Robotics_Lib_+5V_brain #PWR 0 0 Y Y 1 F P

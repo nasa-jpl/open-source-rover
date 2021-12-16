@@ -510,8 +510,6 @@ Wire Notes Line
 	6900 5200 6900 3400
 NoConn ~ 2300 3450
 NoConn ~ 2250 2150
-Text Notes 3300 1650 0    31   ~ 0
-Todo: Add decoupling caps for 5v, 3.3v
 Wire Wire Line
 	2250 2250 2100 2250
 Text Label 2100 2250 0    30   ~ 0
@@ -624,21 +622,6 @@ Wire Wire Line
 Connection ~ 8150 1650
 Text Label 8000 1650 2    50   ~ 0
 E_STOP_pi
-$Comp
-L JPL_Robotics_Lib:+5V_brain #PWR066
-U 1 1 61618007
-P 8000 1450
-F 0 "#PWR066" H 8000 1300 50  0001 C CNN
-F 1 "+5V_brain" V 8000 1600 50  0000 L CNN
-F 2 "" H 8000 1450 50  0001 C CNN
-F 3 "" H 8000 1450 50  0001 C CNN
-	1    8000 1450
-	0    -1   -1   0   
-$EndComp
-Text Notes 1850 6200 0    31   ~ 0
-Todo:\n- add switch\n- add LED circuits for other e_stops
-Text Notes 1850 6500 0    31   ~ 0
-Todo add rest of the LEDs for other lines
 Wire Wire Line
 	8750 1550 8750 1700
 Wire Wire Line
@@ -687,17 +670,6 @@ F 3 "~" H 9400 2400 50  0001 C CNN
 $EndComp
 Text Label 8000 2350 2    50   ~ 0
 E_STOP2_in
-$Comp
-L JPL_Robotics_Lib:+5V_brain #PWR067
-U 1 1 611A02A8
-P 8000 2150
-F 0 "#PWR067" H 8000 2000 50  0001 C CNN
-F 1 "+5V_brain" V 8000 2300 50  0000 L CNN
-F 2 "" H 8000 2150 50  0001 C CNN
-F 3 "" H 8000 2150 50  0001 C CNN
-	1    8000 2150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8750 2250 8750 2400
 Wire Wire Line
@@ -752,17 +724,6 @@ F 3 "~" H 9400 3050 50  0001 C CNN
 $EndComp
 Text Label 8000 3000 2    50   ~ 0
 E_STOP3_in
-$Comp
-L JPL_Robotics_Lib:+5V_brain #PWR072
-U 1 1 611A5E14
-P 8000 2800
-F 0 "#PWR072" H 8000 2650 50  0001 C CNN
-F 1 "+5V_brain" V 8000 2950 50  0000 L CNN
-F 2 "" H 8000 2800 50  0001 C CNN
-F 3 "" H 8000 2800 50  0001 C CNN
-	1    8000 2800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8750 2900 8750 3050
 Wire Wire Line
@@ -965,8 +926,6 @@ F 3 "" H 9750 5050 50  0001 C CNN
 	1    9750 5050
 	0    -1   -1   0   
 $EndComp
-Text Notes 7000 1300 0    31   ~ 0
-Todo: should this be 5v or 3.3v? E_STOP_pi \nwill be 3.3v… seems weird to put different\nvoltages through the led
 $Comp
 L Device:R_US R?
 U 1 1 6139D881
@@ -989,7 +948,7 @@ AR Path="/613A639A" Ref="R?"  Part="1"
 AR Path="/60A51BAC/613A639A" Ref="R?"  Part="1" 
 AR Path="/60A5279E/613A639A" Ref="R60"  Part="1" 
 F 0 "R60" V 8800 2300 50  0000 L CNN
-F 1 "140" V 9000 2350 50  0000 L CNN
+F 1 "150" V 9000 2350 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8940 2390 50  0001 C CNN
 F 3 "~" H 8900 2400 50  0001 C CNN
 	1    8900 2400
@@ -1003,7 +962,7 @@ AR Path="/613A6626" Ref="R?"  Part="1"
 AR Path="/60A51BAC/613A6626" Ref="R?"  Part="1" 
 AR Path="/60A5279E/613A6626" Ref="R61"  Part="1" 
 F 0 "R61" V 8800 2950 50  0000 L CNN
-F 1 "140" V 9000 3000 50  0000 L CNN
+F 1 "150" V 9000 3000 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8940 3040 50  0001 C CNN
 F 3 "~" H 8900 3050 50  0001 C CNN
 	1    8900 3050
@@ -1091,10 +1050,8 @@ Wire Wire Line
 	4950 4450 5400 4450
 Wire Wire Line
 	4950 4000 5400 4000
-Text Notes 7000 950  0    31   ~ 0
-Todo: pull ups for ESTOPs?
-Text Notes 9300 3850 0    31   ~ 0
-Todo: LED will light up when TXD / RXD is low. This is what we want, yeah?
+Text Notes 9350 3850 0    31   ~ 0
+LED lights up when TXD / RXD low \n(low when sending bits)
 Wire Wire Line
 	8650 5700 8750 5700
 Wire Wire Line
@@ -1200,8 +1157,8 @@ Wire Notes Line
 	10350 6350 10350 5300
 Wire Notes Line
 	10350 5300 7100 5300
-Text Notes 9350 5500 0    31   ~ 0
-Todo: does this look right? alert signal should be default active low
+Text Notes 9300 5500 0    31   ~ 0
+ina260 alert signal is default active low \n(APOL=0), LED will light on alert low
 $Comp
 L Device:C_Small C49
 U 1 1 61420FF3
@@ -1249,8 +1206,6 @@ Wire Wire Line
 Connection ~ 1900 1900
 Wire Wire Line
 	1900 1900 2250 1900
-Text Notes 8200 950  0    31   ~ 0
-Todo: all estop pull ups need to be 3.3v
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 61BA1EE6
@@ -1272,7 +1227,7 @@ AR Path="/613A416D" Ref="R?"  Part="1"
 AR Path="/60A51BAC/613A416D" Ref="R?"  Part="1" 
 AR Path="/60A5279E/613A416D" Ref="R59"  Part="1" 
 F 0 "R59" V 8800 1600 50  0000 L CNN
-F 1 "140" V 9000 1650 50  0000 L CNN
+F 1 "150" V 9000 1650 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8940 1690 50  0001 C CNN
 F 3 "~" H 8900 1700 50  0001 C CNN
 	1    8900 1700
@@ -1347,12 +1302,41 @@ Wire Wire Line
 	8750 2900 9100 2900
 Wire Wire Line
 	9050 3050 9250 3050
-Text Notes 7150 5650 0    31   ~ 0
-Todo: make sure d12 right direction
-Text Notes 7200 3750 0    31   ~ 0
-Todo: make sure d13 \nand d14 are right direction
 Text Notes 3600 3250 0    31   ~ 0
 Todo: add more leds for \nthe other gpio pins
-Text Notes 550  2000 0    31   ~ 0
-Todo: remove C18…was originally for ina260
+$Comp
+L JPL_Robotics_Lib:+3.3V_brain #PWR08
+U 1 1 61C43E89
+P 8000 1450
+F 0 "#PWR08" H 8000 1300 50  0001 C CNN
+F 1 "+3.3V_brain" V 8015 1578 50  0000 L CNN
+F 2 "" H 8000 1450 50  0001 C CNN
+F 3 "" H 8000 1450 50  0001 C CNN
+	1    8000 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:+3.3V_brain #PWR09
+U 1 1 61C45621
+P 8000 2150
+F 0 "#PWR09" H 8000 2000 50  0001 C CNN
+F 1 "+3.3V_brain" V 8015 2278 50  0000 L CNN
+F 2 "" H 8000 2150 50  0001 C CNN
+F 3 "" H 8000 2150 50  0001 C CNN
+	1    8000 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:+3.3V_brain #PWR010
+U 1 1 61C45CF3
+P 8000 2800
+F 0 "#PWR010" H 8000 2650 50  0001 C CNN
+F 1 "+3.3V_brain" V 8015 2928 50  0000 L CNN
+F 2 "" H 8000 2800 50  0001 C CNN
+F 3 "" H 8000 2800 50  0001 C CNN
+	1    8000 2800
+	0    -1   -1   0   
+$EndComp
+Text Notes 9200 1300 0    31   ~ 0
+- Roboclaw ESTOPs active low \n(emergency stop when pulled low)\n- LEDs off when estop’ed (nominal on)
 $EndSCHEMATC
