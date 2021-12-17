@@ -854,7 +854,7 @@ Wire Wire Line
 	3300 9100 3300 9200
 Wire Wire Line
 	3300 8900 3300 9050
-Text Notes 13550 7500 0    98   ~ 0
+Text Notes 13450 7200 0    98   ~ 0
 Voltage Regulators
 Text Notes 2200 5350 0    98   ~ 0
 Power Distribution
@@ -1822,75 +1822,36 @@ SCL_rpi
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR070
 U 1 1 6119EED9
-P 14050 7900
-F 0 "#PWR070" H 14050 7650 50  0001 C CNN
-F 1 "GND_motor" H 14100 7750 30  0000 C CNN
-F 2 "" H 14050 7900 50  0001 C CNN
-F 3 "" H 14050 7900 50  0001 C CNN
-	1    14050 7900
-	-1   0    0    1   
+P 12400 8500
+F 0 "#PWR070" H 12400 8250 50  0001 C CNN
+F 1 "GND_motor" H 12450 8350 30  0000 C CNN
+F 2 "" H 12400 8500 50  0001 C CNN
+F 3 "" H 12400 8500 50  0001 C CNN
+	1    12400 8500
+	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR069
 U 1 1 61374AD1
-P 13550 7900
-F 0 "#PWR069" H 13550 7650 50  0001 C CNN
-F 1 "GND_motor" H 13500 7750 30  0000 C CNN
-F 2 "" H 13550 7900 50  0001 C CNN
-F 3 "" H 13550 7900 50  0001 C CNN
-	1    13550 7900
-	-1   0    0    1   
+P 14200 8500
+F 0 "#PWR069" H 14200 8250 50  0001 C CNN
+F 1 "GND_motor" H 14150 8350 30  0000 C CNN
+F 2 "" H 14200 8500 50  0001 C CNN
+F 3 "" H 14200 8500 50  0001 C CNN
+	1    14200 8500
+	1    0    0    -1  
 $EndComp
-Text Label 14200 8200 1    30   ~ 0
-5v_reg_vin
-Text Label 14300 8200 1    30   ~ 0
-5v_reg_vin
-Text Label 14000 8200 1    30   ~ 0
-5v_reg_gnd
-Wire Wire Line
-	14000 7900 14000 8200
-Text Label 14100 8200 1    30   ~ 0
-5v_reg_gnd
-Wire Wire Line
-	13600 7900 13600 8200
-Wire Wire Line
-	13500 7900 13550 7900
-Connection ~ 13550 7900
-Wire Wire Line
-	13550 7900 13600 7900
-Text Label 13400 8200 1    30   ~ 0
-5v_reg_vout
-Text Label 13300 8200 1    30   ~ 0
-5v_reg_vout
-Text Label 13500 8200 1    30   ~ 0
-5v_reg_gnd
-Text Label 13600 8200 1    30   ~ 0
-5v_reg_gnd
-Wire Wire Line
-	14000 7900 14050 7900
-Connection ~ 14050 7900
-Wire Wire Line
-	14050 7900 14100 7900
-Wire Notes Line
-	12950 7300 15550 7300
-Wire Notes Line
-	15550 9100 12950 9100
-Connection ~ 14250 7900
-Wire Wire Line
-	14250 7900 14300 7900
-Wire Wire Line
-	14200 7900 14250 7900
 $Comp
 L power:+BATT #PWR?
 U 1 1 611C1BFC
-P 14250 7900
+P 12350 7650
 AR Path="/611C1BFC" Ref="#PWR?"  Part="1" 
 AR Path="/60A51BAC/611C1BFC" Ref="#PWR071"  Part="1" 
-F 0 "#PWR071" H 14250 7750 50  0001 C CNN
-F 1 "+BATT" H 14250 8050 30  0000 C CNN
-F 2 "" H 14250 7900 50  0001 C CNN
-F 3 "" H 14250 7900 50  0001 C CNN
-	1    14250 7900
+F 0 "#PWR071" H 12350 7500 50  0001 C CNN
+F 1 "+BATT" H 12350 7800 30  0000 C CNN
+F 2 "" H 12350 7650 50  0001 C CNN
+F 3 "" H 12350 7650 50  0001 C CNN
+	1    12350 7650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2204,96 +2165,29 @@ $EndComp
 $Comp
 L JPL_Robotics_Lib:+5V_motor #PWR068
 U 1 1 6139A844
-P 13350 7800
-F 0 "#PWR068" H 13350 7650 50  0001 C CNN
-F 1 "+5V_motor" H 13300 7950 30  0000 C CNN
-F 2 "" H 13350 7800 50  0001 C CNN
-F 3 "" H 13350 7800 50  0001 C CNN
-	1    13350 7800
+P 14250 7600
+F 0 "#PWR068" H 14250 7450 50  0001 C CNN
+F 1 "+5V_motor" H 14200 7750 30  0000 C CNN
+F 2 "" H 14250 7600 50  0001 C CNN
+F 3 "" H 14250 7600 50  0001 C CNN
+	1    14250 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 61467D22
-P 13250 7850
-F 0 "#FLG0104" H 13250 7925 50  0001 C CNN
-F 1 "PWR_FLAG" V 13300 7950 24  0000 L CNN
-F 2 "" H 13250 7850 50  0001 C CNN
-F 3 "~" H 13250 7850 50  0001 C CNN
-	1    13250 7850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13250 7850 13350 7850
-Wire Wire Line
-	13350 7850 13350 7800
-Wire Wire Line
-	13300 7900 13350 7900
-Wire Wire Line
-	13350 7850 13350 7900
-Connection ~ 13350 7850
-Connection ~ 13350 7900
-Wire Wire Line
-	13350 7900 13400 7900
-Text Notes 13200 9200 0    31   ~ 0
-TODO: do we definitely want these to be male headers for j68, j69?\n
-$Comp
-L JPL_Robotics_Lib:PEC04SAAN_5v_regulator_1 J68
-U 1 1 61C28E98
-P 14300 8700
-F 0 "J68" V 14021 8638 50  0000 L CNN
-F 1 "PEC04SAAN_5v_regulator_1" V 14250 8200 31  0000 L CNN
-F 2 "JPL Robotics:5v_reg_1" H 14350 8700 50  0001 C CNN
-F 3 "" H 14350 8700 50  0001 C CNN
-	1    14300 8700
+P 14400 7750
+F 0 "#FLG0104" H 14400 7825 50  0001 C CNN
+F 1 "PWR_FLAG" V 14450 7850 24  0000 L CNN
+F 2 "" H 14400 7750 50  0001 C CNN
+F 3 "~" H 14400 7750 50  0001 C CNN
+	1    14400 7750
 	0    1    1    0   
 $EndComp
-Text Notes 13050 9000 0    31   ~ 0
+Text Notes 12800 9300 0    31   ~ 0
+TODO: do we definitely want these to be male headers for j68, j69?\n
+Text Notes 12800 9100 0    31   ~ 0
 5V Regulator header\n\nNote this is actually two separate 4x1 headers, merged \ninto a single symbol (because we wanted a single footprint). \nPins 1-4 are on Vin header,\nPins 5-8 are on Vout header
-Wire Wire Line
-	13500 7900 13500 8250
-Wire Wire Line
-	13400 8300 13550 8300
-Wire Wire Line
-	13550 8300 13550 8350
-Wire Wire Line
-	13400 7900 13400 8300
-Wire Wire Line
-	13300 8350 13450 8350
-Wire Wire Line
-	13300 7900 13300 8350
-Wire Wire Line
-	13500 8250 13650 8250
-Wire Wire Line
-	13650 8250 13650 8350
-Wire Wire Line
-	13600 8200 13750 8200
-Wire Wire Line
-	13750 8200 13750 8350
-Wire Wire Line
-	14000 8200 13850 8200
-Wire Wire Line
-	13850 8200 13850 8350
-Wire Wire Line
-	13950 8350 13950 8250
-Wire Wire Line
-	13950 8250 14100 8250
-Wire Wire Line
-	14100 7900 14100 8250
-Wire Wire Line
-	14050 8350 14050 8300
-Wire Wire Line
-	14050 8300 14200 8300
-Wire Wire Line
-	14200 7900 14200 8300
-Wire Wire Line
-	14150 8350 14300 8350
-Wire Wire Line
-	14300 7900 14300 8350
-Text Notes 13000 8100 0    31   ~ 0
-Vout pins \n(4x)
-Text Notes 14350 8100 0    31   ~ 0
-Vin pins \n(4x)
 $Comp
 L JPL_Robotics_Lib:PEC04SAAN_5v_regulator_2 J69
 U 1 1 61E9E6A9
@@ -2305,10 +2199,6 @@ F 3 "" H 14900 8850 50  0001 C CNN
 	1    14850 8850
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	15550 7300 15550 9100
-Wire Notes Line
-	12950 7300 12950 9100
 Text Notes 14800 8950 0    31   ~ 0
 Placeholder for second header
 Text Notes 8500 2350 0    31   ~ 0
@@ -3228,4 +3118,56 @@ Text Label 6050 5800 0    50   ~ 0
 +BATT
 Wire Wire Line
 	6050 5800 6300 5800
+$Comp
+L JPL_Robotics_Lib:D24V150Fx U?
+U 1 1 652856E5
+P 12800 8550
+F 0 "U?" H 12850 9600 50  0000 C CNN
+F 1 "D24V150Fx" H 13000 8500 50  0000 C CNN
+F 2 "" H 12850 9600 50  0001 C CNN
+F 3 "" H 12850 9600 50  0001 C CNN
+	1    12800 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 7650 12350 7750
+Wire Wire Line
+	12350 7750 12600 7750
+Wire Wire Line
+	12350 7750 12350 7850
+Wire Wire Line
+	12350 7850 12600 7850
+Connection ~ 12350 7750
+Wire Wire Line
+	12600 8400 12400 8400
+Wire Wire Line
+	12400 8400 12400 8500
+Wire Wire Line
+	12600 8300 12400 8300
+Wire Wire Line
+	12400 8300 12400 8400
+Connection ~ 12400 8400
+Wire Wire Line
+	14200 8400 14000 8400
+Wire Wire Line
+	14200 8400 14200 8500
+Wire Wire Line
+	14000 8300 14200 8300
+Wire Wire Line
+	14200 8300 14200 8400
+Connection ~ 14200 8400
+Wire Wire Line
+	14250 7600 14250 7750
+Wire Wire Line
+	14250 7750 14000 7750
+Wire Wire Line
+	14250 7750 14250 7850
+Wire Wire Line
+	14250 7850 14000 7850
+Connection ~ 14250 7750
+Wire Wire Line
+	14400 7750 14350 7750
+Connection ~ 14350 7750
+Wire Wire Line
+	14350 7750 14250 7750
 $EndSCHEMATC
