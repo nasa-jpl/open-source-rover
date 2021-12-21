@@ -87,12 +87,12 @@ Shaft Mount Pinion Gear (16 Tooth),S27,KPL32-32-16,ServoCity,https://www.servoci
 5 Foot PVC,S29,48925K93,McMaster,https://www.mcmaster.com/48925k93,1,1,1,$5.28 ,$5.28,Head Assembly
 "3.75"" Channel",S3,585443,ServoCity,https://www.servocity.com/3-75-channel,1,4,4,$4.49 ,$17.96,Rocker-Bogie
 Wheel,S30,,DollarHobbyz,https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x,2,6,3,$25.27 ,$75.81,Wheel Assembly
-3D Printed Encoder Mounts,S31,,Makexyz,https://www.makexyz.com/,1,4,4,$12.90 ,$51.60,Corner Steering
+3D Printed Encoder Mounts,S31,/mechanical/corner_steering/3d_printed_parts/Encoder mount.STL,Makexyz,https://www.makexyz.com/,1,4,4,$12.90 ,$51.60,Corner Steering
 RC Turnbuckles,S32,06048B,Amazon,https://www.amazon.com/Hobbypark-Aluminum-Turnbuckle-BRONTOSAURUS-Replacement/dp/B01H5PZKMK,2,2,1,$9.25 ,$9.25,Differential Pivot
 Loctite Red,S34,,Amazon,https://www.amazon.com/Loctite-Threadlocker-Red-0-20-209741/dp/B000FP8EUS,1,1,1,$6.49 ,$6.49,Wheel Assembly
 9 x 12 Top Plate,S35,,Sculpteo,https://www.sculpteo.com/,1,1,1,$12.06 ,$33.98 ,Body
 Loctite 2 Part Epoxy,S36,,Amazon,https://www.amazon.com/Loctite-Marine-0-85-Fluid-Syringe-1405604/dp/B00KH62K50,1,1,1,$5.42 ,$5.42,Wheel Assembly
-"4.5"" x 12"" Aluminum Plate",S37,585004,ServoCity,https://www.servocity.com/4-5-x-12-pattern-plate,1,2,2,$13.99 ,$27.98,Body
+"4.5"" x 12"" Side Panel Plate",S37,585004,Sculpteo,https://www.sculpteo.com/en/lasercutting/,1,2,2,$26.76 ,$53.52,Body
 "0.25"" to 6mm Clamping Shaft Coupler",S38,625100,ServoCity,https://www.servocity.com/heavy-duty-clamping-shaft-couplers,1,4,4,$7.99 ,$31.96,Corner Steering
 Laser Cut Body Front Panel,S39,,Sculpteo,https://www.sculpteo.com/en/lasercutting/,1,1,1,$7.93 ,$7.93,Body
 Laser Cut Body Back Panel,S40,,Sculpteo,https://www.sculpteo.com/en/lasercutting/,1,1,1,$8.42 ,$8.42,Body
@@ -115,7 +115,7 @@ Xbox Controller,,,Amazon,https://www.amazon.com/FiveStar-Wireless-Controller-Mic
 "#6-32 x 0.75"" Standoff",T3,633126,ServoCity,https://www.servocity.com/6-32-thread-1-4-od-round-aluminum-standoffs#371=256,4,8,2,$1.89 ,$3.78,"PCB Assembly, Wheel Assembly"
 "#6-32 x 1.25"" Standoff",T9,633134,ServoCity,https://www.servocity.com/6-32-thread-1-4-od-round-aluminum-standoffs,4,16,4,$3.39 ,$13.56,Corner Steering
 #4-40 x 1/4 Threaded Standoff,T4,91780A162,McMaster,https://www.mcmaster.com/91780A162,1,1,1,$0.23 ,$0.23,
-#4-40 x 1/2 Threaded Standoff,T5,91780A164,McMaster,https://www.mcmaster.com/91780A164,1,1,1,$0.27 ,$0.27,
+#4-40 x 1/2 Threaded Standoff,T5,91780A164,McMaster,https://www.mcmaster.com/91780A164,1,20,20,$0.32 ,$6.40,
 #4-40 x 3/4 Threaded Standoff,T6,91780A166,McMaster,https://www.mcmaster.com/91780A164,1,1,1,$0.37 ,$0.37,
 M2.5 x 12mm Standoff,T7,95947A007,McMaster,https://www.mcmaster.com/95947A007,1,1,1,$0.64 ,$0.64,
 "#2-56 x 3/8"" Threaded Standoff",T8,93330A252,McMaster,https://www.mcmaster.com/93330A252,1,4,4,$1.00 ,$4.00,PCB Assembly
