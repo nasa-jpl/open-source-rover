@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Control_Boards-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -831,8 +830,6 @@ Wire Wire Line
 	14900 8050 15050 8050
 Wire Wire Line
 	4100 6550 4100 6400
-Wire Wire Line
-	1550 7900 1550 8000
 $Comp
 L Device:R_US R?
 U 1 1 60B7545A
@@ -858,25 +855,6 @@ Text Notes 13450 7200 0    98   ~ 0
 Voltage Regulators
 Text Notes 2200 5350 0    98   ~ 0
 Power Distribution
-$Comp
-L JPL_Robotics_Lib:ED2989-ND-USB J?
-U 1 1 60B754FB
-P 1500 7900
-AR Path="/60B754FB" Ref="J?"  Part="1" 
-AR Path="/60A51BAC/60B754FB" Ref="J14"  Part="1" 
-F 0 "J14" H 1978 7975 50  0000 L CNN
-F 1 "ED2989-ND-USB" H 1977 7930 50  0001 L CNN
-F 2 "JPL Robotics:ED2989-ND USB Conn" H 1500 7900 50  0001 C CNN
-F 3 "" H 1500 7900 50  0001 C CNN
-	1    1500 7900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 7750 1550 7750
-Wire Wire Line
-	1550 7750 1550 7700
-Wire Wire Line
-	1650 7900 1550 7900
 $Comp
 L JPL_Robotics_Lib:XT60-F J?
 U 1 1 60B75504
@@ -968,11 +946,11 @@ F 3 "" H 3100 6200 30  0001 C CNN
 	1    3100 6000
 	0    -1   1    0   
 $EndComp
-Text Notes -1150 7000 0    79   ~ 0
+Text Notes 1150 7700 0    79   ~ 0
 Multimeter Notes
-Text Notes -1100 7250 0    50   ~ 0
+Text Notes 1200 7950 0    50   ~ 0
 1. MM DC+ is internally \nconnected to MM LOAD+
-Text Notes -1100 7500 0    50   ~ 0
+Text Notes 1200 8200 0    50   ~ 0
 2. MM DC- has a low resistance \nconnection to MM LOAD-
 Wire Wire Line
 	3700 6150 3700 6450
@@ -990,7 +968,7 @@ Text Notes 2350 6150 0    50   ~ 0
 -
 Text Notes 3800 6150 0    50   ~ 0
 -
-Text Notes -1100 7800 0    50   ~ 0
+Text Notes 1200 8500 0    50   ~ 0
 3. PCB ground connects\nto battery- via MW LOAD-\nand MM DC-
 Text Label 1650 6600 0    30   ~ 0
 BATTPOS
@@ -1000,8 +978,6 @@ Text Label 2400 6450 0    30   ~ 0
 MMDC+
 Text Label 2700 6800 0    30   ~ 0
 SWIN
-NoConn ~ 1650 7800
-NoConn ~ 1650 7850
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 60B7557C
@@ -1285,17 +1261,6 @@ F 3 "" H 4100 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JPL_Robotics_Lib:GND_motor #PWR0127
-U 1 1 6131E13D
-P 1550 8000
-F 0 "#PWR0127" H 1550 7750 50  0001 C CNN
-F 1 "GND_motor" H 1555 7827 50  0000 C CNN
-F 2 "" H 1550 8000 50  0001 C CNN
-F 3 "" H 1550 8000 50  0001 C CNN
-	1    1550 8000
-	1    0    0    -1  
-$EndComp
-$Comp
 L JPL_Robotics_Lib:GND_motor #PWR0128
 U 1 1 61347F19
 P 3300 9200
@@ -1304,17 +1269,6 @@ F 1 "GND_motor" H 3305 9027 50  0000 C CNN
 F 2 "" H 3300 9200 50  0001 C CNN
 F 3 "" H 3300 9200 50  0001 C CNN
 	1    3300 9200
-	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:+5V_motor #PWR0129
-U 1 1 6139B9A5
-P 1550 7700
-F 0 "#PWR0129" H 1550 7550 50  0001 C CNN
-F 1 "+5V_motor" H 1565 7873 50  0000 C CNN
-F 2 "" H 1550 7700 50  0001 C CNN
-F 3 "" H 1550 7700 50  0001 C CNN
-	1    1550 7700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2184,23 +2138,10 @@ F 3 "~" H 14400 7750 50  0001 C CNN
 	1    14400 7750
 	0    1    1    0   
 $EndComp
-Text Notes 12800 9300 0    31   ~ 0
-TODO: do we definitely want these to be male headers for j68, j69?\n
 Text Notes 12800 9100 0    31   ~ 0
-5V Regulator header\n\nNote this is actually two separate 4x1 headers, merged \ninto a single symbol (because we wanted a single footprint). \nPins 1-4 are on Vin header,\nPins 5-8 are on Vout header
-$Comp
-L JPL_Robotics_Lib:PEC04SAAN_5v_regulator_2 J69
-U 1 1 61E9E6A9
-P 14850 8850
-F 0 "J69" H 14678 8729 28  0000 L CNN
-F 1 "PEC04SAAN_5v_regulator_2" H 14678 8672 28  0000 L CNN
-F 2 "" H 14900 8850 50  0001 C CNN
-F 3 "" H 14900 8850 50  0001 C CNN
-	1    14850 8850
-	1    0    0    -1  
-$EndComp
+todo: update this note\n\n5V Regulator header\n\nNote this is actually two separate 4x1 headers, merged \ninto a single symbol (because we wanted a single footprint). \nPins 1-4 are on Vin header,\nPins 5-8 are on Vout header
 Text Notes 14800 8950 0    31   ~ 0
-Placeholder for second header
+Slotted into female header on the motor board pcb
 Text Notes 8500 2350 0    31   ~ 0
 Filtering caps for cheap snubber circuits on motors
 Text Notes 1300 5600 0    31   ~ 0
@@ -2309,7 +2250,7 @@ U 1 1 61BE6BDE
 P 2700 8400
 F 0 "U?" H 2750 9500 50  0000 C CNN
 F 1 "INA260" H 2800 8350 50  0000 C CNN
-F 2 "" H 2750 9500 50  0001 C CNN
+F 2 "JPL Robotics:INA260" H 2750 9500 50  0001 C CNN
 F 3 "" H 2750 9500 50  0001 C CNN
 	1    2700 8400
 	1    0    0    -1  
@@ -2400,7 +2341,7 @@ U 1 1 62C61D32
 P 6050 7850
 F 0 "U?" H 6550 10400 50  0000 C CNN
 F 1 "PCA9685" H 6650 7950 50  0000 C CNN
-F 2 "" H 5400 8150 50  0001 C CNN
+F 2 "JPL Robotics:PCA9685 Servo Controller" H 5400 8150 50  0001 C CNN
 F 3 "" H 5400 8150 50  0001 C CNN
 	1    6050 7850
 	1    0    0    -1  
@@ -2440,8 +2381,8 @@ Wire Wire Line
 	6300 5900 6050 5900
 Wire Wire Line
 	6050 5900 6050 6000
-Text Notes 5750 5650 0    31   ~ 0
-What are we powering with?
+Text Notes 5150 5650 0    31   ~ 0
+TODO: What are we powering with? Should this be 5v? \nDo we actually need to power this board separately from 3.3V?
 Text Label 8500 5450 2    30   ~ 0
 servo_pwm_ch0
 Text Label 8500 5550 2    30   ~ 0
@@ -2506,10 +2447,6 @@ Wire Wire Line
 	8500 7150 8100 7150
 Wire Wire Line
 	8100 7250 8500 7250
-Text Notes 5750 5650 0    31   ~ 0
-What are we powering with?
-Text Notes 8200 7500 0    31   ~ 0
-I think these are staying unconnected
 $Comp
 L JPL_Robotics_Lib:TSW-104-07-F-T J?
 U 1 1 632C8AD7
@@ -2645,7 +2582,7 @@ U 1 1 641EB466
 P 6550 10300
 F 0 "J?" H 6550 11850 50  0000 L CNN
 F 1 "TSW-104-07-F-T" H 6300 10350 50  0000 L CNN
-F 2 "" H 6550 10300 50  0001 C CNN
+F 2 "JPL Robotics:TWS-104-07-FT" H 6550 10300 50  0001 C CNN
 F 3 "" H 6550 10300 50  0001 C CNN
 	1    6550 10300
 	1    0    0    -1  
@@ -2732,7 +2669,7 @@ U 1 1 643E88FA
 P 7950 10300
 F 0 "J?" H 7950 11850 50  0000 L CNN
 F 1 "TSW-104-07-F-T" H 7700 10350 50  0000 L CNN
-F 2 "" H 7950 10300 50  0001 C CNN
+F 2 "JPL Robotics:TWS-104-07-FT" H 7950 10300 50  0001 C CNN
 F 3 "" H 7950 10300 50  0001 C CNN
 	1    7950 10300
 	1    0    0    -1  
@@ -2819,7 +2756,7 @@ U 1 1 645C7CB2
 P 9200 10300
 F 0 "J?" H 9200 11850 50  0000 L CNN
 F 1 "TSW-104-07-F-T" H 8950 10350 50  0000 L CNN
-F 2 "" H 9200 10300 50  0001 C CNN
+F 2 "JPL Robotics:TWS-104-07-FT" H 9200 10300 50  0001 C CNN
 F 3 "" H 9200 10300 50  0001 C CNN
 	1    9200 10300
 	1    0    0    -1  
@@ -3124,7 +3061,7 @@ U 1 1 652856E5
 P 12800 8550
 F 0 "U?" H 12850 9600 50  0000 C CNN
 F 1 "D24V150Fx" H 13000 8500 50  0000 C CNN
-F 2 "" H 12850 9600 50  0001 C CNN
+F 2 "JPL Robotics:D24V150Fx" H 12850 9600 50  0001 C CNN
 F 3 "" H 12850 9600 50  0001 C CNN
 	1    12800 8550
 	1    0    0    -1  
@@ -3166,8 +3103,30 @@ Wire Wire Line
 	14250 7850 14000 7850
 Connection ~ 14250 7750
 Wire Wire Line
-	14400 7750 14350 7750
-Connection ~ 14350 7750
-Wire Wire Line
-	14350 7750 14250 7750
+	14250 7750 14400 7750
+Text Notes 3600 9300 0    31   ~ 0
+Misc 12V header for external use
+Text Notes 7000 7850 0    31   ~ 0
+Headers on the motor board are female, and solder pins to the servo controller daughter board
+Text Notes 9900 8750 0    31   ~ 0
+These are decoupling caps for the extra pwm outputs
+Text Notes 9050 6950 0    31   ~ 0
+These are decoupling caps for the servos \n(todo: put as close to servos as possible in board layout) 
+Text Notes 6150 10800 0    31   ~ 0
+TODO: fix the naming of footprint wrt symbol “TSW”
+Text Notes 11550 8050 0    31   ~ 0
+TODO: place explicit no connects
+NoConn ~ 14000 8050
+NoConn ~ 13100 7350
+NoConn ~ 13200 7350
+NoConn ~ 13300 7350
+NoConn ~ 13400 7350
+Text Notes 14700 7550 0    31   ~ 0
+TODO: tie EN pin for 12v reg to pin on the rpi. Also add a pull down for this\n\nEric to look into what we want to do here
+Text Notes 13350 4350 0    31   ~ 0
+TODO: make sure to place this interboard connector such that no one will ever fuck up the direction this is plugged in
+Text Notes 15250 8500 0    31   ~ 0
+TODO: redo schematic symbol
+Text Notes 14300 9500 0    31   ~ 0
+TODO: think about A vs U naming convention
 $EndSCHEMATC

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Control_Boards-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -574,27 +573,27 @@ RPi I2C Header
 $Comp
 L JPL_Robotics_Lib:PPTC041LFBN-RC J67
 U 1 1 61023155
-P 5150 6150
-F 0 "J67" H 5278 6275 39  0000 L CNN
-F 1 "PPTC041LFBN-RC" H 5200 6500 50  0001 C CNN
-F 2 "JPL Robotics:PPTC041LFBN-RC" H 5300 6350 50  0001 C CNN
-F 3 "" H 5300 6350 50  0001 C CNN
-	1    5150 6150
+P 4900 5950
+F 0 "J67" H 5028 6075 39  0000 L CNN
+F 1 "PPTC041LFBN-RC" H 4950 6300 50  0001 C CNN
+F 2 "JPL Robotics:PPTC041LFBN-RC" H 5050 6150 50  0001 C CNN
+F 3 "" H 5050 6150 50  0001 C CNN
+	1    4900 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 5950 4850 5950
-Text Label 4850 5950 0    30   ~ 0
+	4800 5750 4600 5750
+Text Label 4600 5750 0    30   ~ 0
 SDA_rpi
 Wire Wire Line
-	5050 6000 4850 6000
-Text Label 4850 6000 0    30   ~ 0
+	4800 5800 4600 5800
+Text Label 4600 5800 0    30   ~ 0
 SCL_rpi
 Wire Wire Line
-	5050 6050 4850 6050
-Text Label 4850 6050 0    30   ~ 0
+	4800 5850 4600 5850
+Text Label 4600 5850 0    30   ~ 0
 GND
-NoConn ~ 5050 6100
+NoConn ~ 4800 5900
 Wire Notes Line
 	4450 5350 4450 6450
 Wire Notes Line
@@ -1340,4 +1339,14 @@ F 3 "" H 8000 2800 50  0001 C CNN
 $EndComp
 Text Notes 9200 1300 0    31   ~ 0
 - Roboclaw ESTOPs active low \n(emergency stop when pulled low)\n- LEDs off when estop’ed (nominal on)
+Text Notes 2100 1650 0    31   ~ 0
+Todo: make the two 3.3v nets have the same name
+Text Notes 4750 6150 0    31   ~ 0
+Todo: make 3x4 header - 4 redundant rows
+Text Notes 7100 1100 0    31   ~ 0
+TODO: check logic here, make sure it’s what we want
+Text Notes 7150 950  0    31   ~ 0
+TODO: change these switches over to https://www.digikey.com/en/products/detail/nkk-switches/JS0104AP4-S/2104258
+Text Notes 7200 5100 0    31   ~ 0
+TODO: check logic here, make sure it’s what we want
 $EndSCHEMATC
