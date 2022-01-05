@@ -1,4 +1,4 @@
-19286229394732093
+19289513783911093
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55062,6 +55062,13 @@ Arduino Uno Sheild
 32
 32
 JPL Robotics
+CTS-206-124
+
+
+0
+16
+16
+JPL Robotics
 D24V22F12 Regulator
 
 
@@ -55209,7 +55216,14 @@ S9175-ND
 40
 40
 JPL Robotics
-TWS-104-07-FT
+SSW-104-01-F-T
+
+
+0
+12
+12
+JPL Robotics
+TSW-104-07-FT
 
 
 0
