@@ -1030,17 +1030,6 @@ Wire Notes Line style solid rgb(0, 0, 0)
 	15600 950  15600 4850
 NoConn ~ 14100 3250
 $Comp
-L JPL_Robotics_Lib:Mounting_Holes M1
-U 1 1 609530FB
-P 1400 8800
-F 0 "M1" V 1830 8979 30  0000 L CNN
-F 1 "Mounting_Holes" V 1890 8979 30  0000 L CNN
-F 2 "JPL Robotics:Raspberry pi footprint" H 1580 8980 30  0001 C CNN
-F 3 "" H 1580 8980 30  0001 C CNN
-	1    1400 8800
-	0    1    1    0   
-$EndComp
-$Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH1
 U 1 1 60953101
 P 2250 8850
