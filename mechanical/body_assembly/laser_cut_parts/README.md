@@ -1,7 +1,7 @@
-# Replacement Top and Bottom Plates
+# Replacement Top, Bottom, and Side Plates
 
 ## The Need for Replacement Plates
-The 12x9 aluminum pattern plates specified in other parts of the rover documentation have been discontinued by ServoCity. The included *top\_plate\_baseline.dxf* and *bottom\_plate\_baseline.dxf* can serve as replacements.
+The 12x9 and 12x4.5 aluminum pattern plates specified in other parts of the rover documentation have been discontinued by ServoCity. The included *top\_plate\_baseline.dxf* and *bottom\_plate\_baseline.dxf* can serve as replacements.
 
 These plates are the same size as the originals, so everything else is the same except for items noted below.
 
@@ -30,6 +30,10 @@ The laser cut replacements are approximately 1/8" thicker than the original alum
 ### Extra Side Mounts
 
 The laser cut top and bottom plates have holes for two extra side mounts on each plate. These extra side mounts are intended to compensate for any warping in the plywood or MDF. Their use is optional.
+
+### Holes in Side Plates
+
+The side plates have holes to mount the battery and for optional mounts to hold the PCB. The rectangular holes are to allow extra room to pass the motor wires through the plate. Holes for mounting bearing blocks are available near the round hole for the rocker support. 
 
 ## Notes
 * *front\_plate.DXF* and *back_plate.DXF* can be cut from the same material as the top and bottom plates if desired. These plates should remain as 1/8" or 3 mm thick.
