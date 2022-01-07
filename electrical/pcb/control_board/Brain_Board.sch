@@ -1402,4 +1402,6 @@ F 3 "" H 1730 6330 30  0001 C CNN
 	1    1550 6150
 	0    1    1    0   
 $EndComp
+Text Notes 9450 3050 0    31   ~ 0
+TODO: make this schematic symbol less stupid\n\nUse actual switch symbols inside there, and show the connections from pins\n\nChange J to SW
 $EndSCHEMATC

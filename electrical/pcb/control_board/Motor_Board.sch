@@ -954,8 +954,8 @@ Text Notes 1200 8200 0    50   ~ 0
 2. MM DC- has a low resistance \nconnection to MM LOAD-
 Wire Wire Line
 	3700 6150 3700 6450
-Text Notes 4300 5850 0    50   ~ 0
-Battery\nOut
+Text Notes 4250 5800 0    50   ~ 0
+Battery Out \n(for optional \ndaisychaining)
 Text Notes 1500 6150 0    50   ~ 0
 +
 Text Notes 2150 6150 0    50   ~ 0
@@ -969,7 +969,7 @@ Text Notes 2350 6150 0    50   ~ 0
 Text Notes 3800 6150 0    50   ~ 0
 -
 Text Notes 1200 8500 0    50   ~ 0
-3. PCB ground connects\nto battery- via MW LOAD-\nand MM DC-
+3. PCB ground connects\nto battery- via MM LOAD-\nand MM DC-
 Text Label 1650 6600 0    30   ~ 0
 BATTPOS
 Text Label 1700 6300 0    30   ~ 0
@@ -2134,7 +2134,7 @@ Slotted into female header on the motor board pcb
 Text Notes 8500 2350 0    31   ~ 0
 Filtering caps for cheap snubber circuits on motors
 Text Notes 1300 5600 0    31   ~ 0
-Todo: Todo: merge J29 and J30
+Todo: figure out exactly how we want to wire up the MM
 $Comp
 L JPL_Robotics_Lib:+3.3V_motor #PWR01
 U 1 1 61BDD784
@@ -3118,4 +3118,9 @@ Text Notes 15250 8500 0    31   ~ 0
 TODO: redo schematic symbol
 Text Notes 14300 9500 0    31   ~ 0
 TODO: think about A vs U naming convention
+Text Notes 2350 6600 0    31   ~ 0
+Todo: eric to update fuse footprint
+NoConn ~ 3500 8050
+NoConn ~ 3500 8200
+NoConn ~ 3500 8300
 $EndSCHEMATC
