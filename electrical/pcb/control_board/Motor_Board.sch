@@ -2804,7 +2804,7 @@ F 3 "" H 1850 6350 50  0001 C CNN
 	1    1900 6400
 	0    1    -1   0   
 $EndComp
-Text Label 2650 6700 0    30   ~ 0
+Text Label 2700 6700 0    30   ~ 0
 +BATT
 $Comp
 L JPL_Robotics_Lib:XT60-F J?
@@ -3127,14 +3127,14 @@ MMLOAD+
 $Comp
 L JPL_Robotics_Lib:test_point T?
 U 1 1 63FD77E1
-P 2600 6700
+P 2600 7400
 AR Path="/63FD77E1" Ref="T?"  Part="1" 
 AR Path="/60A51BAC/63FD77E1" Ref="T4"  Part="1" 
-F 0 "T4" H 2500 6800 50  0000 L CNN
-F 1 "test_point" H 2750 6950 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2550 6650 50  0001 C CNN
-F 3 "" H 2550 6650 50  0001 C CNN
-	1    2600 6700
+F 0 "T4" H 2500 7500 50  0000 L CNN
+F 1 "test_point" H 2750 7650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2550 7350 50  0001 C CNN
+F 3 "" H 2550 7350 50  0001 C CNN
+	1    2600 7400
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -3166,4 +3166,11 @@ Text Label 2000 5650 0    30   ~ 0
 SWITCH+
 Text Label 2350 5650 0    30   ~ 0
 SWITCH-
+Wire Wire Line
+	2750 6700 2750 7400
+Connection ~ 2750 7400
+Wire Wire Line
+	2750 7400 2750 7600
+Text Notes 2550 7700 0    50   ~ 0
+Power to Rover
 $EndSCHEMATC
