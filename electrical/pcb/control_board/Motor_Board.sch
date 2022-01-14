@@ -3162,4 +3162,8 @@ Wire Wire Line
 	2750 6700 2800 6700
 Wire Wire Line
 	2550 6550 2800 6550
+Text Label 2000 5650 0    30   ~ 0
+SWITCH+
+Text Label 2350 5650 0    30   ~ 0
+SWITCH-
 $EndSCHEMATC
