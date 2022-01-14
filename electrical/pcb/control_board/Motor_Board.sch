@@ -2999,8 +2999,6 @@ Wire Wire Line
 	1650 5900 1650 6050
 Wire Wire Line
 	1650 6050 2600 6050
-NoConn ~ 3800 7400
-NoConn ~ 3800 7300
 NoConn ~ 3800 7150
 Wire Wire Line
 	3800 6650 4250 6650
@@ -3173,4 +3171,19 @@ Wire Wire Line
 	2750 7400 2750 7600
 Text Notes 2550 7700 0    50   ~ 0
 Power to Rover
+Wire Wire Line
+	3800 7300 4100 7300
+Wire Wire Line
+	3800 7400 4100 7400
+Text Label 3800 7300 0    30   ~ 0
+MMLOAD+
+Text Label 3800 7400 0    30   ~ 0
++BATT
+NoConn ~ 6300 6400
+Wire Notes Line
+	2850 5650 3000 5650
+Wire Notes Line
+	3000 5650 3000 5700
+Wire Notes Line
+	3000 5700 2850 5700
 $EndSCHEMATC
