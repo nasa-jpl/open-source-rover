@@ -3186,4 +3186,6 @@ Wire Notes Line
 	3000 5650 3000 5700
 Wire Notes Line
 	3000 5700 2850 5700
+Text Notes 2750 9350 0    50   ~ 0
+Todo: Don’t make J13 an XT60. Better and more \nconvenient to keep it a screw terminal. 
 $EndSCHEMATC
