@@ -99,11 +99,11 @@ Now, we need to create the four corner wheels. These build on what we made for t
 
 #### 4.2.1 Channel Attachments 1
 
-Attach 3 inch channel **S2** to your base wheel assembly using 8 screws **S6** as shown in Figure 4.
+Attach 3 inch channel **S2** to your base wheel assembly using 8 screws **B1** as shown in Figure 4.
 
-| <image src="../../images/wheels/step_2.png" height="250"> |
+| <image src="../../images/wheels/step_5b.png" height="250"> |
 |:-:|
-| Figure 4: Attaching the 3in channel to the motor assembly |
+| Figure 4: Attaching the 3in channel to the motor assembly. You will attach the top part in the next step |
 
 #### 4.2.2 Preparing the 4.5 inch Channels - D-Clamping Hub Attachment
 
