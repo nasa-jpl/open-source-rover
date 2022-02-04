@@ -1219,7 +1219,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 2700 9800 2700
 Text Notes 3600 3250 0    31   ~ 0
-Todo: add more leds for \nthe other gpio pins
+Todo: eric add more leds for \nthe other gpio pins
 $Comp
 L JPL_Robotics_Lib:+3.3V_brain #PWR09
 U 1 1 61C45621
@@ -1245,9 +1245,9 @@ $EndComp
 Text Notes 9200 1300 0    31   ~ 0
 - Roboclaw ESTOPs active low \n(emergency stop when pulled low)\n- LEDs off when estop’ed (nominal on)
 Text Notes 2100 1650 0    31   ~ 0
-Todo: make the two 3.3v nets have the same name
-Text Notes 7100 1100 0    31   ~ 0
-TODO: check logic here, make sure it’s what we want
+Todo: kit make the two 3.3v nets have the same name
+Text Notes 7200 1450 0    31   ~ 0
+TODO: check logic here, make sure it’s what we want\n\nalso do 5v source for LEDs
 Text Notes 7200 5100 0    31   ~ 0
 TODO: check logic here, make sure it’s what we want
 $Comp
@@ -1310,8 +1310,6 @@ Wire Wire Line
 Wire Notes Line
 	10800 1100 10800 3350
 Wire Notes Line
-	7000 3350 10800 3350
-Wire Notes Line
 	7100 1100 10800 1100
 Wire Wire Line
 	9300 1650 9650 1650
@@ -1337,7 +1335,7 @@ L JPL_Robotics_Lib:CTS-206-124 SW1
 U 1 1 61DFAF04
 P 8550 3150
 F 0 "SW1" H 8700 4683 50  0000 C CNN
-F 1 "CTS-206-124" H 8700 4684 50  0001 C CNN
+F 1 "CTS-206-124" H 8750 3200 50  0000 C CNN
 F 2 "JPL Robotics:CTS-206-124" H 8550 3150 50  0001 C CNN
 F 3 "" H 8550 3150 50  0001 C CNN
 	1    8550 3150
@@ -1402,4 +1400,8 @@ Connection ~ 9150 2550
 Wire Wire Line
 	9150 2550 9150 2600
 Connection ~ 9300 2550
+Wire Notes Line
+	7100 3350 10800 3350
+Text Notes 9050 3250 0    31   ~ 0
+Note that two adjacent odd numbered pins \nMUST be connected together, due to the \nimplementation of the switch array
 $EndSCHEMATC
