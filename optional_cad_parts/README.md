@@ -10,6 +10,7 @@ Each of the folders in here contains a different file type, which is dependant o
   * DXF - 2 dimensional part files for items to be laser cut out of acrylic
   * STL - 3 dimensional part files for items to be 3D printed. 
   * SolidWorks - Native solidworks CAD files used to create the parts
+  * FreeCAD - Native FreeCAD files used to create the parts
   * STEP - Generic CAD files to open in programs not solidworks
 
 ## Part Overview
@@ -29,6 +30,8 @@ I'll give a brief description of the each of the parts as well as list any items
     * Uses #6 - heat set inserts (short)
   * cap_with_jpl - Motor cap with JPL embossed on the side
   * cap_without_jpl - Motor caps that are pure cylinder
+  * clamping turnbuckle holder with inserts - turnbuckle holder that clamps to the tube - no glue required - uses 4-40 heat-set inserts
+  * clamping turnbuckle holder no inserts - turnbuckle holder that clamps to the tube - no glue required - uses 4-40 nuts instead of inserts
   * div-piv mounting block - Mounting block for the 0.5 in clamping hub to attach the differential pivot on the rocker-bogie arms. This piece will help level out the body of the rover instead of it being slanted
     * Uses #6 - heat set inserts (short)
   * head base - Redesign of the LED screen head mount, printed in one single large piece
