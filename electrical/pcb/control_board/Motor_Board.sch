@@ -776,14 +776,14 @@ Voltage Regulators
 Text Notes 2300 5050 0    98   ~ 0
 Power Distribution
 $Comp
-L JPL_Robotics_Lib:XT60-F J?
+L JPL_Robotics_Lib:ED2580-ND J?
 U 1 1 60B75504
 P 3200 8900
 AR Path="/60B75504" Ref="J?"  Part="1" 
 AR Path="/60A51BAC/60B75504" Ref="J13"  Part="1" 
 F 0 "J13" H 3150 9150 50  0000 C CNN
-F 1 "XT60-F" H 3306 9124 50  0001 C CNN
-F 2 "" H 3200 8900 50  0001 C CNN
+F 1 "ED2580-ND" H 3306 9124 50  0001 C CNN
+F 2 "JPL Robotics:ED2580-ND" H 3200 8900 50  0001 C CNN
 F 3 "" H 3200 8900 50  0001 C CNN
 	1    3200 8900
 	1    0    0    -1  
@@ -3143,8 +3143,8 @@ Wire Notes Line
 	3000 5650 3000 5700
 Wire Notes Line
 	3000 5700 2850 5700
-Text Notes 2750 9350 0    50   ~ 0
-Todo: eric Don’t make J13 an XT60. Better and more \nconvenient to keep it a screw terminal. 
+Text Notes 2750 9500 0    50   ~ 0
+Todo: eric Don’t make J13 an XT60. Better and more \nconvenient to keep it a screw terminal. \n\n2/16/2022 Kit changed to ED2580-ND
 Text Label 2750 7250 0    30   ~ 0
 +BATT
 Wire Wire Line
