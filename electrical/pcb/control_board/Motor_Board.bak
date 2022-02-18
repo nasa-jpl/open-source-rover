@@ -2853,8 +2853,8 @@ F 3 "~" H 2300 5850 50  0001 C CNN
 	1    2300 5850
 	0    1    1    0   
 $EndComp
-Text Notes 1050 5000 0    31   ~ 0
-Todo: eric to update fuse footprint
+Text Notes 1600 5250 0    31   ~ 0
+Remeber this fuse goes with PN:\n507-2121-ND
 $Comp
 L JPL_Robotics_Lib:test_point T?
 U 1 1 60B753BB
@@ -3191,7 +3191,7 @@ U 1 1 6213B507
 P 13250 9700
 F 0 "U4" H 13800 10450 50  0000 C CNN
 F 1 "D24V22Fx" H 13950 9750 50  0000 C CNN
-F 2 "" H 13250 9700 50  0001 C CNN
+F 2 "JPL Robotics:D24V22F12 Regulator" H 13250 9700 50  0001 C CNN
 F 3 "" H 13250 9700 50  0001 C CNN
 	1    13250 9700
 	1    0    0    -1  
