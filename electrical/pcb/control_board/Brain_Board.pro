@@ -1,6 +1,6 @@
-update=2/17/2022 10:09:43 PM
+update=2/17/2022 10:10:56 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -12,32 +12,22 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
 LastNetListRead=brain_board.net
-PadDrill=3.8
-PadDrillOvalY=3.8
-PadSizeH=5.5
-PadSizeV=5.5
+PadDrill=0.762
+PadDrillOvalY=0.762
+PadSizeH=1.524
+PadSizeV=1.524
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
 ModuleTextSizeV=1
 ModuleTextSizeH=1
 ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.051
+SolderMaskClearance=0
 SolderMaskMinWidth=0.25
 DrawSegmentWidth=0.2
-BoardOutlineThickness=0.2
+BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
