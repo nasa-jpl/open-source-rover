@@ -569,22 +569,22 @@ Wire Wire Line
 	5900 2600 6250 2600
 NoConn ~ 2300 3500
 NoConn ~ 2300 3550
-Text Notes 4650 5650 0    98   ~ 0
+Text Notes 2850 6100 0    98   ~ 0
 RPi I2C Header
 Wire Wire Line
-	4950 5800 4750 5800
-Text Label 4750 5800 0    30   ~ 0
+	3150 6250 2950 6250
+Text Label 2950 6250 0    30   ~ 0
 SDA_rpi
 Wire Wire Line
-	4950 5900 4750 5900
-Text Label 4750 5900 0    30   ~ 0
+	3150 6350 2950 6350
+Text Label 2950 6350 0    30   ~ 0
 SCL_rpi
 Wire Wire Line
-	4950 6000 4750 6000
-Text Label 4750 6000 0    30   ~ 0
+	3150 6450 2950 6450
+Text Label 2950 6450 0    30   ~ 0
 GND
 Wire Notes Line
-	4450 5350 6000 5350
+	2650 5800 4200 5800
 Wire Notes Line
 	4450 3400 6900 3400
 Wire Wire Line
@@ -623,28 +623,6 @@ F 3 "" H 7700 2400 50  0001 C CNN
 $EndComp
 Text Label 9650 2100 2    50   ~ 0
 E_STOP2
-$Comp
-L JPL_Robotics_Lib:GND_brain #PWR079
-U 1 1 611A0299
-P 10150 2250
-F 0 "#PWR079" H 10150 2000 50  0001 C CNN
-F 1 "GND_brain" V 10150 2100 50  0000 R CNN
-F 2 "" H 10150 2250 50  0001 C CNN
-F 3 "" H 10150 2250 50  0001 C CNN
-	1    10150 2250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D14
-U 1 1 611A029F
-P 9950 2250
-F 0 "D14" H 10000 2100 50  0000 R CNN
-F 1 "LED - WP1503GT (green)" H 10100 2000 31  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 9950 2250 50  0001 C CNN
-F 3 "~" H 9950 2250 50  0001 C CNN
-	1    9950 2250
-	-1   0    0    1   
-$EndComp
 Text Label 7900 2250 2    50   ~ 0
 E_STOP2_in
 Wire Wire Line
@@ -653,10 +631,6 @@ Wire Wire Line
 	7700 2400 7750 2400
 Wire Wire Line
 	8050 2250 8050 2400
-Wire Wire Line
-	10100 2250 10150 2250
-Wire Wire Line
-	9600 2250 9800 2250
 Wire Wire Line
 	7900 2750 8050 2750
 $Comp
@@ -673,28 +647,6 @@ $EndComp
 Connection ~ 8050 2750
 Text Label 9650 2550 2    50   ~ 0
 E_STOP3
-$Comp
-L JPL_Robotics_Lib:GND_brain #PWR080
-U 1 1 611A5E05
-P 10150 2700
-F 0 "#PWR080" H 10150 2450 50  0001 C CNN
-F 1 "GND_brain" V 10150 2550 50  0000 R CNN
-F 2 "" H 10150 2700 50  0001 C CNN
-F 3 "" H 10150 2700 50  0001 C CNN
-	1    10150 2700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D15
-U 1 1 611A5E0B
-P 9950 2700
-F 0 "D15" H 10000 2550 50  0000 R CNN
-F 1 "LED - WP1503GT (green)" H 10100 2450 31  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 9950 2700 50  0001 C CNN
-F 3 "~" H 9950 2700 50  0001 C CNN
-	1    9950 2700
-	-1   0    0    1   
-$EndComp
 Text Label 7900 2750 2    50   ~ 0
 E_STOP3_in
 Wire Wire Line
@@ -703,8 +655,6 @@ Wire Wire Line
 	7700 2900 7750 2900
 Wire Wire Line
 	8050 2750 8050 2900
-Wire Wire Line
-	10100 2700 10150 2700
 Wire Notes Line
 	7100 1100 7100 3350
 Text Notes 8100 1300 0    98   ~ 0
@@ -776,32 +726,6 @@ Wire Wire Line
 	8750 3900 8750 3950
 Connection ~ 8450 3900
 $Comp
-L Device:LED D11
-U 1 1 6131007C
-P 9350 4350
-F 0 "D11" H 9400 4200 50  0000 R CNN
-F 1 "LED - WP1503GT (green)" H 9500 4100 31  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 9350 4350 50  0001 C CNN
-F 3 "~" H 9350 4350 50  0001 C CNN
-	1    9350 4350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8750 4350 9200 4350
-Wire Wire Line
-	9500 4350 9750 4350
-$Comp
-L JPL_Robotics_Lib:GND_brain #PWR076
-U 1 1 6131A74E
-P 9750 4350
-F 0 "#PWR076" H 9750 4100 50  0001 C CNN
-F 1 "GND_brain" V 9750 4200 50  0000 R CNN
-F 2 "" H 9750 4350 50  0001 C CNN
-F 3 "" H 9750 4350 50  0001 C CNN
-	1    9750 4350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C_Small C34
 U 1 1 61326329
 P 8100 4600
@@ -867,32 +791,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 4600 8750 4650
 Connection ~ 8450 4600
-$Comp
-L Device:LED D12
-U 1 1 61326354
-P 9350 5050
-F 0 "D12" H 9400 4900 50  0000 R CNN
-F 1 "LED - WP1503GT (green)" H 9500 4800 31  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 9350 5050 50  0001 C CNN
-F 3 "~" H 9350 5050 50  0001 C CNN
-	1    9350 5050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8750 5050 9200 5050
-Wire Wire Line
-	9500 5050 9750 5050
-$Comp
-L JPL_Robotics_Lib:GND_brain #PWR077
-U 1 1 6132635C
-P 9750 5050
-F 0 "#PWR077" H 9750 4800 50  0001 C CNN
-F 1 "GND_brain" V 9750 4900 50  0000 R CNN
-F 2 "" H 9750 5050 50  0001 C CNN
-F 3 "" H 9750 5050 50  0001 C CNN
-	1    9750 5050
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R_US R?
 U 1 1 6139D881
@@ -1037,32 +935,6 @@ F 3 "~" H 8050 5950 50  0001 C CNN
 	1    8050 5950
 	0    1    1    0   
 $EndComp
-$Comp
-L JPL_Robotics_Lib:GND_brain #PWR075
-U 1 1 6133EF14
-P 9650 6150
-F 0 "#PWR075" H 9650 5900 50  0001 C CNN
-F 1 "GND_brain" V 9650 6000 50  0000 R CNN
-F 2 "" H 9650 6150 50  0001 C CNN
-F 3 "" H 9650 6150 50  0001 C CNN
-	1    9650 6150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9400 6150 9650 6150
-Wire Wire Line
-	8650 6150 9100 6150
-$Comp
-L Device:LED D10
-U 1 1 6133EF0C
-P 9250 6150
-F 0 "D10" H 9300 6000 50  0000 R CNN
-F 1 "LED - WP1503GT (green)" H 9400 5900 31  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 9250 6150 50  0001 C CNN
-F 3 "~" H 9250 6150 50  0001 C CNN
-	1    9250 6150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8650 5700 8650 5750
 $Comp
@@ -1187,38 +1059,10 @@ F 3 "~" H 9450 1800 50  0001 C CNN
 	1    9450 1800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9600 1800 9800 1800
-Wire Wire Line
-	10100 1800 10150 1800
-$Comp
-L Device:LED D13
-U 1 1 61604AEF
-P 9950 1800
-F 0 "D13" H 10000 1650 50  0000 R CNN
-F 1 "LED - WP1503GT (green)" H 10100 1550 31  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 9950 1800 50  0001 C CNN
-F 3 "~" H 9950 1800 50  0001 C CNN
-	1    9950 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L JPL_Robotics_Lib:GND_brain #PWR078
-U 1 1 61606D72
-P 10150 1800
-F 0 "#PWR078" H 10150 1550 50  0001 C CNN
-F 1 "GND_brain" V 10150 1650 50  0000 R CNN
-F 2 "" H 10150 1800 50  0001 C CNN
-F 3 "" H 10150 1800 50  0001 C CNN
-	1    10150 1800
-	0    -1   -1   0   
-$EndComp
 Text Label 9650 1650 2    50   ~ 0
 E_STOP
 Wire Wire Line
 	7900 2600 8200 2600
-Wire Wire Line
-	9600 2700 9800 2700
 Text Notes 3600 3250 0    31   ~ 0
 Todo: eric add more leds for \nthe other gpio pins
 $Comp
@@ -1254,57 +1098,57 @@ TODO: check logic here, make sure it’s what we want
 $Comp
 L JPL_Robotics_Lib:SSW-104-01-F-T J25
 U 1 1 61D7BA49
-P 5150 7200
-F 0 "J25" H 5378 7980 50  0000 L CNN
-F 1 "SSW-104-01-F-T" H 5378 7935 50  0001 L CNN
-F 2 "JPL Robotics:SSW-104-01-F-T" H 5150 7200 50  0001 C CNN
-F 3 "" H 5150 7200 50  0001 C CNN
-	1    5150 7200
+P 3350 7650
+F 0 "J25" H 3578 8430 50  0000 L CNN
+F 1 "SSW-104-01-F-T" H 3578 8385 50  0001 L CNN
+F 2 "JPL Robotics:SSW-104-01-F-T" H 3350 7650 50  0001 C CNN
+F 3 "" H 3350 7650 50  0001 C CNN
+	1    3350 7650
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	6000 5350 6000 7150
+	4200 5800 4200 7600
 Wire Notes Line
-	6000 7150 4450 7150
+	4200 7600 2650 7600
 Wire Notes Line
-	4450 5350 4450 7150
+	2650 5800 2650 7600
 Wire Wire Line
-	4950 6150 4750 6150
-Text Label 4750 6150 0    30   ~ 0
+	3150 6600 2950 6600
+Text Label 2950 6600 0    30   ~ 0
 SDA_rpi
 Wire Wire Line
-	4950 6250 4750 6250
-Text Label 4750 6250 0    30   ~ 0
+	3150 6700 2950 6700
+Text Label 2950 6700 0    30   ~ 0
 SCL_rpi
 Wire Wire Line
-	4950 6350 4750 6350
-Text Label 4750 6350 0    30   ~ 0
+	3150 6800 2950 6800
+Text Label 2950 6800 0    30   ~ 0
 GND
 Wire Wire Line
-	4950 6500 4750 6500
-Text Label 4750 6500 0    30   ~ 0
+	3150 6950 2950 6950
+Text Label 2950 6950 0    30   ~ 0
 SDA_rpi
 Wire Wire Line
-	4950 6600 4750 6600
-Text Label 4750 6600 0    30   ~ 0
+	3150 7050 2950 7050
+Text Label 2950 7050 0    30   ~ 0
 SCL_rpi
 Wire Wire Line
-	4950 6700 4750 6700
-Text Label 4750 6700 0    30   ~ 0
+	3150 7150 2950 7150
+Text Label 2950 7150 0    30   ~ 0
 GND
 Wire Wire Line
-	4950 6850 4750 6850
-Text Label 4750 6850 0    30   ~ 0
+	3150 7300 2950 7300
+Text Label 2950 7300 0    30   ~ 0
 SDA_rpi
 Wire Wire Line
-	4950 6950 4750 6950
-Text Label 4750 6950 0    30   ~ 0
+	3150 7400 2950 7400
+Text Label 2950 7400 0    30   ~ 0
 SCL_rpi
 Wire Wire Line
-	4950 7050 4750 7050
-Text Label 4750 7050 0    30   ~ 0
+	3150 7500 2950 7500
+Text Label 2950 7500 0    30   ~ 0
 GND
-Text Notes 5500 6000 0    31   ~ 0
+Text Notes 3700 6450 0    31   ~ 0
 4 redundant i2c \nconnections, for \ntalking to arbitrary \nperipherals
 Wire Wire Line
 	8050 2750 8250 2750
@@ -1405,4 +1249,125 @@ Wire Notes Line
 	7100 3350 10800 3350
 Text Notes 9050 3250 0    31   ~ 0
 Note that two adjacent odd numbered pins \nMUST be connected together, due to the \nimplementation of the switch array
+Wire Wire Line
+	8650 6150 8650 6250
+Text Label 10250 1800 2    50   ~ 0
+ESTOP_LED_1
+Wire Wire Line
+	9600 1800 10250 1800
+Wire Wire Line
+	9600 2250 10250 2250
+Wire Wire Line
+	9600 2700 10250 2700
+Text Label 10250 2250 2    50   ~ 0
+ESTOP_LED_2
+Text Label 10250 2700 2    50   ~ 0
+ESTOP_LED_3
+Wire Wire Line
+	8750 4350 9700 4350
+Wire Wire Line
+	8750 5050 9750 5050
+Text Label 9750 5050 2    50   ~ 0
+RXD_LED
+Text Label 9700 4350 2    50   ~ 0
+TXD_LED
+Wire Wire Line
+	8650 6250 9550 6250
+Text Label 9550 6250 2    50   ~ 0
+ALERT_LED
+$Comp
+L JPL_Robotics_Lib:DC7G3HWA U6
+U 1 1 62C709B3
+P 5150 6650
+F 0 "U6" H 5700 7665 50  0000 C CNN
+F 1 "DC7G3HWA" H 5700 7574 50  0000 C CNN
+F 2 "JPL Robotics:DC7G3HWA LED Array" H 5150 6650 50  0001 C CNN
+F 3 "" H 5150 6650 50  0001 C CNN
+	1    5150 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5900 5450 5900
+Wire Wire Line
+	5450 6000 4900 6000
+Wire Wire Line
+	5450 6100 4900 6100
+Text Label 4900 5900 0    50   ~ 0
+TXD_LED
+Text Label 4900 6000 0    50   ~ 0
+RXD_LED
+Text Label 4900 6100 0    50   ~ 0
+ALERT_LED
+Wire Wire Line
+	5450 6600 4950 6600
+Wire Wire Line
+	5450 6700 4950 6700
+Wire Wire Line
+	5450 6800 4950 6800
+Text Label 4950 6600 0    50   ~ 0
+ESTOP_LED_1
+Text Label 4950 6700 0    50   ~ 0
+ESTOP_LED_2
+Text Label 4950 6800 0    50   ~ 0
+ESTOP_LED_3
+$Comp
+L JPL_Robotics_Lib:GND_brain #PWR075
+U 1 1 62CA41E0
+P 6150 6950
+F 0 "#PWR075" H 6150 6700 50  0001 C CNN
+F 1 "GND_brain" H 6300 6800 50  0000 R CNN
+F 2 "" H 6150 6950 50  0001 C CNN
+F 3 "" H 6150 6950 50  0001 C CNN
+	1    6150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5900 6150 5900
+Wire Wire Line
+	6150 5900 6150 6000
+Wire Wire Line
+	5950 6800 6150 6800
+Connection ~ 6150 6800
+Wire Wire Line
+	6150 6800 6150 6950
+Wire Wire Line
+	5950 6700 6150 6700
+Connection ~ 6150 6700
+Wire Wire Line
+	6150 6700 6150 6800
+Wire Wire Line
+	5950 6600 6150 6600
+Connection ~ 6150 6600
+Wire Wire Line
+	6150 6600 6150 6700
+Wire Wire Line
+	5950 6500 6150 6500
+Connection ~ 6150 6500
+Wire Wire Line
+	6150 6500 6150 6600
+Wire Wire Line
+	5950 6400 6150 6400
+Connection ~ 6150 6400
+Wire Wire Line
+	6150 6400 6150 6500
+Wire Wire Line
+	5950 6300 6150 6300
+Connection ~ 6150 6300
+Wire Wire Line
+	6150 6300 6150 6400
+Wire Wire Line
+	5950 6200 6150 6200
+Connection ~ 6150 6200
+Wire Wire Line
+	6150 6200 6150 6300
+Wire Wire Line
+	5950 6100 6150 6100
+Connection ~ 6150 6100
+Wire Wire Line
+	6150 6100 6150 6200
+Wire Wire Line
+	5950 6000 6150 6000
+Connection ~ 6150 6000
+Wire Wire Line
+	6150 6000 6150 6100
 $EndSCHEMATC
