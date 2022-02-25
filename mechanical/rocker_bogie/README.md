@@ -1,12 +1,14 @@
-#  Rocker-Bogie Suspension
+# Rocker-Bogie Suspension
+
 The Rocker-Bogie is the suspension system that enables the rover to climb aggressive obstacles. The design allows all 6 wheels to be in contact with the ground as much as possible, increasing traction.  The suspension system on a typical consumer vehicle can traverse obstacles about half the height of one wheel; the Rocker-Bogie suspension system can traverse obstacles over 2 times the height of the wheel.
 
 <img src="../../images/rocker_bogie/rocker_bogie_title.png" width="60%">
 
 ## 1. Features
-  * Modular link lengths give the ability to customize rover geometry
-  * Optimized for climbing in the forwards direction
-  * Rigid support structure resists lateral bending/twisting about the Bogie joint
+
+* Modular link lengths give the ability to customize rover geometry
+* Optimized for climbing in the forwards direction
+* Rigid support structure resists lateral bending/twisting about the Bogie joint
 
 ## 2. Information about module
 
@@ -19,31 +21,36 @@ The Rocker-Bogie is the suspension system that enables the rover to climb aggres
 | Time to build             | 5 hrs              |
 
 ### 2.1 Skills
-  * Band Saw/Dremel
 
-### 2.2 Tools
 * Band Saw/Dremel
 
-#### 2.2.1 Mandatory 
-  * Band saw or Dremel
-  * Allen Key set
-  * Imperial Wrench Set
+### 2.2 Tools
+
+* Band Saw/Dremel
+
+#### 2.2.1 Mandatory
+
+* Band saw or Dremel
+* Allen Key set
+* Imperial Wrench Set
 
 #### 2.2.2 Optional
 
-### 2.3 Dependencies on Other Modules:
-  * None
+### 2.3 Dependencies on Other Modules
 
-### 2.4 Mechanical Interface/Attachments to Rover:
-  * Actobotics channel and channel connectors to middle wheel assembly
-  * Actobotics channel and channel connectors to corner steering assembly
-  * 1/2 inch clamping hub to 1/2 aluminum rod on differential pivot
-  * 1/2 bearing blocks to 1/2 aluminum rod on body 
+* None
+
+### 2.4 Mechanical Interface/Attachments to Rover
+
+* Actobotics channel and channel connectors to middle wheel assembly
+* Actobotics channel and channel connectors to corner steering assembly
+* 1/2 inch clamping hub to 1/2 aluminum rod on differential pivot
+* 1/2 bearing blocks to 1/2 aluminum rod on body
 
 ## 3. Machining/Fabrication
 
-| Item | Ref | Qty | Image | Item | Ref | Qty | Image | 
-| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: | 
+| Item | Ref | Qty | Image | Item | Ref | Qty | Image |
+| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
 | 3" Channel            | S2 | 4 | <img src="../../images/components/structural/S2.png" width="200"> | Metal Hacksaw or Bandsaw | D4 |  | <img src="../../images/components/tools/D4.png" width="200"> |
 
 ### 3.1 Cutting the Aluminum Channels
@@ -66,8 +73,8 @@ Take the 4 inch aluminum rod **S18** and cut it down to 3 inches long, indicated
 
 The Rocker-Bogie assembly is what attaches your wheels to the rover's body and allows it to climb over obstacles.
 
-| Item | Ref | Qty | Image | Item | Ref | Qty | Image | 
-| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: | 
+| Item | Ref | Qty | Image | Item | Ref | Qty | Image |
+| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
 | 3" Channel (Modified) | S2A | 4 | <img src="../../images/components/structural/S2A.png" width="200"> | #6 Washer  | W1 | 28  | <img src="../../images/components/washers/W1.png" width="70"> |
 | 3.75" Channel | S3 | 4 | <img src="../../images/components/structural/S3.png" width="200"> | 0.5" Nylon Washer  | W3 | 12  | <img src="../../images/components/washers/W3.png" width="70"> |
 | 9" Channel | S5 | 2 | <img src="../../images/components/structural/S5.png" width="200"> | #6 x 1/4" Standoff  | T1 | 32  | <img src="../../images/components/standoffs/T1.png" width="70"> |
@@ -101,7 +108,7 @@ Attach 3.75 inch channel **S3** to the top hole of the pattern F bracket using s
 |:-:|
 | Figure 5: Attaching channel to corner steering |
 
-### 4.4 Attachment for middle Wheel 
+### 4.4 Attachment for middle Wheel
 
 Attach another 3.75 inch channel **S3** to the bottom hole of the pattern F bracket using spacers **T1**, screws **B4**, and hex nuts **B11** as shown in Figure 6.
 

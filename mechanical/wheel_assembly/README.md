@@ -1,4 +1,4 @@
-#  Wheel Assembly
+# Wheel Assembly
 
 The wheel assembly attaches the wheels to the motors and mounts the motors to the rest of the rocker-bogie suspension system that makes up the robot chassis.
 
@@ -10,7 +10,7 @@ Final result.
 * The flexible wheels allow for high traction as they deform around objects, improving climbing performance
 * Drive motors chosen to handle the high torque that the system sees, achieving both speed and climbing performance
 
-## 2. Information about module 
+## 2. Information about module
 
 ### 2.1 Skills
 
@@ -64,7 +64,6 @@ Next, we will build the wheel assemblies which are divided into the middle wheel
 | clamping mount | S47  | 6   | <image src="../../images/components/structural/S47.png" width="100"> |     | allen key set      | D2  |     | <image src="../../images/components/tools/D2.png" width="100">       |
 | threaded plate | S46  |     | <image src="../../images/components/structural/S46.png" width="100"> |     | pattern adaptor    | S48 | 4   | <image src="../../images/components/structural/S48.png" width="100"> |
 
-
 #### 4.1.1 Prepare the motor channel
 
 We will start by attaching pattern adaptors to connect the Servocity brackets to the bigger GoBilda brackets. Connect the pattern adaptor **S48** to the threaded plate **S46** using the screws that came with the pattern adaptor, as shown in Figure 2, but don't tighten the screws yet to make the next step easier. Now use M4 screws **B15** to attach the threaded plates **S46** to the GoBilda motor channel **S45**. The threaded plate should be on the outside of the channel. Once all screws are in, tighten them and make sure there is no air gap between the parts. Now repeat the process on the other side of the U-channel.
@@ -95,7 +94,6 @@ Now, we need to create the four corner wheels. These build on what we made for t
 | 0.25" Face tapped clamping hub | S12  | 4   | <image src="../../images/components/structural/S12.png" width="120">  |     | allen key set                 | D2  |     | <image src="../../images/components/tools/D2.png" width="120">       |
 | Loctite Threadlocker           | S34  |     | <image src="../../images/components/structural/S34.png" width="120">  |     | 6-32 x 3/4" Threaded Standoff | T3  | 4   | <image src="../../images/components/standoffs/T3.png" width="120">    |
 | wheels                         | S30A | 6   | <image src="../../images/components/structural/S30.png" width="120">  |     | 6-32 x 5/8" screws            | B4  | 12  | <image src="../../images/components/screws/B4.png" width="120">       |
-
 
 #### 4.2.1 Channel Attachments 1
 
@@ -134,7 +132,7 @@ Attach the 4.5in channel **S4** to the top of the 3in channel from the last step
 You should have 4 corner assemblies and 2 base wheel assemblies.
 
 ### 4.3 Mounting the wheels
-   
+
 For all 6 assemblies, use screws **B4** to mount the wheels to the shaft clamp on the motors.
 
 | <image src="../../images/wheels/step_6.png" height="250"> |

@@ -84,7 +84,7 @@ The size and tolerance of the holes will vary slightly based on different 3D pri
 
 <image src="../../images/corner_steering/CornerSt_Step_5.png" width="30%">
 
-Figure 4: Fitting the spacers into the 3D printed parts. 
+Figure 4: Fitting the spacers into the 3D printed parts.
 
 Next, attach the 0.25 inch pillow bearing blocks **S10** and encoder mount **S31** using the **B5** screws into the threaded standoffs **T3** as seen in Figure 5.
 
@@ -105,4 +105,4 @@ You should now have one finished corner steering assembly. Repeat the steps abov
 
 <image src="../../images/corner_steering/CornerSt_Final.png" width="65%">
 
-Figure 7: Mirrored steering assemblies. 
+Figure 7: Mirrored steering assemblies.
