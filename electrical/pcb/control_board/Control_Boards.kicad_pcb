@@ -1143,7 +1143,7 @@
   )
 
   (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 6215C0AD)
-    (at -76.2254 -98.1329)
+    (at 137.1346 -225.1329)
     (path /60A51BAC/60953113)
     (fp_text reference MH4 (at -5.588 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1155,7 +1155,7 @@
   )
 
   (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 6215C0A8)
-    (at -63.2968 -98.3107)
+    (at 150.0632 -225.3107)
     (path /60A51BAC/60953101)
     (fp_text reference MH1 (at -5.588 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1167,7 +1167,7 @@
   )
 
   (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 6215C0A3)
-    (at -75.3528 -86.7261)
+    (at 138.0072 -213.7261)
     (path /60A51BAC/6095310D)
     (fp_text reference MH3 (at -5.588 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1179,7 +1179,7 @@
   )
 
   (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 6215C09E)
-    (at -62.865 -87.7443)
+    (at 150.495 -214.7443)
     (path /60A51BAC/60953107)
     (fp_text reference MH2 (at -5.588 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2665,7 +2665,7 @@
   )
 
   (module "JPL Robotics:rover_image" (layer F.Cu) (tedit 60807061) (tstamp 6215BCFC)
-    (at -64.516 -112.5855)
+    (at 148.844 -239.5855)
     (path /60A51BAC/60953119)
     (fp_text reference y1 (at -7.62 -3.81) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -4740,7 +4740,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 6215B721)
-    (at -82.922599 -111.464299)
+    (at 130.437401 -238.464299)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /60A51BAC/6123BED4)
@@ -4767,7 +4767,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 6215B713)
-    (at -80.872599 -113.514299)
+    (at 132.487401 -240.514299)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /60A51BAC/60B753AF)
@@ -4794,7 +4794,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 6215B705)
-    (at -82.922599 -113.514299)
+    (at 130.437401 -240.514299)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /60A51BAC/60B753BB)
@@ -4821,7 +4821,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 6215B6F7)
-    (at -78.999199 -108.208699)
+    (at 134.360801 -235.208699)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /60A51BAC/60B753B5)
@@ -4848,7 +4848,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 6215B6E9)
-    (at -81.049199 -108.208699)
+    (at 132.310801 -235.208699)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /60A51BAC/60B753C1)
@@ -4875,7 +4875,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_1.0x1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 6215B6DB)
-    (at -83.099199 -108.208699)
+    (at 130.260801 -235.208699)
     (descr "SMD rectangular pad as test Point, square 1.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /60A51BAC/63FD77E1)

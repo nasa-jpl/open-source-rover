@@ -1170,7 +1170,7 @@ AR Path="/60A51BAC/61DB5332" Ref="M?"  Part="1"
 AR Path="/60A5279E/61DB5332" Ref="M1"  Part="1" 
 F 0 "M1" V 1980 6329 30  0000 L CNN
 F 1 "Mounting_Holes" V 2040 6329 30  0000 L CNN
-F 2 "JPL Robotics:Raspberry pi footprint" H 1730 6330 30  0001 C CNN
+F 2 "JPL Robotics:raspberry_pi_3b" H 1730 6330 30  0001 C CNN
 F 3 "" H 1730 6330 30  0001 C CNN
 	1    1550 6150
 	0    1    1    0   

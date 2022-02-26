@@ -22,7 +22,7 @@ AR Path="/60AB7AB8" Ref="RC?"  Part="1"
 AR Path="/60A51BAC/60AB7AB8" Ref="RC1"  Part="1" 
 F 0 "RC1" H 1950 3418 30  0000 C CNN
 F 1 "RoboClaw" H 1950 3358 30  0000 C CNN
-F 2 "JPL Robotics:Roboclaw Mount" H 1950 3400 30  0001 C CNN
+F 2 "JPL Robotics:roboclaw_mount" H 1950 3400 30  0001 C CNN
 F 3 "" H 1950 3400 30  0001 C CNN
 	1    1700 2500
 	1    0    0    -1  
@@ -59,7 +59,7 @@ AR Path="/60AB7ADA" Ref="RC?"  Part="1"
 AR Path="/60A51BAC/60AB7ADA" Ref="RC3"  Part="1" 
 F 0 "RC3" H 3300 3418 30  0000 C CNN
 F 1 "RoboClaw" H 3300 3358 30  0000 C CNN
-F 2 "JPL Robotics:Roboclaw Mount" H 3300 3400 30  0001 C CNN
+F 2 "JPL Robotics:roboclaw_mount" H 3300 3400 30  0001 C CNN
 F 3 "" H 3300 3400 30  0001 C CNN
 	1    3050 2500
 	1    0    0    -1  
@@ -1208,7 +1208,7 @@ AR Path="/60AB7B1E" Ref="RC?"  Part="1"
 AR Path="/60A51BAC/60AB7B1E" Ref="RC2"  Part="1" 
 F 0 "RC2" H 1950 4818 30  0000 C CNN
 F 1 "RoboClaw" H 1950 4758 30  0000 C CNN
-F 2 "JPL Robotics:Roboclaw Mount" H 1950 4800 30  0001 C CNN
+F 2 "JPL Robotics:roboclaw_mount" H 1950 4800 30  0001 C CNN
 F 3 "" H 1950 4800 30  0001 C CNN
 	1    1700 3900
 	1    0    0    -1  

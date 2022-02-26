@@ -1,5 +1,5 @@
-(module Molex_172675-0613 (layer F.Cu) (tedit 61D3EBDB)
-  (fp_text reference REF** (at 0 -8.89) (layer F.SilkS)
+(module Molex_172675-0613 (layer F.Cu) (tedit 6219E22F)
+  (fp_text reference J13 (at 0 -8.89) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Molex_172675-0613 (at 3.81 3.81) (layer F.Fab)
@@ -20,4 +20,9 @@
   (pad 4 thru_hole circle (at 8.40232 -5.5118) (size 2.2098 2.2098) (drill 1.4478) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 13.10132 -5.0546) (size 2.9972 2.9972) (drill 2.9972) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -4.70408 -5.0546) (size 2.9972 2.9972) (drill 2.9972) (layers *.Cu *.Mask))
+  (model "C:/Users/Eric/Desktop/Electronics CAD/1726750613.stp"
+    (offset (xyz 4.2 2.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 180))
+  )
 )
