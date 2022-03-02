@@ -15,7 +15,7 @@
   (pad 4 thru_hole circle (at 10.5 0) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 14 0) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 17.5 0) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask))
-  (model "C:/Users/Eric/Desktop/Electronics CAD/277-14404-ND.step"
+  (model "../3d_models/277-14404-ND.step"
     (offset (xyz 8.75 -0.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

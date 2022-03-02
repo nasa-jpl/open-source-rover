@@ -16,7 +16,7 @@
   (pad 1 thru_hole rect (at 0 0) (size 1.56 1.56) (drill 1.02) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 1.03 -14.23) (size 3.4 3.4) (drill 2.18) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 14.23 -1.03) (size 3.4 3.4) (drill 2.18) (layers *.Cu *.Mask))
-  (model "C:/Users/Eric/Desktop/Electronics CAD/d24v22fx_headers_standoff.step"
+  (model "../3d_models/d24v22fx_headers_standoff.step"
     (offset (xyz 7.6 7.75 12.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

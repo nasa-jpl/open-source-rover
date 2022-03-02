@@ -15,7 +15,7 @@
   (fp_line (start 4.2672 -1.27) (end -1.6764 -1.27) (layer F.SilkS) (width 0.25))
   (pad 2 thru_hole circle (at 2.54 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask))
-  (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 1x2.step"
+  (model "../3d_models/Male Header 1x2.step"
     (offset (xyz 2.54 -1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

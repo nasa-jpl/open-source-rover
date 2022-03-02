@@ -16,7 +16,7 @@
   (pad 4 thru_hole circle (at 7.62 0) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 10.16 0) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 12.7 0) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask))
-  (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 1x6.step"
+  (model "../3d_models/Male Header 1x6.step"
     (offset (xyz 12.7 -1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

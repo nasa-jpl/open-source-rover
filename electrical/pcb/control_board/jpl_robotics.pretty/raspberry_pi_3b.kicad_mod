@@ -51,7 +51,7 @@
   (pad "" np_thru_hole circle (at 3.5 -52.5) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 61.5 -52.5) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 61.5 -3.5) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
-  (model "C:/Users/Eric/Desktop/Electronics CAD/Raspberry_pi_3_standoffs.step"
+  (model "../3d_models/Raspberry_pi_3_standoffs.step"
     (offset (xyz 42.5 28 10))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -41,7 +41,7 @@
   (pad 3 thru_hole circle (at 9.3 -3.27) (size 1.6 1.6) (drill 1.02) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 6.76 -5.81) (size 1.6 1.6) (drill 1.02) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 6.76 -3.27) (size 1.6 1.6) (drill 1.02) (layers *.Cu *.Mask))
-  (model "C:/Users/Eric/Desktop/Electronics CAD/roboclaw_2x7a_headers_standoffs.step"
+  (model "../3d_models/roboclaw_2x7a_headers_standoffs.step"
     (offset (xyz 18.25 21.35 -16.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 180))

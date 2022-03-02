@@ -561,7 +561,7 @@
       (net 173 "/Motor Board/RC1M2A"))
     (pad 6 thru_hole circle (at 17.5 0 270) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 172 "/Motor Board/RC1M2B"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/277-14404-ND.step"
+    (model "./3d_models/277-14404-ND.step"
       (offset (xyz 8.75 -0.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -593,7 +593,7 @@
       (net 183 "/Motor Board/RC2M1B"))
     (pad 1 thru_hole circle (at 0 0 270) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 182 "/Motor Board/RC2M1A"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/277-14404-ND.step"
+    (model "./3d_models/277-14404-ND.step"
       (offset (xyz 8.75 -0.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -625,7 +625,7 @@
       (net 177 "/Motor Board/RC3M2A"))
     (pad 6 thru_hole circle (at 17.5 0 270) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 176 "/Motor Board/RC3M2B"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/277-14404-ND.step"
+    (model "./3d_models/277-14404-ND.step"
       (offset (xyz 8.75 -0.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -689,7 +689,7 @@
       (net 164 "/Motor Board/OEservos"))
     (pad 20 thru_hole circle (at 22.86 -2.54) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask)
       (net 56 "/Motor Board/E_STOP2"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/PPTC102LFBN-RC--3DModel-STEP-1.STEP"
+    (model "./3d_models/PPTC102LFBN-RC--3DModel-STEP-1.STEP"
       (offset (xyz 11.4 1.27 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -750,7 +750,7 @@
       (net 66 "/Brain Board/E_STOP"))
     (pad 20 thru_hole circle (at 22.86 -2.54 180) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 65 "/Brain Board/E_STOP2"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/70246-2001_stp/702462001.stp"
+    (model "./3d_models/70246-2001_stp/702462001.stp"
       (offset (xyz 11.45 -1.27 5.8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -782,7 +782,7 @@
       (net 185 "Net-(U3-Pad1)"))
     (pad "" np_thru_hole circle (at 1.03 -14.23 270) (size 3.4 3.4) (drill 2.18) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 14.23 -1.03 270) (size 3.4 3.4) (drill 2.18) (layers *.Cu *.Mask))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/d24v22fx_headers_standoff.step"
+    (model "./3d_models/d24v22fx_headers_standoff.step"
       (offset (xyz 7.6 7.75 12.7))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -902,7 +902,7 @@
       (net 47 GND_motor))
     (pad 20 thru_hole circle (at 22.86 7.5 90) (size 1.67 1.67) (drill 1) (layers *.Cu *.Mask)
       (net 47 GND_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/DC-10.STEP"
+    (model "./3d_models/DC-10.STEP"
       (offset (xyz 11.4 -3.75 8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1022,7 +1022,7 @@
       (net 211 "/Brain Board/RXD_LED"))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.67 1.67) (drill 1) (layers *.Cu *.Mask)
       (net 212 "/Brain Board/TXD_LED"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/DC-10.STEP"
+    (model "./3d_models/DC-10.STEP"
       (offset (xyz 11.4 -3.75 8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1055,7 +1055,7 @@
       (net 49 +5V_brain))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 165 +12V_brain))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 1x6.step"
+    (model "./3d_models/Male Header 1x6.step"
       (offset (xyz 12.7 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1099,7 +1099,7 @@
       (net 100 "/Motor Board/servo_pwm_ch0"))
     (pad 2 thru_hole circle (at 0 2.54 180) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 52 +5V_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 3x4.step"
+    (model "./3d_models/Male Header 3x4.step"
       (offset (xyz 7.6 -0.95 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1143,7 +1143,7 @@
       (net 93 "/Motor Board/servo_pwm_ch12"))
     (pad 2 thru_hole circle (at 0 2.54 180) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 52 +5V_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 3x4.step"
+    (model "./3d_models/Male Header 3x4.step"
       (offset (xyz 7.6 -0.95 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1187,7 +1187,7 @@
       (net 92 "/Motor Board/servo_pwm_ch8"))
     (pad 2 thru_hole circle (at 0 2.54 180) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 52 +5V_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 3x4.step"
+    (model "./3d_models/Male Header 3x4.step"
       (offset (xyz 7.6 -0.95 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1231,7 +1231,7 @@
       (net 85 "/Motor Board/servo_pwm_ch4"))
     (pad 2 thru_hole circle (at 0 2.54 270) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 52 +5V_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 3x4.step"
+    (model "./3d_models/Male Header 3x4.step"
       (offset (xyz 7.6 -0.95 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1371,7 +1371,7 @@
       (net 170 "Net-(U2-Pad10)"))
     (pad 56 thru_hole circle (at 55.372 -1.524 90) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 171 "Net-(U2-Pad11)"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/12_channel_servo_controller_headers.step"
+    (model "./3d_models/12_channel_servo_controller_headers.step"
       (offset (xyz 31.5 13 12.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1397,7 +1397,7 @@
       (net 58 "/Motor Board/SWITCH+"))
     (pad 1 thru_hole circle (at -11.3 0) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask)
       (net 45 "/Motor Board/BATTPOS"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/4527--3DModel-STEP-56544.STEP"
+    (model "./3d_models/4527--3DModel-STEP-56544.STEP"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1459,7 +1459,7 @@
     (pad "" np_thru_hole circle (at 61.5 -52.5 90) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 3.5 -52.5 90) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 3.5 -3.5 90) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/Raspberry_pi_3_standoffs.step"
+    (model "./3d_models/Raspberry_pi_3_standoffs.step"
       (offset (xyz 42.5 28 10))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1505,7 +1505,7 @@
       (net 1 +BATT))
     (pad "" np_thru_hole oval (at 2.54 -20.32 90) (size 3.5 3.5) (drill 2.54) (layers *.Cu *.Mask))
     (pad "" np_thru_hole oval (at 20.32 -20.32 90) (size 3.5 3.5) (drill 2.54) (layers *.Cu *.Mask))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/INA260_headers.step"
+    (model "./3d_models/INA260_headers.step"
       (offset (xyz 1.15 11.95 1.7))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -1530,7 +1530,7 @@
       (net 46 +12V_motor))
     (pad 2 thru_hole circle (at 5.08 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 47 GND_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/ul_1760510000/STEP/1760510000.stp"
+    (model "./3d_models/ul_1760510000/STEP/1760510000.stp"
       (offset (xyz -3 -3.75 -3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1584,7 +1584,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "C:/Users/Eric/Desktop/Electronics CAD/XT30 _F.step"
+    (model "./3d_models/XT30 _F.step"
       (offset (xyz 7.5 -2.65 20))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1638,7 +1638,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "C:/Users/Eric/Desktop/Electronics CAD/XT30_M.step"
+    (model "./3d_models/XT30_M.step"
       (offset (xyz 7.5 2.55 12.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
@@ -1692,7 +1692,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "C:/Users/Eric/Desktop/Electronics CAD/XT30 _F.step"
+    (model "./3d_models/XT30 _F.step"
       (offset (xyz 7.5 -2.65 20))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1746,7 +1746,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "C:/Users/Eric/Desktop/Electronics CAD/XT30_M.step"
+    (model "./3d_models/XT30_M.step"
       (offset (xyz 7.5 2.55 12.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
@@ -1800,7 +1800,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "C:/Users/Eric/Desktop/Electronics CAD/XT30 _F.step"
+    (model "./3d_models/XT30 _F.step"
       (offset (xyz 7.5 -2.65 20))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -1900,7 +1900,7 @@
       (net 50 GND_brain))
     (pad 40 thru_hole circle (at 48.26 -2.54 90) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 128 "Net-(J22-Pad40)"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/61204021621_Download_STP_61204021621_rev1.stp"
+    (model "./3d_models/61204021621_Download_STP_61204021621_rev1.stp"
       (offset (xyz 24.1 1.25 4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2000,7 +2000,7 @@
       (net 50 GND_brain))
     (pad 40 thru_hole circle (at 48.26 -2.54 90) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 127 "Net-(J23-Pad40)"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/61204021621_Download_STP_61204021621_rev1.stp"
+    (model "./3d_models/61204021621_Download_STP_61204021621_rev1.stp"
       (offset (xyz 24.1 1.25 4.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2054,7 +2054,7 @@
       (net 1 +BATT))
     (pad 4 thru_hole circle (at 13.97 5.08 90) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask)
       (net 47 GND_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/d24v150fx_headers.step"
+    (model "./3d_models/d24v150fx_headers.step"
       (offset (xyz 0 0 2.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2131,7 +2131,7 @@
     (pad "" np_thru_hole circle (at 36.449 0 270) (size 3.8 3.8) (drill 2.9) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 0 42.545 270) (size 3.8 3.8) (drill 2.9) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 36.449 42.545 270) (size 3.8 3.8) (drill 2.9) (layers *.Cu *.Mask))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/roboclaw_2x7a_headers_standoffs.step"
+    (model "./3d_models/roboclaw_2x7a_headers_standoffs.step"
       (offset (xyz 18.25 21.35 -16.25))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -2208,7 +2208,7 @@
     (pad "" np_thru_hole circle (at 36.449 0 270) (size 3.8 3.8) (drill 2.9) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 0 -42.545 270) (size 3.8 3.8) (drill 2.9) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 36.449 -42.545 270) (size 3.8 3.8) (drill 2.9) (layers *.Cu *.Mask))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/roboclaw_2x7a_headers_standoffs.step"
+    (model "./3d_models/roboclaw_2x7a_headers_standoffs.step"
       (offset (xyz 18.25 21.35 -16.25))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -2285,7 +2285,7 @@
     (pad "" np_thru_hole circle (at 36.449 0 270) (size 3.8 3.8) (drill 2.9) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 0 -42.545 270) (size 3.8 3.8) (drill 2.9) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 36.449 -42.545 270) (size 3.8 3.8) (drill 2.9) (layers *.Cu *.Mask))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/roboclaw_2x7a_headers_standoffs.step"
+    (model "./3d_models/roboclaw_2x7a_headers_standoffs.step"
       (offset (xyz 18.25 21.35 -16.25))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -2618,7 +2618,7 @@
       (net 61 +3.3V_brain))
     (pad 1 thru_hole rect (at 0 0) (size 1.3 1.3) (drill 0.76) (layers *.Cu *.Mask)
       (net 66 "/Brain Board/E_STOP"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/CT206124-ND.step"
+    (model "./3d_models/CT206124-ND.step"
       (offset (xyz 8.9 -3.8 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2655,7 +2655,7 @@
       (net 183 "/Motor Board/RC2M1B"))
     (pad 3 thru_hole circle (at 0 0 90) (size 2.2098 2.2098) (drill 1.4478) (layers *.Cu *.Mask)
       (net 47 GND_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/1726750613.stp"
+    (model "./3d_models/1726750613.stp"
       (offset (xyz 4.2 2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -2692,7 +2692,7 @@
       (net 180 "/Motor Board/RC3M1B"))
     (pad 3 thru_hole circle (at 0 0 90) (size 2.2098 2.2098) (drill 1.4478) (layers *.Cu *.Mask)
       (net 47 GND_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/1726750613.stp"
+    (model "./3d_models/1726750613.stp"
       (offset (xyz 4.2 2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -2729,7 +2729,7 @@
       (net 179 "/Motor Board/RC1M1B"))
     (pad 3 thru_hole circle (at 0 0 270) (size 2.2098 2.2098) (drill 1.4478) (layers *.Cu *.Mask)
       (net 47 GND_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/1726750613.stp"
+    (model "./3d_models/1726750613.stp"
       (offset (xyz 4.2 2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -2766,7 +2766,7 @@
       (net 176 "/Motor Board/RC3M2B"))
     (pad 3 thru_hole circle (at 0 0 90) (size 2.2098 2.2098) (drill 1.4478) (layers *.Cu *.Mask)
       (net 47 GND_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/1726750613.stp"
+    (model "./3d_models/1726750613.stp"
       (offset (xyz 4.2 2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -2803,7 +2803,7 @@
       (net 175 "/Motor Board/RC2M2B"))
     (pad 3 thru_hole circle (at 0 0 270) (size 2.2098 2.2098) (drill 1.4478) (layers *.Cu *.Mask)
       (net 47 GND_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/1726750613.stp"
+    (model "./3d_models/1726750613.stp"
       (offset (xyz 4.2 2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -2840,7 +2840,7 @@
       (net 172 "/Motor Board/RC1M2B"))
     (pad 3 thru_hole circle (at 0 0 270) (size 2.2098 2.2098) (drill 1.4478) (layers *.Cu *.Mask)
       (net 47 GND_motor))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/1726750613.stp"
+    (model "./3d_models/1726750613.stp"
       (offset (xyz 4.2 2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 180))
@@ -2868,7 +2868,7 @@
       (net 146 "/Brain Board/OEservos"))
     (pad 2 thru_hole circle (at 2.54 0 270) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask)
       (net 50 GND_brain))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 1x2.step"
+    (model "./3d_models/Male Header 1x2.step"
       (offset (xyz 2.54 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2896,7 +2896,7 @@
       (net 71 "/Brain Board/E_STOP3_in"))
     (pad 2 thru_hole circle (at 2.54 0 270) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask)
       (net 50 GND_brain))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 1x2.step"
+    (model "./3d_models/Male Header 1x2.step"
       (offset (xyz 2.54 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2924,7 +2924,7 @@
       (net 72 "/Brain Board/E_STOP2_in"))
     (pad 2 thru_hole circle (at 2.54 0 270) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask)
       (net 50 GND_brain))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 1x2.step"
+    (model "./3d_models/Male Header 1x2.step"
       (offset (xyz 2.54 -1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2968,7 +2968,7 @@
       (net 101 "/Brain Board/SDA_rpi"))
     (pad 2 thru_hole circle (at 0 2.54 90) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 102 "/Brain Board/SCL_rpi"))
-    (model "C:/Users/Eric/Desktop/Electronics CAD/Male Header 3x4.step"
+    (model "./3d_models/Male Header 3x4.step"
       (offset (xyz 7.6 -0.95 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

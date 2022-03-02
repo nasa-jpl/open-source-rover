@@ -30,7 +30,7 @@
   (pad 11 thru_hole circle (at 31.75 -5.08) (size 1.78 1.78) (drill 1.06) (layers *.Cu *.Mask))
   (pad 12 thru_hole circle (at 34.29 -5.08) (size 1.78 1.78) (drill 1.06) (layers *.Cu *.Mask))
   (pad 13 thru_hole circle (at 36.83 -5.08) (size 1.78 1.78) (drill 1.06) (layers *.Cu *.Mask))
-  (model "C:/Users/Eric/Desktop/Electronics CAD/d24v150fx_headers.step"
+  (model "../3d_models/d24v150fx_headers.step"
     (offset (xyz 0 0 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

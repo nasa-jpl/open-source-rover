@@ -73,7 +73,7 @@
   (pad "" np_thru_hole circle (at 59.182 -22.352) (size 3.698499 3.698499) (drill 2.999999) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 3.32 -22.352) (size 3.698499 3.698499) (drill 2.999999) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 3.32 -3.32) (size 3.698499 3.698499) (drill 2.999999) (layers *.Cu *.Mask))
-  (model "C:/Users/Eric/Desktop/Electronics CAD/12_channel_servo_controller_headers.step"
+  (model "../3d_models/12_channel_servo_controller_headers.step"
     (offset (xyz 31.5 13 12.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

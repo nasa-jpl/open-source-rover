@@ -13,7 +13,7 @@
   (fp_line (start -12.7 -5.08) (end -12.7 -1.27) (layer F.SilkS) (width 0.25))
   (pad 1 thru_hole circle (at -11.3 0) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 11.3 0) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
-  (model "C:/Users/Eric/Desktop/Electronics CAD/4527--3DModel-STEP-56544.STEP"
+  (model "../3d_models/4527--3DModel-STEP-56544.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

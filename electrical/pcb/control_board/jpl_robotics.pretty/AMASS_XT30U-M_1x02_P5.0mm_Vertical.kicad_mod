@@ -41,7 +41,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "C:/Users/Eric/Desktop/Electronics CAD/XT30_M.step"
+  (model "../3d_models/XT30_M.step"
     (offset (xyz 7.5 2.55 12.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 90))

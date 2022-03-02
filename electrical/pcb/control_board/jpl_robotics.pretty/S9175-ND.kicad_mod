@@ -49,7 +49,7 @@
   (pad 3 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 -2.54) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask))
-  (model "C:/Users/Eric/Desktop/Electronics CAD/61204021621_Download_STP_61204021621_rev1.stp"
+  (model "../3d_models/61204021621_Download_STP_61204021621_rev1.stp"
     (offset (xyz 24.1 1.25 4.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
