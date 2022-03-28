@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Control_Boards-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1585,17 +1584,6 @@ F 3 "" H 15150 7600 50  0001 C CNN
 	1    15150 7600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG04
-U 1 1 61467D22
-P 14850 9150
-F 0 "#FLG04" H 14850 9225 50  0001 C CNN
-F 1 "PWR_FLAG" V 14900 9250 24  0000 L CNN
-F 2 "" H 14850 9150 50  0001 C CNN
-F 3 "~" H 14850 9150 50  0001 C CNN
-	1    14850 9150
-	0    1    1    0   
-$EndComp
 Text Notes 13750 9850 0    31   ~ 0
 Slotted into female header on the motor board pcb
 Text Notes 8000 2900 0    31   ~ 0
@@ -1710,13 +1698,6 @@ F 3 "" H 5400 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 6900 5650 6900
-Wire Wire Line
-	5650 6900 5650 6850
-Wire Wire Line
-	5650 6900 5650 7000
-Connection ~ 5650 6900
-Wire Wire Line
 	6000 6800 6300 6800
 Wire Wire Line
 	6000 6700 6300 6700
@@ -1749,7 +1730,7 @@ servo_pwm_ch0
 Text Label 8500 5550 2    30   ~ 0
 servo_pwm_ch1
 Text Label 8500 5650 2    30   ~ 0
-servo_pwm_ch1
+servo_pwm_ch2
 Text Label 8500 5750 2    30   ~ 0
 servo_pwm_ch3
 Text Label 8500 5950 2    30   ~ 0
@@ -2301,10 +2282,6 @@ Wire Wire Line
 	7050 3650 7050 3600
 Wire Wire Line
 	7050 3600 7250 3600
-Text Label 6050 5800 0    50   ~ 0
-+BATT
-Wire Wire Line
-	6050 5800 6300 5800
 $Comp
 L JPL_Robotics_Lib:D24V150Fx U4
 U 1 1 652856E5
@@ -2352,8 +2329,6 @@ Wire Wire Line
 Wire Wire Line
 	15150 7850 14900 7850
 Connection ~ 15150 7750
-Wire Wire Line
-	15150 7750 15300 7750
 Text Notes 3850 9050 0    31   ~ 0
 Misc 12V header for external use
 Text Notes 7000 7850 0    31   ~ 0
@@ -2409,19 +2384,6 @@ Text Notes 2200 6950 0    30   ~ 0
 Battery Out \n(for optional \ndaisychaining)
 Text Notes 3100 5750 0    50   ~ 0
 -
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 60B7557C
-P 1400 6550
-AR Path="/60B7557C" Ref="#FLG?"  Part="1" 
-AR Path="/60A51BAC/60B7557C" Ref="#FLG01"  Part="1" 
-F 0 "#FLG01" H 1400 6625 50  0001 C CNN
-F 1 "PWR_FLAG" H 1400 6723 50  0000 C CNN
-F 2 "" H 1400 6550 50  0001 C CNN
-F 3 "~" H 1400 6550 50  0001 C CNN
-	1    1400 6550
-	1    0    0    -1  
-$EndComp
 Text Notes 2650 5750 0    50   ~ 0
 -
 Text Notes 3100 5650 0    50   ~ 0
@@ -2539,27 +2501,11 @@ F 3 "" H 1550 6950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 7300 1600 7150
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 60B75584
-P 2000 7150
-AR Path="/60B75584" Ref="#FLG?"  Part="1" 
-AR Path="/60A51BAC/60B75584" Ref="#FLG02"  Part="1" 
-F 0 "#FLG02" H 2000 7225 50  0001 C CNN
-F 1 "PWR_FLAG" V 2100 7250 50  0000 C CNN
-F 2 "" H 2000 7150 50  0001 C CNN
-F 3 "~" H 2000 7150 50  0001 C CNN
-	1    2000 7150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1900 7150 1900 6900
 Connection ~ 1600 7150
 Wire Wire Line
 	1600 7150 1900 7150
-Wire Wire Line
-	2000 7150 1900 7150
-Connection ~ 1900 7150
 Wire Wire Line
 	1900 6900 1950 6900
 $Comp
@@ -2663,7 +2609,7 @@ GND_motor
 Text Notes 1200 8300 0    50   ~ 0
 2. MM DC- has a low resistance \nconnection to MM LOAD-
 Wire Wire Line
-	3800 6200 3800 5650
+	3800 6200 3800 5900
 Wire Wire Line
 	3800 5650 3750 5650
 $Comp
@@ -2680,9 +2626,6 @@ $EndComp
 Wire Wire Line
 	3300 5850 3300 5700
 Connection ~ 4650 7050
-Wire Wire Line
-	1400 6550 1900 6550
-Connection ~ 1900 6550
 Wire Wire Line
 	1900 6550 1900 6850
 Wire Wire Line
@@ -2815,8 +2758,6 @@ Text Notes 6050 1500 0    31   ~ 0
 Todo: consolidate these caps into one master cap once we have a better idea of layout
 Text Notes 7550 2750 0    31   ~ 0
 Todo: eric to think about capacitor array in place of these individual ones
-NoConn ~ 8100 7450
-NoConn ~ 8100 7550
 $Comp
 L JPL_Robotics_Lib:D24V22Fx U3
 U 1 1 6213B507
@@ -2869,20 +2810,6 @@ Wire Wire Line
 Connection ~ 14650 9150
 Wire Wire Line
 	14650 9150 14800 9150
-Wire Wire Line
-	14850 9150 14800 9150
-Connection ~ 14800 9150
-$Comp
-L power:PWR_FLAG #FLG05
-U 1 1 623A60D8
-P 15300 7750
-F 0 "#FLG05" H 15300 7825 50  0001 C CNN
-F 1 "PWR_FLAG" V 15350 7850 24  0000 L CNN
-F 2 "" H 15300 7750 50  0001 C CNN
-F 3 "~" H 15300 7750 50  0001 C CNN
-	1    15300 7750
-	0    1    1    0   
-$EndComp
 Connection ~ 13350 9500
 NoConn ~ 14500 9300
 Wire Wire Line
@@ -2978,4 +2905,56 @@ Wire Wire Line
 	9600 6300 9600 6550
 Wire Wire Line
 	9600 5950 9600 6100
+Text Label 5950 5800 0    50   ~ 0
++5V_motor
+Wire Wire Line
+	5950 5800 6300 5800
+Wire Wire Line
+	5650 6850 5650 6900
+Wire Wire Line
+	6300 6900 5650 6900
+Connection ~ 5650 6900
+Wire Wire Line
+	5650 6900 5650 7000
+Text Notes 5450 7400 0    31   ~ 0
+todo: do we actually want to disconnect\n ground from pin 6?
+NoConn ~ 8100 7450
+Connection ~ 1900 7150
+Wire Wire Line
+	2000 7150 1900 7150
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60B75584
+P 2000 7150
+AR Path="/60B75584" Ref="#FLG?"  Part="1" 
+AR Path="/60A51BAC/60B75584" Ref="#FLG02"  Part="1" 
+F 0 "#FLG02" H 2000 7225 50  0001 C CNN
+F 1 "PWR_FLAG" V 2100 7250 50  0000 C CNN
+F 2 "" H 2000 7150 50  0001 C CNN
+F 3 "~" H 2000 7150 50  0001 C CNN
+	1    2000 7150
+	0    1    1    0   
+$EndComp
+NoConn ~ 8100 7550
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 625C60C4
+P 3800 5900
+AR Path="/625C60C4" Ref="#FLG?"  Part="1" 
+AR Path="/60A51BAC/625C60C4" Ref="#FLG0101"  Part="1" 
+F 0 "#FLG0101" H 3800 5975 50  0001 C CNN
+F 1 "PWR_FLAG" V 3900 6150 50  0000 C CNN
+F 2 "" H 3800 5900 50  0001 C CNN
+F 3 "~" H 3800 5900 50  0001 C CNN
+	1    3800 5900
+	0    1    1    0   
+$EndComp
+Connection ~ 3800 5900
+Wire Wire Line
+	3800 5900 3800 5650
+NoConn ~ 14250 6200
+NoConn ~ 14250 6300
+NoConn ~ 14250 6400
+NoConn ~ 14250 6500
+NoConn ~ 14250 6600
 $EndSCHEMATC

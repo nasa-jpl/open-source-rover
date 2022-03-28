@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name JPL_Robotics_Lib)(type Legacy)(uri ${KIPRJMOD}/JPL_Robotics_Lib.lib)(options "")(descr ""))
+  (lib (name Control_Boards-rescue)(type Legacy)(uri ${KIPRJMOD}/Control_Boards-rescue.lib)(options "")(descr ""))
 )

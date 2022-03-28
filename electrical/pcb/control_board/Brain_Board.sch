@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Control_Boards-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,8 +19,6 @@ Wire Wire Line
 	1700 3400 1700 3450
 Wire Wire Line
 	2250 2100 2100 2100
-Wire Wire Line
-	2250 2300 2100 2300
 Wire Wire Line
 	2250 2500 2100 2500
 Wire Wire Line
@@ -44,10 +41,8 @@ Wire Wire Line
 	3400 2600 3250 2600
 Wire Wire Line
 	3400 2700 3250 2700
-Text Label 2100 1900 0    30   ~ 0
-3.3V
-Text Label 2100 2300 0    30   ~ 0
-3.3V
+Text Label 2050 2300 0    30   ~ 0
++3.3V_brain
 Text Label 3400 1900 2    30   ~ 0
 +5V
 Text Label 3400 1950 2    30   ~ 0
@@ -70,11 +65,7 @@ F 3 "" H 2450 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 3200 2150 3200
-Wire Wire Line
 	2300 3400 2150 3400
-Wire Wire Line
-	2300 3600 2150 3600
 Wire Wire Line
 	2300 3800 2150 3800
 Wire Wire Line
@@ -97,12 +88,12 @@ Wire Wire Line
 	3450 3900 3300 3900
 Wire Wire Line
 	3450 4000 3300 4000
-Text Label 2150 3200 0    30   ~ 0
-3.3V
+Text Label 2100 3200 0    30   ~ 0
++3.3V_brain
 Text Label 2150 3400 0    30   ~ 0
 GND
-Text Label 2150 3600 0    30   ~ 0
-3.3V
+Text Label 2100 3600 0    30   ~ 0
++3.3V_brain
 Text Label 2150 3800 0    30   ~ 0
 GND
 Text Label 2150 4150 0    30   ~ 0
@@ -559,12 +550,10 @@ Note: arranged these pins in a convenient way to make sure that if \nconnectors 
 NoConn ~ 5400 2500
 NoConn ~ 5900 2500
 NoConn ~ 5400 2700
-Wire Wire Line
-	5400 2600 5100 2600
-Text Label 5100 2600 0    50   ~ 0
-3.3V
-Text Label 6250 2600 2    50   ~ 0
-3.3V
+Text Label 5050 2600 0    39   ~ 0
++3.3V_brain
+Text Label 6250 2600 2    39   ~ 0
++3.3V_brain
 Wire Wire Line
 	5900 2600 6250 2600
 NoConn ~ 2300 3500
@@ -1089,8 +1078,6 @@ F 3 "" H 7900 2600 50  0001 C CNN
 $EndComp
 Text Notes 9200 1300 0    31   ~ 0
 - Roboclaw ESTOPs active low \n(emergency stop when pulled low)\n- LEDs off when estop’ed (nominal on)
-Text Notes 2100 1650 0    31   ~ 0
-Todo: kit make the two 3.3v nets have the same name
 Text Notes 7200 1450 0    31   ~ 0
 TODO: check logic here, make sure it’s what we want\n\nalso do 5v source for LEDs
 Text Notes 7200 5100 0    31   ~ 0
@@ -1099,6 +1086,8 @@ $Comp
 L JPL_Robotics_Lib:SSW-104-01-F-T J25
 U 1 1 61D7BA49
 P 3350 7650
+AR Path="/61D7BA49" Ref="J25"  Part="1" 
+AR Path="/60A5279E/61D7BA49" Ref="J25"  Part="1" 
 F 0 "J25" H 3578 8430 50  0000 L CNN
 F 1 "SSW-104-01-F-T" H 3578 8385 50  0001 L CNN
 F 2 "JPL Robotics:SSW-104-01-F-T" H 3350 7650 50  0001 C CNN
@@ -1370,4 +1359,18 @@ Wire Wire Line
 Connection ~ 6150 6000
 Wire Wire Line
 	6150 6000 6150 6100
+Text Label 2050 1900 0    30   ~ 0
++3.3V_brain
+Wire Wire Line
+	5050 2600 5400 2600
+Wire Wire Line
+	2050 2300 2250 2300
+Wire Wire Line
+	2100 3200 2300 3200
+Wire Wire Line
+	2100 3600 2300 3600
+NoConn ~ 5450 6200
+NoConn ~ 5450 6300
+NoConn ~ 5450 6400
+NoConn ~ 5450 6500
 $EndSCHEMATC
