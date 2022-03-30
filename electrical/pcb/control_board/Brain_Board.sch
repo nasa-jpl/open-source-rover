@@ -1154,14 +1154,14 @@ Wire Wire Line
 $Comp
 L JPL_Robotics_Lib:Mounting_Holes M?
 U 1 1 61DB5332
-P 1550 6150
+P 1400 5900
 AR Path="/60A51BAC/61DB5332" Ref="M?"  Part="1" 
 AR Path="/60A5279E/61DB5332" Ref="M1"  Part="1" 
-F 0 "M1" V 1980 6329 30  0000 L CNN
-F 1 "Mounting_Holes" V 2040 6329 30  0000 L CNN
-F 2 "JPL Robotics:raspberry_pi_3b" H 1730 6330 30  0001 C CNN
-F 3 "" H 1730 6330 30  0001 C CNN
-	1    1550 6150
+F 0 "M1" V 1830 6079 30  0000 L CNN
+F 1 "Mounting_Holes" V 1890 6079 30  0000 L CNN
+F 2 "JPL Robotics:raspberry_pi_3b" H 1580 6080 30  0001 C CNN
+F 3 "" H 1580 6080 30  0001 C CNN
+	1    1400 5900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1373,4 +1373,62 @@ NoConn ~ 5450 6200
 NoConn ~ 5450 6300
 NoConn ~ 5450 6400
 NoConn ~ 5450 6500
+Text Notes 1850 7400 0    50   ~ 0
+\n
+$Comp
+L JPL_Robotics_Lib:#6THRU-HOLE MH?
+U 1 1 626D877C
+P 1450 6800
+AR Path="/60A51BAC/626D877C" Ref="MH?"  Part="1" 
+AR Path="/60A5279E/626D877C" Ref="MH9"  Part="1" 
+F 0 "MH9" H 1581 6800 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1450 6940 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1450 6890 30  0001 C CNN
+F 3 "" H 1450 6890 30  0001 C CNN
+	1    1450 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:#6THRU-HOLE MH?
+U 1 1 626D8782
+P 1450 6950
+AR Path="/60A51BAC/626D8782" Ref="MH?"  Part="1" 
+AR Path="/60A5279E/626D8782" Ref="MH10"  Part="1" 
+F 0 "MH10" H 1581 6950 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1450 7090 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1450 7040 30  0001 C CNN
+F 3 "" H 1450 7040 30  0001 C CNN
+	1    1450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:#6THRU-HOLE MH?
+U 1 1 626D8788
+P 1450 7100
+AR Path="/60A51BAC/626D8788" Ref="MH?"  Part="1" 
+AR Path="/60A5279E/626D8788" Ref="MH11"  Part="1" 
+F 0 "MH11" H 1581 7100 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1450 7240 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1450 7190 30  0001 C CNN
+F 3 "" H 1450 7190 30  0001 C CNN
+	1    1450 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:#6THRU-HOLE MH?
+U 1 1 626D878E
+P 1450 7250
+AR Path="/60A51BAC/626D878E" Ref="MH?"  Part="1" 
+AR Path="/60A5279E/626D878E" Ref="MH12"  Part="1" 
+F 0 "MH12" H 1581 7250 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1450 7390 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1450 7340 30  0001 C CNN
+F 3 "" H 1450 7340 30  0001 C CNN
+	1    1450 7250
+	1    0    0    -1  
+$EndComp
+Text Notes 1200 6700 0    31   ~ 0
+For mounting to motor board
+Text Notes 1150 6000 0    31   ~ 0
+RPi mounting holes
 $EndSCHEMATC
