@@ -56,6 +56,20 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 </details>
 
+## Paddy-Rover ([Kit](github.com/apollokit))
+
+| <image src="images/paddy/paddy1.jpg" height="150"> <image src="images/paddy/paddy2.png" height="150"> |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+  * I built Paddy through the winter of 2019-2020. She was (kinda) a covid baby!
+  * It's been a great learning experience building and maintaining Paddy.
+  * I help maintain the two repositories!
+  
+</details>
+
 ## Your rover's name ([your name](github.com/yourgithubhandle))
 
 | <image src="../images/rover-climbing.jpg" height="150"> <image src="../images/rover-silver.png" height="150"> |
