@@ -73,6 +73,10 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 ## Sinuhe's rover
 
 | <image src="images/sinuhe/sinuhe1.png" height="250"> [<image src="images/sinuhe/video_icon.png" height="250">](https://youtu.be/jEhQtxJgvEM) |
+|:-:|
+  
+<details>
+  <summary>Expand to learn more about this build!</summary>
 
   This project help us get through covid year 2020!
   
