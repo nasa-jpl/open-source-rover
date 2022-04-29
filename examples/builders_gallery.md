@@ -56,13 +56,23 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 </details>
 
-## Sinuhe's rover
+## Paddy-Rover ([Kit](github.com/apollokit))
 
-| <image src="images/sinuhe/sinuhe1.png" height="250"> [<image src="images/sinuhe/video_icon.png" height="250">](https://youtu.be/jEhQtxJgvEM) |
+| <image src="images/paddy/paddy1.jpg" height="150"> <image src="images/paddy/paddy2.png" height="150"> |
 |:-:|
 
 <details>
   <summary>Expand to learn more about this build!</summary>
+
+  * I built Paddy through the winter of 2019-2020. She was (kinda) a covid baby!
+  * It's been a great learning experience building and maintaining Paddy.
+  * I help maintain the two repositories!
+  
+</details>
+  
+## Sinuhe's rover
+
+| <image src="images/sinuhe/sinuhe1.png" height="250"> [<image src="images/sinuhe/video_icon.png" height="250">](https://youtu.be/jEhQtxJgvEM) |
 
   This project help us get through covid year 2020!
   
@@ -74,7 +84,7 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 ## Alex' rover
 
 https://user-images.githubusercontent.com/14060847/160306700-88ff7ab6-efe0-483a-8637-53a57874fb1f.mp4
-
+  
 ## Your rover's name ([your name](github.com/yourgithubhandle))
 
 | <image src="../images/rover-climbing.jpg" height="150"> <image src="../images/rover-silver.png" height="150"> |
