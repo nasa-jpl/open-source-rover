@@ -80,10 +80,7 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 |:-:|
 | <image src="images/AUDACITY/IMG_3931.JPG" height="150"> |
 |:-:|
-| <image src="images/AUDACITY/20190817_123356.mp4" height="150"> |
-|:-:|
-| <image src="images/AUDACITY/IMG_6244_HEVC.MOV" height="150"> |
-|:-:|
+
 
 <details>
   <summary>Expand to learn more about this build!</summary>
