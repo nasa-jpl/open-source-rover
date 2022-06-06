@@ -945,8 +945,8 @@ L JPL_Robotics_Lib:test_point T?
 U 1 1 60B753B5
 P 14650 9000
 AR Path="/60B753B5" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753B5" Ref="T6"  Part="1" 
-F 0 "T6" V 14650 8900 30  0000 L CNN
+AR Path="/60A51BAC/60B753B5" Ref="T5"  Part="1" 
+F 0 "T5" V 14650 8900 30  0000 L CNN
 F 1 "test_point" H 14800 9250 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14600 8950 50  0001 C CNN
 F 3 "" H 14600 8950 50  0001 C CNN
@@ -1275,7 +1275,7 @@ E_STOP3
 Text Notes 3250 3150 0    31   ~ 0
 Pulllups for e_stop signals
 $Comp
-L Device:R R2
+L Device:R_US R2
 U 1 1 61145EF5
 P 3150 3650
 F 0 "R2" H 3220 3696 50  0000 L CNN
@@ -1286,7 +1286,7 @@ F 3 "~" H 3150 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Device:R_US R3
 U 1 1 6115BE1A
 P 3450 3650
 F 0 "R3" H 3520 3696 50  0000 L CNN
@@ -1297,7 +1297,7 @@ F 3 "~" H 3450 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Device:R_US R4
 U 1 1 6115C337
 P 3750 3650
 F 0 "R4" H 3820 3696 50  0000 L CNN
@@ -1410,19 +1410,6 @@ F 2 "" H 13250 7650 50  0001 C CNN
 F 3 "" H 13250 7650 50  0001 C CNN
 	1    13250 7650
 	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 6123BED4
-P 13200 9500
-AR Path="/6123BED4" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/6123BED4" Ref="T5"  Part="1" 
-F 0 "T5" H 13150 9450 30  0000 L CNN
-F 1 "test_point" H 13350 9750 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 13150 9450 50  0001 C CNN
-F 3 "" H 13150 9450 50  0001 C CNN
-	1    13200 9500
-	-1   0    0    1   
 $EndComp
 Text Notes 13750 5250 0    98   ~ 0
 Power LEDs
@@ -2783,7 +2770,6 @@ Wire Wire Line
 Connection ~ 14650 9150
 Wire Wire Line
 	14650 9150 14800 9150
-Connection ~ 13350 9500
 NoConn ~ 14500 9300
 Wire Wire Line
 	7100 1550 7100 1900
@@ -2979,12 +2965,12 @@ For mounting to to \nrover structure
 Text Notes 2100 8800 0    31   ~ 0
 For mounting brain board
 $Comp
-L Device:R R21
+L Device:R_US R21
 U 1 1 62A1852A
 P 13200 9300
 F 0 "R21" V 12993 9300 50  0000 C CNN
 F 1 "0" V 13084 9300 50  0000 C CNN
-F 2 "" V 13130 9300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 13130 9300 50  0001 C CNN
 F 3 "~" H 13200 9300 50  0001 C CNN
 	1    13200 9300
 	0    1    1    0   
