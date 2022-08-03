@@ -79,7 +79,7 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 Built by the [Cardinal Gibbons Robotics](https://www.cghsnc.org/campuslife/co-curricular/robotics) team for use at outreach events.  Roverto has been to a few places, but is most at home on our [Mars Map courtesy of the Aldrin Foundation](https://aldrinfoundation.org/giant-mars-map/).  With it Roverto has been to:
 
-* Astronomy days at the [North Carolina Museum of Natural Sciences](https://naturalsciences.org/) Three times.  One time Roverto had the opportunity to try and drive over a full size Curiosity wheel.
+* Astronomy days at the [North Carolina Museum of Natural Sciences](https://naturalsciences.org/) Three times.  One time Roverto had the opportunity to try and drive over a full size Curiosity wheel.  The last time we rand that event, there were over 14,000 attendees.
 * [Galaxycon](https://galaxycon.com/pages/raleigh) Twice!
 * The [North Carolina Transportation Museum](https://www.nctransportationmuseum.org/)
 * Many events at [Cardinal Gibbons High School](https://www.cghsnc.org/).
