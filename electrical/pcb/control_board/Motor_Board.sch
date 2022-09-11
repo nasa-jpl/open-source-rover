@@ -2498,18 +2498,6 @@ Wire Wire Line
 	3800 6900 4100 6900
 Wire Wire Line
 	3800 6800 4100 6800
-Wire Wire Line
-	4650 7050 4650 7400
-Wire Wire Line
-	4600 7050 4650 7050
-Wire Wire Line
-	4650 6550 4650 7050
-Wire Wire Line
-	4500 6550 4650 6550
-Wire Wire Line
-	3800 7050 4300 7050
-Wire Wire Line
-	3800 6550 4300 6550
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR06
 U 1 1 6281B3C4
@@ -2535,32 +2523,32 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 61378A2A
-P 4400 6550
+P 4550 6550
 AR Path="/60A5279E/61378A2A" Ref="C?"  Part="1" 
 AR Path="/60A51BAC/61378A2A" Ref="C1"  Part="1" 
-F 0 "C1" V 4300 6450 50  0000 L CNN
-F 1 "100nf" V 4500 6450 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4400 6550 50  0001 C CNN
-F 3 "~" H 4400 6550 50  0001 C CNN
-	1    4400 6550
+F 0 "C1" V 4450 6450 50  0000 L CNN
+F 1 "100nf" V 4650 6450 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4550 6550 50  0001 C CNN
+F 3 "~" H 4550 6550 50  0001 C CNN
+	1    4550 6550
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 613B820D
-P 4450 7050
+P 4200 7050
 AR Path="/613B820D" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/613B820D" Ref="R5"  Part="1" 
-F 0 "R5" V 4350 6900 50  0000 L CNN
-F 1 "4.7k" V 4550 6900 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4490 7040 50  0001 C CNN
-F 3 "~" H 4450 7050 50  0001 C CNN
-	1    4450 7050
+F 0 "R5" V 4100 6900 50  0000 L CNN
+F 1 "4.7k" V 4300 6900 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4240 7040 50  0001 C CNN
+F 3 "~" H 4200 7050 50  0001 C CNN
+	1    4200 7050
 	0    1    1    0   
 $EndComp
 Text Label 4250 6550 2    30   ~ 0
 +3.3V_motor
-Text Label 4100 7050 2    30   ~ 0
+Text Label 3950 7050 2    30   ~ 0
 alert
 Text Label 4100 6900 2    30   ~ 0
 SDA_rpi
@@ -2587,7 +2575,6 @@ F 3 "" H 3300 5850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 5850 3300 5700
-Connection ~ 4650 7050
 Wire Wire Line
 	1900 6550 1900 6850
 Wire Wire Line
@@ -3035,4 +3022,15 @@ Wire Notes Line
 	15650 9900 12100 9900
 Wire Notes Line
 	12100 9900 12100 7000
+Wire Wire Line
+	4650 6550 4650 7400
+Wire Wire Line
+	4050 7050 3800 7050
+Wire Wire Line
+	3800 6550 4350 6550
+Wire Wire Line
+	4350 7050 4350 6550
+Connection ~ 4350 6550
+Wire Wire Line
+	4350 6550 4450 6550
 $EndSCHEMATC
