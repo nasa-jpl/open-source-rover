@@ -89,9 +89,10 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 </details>
   
 ## Alex' rover
-
-| ![video](https://user-images.githubusercontent.com/14060847/160306700-88ff7ab6-efe0-483a-8637-53a57874fb1f.mp4) |
-|:-:|
+  
+<video controls width="150">
+  <source src="https://user-images.githubusercontent.com/14060847/160306700-88ff7ab6-efe0-483a-8637-53a57874fb1f.mp4" type="video/mp4">
+</video>
   
 ## Roverto ([toebes](github.com/toebes))
 
