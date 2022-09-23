@@ -72,7 +72,26 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
   * I help maintain the two repositories!
   
 </details>
+  
+## Sinuhe's rover
 
+| <image src="images/sinuhe/sinuhe1.png" height="250"> [<image src="images/sinuhe/video_icon.png" height="250">](https://youtu.be/jEhQtxJgvEM) |
+|:-:|
+  
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+  This project help us get through covid year 2020!
+  
+  | <image src="images/sinuhe/electrical1.png" height="250"> <image src="images/sinuhe/electrical2.png" height="250"> |
+  |:-:|
+  
+</details>
+  
+## Alex' rover
+  
+https://user-images.githubusercontent.com/14060847/160306700-88ff7ab6-efe0-483a-8637-53a57874fb1f.mp4
+  
 ## Roverto ([toebes](github.com/toebes))
 
 | <image src="images/roverto/roverto.jpg" height="150"> <image src="images/roverto/roverto_climbing_wheel.jpg" height="150"> |
