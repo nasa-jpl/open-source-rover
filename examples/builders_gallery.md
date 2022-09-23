@@ -73,6 +73,31 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
   
 </details>
 
+## Roverto ([toebes](github.com/toebes))
+
+| <image src="images/roverto/roverto.jpg" height="150"> <image src="images/roverto/roverto_climbing_wheel.jpg" height="150"> |
+|:-:|
+<details>
+ <summary>Expand to learn more about this build!</summary>
+
+Built by the [Cardinal Gibbons Robotics](https://www.cghsnc.org/campuslife/co-curricular/robotics) team for use at outreach events.  Roverto has been to a few places, but is most at home on our [Mars Map courtesy of the Aldrin Foundation](https://aldrinfoundation.org/giant-mars-map/).  With it Roverto has been to:
+
+* Astronomy days at the [North Carolina Museum of Natural Sciences](https://naturalsciences.org/) Three times.  One time Roverto had the opportunity to try and drive over a full size Curiosity wheel.  The last time we rand that event, there were over 14,000 attendees.
+* [Galaxycon](https://galaxycon.com/pages/raleigh) Twice!
+* The [North Carolina Transportation Museum](https://www.nctransportationmuseum.org/)
+* Many events at [Cardinal Gibbons High School](https://www.cghsnc.org/).
+
+### Enhancements
+
+* The drive motors have been replaced by [Rev Robotics Core Hex Motors](https://www.revrobotics.com/rev-41-1300/) to give better torque
+* The LED display has been updated with a [10" HDMI Touchscreen](https://www.sunfounder.com/products/10inch-touchscreen-for-raspberrypi).  We have a custom HTML web page which shows Roverto's face.
+* Roverto has a custom development stand that lifts all the wheels off the ground for easy testing.
+
+### Media
+* [@robotics_cghsnc](https://twitter.com/robotics_cghsnc)
+
+</details>
+
 ## Your rover's name ([your name](github.com/yourgithubhandle))
 
 | <image src="../images/rover-climbing.jpg" height="150"> <image src="../images/rover-silver.png" height="150"> |
