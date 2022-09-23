@@ -1,4 +1,4 @@
-#  PCB Assembly
+# PCB Assembly
 
 <img src="../../images/pcb_assembly/assembly/assembly_15.png" width="50%">
 
@@ -7,7 +7,6 @@ Printed Circuit Boards for the project. One thing you might notice is the boards
 have reference designators on them that do not match the reference designators
 used in the parts lists. The board components mapping between these can be found
 below:
-
 
 ## 1. Control Board References
 
@@ -50,7 +49,6 @@ below:
 | OSR Control Board     | E1      | 1       | <img src="../../images/components/electronics/E1.png" width="100"> |  10 Pos Header Socket  | E5      | 5       | <img src="../../images/components/electronics/E5.png" width="100">     |
 | 6 Pos Side Term Block | E3      | 10      | <img src="../../images/components/electronics/E3.png" width="100"> |  5 Pos Header Socket   | E6      | 5       | <img src="../../images/components/electronics/E6.png" width="100">     |
 | 6 Pos Top Term Block  | E4      | 5       | <img src="../../images/components/electronics/E4.png" width="100"> |  Soldering Iron        | N/A     |         |                                                                    |
-
 
 #### 3.1.1 Solder terminal blocks on top of board
 
@@ -259,7 +257,7 @@ On the **BOTTOM** side of the board, attach
 
 | <img src="../../images/pcb_assembly/assembly/standoff_2.png" width="300"> <img src="../../images/pcb_assembly/assembly/standoff_1.png" width="300"> |
 |:-:|
-| Figure 12: Mounting Standoffs |    
+| Figure 12: Mounting Standoffs |
 
 #### 3.9.2 RoboClaw mounting Standoffs
 
@@ -302,8 +300,6 @@ On the **TOP** side of the board, attach the
 | 2 Position Term Block      | E18     | 1       | <img src="../../images/components/electronics/E18.png" width="100"> | 1x40 0.1 Pitch Header pins | E15     | 1       | <img src="../../images/components/electronics/E15.png" width="100"> |
 | 2x8 Shrouded Header Pins   | E19     | 1       | <img src="../../images/components/electronics/E19.png" width="100"> | Soldering Iron             | N/A     |         |                                                                 |
 
-
-
 Now, we will assemble the Arduino shield that will sit in the rover's head and
 control the face. We will start with the **TOP** side of the Arduino board. The
 final product is shown below.
@@ -311,7 +307,6 @@ final product is shown below.
 | <img src="../../images/pcb_assembly/assembly/arduino_shield_top.png" width="300"> <img src="../../images/pcb_assembly/assembly/arduino_shield_bottom.png" width="300"> |
 |:-:|
 | Figure 17: Assembled Arduino Shield |
-
 
 #### 4.1.1 Terminal Block assembly
 
@@ -370,7 +365,7 @@ Solder the 0.1 pitch header pins **E15** to the bottom side of the board in
 |:-:|
 | Figure 23: Assembled Arduino Shield  |
 
-#  Component Integration and Testing
+# Component Integration and Testing
 
 This next section will go over the process of integrating the electronics onto
 the Control Board and the testing to verify that the board and components are
@@ -423,7 +418,7 @@ Using a Digital Multimeter (DMM), probe the voltage across the test points
 
 | :exclamation: :exclamation: :exclamation: Battery Safety :exclamation: :exclamation: :exclamation: |
 |:---------------------------|
-| Unplug the Tamiya battery connector before plugging in or unplugging ANY components, or before inserting components!!!** (in future steps, we will not explicitly say to unplug the battery, but **you must disconnect the battery at each step BEFORE inserting components or working on the board!**).
+| Unplug the Tamiya battery connector before plugging in or unplugging ANY components, or before inserting components!!!**(in future steps, we will not explicitly say to unplug the battery, but**you must disconnect the battery at each step BEFORE inserting components or working on the board!**).
 
 Next, you will need to create jumper wires that will connect the RoboClaw motor controller power terminals to the RoboClaws. Take the red and black 24 AWG wires **W1 and W2** and cut 15 2-inch long segments of each color (you should have 15 red and 15 black pieces). Using wire strippers, strip the ends about 0.1 inches at each end. Insert these jumper wires into the terminal blocks on the RoboClaw Motor Controllers **E20** in the following way:
 
@@ -478,6 +473,7 @@ Insert the 5V regulator into the control board as shown below. Power your
 | <img src="../../images/pcb_assembly/testing/testing_7.png" width="300"> <img src="../../images/pcb_assembly/testing/testing_3.png" width="300"> |
 |:-:|
 | Figure 27: 5V Regulator & Test Pads |
+
 #### 5.1.9 Test Step 9
 
 Insert the 12V regulator into the control board. Power your board and probe
@@ -662,7 +658,7 @@ Repeat this process for all the corner motor terminal blocks, labeled
 ## 7. Raspberry Pi Install
 
 Next up is to verify that power to the Raspberry Pi is working. For this, you'll
-need a working operating system installed on the SD card. This will take some time; follow the 
+need a working operating system installed on the SD card. This will take some time; follow the
 [software setup instructions](https://github.com/nasa-jpl/osr-rover-code#setup)
 to install the rover software on the Raspberry Pi.
 
@@ -680,7 +676,6 @@ Attach the Raspberry Pi to the board on top of the standoffs you attached
     earlier, making sure that the USB ports face downward on the board as shown
     below.
 
-
 #### 7.1.2 Plug in cables
 
 Plug in the micro USB cable **E27** to the USB power port labeled J12 and to
@@ -691,7 +686,6 @@ Plug in the micro USB cable **E27** to the USB power port labeled J12 and to
 | <img src="../../images/pcb_assembly/testing/rpi_power.png" width="350"> <img src="../../images/pcb_assembly/testing/rpi_gpio.png" width="275"> |
 |:-:|
 | Figure 30: RPi Install |
-
 
 ## 8. Arduino Shield Testing
 
@@ -725,14 +719,14 @@ Plug in the 1x6 JST cable **E26** into the Arduino shield and to the Control
 Using a Digital Multimeter, probe the following **Arduino shield test pads**
     and verify their voltages:
 
--   TP1 to TP6 should read +12V. This voltage powers the Arduino Uno board
+- TP1 to TP6 should read +12V. This voltage powers the Arduino Uno board
 
--   TP5 to TP6 should read +5V. This voltage powers the LED Matrix and runs
+- TP5 to TP6 should read +5V. This voltage powers the LED Matrix and runs
         the LEDs on it
 
--   TP4 to TP2 should read +5V. This is the 5V converter on the Arduino board
+- TP4 to TP2 should read +5V. This is the 5V converter on the Arduino board
 
--   TP3 to TP2 should read +3.3V. This is the 3.3V converter on the Arduino
+- TP3 to TP2 should read +3.3V. This is the 3.3V converter on the Arduino
         board
 
 If all the above test points read the correct voltages, then the Arduino Shield

@@ -2,7 +2,8 @@
 
 ## Picture
 
-## Features 
+## Features
+
 ## Information about module
 
 | Author/Creator            |        |
@@ -18,10 +19,10 @@
 
 ## Tools
 
-### Mandatory 
+### Mandatory
 
 ### Optional
 
-## Dependencies on Other Modules:
+## Dependencies on Other Modules
 
-## Mechanical Interface/Attachments to Rover:
+## Mechanical Interface/Attachments to Rover
