@@ -70,7 +70,7 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
   
 </details>
 
-## USAi Labs AUDACITY (JHPHELAN(github.com/JHPHELAN))
+## USAi Labs AUDACITY ([JHPHELAN](github.com/JHPHELAN))
 
 | <image src="images/AUDACITY/Houston-Robotics-Fidelity cropped.jpg" height="150"> <image src="images/AUDACITY/IMG_4751.JPG" height="150"> |
 |:-:|
