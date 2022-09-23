@@ -1,14 +1,15 @@
-#  Main Body Assembly
+# Main Body Assembly
 
 The body is the housing of all the electronics for the rover. It is the attachment points for the rocker-bogie systems, as well as the differential pivot system.
 
 <img src="../../images/body/finished_body_a.png" width="70%">
 
 ## 1. Features
-  * Gives passthrough connections for USB ports on Raspberry Pi
-  * Cutouts on the rear of the body give access for voltage monitor and battery for charging
-  * Easy attachment point for differential pivot system
-  * Uses Actobotics parts to facilitate modularity and ability to change, and add new components easily.
+
+* Gives passthrough connections for USB ports on Raspberry Pi
+* Cutouts on the rear of the body give access for voltage monitor and battery for charging
+* Easy attachment point for differential pivot system
+* Uses Actobotics parts to facilitate modularity and ability to change, and add new components easily.
 
 ## 2. Information about module
 
@@ -21,26 +22,30 @@ The body is the housing of all the electronics for the rover. It is the attachme
 | Time to build             | 3 hrs              |
 
 ### 2.1 Skills
-  * Band Saw/Dremel
+
+* Band Saw/Dremel
 
 ### 2.2 Tools
 
 #### 2.2.1 Mandatory
 
-  * Band saw or Dremel
-  * Allen Key set
-  * Imperial Wrench Set
-  * Soldering Iron
+* Band saw or Dremel
+* Allen Key set
+* Imperial Wrench Set
+* Soldering Iron
 
 #### 2.2.2 Optional
-  * Laser cutter
 
-### 2.3 Dependencies on Other Modules:
-  * None
+* Laser cutter
 
-### 2.4 Mechanical Interface/Attachments to Rover:
-  * 0.5 Inch aluminum rod into bearing blocks on rocker-bogie arms
-  * 0.5 Inch aluminum rod into clamping hub on differential pivot
+### 2.3 Dependencies on Other Modules
+
+* None
+
+### 2.4 Mechanical Interface/Attachments to Rover
+
+* 0.5 Inch aluminum rod into bearing blocks on rocker-bogie arms
+* 0.5 Inch aluminum rod into clamping hub on differential pivot
 
 ## 3. Machining/Fabrication
 
@@ -54,7 +59,7 @@ The body is the housing of all the electronics for the rover. It is the attachme
 
 First we need to drill a hole in one of the 9x12 Aluminum plates **S35** because we will need a hole of just over 0.5 in diameter for the differential pivot mount. There is already a small hole drilled in the location we want to use, but it needs to be widened substantially. Start with the drill #23 and drill the hole shown by Figure 1. Repeat this with drill sizes stepping up until you get to a drill of 0.5 in.
 
-Take the 0.5 in hollow rod **S19** and make sure it spins freely in the hole you have created. If it does not, drill the hole slightly larger or sand/file the hole until the rod spins with no resistance (The 0.5 in hollow rod must spin _freely_ while mounted inside the bearing blocks. See step 2.2 Differential pivot for example. It may help to follow step 2.2 in this document to test if you have enough clearance)
+Take the 0.5 in hollow rod **S19** and make sure it spins freely in the hole you have created. If it does not, drill the hole slightly larger or sand/file the hole until the rod spins with no resistance (The 0.5 in hollow rod must spin *freely* while mounted inside the bearing blocks. See step 2.2 Differential pivot for example. It may help to follow step 2.2 in this document to test if you have enough clearance)
 
 | <img src="../../images/body/9x12_Plate_cut.png" height="300"> <img src="../../images/body/9x12_Plate_cut2.png" height="300"> |
 |:-:|
@@ -64,7 +69,7 @@ Take the 0.5 in hollow rod **S19** and make sure it spins freely in the hole you
 
 The front and back panel of the rover are designed to be made from laser cut acrylic, as to keep them modular to design different things to mount there as wanted. The 2D cutout files  are the .DXF files  and can be found on the github under Mechanical - Body Assembly - Laser Cut Parts
 
-If you do not have access to a lases cutter there is an online service which you can order these from below: https://www.sculpteo.com
+If you do not have access to a lases cutter there is an online service which you can order these from below: <https://www.sculpteo.com>
 
 To get the above parts from Sculpteo, go to Laser cutting and then upload these files (with mm selected as units). Hit Next. Make sure scale is set to 100%, change the material to Acrylic, have thickness to 1/8 inch, and then select whatever color you wish.
 
@@ -91,7 +96,6 @@ Take the modified 9x12 Aluminum plate **S35A** and attach the four Dual side mou
 |:-:|
 | Figure 2: Attaching side mounts to top panel |
 
-
 #### 4.1.2 Attach the side panels
 
 Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
@@ -102,9 +106,8 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 
 #### 4.1.3 Assemble the PVC clamping hub
 
-* Insert the #6-32 Heat Set Inserts **I2** into the 3D-printed clamping hub **S50** in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 4. 
+* Insert the #6-32 Heat Set Inserts **I2** into the 3D-printed clamping hub **S50** in the locations shown in Figure 6. The inserts on the side of the clamp should go in from the left side as shown in Figure 4.
 * Using washers **W1**, insert screws **B4** into clamp part of the clamping hub and screw part of the way into the brass inserts. Inserting these screws now simplifies inserting the PVC pipe later.
-
 
 | <img src="../../images/body/hub_lower.png" height="300"> <img src="../../images/body/hub_lower_screws.png" height="300">|
 |:-:|
@@ -127,7 +130,6 @@ The differential pivot is used to transfer weight off of the wheel that is curre
 | 0.5" Pillow Bearing Block  | S11 | 2 | <img src="../../images/components/structural/S11.png" width="200"> | #6-32x1" Button Head Screw | B6 | 4 | <img src="../../images/components/screws/B6.png" width="200"> |
 | #6-32x1/4" Spacer          | T1 | 8 | <img src="../../images/components/standoffs/T1.png" width="70"> | Allen Key Set              | D2 | | <img src="../../images/components/tools/D2.png" width="200"> |
 | #6-32 Hex nuts             | B11 | 4 | <img src="../../images/components/screws/B11.png" width="70"> |
-
 
 #### 4.2.1 Mount the pillow bearing blocks
 
@@ -162,8 +164,6 @@ Note the screw positions in Figure 8. You might not be able to get the screw cir
 because of the PVC clamping hub. This is okay, install the other 3 circled in yellow.
 
 ### 4.4 Closing the body
-
-
 
 | Item | Ref | Qty | Image | Item | Ref | Qty | Image |
 | :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |

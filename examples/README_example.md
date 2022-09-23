@@ -1,13 +1,14 @@
-#  Main Body Assembly
+# Main Body Assembly
 
 The body is the housing of all the electronics for the rover. It is the attachment points for the rocker-bogie systems, as well as the differential pivot system.
 
 <img src="../images/body/Body_title.png" width="50%">
 
 ## 1. Features
-  * Gives passthrough connections for USB ports on Raspberry Pi
-  * Cutouts on the rear of the body give access for voltage monitor and battery for charging
-  * Really pretty
+
+* Gives passthrough connections for USB ports on Raspberry Pi
+* Cutouts on the rear of the body give access for voltage monitor and battery for charging
+* Really pretty
 
 ## 2. Information about module
 
@@ -20,24 +21,29 @@ The body is the housing of all the electronics for the rover. It is the attachme
 | Time to build             | 3 hrs              |
 
 ### 2.1 Skills
-  * Band Saw/Dremel
+
+* Band Saw/Dremel
 
 ### 2.2 Tools
 
 #### 2.2.1 Mandatory
-  * Band saw or Dremel
-  * Allen Key set
-  * Imperial Wrench Set
+
+* Band saw or Dremel
+* Allen Key set
+* Imperial Wrench Set
 
 #### 2.2.2 Optional
-  * Laser cutter
 
-### 2.3 Dependencies on Other Modules:
-  * None
+* Laser cutter
 
-### 2.4 Mechanical Interface/Attachments to Rover:
-  * 0.5 Inch aluminum rod into bearing blocks on rocker-bogie arms
-  * 0.5 Inch aluminum rod into clamping hub on differential pivot
+### 2.3 Dependencies on Other Modules
+
+* None
+
+### 2.4 Mechanical Interface/Attachments to Rover
+
+* 0.5 Inch aluminum rod into bearing blocks on rocker-bogie arms
+* 0.5 Inch aluminum rod into clamping hub on differential pivot
 
 ## 3. Machining/Fabrication
 
@@ -61,8 +67,8 @@ Some more text
 
 ### 4.1 Chassis
 
-| Item | Ref | Qty | Image | Item | Ref | Qty | Image | 
-| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: | 
+| Item | Ref | Qty | Image | Item | Ref | Qty | Image |
+| :--- | :-- | :-- | :---: | :--- | :-- | :-- | :---: |
 | Dual Side mount A            | S17 | 4 | <img src="../images/components/structural/S17.png" width="250"> | #6-32x1/4" Button Head Screw | B1 | 16 | <img src="../images/components/screws/B1.png" width="100"> |
 | 4.5"x12" Aluminum Plate      | S37 | 2 | <img src="../images/components/structural/S37.png" width="250"> | #6-32x3/8" Button Head Screw | B2 | 4 | <img src="../images/components/screws/B2.png" width="100"> |
 | 1" PVC Clamp                 | S24 | 1 | <img src="../images/components/structural/S24.png" width="250"> | Allen Key Set                | | | <img src="../images/components/tools/D2.png"       width="200"> |
@@ -76,7 +82,6 @@ Take the modified 9x12 Aluminum plate **S35A** and attach the four Dual side mou
 |:-:|
 | Figure 2: Attaching side mounts to top panel |
 
-
 #### 4.1.2 Attach the side panels
 
 Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
@@ -84,7 +89,6 @@ Attach the 4.5x12 plates **S37** to the dual side mounts using screws **B1**
 | <img src="../images/body/body_3.png" height="250"> <img src="../images/body/body_4.png" height="250">|
 |:-:|
 | Figure 3: Attach the side panels |
-
 
 #### 4.1.3 Attach the PVC clamping hub
 

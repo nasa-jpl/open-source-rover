@@ -1,12 +1,14 @@
 # JPL Open Source Rover Project
+
 The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
 
 ## Overview
-This is a feature testing branch for an electronics rework, for moving towards a monolithic "motherboard" approach for to reduce wiring complexity and lower the barrier of entry for the project, as well as make the system more robust. 
+
+This is a feature testing branch for an electronics rework, for moving towards a monolithic "motherboard" approach for to reduce wiring complexity and lower the barrier of entry for the project, as well as make the system more robust.
 
 ## Disclaimer
-This information is not fully tested yet, and is being put here as a development branch incase some want to start working on these parts. It will eventually be added into the main repository once testing has been completed and documentation added. Until then this will be incomplete for information as things will be changing rapidly. 
 
+This information is not fully tested yet, and is being put here as a development branch incase some want to start working on these parts. It will eventually be added into the main repository once testing has been completed and documentation added. Until then this will be incomplete for information as things will be changing rapidly.
 
 ## Board ordering/assembly
 
@@ -18,15 +20,15 @@ In here currently are just the gerber files necessary to order the boards in the
 
 To order these boards we suggest that you order from [JLCPCB](https://jlcpcb.com/), this PCB fabrication company is quite inexpensive for this board size and has good turnaround time. Upload the .zip files individually and make sure the following settings are set:
 
-  * Layers - 2
-  * Dimension - 53 x 69 mm (arduino shield) & 175 x 154 mm (roboclaw breakout) 
-  * PCB Qty - 10
-  * PCB Thickness - 1.6 mm
-  * PCB Color - Whatever color you want
-  * Surface Finish - HASL
-  * Copper Weight - 1oz
-  * Gold Fingers - No
-  * Panel by JLPCB - No
-  * Flying Probe Test - Fully Tested
-  * Castellated Holes - No
-  * Different Design - 1
+* Layers - 2
+* Dimension - 53 x 69 mm (arduino shield) & 175 x 154 mm (roboclaw breakout)
+* PCB Qty - 10
+* PCB Thickness - 1.6 mm
+* PCB Color - Whatever color you want
+* Surface Finish - HASL
+* Copper Weight - 1oz
+* Gold Fingers - No
+* Panel by JLPCB - No
+* Flying Probe Test - Fully Tested
+* Castellated Holes - No
+* Different Design - 1

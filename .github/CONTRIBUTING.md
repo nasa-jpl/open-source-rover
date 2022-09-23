@@ -10,8 +10,7 @@ If you’re on a Windows machine and your editor is not correctly using Unix lin
 consider using [Git's `core.autocrlf`](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf) setting.
 On a Windows machine, set it to true — this converts LF endings into CRLF when you check out code:
 
-    $ git config core.autocrlf true
-
+    git config core.autocrlf true
 
 ### Markdown
 
