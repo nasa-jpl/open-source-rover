@@ -117,15 +117,43 @@ Built by the [Cardinal Gibbons Robotics](https://www.cghsnc.org/campuslife/co-cu
 
 </details>
 
-## Your rover's name ([your name](github.com/yourgithubhandle))
+## USAi Labs AUDACITY ([JHPHELAN](github.com/JHPHELAN))
 
-| <image src="../images/rover-climbing.jpg" height="150"> <image src="../images/rover-silver.png" height="150"> |
+| <image src="images/AUDACITY/Houston-Robotics-Fidelity cropped.jpg" height="150"> <image src="images/AUDACITY/IMG_4751.JPG" height="150"> <image src="images/AUDACITY/IMG_3927.JPG" height="150"> <image src="images/AUDACITY/IMG_3931.JPG" height="150"> |
 |:-:|
+| [![AUDACITY 01 video](https://img.youtube.com/vi/n0Rx8EbABIY/0.jpg)](https://www.youtube.com/watch?v=n0Rx8EbABIY) |
 
 <details>
   <summary>Expand to learn more about this build!</summary>
   
-  Add whatever information about your build you'd like to share here!
+  ### Background
+  * Started August 2019 as soon as we heard about the release of the NASA-JPL Open Source Rover
+  * Named first version "Fidelity" to be as close to the NASA-JPL version as possible
+  * Once initial parts had arrived, had a "part picking party" 
+  * - with instructions from the manual for various sub-assemblies passed out, ziplock bagged & labeled
+  * Sub-assemblies then assembled in groups
+  * Had first roll-out almost exactly 1 year later after multiple delays, modifications, and frustrations as seen in .mp4 above
+  
+  ### Modifications
+  * New version of rover named "AUDACITY" to be as boldly upgraded as possible to ultimately be autonomous
+  * Raspberry Pi 3 >> Raspberry Pi 4b 4GB.  Perhaps later >> Jetson NANO to permit onboard AI "on the edge"
+  * Raspbian >> Ubuntu 20.04
+  * hand-coded Python >> ROS >> ROS2 Foxy
+  * Upgraded PCB.  Looking forward to Rev F!
+  * Upgraded drive & steering motors
+  * Custom front/back acrylic panels
+  * Emergency "Bop to Stop" switch.  Abandoned to free up room
+  * Key fob remote power "Kill Switch" for range safety.  
+  * - to substitue RoboClaw e-stop pins in future to stop motors but not CPU
+  * Arduino driven LED "head" >> onboard LCD monitor - work in progress
+  * Addition of cameras: Picamera, USB camera, Intel RealSense D450 Depthcamera, OAK-D Depthcamera |
+  * - all works in progress and fraught with frustrations
+  * Front bright LED "headlights" wired in parallel with drive motors.  Since polarity matters, only on when driving forward
+  * Plan steering motors >> servos at some point
+
+  ### External links
+  1. [USAi Labs and Houston Community College  First rollout of rover](https://www.youtube.com/watch?v=2Wdgss0q63s)
+
 </details>
 
 ## Instructions for adding your build
