@@ -15,7 +15,7 @@ The JPL Open Source Rover is an open source, build it yourself, scaled down vers
  </tr>
 </table>
 
-A gallery of some community builds can be found [here](examples/README.md).
+A gallery of some community builds can be found [here](examples/README.md). Drive a simulated rover around straight from your browser: [opensourcerover.jpl.nasa.gov](https://opensourcerover.jpl.nasa.gov)
 
 ## About the Project
 
@@ -29,19 +29,19 @@ JPL is always looking to inspire the next generation of scientists, engineers, a
 
 The specific attributes of the robot you build will depend slightly on the type of electronics and motors you buy for the system.  The numbers shown below are for the version of the robot that contains exactly the parts that we suggest in our build documents and parts list. Below, you can see which parts could be changed for which spec upgrades.
 
-| Attribute                                 | Value [imperial]         | Value [SI]             |
-| ----------                                |:-----:                   | :-------------:        |
-| Weight                                    | 28 [lbs]                 | 12.7 [kg]              |
-| Footprint                                 | 24x14 [in]               | 60.96x30.48 [cm]       |
-| Battery Capacity                          | 5200 [mAh]               | 5200 [mAh]             |
-| Battery Discharge Rate                    | 8 [A]                    | 8 [A]                  |
-| Nominal Current Draw                      | 1.2 [A]                  | 1.2 [A]                |
-| Operating time                            | 5 [hrs] (continual use)  | 5 [hrs] (continual use)|
-| Approximate Max speed                     | 68.8 [in/s]              | 1.75 [m/s]             |
-| Maximum 90 deg vertical scale             | 12 [in]                  | 30.48 [cm]             |
-| Maximum height differential between sides | 14 [in]                  | 35.56 [cm]             |
-| Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller| |
-| Cost (*)                                  | ~ $2,500                 |                        |
+| Attribute                                 |                 Value [imperial]                 |       Value [SI]        |
+| ----------------------------------------- | :----------------------------------------------: | :---------------------: |
+| Weight                                    |                     28 [lbs]                     |        12.7 [kg]        |
+| Footprint                                 |                    24x14 [in]                    |    60.96x30.48 [cm]     |
+| Battery Capacity                          |                    5200 [mAh]                    |       5200 [mAh]        |
+| Battery Discharge Rate                    |                      8 [A]                       |          8 [A]          |
+| Nominal Current Draw                      |                     1.2 [A]                      |         1.2 [A]         |
+| Operating time                            |             5 [hrs] (continual use)              | 5 [hrs] (continual use) |
+| Approximate Max speed                     |                   68.8 [in/s]                    |       1.75 [m/s]        |
+| Maximum 90 deg vertical scale             |                     12 [in]                      |       30.48 [cm]        |
+| Maximum height differential between sides |                     14 [in]                      |       35.56 [cm]        |
+| Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller |                         |
+| Cost (*)                                  |                     ~ $2,500                     |                         |
 
 Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [GoBilda](https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motors/).
 
@@ -51,13 +51,12 @@ Again, the above statistics depend on which components you select when buying pa
 
 ### Communication
 
-In addition to this repository which holds all the documentation for this project, there are two additional websites tied to this project. One is a [landing site](https://opensourcerover.jpl.nasa.gov) which holds general information and an overview of the rover and how it works:
 
-We have a few ways to connect with the team and community of Open Source Rover builders:
+The best way to ask questions, reach maintainers, learn about modifications, and join the community of Open Source Rover builders is to join our Slack group:
 
-* [Slack](https://join.slack.com/t/opensourcerover/shared_invite/zt-mfe0viua-FhcYsNb3S9vUra99uF3IBw) (Preferred method)
-* [TapaTalk - JPL Open Source Rover](https://www.tapatalk.com/groups/jpl_opensource_rover/) (Tapatalk is being monitored less since the addition of Slack, that's the easiest way to reach many of us now)
-* We also use [Github Discussions](https://github.com/nasa-jpl/open-source-rover/discussions)
+<a href="https://join.slack.com/t/opensourcerover/shared_invite/zt-mfe0viua-FhcYsNb3S9vUra99uF3IBw">
+  <center><img src="images/slack_logo.png" height="80")/></center>
+</a>
 
 ****Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.**** On these you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted so that this project and community can grow.
 
@@ -93,6 +92,8 @@ For the power system of the rover, there is also ample spare power which can be 
 ### Maintenance Status
 
 As an open-source hardware project, the rover is continuously improving. Please check ongoing [projects](https://github.com/nasa-jpl/open-source-rover/projects), [issues](https://github.com/nasa-jpl/open-source-rover/issues), [pull requests](https://github.com/nasa-jpl/open-source-rover/projects), and the forum (see below) to see if any big changes are expected soon.
+
+NOTE: A major mechanical and electrical revision of the OSR is due for February 2023. While the current version of the rover will remain supported, consider waiting for this new version. For details on this new version and its status, please join the Slack group and look for the `#osr-upgrade` channel.
 
 ### Online 3D Model
 
@@ -186,8 +187,8 @@ The [Master Parts List](parts_list/master_parts_list_raw.csv) contains all the p
 
 In order to help this ordering process we have compiled a few links of a large number of these together already, if you wish to build exactly what is in our build documentation. Note that some of these parts might not be available or outdated. Please check the master parts list for the most up-to-date list of items.
 
-|[McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt)|[Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wb)|[Pololu](https://www.pololu.com/wishlist/1J10953)|[Adafruit](https://www.adafruit.com/wishlists/460400)|
-|---|---|---|---|
+| [McMaster](https://www.mcmaster.com/order/rcvRtedOrd.aspx?ordid=5887891246&lnktyp=txt) | [Amazon](https://www.amazon.com/gp/registry/wishlist/3ELV1FY8J7ZYP/ref=cm_sw_em_r_z_g__wb) | [Pololu](https://www.pololu.com/wishlist/1J10953) | [Adafruit](https://www.adafruit.com/wishlists/460400) |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------- | ----------------------------------------------------- |
 
 **Electronics**
 
