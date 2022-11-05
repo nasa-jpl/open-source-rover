@@ -15,7 +15,7 @@ The JPL Open Source Rover is an open source, build it yourself, scaled down vers
  </tr>
 </table>
 
-A gallery of some community builds can be found [here](examples/builders_gallery.md).
+A gallery of some community builds can be found [here](examples/README.md).
 
 ## About the Project
 
