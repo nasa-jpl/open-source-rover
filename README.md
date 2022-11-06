@@ -1,17 +1,19 @@
 # JPL Open Source Rover Project
 
-The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, or robotics.
+**NOTE**: You are looking at the next generation OSR. Instructions and parts are under construction. Build at your own risk!
+
+The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, robotics but is also an excellent research platform for rugged terrain.
 
 <table>
  <tr>
-  <td align="center" > <img src="images/rover.png" width="60%"> </td>
+  <td align="center" > <img src="images/osr-onshape.gif" width="100%"> </td>
   <td align="center" > <a href="https://github.com/lschooley/open-source-rover-mission-patch">
    <img src="images/patch.png" width="60%"> </a>
   </td>
  </tr>
  <tr>
-  <td align="center" ><img src="images/rover-silver.png" width="43%"/> </td>
- <td align="center" ><img src="images/rover-climbing.jpg" width="57%"/></td>
+  <td align="center" ><img src="images/rover.png" width="100%"/> </td>
+ <td align="center" ><img src="images/rover-construction.png" width="100%"/></td>
  </tr>
 </table>
 
@@ -29,19 +31,19 @@ JPL is always looking to inspire the next generation of scientists, engineers, a
 
 The specific attributes of the robot you build will depend slightly on the type of electronics and motors you buy for the system.  The numbers shown below are for the version of the robot that contains exactly the parts that we suggest in our build documents and parts list. Below, you can see which parts could be changed for which spec upgrades.
 
-| Attribute                                 |                 Value [imperial]                 |       Value [SI]        |
-| ----------------------------------------- | :----------------------------------------------: | :---------------------: |
-| Weight                                    |                     28 [lbs]                     |        12.7 [kg]        |
-| Footprint                                 |                    24x14 [in]                    |    60.96x30.48 [cm]     |
-| Battery Capacity                          |                    5200 [mAh]                    |       5200 [mAh]        |
-| Battery Discharge Rate                    |                      8 [A]                       |          8 [A]          |
-| Nominal Current Draw                      |                     1.2 [A]                      |         1.2 [A]         |
-| Operating time                            |             5 [hrs] (continual use)              | 5 [hrs] (continual use) |
-| Approximate Max speed                     |                   68.8 [in/s]                    |       1.75 [m/s]        |
-| Maximum 90 deg vertical scale             |                     12 [in]                      |       30.48 [cm]        |
-| Maximum height differential between sides |                     14 [in]                      |       35.56 [cm]        |
-| Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller |                         |
-| Cost (*)                                  |                     ~ $2,500                     |                         |
+| Attribute                                 |    Value [imperial]     |       Value [SI]        |
+| ----------------------------------------- | :---------------------: | :---------------------: |
+| Weight                                    |        28 [lbs]         |        12.7 [kg]        |
+| Footprint                                 |       24x14 [in]        |    60.96x30.48 [cm]     |
+| Battery Capacity                          |       5200 [mAh]        |       5200 [mAh]        |
+| Battery Discharge Rate                    |          8 [A]          |          8 [A]          |
+| Nominal Current Draw                      |         1.2 [A]         |         1.2 [A]         |
+| Operating time                            | 5 [hrs] (continual use) | 5 [hrs] (continual use) |
+| Approximate Max speed                     |       68.8 [in/s]       |       1.75 [m/s]        |
+| Maximum 90 deg vertical scale             |         12 [in]         |       30.48 [cm]        |
+| Maximum height differential between sides |         14 [in]         |       35.56 [cm]        |
+| Communication (in this guide)             |     Xbox Controller     |                         |
+| Cost (*)                                  |        ~ $1,500         |                         |
 
 Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [GoBilda](https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motors/).
 
