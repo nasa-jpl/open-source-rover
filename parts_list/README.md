@@ -1,4 +1,4 @@
-## Adding new parts to the parts list
+## Adding new parts to the parts list 
 
 1. Add an image of the part at /images/components. This image will be utilized
 within the documentation to represent the part, often in the "part tables" at the
