@@ -1153,7 +1153,7 @@ AR Path="/6116B053" Ref="C?"  Part="1"
 AR Path="/60A51BAC/6116B053" Ref="C19"  Part="1" 
 F 0 "C19" V 9400 6250 50  0000 L CNN
 F 1 "100uf" V 9200 6250 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9300 6300 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 9300 6300 50  0001 C CNN
 F 3 "~" H 9300 6300 50  0001 C CNN
 	1    9300 6300
 	-1   0    0    1   
@@ -2109,7 +2109,7 @@ AR Path="/64A76773" Ref="C?"  Part="1"
 AR Path="/60A51BAC/64A76773" Ref="C25"  Part="1" 
 F 0 "C25" V 10250 9400 50  0000 L CNN
 F 1 "100uf" V 10050 9400 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10150 9450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 10150 9450 50  0001 C CNN
 F 3 "~" H 10150 9450 50  0001 C CNN
 	1    10150 9450
 	-1   0    0    1   
@@ -2122,7 +2122,7 @@ AR Path="/64A76999" Ref="C?"  Part="1"
 AR Path="/60A51BAC/64A76999" Ref="C27"  Part="1" 
 F 0 "C27" V 10550 9400 50  0000 L CNN
 F 1 "100uf" V 10350 9400 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10450 9450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 10450 9450 50  0001 C CNN
 F 3 "~" H 10450 9450 50  0001 C CNN
 	1    10450 9450
 	-1   0    0    1   
@@ -2135,7 +2135,7 @@ AR Path="/64A76A51" Ref="C?"  Part="1"
 AR Path="/60A51BAC/64A76A51" Ref="C28"  Part="1" 
 F 0 "C28" V 10850 9400 50  0000 L CNN
 F 1 "100uf" V 10650 9400 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10750 9450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 10750 9450 50  0001 C CNN
 F 3 "~" H 10750 9450 50  0001 C CNN
 	1    10750 9450
 	-1   0    0    1   
