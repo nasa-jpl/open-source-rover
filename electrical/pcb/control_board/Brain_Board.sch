@@ -53,17 +53,6 @@ Text Label 3400 2100 2    30   ~ 0
 RXD
 Text Label 3400 2250 2    30   ~ 0
 E_STOP_pi
-$Comp
-L JPL_Robotics_Lib:S9175-ND_rpi_breakout J23
-U 1 1 60A8A8FC
-P 2200 4300
-F 0 "J23" H 2800 5615 50  0000 C CNN
-F 1 "S9175-ND_rpi_breakout" H 2800 5524 50  0000 C CNN
-F 2 "JPL Robotics:S9175-ND" H 2450 5550 50  0001 C CNN
-F 3 "" H 2450 5550 50  0001 C CNN
-	1    2200 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 3400 2150 3400
 Wire Wire Line
@@ -186,11 +175,6 @@ F 3 "~" H 1900 1850 50  0001 C CNN
 $EndComp
 Text Notes 1550 2600 0    50   ~ 0
 *3.3v bus \nsupplied\nby rpi
-NoConn ~ 2300 3900
-NoConn ~ 2300 3950
-NoConn ~ 2300 4100
-NoConn ~ 3300 3700
-NoConn ~ 3300 3600
 Text Notes 4800 1350 0    98   ~ 0
 Inter-Board Connection
 Text Label 5100 2100 0    50   ~ 0
@@ -308,7 +292,6 @@ Wire Wire Line
 	4900 2200 4900 2350
 Wire Wire Line
 	4900 1850 4900 2000
-NoConn ~ 3300 3550
 Wire Notes Line
 	4450 1100 4450 3250
 Wire Notes Line
@@ -481,8 +464,6 @@ Text Label 6250 2600 2    39   ~ 0
 +3.3V_brain
 Wire Wire Line
 	5900 2600 6250 2600
-NoConn ~ 2300 3500
-NoConn ~ 2300 3550
 Text Notes 2850 6100 0    98   ~ 0
 RPi I2C Header
 Wire Wire Line
@@ -1685,4 +1666,47 @@ Wire Wire Line
 	3300 4100 3450 4100
 Wire Wire Line
 	3300 4150 3450 4150
+$Comp
+L JPL_Robotics_Lib:S9175-ND_rpi_breakout J23
+U 1 1 60A8A8FC
+P 2200 4300
+F 0 "J23" H 2800 5615 50  0000 C CNN
+F 1 "S9175-ND_rpi_breakout" H 2800 5524 50  0000 C CNN
+F 2 "JPL Robotics:S9175-ND" H 2450 5550 50  0001 C CNN
+F 3 "" H 2450 5550 50  0001 C CNN
+	1    2200 4300
+	1    0    0    -1  
+$EndComp
+Text Label 2150 3500 0    30   ~ 0
+alert
+Text Label 2150 3550 0    30   ~ 0
+OEservos
+Wire Wire Line
+	2150 3550 2300 3550
+Wire Wire Line
+	2150 3500 2300 3500
+Text Label 2150 3900 0    30   ~ 0
+RPI_LED_3
+Text Label 2150 3950 0    30   ~ 0
+RPI_LED_4
+Text Label 2150 4100 0    30   ~ 0
+RPI_LED_2
+Text Label 3450 3550 2    30   ~ 0
+E_STOP_pi
+Text Label 3450 3600 2    30   ~ 0
+12V_EN
+Text Label 3450 3700 2    30   ~ 0
+RPI_LED_1
+Wire Wire Line
+	2150 3900 2300 3900
+Wire Wire Line
+	2150 3950 2300 3950
+Wire Wire Line
+	2150 4100 2300 4100
+Wire Wire Line
+	3300 3550 3450 3550
+Wire Wire Line
+	3300 3600 3450 3600
+Wire Wire Line
+	3300 3700 3450 3700
 $EndSCHEMATC
