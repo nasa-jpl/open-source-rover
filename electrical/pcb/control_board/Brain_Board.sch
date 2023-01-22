@@ -173,16 +173,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 5400 3050 5400
 NoConn ~ 2800 5500
-NoConn ~ 2250 2350
-NoConn ~ 2250 2450
-NoConn ~ 2250 2400
-NoConn ~ 3250 2450
-NoConn ~ 3250 2500
-NoConn ~ 2300 3650
-NoConn ~ 2300 3700
-NoConn ~ 2300 3750
-NoConn ~ 3300 3750
-NoConn ~ 3300 3800
 $Comp
 L power:PWR_FLAG #FLG06
 U 1 1 60A8A96F
@@ -196,31 +186,11 @@ F 3 "~" H 1900 1850 50  0001 C CNN
 $EndComp
 Text Notes 1550 2600 0    50   ~ 0
 *3.3v bus \nsupplied\nby rpi
-NoConn ~ 2250 2050
-NoConn ~ 2250 2550
-NoConn ~ 2250 2700
-NoConn ~ 2250 2750
-NoConn ~ 3250 2650
-NoConn ~ 3250 2800
-NoConn ~ 3250 2750
-NoConn ~ 3250 2850
-NoConn ~ 3250 2550
-NoConn ~ 3250 2150
-NoConn ~ 2300 3350
-NoConn ~ 2300 3850
 NoConn ~ 2300 3900
 NoConn ~ 2300 3950
-NoConn ~ 2300 4000
-NoConn ~ 2300 4050
 NoConn ~ 2300 4100
-NoConn ~ 3300 4150
-NoConn ~ 3300 4100
-NoConn ~ 3300 4050
-NoConn ~ 3300 3950
-NoConn ~ 3300 3850
 NoConn ~ 3300 3700
 NoConn ~ 3300 3600
-NoConn ~ 3300 3450
 Text Notes 4800 1350 0    98   ~ 0
 Inter-Board Connection
 Text Label 5100 2100 0    50   ~ 0
@@ -458,8 +428,6 @@ Wire Notes Line
 	4450 5200 6900 5200
 Wire Notes Line
 	6900 5200 6900 3400
-NoConn ~ 2300 3450
-NoConn ~ 2250 2150
 Wire Wire Line
 	2250 2250 2100 2250
 Text Label 2100 2250 0    30   ~ 0
@@ -1482,17 +1450,6 @@ Wire Notes Line
 	7100 5300 7100 6400
 Wire Notes Line
 	10350 5300 10350 6400
-$Comp
-L JPL_Robotics_Lib:S9175-ND_rpi_breakout J22
-U 1 1 60A8A979
-P 2150 3000
-F 0 "J22" H 2750 4315 50  0000 C CNN
-F 1 "S9175-ND_rpi_breakout" H 2750 4224 50  0000 C CNN
-F 2 "JPL Robotics:S9175-ND" H 2400 4250 50  0001 C CNN
-F 3 "" H 2400 4250 50  0001 C CNN
-	1    2150 3000
-	1    0    0    -1  
-$EndComp
 Text Label 3400 2400 2    30   ~ 0
 RPI_LED_1
 Wire Wire Line
@@ -1589,4 +1546,143 @@ Text Label 5150 6500 2    50   ~ 0
 RPI_LED_4
 Wire Wire Line
 	5150 6500 5300 6500
+Wire Wire Line
+	2250 2050 2100 2050
+Text Label 2100 2050 0    16   ~ 0
+X_RPI_GPIO_GCLK
+Wire Wire Line
+	2300 3350 2150 3350
+Text Label 2150 3350 0    16   ~ 0
+X_RPI_GPIO_GCLK
+$Comp
+L JPL_Robotics_Lib:S9175-ND_rpi_breakout J22
+U 1 1 60A8A979
+P 2150 3000
+F 0 "J22" H 2750 4315 50  0000 C CNN
+F 1 "S9175-ND_rpi_breakout" H 2750 4224 50  0000 C CNN
+F 2 "JPL Robotics:S9175-ND" H 2400 4250 50  0001 C CNN
+F 3 "" H 2400 4250 50  0001 C CNN
+	1    2150 3000
+	1    0    0    -1  
+$EndComp
+Text Label 2100 2150 0    16   ~ 0
+X_RPI_GPIO_GEN0
+Wire Wire Line
+	2250 2150 2100 2150
+Text Label 2100 2350 0    16   ~ 0
+X_RPI_SPI_MOSI
+Text Label 2100 2400 0    16   ~ 0
+X_RPI_SPI_MISO
+Text Label 2100 2550 0    16   ~ 0
+X_RPI_EEPROM_IDSD
+Text Label 2100 2700 0    16   ~ 0
+X_RPI_GPIO13
+Text Label 2100 2750 0    16   ~ 0
+X_RPI_GPIO19
+Text Label 3400 2150 2    16   ~ 0
+X_RPI_GPIO_GEN1
+Text Label 3400 2650 2    16   ~ 0
+X_RPI_GPIO12
+Text Label 3400 2750 2    16   ~ 0
+X_RPI_GPIO16
+Text Label 3400 2800 2    16   ~ 0
+X_RPI_GPIO20
+Text Label 3400 2850 2    16   ~ 0
+X_RPI_GPIO21
+Text Label 2100 2450 0    16   ~ 0
+X_RPI_SPI_CLK
+Text Label 3400 2550 2    16   ~ 0
+X_RPI_EEPROM_IDSC
+Text Label 3400 2450 2    16   ~ 0
+X_RPI_SPI_CE0_N
+Text Label 3400 2500 2    16   ~ 0
+X_RPI_SPI_CE1_N
+Wire Wire Line
+	2250 2350 2100 2350
+Wire Wire Line
+	2250 2400 2100 2400
+Wire Wire Line
+	2100 2450 2250 2450
+Wire Wire Line
+	2100 2550 2250 2550
+Wire Wire Line
+	2100 2700 2250 2700
+Wire Wire Line
+	2100 2750 2250 2750
+Wire Wire Line
+	3250 2150 3400 2150
+Wire Wire Line
+	3250 2450 3400 2450
+Wire Wire Line
+	3250 2650 3400 2650
+Wire Wire Line
+	3250 2550 3400 2550
+Wire Wire Line
+	3250 2500 3400 2500
+Wire Wire Line
+	3250 2750 3400 2750
+Wire Wire Line
+	3250 2800 3400 2800
+Wire Wire Line
+	3250 2850 3400 2850
+Text Label 3450 4150 2    16   ~ 0
+X_RPI_GPIO21
+Text Label 3450 4100 2    16   ~ 0
+X_RPI_GPIO20
+Text Label 3450 4050 2    16   ~ 0
+X_RPI_GPIO16
+Text Label 3450 3950 2    16   ~ 0
+X_RPI_GPIO12
+Text Label 3450 3850 2    16   ~ 0
+X_RPI_EEPROM_IDSC
+Text Label 3450 3800 2    16   ~ 0
+X_RPI_SPI_CE1_N
+Text Label 3450 3750 2    16   ~ 0
+X_RPI_SPI_CE0_N
+Text Label 3450 3450 2    16   ~ 0
+X_RPI_GPIO_GEN1
+Text Label 2150 4050 0    16   ~ 0
+X_RPI_GPIO19
+Text Label 2150 4000 0    16   ~ 0
+X_RPI_GPIO13
+Text Label 2150 3850 0    16   ~ 0
+X_RPI_EEPROM_IDSD
+Text Label 2150 3750 0    16   ~ 0
+X_RPI_SPI_CLK
+Text Label 2150 3700 0    16   ~ 0
+X_RPI_SPI_MISO
+Text Label 2150 3650 0    16   ~ 0
+X_RPI_SPI_MOSI
+Text Label 2150 3450 0    16   ~ 0
+X_RPI_GPIO_GEN0
+Wire Wire Line
+	2150 3450 2300 3450
+Wire Wire Line
+	2150 3650 2300 3650
+Wire Wire Line
+	2150 3700 2300 3700
+Wire Wire Line
+	2150 3750 2300 3750
+Wire Wire Line
+	2150 3850 2300 3850
+Wire Wire Line
+	2150 4000 2300 4000
+Wire Wire Line
+	2150 4050 2300 4050
+Wire Wire Line
+	3300 3450 3450 3450
+Wire Wire Line
+	3300 3750 3450 3750
+Wire Wire Line
+	3300 3800 3450 3800
+Wire Wire Line
+	3300 3850 3450 3850
+Wire Wire Line
+	3300 3950 3450 3950
+Wire Wire Line
+	3300 4050 3450 4050
+Wire Wire Line
+	3300 4100 3450 4100
+Wire Wire Line
+	3300 4150 3450 4150
 $EndSCHEMATC
