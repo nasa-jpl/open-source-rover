@@ -1130,7 +1130,7 @@ F 1 "100uf" V 9200 6250 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 9300 6300 50  0001 C CNN
 F 3 "~" H 9300 6300 50  0001 C CNN
 	1    9300 6300
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR031
@@ -2952,8 +2952,8 @@ L JPL_Robotics_Lib:test_point T8
 U 1 1 6418F375
 P 3750 9550
 F 0 "T8" V 3800 9500 50  0000 L TNN
-F 1 "JPL Robotics:test_point_hole" H 3900 9800 50  0001 C CNN
-F 2 "" H 3700 9500 50  0001 C CNN
+F 1 "test_point" H 3900 9800 50  0001 C CNN
+F 2 "JPL Robotics:test_point_hole" H 3700 9500 50  0001 C CNN
 F 3 "" H 3700 9500 50  0001 C CNN
 	1    3750 9550
 	0    -1   -1   0   
@@ -2963,8 +2963,8 @@ L JPL_Robotics_Lib:test_point T9
 U 1 1 6418F539
 P 3900 9550
 F 0 "T9" V 3950 9500 50  0000 L TNN
-F 1 "JPL Robotics:test_point_hole" H 4050 9800 50  0001 C CNN
-F 2 "" H 3850 9500 50  0001 C CNN
+F 1 "test_point" H 4050 9800 50  0001 C CNN
+F 2 "JPL Robotics:test_point_hole" H 3850 9500 50  0001 C CNN
 F 3 "" H 3850 9500 50  0001 C CNN
 	1    3900 9550
 	0    -1   -1   0   
@@ -2974,21 +2974,10 @@ L JPL_Robotics_Lib:test_point T10
 U 1 1 6418F8CE
 P 4100 9550
 F 0 "T10" V 4150 9500 50  0000 L TNN
-F 1 "JPL Robotics:test_point_hole" H 4250 9800 50  0001 C CNN
-F 2 "" H 4050 9500 50  0001 C CNN
+F 1 "test_point" H 4250 9800 50  0001 C CNN
+F 2 "JPL Robotics:test_point_hole" H 4050 9500 50  0001 C CNN
 F 3 "" H 4050 9500 50  0001 C CNN
 	1    4100 9550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T11
-U 1 1 6418FAFC
-P 4300 9550
-F 0 "T11" V 4350 9500 50  0000 L TNN
-F 1 "JPL Robotics:test_point_hole" H 4450 9800 50  0001 C CNN
-F 2 "" H 4250 9500 50  0001 C CNN
-F 3 "" H 4250 9500 50  0001 C CNN
-	1    4300 9550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3066,8 +3055,8 @@ L JPL_Robotics_Lib:test_point T3
 U 1 1 6432DC9D
 P 2050 5500
 F 0 "T3" V 2100 5450 50  0000 L TNN
-F 1 "JPL Robotics:test_point" H 2200 5750 50  0001 C CNN
-F 2 "" H 2000 5450 50  0001 C CNN
+F 1 "test_point" H 2200 5750 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 2000 5450 50  0001 C CNN
 F 3 "" H 2000 5450 50  0001 C CNN
 	1    2050 5500
 	0    -1   -1   0   
@@ -3086,8 +3075,8 @@ L JPL_Robotics_Lib:test_point T4
 U 1 1 643602C9
 P 2600 5500
 F 0 "T4" V 2650 5450 50  0000 L TNN
-F 1 "JPL Robotics:test_point" H 2750 5750 50  0001 C CNN
-F 2 "" H 2550 5450 50  0001 C CNN
+F 1 "test_point" H 2750 5750 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 2550 5450 50  0001 C CNN
 F 3 "" H 2550 5450 50  0001 C CNN
 	1    2600 5500
 	0    -1   -1   0   
@@ -3102,8 +3091,8 @@ L JPL_Robotics_Lib:test_point T5
 U 1 1 64361769
 P 3550 5500
 F 0 "T5" V 3600 5450 50  0000 L TNN
-F 1 "JPL Robotics:test_point" H 3700 5750 50  0001 C CNN
-F 2 "" H 3500 5450 50  0001 C CNN
+F 1 "test_point" H 3700 5750 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 3500 5450 50  0001 C CNN
 F 3 "" H 3500 5450 50  0001 C CNN
 	1    3550 5500
 	0    -1   -1   0   
@@ -3170,10 +3159,21 @@ L JPL_Robotics_Lib:test_point T12
 U 1 1 642C6677
 P 4500 9550
 F 0 "T12" V 4550 9500 50  0000 L TNN
-F 1 "JPL Robotics:test_point_hole" H 4650 9800 50  0001 C CNN
-F 2 "" H 4450 9500 50  0001 C CNN
+F 1 "test_point" H 4650 9800 50  0001 C CNN
+F 2 "JPL Robotics:test_point_hole" H 4450 9500 50  0001 C CNN
 F 3 "" H 4450 9500 50  0001 C CNN
 	1    4500 9550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:test_point T11
+U 1 1 6418FAFC
+P 4300 9550
+F 0 "T11" V 4350 9500 50  0000 L TNN
+F 1 "test_point" H 4450 9800 50  0001 C CNN
+F 2 "JPL Robotics:test_point_hole" H 4250 9500 50  0001 C CNN
+F 3 "" H 4250 9500 50  0001 C CNN
+	1    4300 9550
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
