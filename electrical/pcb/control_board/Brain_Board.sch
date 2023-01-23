@@ -13,167 +13,161 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 1700 3450 3    50   ~ 0
+Text Label 1400 3450 3    50   ~ 0
 RXD
 Wire Wire Line
-	1700 3400 1700 3450
+	1400 3400 1400 3450
 Wire Wire Line
-	2250 2100 2100 2100
+	1950 2100 1800 2100
 Wire Wire Line
-	2250 2500 2100 2500
+	1950 2500 1800 2500
 Wire Wire Line
-	2250 2850 2100 2850
+	1950 2850 1800 2850
 Wire Wire Line
-	3400 1950 3250 1950
+	3100 1950 2950 1950
 Wire Wire Line
-	3400 2000 3250 2000
+	3100 2000 2950 2000
 Wire Wire Line
-	3400 2050 3250 2050
+	3100 2050 2950 2050
 Wire Wire Line
-	3400 2100 3250 2100
+	3100 2100 2950 2100
 Wire Wire Line
-	3400 2200 3250 2200
+	3100 2200 2950 2200
 Wire Wire Line
-	3400 2250 3250 2250
+	3100 2250 2950 2250
 Wire Wire Line
-	3400 2350 3250 2350
+	3100 2350 2950 2350
 Wire Wire Line
-	3400 2600 3250 2600
+	3100 2600 2950 2600
 Wire Wire Line
-	3400 2700 3250 2700
-Text Label 2050 2300 0    30   ~ 0
+	3100 2700 2950 2700
+Text Label 1750 2300 0    30   ~ 0
 +3.3V_brain
-Text Label 3400 1900 2    30   ~ 0
-+5V
-Text Label 3400 1950 2    30   ~ 0
-+5V
-Text Label 3400 2050 2    30   ~ 0
+Text Label 3100 1900 2    30   ~ 0
++5V_brain
+Text Label 3100 2050 2    30   ~ 0
 TXD
-Text Label 3400 2100 2    30   ~ 0
+Text Label 3100 2100 2    30   ~ 0
 RXD
-Text Label 3400 2250 2    30   ~ 0
+Text Label 3100 2250 2    30   ~ 0
 E_STOP_pi
 Wire Wire Line
-	2300 3400 2150 3400
+	2000 3400 1850 3400
 Wire Wire Line
-	2300 3800 2150 3800
+	2000 3800 1850 3800
 Wire Wire Line
-	2300 4150 2150 4150
+	2000 4150 1850 4150
 Wire Wire Line
-	3450 3200 3300 3200
+	3150 3200 3000 3200
 Wire Wire Line
-	3450 3250 3300 3250
+	3150 3250 3000 3250
 Wire Wire Line
-	3450 3300 3300 3300
+	3150 3300 3000 3300
 Wire Wire Line
-	3450 3350 3300 3350
+	3150 3350 3000 3350
 Wire Wire Line
-	3450 3400 3300 3400
+	3150 3400 3000 3400
 Wire Wire Line
-	3450 3500 3300 3500
+	3150 3500 3000 3500
 Wire Wire Line
-	3450 3650 3300 3650
+	3150 3650 3000 3650
 Wire Wire Line
-	3450 3900 3300 3900
+	3150 3900 3000 3900
 Wire Wire Line
-	3450 4000 3300 4000
-Text Label 2100 3200 0    30   ~ 0
+	3150 4000 3000 4000
+Text Label 1800 3200 0    30   ~ 0
 +3.3V_brain
-Text Label 2150 3400 0    30   ~ 0
+Text Label 1850 3400 0    30   ~ 0
 GND
-Text Label 2100 3600 0    30   ~ 0
+Text Label 1800 3600 0    30   ~ 0
 +3.3V_brain
-Text Label 2150 3800 0    30   ~ 0
+Text Label 1850 3800 0    30   ~ 0
 GND
-Text Label 2150 4150 0    30   ~ 0
+Text Label 1850 4150 0    30   ~ 0
 GND
-Text Label 3450 3200 2    30   ~ 0
-+5V
-Text Label 3450 3250 2    30   ~ 0
-+5V
-Text Label 3450 3300 2    30   ~ 0
+Text Label 3150 3300 2    30   ~ 0
 GND
-Text Label 3450 3350 2    30   ~ 0
+Text Label 3150 3350 2    30   ~ 0
 TXD
-Text Label 3450 3400 2    30   ~ 0
+Text Label 3150 3400 2    30   ~ 0
 RXD
-Text Label 3450 3500 2    30   ~ 0
+Text Label 3150 3500 2    30   ~ 0
 GND
-Text Label 3450 3650 2    30   ~ 0
+Text Label 3150 3650 2    30   ~ 0
 GND
-Text Label 3450 3900 2    30   ~ 0
+Text Label 3150 3900 2    30   ~ 0
 GND
-Text Label 3450 4000 2    30   ~ 0
+Text Label 3150 4000 2    30   ~ 0
 GND
 $Comp
 L JPL_Robotics_Lib:6posheader J24
 U 1 1 60A8A929
-P 2600 5550
-F 0 "J24" H 2706 5973 50  0000 C CNN
-F 1 "6posheader" H 2800 6050 50  0001 C CNN
-F 2 "JPL Robotics:455-1708-ND" H 2600 5550 50  0001 C CNN
-F 3 "" H 2600 5550 50  0001 C CNN
-	1    2600 5550
+P 2300 5550
+F 0 "J24" H 2406 5973 50  0000 C CNN
+F 1 "6posheader" H 2500 6050 50  0001 C CNN
+F 2 "JPL Robotics:455-1708-ND" H 2300 5550 50  0001 C CNN
+F 3 "" H 2300 5550 50  0001 C CNN
+	1    2300 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2800 5250 3050 5250
+	2500 5250 2750 5250
 Wire Wire Line
-	2800 5300 3050 5300
+	2500 5300 2750 5300
 Wire Wire Line
-	2800 5350 3050 5350
-Text Label 3050 5250 2    30   ~ 0
-+12V
-Text Label 3050 5300 2    30   ~ 0
-+5V
-Text Label 3050 5350 2    30   ~ 0
+	2500 5350 2750 5350
+Text Label 2750 5250 2    30   ~ 0
++12V_brain
+Text Label 2750 5300 2    30   ~ 0
++5V_brain
+Text Label 2750 5350 2    30   ~ 0
 GND
 Wire Wire Line
-	2800 5450 3050 5450
-Text Label 3050 5400 2    30   ~ 0
+	2500 5450 2750 5450
+Text Label 2750 5400 2    30   ~ 0
 SCL_rpi
-Text Label 3050 5450 2    30   ~ 0
+Text Label 2750 5450 2    30   ~ 0
 SDA_rpi
-Text Notes 2100 1500 0    98   ~ 0
+Text Notes 1800 1500 0    98   ~ 0
 Raspberry Pi breakout
-Text Notes 1900 4900 0    98   ~ 0
+Text Notes 1600 4900 0    98   ~ 0
 Arduino Communication
-Text Label 3400 2350 2    30   ~ 0
+Text Label 3100 2350 2    30   ~ 0
 GND
-Text Label 2100 2850 0    30   ~ 0
+Text Label 1800 2850 0    30   ~ 0
 GND
-Text Label 2100 2500 0    30   ~ 0
+Text Label 1800 2500 0    30   ~ 0
 GND
-Text Label 2100 2100 0    30   ~ 0
+Text Label 1800 2100 0    30   ~ 0
 GND
 $Comp
 L Device:C_Small C31
 U 1 1 60A8A94F
-P 1650 2100
-F 0 "C31" H 1742 2146 50  0000 L CNN
-F 1 "100nf" H 1742 2055 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 1650 2100 50  0001 C CNN
-F 3 "~" H 1650 2100 50  0001 C CNN
-	1    1650 2100
+P 1350 2100
+F 0 "C31" H 1442 2146 50  0000 L CNN
+F 1 "100nf" H 1442 2055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 1350 2100 50  0001 C CNN
+F 3 "~" H 1350 2100 50  0001 C CNN
+	1    1350 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 1900 1650 2000
+	1350 1900 1350 2000
 Wire Wire Line
-	2800 5400 3050 5400
-NoConn ~ 2800 5500
+	2500 5400 2750 5400
+NoConn ~ 2500 5500
 $Comp
 L power:PWR_FLAG #FLG06
 U 1 1 60A8A96F
-P 1900 1850
-F 0 "#FLG06" H 1900 1925 50  0001 C CNN
-F 1 "PWR_FLAG" V 1800 2100 50  0000 C CNN
-F 2 "" H 1900 1850 50  0001 C CNN
-F 3 "~" H 1900 1850 50  0001 C CNN
-	1    1900 1850
+P 1600 1850
+F 0 "#FLG06" H 1600 1925 50  0001 C CNN
+F 1 "PWR_FLAG" V 1500 2100 50  0000 C CNN
+F 2 "" H 1600 1850 50  0001 C CNN
+F 3 "~" H 1600 1850 50  0001 C CNN
+	1    1600 1850
 	1    0    0    -1  
 $EndComp
-Text Notes 1550 2600 0    50   ~ 0
+Text Notes 1250 2600 0    50   ~ 0
 *3.3v bus \nsupplied\nby rpi
 Text Notes 4800 1350 0    98   ~ 0
 Inter-Board Connection
@@ -201,23 +195,23 @@ $EndComp
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR061
 U 1 1 618E53AB
-P 1700 3100
-F 0 "#PWR061" H 1700 2950 50  0001 C CNN
-F 1 "+5V_brain" H 1715 3273 50  0000 C CNN
-F 2 "" H 1700 3100 50  0001 C CNN
-F 3 "" H 1700 3100 50  0001 C CNN
-	1    1700 3100
+P 1400 3100
+F 0 "#PWR061" H 1400 2950 50  0001 C CNN
+F 1 "+5V_brain" H 1415 3273 50  0000 C CNN
+F 2 "" H 1400 3100 50  0001 C CNN
+F 3 "" H 1400 3100 50  0001 C CNN
+	1    1400 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:GND_brain #PWR059
 U 1 1 618E86D3
-P 1650 2200
-F 0 "#PWR059" H 1650 1950 50  0001 C CNN
-F 1 "GND_brain" H 1400 2150 50  0000 C CNN
-F 2 "" H 1650 2200 50  0001 C CNN
-F 3 "" H 1650 2200 50  0001 C CNN
-	1    1650 2200
+P 1350 2200
+F 0 "#PWR059" H 1350 1950 50  0001 C CNN
+F 1 "GND_brain" H 1100 2150 50  0000 C CNN
+F 2 "" H 1350 2200 50  0001 C CNN
+F 3 "" H 1350 2200 50  0001 C CNN
+	1    1350 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -242,12 +236,12 @@ F 3 "" H 4750 2350 50  0001 C CNN
 	1    4750 2350
 	0    1    1    0   
 $EndComp
-Text Label 5200 2000 0    50   ~ 0
-+5V
+Text Label 5000 2000 0    50   ~ 0
++5V_brain
 Text Label 5200 2200 0    50   ~ 0
 GND
-Text Label 6050 2400 0    50   ~ 0
-+12V
+Text Label 6350 2400 2    50   ~ 0
++12V_brain
 $Comp
 L power:PWR_FLAG #FLG07
 U 1 1 6195B322
@@ -324,8 +318,8 @@ E_STOP2_in
 Text Label 5050 4100 0    50   ~ 0
 GND
 Wire Wire Line
-	2250 2200 2100 2200
-Text Label 2100 2200 0    30   ~ 0
+	1950 2200 1800 2200
+Text Label 1800 2200 0    30   ~ 0
 alert
 Wire Wire Line
 	5400 2800 5100 2800
@@ -340,20 +334,20 @@ Wire Wire Line
 Text Label 6250 2300 2    50   ~ 0
 SDA_rpi
 Wire Wire Line
-	2250 1950 2100 1950
+	1950 1950 1800 1950
 Wire Wire Line
-	2250 2000 2100 2000
-Text Label 2100 1950 0    30   ~ 0
+	1950 2000 1800 2000
+Text Label 1800 1950 0    30   ~ 0
 SDA_rpi
-Text Label 2100 2000 0    30   ~ 0
+Text Label 1800 2000 0    30   ~ 0
 SCL_rpi
 Wire Wire Line
-	2300 3250 2150 3250
+	2000 3250 1850 3250
 Wire Wire Line
-	2300 3300 2150 3300
-Text Label 2150 3250 0    30   ~ 0
+	2000 3300 1850 3300
+Text Label 1850 3250 0    30   ~ 0
 SDA_rpi
-Text Label 2150 3300 0    30   ~ 0
+Text Label 1850 3300 0    30   ~ 0
 SCL_rpi
 $Comp
 L JPL_Robotics_Lib:PPTC021LFBN-RC J28
@@ -412,21 +406,17 @@ Wire Notes Line
 Wire Notes Line
 	6900 5200 6900 3400
 Wire Wire Line
-	2250 2250 2100 2250
-Text Label 2100 2250 0    30   ~ 0
+	1950 2250 1800 2250
+Text Label 1800 2250 0    30   ~ 0
 OEservos
 Text Label 6250 2200 2    50   ~ 0
 GND
 Text Label 6250 2000 2    50   ~ 0
-+5V
++5V_brain
 Wire Wire Line
 	5900 2000 6250 2000
 Wire Wire Line
 	5900 2200 6250 2200
-Text Label 5100 2400 0    50   ~ 0
-+12V
-Wire Wire Line
-	5400 2400 5100 2400
 Wire Wire Line
 	6400 2350 6400 2400
 $Comp
@@ -689,15 +679,15 @@ Connection ~ 8450 4600
 $Comp
 L Device:R_US R?
 U 1 1 6139D881
-P 1700 3250
+P 1400 3250
 AR Path="/6139D881" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/6139D881" Ref="R?"  Part="1" 
 AR Path="/60A5279E/6139D881" Ref="R11"  Part="1" 
-F 0 "R11" H 1768 3296 50  0000 L CNN
-F 1 "4.7k" H 1768 3205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1740 3240 50  0001 C CNN
-F 3 "~" H 1700 3250 50  0001 C CNN
-	1    1700 3250
+F 0 "R11" H 1468 3296 50  0000 L CNN
+F 1 "4.7k" H 1468 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1440 3240 50  0001 C CNN
+F 3 "~" H 1400 3250 50  0001 C CNN
+	1    1400 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -888,50 +878,50 @@ Wire Notes Line
 $Comp
 L Device:C_Small C32
 U 1 1 61420FF3
-P 3750 2000
-F 0 "C32" H 3842 2046 50  0000 L CNN
-F 1 "100nf" H 3842 1955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3750 2000 50  0001 C CNN
-F 3 "~" H 3750 2000 50  0001 C CNN
-	1    3750 2000
+P 3450 2000
+F 0 "C32" H 3542 2046 50  0000 L CNN
+F 1 "100nf" H 3542 1955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 3450 2000 50  0001 C CNN
+F 3 "~" H 3450 2000 50  0001 C CNN
+	1    3450 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 1900 3750 1900
+	2950 1900 3450 1900
 $Comp
 L JPL_Robotics_Lib:GND_brain #PWR062
 U 1 1 614285E9
-P 3750 2100
-F 0 "#PWR062" H 3750 1850 50  0001 C CNN
-F 1 "GND_brain" H 4000 2050 50  0000 C CNN
-F 2 "" H 3750 2100 50  0001 C CNN
-F 3 "" H 3750 2100 50  0001 C CNN
-	1    3750 2100
+P 3450 2100
+F 0 "#PWR062" H 3450 1850 50  0001 C CNN
+F 1 "GND_brain" H 3700 2050 50  0000 C CNN
+F 2 "" H 3450 2100 50  0001 C CNN
+F 3 "" H 3450 2100 50  0001 C CNN
+	1    3450 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:+3.3V_brain #PWR060
 U 1 1 614BE59A
-P 1700 1850
-F 0 "#PWR060" H 1700 1700 50  0001 C CNN
-F 1 "+3.3V_brain" V 1600 2050 50  0000 C CNN
-F 2 "" H 1700 1850 50  0001 C CNN
-F 3 "" H 1700 1850 50  0001 C CNN
-	1    1700 1850
+P 1400 1850
+F 0 "#PWR060" H 1400 1700 50  0001 C CNN
+F 1 "+3.3V_brain" V 1300 2050 50  0000 C CNN
+F 2 "" H 1400 1850 50  0001 C CNN
+F 3 "" H 1400 1850 50  0001 C CNN
+	1    1400 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 1900 1700 1900
+	1350 1900 1400 1900
 Wire Wire Line
-	1700 1850 1700 1900
-Connection ~ 1700 1900
+	1400 1850 1400 1900
+Connection ~ 1400 1900
 Wire Wire Line
-	1700 1900 1900 1900
+	1400 1900 1600 1900
 Wire Wire Line
-	1900 1850 1900 1900
-Connection ~ 1900 1900
+	1600 1850 1600 1900
+Connection ~ 1600 1900
 Wire Wire Line
-	1900 1900 2250 1900
+	1600 1900 1950 1900
 $Comp
 L Device:R_US R?
 U 1 1 613A416D
@@ -950,7 +940,7 @@ Text Label 9650 1650 2    50   ~ 0
 E_STOP
 Wire Wire Line
 	7900 2600 8200 2600
-Text Notes 3600 3250 0    31   ~ 0
+Text Notes 3300 3250 0    31   ~ 0
 Todo: eric add more leds for \nthe other gpio pins
 Text Notes 9800 1500 0    31   ~ 0
 - Roboclaw ESTOPs active low \n(emergency stop when pulled low)\n- LEDs off when estop’ed (nominal on)
@@ -971,12 +961,6 @@ F 3 "" H 3350 7650 50  0001 C CNN
 	1    3350 7650
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	4200 5800 4200 7600
-Wire Notes Line
-	4200 7600 2650 7600
-Wire Notes Line
-	2650 5800 2650 7600
 Wire Wire Line
 	3150 6600 2950 6600
 Text Label 2950 6600 0    30   ~ 0
@@ -1022,22 +1006,20 @@ Wire Notes Line
 Wire Notes Line
 	7100 1100 10800 1100
 Wire Wire Line
-	9300 1650 9650 1650
-Wire Wire Line
 	9300 2100 9650 2100
 Wire Wire Line
 	9300 2550 9650 2550
 $Comp
 L JPL_Robotics_Lib:Mounting_Holes M?
 U 1 1 61DB5332
-P 1400 5900
+P 1050 6900
 AR Path="/60A51BAC/61DB5332" Ref="M?"  Part="1" 
 AR Path="/60A5279E/61DB5332" Ref="M1"  Part="1" 
-F 0 "M1" V 1830 6079 30  0000 L CNN
-F 1 "Mounting_Holes" V 1890 6079 30  0000 L CNN
-F 2 "JPL Robotics:raspberry_pi_3b" H 1580 6080 30  0001 C CNN
-F 3 "" H 1580 6080 30  0001 C CNN
-	1    1400 5900
+F 0 "M1" V 1480 7079 30  0000 L CNN
+F 1 "Mounting_Holes" V 1540 7079 30  0000 L CNN
+F 2 "JPL Robotics:raspberry_pi_3b" H 1230 7080 30  0001 C CNN
+F 3 "" H 1230 7080 30  0001 C CNN
+	1    1050 6900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1220,106 +1202,106 @@ Wire Wire Line
 Connection ~ 6400 6000
 Wire Wire Line
 	6400 6000 6400 6100
-Text Label 2050 1900 0    30   ~ 0
+Text Label 1750 1900 0    30   ~ 0
 +3.3V_brain
 Wire Wire Line
 	5050 2600 5400 2600
 Wire Wire Line
-	2050 2300 2250 2300
+	1750 2300 1950 2300
 Wire Wire Line
-	2100 3200 2300 3200
+	1800 3200 2000 3200
 Wire Wire Line
-	2100 3600 2300 3600
-Text Notes 1850 7400 0    50   ~ 0
+	1800 3600 2000 3600
+Text Notes 2300 7650 0    50   ~ 0
 \n
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH?
 U 1 1 626D877C
-P 1450 6800
+P 1900 7100
 AR Path="/60A51BAC/626D877C" Ref="MH?"  Part="1" 
 AR Path="/60A5279E/626D877C" Ref="MH9"  Part="1" 
-F 0 "MH9" H 1581 6800 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 1450 6940 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 1450 6890 30  0001 C CNN
-F 3 "" H 1450 6890 30  0001 C CNN
-	1    1450 6800
+F 0 "MH9" H 2031 7100 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1900 7240 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1900 7190 30  0001 C CNN
+F 3 "" H 1900 7190 30  0001 C CNN
+	1    1900 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH?
 U 1 1 626D8782
-P 1450 6950
+P 1900 7250
 AR Path="/60A51BAC/626D8782" Ref="MH?"  Part="1" 
 AR Path="/60A5279E/626D8782" Ref="MH10"  Part="1" 
-F 0 "MH10" H 1581 6950 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 1450 7090 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 1450 7040 30  0001 C CNN
-F 3 "" H 1450 7040 30  0001 C CNN
-	1    1450 6950
+F 0 "MH10" H 2031 7250 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1900 7390 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1900 7340 30  0001 C CNN
+F 3 "" H 1900 7340 30  0001 C CNN
+	1    1900 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH?
 U 1 1 626D8788
-P 1450 7100
+P 1900 7400
 AR Path="/60A51BAC/626D8788" Ref="MH?"  Part="1" 
 AR Path="/60A5279E/626D8788" Ref="MH11"  Part="1" 
-F 0 "MH11" H 1581 7100 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 1450 7240 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 1450 7190 30  0001 C CNN
-F 3 "" H 1450 7190 30  0001 C CNN
-	1    1450 7100
+F 0 "MH11" H 2031 7400 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1900 7540 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1900 7490 30  0001 C CNN
+F 3 "" H 1900 7490 30  0001 C CNN
+	1    1900 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH?
 U 1 1 626D878E
-P 1450 7250
+P 1900 7550
 AR Path="/60A51BAC/626D878E" Ref="MH?"  Part="1" 
 AR Path="/60A5279E/626D878E" Ref="MH12"  Part="1" 
-F 0 "MH12" H 1581 7250 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 1450 7390 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 1450 7340 30  0001 C CNN
-F 3 "" H 1450 7340 30  0001 C CNN
-	1    1450 7250
+F 0 "MH12" H 2031 7550 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1900 7690 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1900 7640 30  0001 C CNN
+F 3 "" H 1900 7640 30  0001 C CNN
+	1    1900 7550
 	1    0    0    -1  
 $EndComp
-Text Notes 1000 6700 0    31   ~ 0
+Text Notes 1450 7000 0    31   ~ 0
 For mounting brain board to motor board
-Text Notes 1150 6000 0    31   ~ 0
+Text Notes 800  7000 0    31   ~ 0
 RPi mounting holes
 Wire Wire Line
 	5400 2700 5100 2700
 Text Label 5100 2700 0    50   ~ 0
 12V_EN
-Text Label 3400 2300 2    30   ~ 0
+Text Label 3100 2300 2    30   ~ 0
 12V_EN
 Wire Wire Line
-	3250 2300 3400 2300
-Text Label 3400 2600 2    30   ~ 0
+	2950 2300 3100 2300
+Text Label 3100 2600 2    30   ~ 0
 GND
-Text Label 3400 2700 2    30   ~ 0
+Text Label 3100 2700 2    30   ~ 0
 GND
-Text Label 3400 2200 2    30   ~ 0
+Text Label 3100 2200 2    30   ~ 0
 GND
-Text Label 3400 2000 2    30   ~ 0
+Text Label 3100 2000 2    30   ~ 0
 GND
 Wire Notes Line
-	1450 4600 4200 4600
+	1150 4600 3900 4600
 Wire Notes Line
-	4200 4600 4200 5700
+	3900 4600 3900 5700
 Wire Notes Line
-	4200 5700 1450 5700
+	3900 5700 1150 5700
 Wire Notes Line
-	1450 5700 1450 4600
+	1150 5700 1150 4600
 Wire Notes Line
-	1450 1100 4200 1100
+	1150 1100 3900 1100
 Wire Notes Line
-	4200 1100 4200 4450
+	3900 1100 3900 4450
 Wire Notes Line
-	1450 4450 1450 1100
+	1150 4450 1150 1100
 Wire Notes Line
-	4200 4450 1450 4450
+	3900 4450 1150 4450
 Wire Notes Line
 	4450 1100 6900 1100
 Text Notes 5250 5500 0    98   ~ 0
@@ -1367,7 +1349,7 @@ F 3 "" H 7900 2600 50  0001 C CNN
 	1    7900 2600
 	0    -1   -1   0   
 $EndComp
-Text Notes 2050 4400 0    31   ~ 0
+Text Notes 1750 4400 0    31   ~ 0
 For GPIO avilability, see worksheet here: \nhttps://www.notion.so/GPIO-Pins-Worksheet-9ebb23e9beee4172a7b114ba388c0c59
 Text Notes 9700 2950 0    31   ~ 0
 LED R sizing: \n(V_in - LED forward voltage) / \ndesired current = resistor value
@@ -1431,22 +1413,22 @@ Wire Notes Line
 	7100 5300 7100 6400
 Wire Notes Line
 	10350 5300 10350 6400
-Text Label 3400 2400 2    30   ~ 0
+Text Label 3100 2400 2    30   ~ 0
 RPI_LED_1
 Wire Wire Line
-	3250 2400 3400 2400
-Text Label 2100 2800 0    30   ~ 0
+	2950 2400 3100 2400
+Text Label 1800 2800 0    30   ~ 0
 RPI_LED_2
 Wire Wire Line
-	2250 2800 2100 2800
-Text Label 2100 2600 0    30   ~ 0
+	1950 2800 1800 2800
+Text Label 1800 2600 0    30   ~ 0
 RPI_LED_3
 Wire Wire Line
-	2250 2600 2100 2600
-Text Label 2100 2650 0    30   ~ 0
+	1950 2600 1800 2600
+Text Label 1800 2650 0    30   ~ 0
 RPI_LED_4
 Wire Wire Line
-	2250 2650 2100 2650
+	1950 2650 1800 2650
 Text Label 5150 6200 2    50   ~ 0
 RPI_LED_1
 $Comp
@@ -1528,185 +1510,301 @@ RPI_LED_4
 Wire Wire Line
 	5150 6500 5300 6500
 Wire Wire Line
-	2250 2050 2100 2050
-Text Label 2100 2050 0    16   ~ 0
+	1950 2050 1800 2050
+Text Label 1800 2050 0    16   ~ 0
 X_RPI_GPIO_GCLK
 Wire Wire Line
-	2300 3350 2150 3350
-Text Label 2150 3350 0    16   ~ 0
+	2000 3350 1850 3350
+Text Label 1850 3350 0    16   ~ 0
 X_RPI_GPIO_GCLK
 $Comp
 L JPL_Robotics_Lib:S9175-ND_rpi_breakout J22
 U 1 1 60A8A979
-P 2150 3000
-F 0 "J22" H 2750 4315 50  0000 C CNN
-F 1 "S9175-ND_rpi_breakout" H 2750 4224 50  0000 C CNN
-F 2 "JPL Robotics:S9175-ND" H 2400 4250 50  0001 C CNN
-F 3 "" H 2400 4250 50  0001 C CNN
-	1    2150 3000
+P 1850 3000
+F 0 "J22" H 2450 4315 50  0000 C CNN
+F 1 "S9175-ND_rpi_breakout" H 2450 4224 50  0000 C CNN
+F 2 "JPL Robotics:S9175-ND" H 2100 4250 50  0001 C CNN
+F 3 "" H 2100 4250 50  0001 C CNN
+	1    1850 3000
 	1    0    0    -1  
 $EndComp
-Text Label 2100 2150 0    16   ~ 0
+Text Label 1800 2150 0    16   ~ 0
 X_RPI_GPIO_GEN0
 Wire Wire Line
-	2250 2150 2100 2150
-Text Label 2100 2350 0    16   ~ 0
+	1950 2150 1800 2150
+Text Label 1800 2350 0    16   ~ 0
 X_RPI_SPI_MOSI
-Text Label 2100 2400 0    16   ~ 0
+Text Label 1800 2400 0    16   ~ 0
 X_RPI_SPI_MISO
-Text Label 2100 2550 0    16   ~ 0
+Text Label 1800 2550 0    16   ~ 0
 X_RPI_EEPROM_IDSD
-Text Label 2100 2700 0    16   ~ 0
+Text Label 1800 2700 0    16   ~ 0
 X_RPI_GPIO13
-Text Label 2100 2750 0    16   ~ 0
+Text Label 1800 2750 0    16   ~ 0
 X_RPI_GPIO19
-Text Label 3400 2150 2    16   ~ 0
+Text Label 3100 2150 2    16   ~ 0
 X_RPI_GPIO_GEN1
-Text Label 3400 2650 2    16   ~ 0
+Text Label 3100 2650 2    16   ~ 0
 X_RPI_GPIO12
-Text Label 3400 2750 2    16   ~ 0
+Text Label 3100 2750 2    16   ~ 0
 X_RPI_GPIO16
-Text Label 3400 2800 2    16   ~ 0
+Text Label 3100 2800 2    16   ~ 0
 X_RPI_GPIO20
-Text Label 3400 2850 2    16   ~ 0
+Text Label 3100 2850 2    16   ~ 0
 X_RPI_GPIO21
-Text Label 2100 2450 0    16   ~ 0
+Text Label 1800 2450 0    16   ~ 0
 X_RPI_SPI_CLK
-Text Label 3400 2550 2    16   ~ 0
+Text Label 3100 2550 2    16   ~ 0
 X_RPI_EEPROM_IDSC
-Text Label 3400 2450 2    16   ~ 0
+Text Label 3100 2450 2    16   ~ 0
 X_RPI_SPI_CE0_N
-Text Label 3400 2500 2    16   ~ 0
+Text Label 3100 2500 2    16   ~ 0
 X_RPI_SPI_CE1_N
 Wire Wire Line
-	2250 2350 2100 2350
+	1950 2350 1800 2350
 Wire Wire Line
-	2250 2400 2100 2400
+	1950 2400 1800 2400
 Wire Wire Line
-	2100 2450 2250 2450
+	1800 2450 1950 2450
 Wire Wire Line
-	2100 2550 2250 2550
+	1800 2550 1950 2550
 Wire Wire Line
-	2100 2700 2250 2700
+	1800 2700 1950 2700
 Wire Wire Line
-	2100 2750 2250 2750
+	1800 2750 1950 2750
 Wire Wire Line
-	3250 2150 3400 2150
+	2950 2150 3100 2150
 Wire Wire Line
-	3250 2450 3400 2450
+	2950 2450 3100 2450
 Wire Wire Line
-	3250 2650 3400 2650
+	2950 2650 3100 2650
 Wire Wire Line
-	3250 2550 3400 2550
+	2950 2550 3100 2550
 Wire Wire Line
-	3250 2500 3400 2500
+	2950 2500 3100 2500
 Wire Wire Line
-	3250 2750 3400 2750
+	2950 2750 3100 2750
 Wire Wire Line
-	3250 2800 3400 2800
+	2950 2800 3100 2800
 Wire Wire Line
-	3250 2850 3400 2850
-Text Label 3450 4150 2    16   ~ 0
+	2950 2850 3100 2850
+Text Label 3150 4150 2    16   ~ 0
 X_RPI_GPIO21
-Text Label 3450 4100 2    16   ~ 0
+Text Label 3150 4100 2    16   ~ 0
 X_RPI_GPIO20
-Text Label 3450 4050 2    16   ~ 0
+Text Label 3150 4050 2    16   ~ 0
 X_RPI_GPIO16
-Text Label 3450 3950 2    16   ~ 0
+Text Label 3150 3950 2    16   ~ 0
 X_RPI_GPIO12
-Text Label 3450 3850 2    16   ~ 0
+Text Label 3150 3850 2    16   ~ 0
 X_RPI_EEPROM_IDSC
-Text Label 3450 3800 2    16   ~ 0
+Text Label 3150 3800 2    16   ~ 0
 X_RPI_SPI_CE1_N
-Text Label 3450 3750 2    16   ~ 0
+Text Label 3150 3750 2    16   ~ 0
 X_RPI_SPI_CE0_N
-Text Label 3450 3450 2    16   ~ 0
+Text Label 3150 3450 2    16   ~ 0
 X_RPI_GPIO_GEN1
-Text Label 2150 4050 0    16   ~ 0
+Text Label 1850 4050 0    16   ~ 0
 X_RPI_GPIO19
-Text Label 2150 4000 0    16   ~ 0
+Text Label 1850 4000 0    16   ~ 0
 X_RPI_GPIO13
-Text Label 2150 3850 0    16   ~ 0
+Text Label 1850 3850 0    16   ~ 0
 X_RPI_EEPROM_IDSD
-Text Label 2150 3750 0    16   ~ 0
+Text Label 1850 3750 0    16   ~ 0
 X_RPI_SPI_CLK
-Text Label 2150 3700 0    16   ~ 0
+Text Label 1850 3700 0    16   ~ 0
 X_RPI_SPI_MISO
-Text Label 2150 3650 0    16   ~ 0
+Text Label 1850 3650 0    16   ~ 0
 X_RPI_SPI_MOSI
-Text Label 2150 3450 0    16   ~ 0
+Text Label 1850 3450 0    16   ~ 0
 X_RPI_GPIO_GEN0
 Wire Wire Line
-	2150 3450 2300 3450
+	1850 3450 2000 3450
 Wire Wire Line
-	2150 3650 2300 3650
+	1850 3650 2000 3650
 Wire Wire Line
-	2150 3700 2300 3700
+	1850 3700 2000 3700
 Wire Wire Line
-	2150 3750 2300 3750
+	1850 3750 2000 3750
 Wire Wire Line
-	2150 3850 2300 3850
+	1850 3850 2000 3850
 Wire Wire Line
-	2150 4000 2300 4000
+	1850 4000 2000 4000
 Wire Wire Line
-	2150 4050 2300 4050
+	1850 4050 2000 4050
 Wire Wire Line
-	3300 3450 3450 3450
+	3000 3450 3150 3450
 Wire Wire Line
-	3300 3750 3450 3750
+	3000 3750 3150 3750
 Wire Wire Line
-	3300 3800 3450 3800
+	3000 3800 3150 3800
 Wire Wire Line
-	3300 3850 3450 3850
+	3000 3850 3150 3850
 Wire Wire Line
-	3300 3950 3450 3950
+	3000 3950 3150 3950
 Wire Wire Line
-	3300 4050 3450 4050
+	3000 4050 3150 4050
 Wire Wire Line
-	3300 4100 3450 4100
+	3000 4100 3150 4100
 Wire Wire Line
-	3300 4150 3450 4150
+	3000 4150 3150 4150
 $Comp
 L JPL_Robotics_Lib:S9175-ND_rpi_breakout J23
 U 1 1 60A8A8FC
-P 2200 4300
-F 0 "J23" H 2800 5615 50  0000 C CNN
-F 1 "S9175-ND_rpi_breakout" H 2800 5524 50  0000 C CNN
-F 2 "JPL Robotics:S9175-ND" H 2450 5550 50  0001 C CNN
-F 3 "" H 2450 5550 50  0001 C CNN
-	1    2200 4300
+P 1900 4300
+F 0 "J23" H 2500 5615 50  0000 C CNN
+F 1 "S9175-ND_rpi_breakout" H 2500 5524 50  0000 C CNN
+F 2 "JPL Robotics:S9175-ND" H 2150 5550 50  0001 C CNN
+F 3 "" H 2150 5550 50  0001 C CNN
+	1    1900 4300
 	1    0    0    -1  
 $EndComp
-Text Label 2150 3500 0    30   ~ 0
+Text Label 1850 3500 0    30   ~ 0
 alert
-Text Label 2150 3550 0    30   ~ 0
+Text Label 1850 3550 0    30   ~ 0
 OEservos
 Wire Wire Line
-	2150 3550 2300 3550
+	1850 3550 2000 3550
 Wire Wire Line
-	2150 3500 2300 3500
-Text Label 2150 3900 0    30   ~ 0
+	1850 3500 2000 3500
+Text Label 1850 3900 0    30   ~ 0
 RPI_LED_3
-Text Label 2150 3950 0    30   ~ 0
+Text Label 1850 3950 0    30   ~ 0
 RPI_LED_4
-Text Label 2150 4100 0    30   ~ 0
+Text Label 1850 4100 0    30   ~ 0
 RPI_LED_2
-Text Label 3450 3550 2    30   ~ 0
+Text Label 3150 3550 2    30   ~ 0
 E_STOP_pi
-Text Label 3450 3600 2    30   ~ 0
+Text Label 3150 3600 2    30   ~ 0
 12V_EN
-Text Label 3450 3700 2    30   ~ 0
+Text Label 3150 3700 2    30   ~ 0
 RPI_LED_1
 Wire Wire Line
-	2150 3900 2300 3900
+	1850 3900 2000 3900
 Wire Wire Line
-	2150 3950 2300 3950
+	1850 3950 2000 3950
 Wire Wire Line
-	2150 4100 2300 4100
+	1850 4100 2000 4100
 Wire Wire Line
-	3300 3550 3450 3550
+	3000 3550 3150 3550
 Wire Wire Line
-	3300 3600 3450 3600
+	3000 3600 3150 3600
 Wire Wire Line
-	3300 3700 3450 3700
+	3000 3700 3150 3700
+Wire Wire Line
+	9300 1650 9650 1650
+Connection ~ 9300 1650
+$Comp
+L JPL_Robotics_Lib:test_point T13
+U 1 1 6422F604
+P 9300 1500
+F 0 "T13" V 9350 1600 50  0000 R CNN
+F 1 "test_point" H 9450 1750 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 9250 1450 50  0001 C CNN
+F 3 "" H 9250 1450 50  0001 C CNN
+	1    9300 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:test_point T14
+U 1 1 6428DE15
+P 9300 1950
+F 0 "T14" V 9350 2050 50  0000 R CNN
+F 1 "test_point" H 9450 2200 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 9250 1900 50  0001 C CNN
+F 3 "" H 9250 1900 50  0001 C CNN
+	1    9300 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9300 2100
+$Comp
+L JPL_Robotics_Lib:test_point T15
+U 1 1 6428E0D4
+P 9300 2400
+F 0 "T15" V 9350 2500 50  0000 R CNN
+F 1 "test_point" H 9450 2650 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 9250 2350 50  0001 C CNN
+F 3 "" H 9250 2350 50  0001 C CNN
+	1    9300 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:PEC08SAAN J?
+U 1 1 647A8080
+P 1950 5900
+AR Path="/60A51BAC/647A8080" Ref="J?"  Part="1" 
+AR Path="/60A5279E/647A8080" Ref="J30"  Part="1" 
+F 0 "J30" H 1878 5451 50  0000 L CNN
+F 1 "PEC08SAAN" H 1878 5360 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2000 5900 50  0001 C CNN
+F 3 "" H 2000 5900 50  0001 C CNN
+	1    1950 5900
+	1    0    0    -1  
+$EndComp
+Text Label 1150 6050 0    50   ~ 0
+GND
+Text Label 1150 6650 0    50   ~ 0
+SCL_rpi
+Text Label 1150 6750 0    50   ~ 0
+SDA_rpi
+Text Label 1150 6250 0    50   ~ 0
++5V_brain
+Text Label 1150 6350 0    50   ~ 0
++12V_motor
+Wire Wire Line
+	1150 6050 1600 6050
+Wire Wire Line
+	1150 6150 1600 6150
+Wire Wire Line
+	1150 6350 1600 6350
+Wire Wire Line
+	1150 6650 1600 6650
+Text Label 1150 6550 0    50   ~ 0
+RXD
+Wire Wire Line
+	1150 6450 1600 6450
+Wire Wire Line
+	1150 6550 1600 6550
+Text Label 1150 6450 0    50   ~ 0
+TXD
+Text Notes 900  5950 0    98   ~ 0
+Test Pin Header
+Text Label 1150 6150 0    50   ~ 0
++3.3V_brain
+Wire Wire Line
+	1150 6250 1600 6250
+Wire Wire Line
+	1150 6750 1600 6750
+Wire Notes Line
+	750  6850 750  5800
+Wire Notes Line
+	2500 6850 750  6850
+Wire Notes Line
+	750  5800 2500 5800
+Wire Notes Line
+	2500 5800 2500 6850
+Wire Notes Line
+	750  6900 2500 6900
+Wire Notes Line
+	2500 6900 2500 7650
+Wire Notes Line
+	2500 7650 750  7650
+Wire Notes Line
+	750  7650 750  6900
+Wire Notes Line
+	2650 7650 4200 7650
+Wire Notes Line
+	4200 5800 4200 7650
+Wire Notes Line
+	2650 5800 2650 7650
+Text Label 5000 2400 0    50   ~ 0
++12V_brain
+Wire Wire Line
+	5000 2400 5400 2400
+Text Label 3100 1950 2    30   ~ 0
++5V_brain
+Text Label 3150 3200 2    30   ~ 0
++5V_brain
+Text Label 3150 3250 2    30   ~ 0
++5V_brain
 $EndSCHEMATC

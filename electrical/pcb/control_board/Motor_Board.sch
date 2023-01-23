@@ -643,27 +643,14 @@ F 3 "" H 13350 9050 50  0001 C CNN
 	1    13350 9050
 	1    0    0    -1  
 $EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753C1
-P 1650 5500
-AR Path="/60B753C1" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753C1" Ref="T2"  Part="1" 
-F 0 "T2" V 1700 5450 50  0000 L CNN
-F 1 "test_point" H 1800 5750 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1600 5450 50  0001 C CNN
-F 3 "" H 1600 5450 50  0001 C CNN
-	1    1650 5500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	3350 8800 3550 8800
+	3200 8150 3400 8150
 Wire Wire Line
-	3350 8850 3550 8850
+	3200 8200 3400 8200
 Wire Wire Line
-	3550 8850 3550 8950
+	3400 8200 3400 8300
 Wire Wire Line
-	3550 8650 3550 8800
+	3400 8000 3400 8150
 Text Notes 13400 7200 0    98   ~ 0
 Voltage Regulators
 Text Notes 2300 5050 0    98   ~ 0
@@ -671,14 +658,14 @@ Power Distribution
 $Comp
 L JPL_Robotics_Lib:ED2580-ND J?
 U 1 1 60B75504
-P 3200 8900
+P 3050 8250
 AR Path="/60B75504" Ref="J?"  Part="1" 
 AR Path="/60A51BAC/60B75504" Ref="J6"  Part="1" 
-F 0 "J6" H 3150 9150 50  0000 C CNN
-F 1 "ED2580-ND" H 3306 9124 50  0001 C CNN
-F 2 "JPL Robotics:ED2580-ND" H 3200 8900 50  0001 C CNN
-F 3 "" H 3200 8900 50  0001 C CNN
-	1    3200 8900
+F 0 "J6" H 3000 8500 50  0000 C CNN
+F 1 "ED2580-ND" H 3156 8474 50  0001 C CNN
+F 2 "JPL Robotics:ED2580-ND" H 3050 8250 50  0001 C CNN
+F 3 "" H 3050 8250 50  0001 C CNN
+	1    3050 8250
 	1    0    0    -1  
 $EndComp
 Text Notes 1150 5700 0    50   ~ 0
@@ -712,56 +699,56 @@ Inter-Board Connection
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH1
 U 1 1 60953101
-P 1450 8900
-F 0 "MH1" H 1581 8900 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 1450 9040 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 1450 8990 30  0001 C CNN
-F 3 "" H 1450 8990 30  0001 C CNN
-	1    1450 8900
+P 1500 9550
+F 0 "MH1" H 1631 9550 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1500 9690 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1500 9640 30  0001 C CNN
+F 3 "" H 1500 9640 30  0001 C CNN
+	1    1500 9550
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH2
 U 1 1 60953107
-P 1450 9050
-F 0 "MH2" H 1581 9050 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 1450 9190 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 1450 9140 30  0001 C CNN
-F 3 "" H 1450 9140 30  0001 C CNN
-	1    1450 9050
+P 1500 9700
+F 0 "MH2" H 1631 9700 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1500 9840 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1500 9790 30  0001 C CNN
+F 3 "" H 1500 9790 30  0001 C CNN
+	1    1500 9700
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH3
 U 1 1 6095310D
-P 1450 9200
-F 0 "MH3" H 1581 9200 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 1450 9340 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 1450 9290 30  0001 C CNN
-F 3 "" H 1450 9290 30  0001 C CNN
-	1    1450 9200
+P 1500 9850
+F 0 "MH3" H 1631 9850 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1500 9990 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1500 9940 30  0001 C CNN
+F 3 "" H 1500 9940 30  0001 C CNN
+	1    1500 9850
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH4
 U 1 1 60953113
-P 1450 9350
-F 0 "MH4" H 1581 9350 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 1450 9490 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 1450 9440 30  0001 C CNN
-F 3 "" H 1450 9440 30  0001 C CNN
-	1    1450 9350
+P 1500 10000
+F 0 "MH4" H 1631 10000 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 1500 10140 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 1500 10090 30  0001 C CNN
+F 3 "" H 1500 10090 30  0001 C CNN
+	1    1500 10000
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:rover_silkscreen y1
 U 1 1 60953119
-P 1100 10750
-F 0 "y1" H 1278 10825 50  0000 L CNN
-F 1 "rover_silkscreen" H 1278 10780 50  0000 L CNN
-F 2 "JPL Robotics:rover_image" H 950 10850 50  0001 C CNN
-F 3 "" H 950 10850 50  0001 C CNN
-	1    1100 10750
+P 1650 10250
+F 0 "y1" H 1828 10325 50  0000 L CNN
+F 1 "rover_silkscreen" H 1828 10280 50  0000 L CNN
+F 2 "JPL Robotics:rover_image" H 1500 10350 50  0001 C CNN
+F 3 "" H 1500 10350 50  0001 C CNN
+	1    1650 10250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -921,37 +908,24 @@ $EndComp
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR05
 U 1 1 61347F19
-P 3550 8950
-F 0 "#PWR05" H 3550 8700 50  0001 C CNN
-F 1 "GND_motor" H 3555 8777 50  0000 C CNN
-F 2 "" H 3550 8950 50  0001 C CNN
-F 3 "" H 3550 8950 50  0001 C CNN
-	1    3550 8950
+P 3400 8300
+F 0 "#PWR05" H 3400 8050 50  0001 C CNN
+F 1 "GND_motor" H 3405 8127 50  0000 C CNN
+F 2 "" H 3400 8300 50  0001 C CNN
+F 3 "" H 3400 8300 50  0001 C CNN
+	1    3400 8300
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:+12V_motor #PWR04
 U 1 1 613EFE54
-P 3550 8650
-F 0 "#PWR04" H 3550 8500 50  0001 C CNN
-F 1 "+12V_motor" H 3565 8823 50  0000 C CNN
-F 2 "" H 3550 8650 50  0001 C CNN
-F 3 "" H 3550 8650 50  0001 C CNN
-	1    3550 8650
+P 3400 8000
+F 0 "#PWR04" H 3400 7850 50  0001 C CNN
+F 1 "+12V_motor" H 3415 8173 50  0000 C CNN
+F 2 "" H 3400 8000 50  0001 C CNN
+F 3 "" H 3400 8000 50  0001 C CNN
+	1    3400 8000
 	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753B5
-P 14650 9000
-AR Path="/60B753B5" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753B5" Ref="T5"  Part="1" 
-F 0 "T5" V 14650 8900 30  0000 L CNN
-F 1 "test_point" H 14800 9250 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14600 8950 50  0001 C CNN
-F 3 "" H 14600 8950 50  0001 C CNN
-	1    14650 9000
-	0    -1   -1   0   
 $EndComp
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR043
@@ -1331,34 +1305,33 @@ F 3 "" H 11750 3600 50  0001 C CNN
 	1    11700 3600
 	1    0    0    -1  
 $EndComp
-Text Label 10900 3950 0    50   ~ 0
-GND_motor
-Text Label 10900 4250 0    50   ~ 0
-SCL_rpi
-Text Label 10900 4350 0    50   ~ 0
-SDA_rpi
 Text Label 10900 3750 0    50   ~ 0
+GND_motor
+Text Label 10900 4350 0    50   ~ 0
+SCL_rpi
+Text Label 10900 4450 0    50   ~ 0
+SDA_rpi
+Text Label 10900 3950 0    50   ~ 0
 +5V_motor
-Text Label 10900 3850 0    50   ~ 0
+Text Label 10900 4050 0    50   ~ 0
 +12V_motor
 Wire Wire Line
 	10900 3750 11350 3750
 Wire Wire Line
 	10900 3850 11350 3850
 Wire Wire Line
-	10900 3950 11350 3950
-Wire Wire Line
-	10900 4250 11350 4250
-Wire Wire Line
-	10900 4350 11350 4350
-Text Label 10900 4150 0    50   ~ 0
-RXD
-Wire Wire Line
 	10900 4050 11350 4050
 Wire Wire Line
+	10900 4350 11350 4350
+Wire Wire Line
+	10900 4450 11350 4450
+Text Label 10900 4250 0    50   ~ 0
+RXD
+Wire Wire Line
 	10900 4150 11350 4150
-NoConn ~ 11350 4450
-Text Label 10900 4050 0    50   ~ 0
+Wire Wire Line
+	10900 4250 11350 4250
+Text Label 10900 4150 0    50   ~ 0
 TXD
 Wire Notes Line
 	12700 4750 12700 3250
@@ -1517,13 +1490,9 @@ F 3 "" H 13250 5800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
-	4900 9550 1000 9550
-Wire Notes Line
-	4900 4900 4900 9550
+	4900 8700 1000 8700
 Wire Notes Line
 	4900 4900 1000 4900
-Wire Notes Line
-	1000 4900 1000 9550
 $Comp
 L JPL_Robotics_Lib:+5V_motor #PWR030
 U 1 1 614843D2
@@ -2293,7 +2262,7 @@ Wire Wire Line
 Wire Wire Line
 	15150 7850 14900 7850
 Connection ~ 15150 7750
-Text Notes 3850 9050 0    31   ~ 0
+Text Notes 3700 8400 0    31   ~ 0
 Misc 12V header for external use
 Text Notes 7000 7850 0    31   ~ 0
 Headers on the motor board are female, and solder pins to the servo controller daughter board
@@ -2314,19 +2283,6 @@ Text Label 1400 5850 0    30   ~ 0
 BATTPOS
 Text Label 1400 5900 0    30   ~ 0
 BATTNEG
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753AF
-P 3750 5500
-AR Path="/60B753AF" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753AF" Ref="T4"  Part="1" 
-F 0 "T4" V 3800 5450 50  0000 L CNN
-F 1 "test_point" H 3900 5750 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3700 5450 50  0001 C CNN
-F 3 "" H 3700 5450 50  0001 C CNN
-	1    3750 5500
-	0    1    -1   0   
-$EndComp
 $Comp
 L JPL_Robotics_Lib:XT60-F J?
 U 1 1 60B75520
@@ -2422,11 +2378,7 @@ F 3 "" H 2350 5700 30  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2100 5650 2100 5850
-Wire Wire Line
-	2000 5650 2100 5650
-Wire Wire Line
-	2000 5850 2100 5850
+	2000 5650 2050 5650
 Wire Wire Line
 	1650 5650 1700 5650
 Wire Wire Line
@@ -2448,24 +2400,10 @@ F 3 "~" H 2300 5850 50  0001 C CNN
 $EndComp
 Text Notes 1600 5250 0    31   ~ 0
 Remeber this fuse goes with PN:\n507-2121-ND
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 60B753BB
-P 1600 7000
-AR Path="/60B753BB" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/60B753BB" Ref="T1"  Part="1" 
-F 0 "T1" V 1650 6950 50  0000 L CNN
-F 1 "test_point" H 1750 7250 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1550 6950 50  0001 C CNN
-F 3 "" H 1550 6950 50  0001 C CNN
-	1    1600 7000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1600 7300 1600 7150
 Wire Wire Line
 	1900 7150 1900 6900
-Connection ~ 1600 7150
 Wire Wire Line
 	1600 7150 1900 7150
 Wire Wire Line
@@ -2484,7 +2422,7 @@ $EndComp
 Wire Wire Line
 	1400 5850 1650 5850
 Connection ~ 1650 5850
-Connection ~ 2100 5650
+Connection ~ 2150 5650
 Wire Wire Line
 	1400 5900 1650 5900
 Wire Wire Line
@@ -2560,8 +2498,6 @@ Text Notes 1200 8300 0    50   ~ 0
 2. MM DC- has a low resistance \nconnection to MM LOAD-
 Wire Wire Line
 	3800 6200 3800 5900
-Wire Wire Line
-	3800 5650 3750 5650
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR02
 U 1 1 637A1738
@@ -2579,7 +2515,6 @@ Wire Wire Line
 	1900 6550 1900 6850
 Wire Wire Line
 	1900 6850 1950 6850
-Connection ~ 1650 5650
 Wire Wire Line
 	2600 5700 2650 5700
 Wire Wire Line
@@ -2598,38 +2533,19 @@ Wire Wire Line
 	2600 6050 2600 5700
 Text Label 3250 5650 0    30   ~ 0
 MMLOAD+
-$Comp
-L JPL_Robotics_Lib:test_point T?
-U 1 1 63FD77E1
-P 2600 7100
-AR Path="/63FD77E1" Ref="T?"  Part="1" 
-AR Path="/60A51BAC/63FD77E1" Ref="T3"  Part="1" 
-F 0 "T3" H 2600 7100 50  0000 L CNN
-F 1 "test_point" H 2750 7350 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2550 7050 50  0001 C CNN
-F 3 "" H 2550 7050 50  0001 C CNN
-	1    2600 7100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3800 6200 2700 6200
-Wire Wire Line
-	2100 5650 2250 5650
-Wire Wire Line
-	2100 5850 2150 5850
-Connection ~ 2100 5850
+Connection ~ 2150 5850
 Wire Wire Line
 	2450 5850 2500 5850
 Wire Wire Line
 	2500 5850 2500 5650
 Wire Wire Line
 	2500 5650 2300 5650
-Wire Wire Line
-	2500 5650 2650 5650
 Connection ~ 2500 5650
 Wire Wire Line
 	2750 6700 2800 6700
-Text Label 2000 5650 0    30   ~ 0
+Text Label 2150 5750 2    30   ~ 0
 SWITCH+
 Text Label 2350 5650 0    30   ~ 0
 SWITCH-
@@ -2650,29 +2566,21 @@ Wire Notes Line
 	3000 5650 3000 5700
 Wire Notes Line
 	3000 5700 2850 5700
-Text Notes 2750 9500 0    50   ~ 0
+Text Notes 2800 10150 0    50   ~ 0
 \n
 Text Label 2750 7250 0    30   ~ 0
 +BATT
-Wire Wire Line
-	2750 6700 2750 7100
-Connection ~ 2750 7100
-Wire Wire Line
-	2750 7100 2750 7250
 Wire Wire Line
 	2700 6200 2700 6550
 Wire Wire Line
 	2700 6550 2800 6550
 Wire Wire Line
-	2750 6700 2250 6700
+	2750 6700 2500 6700
 Wire Wire Line
 	2250 6700 2250 6550
 Wire Wire Line
 	2250 6550 1900 6550
 Connection ~ 2750 6700
-Connection ~ 3750 5650
-Wire Wire Line
-	3750 5650 3200 5650
 $Comp
 L Device:R_US R?
 U 1 1 620F44B3
@@ -2751,12 +2659,7 @@ F 3 "" H 14800 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14500 9150 14650 9150
-Wire Wire Line
 	14800 9150 14800 9000
-Connection ~ 14650 9150
-Wire Wire Line
-	14650 9150 14800 9150
 NoConn ~ 14500 9300
 Wire Wire Line
 	7100 1550 7100 1900
@@ -2906,50 +2809,50 @@ NoConn ~ 13900 6500
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH5
 U 1 1 625AC662
-P 2350 8900
-F 0 "MH5" H 2481 8900 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 2350 9040 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 2350 8990 30  0001 C CNN
-F 3 "" H 2350 8990 30  0001 C CNN
-	1    2350 8900
+P 2400 9550
+F 0 "MH5" H 2531 9550 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 2400 9690 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 2400 9640 30  0001 C CNN
+F 3 "" H 2400 9640 30  0001 C CNN
+	1    2400 9550
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH6
 U 1 1 625AC668
-P 2350 9050
-F 0 "MH6" H 2481 9050 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 2350 9190 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 2350 9140 30  0001 C CNN
-F 3 "" H 2350 9140 30  0001 C CNN
-	1    2350 9050
+P 2400 9700
+F 0 "MH6" H 2531 9700 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 2400 9840 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 2400 9790 30  0001 C CNN
+F 3 "" H 2400 9790 30  0001 C CNN
+	1    2400 9700
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH7
 U 1 1 625AC66E
-P 2350 9200
-F 0 "MH7" H 2481 9200 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 2350 9340 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 2350 9290 30  0001 C CNN
-F 3 "" H 2350 9290 30  0001 C CNN
-	1    2350 9200
+P 2400 9850
+F 0 "MH7" H 2531 9850 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 2400 9990 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 2400 9940 30  0001 C CNN
+F 3 "" H 2400 9940 30  0001 C CNN
+	1    2400 9850
 	1    0    0    -1  
 $EndComp
 $Comp
 L JPL_Robotics_Lib:#6THRU-HOLE MH8
 U 1 1 625AC674
-P 2350 9350
-F 0 "MH8" H 2481 9350 30  0000 L CNN
-F 1 "#6THRU-HOLE" H 2350 9490 30  0001 C CNN
-F 2 "JPL Robotics:#6THRU-HOLE" H 2350 9440 30  0001 C CNN
-F 3 "" H 2350 9440 30  0001 C CNN
-	1    2350 9350
+P 2400 10000
+F 0 "MH8" H 2531 10000 30  0000 L CNN
+F 1 "#6THRU-HOLE" H 2400 10140 30  0001 C CNN
+F 2 "JPL Robotics:#6THRU-HOLE" H 2400 10090 30  0001 C CNN
+F 3 "" H 2400 10090 30  0001 C CNN
+	1    2400 10000
 	1    0    0    -1  
 $EndComp
-Text Notes 1250 8800 0    31   ~ 0
+Text Notes 1300 9450 0    31   ~ 0
 For mounting to to \nrover structure
-Text Notes 2100 8800 0    31   ~ 0
+Text Notes 2150 9450 0    31   ~ 0
 For mounting brain board
 $Comp
 L Device:R_US R21
@@ -3033,4 +2936,244 @@ Wire Wire Line
 Connection ~ 4350 6550
 Wire Wire Line
 	4350 6550 4450 6550
+$Comp
+L JPL_Robotics_Lib:test_point T7
+U 1 1 640D2053
+P 3600 9550
+F 0 "T7" V 3650 9500 50  0000 L TNN
+F 1 "test_point" H 3750 9800 50  0001 C CNN
+F 2 "JPL Robotics:test_point_hole" H 3550 9500 50  0001 C CNN
+F 3 "" H 3550 9500 50  0001 C CNN
+	1    3600 9550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:test_point T8
+U 1 1 6418F375
+P 3750 9550
+F 0 "T8" V 3800 9500 50  0000 L TNN
+F 1 "JPL Robotics:test_point_hole" H 3900 9800 50  0001 C CNN
+F 2 "" H 3700 9500 50  0001 C CNN
+F 3 "" H 3700 9500 50  0001 C CNN
+	1    3750 9550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:test_point T9
+U 1 1 6418F539
+P 3900 9550
+F 0 "T9" V 3950 9500 50  0000 L TNN
+F 1 "JPL Robotics:test_point_hole" H 4050 9800 50  0001 C CNN
+F 2 "" H 3850 9500 50  0001 C CNN
+F 3 "" H 3850 9500 50  0001 C CNN
+	1    3900 9550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:test_point T10
+U 1 1 6418F8CE
+P 4100 9550
+F 0 "T10" V 4150 9500 50  0000 L TNN
+F 1 "JPL Robotics:test_point_hole" H 4250 9800 50  0001 C CNN
+F 2 "" H 4050 9500 50  0001 C CNN
+F 3 "" H 4050 9500 50  0001 C CNN
+	1    4100 9550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:test_point T11
+U 1 1 6418FAFC
+P 4300 9550
+F 0 "T11" V 4350 9500 50  0000 L TNN
+F 1 "JPL Robotics:test_point_hole" H 4450 9800 50  0001 C CNN
+F 2 "" H 4250 9500 50  0001 C CNN
+F 3 "" H 4250 9500 50  0001 C CNN
+	1    4300 9550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:GND_motor #PWR0101
+U 1 1 641C327E
+P 3600 9700
+F 0 "#PWR0101" H 3600 9450 50  0001 C CNN
+F 1 "GND_motor" V 3600 9300 28  0000 L CNN
+F 2 "" H 3600 9700 50  0001 C CNN
+F 3 "" H 3600 9700 50  0001 C CNN
+	1    3600 9700
+	1    0    0    -1  
+$EndComp
+Text Label 4300 10050 1    30   ~ 0
+BATTPOS
+Text Label 4500 10050 1    30   ~ 0
++BATT
+$Comp
+L JPL_Robotics_Lib:+5V_motor #PWR0102
+U 1 1 64227DF0
+P 3900 9700
+F 0 "#PWR0102" H 3900 9550 50  0001 C CNN
+F 1 "+5V_motor" V 3900 10100 28  0000 R CNN
+F 2 "" H 3900 9700 50  0001 C CNN
+F 3 "" H 3900 9700 50  0001 C CNN
+	1    3900 9700
+	-1   0    0    1   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:+12V_motor #PWR0103
+U 1 1 64229634
+P 4100 9700
+F 0 "#PWR0103" H 4100 9550 50  0001 C CNN
+F 1 "+12V_motor" V 4100 10100 28  0000 R CNN
+F 2 "" H 4100 9700 50  0001 C CNN
+F 3 "" H 4100 9700 50  0001 C CNN
+	1    4100 9700
+	-1   0    0    1   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:+3.3V_motor #PWR0104
+U 1 1 64224E97
+P 3750 9700
+F 0 "#PWR0104" H 3750 9550 50  0001 C CNN
+F 1 "+3.3V_motor" V 3750 10100 28  0000 R CNN
+F 2 "" H 3750 9700 50  0001 C CNN
+F 3 "" H 3750 9700 50  0001 C CNN
+	1    3750 9700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 10050 4300 9700
+Wire Wire Line
+	4500 9700 4500 10050
+Wire Wire Line
+	2750 6700 2750 7250
+Wire Wire Line
+	14500 9150 14800 9150
+Wire Wire Line
+	3200 5650 3550 5650
+$Comp
+L JPL_Robotics_Lib:test_point T1
+U 1 1 6432D4AC
+P 1650 5500
+F 0 "T1" V 1700 5450 50  0000 L TNN
+F 1 "test_point" H 1800 5750 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 1600 5450 50  0001 C CNN
+F 3 "" H 1600 5450 50  0001 C CNN
+	1    1650 5500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1650 5650
+$Comp
+L JPL_Robotics_Lib:test_point T3
+U 1 1 6432DC9D
+P 2050 5500
+F 0 "T3" V 2100 5450 50  0000 L TNN
+F 1 "JPL Robotics:test_point" H 2200 5750 50  0001 C CNN
+F 2 "" H 2000 5450 50  0001 C CNN
+F 3 "" H 2000 5450 50  0001 C CNN
+	1    2050 5500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2050 5650
+Wire Wire Line
+	2150 5850 2150 5650
+Wire Wire Line
+	2150 5650 2250 5650
+Wire Wire Line
+	2000 5850 2150 5850
+Wire Wire Line
+	2050 5650 2150 5650
+$Comp
+L JPL_Robotics_Lib:test_point T4
+U 1 1 643602C9
+P 2600 5500
+F 0 "T4" V 2650 5450 50  0000 L TNN
+F 1 "JPL Robotics:test_point" H 2750 5750 50  0001 C CNN
+F 2 "" H 2550 5450 50  0001 C CNN
+F 3 "" H 2550 5450 50  0001 C CNN
+	1    2600 5500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2600 5650
+Wire Wire Line
+	2600 5650 2650 5650
+Wire Wire Line
+	2500 5650 2600 5650
+$Comp
+L JPL_Robotics_Lib:test_point T5
+U 1 1 64361769
+P 3550 5500
+F 0 "T5" V 3600 5450 50  0000 L TNN
+F 1 "JPL Robotics:test_point" H 3700 5750 50  0001 C CNN
+F 2 "" H 3500 5450 50  0001 C CNN
+F 3 "" H 3500 5450 50  0001 C CNN
+	1    3550 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:test_point T6
+U 1 1 64361B1F
+P 2500 6550
+F 0 "T6" V 2550 6500 50  0000 L TNN
+F 1 "test_point" H 2650 6800 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 2450 6500 50  0001 C CNN
+F 3 "" H 2450 6500 50  0001 C CNN
+	1    2500 6550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2500 6700
+Wire Wire Line
+	2500 6700 2250 6700
+$Comp
+L JPL_Robotics_Lib:test_point T2
+U 1 1 64362AE7
+P 1650 6200
+F 0 "T2" V 1700 6150 50  0000 L TNN
+F 1 "test_point" H 1800 6450 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 1600 6150 50  0001 C CNN
+F 3 "" H 1600 6150 50  0001 C CNN
+	1    1650 6200
+	0    1    1    0   
+$EndComp
+Connection ~ 1650 6050
+Connection ~ 3550 5650
+Wire Wire Line
+	3550 5650 3800 5650
+Text Label 10900 3850 0    50   ~ 0
++3.3V_motor
+Wire Wire Line
+	10900 3950 11350 3950
+Wire Notes Line
+	1000 4900 1000 8700
+Wire Notes Line
+	4900 8700 4900 4900
+Text Notes 3400 9200 0    98   ~ 0
+Power Test Points
+Text Notes 1550 9200 0    98   ~ 0
+Miscellaneous
+Wire Notes Line
+	1000 8800 3100 8800
+Wire Notes Line
+	3100 8800 3100 10650
+Wire Notes Line
+	3100 10650 1000 10650
+Wire Notes Line
+	1000 10650 1000 8800
+Wire Notes Line
+	3200 8800 3200 10650
+Wire Notes Line
+	3200 10650 4900 10650
+Wire Notes Line
+	4900 10650 4900 8800
+Wire Notes Line
+	4900 8800 3200 8800
+$Comp
+L JPL_Robotics_Lib:test_point T12
+U 1 1 642C6677
+P 4500 9550
+F 0 "T12" V 4550 9500 50  0000 L TNN
+F 1 "JPL Robotics:test_point_hole" H 4650 9800 50  0001 C CNN
+F 2 "" H 4450 9500 50  0001 C CNN
+F 3 "" H 4450 9500 50  0001 C CNN
+	1    4500 9550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
