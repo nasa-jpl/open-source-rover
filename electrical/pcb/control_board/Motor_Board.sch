@@ -670,16 +670,14 @@ F 3 "" H 3050 8250 50  0001 C CNN
 $EndComp
 Text Notes 1150 5700 0    50   ~ 0
 Battery
-Text Notes 1150 7800 0    79   ~ 0
+Text Notes 1150 8100 0    59   ~ 0
 Multimeter Notes
-Text Notes 1200 8050 0    50   ~ 0
+Text Notes 1200 8250 0    39   ~ 0
 1. MM DC+ is internally \nconnected to MM LOAD+
 Text Notes 1300 5800 0    50   ~ 0
 +
 Text Notes 1300 6000 0    50   ~ 0
 -
-Text Notes 1200 8600 0    50   ~ 0
-3. PCB ground connects\nto battery- via MM LOAD-\nand MM DC-
 Wire Wire Line
 	13850 3100 14150 3100
 Wire Wire Line
@@ -2286,19 +2284,19 @@ BATTNEG
 $Comp
 L JPL_Robotics_Lib:XT60-F J?
 U 1 1 60B75520
-P 1750 6800
+P 1750 6950
 AR Path="/60B75520" Ref="J?"  Part="1" 
 AR Path="/60A51BAC/60B75520" Ref="J2"  Part="1" 
-F 0 "J2" H 1800 7000 30  0000 R CNN
-F 1 "XT30-F" V 1600 7000 30  0001 R CNN
-F 2 "JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 1750 7000 30  0001 C CNN
-F 3 "" H 1750 7000 30  0001 C CNN
-	1    1750 6800
+F 0 "J2" H 1800 7150 30  0000 R CNN
+F 1 "XT30-F" V 1600 7150 30  0001 R CNN
+F 2 "JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 1750 7150 30  0001 C CNN
+F 3 "" H 1750 7150 30  0001 C CNN
+	1    1750 6950
 	1    0    0    1   
 $EndComp
 Text Notes 2100 5350 0    50   ~ 0
 Switch
-Text Notes 1350 6900 0    30   ~ 0
+Text Notes 1350 7050 0    30   ~ 0
 Battery Out \n(for optional \ndaisychaining)
 Text Notes 3100 5750 0    50   ~ 0
 -
@@ -2401,20 +2399,20 @@ $EndComp
 Text Notes 1600 5250 0    31   ~ 0
 Remeber this fuse goes with PN:\n507-2121-ND
 Wire Wire Line
-	1600 7300 1600 7150
+	1600 7450 1600 7300
 Wire Wire Line
-	1900 7150 1900 6900
+	1900 7300 1900 7050
 Wire Wire Line
-	1600 7150 1900 7150
+	1600 7300 1900 7300
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR01
 U 1 1 6124B41D
-P 1600 7300
-F 0 "#PWR01" H 1600 7050 50  0001 C CNN
-F 1 "GND_motor" H 1605 7127 50  0000 C CNN
-F 2 "" H 1600 7300 50  0001 C CNN
-F 3 "" H 1600 7300 50  0001 C CNN
-	1    1600 7300
+P 1600 7450
+F 0 "#PWR01" H 1600 7200 50  0001 C CNN
+F 1 "GND_motor" H 1605 7277 50  0000 C CNN
+F 2 "" H 1600 7450 50  0001 C CNN
+F 3 "" H 1600 7450 50  0001 C CNN
+	1    1600 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2492,7 +2490,7 @@ Text Label 4100 6800 2    30   ~ 0
 SCL_rpi
 Text Label 4250 6650 2    30   ~ 0
 GND_motor
-Text Notes 1200 8300 0    50   ~ 0
+Text Notes 1200 8400 0    39   ~ 0
 2. MM DC- has a low resistance \nconnection to MM LOAD-
 Wire Wire Line
 	3800 6200 3800 5900
@@ -2509,8 +2507,6 @@ F 3 "" H 3300 5850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 5850 3300 5700
-Wire Wire Line
-	1900 6550 1900 6850
 Wire Wire Line
 	2600 5700 2650 5700
 Wire Wire Line
@@ -2539,13 +2535,11 @@ Wire Wire Line
 Wire Wire Line
 	2500 5650 2300 5650
 Connection ~ 2500 5650
-Wire Wire Line
-	2750 6700 2800 6700
 Text Label 2150 5750 2    30   ~ 0
 SWITCH+
 Text Label 2350 5650 0    30   ~ 0
 SWITCH-
-Text Notes 2500 7300 0    35   ~ 0
+Text Notes 2300 7250 0    35   ~ 0
 Power to Rover
 Wire Wire Line
 	3800 7300 4100 7300
@@ -2564,19 +2558,10 @@ Wire Notes Line
 	3000 5700 2850 5700
 Text Notes 2800 10150 0    50   ~ 0
 \n
-Text Label 2750 7250 0    30   ~ 0
-+BATT
 Wire Wire Line
 	2700 6200 2700 6550
 Wire Wire Line
-	2700 6550 2800 6550
-Wire Wire Line
-	2750 6700 2500 6700
-Wire Wire Line
-	2250 6700 2250 6550
-Wire Wire Line
-	2250 6550 1900 6550
-Connection ~ 2750 6700
+	2700 6550 2750 6550
 $Comp
 L Device:R_US R?
 U 1 1 620F44B3
@@ -2764,20 +2749,20 @@ Wire Wire Line
 Text Notes 5450 7400 0    31   ~ 0
 todo: do we actually want to disconnect\n ground from pin 6?
 NoConn ~ 8100 7450
-Connection ~ 1900 7150
+Connection ~ 1900 7300
 Wire Wire Line
-	2000 7150 1900 7150
+	2000 7300 1900 7300
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 60B75584
-P 2000 7150
+P 2000 7300
 AR Path="/60B75584" Ref="#FLG?"  Part="1" 
 AR Path="/60A51BAC/60B75584" Ref="#FLG02"  Part="1" 
-F 0 "#FLG02" H 2000 7225 50  0001 C CNN
-F 1 "PWR_FLAG" V 2100 7250 50  0000 C CNN
-F 2 "" H 2000 7150 50  0001 C CNN
-F 3 "~" H 2000 7150 50  0001 C CNN
-	1    2000 7150
+F 0 "#FLG02" H 2000 7375 50  0001 C CNN
+F 1 "PWR_FLAG" V 2100 7400 50  0000 C CNN
+F 2 "" H 2000 7300 50  0001 C CNN
+F 3 "~" H 2000 7300 50  0001 C CNN
+	1    2000 7300
 	0    1    1    0   
 $EndComp
 NoConn ~ 8100 7550
@@ -3029,8 +3014,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 9700 4500 10050
 Wire Wire Line
-	2750 6700 2750 7250
-Wire Wire Line
 	14500 9150 14800 9150
 Wire Wire Line
 	3200 5650 3550 5650
@@ -3096,17 +3079,14 @@ $EndComp
 $Comp
 L JPL_Robotics_Lib:test_point T6
 U 1 1 64361B1F
-P 2500 6550
-F 0 "T6" V 2550 6500 50  0000 L TNN
-F 1 "test_point" H 2650 6800 50  0001 C CNN
-F 2 "JPL Robotics:test_point" H 2450 6500 50  0001 C CNN
-F 3 "" H 2450 6500 50  0001 C CNN
-	1    2500 6550
+P 2150 6700
+F 0 "T6" V 2200 6650 50  0000 L TNN
+F 1 "test_point" H 2300 6950 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 2100 6650 50  0001 C CNN
+F 3 "" H 2100 6650 50  0001 C CNN
+	1    2150 6700
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2500 6700
-Wire Wire Line
-	2500 6700 2250 6700
 $Comp
 L JPL_Robotics_Lib:test_point T2
 U 1 1 64362AE7
@@ -3172,4 +3152,41 @@ F 3 "" H 4250 9500 50  0001 C CNN
 	1    4300 9550
 	0    -1   -1   0   
 $EndComp
+Connection ~ 2150 6850
+Text Label 2500 7200 1    30   ~ 0
++BATT
+$Comp
+L Device:R_US R?
+U 1 1 63E66B4C
+P 2750 6700
+AR Path="/63E66B4C" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/63E66B4C" Ref="R29"  Part="1" 
+F 0 "R29" V 2650 6650 30  0000 L CNN
+F 1 "0" V 2850 6650 30  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2790 6690 50  0001 C CNN
+F 3 "~" H 2750 6700 50  0001 C CNN
+	1    2750 6700
+	-1   0    0    1   
+$EndComp
+Text Notes 1200 8600 0    39   ~ 0
+3. PCB ground connects\nto battery- via MM LOAD-\nand MM DC-
+Wire Wire Line
+	1900 6850 1900 7000
+Wire Wire Line
+	1900 6850 2150 6850
+Wire Wire Line
+	2150 6850 2500 6850
+Connection ~ 2750 6850
+Wire Wire Line
+	2750 6850 2800 6850
+Connection ~ 2750 6550
+Wire Wire Line
+	2750 6550 2800 6550
+Wire Wire Line
+	2500 6850 2500 7200
+Connection ~ 2500 6850
+Wire Wire Line
+	2500 6850 2750 6850
+Text Notes 2600 6750 1    35   ~ 0
+Bypass for \nINA260\n
 $EndSCHEMATC
