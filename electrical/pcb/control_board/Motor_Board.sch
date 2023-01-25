@@ -2594,8 +2594,6 @@ Text Notes 13150 6800 0    31   ~ 0
 3.3V LED indicates good connection brain <-> motor board
 Text Notes 6050 1500 0    31   ~ 0
 Todo: consolidate these caps into one master cap once we have a better idea of layout
-Text Notes 7550 2750 0    31   ~ 0
-Todo: eric to think about capacitor array in place of these individual ones
 $Comp
 L JPL_Robotics_Lib:D24V22Fx U3
 U 1 1 6213B507
@@ -2746,8 +2744,6 @@ Wire Wire Line
 Connection ~ 5650 6900
 Wire Wire Line
 	5650 6900 5650 7000
-Text Notes 5450 7400 0    31   ~ 0
-todo: do we actually want to disconnect\n ground from pin 6?
 NoConn ~ 8100 7450
 Connection ~ 1900 7300
 Wire Wire Line

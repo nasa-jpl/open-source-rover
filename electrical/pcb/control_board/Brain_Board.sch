@@ -940,13 +940,9 @@ Text Label 9650 1650 2    50   ~ 0
 E_STOP
 Wire Wire Line
 	7900 2600 8200 2600
-Text Notes 3300 3250 0    31   ~ 0
-Todo: eric add more leds for \nthe other gpio pins
 Text Notes 9800 1500 0    31   ~ 0
 - Roboclaw ESTOPs active low \n(emergency stop when pulled low)\n- LEDs off when estop’ed (nominal on)
 Text Notes 7200 1450 0    31   ~ 0
-TODO: check logic here, make sure it’s what we want
-Text Notes 7200 5100 0    31   ~ 0
 TODO: check logic here, make sure it’s what we want
 $Comp
 L JPL_Robotics_Lib:SSW-104-01-F-T J25
