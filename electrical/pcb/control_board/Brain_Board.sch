@@ -472,74 +472,22 @@ Wire Notes Line
 	2650 5800 4200 5800
 Wire Notes Line
 	4450 3400 6900 3400
-Wire Wire Line
-	7900 1750 8050 1750
-$Comp
-L JPL_Robotics_Lib:GND_brain #PWR066
-U 1 1 615F0C13
-P 7700 1900
-F 0 "#PWR066" H 7700 1650 50  0001 C CNN
-F 1 "GND_brain" V 7700 1750 50  0000 R CNN
-F 2 "" H 7700 1900 50  0001 C CNN
-F 3 "" H 7700 1900 50  0001 C CNN
-	1    7700 1900
-	0    1    1    0   
-$EndComp
-Text Label 7900 1750 2    50   ~ 0
+Text Label 7650 1900 0    50   ~ 0
 E_STOP_pi
 Wire Wire Line
-	9300 1650 9300 1800
-Wire Wire Line
-	7700 1900 7750 1900
-Wire Wire Line
-	8050 1750 8050 1900
-Wire Wire Line
-	7900 2250 8050 2250
-$Comp
-L JPL_Robotics_Lib:GND_brain #PWR067
-U 1 1 611A028F
-P 7700 2400
-F 0 "#PWR067" H 7700 2150 50  0001 C CNN
-F 1 "GND_brain" V 7700 2250 50  0000 R CNN
-F 2 "" H 7700 2400 50  0001 C CNN
-F 3 "" H 7700 2400 50  0001 C CNN
-	1    7700 2400
-	0    1    1    0   
-$EndComp
-Text Label 9650 2100 2    50   ~ 0
+	9050 1650 9050 1800
+Text Label 9400 2100 2    50   ~ 0
 E_STOP2
-Text Label 7900 2250 2    50   ~ 0
+Text Label 7650 2250 0    50   ~ 0
 E_STOP2_in
 Wire Wire Line
-	9300 2100 9300 2250
-Wire Wire Line
-	7700 2400 7750 2400
-Wire Wire Line
-	8050 2250 8050 2400
-Wire Wire Line
-	7900 2750 8050 2750
-$Comp
-L JPL_Robotics_Lib:GND_brain #PWR068
-U 1 1 611A5DFB
-P 7700 2900
-F 0 "#PWR068" H 7700 2650 50  0001 C CNN
-F 1 "GND_brain" V 7700 2750 50  0000 R CNN
-F 2 "" H 7700 2900 50  0001 C CNN
-F 3 "" H 7700 2900 50  0001 C CNN
-	1    7700 2900
-	0    1    1    0   
-$EndComp
-Connection ~ 8050 2750
-Text Label 9650 2550 2    50   ~ 0
+	9050 2100 9050 2250
+Text Label 9400 2550 2    50   ~ 0
 E_STOP3
-Text Label 7900 2750 2    50   ~ 0
+Text Label 7650 2600 0    50   ~ 0
 E_STOP3_in
 Wire Wire Line
-	9300 2550 9300 2700
-Wire Wire Line
-	7700 2900 7750 2900
-Wire Wire Line
-	8050 2750 8050 2900
+	9050 2550 9050 2700
 Wire Notes Line
 	7100 1100 7100 3350
 Text Notes 8100 1300 0    98   ~ 0
@@ -693,71 +641,29 @@ $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 613A639A
-P 9450 2250
+P 9200 2250
 AR Path="/613A639A" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/613A639A" Ref="R?"  Part="1" 
 AR Path="/60A5279E/613A639A" Ref="R19"  Part="1" 
-F 0 "R19" V 9350 2150 50  0000 L CNN
-F 1 "200" V 9550 2200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9490 2240 50  0001 C CNN
-F 3 "~" H 9450 2250 50  0001 C CNN
-	1    9450 2250
+F 0 "R19" V 9100 2150 50  0000 L CNN
+F 1 "200" V 9300 2200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9240 2240 50  0001 C CNN
+F 3 "~" H 9200 2250 50  0001 C CNN
+	1    9200 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 613A6626
-P 9450 2700
+P 9200 2700
 AR Path="/613A6626" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/613A6626" Ref="R?"  Part="1" 
 AR Path="/60A5279E/613A6626" Ref="R20"  Part="1" 
-F 0 "R20" V 9350 2600 50  0000 L CNN
-F 1 "200" V 9550 2650 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9490 2690 50  0001 C CNN
-F 3 "~" H 9450 2700 50  0001 C CNN
-	1    9450 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 613A6BC5
-P 7900 1900
-AR Path="/613A6BC5" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/613A6BC5" Ref="R?"  Part="1" 
-AR Path="/60A5279E/613A6BC5" Ref="R12"  Part="1" 
-F 0 "R12" V 7800 1800 50  0000 L CNN
-F 1 "4.7k" V 8000 1950 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7940 1890 50  0001 C CNN
-F 3 "~" H 7900 1900 50  0001 C CNN
-	1    7900 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 613A8AC5
-P 7900 2400
-AR Path="/613A8AC5" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/613A8AC5" Ref="R?"  Part="1" 
-AR Path="/60A5279E/613A8AC5" Ref="R13"  Part="1" 
-F 0 "R13" V 7800 2300 50  0000 L CNN
-F 1 "4.7k" V 8000 2450 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7940 2390 50  0001 C CNN
-F 3 "~" H 7900 2400 50  0001 C CNN
-	1    7900 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 613A91FC
-P 7900 2900
-AR Path="/613A91FC" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/613A91FC" Ref="R?"  Part="1" 
-AR Path="/60A5279E/613A91FC" Ref="R14"  Part="1" 
-F 0 "R14" V 7800 2800 50  0000 L CNN
-F 1 "4.7k" V 8000 2850 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7940 2890 50  0001 C CNN
-F 3 "~" H 7900 2900 50  0001 C CNN
-	1    7900 2900
+F 0 "R20" V 9100 2600 50  0000 L CNN
+F 1 "200" V 9300 2650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9240 2690 50  0001 C CNN
+F 3 "~" H 9200 2700 50  0001 C CNN
+	1    9200 2700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -802,65 +708,6 @@ Wire Wire Line
 	4950 4000 5400 4000
 Text Notes 9350 3850 0    31   ~ 0
 LED lights up when TXD / RXD low \n(low when sending bits)
-Wire Wire Line
-	8650 5700 8750 5700
-Wire Wire Line
-	8200 5950 8350 5950
-$Comp
-L Device:R_US R?
-U 1 1 6133EF1B
-P 8050 5950
-AR Path="/6133EF1B" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/6133EF1B" Ref="R?"  Part="1" 
-AR Path="/60A5279E/6133EF1B" Ref="R15"  Part="1" 
-F 0 "R15" V 7950 5850 50  0000 L CNN
-F 1 "10k" V 8150 5900 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8090 5940 50  0001 C CNN
-F 3 "~" H 8050 5950 50  0001 C CNN
-	1    8050 5950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8650 5700 8650 5750
-$Comp
-L JPL_Robotics_Lib:+3.3V_brain #PWR074
-U 1 1 6133EF01
-P 8750 5700
-F 0 "#PWR074" H 8750 5550 50  0001 C CNN
-F 1 "+3.3V_brain" H 9050 5750 50  0000 C CNN
-F 2 "" H 8750 5700 50  0001 C CNN
-F 3 "" H 8750 5700 50  0001 C CNN
-	1    8750 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 5950 7900 5950
-Text Label 7150 5950 0    50   ~ 0
-alert
-Wire Wire Line
-	7500 5950 7150 5950
-$Comp
-L Diode:1N4148 D7
-U 1 1 6133EEF4
-P 7650 5950
-F 0 "D7" H 7650 6167 50  0000 C CNN
-F 1 "1N4148" H 7650 6076 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7650 5775 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7650 5950 50  0001 C CNN
-	1    7650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:2N3906 Q1
-U 1 1 6133EEEE
-P 8550 5950
-F 0 "Q1" H 8740 5904 50  0000 L CNN
-F 1 "2N3906" H 8740 5995 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8750 5875 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 8550 5950 50  0001 L CNN
-	1    8550 5950
-	1    0    0    1   
-$EndComp
 Text Notes 7800 3650 0    98   ~ 0
 Serial TXD/RXD LED logic
 Wire Notes Line
@@ -871,10 +718,6 @@ Wire Notes Line
 	10350 5200 10350 3450
 Wire Notes Line
 	10350 3450 7100 3450
-Text Notes 7850 5500 0    98   ~ 0
-Alert Signal LED logic
-Wire Notes Line
-	10350 5300 7100 5300
 $Comp
 L Device:C_Small C32
 U 1 1 61420FF3
@@ -925,22 +768,20 @@ Wire Wire Line
 $Comp
 L Device:R_US R?
 U 1 1 613A416D
-P 9450 1800
+P 9200 1800
 AR Path="/613A416D" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/613A416D" Ref="R?"  Part="1" 
 AR Path="/60A5279E/613A416D" Ref="R18"  Part="1" 
-F 0 "R18" V 9350 1700 50  0000 L CNN
-F 1 "200" V 9550 1750 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9490 1790 50  0001 C CNN
-F 3 "~" H 9450 1800 50  0001 C CNN
-	1    9450 1800
+F 0 "R18" V 9100 1700 50  0000 L CNN
+F 1 "200" V 9300 1750 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9240 1790 50  0001 C CNN
+F 3 "~" H 9200 1800 50  0001 C CNN
+	1    9200 1800
 	0    1    1    0   
 $EndComp
-Text Label 9650 1650 2    50   ~ 0
+Text Label 9400 1650 2    50   ~ 0
 E_STOP
-Wire Wire Line
-	7900 2600 8200 2600
-Text Notes 9800 1500 0    31   ~ 0
+Text Notes 9550 1500 0    31   ~ 0
 - Roboclaw ESTOPs active low \n(emergency stop when pulled low)\n- LEDs off when estop’ed (nominal on)
 Text Notes 7200 1450 0    31   ~ 0
 TODO: check logic here, make sure it’s what we want
@@ -995,16 +836,14 @@ Text Label 2950 7500 0    30   ~ 0
 GND
 Text Notes 3700 6450 0    31   ~ 0
 4 redundant i2c \nconnections, for \ntalking to arbitrary \nperipherals
-Wire Wire Line
-	8050 2750 8250 2750
 Wire Notes Line
 	10800 1100 10800 3350
 Wire Notes Line
 	7100 1100 10800 1100
 Wire Wire Line
-	9300 2100 9650 2100
+	9050 2100 9400 2100
 Wire Wire Line
-	9300 2550 9650 2550
+	9050 2550 9400 2550
 $Comp
 L JPL_Robotics_Lib:Mounting_Holes M?
 U 1 1 61DB5332
@@ -1021,88 +860,60 @@ $EndComp
 $Comp
 L JPL_Robotics_Lib:CTS-206-124 SW1
 U 1 1 61DFAF04
-P 8550 3150
-F 0 "SW1" H 8700 4683 50  0000 C CNN
-F 1 "CT206124-ND" H 8750 3200 50  0000 C CNN
-F 2 "JPL Robotics:CTS-206-124" H 8550 3150 50  0001 C CNN
-F 3 "" H 8550 3150 50  0001 C CNN
-	1    8550 3150
+P 8300 3150
+F 0 "SW1" H 8450 4683 50  0000 C CNN
+F 1 "CT206124-ND" H 8500 3200 50  0000 C CNN
+F 2 "JPL Robotics:CTS-206-124" H 8300 3150 50  0001 C CNN
+F 3 "" H 8300 3150 50  0001 C CNN
+	1    8300 3150
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8100 2800
+NoConn ~ 8100 2950
+NoConn ~ 8900 2800
+NoConn ~ 8900 2950
 Wire Wire Line
-	7900 2100 8350 2100
+	8900 1900 8900 1800
 Wire Wire Line
-	8050 2250 8350 2250
-Connection ~ 8050 2250
+	8900 1800 9050 1800
+Connection ~ 8900 1800
 Wire Wire Line
-	8050 1900 8350 1900
-Connection ~ 8050 1900
+	8900 1800 8900 1750
+Connection ~ 9050 1800
 Wire Wire Line
-	8250 1750 8350 1750
+	8900 2100 8900 2250
 Wire Wire Line
-	7900 1600 8250 1600
+	8900 2250 9050 2250
+Connection ~ 8900 2250
+Connection ~ 9050 2250
 Wire Wire Line
-	8250 1600 8250 1750
+	8900 2450 8900 2550
 Wire Wire Line
-	8200 2600 8200 2450
+	8900 2550 9050 2550
+Connection ~ 8900 2550
 Wire Wire Line
-	8200 2450 8350 2450
-Wire Wire Line
-	8250 2750 8250 2600
-Wire Wire Line
-	8250 2600 8350 2600
-NoConn ~ 8350 2800
-NoConn ~ 8350 2950
-NoConn ~ 9150 2800
-NoConn ~ 9150 2950
-Wire Wire Line
-	9150 1900 9150 1800
-Wire Wire Line
-	9150 1800 9300 1800
-Connection ~ 9150 1800
-Wire Wire Line
-	9150 1800 9150 1750
-Connection ~ 9300 1800
-Wire Wire Line
-	9150 2100 9150 2250
-Wire Wire Line
-	9150 2250 9300 2250
-Connection ~ 9150 2250
-Connection ~ 9300 2250
-Wire Wire Line
-	9150 2450 9150 2550
-Wire Wire Line
-	9150 2550 9300 2550
-Connection ~ 9150 2550
-Wire Wire Line
-	9150 2550 9150 2600
-Connection ~ 9300 2550
+	8900 2550 8900 2600
+Connection ~ 9050 2550
 Wire Notes Line
 	7100 3350 10800 3350
-Text Notes 9050 3250 0    31   ~ 0
+Text Notes 8800 3250 0    31   ~ 0
 Note that two adjacent odd numbered pins \nMUST be connected together, due to the \nimplementation of the switch array
-Wire Wire Line
-	8650 6150 8650 6250
-Text Label 10250 1800 2    50   ~ 0
+Text Label 10000 1800 2    50   ~ 0
 ESTOP_LED_1
 Wire Wire Line
-	9600 1800 10250 1800
+	9350 1800 10000 1800
 Wire Wire Line
-	9600 2250 10250 2250
+	9350 2250 10000 2250
 Wire Wire Line
-	9600 2700 10250 2700
-Text Label 10250 2250 2    50   ~ 0
+	9350 2700 10000 2700
+Text Label 10000 2250 2    50   ~ 0
 ESTOP_LED_2
-Text Label 10250 2700 2    50   ~ 0
+Text Label 10000 2700 2    50   ~ 0
 ESTOP_LED_3
 Text Label 9800 5050 2    50   ~ 0
 RXD_LED
 Text Label 9800 4350 2    50   ~ 0
 TXD_LED
-Wire Wire Line
-	8650 6250 9200 6250
-Text Label 9900 6250 2    50   ~ 0
-ALERT_LED
 $Comp
 L JPL_Robotics_Lib:DC7G3HWA U6
 U 1 1 62C709B3
@@ -1118,14 +929,10 @@ Wire Wire Line
 	5150 5900 5700 5900
 Wire Wire Line
 	5700 6000 5150 6000
-Wire Wire Line
-	5700 6100 5150 6100
 Text Label 5150 5900 0    50   ~ 0
 TXD_LED
 Text Label 5150 6000 0    50   ~ 0
 RXD_LED
-Text Label 5150 6100 0    50   ~ 0
-ALERT_LED
 Wire Wire Line
 	5700 6600 5200 6600
 Wire Wire Line
@@ -1310,44 +1117,42 @@ Wire Notes Line
 	6900 7250 4450 7250
 Wire Notes Line
 	4450 7250 4450 5300
-Text Notes 9500 5800 0    31   ~ 0
-ina260 alert signal is default \nactive low (APOL=0), LED \nwill light on alert low
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR069
 U 1 1 62FBEEB5
-P 7900 1600
-F 0 "#PWR069" H 7900 1450 50  0001 C CNN
-F 1 "+5V_brain" V 7915 1727 50  0000 L CNN
-F 2 "" H 7900 1600 50  0001 C CNN
-F 3 "" H 7900 1600 50  0001 C CNN
-	1    7900 1600
+P 8100 1750
+F 0 "#PWR069" H 8100 1600 50  0001 C CNN
+F 1 "+5V_brain" V 8115 1877 50  0000 L CNN
+F 2 "" H 8100 1750 50  0001 C CNN
+F 3 "" H 8100 1750 50  0001 C CNN
+	1    8100 1750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR070
 U 1 1 62FBF43E
-P 7900 2100
-F 0 "#PWR070" H 7900 1950 50  0001 C CNN
-F 1 "+5V_brain" V 7915 2227 50  0000 L CNN
-F 2 "" H 7900 2100 50  0001 C CNN
-F 3 "" H 7900 2100 50  0001 C CNN
-	1    7900 2100
+P 8100 2100
+F 0 "#PWR070" H 8100 1950 50  0001 C CNN
+F 1 "+5V_brain" V 8115 2227 50  0000 L CNN
+F 2 "" H 8100 2100 50  0001 C CNN
+F 3 "" H 8100 2100 50  0001 C CNN
+	1    8100 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR071
 U 1 1 62FBF7C3
-P 7900 2600
-F 0 "#PWR071" H 7900 2450 50  0001 C CNN
-F 1 "+5V_brain" V 7915 2727 50  0000 L CNN
-F 2 "" H 7900 2600 50  0001 C CNN
-F 3 "" H 7900 2600 50  0001 C CNN
-	1    7900 2600
+P 8100 2450
+F 0 "#PWR071" H 8100 2300 50  0001 C CNN
+F 1 "+5V_brain" V 8115 2577 50  0000 L CNN
+F 2 "" H 8100 2450 50  0001 C CNN
+F 3 "" H 8100 2450 50  0001 C CNN
+	1    8100 2450
 	0    -1   -1   0   
 $EndComp
 Text Notes 1750 4400 0    31   ~ 0
 For GPIO avilability, see worksheet here: \nhttps://www.notion.so/GPIO-Pins-Worksheet-9ebb23e9beee4172a7b114ba388c0c59
-Text Notes 9700 2950 0    31   ~ 0
+Text Notes 9450 2950 0    31   ~ 0
 LED R sizing: \n(V_in - LED forward voltage) / \ndesired current = resistor value
 Text Notes 4950 7150 0    31   ~ 0
 LED V forward = 2 to 2.45 V\nChoose 15mA forward current
@@ -1387,28 +1192,6 @@ Wire Wire Line
 	8750 5050 9200 5050
 Wire Wire Line
 	9500 5050 9800 5050
-$Comp
-L Device:R_US R?
-U 1 1 62FF5520
-P 9350 6250
-AR Path="/62FF5520" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/62FF5520" Ref="R?"  Part="1" 
-AR Path="/60A5279E/62FF5520" Ref="R24"  Part="1" 
-F 0 "R24" V 9250 6150 50  0000 L CNN
-F 1 "82" V 9450 6200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9390 6240 50  0001 C CNN
-F 3 "~" H 9350 6250 50  0001 C CNN
-	1    9350 6250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9500 6250 9900 6250
-Wire Notes Line
-	7100 6400 10350 6400
-Wire Notes Line
-	7100 5300 7100 6400
-Wire Notes Line
-	10350 5300 10350 6400
 Text Label 3100 2400 2    30   ~ 0
 RPI_LED_1
 Wire Wire Line
@@ -1425,16 +1208,30 @@ Text Label 1800 2650 0    30   ~ 0
 RPI_LED_4
 Wire Wire Line
 	1950 2650 1800 2650
-Text Label 5150 6200 2    50   ~ 0
+Text Label 5150 6100 2    50   ~ 0
 RPI_LED_1
 $Comp
 L Device:R_US R?
 U 1 1 63060529
-P 5450 6200
+P 5450 6100
 AR Path="/63060529" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/63060529" Ref="R?"  Part="1" 
 AR Path="/60A5279E/63060529" Ref="R25"  Part="1" 
-F 0 "R25" V 5400 5950 50  0000 L CNN
+F 0 "R25" V 5400 5850 50  0000 L CNN
+F 1 "82" V 5400 6200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5490 6090 50  0001 C CNN
+F 3 "~" H 5450 6100 50  0001 C CNN
+	1    5450 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 63070EA8
+P 5450 6200
+AR Path="/63070EA8" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/63070EA8" Ref="R?"  Part="1" 
+AR Path="/60A5279E/63070EA8" Ref="R26"  Part="1" 
+F 0 "R26" V 5400 5950 50  0000 L CNN
 F 1 "82" V 5400 6300 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5490 6190 50  0001 C CNN
 F 3 "~" H 5450 6200 50  0001 C CNN
@@ -1443,12 +1240,12 @@ F 3 "~" H 5450 6200 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 63070EA8
+U 1 1 630714EF
 P 5450 6300
-AR Path="/63070EA8" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/63070EA8" Ref="R?"  Part="1" 
-AR Path="/60A5279E/63070EA8" Ref="R26"  Part="1" 
-F 0 "R26" V 5400 6050 50  0000 L CNN
+AR Path="/630714EF" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/630714EF" Ref="R?"  Part="1" 
+AR Path="/60A5279E/630714EF" Ref="R27"  Part="1" 
+F 0 "R27" V 5400 6050 50  0000 L CNN
 F 1 "82" V 5400 6400 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5490 6290 50  0001 C CNN
 F 3 "~" H 5450 6300 50  0001 C CNN
@@ -1457,32 +1254,20 @@ F 3 "~" H 5450 6300 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_US R?
-U 1 1 630714EF
+U 1 1 630718BC
 P 5450 6400
-AR Path="/630714EF" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/630714EF" Ref="R?"  Part="1" 
-AR Path="/60A5279E/630714EF" Ref="R27"  Part="1" 
-F 0 "R27" V 5400 6150 50  0000 L CNN
+AR Path="/630718BC" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/630718BC" Ref="R?"  Part="1" 
+AR Path="/60A5279E/630718BC" Ref="R28"  Part="1" 
+F 0 "R28" V 5400 6150 50  0000 L CNN
 F 1 "82" V 5400 6500 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5490 6390 50  0001 C CNN
 F 3 "~" H 5450 6400 50  0001 C CNN
 	1    5450 6400
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R_US R?
-U 1 1 630718BC
-P 5450 6500
-AR Path="/630718BC" Ref="R?"  Part="1" 
-AR Path="/60A51BAC/630718BC" Ref="R?"  Part="1" 
-AR Path="/60A5279E/630718BC" Ref="R28"  Part="1" 
-F 0 "R28" V 5400 6250 50  0000 L CNN
-F 1 "82" V 5400 6600 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5490 6490 50  0001 C CNN
-F 3 "~" H 5450 6500 50  0001 C CNN
-	1    5450 6500
-	0    1    1    0   
-$EndComp
+Wire Wire Line
+	5600 6100 5700 6100
 Wire Wire Line
 	5600 6200 5700 6200
 Wire Wire Line
@@ -1490,21 +1275,19 @@ Wire Wire Line
 Wire Wire Line
 	5600 6400 5700 6400
 Wire Wire Line
-	5600 6500 5700 6500
+	5150 6100 5300 6100
+Text Label 5150 6200 2    50   ~ 0
+RPI_LED_2
 Wire Wire Line
 	5150 6200 5300 6200
 Text Label 5150 6300 2    50   ~ 0
-RPI_LED_2
+RPI_LED_3
 Wire Wire Line
 	5150 6300 5300 6300
 Text Label 5150 6400 2    50   ~ 0
-RPI_LED_3
-Wire Wire Line
-	5150 6400 5300 6400
-Text Label 5150 6500 2    50   ~ 0
 RPI_LED_4
 Wire Wire Line
-	5150 6500 5300 6500
+	5150 6400 5300 6400
 Wire Wire Line
 	1950 2050 1800 2050
 Text Label 1800 2050 0    16   ~ 0
@@ -1688,40 +1471,40 @@ Wire Wire Line
 Wire Wire Line
 	3000 3700 3150 3700
 Wire Wire Line
-	9300 1650 9650 1650
-Connection ~ 9300 1650
+	9050 1650 9400 1650
+Connection ~ 9050 1650
 $Comp
 L JPL_Robotics_Lib:test_point T13
 U 1 1 6422F604
-P 9300 1500
-F 0 "T13" V 9350 1600 50  0000 R CNN
-F 1 "test_point" H 9450 1750 50  0001 C CNN
-F 2 "JPL Robotics:test_point" H 9250 1450 50  0001 C CNN
-F 3 "" H 9250 1450 50  0001 C CNN
-	1    9300 1500
+P 9050 1500
+F 0 "T13" V 9100 1600 50  0000 R CNN
+F 1 "test_point" H 9200 1750 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 9000 1450 50  0001 C CNN
+F 3 "" H 9000 1450 50  0001 C CNN
+	1    9050 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L JPL_Robotics_Lib:test_point T14
 U 1 1 6428DE15
-P 9300 1950
-F 0 "T14" V 9350 2050 50  0000 R CNN
-F 1 "test_point" H 9450 2200 50  0001 C CNN
-F 2 "JPL Robotics:test_point" H 9250 1900 50  0001 C CNN
-F 3 "" H 9250 1900 50  0001 C CNN
-	1    9300 1950
+P 9050 1950
+F 0 "T14" V 9100 2050 50  0000 R CNN
+F 1 "test_point" H 9200 2200 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 9000 1900 50  0001 C CNN
+F 3 "" H 9000 1900 50  0001 C CNN
+	1    9050 1950
 	0    -1   -1   0   
 $EndComp
-Connection ~ 9300 2100
+Connection ~ 9050 2100
 $Comp
 L JPL_Robotics_Lib:test_point T15
 U 1 1 6428E0D4
-P 9300 2400
-F 0 "T15" V 9350 2500 50  0000 R CNN
-F 1 "test_point" H 9450 2650 50  0001 C CNN
-F 2 "JPL Robotics:test_point" H 9250 2350 50  0001 C CNN
-F 3 "" H 9250 2350 50  0001 C CNN
-	1    9300 2400
+P 9050 2400
+F 0 "T15" V 9100 2500 50  0000 R CNN
+F 1 "test_point" H 9200 2650 50  0001 C CNN
+F 2 "JPL Robotics:test_point" H 9000 2350 50  0001 C CNN
+F 3 "" H 9000 2350 50  0001 C CNN
+	1    9050 2400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1803,4 +1586,13 @@ Text Label 3150 3200 2    30   ~ 0
 +5V_brain
 Text Label 3150 3250 2    30   ~ 0
 +5V_brain
+NoConn ~ 5700 6500
+Text Notes 6200 5550 0    31   ~ 0
+Todo: add another gpio LED?
+Wire Wire Line
+	8100 2600 7650 2600
+Wire Wire Line
+	8100 1900 7650 1900
+Wire Wire Line
+	8100 2250 7650 2250
 $EndSCHEMATC
