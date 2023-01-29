@@ -40,4 +40,28 @@ D Power symbol creates a global label with name "GND_motor" , ground
 K power-flag
 $ENDCMP
 #
+$CMP MIC29302WT
+D 3A low dropout linear regulator, adjustable output, TO-220
+K 3A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC2937A
+D 1.5A low dropout linear regulator, adjustable output, TO-220
+K 1.5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC2937A-3.3WT
+D 1.5A low dropout linear regulator, adjustable output, TO-220
+K 1.5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29502WT
+D 5A low dropout linear regulator, adjustable output, TO-220
+K 5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
 #End Doc Library

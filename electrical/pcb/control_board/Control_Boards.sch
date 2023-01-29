@@ -20,7 +20,7 @@ F0 "Motor Board" 197
 F1 "Motor_Board.sch" 197
 $EndSheet
 $Sheet
-S 8400 4100 3200 2350
+S 8800 4100 3200 2350
 U 60A5279E
 F0 "Brain Board" 197
 F1 "Brain_Board.sch" 197
