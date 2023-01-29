@@ -472,19 +472,19 @@ Wire Notes Line
 	2650 5800 4200 5800
 Wire Notes Line
 	4450 3400 6900 3400
-Text Label 7650 1900 0    50   ~ 0
+Text Label 7650 1750 0    50   ~ 0
 E_STOP_pi
 Wire Wire Line
 	9050 1650 9050 1800
 Text Label 9400 2100 2    50   ~ 0
 E_STOP2
-Text Label 7650 2250 0    50   ~ 0
+Text Label 7650 2100 0    50   ~ 0
 E_STOP2_in
 Wire Wire Line
 	9050 2100 9050 2250
 Text Label 9400 2550 2    50   ~ 0
 E_STOP3
-Text Label 7650 2600 0    50   ~ 0
+Text Label 7650 2450 0    50   ~ 0
 E_STOP3_in
 Wire Wire Line
 	9050 2550 9050 2700
@@ -768,23 +768,23 @@ Wire Wire Line
 $Comp
 L Device:R_US R?
 U 1 1 613A416D
-P 9200 1800
+P 10850 1850
 AR Path="/613A416D" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/613A416D" Ref="R?"  Part="1" 
 AR Path="/60A5279E/613A416D" Ref="R18"  Part="1" 
-F 0 "R18" V 9100 1700 50  0000 L CNN
-F 1 "200" V 9300 1750 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9240 1790 50  0001 C CNN
-F 3 "~" H 9200 1800 50  0001 C CNN
-	1    9200 1800
+F 0 "R18" V 10750 1750 50  0000 L CNN
+F 1 "200" V 10950 1800 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10890 1840 50  0001 C CNN
+F 3 "~" H 10850 1850 50  0001 C CNN
+	1    10850 1850
 	0    1    1    0   
 $EndComp
 Text Label 9400 1650 2    50   ~ 0
 E_STOP
-Text Notes 9550 1500 0    31   ~ 0
+Text Notes 9450 1350 0    31   ~ 0
 - Roboclaw ESTOPs active low \n(emergency stop when pulled low)\n- LEDs off when estop’ed (nominal on)
 Text Notes 7200 1450 0    31   ~ 0
-TODO: check logic here, make sure it’s what we want
+TODO: change left side to 3.3v?
 $Comp
 L JPL_Robotics_Lib:SSW-104-01-F-T J25
 U 1 1 61D7BA49
@@ -879,7 +879,6 @@ Wire Wire Line
 Connection ~ 8900 1800
 Wire Wire Line
 	8900 1800 8900 1750
-Connection ~ 9050 1800
 Wire Wire Line
 	8900 2100 8900 2250
 Wire Wire Line
@@ -898,14 +897,10 @@ Wire Notes Line
 	7100 3350 10800 3350
 Text Notes 8800 3250 0    31   ~ 0
 Note that two adjacent odd numbered pins \nMUST be connected together, due to the \nimplementation of the switch array
-Text Label 10000 1800 2    50   ~ 0
+Text Label 11650 1850 2    50   ~ 0
 ESTOP_LED_1
 Wire Wire Line
-	9350 1800 10000 1800
-Wire Wire Line
-	9350 2250 10000 2250
-Wire Wire Line
-	9350 2700 10000 2700
+	11000 1850 11650 1850
 Text Label 10000 2250 2    50   ~ 0
 ESTOP_LED_2
 Text Label 10000 2700 2    50   ~ 0
@@ -1120,34 +1115,34 @@ Wire Notes Line
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR069
 U 1 1 62FBEEB5
-P 8100 1750
-F 0 "#PWR069" H 8100 1600 50  0001 C CNN
-F 1 "+5V_brain" V 8115 1877 50  0000 L CNN
-F 2 "" H 8100 1750 50  0001 C CNN
-F 3 "" H 8100 1750 50  0001 C CNN
-	1    8100 1750
+P 8100 1900
+F 0 "#PWR069" H 8100 1750 50  0001 C CNN
+F 1 "+5V_brain" V 8115 2027 50  0000 L CNN
+F 2 "" H 8100 1900 50  0001 C CNN
+F 3 "" H 8100 1900 50  0001 C CNN
+	1    8100 1900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR070
 U 1 1 62FBF43E
-P 8100 2100
-F 0 "#PWR070" H 8100 1950 50  0001 C CNN
-F 1 "+5V_brain" V 8115 2227 50  0000 L CNN
-F 2 "" H 8100 2100 50  0001 C CNN
-F 3 "" H 8100 2100 50  0001 C CNN
-	1    8100 2100
+P 8100 2250
+F 0 "#PWR070" H 8100 2100 50  0001 C CNN
+F 1 "+5V_brain" V 8115 2377 50  0000 L CNN
+F 2 "" H 8100 2250 50  0001 C CNN
+F 3 "" H 8100 2250 50  0001 C CNN
+	1    8100 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L JPL_Robotics_Lib:+5V_brain #PWR071
 U 1 1 62FBF7C3
-P 8100 2450
-F 0 "#PWR071" H 8100 2300 50  0001 C CNN
-F 1 "+5V_brain" V 8115 2577 50  0000 L CNN
-F 2 "" H 8100 2450 50  0001 C CNN
-F 3 "" H 8100 2450 50  0001 C CNN
-	1    8100 2450
+P 8100 2600
+F 0 "#PWR071" H 8100 2450 50  0001 C CNN
+F 1 "+5V_brain" V 8115 2727 50  0000 L CNN
+F 2 "" H 8100 2600 50  0001 C CNN
+F 3 "" H 8100 2600 50  0001 C CNN
+	1    8100 2600
 	0    -1   -1   0   
 $EndComp
 Text Notes 1750 4400 0    31   ~ 0
@@ -1590,9 +1585,61 @@ NoConn ~ 5700 6500
 Text Notes 6200 5550 0    31   ~ 0
 Todo: add another gpio LED?
 Wire Wire Line
-	8100 2600 7650 2600
+	8100 2450 7650 2450
 Wire Wire Line
-	8100 1900 7650 1900
+	8100 1750 7650 1750
 Wire Wire Line
-	8100 2250 7650 2250
+	8100 2100 7650 2100
+$Comp
+L Transistor_BJT:2N3906 Q?
+U 1 1 64ADE81C
+P 10300 1800
+F 0 "Q?" H 10490 1754 50  0000 L CNN
+F 1 "2N3906" H 10490 1845 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10500 1725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 10300 1800 50  0001 L CNN
+	1    10300 1800
+	1    0    0    1   
+$EndComp
+Connection ~ 9050 1800
+Wire Wire Line
+	10400 2000 10700 2000
+Wire Wire Line
+	10700 2000 10700 1850
+Wire Wire Line
+	10400 1600 10400 1200
+Wire Wire Line
+	10400 1200 10450 1200
+Text Label 10450 1200 2    50   ~ 0
+5v
+$Comp
+L Device:R_US R?
+U 1 1 64C0012B
+P 9950 1800
+AR Path="/64C0012B" Ref="R?"  Part="1" 
+AR Path="/60A51BAC/64C0012B" Ref="R?"  Part="1" 
+AR Path="/60A5279E/64C0012B" Ref="R?"  Part="1" 
+F 0 "R?" V 9850 1700 50  0000 L CNN
+F 1 "10k" V 10050 1750 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9990 1790 50  0001 C CNN
+F 3 "~" H 9950 1800 50  0001 C CNN
+	1    9950 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 2700 10000 2700
+Wire Wire Line
+	9350 2250 10000 2250
+Wire Wire Line
+	9050 1800 9800 1800
+Text Label 3350 4150 0    50   ~ 0
+LEDfoo
+Text Label 3750 4150 0    50   ~ 0
+3.3v_reg
+Wire Wire Line
+	3200 4150 3750 4150
+Text Notes 10250 2400 0    31   ~ 0
+TODO: use transistors for all 3 here
+Text Notes 3500 3900 0    31   ~ 0
+todo: use this setup for all LEDs driven by the PI. Basically pi is the ground/sink. LEDs will be default on when the pi turns on
 $EndSCHEMATC

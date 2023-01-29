@@ -2592,8 +2592,6 @@ F 3 "" H 13750 4050 50  0001 C CNN
 $EndComp
 Text Notes 13650 4850 0    31   ~ 0
 3.3V LED indicates good connection brain <-> motor board
-Text Notes 6050 1500 0    31   ~ 0
-Todo: consolidate these caps into one master cap once we have a better idea of layout
 $Comp
 L JPL_Robotics_Lib:D24V22Fx U3
 U 1 1 6213B507
@@ -3369,6 +3367,6 @@ F 3 "" H 4150 3900 50  0001 C CNN
 	1    4150 3900
 	1    0    0    -1  
 $EndComp
-Text Notes 3300 2900 0    31   ~ 0
-todo: do we actually want to provide this choice, or should we just always NOT e-stop by default?
+Text Notes 12900 4650 0    31   ~ 0
+todo: this 3.3v motor led needs to be done like the brain board
 $EndSCHEMATC
