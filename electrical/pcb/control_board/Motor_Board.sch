@@ -1244,7 +1244,7 @@ Text Label 3150 3250 3    30   ~ 0
 E_STOP2
 Text Label 3450 3250 3    30   ~ 0
 E_STOP3
-Text Notes 2750 3150 0    31   ~ 0
+Text Notes 2750 3100 0    31   ~ 0
 Option 1: Pulllups for e_stop signals\nPopulate to NOT e-stop by default
 $Comp
 L Device:R_US R2
@@ -1383,7 +1383,7 @@ F 3 "" H 12300 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 13800 3400 0    98   ~ 0
-Power LEDs
+Motor LEDs
 Text Label 13500 3650 0    50   ~ 0
 BATTPOS
 $Comp
@@ -1513,8 +1513,6 @@ F 3 "" H 14200 7250 50  0001 C CNN
 	1    14200 7250
 	1    0    0    -1  
 $EndComp
-Text Notes 13800 9500 0    31   ~ 0
-Slotted into female header on the motor board pcb
 Text Notes 8000 2900 0    31   ~ 0
 Filtering caps for cheap snubber circuits on motors
 $Comp
@@ -2139,8 +2137,6 @@ Wire Wire Line
 Connection ~ 10450 9300
 Text Notes 8200 7550 0    31   ~ 0
 Note: leaving these unconnected, and \nsupplying +5V directly from the 5V bus
-Text Notes 10000 8950 0    31   ~ 0
-If theres more space on the board left over at the \nend can add more additiona optional caps
 Wire Wire Line
 	5750 3600 5550 3600
 Wire Wire Line
@@ -2240,8 +2236,6 @@ Text Notes 3700 8400 0    31   ~ 0
 Misc 12V header for external use
 Text Notes 7000 7850 0    31   ~ 0
 Headers on the motor board are female, and solder pins to the servo controller daughter board
-Text Notes 10000 8750 0    31   ~ 0
-These are decoupling caps for the extra pwm outputs
 Text Notes 8900 7050 0    31   ~ 0
 These are decoupling caps for the servos
 NoConn ~ 13950 7700
@@ -2249,10 +2243,10 @@ NoConn ~ 13050 7000
 NoConn ~ 13150 7000
 NoConn ~ 13250 7000
 NoConn ~ 13350 7000
-Text Notes 12200 9350 0    31   ~ 0
+Text Notes 12200 9400 0    31   ~ 0
 EN is pulled up by default on the \nD24V22F12, enabling it. Connect \nEN directly to RPi, so RPi can drive \nthis pin low and disable 12V output. \n\nThis resistor is a depop-able, just \nin case
 Text Notes 13750 2750 0    31   ~ 0
-Note: laid out the pins on this connector so that \nit wouldn’t be disastrous if the direction was \naccidentally switched
+Note: laid out the pins on this connector so that \nit wouldn’t be disastrous if the direction was \naccidentally switched (but please don’t try it)
 Text Label 1400 5850 0    30   ~ 0
 BATTPOS
 Text Label 1400 5900 0    30   ~ 0
@@ -2282,7 +2276,7 @@ Text Notes 3100 5650 0    50   ~ 0
 +
 Text Notes 2650 5650 0    50   ~ 0
 +
-Text Notes 2900 5500 0    30   ~ 0
+Text Notes 2950 5500 0    30   ~ 0
 MM LOAD
 Text Notes 2700 5500 0    30   ~ 0
 MM DC
@@ -2372,7 +2366,7 @@ F 3 "~" H 2300 5850 50  0001 C CNN
 	1    2300 5850
 	0    1    1    0   
 $EndComp
-Text Notes 1600 5250 0    31   ~ 0
+Text Notes 1500 5350 0    20   ~ 0
 Remeber this fuse goes with PN:\n507-2121-ND
 Wire Wire Line
 	1600 7450 1600 7300
@@ -3287,8 +3281,8 @@ Wire Wire Line
 Connection ~ 4150 3850
 Wire Wire Line
 	4150 3900 4150 3850
-Text Notes 3750 3150 0    31   ~ 0
-Option 2: Pullldowns for e_stop signals\nPopulate to e-stop by default
+Text Notes 3700 3150 0    31   ~ 0
+Option 2: Pullldowns for e_stop signals\nPopulate to e-stop by default\n(don’t populate at same time as Option 1!)
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR066
 U 1 1 64A57B00
@@ -3306,12 +3300,12 @@ Wire Notes Line
 	15650 6600 15650 9650
 Wire Notes Line
 	12100 6600 12100 9650
-Text Notes 12400 7000 0    67   ~ 0
-+5V\n
-Text Notes 12900 8600 0    67   ~ 0
+Text Notes 12400 7000 0    67   ~ 13
++5V bus
+Text Notes 12900 8600 0    67   ~ 13
 +12V\n
-Text Notes 14700 7000 0    67   ~ 0
-+3.3V\n
+Text Notes 14700 7000 0    67   ~ 13
++3.3V bus
 $Comp
 L JPL_Robotics_Lib:+5V_motor #PWR0105
 U 1 1 64EB4691
@@ -3404,4 +3398,12 @@ Text Notes 1100 6300 0    31   ~ 0
 Note D1 is not for protection against\naccidentally reversing the battery polarity!
 Wire Wire Line
 	12650 6000 12900 6000
+Text Notes 13100 4950 0    39   ~ 0
+- Power LEDs are normally on\n- Only BATTPOS (and +BATT) on when power switch is off\n- Alert only turns on when ina260 hits alert condition (bad)
+Text Notes 13100 4000 1    39   ~ 0
+Power LEDs
+Text Notes 10000 8900 0    31   ~ 0
+These are decoupling caps for the extra pwm outputs
+Text Notes 13800 9500 0    31   ~ 0
+Slotted into female header on the motor board pcb
 $EndSCHEMATC

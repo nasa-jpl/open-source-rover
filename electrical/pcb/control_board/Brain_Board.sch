@@ -112,7 +112,7 @@ Text Label 8800 6100 2    30   ~ 0
 SCL_rpi
 Text Label 8800 6150 2    30   ~ 0
 SDA_rpi
-Text Notes 1800 1500 0    98   ~ 0
+Text Notes 1650 1400 0    98   ~ 0
 Raspberry Pi breakout
 Text Notes 7650 5600 0    98   ~ 0
 Arduino Communication
@@ -380,8 +380,6 @@ $EndComp
 Wire Wire Line
 	5900 2400 6400 2400
 Connection ~ 6400 2400
-Text Notes 4550 3150 0    31   ~ 0
-Note: arranged these pins in a convenient way to make sure that if \nconnectors are connected with reverse polarity, there should be no\npower rails plugged into sensitive pins
 NoConn ~ 5400 2500
 NoConn ~ 5900 2500
 Text Label 5050 2600 0    39   ~ 0
@@ -929,7 +927,7 @@ Wire Notes Line
 Wire Notes Line
 	4450 1100 6900 1100
 Text Notes 5250 5500 0    98   ~ 0
-LED array
+Brain LEDs
 Wire Notes Line
 	4450 5300 6900 5300
 Wire Notes Line
@@ -1260,50 +1258,50 @@ $EndComp
 $Comp
 L JPL_Robotics_Lib:PEC08SAAN J?
 U 1 1 647A8080
-P 1950 4750
+P 1800 4750
 AR Path="/60A51BAC/647A8080" Ref="J?"  Part="1" 
 AR Path="/60A5279E/647A8080" Ref="J30"  Part="1" 
-F 0 "J30" H 1878 4301 50  0000 L CNN
-F 1 "PEC08SAAN" H 1878 4210 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2000 4750 50  0001 C CNN
-F 3 "" H 2000 4750 50  0001 C CNN
-	1    1950 4750
+F 0 "J30" H 1728 4301 50  0000 L CNN
+F 1 "PEC08SAAN" H 1728 4210 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1850 4750 50  0001 C CNN
+F 3 "" H 1850 4750 50  0001 C CNN
+	1    1800 4750
 	1    0    0    -1  
 $EndComp
-Text Label 1150 4900 0    50   ~ 0
+Text Label 1000 4900 0    50   ~ 0
 GND
-Text Label 1150 5500 0    50   ~ 0
+Text Label 1000 5500 0    50   ~ 0
 SCL_rpi
-Text Label 1150 5600 0    50   ~ 0
+Text Label 1000 5600 0    50   ~ 0
 SDA_rpi
-Text Label 1150 5100 0    50   ~ 0
+Text Label 1000 5100 0    50   ~ 0
 +5V_brain
-Text Label 1150 5200 0    50   ~ 0
+Text Label 1000 5200 0    50   ~ 0
 +12V_motor
 Wire Wire Line
-	1150 4900 1600 4900
+	1000 4900 1450 4900
 Wire Wire Line
-	1150 5000 1600 5000
+	1000 5000 1450 5000
 Wire Wire Line
-	1150 5200 1600 5200
+	1000 5200 1450 5200
 Wire Wire Line
-	1150 5500 1600 5500
-Text Label 1150 5400 0    50   ~ 0
+	1000 5500 1450 5500
+Text Label 1000 5400 0    50   ~ 0
 RXD
 Wire Wire Line
-	1150 5300 1600 5300
+	1000 5300 1450 5300
 Wire Wire Line
-	1150 5400 1600 5400
-Text Label 1150 5300 0    50   ~ 0
+	1000 5400 1450 5400
+Text Label 1000 5300 0    50   ~ 0
 TXD
 Text Notes 900  4800 0    98   ~ 0
 Test Pin Header
-Text Label 1150 5000 0    50   ~ 0
+Text Label 1000 5000 0    50   ~ 0
 +3.3V_brain
 Wire Wire Line
-	1150 5100 1600 5100
+	1000 5100 1450 5100
 Wire Wire Line
-	1150 5600 1600 5600
+	1000 5600 1450 5600
 Wire Notes Line
 	750  5700 750  4650
 Wire Notes Line
@@ -1460,23 +1458,23 @@ $EndComp
 $Comp
 L Device:R_US R?
 U 1 1 654394E6
-P 3500 2550
+P 3600 2550
 AR Path="/654394E6" Ref="R?"  Part="1" 
 AR Path="/60A51BAC/654394E6" Ref="R?"  Part="1" 
 AR Path="/60A5279E/654394E6" Ref="R11"  Part="1" 
-F 0 "R11" H 3500 2700 39  0000 L CNN
-F 1 "4.7k" H 3500 2450 39  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3540 2540 50  0001 C CNN
-F 3 "~" H 3500 2550 50  0001 C CNN
-	1    3500 2550
+F 0 "R11" H 3600 2700 39  0000 L CNN
+F 1 "4.7k" H 3600 2450 39  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3640 2540 50  0001 C CNN
+F 3 "~" H 3600 2550 50  0001 C CNN
+	1    3600 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2950 2400 3350 2400
 Wire Wire Line
-	3500 2350 3500 2400
+	3600 2350 3600 2400
 Wire Wire Line
-	3500 2750 3500 2700
+	3600 2750 3600 2700
 $Comp
 L JPL_Robotics_Lib:+3.3V_brain #PWR061
 U 1 1 654A6BD0
@@ -1511,18 +1509,18 @@ pull-ups
 $Comp
 L JPL_Robotics_Lib:+5V_motor #PWR068
 U 1 1 654D54BD
-P 3500 2750
-F 0 "#PWR068" H 3500 2600 50  0001 C CNN
-F 1 "+5V_motor" H 3450 2900 39  0000 C CNN
-F 2 "" H 3500 2750 50  0001 C CNN
-F 3 "" H 3500 2750 50  0001 C CNN
-	1    3500 2750
+P 3600 2750
+F 0 "#PWR068" H 3600 2600 50  0001 C CNN
+F 1 "+5V_motor" H 3550 2900 39  0000 C CNN
+F 2 "" H 3600 2750 50  0001 C CNN
+F 3 "" H 3600 2750 50  0001 C CNN
+	1    3600 2750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3350 2700 3350 2850
 Text Notes 1200 3500 0    31   ~ 0
-pull-up so LEDs will \nbe off at RPI startup
+pull-ups so LEDs will \nbe off at RPI startup
 $Comp
 L Device:R_US R?
 U 1 1 655195EF
@@ -1836,8 +1834,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 2100 3300 2350
 Wire Wire Line
-	3300 2350 3500 2350
-Wire Wire Line
 	2950 2100 3300 2100
 $Comp
 L JPL_Robotics_Lib:+3.3V_brain #PWR0111
@@ -1887,4 +1883,12 @@ Text Label 9800 4350 2    50   ~ 0
 TXD_LED
 Text Notes 6100 7150 0    31   ~ 0
 LED R sizing: \n(V_in - LED forward voltage) / \ndesired current = resistor value
+Text Notes 1100 1800 0    31   ~ 0
+Either J22 or J23 is equally valid for \nconnecting rpi. The unconnected \nheader can be used for signal \nmonitoring if needed
+Wire Wire Line
+	3300 2350 3600 2350
+Text Notes 1800 5050 0    31   ~ 0
+Voltage pins can be used \nto test for good connectivity \nbrain <-> motor board
+Text Notes 5100 3150 0    31   ~ 0
+Note: laid out the pins on this connector so that \nit wouldn’t be disastrous if the direction was \naccidentally switched (but please don’t try it)
 $EndSCHEMATC
