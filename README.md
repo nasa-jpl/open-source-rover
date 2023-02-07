@@ -40,7 +40,7 @@ The specific attributes of the robot you build will depend slightly on the type 
 | Approximate Max speed                     |                   68.8 [in/s]                    |       1.75 [m/s]        |
 | Maximum 90 deg vertical scale             |                     12 [in]                      |       30.48 [cm]        |
 | Maximum height differential between sides |                     14 [in]                      |       35.56 [cm]        |
-| Communication (in this guide)             | Bluetooth app (Android only) and Xbox Controller |                         |
+| Communication (in this guide)             |                  Xbox Controller                 |                         |
 | Cost (*)                                  |                     ~ $2,500                     |                         |
 
 Again, the above statistics depend on which components you select when buying parts. One potential change is for the motors; you can, for example, select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque, which would potentially limit your rover's ability to climb. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [GoBilda](https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motors/).
