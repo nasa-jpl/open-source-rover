@@ -2237,7 +2237,7 @@ Misc 12V header for external use
 Text Notes 7000 7850 0    31   ~ 0
 Headers on the motor board are female, and solder pins to the servo controller daughter board
 Text Notes 8900 7050 0    31   ~ 0
-These are decoupling caps for the servos
+These are decoupling caps for the servos \n(should be located as close as possible to \nservo output pins on board layout)
 NoConn ~ 13950 7700
 NoConn ~ 13050 7000
 NoConn ~ 13150 7000
@@ -2258,8 +2258,8 @@ P 1750 6950
 AR Path="/60B75520" Ref="J?"  Part="1" 
 AR Path="/60A51BAC/60B75520" Ref="J2"  Part="1" 
 F 0 "J2" H 1800 7150 30  0000 R CNN
-F 1 "XT30-F" V 1600 7150 30  0001 R CNN
-F 2 "JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 1750 7150 30  0001 C CNN
+F 1 "ED2580-ND" V 1600 7150 30  0001 R CNN
+F 2 "JPL Robotics:ED2580-ND" H 1750 7150 30  0001 C CNN
 F 3 "" H 1750 7150 30  0001 C CNN
 	1    1750 6950
 	1    0    0    1   
