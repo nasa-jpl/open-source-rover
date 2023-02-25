@@ -5,7 +5,7 @@
     (drawings 37)
     (tracks 0)
     (zones 0)
-    (modules 146)
+    (modules 147)
     (nets 203)
   )
 
@@ -549,8 +549,116 @@
     (add_net +5V_motor)
   )
 
-  (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63FA441B)
-    (at 73.1012 -171.196)
+  (module "JPL Robotics:#4THRU-HOLE" (layer F.Cu) (tedit 63F710E7) (tstamp 63FB45A9)
+    (at 130 -4)
+    (path /60A51BAC/64005B59)
+    (fp_text reference MH17 (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "#4THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
+  )
+
+  (module "JPL Robotics:#4THRU-HOLE" (layer F.Cu) (tedit 63F710E7) (tstamp 63FA9A4F)
+    (at 90 -4)
+    (path /60A51BAC/63FDB1D0)
+    (fp_text reference MH8 (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "#4THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
+  )
+
+  (module "JPL Robotics:#4THRU-HOLE" (layer F.Cu) (tedit 63F710E7) (tstamp 63F7338B)
+    (at 130 -74)
+    (path /60A51BAC/63FDB1CA)
+    (fp_text reference MH7 (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "#4THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
+  )
+
+  (module "JPL Robotics:#4THRU-HOLE" (layer F.Cu) (tedit 63F710E7) (tstamp 63FA9A5B)
+    (at 90 -74)
+    (path /60A51BAC/63FDB1C4)
+    (fp_text reference MH6 (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "#4THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
+  )
+
+  (module "JPL Robotics:#4THRU-HOLE" (layer F.Cu) (tedit 63F710E7) (tstamp 63F73381)
+    (at 4 96)
+    (path /60A51BAC/63FDB1BE)
+    (fp_text reference MH5 (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "#4THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
+  )
+
+  (module "JPL Robotics:#4THRU-HOLE" (layer F.Cu) (tedit 63F710E7) (tstamp 6215C0AD)
+    (at 120 96)
+    (path /60A51BAC/60953113)
+    (fp_text reference MH4 (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "#4THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
+  )
+
+  (module "JPL Robotics:#4THRU-HOLE" (layer F.Cu) (tedit 63F710E7) (tstamp 6215C0A3)
+    (at 216 96)
+    (path /60A51BAC/6095310D)
+    (fp_text reference MH3 (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "#4THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
+  )
+
+  (module "JPL Robotics:#4THRU-HOLE" (layer F.Cu) (tedit 63F710E7) (tstamp 6215C09E)
+    (at 216 4)
+    (path /60A51BAC/60953107)
+    (fp_text reference MH2 (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "#4THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
+  )
+
+  (module "JPL Robotics:#4THRU-HOLE" (layer F.Cu) (tedit 63F710E7) (tstamp 6215C0A8)
+    (at 4 4)
+    (path /60A51BAC/60953101)
+    (fp_text reference MH1 (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "#4THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
+  )
+
+  (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63FB2D46)
+    (at 74.0512 -171.5636)
     (path /60A5279E/626D878E)
     (fp_text reference MH16 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -561,8 +669,8 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
   )
 
-  (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63FA440F)
-    (at 165.8112 -171.196)
+  (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63FB2D6A)
+    (at 165.0512 -171.5636)
     (path /60A5279E/626D8788)
     (fp_text reference MH15 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -573,8 +681,8 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
   )
 
-  (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63FA4403)
-    (at 165.8112 -264.0076)
+  (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63FB2D52)
+    (at 165.0512 -263.5636)
     (path /60A5279E/626D8782)
     (fp_text reference MH14 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -585,8 +693,8 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
   )
 
-  (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63FA43F7)
-    (at 73.1012 -264.0076)
+  (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63FB2D5E)
+    (at 74.0512 -263.5636)
     (path /60A5279E/626D877C)
     (fp_text reference MH13 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -598,7 +706,7 @@
   )
 
   (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63F9FFB4)
-    (at 19.05 96.3676)
+    (at 20 96)
     (path /60A51BAC/625AC674)
     (fp_text reference MH12 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -610,7 +718,7 @@
   )
 
   (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63F9FFA8)
-    (at 111.76 96.3676)
+    (at 111 96)
     (path /60A51BAC/625AC66E)
     (fp_text reference MH11 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -622,7 +730,7 @@
   )
 
   (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63F9FF90)
-    (at 111.76 3.556)
+    (at 111 4)
     (path /60A51BAC/625AC668)
     (fp_text reference MH10 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -634,7 +742,7 @@
   )
 
   (module "JPL Robotics:brain_board_mounting_hole" (layer F.Cu) (tedit 63F710E7) (tstamp 63F9FF9C)
-    (at 19.05 3.556)
+    (at 20 4)
     (path /60A51BAC/625AC662)
     (fp_text reference MH9 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -645,56 +753,8 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
   )
 
-  (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 63F73390)
-    (at 110.1852 -6.8072)
-    (path /60A51BAC/63FDB1D0)
-    (fp_text reference MH8 (at -5.588 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "#6THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.5 6.5) (drill 3.8) (layers *.Cu *.Mask))
-  )
-
-  (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 63F7338B)
-    (at 130.4036 -72.7964)
-    (path /60A51BAC/63FDB1CA)
-    (fp_text reference MH7 (at -5.588 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "#6THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.5 6.5) (drill 3.8) (layers *.Cu *.Mask))
-  )
-
-  (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 63F73386)
-    (at 90.1192 -72.7964)
-    (path /60A51BAC/63FDB1C4)
-    (fp_text reference MH6 (at -5.588 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "#6THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.5 6.5) (drill 3.8) (layers *.Cu *.Mask))
-  )
-
-  (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 63F73381)
-    (at 4.9276 94.5388)
-    (path /60A51BAC/63FDB1BE)
-    (fp_text reference MH5 (at -5.588 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "#6THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.5 6.5) (drill 3.8) (layers *.Cu *.Mask))
-  )
-
-  (module "JPL Robotics:AMASS_XT30U-M_1x02_P5.0mm_Vertical" (layer F.Cu) (tedit 6219E59D) (tstamp 6215C006)
-    (at 202.8952 3.9116 270)
+  (module "JPL Robotics:AMASS_XT30U-M_1x02_P5.0mm_Vertical" (layer F.Cu) (tedit 6219E59D) (tstamp 63FB4DC7)
+    (at 209.6516 3.8862 270)
     (descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (path /60A51BAC/60B75381)
@@ -1699,7 +1759,7 @@
   )
 
   (module "JPL Robotics:Molex_172675-0613" (layer F.Cu) (tedit 63CE06ED) (tstamp 63F742E3)
-    (at 129.286 -16.3576 270)
+    (at 130 -20.03044 270)
     (path /60A51BAC/60A58E9D)
     (fp_text reference J8 (at 0 -8.89 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2495,7 +2555,7 @@
     )
   )
 
-  (module "JPL Robotics:PPTC021LFBN-RC" (layer F.Cu) (tedit 63CE10C7) (tstamp 63FA43D5)
+  (module "JPL Robotics:PPTC021LFBN-RC" (layer F.Cu) (tedit 63CE10C7) (tstamp 63FB2D24)
     (at 79.6782 -173.4455 270)
     (path /60A5279E/6103131A)
     (fp_text reference J29 (at -2.54 0) (layer F.SilkS)
@@ -2529,7 +2589,7 @@
     )
   )
 
-  (module "JPL Robotics:PPTC021LFBN-RC" (layer F.Cu) (tedit 63CE10C7) (tstamp 63FA43A8)
+  (module "JPL Robotics:PPTC021LFBN-RC" (layer F.Cu) (tedit 63CE10C7) (tstamp 63FB2CF7)
     (at 82.602199 -173.428099 270)
     (path /60A5279E/60ED1AE6)
     (fp_text reference J28 (at -2.557401 0.129999) (layer F.SilkS)
@@ -2563,7 +2623,7 @@
     )
   )
 
-  (module "JPL Robotics:PPTC021LFBN-RC" (layer F.Cu) (tedit 63CE10C7) (tstamp 63FA437B)
+  (module "JPL Robotics:PPTC021LFBN-RC" (layer F.Cu) (tedit 63CE10C7) (tstamp 63FB2CCA)
     (at 85.5202 -173.4455 270)
     (path /60A5279E/609D84ED)
     (fp_text reference J27 (at -2.54 0) (layer F.SilkS)
@@ -2597,7 +2657,7 @@
     )
   )
 
-  (module "JPL Robotics:WM6548-ND" (layer B.Cu) (tedit 63CE1080) (tstamp 63FA432C)
+  (module "JPL Robotics:WM6548-ND" (layer B.Cu) (tedit 63CE1080) (tstamp 63FB2C7B)
     (at 113.284 -259.1308)
     (path /60A5279E/60EE139B)
     (fp_text reference J26 (at -4.064 -7.112) (layer B.SilkS)
@@ -2670,7 +2730,7 @@
     )
   )
 
-  (module "JPL Robotics:455-1708-ND" (layer F.Cu) (tedit 63CE1020) (tstamp 63FA42EE)
+  (module "JPL Robotics:455-1708-ND" (layer F.Cu) (tedit 63CE1020) (tstamp 63FB2C3D)
     (at 93.5212 -182.716 270)
     (path /60A5279E/60A8A929)
     (fp_text reference J24 (at -0.254 -2.54 270) (layer F.SilkS)
@@ -2708,7 +2768,7 @@
     )
   )
 
-  (module "JPL Robotics:SSW-104-01-F-T" (layer F.Cu) (tedit 63CE0897) (tstamp 63FA42B1)
+  (module "JPL Robotics:SSW-104-01-F-T" (layer F.Cu) (tedit 63CE0897) (tstamp 63FB2C00)
     (at 102.3604 -179.5288 270)
     (path /60A5279E/61D7BA49)
     (fp_text reference J25 (at 0.635 7.62 90) (layer F.SilkS)
@@ -2764,7 +2824,7 @@
     )
   )
 
-  (module "JPL Robotics:S9175-ND" (layer F.Cu) (tedit 63CE0F74) (tstamp 63FA41FA)
+  (module "JPL Robotics:S9175-ND" (layer F.Cu) (tedit 63CE0F74) (tstamp 63FB2B49)
     (at 86.0282 -189.7777 90)
     (path /60A5279E/60A8A979)
     (fp_text reference J22 (at 0 5.08 90) (layer F.SilkS)
@@ -2919,7 +2979,7 @@
     )
   )
 
-  (module "JPL Robotics:S9175-ND" (layer F.Cu) (tedit 63CE0F74) (tstamp 63FA410A)
+  (module "JPL Robotics:S9175-ND" (layer F.Cu) (tedit 63CE0F74) (tstamp 63FB2A59)
     (at 75.8682 -189.7777 90)
     (path /60A5279E/60A8A8FC)
     (fp_text reference J23 (at 0 5.08 90) (layer F.SilkS)
@@ -3539,7 +3599,7 @@
     )
   )
 
-  (module "JPL Robotics:DC7G3HWA_led_array" (layer F.Cu) (tedit 63CE0779) (tstamp 63FA4006)
+  (module "JPL Robotics:DC7G3HWA_led_array" (layer F.Cu) (tedit 63CE0779) (tstamp 63FB2955)
     (at 101.9556 -257.556 180)
     (path /60A5279E/62C709B3)
     (fp_text reference U6 (at 0.762 10.414 180) (layer F.SilkS)
@@ -3667,7 +3727,7 @@
   )
 
   (module "JPL Robotics:Molex_172675-0613" (layer F.Cu) (tedit 63CE06ED) (tstamp 63F742A1)
-    (at 129.286 -62.6364 270)
+    (at 130 -66.30924 270)
     (path /60A51BAC/60ACC18D)
     (fp_text reference J11 (at 0 -8.89 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3715,8 +3775,8 @@
     )
   )
 
-  (module "JPL Robotics:Molex_172675-0613" (layer F.Cu) (tedit 63CE06ED) (tstamp 63F74654)
-    (at 90.6272 -54.356 90)
+  (module "JPL Robotics:Molex_172675-0613" (layer F.Cu) (tedit 63CE06ED) (tstamp 63FA9A1F)
+    (at 90 -57.912 90)
     (path /60A51BAC/60ACBA13)
     (fp_text reference J10 (at 0 -8.89 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3764,8 +3824,8 @@
     )
   )
 
-  (module "JPL Robotics:Molex_172675-0613" (layer F.Cu) (tedit 63CE06ED) (tstamp 63F74612)
-    (at 90.6272 -8.0772 90)
+  (module "JPL Robotics:Molex_172675-0613" (layer F.Cu) (tedit 63CE06ED) (tstamp 63FA99DD)
+    (at 90 -11.6332 90)
     (path /60A51BAC/60ACDDFA)
     (fp_text reference J13 (at 0 -8.89 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3813,8 +3873,8 @@
     )
   )
 
-  (module "JPL Robotics:Molex_172675-0613" (layer F.Cu) (tedit 63CE06ED) (tstamp 63F745D0)
-    (at 90.6272 -31.1912 90)
+  (module "JPL Robotics:Molex_172675-0613" (layer F.Cu) (tedit 63CE06ED) (tstamp 63FA999B)
+    (at 90 -34.7472 90)
     (path /60A51BAC/60ACE52F)
     (fp_text reference J14 (at 0 -8.89 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3863,7 +3923,7 @@
   )
 
   (module "JPL Robotics:Molex_172675-0613" (layer F.Cu) (tedit 63CE06ED) (tstamp 63F7425F)
-    (at 129.286 -39.497 270)
+    (at 130 -43.14444 270)
     (path /60A51BAC/60ACADF7)
     (fp_text reference J9 (at 0 -8.89 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4240,7 +4300,7 @@
   )
 
   (module "JPL Robotics:test_point" (layer F.Cu) (tedit 5C22F344) (tstamp 63CF1A3C)
-    (at 129.4892 9.4996)
+    (at 141.3002 9.4488)
     (path /60A51BAC/64361769)
     (fp_text reference T5 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4253,7 +4313,7 @@
   )
 
   (module "JPL Robotics:test_point" (layer F.Cu) (tedit 5C22F344) (tstamp 63CF1A37)
-    (at 154.686 9.6012)
+    (at 164.2364 9.5504)
     (path /60A51BAC/643602C9)
     (fp_text reference T4 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4266,7 +4326,7 @@
   )
 
   (module "JPL Robotics:test_point" (layer F.Cu) (tedit 5C22F344) (tstamp 63CF1A32)
-    (at 165.2016 4.6736)
+    (at 174.752 4.6228)
     (path /60A51BAC/6432DC9D)
     (fp_text reference T3 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4343,8 +4403,8 @@
       (net 1 +BATT))
   )
 
-  (module "JPL Robotics:test_point" (layer F.Cu) (tedit 5C22F344) (tstamp 63F5C532)
-    (at 197.358 3.7084)
+  (module "JPL Robotics:test_point" (layer F.Cu) (tedit 5C22F344) (tstamp 63FB4DA5)
+    (at 204.9018 3.7084)
     (path /60A51BAC/64362AE7)
     (fp_text reference T2 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4356,8 +4416,8 @@
       (net 145 "/Motor Board/BATTNEG"))
   )
 
-  (module "JPL Robotics:test_point" (layer F.Cu) (tedit 5C22F344) (tstamp 63CECA77)
-    (at 197.5104 8.8392)
+  (module "JPL Robotics:test_point" (layer F.Cu) (tedit 5C22F344) (tstamp 63FB4D99)
+    (at 205.0542 8.8392)
     (path /60A51BAC/6432D4AC)
     (fp_text reference T1 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4421,7 +4481,7 @@
     )
   )
 
-  (module "JPL Robotics:CTS-206-124" (layer F.Cu) (tedit 63C799B5) (tstamp 63FA3F52)
+  (module "JPL Robotics:CTS-206-124" (layer F.Cu) (tedit 63C799B5) (tstamp 63FB28A1)
     (at 80.4402 -253.4936)
     (path /60A5279E/61DFAF04)
     (fp_text reference SW1 (at 18.7198 -2.9972) (layer F.SilkS)
@@ -4507,7 +4567,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FA3EF9)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FB2848)
     (at 91.9972 -218.9496 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -4548,7 +4608,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FA3EB7)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FB2806)
     (at 96.5692 -215.9016 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -4589,7 +4649,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FA3E75)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FB27C4)
     (at 96.5692 -218.9496 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -4630,7 +4690,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FA3E33)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FB2782)
     (at 91.9972 -215.9016 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -4671,7 +4731,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FA3DF1)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FB2740)
     (at 133.1452 -239.5236)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -4712,7 +4772,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FA3DAF)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FB26FE)
     (at 120.4452 -238.2536 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -5196,7 +5256,7 @@
   )
 
   (module "JPL Robotics:696108003002_5x20_fuseholder" (layer F.Cu) (tedit 6219ED5E) (tstamp 621BA66D)
-    (at 181.7624 6.4116 180)
+    (at 189.8142 6.4116 180)
     (path /60A51BAC/60B7539F)
     (fp_text reference F1 (at -10.795 6.35) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5221,7 +5281,7 @@
     )
   )
 
-  (module "JPL Robotics:raspberry_pi_3b" (layer F.Cu) (tedit 6219EBAD) (tstamp 63FA3D4F)
+  (module "JPL Robotics:raspberry_pi_3b" (layer F.Cu) (tedit 6219EBAD) (tstamp 63FB269E)
     (at 162.3568 -175.3108 90)
     (path /60A5279E/61DB5332)
     (fp_text reference M1 (at 1.2192 1.651 90) (layer F.SilkS)
@@ -5309,7 +5369,7 @@
   )
 
   (module "JPL Robotics:AMASS_XT30U-M_1x02_P5.0mm_Vertical" (layer F.Cu) (tedit 6219E59D) (tstamp 6215C021)
-    (at 134.7216 3.9116 270)
+    (at 146.5326 3.8608 270)
     (descr "Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (path /60A51BAC/60B7552F)
@@ -5358,7 +5418,7 @@
   )
 
   (module "JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (layer F.Cu) (tedit 6219E608) (tstamp 6215C057)
-    (at 143.1036 3.9116 270)
+    (at 154.9146 3.8608 270)
     (descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (path /60A51BAC/60B75529)
@@ -5407,7 +5467,7 @@
   )
 
   (module "JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (layer F.Cu) (tedit 6219E608) (tstamp 6215C03C)
-    (at 159.9692 3.9116 270)
+    (at 169.5196 3.8608 270)
     (descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf")
     (tags "RC Connector XT30")
     (path /60A51BAC/60B75546)
@@ -5609,7 +5669,7 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE50CD5) (tstamp 63FA3CEE)
+  (module Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE50CD5) (tstamp 63FB263D)
     (at 126.057699 -209.292283 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
@@ -5662,7 +5722,7 @@
     )
   )
 
-  (module Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE50CD5) (tstamp 63FA3C94)
+  (module Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE50CD5) (tstamp 63FB25E3)
     (at 136.9552 -209.0436 90)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
@@ -5715,56 +5775,8 @@
     )
   )
 
-  (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 6215C0AD)
-    (at 121.2088 93.0148)
-    (path /60A51BAC/60953113)
-    (fp_text reference MH4 (at -5.588 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "#6THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.5 6.5) (drill 3.8) (layers *.Cu *.Mask))
-  )
-
-  (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 6215C0A8)
-    (at 4.5212 4.4704)
-    (path /60A51BAC/60953101)
-    (fp_text reference MH1 (at -5.588 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "#6THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.5 6.5) (drill 3.8) (layers *.Cu *.Mask))
-  )
-
-  (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 6215C0A3)
-    (at 214.884 95.0468)
-    (path /60A51BAC/6095310D)
-    (fp_text reference MH3 (at -5.588 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "#6THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.5 6.5) (drill 3.8) (layers *.Cu *.Mask))
-  )
-
-  (module "JPL Robotics:#6THRU-HOLE" (layer F.Cu) (tedit 5C6F475E) (tstamp 6215C09E)
-    (at 214.0204 6.0452)
-    (path /60A51BAC/60953107)
-    (fp_text reference MH2 (at -5.588 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "#6THRU-HOLE" (at -8.128 -3.302) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.5 6.5) (drill 3.8) (layers *.Cu *.Mask))
-  )
-
   (module "JPL Robotics:497-2738-5-ND" (layer F.Cu) (tedit 5C2017AD) (tstamp 6215C08B)
-    (at 186.5884 14.732 180)
+    (at 192.3542 14.9352 180)
     (path /60A51BAC/60B753A5)
     (fp_text reference D1 (at 1.016 3.302) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5950,7 +5962,7 @@
       (xy -3.9243 -4.048849) (xy -3.9243 -6.3119) (xy -1.9431 -6.3119) (xy -1.9431 -3.1877)) (layer F.SilkS) (width 0.01))
   )
 
-  (module Package_TO_SOT_THT:TO-92_Inline (layer B.Cu) (tedit 5A1DD157) (tstamp 63FA3C54)
+  (module Package_TO_SOT_THT:TO-92_Inline (layer B.Cu) (tedit 5A1DD157) (tstamp 63FB25A3)
     (at 125.524299 -233.346083 90)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
@@ -5987,7 +5999,7 @@
     )
   )
 
-  (module Package_TO_SOT_THT:TO-92_Inline (layer B.Cu) (tedit 5A1DD157) (tstamp 63FA3C21)
+  (module Package_TO_SOT_THT:TO-92_Inline (layer B.Cu) (tedit 5A1DD157) (tstamp 63FB2570)
     (at 135.732284 -233.1736 90)
     (descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
@@ -6598,7 +6610,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 63FA3BE4)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 63FB2533)
     (at 128.419899 -228.291483 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -6639,7 +6651,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 63FA3BA2)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 63FB24F1)
     (at 139.161284 -228.05335 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -6680,7 +6692,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 63FA3B60)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 63FB24AF)
     (at 116.5082 -240.7936 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -6803,7 +6815,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 63FA3B1E)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 63FB246D)
     (at 123.771699 -228.139083 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -6844,7 +6856,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 63FA3ADC)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer B.Cu) (tedit 5AE5139B) (tstamp 63FB242B)
     (at 134.665484 -228.02795 270)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -6927,7 +6939,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 6215B807)
-    (at 150.3172 10.2216 90)
+    (at 160.6296 10.1346 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /60A51BAC/60B7545A)
@@ -7295,7 +7307,7 @@
     )
   )
 
-  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FA3A91)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 63FB23E9)
     (at 116.6352 -205.2336 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
@@ -7366,7 +7378,7 @@
   (gr_line (start 0 100) (end 220 100) (layer Dwgs.User) (width 0.2) (tstamp 63F0D20C))
   (gr_line (start 220 0) (end 220 100) (layer Dwgs.User) (width 0.2) (tstamp 63F0D20B))
   (gr_line (start 80 0) (end 80 -78) (layer Dwgs.User) (width 0.2) (tstamp 63F0D20A))
-  (gr_line (start 80 -78) (end 140 -78) (layer Dwgs.User) (width 0.2) (tstamp 63F0D209))
+  (gr_line (start 80 -78) (end 140 -78) (layer Dwgs.User) (width 0.2) (tstamp 63FA8364))
   (gr_line (start 140 0) (end 220 0) (layer Dwgs.User) (width 0.2) (tstamp 63F0D208))
   (gr_line (start 140 0) (end 140 -78) (layer Dwgs.User) (width 0.2) (tstamp 63F0D207))
   (gr_line (start 80 -78) (end 140 -78) (layer Edge.Cuts) (width 0.1) (tstamp 63F0D1FD))
@@ -7375,20 +7387,20 @@
   (gr_line (start 140 0) (end 220 0) (layer Edge.Cuts) (width 0.1) (tstamp 63F0D200))
   (gr_line (start 69.5452 -167.5636) (end 69.5452 -267.5636) (layer Edge.Cuts) (width 0.1) (tstamp 63F9F550))
   (gr_line (start 169.5452 -167.5636) (end 169.5452 -267.5636) (layer Edge.Cuts) (width 0.1) (tstamp 63F9F553))
-  (gr_line (start 169.5452 -167.5636) (end 69.5452 -167.5636) (layer Dwgs.User) (width 0.2) (tstamp 63FA3ABE))
-  (gr_line (start 69.5452 -267.5636) (end 69.5452 -167.5636) (layer Dwgs.User) (width 0.2) (tstamp 63FA3AC1))
-  (gr_line (start 169.5452 -167.5636) (end 169.5452 -267.5636) (layer Dwgs.User) (width 0.2) (tstamp 63FA3AC4))
+  (gr_line (start 169.5452 -167.5636) (end 69.5452 -167.5636) (layer Dwgs.User) (width 0.2) (tstamp 63FB23D1))
+  (gr_line (start 69.5452 -267.5636) (end 69.5452 -167.5636) (layer Dwgs.User) (width 0.2) (tstamp 63FB23CE))
+  (gr_line (start 169.5452 -167.5636) (end 169.5452 -267.5636) (layer Dwgs.User) (width 0.2) (tstamp 63FB23CB))
   (gr_line (start 69.5452 -267.5636) (end 169.5452 -267.5636) (layer Edge.Cuts) (width 0.1) (tstamp 63F9F55F))
   (gr_line (start 169.5452 -167.5636) (end 69.5452 -167.5636) (layer Edge.Cuts) (width 0.1) (tstamp 63F9F562))
   (gr_line (start 220 0) (end 220 100) (layer Edge.Cuts) (width 0.1) (tstamp 63F0D1F7))
   (gr_line (start 0 100) (end 220 100) (layer Edge.Cuts) (width 0.1) (tstamp 63F0D1F4))
   (gr_line (start 0 0) (end 0 100) (layer Edge.Cuts) (width 0.1) (tstamp 63F0D1F1))
   (gr_line (start 0 0) (end 80 0) (layer Edge.Cuts) (width 0.1) (tstamp 63F0D1EE))
-  (gr_line (start 169.5452 -267.5636) (end 69.5452 -267.5636) (layer Dwgs.User) (width 0.2) (tstamp 63FA3A79))
+  (gr_line (start 169.5452 -267.5636) (end 69.5452 -267.5636) (layer Dwgs.User) (width 0.2) (tstamp 63FB23C8))
   (gr_text "MOTOR BOARD" (at 108.5088 -81.6864) (layer Dwgs.User)
     (effects (font (size 2 2) (thickness 0.3)))
   )
-  (gr_text "BRAIN BOARD" (at 119.0482 -268.7971) (layer Dwgs.User) (tstamp 63FA4424)
+  (gr_text "BRAIN BOARD" (at 119.0482 -268.7971) (layer Dwgs.User) (tstamp 63FB2D73)
     (effects (font (size 2 2) (thickness 0.3)))
   )
 
