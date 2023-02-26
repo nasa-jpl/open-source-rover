@@ -1277,7 +1277,7 @@ SDA_rpi
 Text Label 1000 5100 0    50   ~ 0
 +5V_brain
 Text Label 1000 5200 0    50   ~ 0
-+12V_motor
++12V_brain
 Wire Wire Line
 	1000 4900 1450 4900
 Wire Wire Line
@@ -1506,17 +1506,6 @@ Wire Wire Line
 	1600 3200 1600 3150
 Text Notes 3350 3150 0    31   ~ 0
 pull-ups
-$Comp
-L JPL_Robotics_Lib:+5V_motor #PWR068
-U 1 1 654D54BD
-P 3600 2750
-F 0 "#PWR068" H 3600 2600 50  0001 C CNN
-F 1 "+5V_motor" H 3550 2900 39  0000 C CNN
-F 2 "" H 3600 2750 50  0001 C CNN
-F 3 "" H 3600 2750 50  0001 C CNN
-	1    3600 2750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3350 2700 3350 2850
 Text Notes 1200 3500 0    31   ~ 0
@@ -1891,4 +1880,15 @@ Text Notes 1800 5050 0    31   ~ 0
 Voltage pins can be used \nto test for good connectivity \nbrain <-> motor board
 Text Notes 5100 3150 0    31   ~ 0
 Note: laid out the pins on this connector so that \nit wouldn’t be disastrous if the direction was \naccidentally switched (but please don’t try it)
+$Comp
+L JPL_Robotics_Lib:+5V_brain #PWR?
+U 1 1 6441D809
+P 3600 2750
+F 0 "#PWR?" H 3600 2600 50  0001 C CNN
+F 1 "+5V_brain" H 3615 2915 39  0000 C CNN
+F 2 "" H 3600 2750 50  0001 C CNN
+F 3 "" H 3600 2750 50  0001 C CNN
+	1    3600 2750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
