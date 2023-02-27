@@ -2254,19 +2254,19 @@ BATTNEG
 $Comp
 L JPL_Robotics_Lib:XT60-F J?
 U 1 1 60B75520
-P 1750 6950
+P 1900 7000
 AR Path="/60B75520" Ref="J?"  Part="1" 
 AR Path="/60A51BAC/60B75520" Ref="J2"  Part="1" 
-F 0 "J2" H 1800 7150 30  0000 R CNN
-F 1 "ED2580-ND" V 1600 7150 30  0001 R CNN
-F 2 "JPL Robotics:ED2580-ND" H 1750 7150 30  0001 C CNN
-F 3 "" H 1750 7150 30  0001 C CNN
-	1    1750 6950
-	1    0    0    1   
+F 0 "J2" V 1900 7250 30  0000 R CNN
+F 1 "ED2580-ND" V 1750 7200 30  0001 R CNN
+F 2 "JPL Robotics:ED2580-ND" H 1900 7200 30  0001 C CNN
+F 3 "" H 1900 7200 30  0001 C CNN
+	1    1900 7000
+	0    1    -1   0   
 $EndComp
 Text Notes 2100 5350 0    50   ~ 0
 Switch
-Text Notes 1350 7050 0    30   ~ 0
+Text Notes 1850 7250 0    30   ~ 0
 Battery Out \n(for optional \ndaisychaining)
 Text Notes 3100 5750 0    50   ~ 0
 -
@@ -2368,22 +2368,16 @@ F 3 "~" H 2300 5850 50  0001 C CNN
 $EndComp
 Text Notes 1500 5350 0    20   ~ 0
 Remeber this fuse goes with PN:\n507-2121-ND
-Wire Wire Line
-	1600 7450 1600 7300
-Wire Wire Line
-	1900 7300 1900 7050
-Wire Wire Line
-	1600 7300 1900 7300
 $Comp
 L JPL_Robotics_Lib:GND_motor #PWR01
 U 1 1 6124B41D
-P 1600 7450
-F 0 "#PWR01" H 1600 7200 50  0001 C CNN
-F 1 "GND_motor" H 1605 7277 50  0000 C CNN
-F 2 "" H 1600 7450 50  0001 C CNN
-F 3 "" H 1600 7450 50  0001 C CNN
-	1    1600 7450
-	1    0    0    -1  
+P 1600 6800
+F 0 "#PWR01" H 1600 6550 50  0001 C CNN
+F 1 "GND_motor" H 1605 6627 50  0000 C CNN
+F 2 "" H 1600 6800 50  0001 C CNN
+F 3 "" H 1600 6800 50  0001 C CNN
+	1    1600 6800
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1400 5850 1650 5850
@@ -2707,21 +2701,18 @@ Connection ~ 5650 6900
 Wire Wire Line
 	5650 6900 5650 7000
 NoConn ~ 8100 7450
-Connection ~ 1900 7300
-Wire Wire Line
-	2000 7300 1900 7300
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 60B75584
-P 2000 7300
+P 1600 6900
 AR Path="/60B75584" Ref="#FLG?"  Part="1" 
 AR Path="/60A51BAC/60B75584" Ref="#FLG02"  Part="1" 
-F 0 "#FLG02" H 2000 7375 50  0001 C CNN
-F 1 "PWR_FLAG" V 2100 7400 50  0000 C CNN
-F 2 "" H 2000 7300 50  0001 C CNN
-F 3 "~" H 2000 7300 50  0001 C CNN
-	1    2000 7300
-	0    1    1    0   
+F 0 "#FLG02" H 1600 6975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1600 7050 50  0000 C CNN
+F 2 "" H 1600 6900 50  0001 C CNN
+F 3 "~" H 1600 6900 50  0001 C CNN
+	1    1600 6900
+	-1   0    0    1   
 $EndComp
 NoConn ~ 8100 7550
 $Comp
@@ -3105,10 +3096,6 @@ $EndComp
 Text Notes 1200 8600 0    39   ~ 0
 3. PCB ground connects\nto battery- via MM LOAD-\nand MM DC-
 Wire Wire Line
-	1900 6850 1900 7000
-Wire Wire Line
-	1900 6850 2150 6850
-Wire Wire Line
 	2150 6850 2500 6850
 Connection ~ 2750 6850
 Wire Wire Line
@@ -3461,4 +3448,13 @@ F 3 "" H 1450 10240 30  0001 C CNN
 	1    1450 10150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2000 6850 2150 6850
+Wire Wire Line
+	1600 6850 1600 6900
+Wire Wire Line
+	1600 6850 1950 6850
+Connection ~ 1600 6850
+Wire Wire Line
+	1600 6800 1600 6850
 $EndSCHEMATC
