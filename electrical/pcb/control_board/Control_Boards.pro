@@ -1,4 +1,4 @@
-update=Tuesday, June 07, 2022 at 11:11:52 PM
+update=Sunday, February 26, 2023 at 09:12:04 PM
 version=1
 last_client=kicad
 [general]
@@ -260,7 +260,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Motor
 Clearance=0.2
-TrackWidth=1
+TrackWidth=1.2
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
