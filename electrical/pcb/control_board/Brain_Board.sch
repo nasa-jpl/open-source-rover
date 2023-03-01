@@ -1881,10 +1881,10 @@ Voltage pins can be used \nto test for good connectivity \nbrain <-> motor board
 Text Notes 5100 3150 0    31   ~ 0
 Note: laid out the pins on this connector so that \nit wouldn’t be disastrous if the direction was \naccidentally switched (but please don’t try it)
 $Comp
-L JPL_Robotics_Lib:+5V_brain #PWR?
+L JPL_Robotics_Lib:+5V_brain #PWR0115
 U 1 1 6441D809
 P 3600 2750
-F 0 "#PWR?" H 3600 2600 50  0001 C CNN
+F 0 "#PWR0115" H 3600 2600 50  0001 C CNN
 F 1 "+5V_brain" H 3615 2915 39  0000 C CNN
 F 2 "" H 3600 2750 50  0001 C CNN
 F 3 "" H 3600 2750 50  0001 C CNN
