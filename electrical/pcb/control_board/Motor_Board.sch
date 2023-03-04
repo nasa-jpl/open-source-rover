@@ -3457,4 +3457,6 @@ Wire Wire Line
 Connection ~ 1600 6850
 Wire Wire Line
 	1600 6800 1600 6850
+Text Notes 2600 7150 0    30   ~ 0
+todo: rename to PWR
 $EndSCHEMATC
