@@ -287,19 +287,6 @@ Wire Wire Line
 	6300 1800 6500 1800
 Wire Wire Line
 	6300 1750 6500 1750
-$Comp
-L power:+BATT #PWR?
-U 1 1 60B1CBC9
-P 11950 1700
-AR Path="/60B1CBC9" Ref="#PWR?"  Part="1" 
-AR Path="/60A51BAC/60B1CBC9" Ref="#PWR036"  Part="1" 
-F 0 "#PWR036" H 11950 1550 50  0001 C CNN
-F 1 "+BATT" H 11965 1865 39  0000 C CNN
-F 2 "" H 11950 1700 50  0001 C CNN
-F 3 "" H 11950 1700 50  0001 C CNN
-	1    11950 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11950 1700 11950 1800
 $Comp
@@ -629,19 +616,6 @@ F 2 "JPL Robotics:AMASS_XT30U-M_1x02_P5.0mm_Vertical" H 1250 6000 30  0001 C CNN
 F 3 "" H 1250 6000 30  0001 C CNN
 	1    1250 5800
 	1    0    0    1   
-$EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 60B75387
-P 13400 8800
-AR Path="/60B75387" Ref="#PWR?"  Part="1" 
-AR Path="/60A51BAC/60B75387" Ref="#PWR040"  Part="1" 
-F 0 "#PWR040" H 13400 8650 50  0001 C CNN
-F 1 "+BATT" H 13350 8950 30  0000 C CNN
-F 2 "" H 13400 8800 50  0001 C CNN
-F 3 "" H 13400 8800 50  0001 C CNN
-	1    13400 8800
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3200 8150 3400 8150
@@ -1369,19 +1343,6 @@ F 3 "" H 14150 8150 50  0001 C CNN
 	1    14150 8150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 611C1BFC
-P 12300 7300
-AR Path="/611C1BFC" Ref="#PWR?"  Part="1" 
-AR Path="/60A51BAC/611C1BFC" Ref="#PWR038"  Part="1" 
-F 0 "#PWR038" H 12300 7150 50  0001 C CNN
-F 1 "+BATT" H 12300 7450 30  0000 C CNN
-F 2 "" H 12300 7300 50  0001 C CNN
-F 3 "" H 12300 7300 50  0001 C CNN
-	1    12300 7300
-	1    0    0    -1  
-$EndComp
 Text Notes 13800 3400 0    98   ~ 0
 Motor LEDs
 Text Label 13500 3650 0    50   ~ 0
@@ -1422,19 +1383,6 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 14190 3740
 F 3 "~" H 14150 3750 50  0001 C CNN
 	1    14150 3750
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+BATT #PWR?
-U 1 1 6132E899
-P 13750 3750
-AR Path="/6132E899" Ref="#PWR?"  Part="1" 
-AR Path="/60A51BAC/6132E899" Ref="#PWR046"  Part="1" 
-F 0 "#PWR046" H 13750 3600 50  0001 C CNN
-F 1 "+BATT" V 13750 4000 50  0000 C CNN
-F 2 "" H 13750 3750 50  0001 C CNN
-F 3 "" H 13750 3750 50  0001 C CNN
-	1    13750 3750
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	14300 3650 14400 3650
@@ -2503,16 +2451,12 @@ Text Label 2150 5750 2    30   ~ 0
 SWITCH+
 Text Label 2350 5650 0    30   ~ 0
 SWITCH-
-Text Notes 2300 7250 0    35   ~ 0
+Text Notes 2350 7400 0    35   ~ 0
 Power to Rover
 Wire Wire Line
 	3800 7300 4100 7300
-Wire Wire Line
-	3800 7400 4100 7400
 Text Label 4100 7300 2    30   ~ 0
 MMLOAD+
-Text Label 4100 7400 2    30   ~ 0
-+BATT
 NoConn ~ 6300 6400
 Wire Notes Line
 	2850 5650 3000 5650
@@ -2900,8 +2844,6 @@ F 3 "" H 3600 9700 50  0001 C CNN
 $EndComp
 Text Label 4300 10050 1    30   ~ 0
 BATTPOS
-Text Label 4500 10050 1    30   ~ 0
-+BATT
 $Comp
 L JPL_Robotics_Lib:+5V_motor #PWR0102
 U 1 1 64227DF0
@@ -2937,8 +2879,6 @@ F 3 "" H 3750 9700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4300 10050 4300 9700
-Wire Wire Line
-	4500 9700 4500 10050
 Wire Wire Line
 	14550 8800 14850 8800
 Wire Wire Line
@@ -3078,8 +3018,6 @@ F 3 "" H 4250 9500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 2150 6850
-Text Label 2500 7200 1    30   ~ 0
-+BATT
 $Comp
 L Device:R_US R?
 U 1 1 63E66B4C
@@ -3095,19 +3033,12 @@ F 3 "~" H 2750 6700 50  0001 C CNN
 $EndComp
 Text Notes 1200 8600 0    39   ~ 0
 3. PCB ground connects\nto battery- via MM LOAD-\nand MM DC-
-Wire Wire Line
-	2150 6850 2500 6850
 Connection ~ 2750 6850
 Wire Wire Line
 	2750 6850 2800 6850
 Connection ~ 2750 6550
 Wire Wire Line
 	2750 6550 2800 6550
-Wire Wire Line
-	2500 6850 2500 7200
-Connection ~ 2500 6850
-Wire Wire Line
-	2500 6850 2750 6850
 Text Notes 2600 6750 1    35   ~ 0
 (depop) Bypass \nfor INA260\n
 Wire Wire Line
@@ -3386,7 +3317,7 @@ Note D1 is not for protection against\naccidentally reversing the battery polari
 Wire Wire Line
 	12650 6000 12900 6000
 Text Notes 13100 4950 0    39   ~ 0
-- Power LEDs are normally on\n- Only BATTPOS (and +BATT) on when power switch is off\n- Alert only turns on when ina260 hits alert condition (bad)
+- Power LEDs are normally on\n- Only BATTPOS (and PWR) on when power switch is off\n- Alert only turns on when ina260 hits alert condition (bad)
 Text Notes 13100 4000 1    39   ~ 0
 Power LEDs
 Text Notes 10000 8900 0    31   ~ 0
@@ -3457,6 +3388,90 @@ Wire Wire Line
 Connection ~ 1600 6850
 Wire Wire Line
 	1600 6800 1600 6850
-Text Notes 2600 7150 0    30   ~ 0
-todo: rename to PWR
+$Comp
+L JPL_Robotics_Lib:PWR #PWR0116
+U 1 1 64530F12
+P 11950 1700
+F 0 "#PWR0116" H 11950 1575 50  0001 C CNN
+F 1 "PWR" H 11965 1873 50  0000 C CNN
+F 2 "" H 11950 1700 50  0001 C CNN
+F 3 "" H 11950 1700 50  0001 C CNN
+	1    11950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:PWR #PWR0117
+U 1 1 64531301
+P 2500 7100
+F 0 "#PWR0117" H 2500 6975 50  0001 C CNN
+F 1 "PWR" H 2515 7273 50  0000 C CNN
+F 2 "" H 2500 7100 50  0001 C CNN
+F 3 "" H 2500 7100 50  0001 C CNN
+	1    2500 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 6850 2500 6850
+Wire Wire Line
+	2500 7100 2500 6850
+Connection ~ 2500 6850
+Wire Wire Line
+	2500 6850 2750 6850
+$Comp
+L JPL_Robotics_Lib:PWR #PWR0118
+U 1 1 6456B4DD
+P 13750 3750
+F 0 "#PWR0118" H 13750 3625 50  0001 C CNN
+F 1 "PWR" V 13750 3900 50  0000 L CNN
+F 2 "" H 13750 3750 50  0001 C CNN
+F 3 "" H 13750 3750 50  0001 C CNN
+	1    13750 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:PWR #PWR0119
+U 1 1 6456FBEF
+P 13400 8800
+F 0 "#PWR0119" H 13400 8675 50  0001 C CNN
+F 1 "PWR" H 13350 8950 30  0000 L CNN
+F 2 "" H 13400 8800 50  0001 C CNN
+F 3 "" H 13400 8800 50  0001 C CNN
+	1    13400 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:PWR #PWR?
+U 1 1 645D6482
+P 12300 7300
+F 0 "#PWR?" H 12300 7175 50  0001 C CNN
+F 1 "PWR" H 12250 7450 30  0000 L CNN
+F 2 "" H 12300 7300 50  0001 C CNN
+F 3 "" H 12300 7300 50  0001 C CNN
+	1    12300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:PWR #PWR?
+U 1 1 645D7B4F
+P 4000 7400
+F 0 "#PWR?" H 4000 7275 50  0001 C CNN
+F 1 "PWR" V 4000 7550 50  0000 L CNN
+F 2 "" H 4000 7400 50  0001 C CNN
+F 3 "" H 4000 7400 50  0001 C CNN
+	1    4000 7400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 7400 4000 7400
+$Comp
+L JPL_Robotics_Lib:PWR #PWR?
+U 1 1 646A4465
+P 4500 9700
+F 0 "#PWR?" H 4500 9575 50  0001 C CNN
+F 1 "PWR" V 4500 9850 28  0000 L CNN
+F 2 "" H 4500 9700 50  0001 C CNN
+F 3 "" H 4500 9700 50  0001 C CNN
+	1    4500 9700
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

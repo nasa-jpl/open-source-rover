@@ -58,4 +58,9 @@ K 5A LDO linear voltage regulator adjustable positive
 F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
 $ENDCMP
 #
+$CMP PWR
+D Power symbol creates a global label with name "PWR"
+K power-flag board power
+$ENDCMP
+#
 #End Doc Library
