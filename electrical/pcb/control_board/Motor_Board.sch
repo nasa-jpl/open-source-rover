@@ -1346,7 +1346,7 @@ $EndComp
 Text Notes 13800 3400 0    98   ~ 0
 Motor LEDs
 Text Label 13500 3650 0    50   ~ 0
-BATTPOS
+BATT+
 $Comp
 L JPL_Robotics_Lib:+5V_motor #PWR048
 U 1 1 6132F3BA
@@ -2196,9 +2196,9 @@ EN is pulled up by default on the \nD24V22F12, enabling it. Connect \nEN directl
 Text Notes 13750 2750 0    31   ~ 0
 Note: laid out the pins on this connector so that \nit wouldn’t be disastrous if the direction was \naccidentally switched (but please don’t try it)
 Text Label 1400 5850 0    30   ~ 0
-BATTPOS
+BATT+
 Text Label 1400 5900 0    30   ~ 0
-BATTNEG
+BATT-
 $Comp
 L JPL_Robotics_Lib:XT60-F J?
 U 1 1 60B75520
@@ -2279,19 +2279,6 @@ F 2 "JPL Robotics:497-2738-5-ND" H 1850 5850 50  0001 C CNN
 F 3 "~" H 1850 5850 50  0001 C CNN
 	1    1850 5850
 	1    0    0    -1  
-$EndComp
-$Comp
-L JPL_Robotics_Lib:XT60-F J?
-U 1 1 60B75546
-P 2350 5500
-AR Path="/60B75546" Ref="J?"  Part="1" 
-AR Path="/60A51BAC/60B75546" Ref="J3"  Part="1" 
-F 0 "J3" V 2250 5650 30  0000 R CNN
-F 1 "XT30-F" V 2200 5700 30  0001 R CNN
-F 2 "JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 2350 5700 30  0001 C CNN
-F 3 "" H 2350 5700 30  0001 C CNN
-	1    2350 5500
-	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	2000 5650 2050 5650
@@ -2448,9 +2435,9 @@ Wire Wire Line
 	2500 5650 2300 5650
 Connection ~ 2500 5650
 Text Label 2150 5750 2    30   ~ 0
-SWITCH+
-Text Label 2350 5650 0    30   ~ 0
-SWITCH-
+switch_in
+Text Label 2450 5650 1    30   ~ 0
+switch_out
 Text Notes 2350 7400 0    35   ~ 0
 Power to Rover
 Wire Wire Line
@@ -2843,7 +2830,7 @@ F 3 "" H 3600 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4300 10050 1    30   ~ 0
-BATTPOS
+BATT+
 $Comp
 L JPL_Robotics_Lib:+5V_motor #PWR0102
 U 1 1 64227DF0
@@ -3313,11 +3300,11 @@ Text Notes 1100 6450 0    20   ~ 0
 D1 and R1 are protective circuitry for the roboclaw motors. \nSee page 41 of the roboclaw user manual for details: \nhttps://downloads.basicmicro.com/docs/roboclaw_user_manual.pdf 
 Connection ~ 1650 6050
 Text Notes 1100 6300 0    31   ~ 0
-Note D1 is not for protection against\naccidentally reversing the battery polarity!
+Note: D1 is NOT protection against\naccidentally reversing the battery polarity!
 Wire Wire Line
 	12650 6000 12900 6000
 Text Notes 13100 4950 0    39   ~ 0
-- Power LEDs are normally on\n- Only BATTPOS (and PWR) on when power switch is off\n- Alert only turns on when ina260 hits alert condition (bad)
+- Power LEDs are normally on\n- Only BATT+ (and PWR) on when power switch is off\n- Alert only turns on when ina260 hits alert condition (bad)
 Text Notes 13100 4000 1    39   ~ 0
 Power LEDs
 Text Notes 10000 8900 0    31   ~ 0
@@ -3440,10 +3427,10 @@ F 3 "" H 13400 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JPL_Robotics_Lib:PWR #PWR?
+L JPL_Robotics_Lib:PWR #PWR0120
 U 1 1 645D6482
 P 12300 7300
-F 0 "#PWR?" H 12300 7175 50  0001 C CNN
+F 0 "#PWR0120" H 12300 7175 50  0001 C CNN
 F 1 "PWR" H 12250 7450 30  0000 L CNN
 F 2 "" H 12300 7300 50  0001 C CNN
 F 3 "" H 12300 7300 50  0001 C CNN
@@ -3451,10 +3438,10 @@ F 3 "" H 12300 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JPL_Robotics_Lib:PWR #PWR?
+L JPL_Robotics_Lib:PWR #PWR0121
 U 1 1 645D7B4F
 P 4000 7400
-F 0 "#PWR?" H 4000 7275 50  0001 C CNN
+F 0 "#PWR0121" H 4000 7275 50  0001 C CNN
 F 1 "PWR" V 4000 7550 50  0000 L CNN
 F 2 "" H 4000 7400 50  0001 C CNN
 F 3 "" H 4000 7400 50  0001 C CNN
@@ -3464,14 +3451,27 @@ $EndComp
 Wire Wire Line
 	3800 7400 4000 7400
 $Comp
-L JPL_Robotics_Lib:PWR #PWR?
+L JPL_Robotics_Lib:PWR #PWR0122
 U 1 1 646A4465
 P 4500 9700
-F 0 "#PWR?" H 4500 9575 50  0001 C CNN
+F 0 "#PWR0122" H 4500 9575 50  0001 C CNN
 F 1 "PWR" V 4500 9850 28  0000 L CNN
 F 2 "" H 4500 9700 50  0001 C CNN
 F 3 "" H 4500 9700 50  0001 C CNN
 	1    4500 9700
 	-1   0    0    1   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:XT60-F J?
+U 1 1 60B75546
+P 2350 5500
+AR Path="/60B75546" Ref="J?"  Part="1" 
+AR Path="/60A51BAC/60B75546" Ref="J3"  Part="1" 
+F 0 "J3" V 2250 5650 30  0000 R CNN
+F 1 "XT30-F" V 2200 5700 30  0001 R CNN
+F 2 "JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 2350 5700 30  0001 C CNN
+F 3 "" H 2350 5700 30  0001 C CNN
+	1    2350 5500
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
