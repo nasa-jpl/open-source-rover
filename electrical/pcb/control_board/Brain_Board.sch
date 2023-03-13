@@ -778,17 +778,6 @@ Text Label 10150 2950 0    39   ~ 0
 ESTOP_LED_3
 Text Label 9800 5050 2    50   ~ 0
 RXD_LED
-$Comp
-L JPL_Robotics_Lib:DC7G3HWA U6
-U 1 1 62C709B3
-P 4850 6650
-F 0 "U6" H 5400 7665 50  0000 C CNN
-F 1 "DC7G3HWA" H 5400 7574 50  0000 C CNN
-F 2 "JPL Robotics:DC7G3HWA_led_array" H 4850 6650 50  0001 C CNN
-F 3 "" H 4850 6650 50  0001 C CNN
-	1    4850 6650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 5900 5150 5900
 Wire Wire Line
@@ -821,26 +810,16 @@ F 3 "" H 5850 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 5900 5850 5900
-Wire Wire Line
 	5850 5900 5850 6000
-Wire Wire Line
-	5650 6800 5850 6800
 Connection ~ 5850 6800
 Wire Wire Line
 	5850 6800 5850 6950
-Wire Wire Line
-	5650 6700 5850 6700
 Connection ~ 5850 6700
 Wire Wire Line
 	5850 6700 5850 6800
-Wire Wire Line
-	5650 6600 5850 6600
 Connection ~ 5850 6600
 Wire Wire Line
 	5850 6600 5850 6700
-Wire Wire Line
-	5650 6000 5850 6000
 Connection ~ 5850 6000
 Wire Wire Line
 	5050 2600 5400 2600
@@ -1407,21 +1386,11 @@ F 3 "" H 5050 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5650 6100 6000 6100
-Wire Wire Line
-	5650 6200 6000 6200
-Wire Wire Line
-	5650 6300 6000 6300
-Wire Wire Line
-	5650 6400 6000 6400
-Wire Wire Line
 	5050 6100 5150 6100
 Wire Wire Line
 	5050 6200 5150 6200
 Wire Wire Line
 	5050 6300 5150 6300
-Wire Wire Line
-	5050 6400 5150 6400
 Wire Wire Line
 	6300 6400 6450 6400
 Wire Wire Line
@@ -1605,8 +1574,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 3700 3150 3700
 Wire Wire Line
-	5050 6500 5150 6500
-Wire Wire Line
 	5850 6000 5850 6600
 $Comp
 L Device:R_US R?
@@ -1624,8 +1591,6 @@ F 3 "~" H 6150 6500 50  0001 C CNN
 $EndComp
 Text Label 6450 6500 0    50   ~ 0
 RPI_LED_5
-Wire Wire Line
-	5650 6500 6000 6500
 Wire Wire Line
 	6300 6500 6450 6500
 $Comp
@@ -1890,5 +1855,40 @@ F 2 "" H 3600 2750 50  0001 C CNN
 F 3 "" H 3600 2750 50  0001 C CNN
 	1    3600 2750
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5650 6800 5850 6800
+Wire Wire Line
+	5650 6700 5850 6700
+Wire Wire Line
+	5650 6600 5850 6600
+Wire Wire Line
+	5650 6500 6000 6500
+Wire Wire Line
+	5650 6400 6000 6400
+Wire Wire Line
+	5650 6300 6000 6300
+Wire Wire Line
+	5650 6200 6000 6200
+Wire Wire Line
+	5650 6100 6000 6100
+Wire Wire Line
+	5650 6000 5850 6000
+Wire Wire Line
+	5650 5900 5850 5900
+Wire Wire Line
+	5050 6500 5150 6500
+Wire Wire Line
+	5050 6400 5150 6400
+$Comp
+L JPL_Robotics_Lib:DC7G3HWA U6
+U 1 1 62C709B3
+P 4850 6650
+F 0 "U6" H 5400 7665 50  0000 C CNN
+F 1 "DC7G3HWA" H 5400 7574 50  0000 C CNN
+F 2 "JPL Robotics:DC7G3HWA_led_array" H 4850 6650 50  0001 C CNN
+F 3 "" H 4850 6650 50  0001 C CNN
+	1    4850 6650
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
