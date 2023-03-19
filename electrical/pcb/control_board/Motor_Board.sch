@@ -715,12 +715,12 @@ $EndComp
 $Comp
 L JPL_Robotics_Lib:rover_silkscreen y1
 U 1 1 60953119
-P 1650 10400
-F 0 "y1" H 1828 10475 50  0000 L CNN
-F 1 "rover_silkscreen" H 1828 10430 50  0000 L CNN
-F 2 "JPL Robotics:rover_image" H 1500 10500 50  0001 C CNN
-F 3 "" H 1500 10500 50  0001 C CNN
-	1    1650 10400
+P 1250 10450
+F 0 "y1" H 1428 10525 50  0000 L CNN
+F 1 "rover_silkscreen" H 1428 10480 50  0000 L CNN
+F 2 "JPL Robotics:rover_image" H 1100 10550 50  0001 C CNN
+F 3 "" H 1100 10550 50  0001 C CNN
+	1    1250 10450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3473,5 +3473,16 @@ F 2 "JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical" H 2350 5700 30  0001 C CNN
 F 3 "" H 2350 5700 30  0001 C CNN
 	1    2350 5500
 	0    -1   1    0   
+$EndComp
+$Comp
+L JPL_Robotics_Lib:patch_silkscreen LOGO1
+U 1 1 643306E5
+P 2300 10450
+F 0 "LOGO1" H 2378 10496 50  0000 L CNN
+F 1 "patch_silkscreen" H 2378 10405 50  0000 L CNN
+F 2 "JPL Robotics:patch_logo_scaled" H 2300 10450 50  0001 C CNN
+F 3 "" H 2300 10450 50  0001 C CNN
+	1    2300 10450
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1891,4 +1891,30 @@ F 3 "" H 4850 6650 50  0001 C CNN
 	1    4850 6650
 	1    0    0    -1  
 $EndComp
+$Comp
+L JPL_Robotics_Lib:patch_silkscreen LOGO?
+U 1 1 6434DD2B
+P 2500 7000
+AR Path="/60A51BAC/6434DD2B" Ref="LOGO?"  Part="1" 
+AR Path="/60A5279E/6434DD2B" Ref="LOGO2"  Part="1" 
+F 0 "LOGO2" H 2578 7046 50  0000 L CNN
+F 1 "patch_silkscreen" H 2578 6955 50  0000 L CNN
+F 2 "JPL Robotics:patch_logo_scaled" H 2500 7000 50  0001 C CNN
+F 3 "" H 2500 7000 50  0001 C CNN
+	1    2500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L JPL_Robotics_Lib:rover_silkscreen y?
+U 1 1 6436AA72
+P 1550 7000
+AR Path="/60A51BAC/6436AA72" Ref="y?"  Part="1" 
+AR Path="/60A5279E/6436AA72" Ref="y2"  Part="1" 
+F 0 "y2" H 1728 7075 50  0000 L CNN
+F 1 "rover_silkscreen" H 1728 7030 50  0000 L CNN
+F 2 "JPL Robotics:rover_image" H 1400 7100 50  0001 C CNN
+F 3 "" H 1400 7100 50  0001 C CNN
+	1    1550 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

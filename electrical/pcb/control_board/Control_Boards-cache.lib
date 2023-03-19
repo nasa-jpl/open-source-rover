@@ -860,6 +860,18 @@ X 2 2 150 50 100 L 30 30 1 1 P
 ENDDRAW
 ENDDEF
 #
+# JPL_Robotics_Lib_patch_silkscreen
+#
+DEF JPL_Robotics_Lib_patch_silkscreen LOGO 0 40 Y Y 1 F N
+F0 "LOGO" 0 100 50 H V C CNN
+F1 "JPL_Robotics_Lib_patch_silkscreen" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 50 50 -50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # JPL_Robotics_Lib_rover_silkscreen
 #
 DEF JPL_Robotics_Lib_rover_silkscreen LOGO 0 40 Y Y 1 F N
