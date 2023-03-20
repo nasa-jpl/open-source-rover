@@ -1,0 +1,2912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/ktikennedy/git/open-source-rover/electrical/pcb/control_board/Control_Boards.sch</source>
+    <date>Sunday, March 19, 2023 at 02:06:29 PM</date>
+    <tool>Eeschema (5.1.10-1-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Control_Boards.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Motor Board/" tstamps="/60A51BAC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Motor_Board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Brain Board/" tstamps="/60A5279E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Brain_Board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="RC1">
+      <value>RoboClaw</value>
+      <footprint>JPL Robotics:roboclaw_mount</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="RoboClaw" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60AB7AB8</tstamp>
+    </comp>
+    <comp ref="RC3">
+      <value>RoboClaw</value>
+      <footprint>JPL Robotics:roboclaw_mount</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="RoboClaw" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60AB7ADA</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CBD0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CBD7</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CCBE</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CCCC</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CCDA</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CCE8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CCF6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CD04</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CD12</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CD20</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CD2E</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CD3C</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CD4A</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CD58</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>XT30-M</value>
+      <footprint>JPL Robotics:AMASS_XT30U-M_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="XT60-F" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B75381</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>ED2580-ND</value>
+      <footprint>JPL Robotics:ED2580-ND</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="ED2580-ND" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B75504</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>#4THRU-HOLE</value>
+      <footprint>JPL Robotics:#4THRU-HOLE</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60953101</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>#4THRU-HOLE</value>
+      <footprint>JPL Robotics:#4THRU-HOLE</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60953107</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>#4THRU-HOLE</value>
+      <footprint>JPL Robotics:#4THRU-HOLE</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6095310D</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>#4THRU-HOLE</value>
+      <footprint>JPL Robotics:#4THRU-HOLE</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60953113</tstamp>
+    </comp>
+    <comp ref="y1">
+      <value>rover_silkscreen</value>
+      <footprint>JPL Robotics:rover_image</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="rover_silkscreen" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60953119</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Molex_172675-0613</value>
+      <footprint>JPL Robotics:Molex_172675-0613</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="Molex_172675-0613" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60A58E9D</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Molex_172675-0613</value>
+      <footprint>JPL Robotics:Molex_172675-0613</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="Molex_172675-0613" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60ACADF7</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Molex_172675-0613</value>
+      <footprint>JPL Robotics:Molex_172675-0613</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="Molex_172675-0613" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60ACBA13</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Molex_172675-0613</value>
+      <footprint>JPL Robotics:Molex_172675-0613</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="Molex_172675-0613" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60ACC18D</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Molex_172675-0613</value>
+      <footprint>JPL Robotics:Molex_172675-0613</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="Molex_172675-0613" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60ACDDFA</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Molex_172675-0613</value>
+      <footprint>JPL Robotics:Molex_172675-0613</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="Molex_172675-0613" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60ACE52F</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>277-11404-ND</value>
+      <footprint>JPL Robotics:277-11404-ND</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="ED2627-ND" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CB30</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>277-11404-ND</value>
+      <footprint>JPL Robotics:277-11404-ND</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="ED2627-ND" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CB18</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>277-11404-ND</value>
+      <footprint>JPL Robotics:277-11404-ND</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="ED2627-ND" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B1CB0E</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6116B053</tstamp>
+    </comp>
+    <comp ref="RC2">
+      <value>RoboClaw</value>
+      <footprint>JPL Robotics:roboclaw_mount</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="RoboClaw" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60AB7B1E</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>PPTC102LFBN-RC</value>
+      <footprint>JPL Robotics:PPTC102LFBN-RC</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="PPTC102LFBN-RC" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6099FCA6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>61145EF5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6115BE1A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6115C337</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>PEC08SAAN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="PEC08SAAN" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6127184F</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6139BB6C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>613EAEB5</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>680</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>615119DC</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>61511E53</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>61C52423</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>PCA9685</value>
+      <footprint>JPL Robotics:PCA9685_servo_controller</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="PCA9685" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>62C61D32</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>TSW-104-07-F-T</value>
+      <footprint>JPL Robotics:SSW-104-01-F-T</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="TSW-104-07-F-T" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>632C8AD7</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>TSW-104-07-F-T</value>
+      <footprint>JPL Robotics:SSW-104-01-F-T</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="TSW-104-07-F-T" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>641EB466</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>TSW-104-07-F-T</value>
+      <footprint>JPL Robotics:SSW-104-01-F-T</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="TSW-104-07-F-T" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>643E88FA</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>TSW-104-07-F-T</value>
+      <footprint>JPL Robotics:SSW-104-01-F-T</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="TSW-104-07-F-T" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>645C7CB2</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>64A76773</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>64A76999</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>64A76A51</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>D24V150Fx</value>
+      <footprint>JPL Robotics:D24V150Fx</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="D24V150Fx" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>652856E5</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>ED2580-ND</value>
+      <footprint>JPL Robotics:ED2580-ND</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="XT60-F" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B75520</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>XT30-M</value>
+      <footprint>JPL Robotics:AMASS_XT30U-M_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="XT60-F" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B7552F</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>XT30-F</value>
+      <footprint>JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="XT60-F" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B75529</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>JPL Robotics:696108003002_5x20_fuseholder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B7539F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>JPL Robotics:497-2738-5-ND</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B753A5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B7545A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>INA260</value>
+      <footprint>JPL Robotics:INA260</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="INA260" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>61BE6BDE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>61378A2A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>613B820D</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>620F44B3</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>D24V22Fx</value>
+      <footprint>JPL Robotics:D24V22Fx_regulator</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="D24V22Fx" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6213B507</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>DC7G3HWA</value>
+      <footprint>JPL Robotics:DC7G3HWA_led_array</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="DC7G3HWA" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6236264E</tstamp>
+    </comp>
+    <comp ref="MH9">
+      <value>brain_board_mounting_hole</value>
+      <footprint>JPL Robotics:brain_board_mounting_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>625AC662</tstamp>
+    </comp>
+    <comp ref="MH10">
+      <value>brain_board_mounting_hole</value>
+      <footprint>JPL Robotics:brain_board_mounting_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>625AC668</tstamp>
+    </comp>
+    <comp ref="MH11">
+      <value>brain_board_mounting_hole</value>
+      <footprint>JPL Robotics:brain_board_mounting_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>625AC66E</tstamp>
+    </comp>
+    <comp ref="MH12">
+      <value>brain_board_mounting_hole</value>
+      <footprint>JPL Robotics:brain_board_mounting_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>625AC674</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>62A1852A</tstamp>
+    </comp>
+    <comp ref="T7">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>640D2053</tstamp>
+    </comp>
+    <comp ref="T8">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6418F375</tstamp>
+    </comp>
+    <comp ref="T9">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6418F539</tstamp>
+    </comp>
+    <comp ref="T10">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6418F8CE</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6432D4AC</tstamp>
+    </comp>
+    <comp ref="T3">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6432DC9D</tstamp>
+    </comp>
+    <comp ref="T4">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>643602C9</tstamp>
+    </comp>
+    <comp ref="T5">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>64361769</tstamp>
+    </comp>
+    <comp ref="T6">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>64361B1F</tstamp>
+    </comp>
+    <comp ref="T2">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>64362AE7</tstamp>
+    </comp>
+    <comp ref="T12">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>642C6677</tstamp>
+    </comp>
+    <comp ref="T11">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6418FAFC</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>63E66B4C</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6406B999</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6406B9AF</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>68</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6406B9BB</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6498626E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>64986274</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>6498627A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>64F5B59B</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>MIC2937A-3.3WT</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf</datasheet>
+      <libsource lib="JPL_Robotics_Lib" part="MIC2937A-3.3WT" description="1.5A low dropout linear regulator, adjustable output, TO-220"/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>64D3685E</tstamp>
+    </comp>
+    <comp ref="MH5">
+      <value>#4THRU-HOLE</value>
+      <footprint>JPL Robotics:#4THRU-HOLE</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>63FDB1BE</tstamp>
+    </comp>
+    <comp ref="MH6">
+      <value>#4THRU-HOLE</value>
+      <footprint>JPL Robotics:#4THRU-HOLE</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>63FDB1C4</tstamp>
+    </comp>
+    <comp ref="MH8">
+      <value>#4THRU-HOLE</value>
+      <footprint>JPL Robotics:#4THRU-HOLE</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>63FDB1D0</tstamp>
+    </comp>
+    <comp ref="MH7">
+      <value>#4THRU-HOLE</value>
+      <footprint>JPL Robotics:#4THRU-HOLE</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>63FDB1CA</tstamp>
+    </comp>
+    <comp ref="MH17">
+      <value>#4THRU-HOLE</value>
+      <footprint>JPL Robotics:#4THRU-HOLE</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>64376E06</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>XT30-F</value>
+      <footprint>JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="XT60-F" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>60B75546</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>patch_silkscreen</value>
+      <footprint>JPL Robotics:patch_logo_scaled</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="patch_silkscreen" description=""/>
+      <sheetpath names="/Motor Board/" tstamps="/60A51BAC/"/>
+      <tstamp>643306E5</tstamp>
+    </comp>
+    <comp ref="J24">
+      <value>6posheader</value>
+      <footprint>JPL Robotics:455-1708-ND</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="6posheader" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>60A8A929</tstamp>
+    </comp>
+    <comp ref="J26">
+      <value>WM6548-ND</value>
+      <footprint>JPL Robotics:WM6548-ND</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="PEC10DAAN" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>60EE139B</tstamp>
+    </comp>
+    <comp ref="J27">
+      <value>PPTC021LFBN-RC</value>
+      <footprint>JPL Robotics:PPTC021LFBN-RC</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="PPTC021LFBN-RC" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>609D84ED</tstamp>
+    </comp>
+    <comp ref="J28">
+      <value>PPTC021LFBN-RC</value>
+      <footprint>JPL Robotics:PPTC021LFBN-RC</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="PPTC021LFBN-RC" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>60ED1AE6</tstamp>
+    </comp>
+    <comp ref="J29">
+      <value>PPTC021LFBN-RC</value>
+      <footprint>JPL Robotics:PPTC021LFBN-RC</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="PPTC021LFBN-RC" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>6103131A</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>6129D299</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>6129E305</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>612DF187</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>10nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>61326329</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>6132632F</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>61326335</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>613A99A2</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>613BCB40</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100nf</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>61420FF3</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>68</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>613A416D</tstamp>
+    </comp>
+    <comp ref="J25">
+      <value>SSW-104-01-F-T</value>
+      <footprint>JPL Robotics:SSW-104-01-F-T</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="SSW-104-01-F-T" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>61D7BA49</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>Mounting_Holes</value>
+      <footprint>JPL Robotics:raspberry_pi_3b</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="Mounting_Holes" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>61DB5332</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>CT206124-ND</value>
+      <footprint>JPL Robotics:CTS-206-124</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="CTS-206-124" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>61DFAF04</tstamp>
+    </comp>
+    <comp ref="MH13">
+      <value>brain_board_mounting_hole</value>
+      <footprint>JPL Robotics:brain_board_mounting_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>626D877C</tstamp>
+    </comp>
+    <comp ref="MH14">
+      <value>brain_board_mounting_hole</value>
+      <footprint>JPL Robotics:brain_board_mounting_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>626D8782</tstamp>
+    </comp>
+    <comp ref="MH15">
+      <value>brain_board_mounting_hole</value>
+      <footprint>JPL Robotics:brain_board_mounting_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>626D8788</tstamp>
+    </comp>
+    <comp ref="MH16">
+      <value>brain_board_mounting_hole</value>
+      <footprint>JPL Robotics:brain_board_mounting_hole</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="#6THRU-HOLE" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>626D878E</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>68</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>62FC3C34</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>68</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>62FDC871</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>82</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>63060529</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>82</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>63070EA8</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>82</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>630714EF</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>82</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>630718BC</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>S9175-ND_rpi_breakout</value>
+      <footprint>JPL Robotics:S9175-ND</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="S9175-ND_rpi_breakout" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>60A8A979</tstamp>
+    </comp>
+    <comp ref="J23">
+      <value>S9175-ND_rpi_breakout</value>
+      <footprint>JPL Robotics:S9175-ND</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="S9175-ND_rpi_breakout" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>60A8A8FC</tstamp>
+    </comp>
+    <comp ref="T13">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>6422F604</tstamp>
+    </comp>
+    <comp ref="T14">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>6428DE15</tstamp>
+    </comp>
+    <comp ref="T15">
+      <value>test_point</value>
+      <footprint>JPL Robotics:test_point</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="test_point" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>6428E0D4</tstamp>
+    </comp>
+    <comp ref="J30">
+      <value>PEC08SAAN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="PEC08SAAN" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>647A8080</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>64ADE81C</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>64C0012B</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>652DD0AB</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>654394E6</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>654A6BD6</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>655195EF</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>65519A0E</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>6563065F</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>82</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>65763FEC</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>658A1FA9</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>68</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>658D7F61</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>659206D7</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>68</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>659206DD</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>659D0B34</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>659D205C</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>DC7G3HWA</value>
+      <footprint>JPL Robotics:DC7G3HWA_led_array</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="DC7G3HWA" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>62C709B3</tstamp>
+    </comp>
+    <comp ref="LOGO2">
+      <value>patch_silkscreen</value>
+      <footprint>JPL Robotics:patch_logo_scaled</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="patch_silkscreen" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>6434DD2B</tstamp>
+    </comp>
+    <comp ref="y2">
+      <value>rover_silkscreen</value>
+      <footprint>JPL Robotics:rover_image</footprint>
+      <libsource lib="JPL_Robotics_Lib" part="rover_silkscreen" description=""/>
+      <sheetpath names="/Brain Board/" tstamps="/60A5279E/"/>
+      <tstamp>6436AA72</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="#6THRU-HOLE">
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">#6THRU-HOLE</field>
+      </fields>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="6posheader">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">6posheader</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="CTS-206-124">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">CTS-206-124</field>
+      </fields>
+      <pins>
+        <pin num="1" name="in1_1" type="passive"/>
+        <pin num="2" name="out1_1" type="passive"/>
+        <pin num="3" name="in1_2" type="passive"/>
+        <pin num="4" name="out1_2" type="passive"/>
+        <pin num="5" name="in2_1" type="passive"/>
+        <pin num="6" name="out2_1" type="passive"/>
+        <pin num="7" name="in2_2" type="passive"/>
+        <pin num="8" name="out2_2" type="passive"/>
+        <pin num="9" name="in3_1" type="passive"/>
+        <pin num="10" name="out3_1" type="passive"/>
+        <pin num="11" name="in3_2" type="passive"/>
+        <pin num="12" name="out3_2" type="passive"/>
+        <pin num="13" name="in4_1" type="passive"/>
+        <pin num="14" name="out4_1" type="passive"/>
+        <pin num="15" name="in4_2" type="passive"/>
+        <pin num="16" name="out4_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="D24V150Fx">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">D24V150Fx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PG" type="output"/>
+        <pin num="6" name="MOD" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="EN" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="VOUT" type="power_out"/>
+        <pin num="13" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="D24V22Fx">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">D24V22Fx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PG" type="output"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="DC7G3HWA">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DC7G3HWA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+        <pin num="17" name="~" type="passive"/>
+        <pin num="18" name="~" type="passive"/>
+        <pin num="19" name="~" type="passive"/>
+        <pin num="20" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="ED2580-ND">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ED2580-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="ED2627-ND">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ED2627-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="INA260">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA260</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+        <pin num="5" name="ALERT" type="input"/>
+        <pin num="6" name="VBUS" type="input"/>
+        <pin num="7" name="VIN+" type="power_in"/>
+        <pin num="8" name="VIN-" type="passive"/>
+        <pin num="9" name="VIN+" type="power_in"/>
+        <pin num="10" name="VIN-" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="MIC2937A-3.3WT">
+      <aliases>
+        <alias>MIC29302WT</alias>
+        <alias>MIC29502WT</alias>
+      </aliases>
+      <description>1.5A low dropout linear regulator, adjustable output, TO-220</description>
+      <docs>http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf</docs>
+      <footprints>
+        <fp>TO*220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC2937A-3.3WT</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="Molex_172675-0613">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Molex_172675-0613</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="Mounting_Holes">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Mounting_Holes</field>
+      </fields>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="PCA9685">
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">PCA9685</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SDA" type="input"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="OE" type="input"/>
+        <pin num="6" name="SIG_GND" type="input"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="PWM_CHANNEL_0" type="output"/>
+        <pin num="10" name="PWM_GND" type="output"/>
+        <pin num="11" name="PWM_V+" type="output"/>
+        <pin num="12" name="PWM_CHANNEL_1" type="output"/>
+        <pin num="13" name="PWM_GND_CHANNEL_1" type="NotConnected"/>
+        <pin num="14" name="PWM_V+_CHANNEL_1" type="NotConnected"/>
+        <pin num="15" name="PWM_CHANNEL_2" type="output"/>
+        <pin num="16" name="PWM_GND_CHANNEL_2" type="NotConnected"/>
+        <pin num="17" name="PWM_V+_CHANNEL_2" type="NotConnected"/>
+        <pin num="18" name="PWM_CHANNEL_3" type="output"/>
+        <pin num="19" name="PWM_GND_CHANNEL_3" type="NotConnected"/>
+        <pin num="20" name="PWM_V+_CHANNEL_3" type="NotConnected"/>
+        <pin num="21" name="PWM_CHANNEL_4" type="output"/>
+        <pin num="22" name="PWM_GND_CHANNEL_4" type="NotConnected"/>
+        <pin num="23" name="PWM_V+_CHANNEL_4" type="NotConnected"/>
+        <pin num="24" name="PWM_CHANNEL_5" type="output"/>
+        <pin num="25" name="PWM_GND_CHANNEL_5" type="NotConnected"/>
+        <pin num="26" name="PWM_V+_CHANNEL_5" type="NotConnected"/>
+        <pin num="27" name="PWM_CHANNEL_6" type="output"/>
+        <pin num="28" name="PWM_GND_CHANNEL_6" type="NotConnected"/>
+        <pin num="29" name="PWM_V+_CHANNEL_6" type="NotConnected"/>
+        <pin num="30" name="PWM_CHANNEL_7" type="output"/>
+        <pin num="31" name="PWM_GND_CHANNEL_7" type="NotConnected"/>
+        <pin num="32" name="PWM_V+_CHANNEL_7" type="NotConnected"/>
+        <pin num="33" name="PWM_CHANNEL_8" type="output"/>
+        <pin num="34" name="PWM_GND_CHANNEL_8" type="NotConnected"/>
+        <pin num="35" name="PWM_V+_CHANNEL_8" type="NotConnected"/>
+        <pin num="36" name="PWM_CHANNEL_9" type="output"/>
+        <pin num="37" name="PWM_GND_CHANNEL_9" type="NotConnected"/>
+        <pin num="38" name="PWM_V+_CHANNEL_9" type="NotConnected"/>
+        <pin num="39" name="PWM_CHANNEL_10" type="output"/>
+        <pin num="40" name="PWM_GND_CHANNEL_10" type="NotConnected"/>
+        <pin num="41" name="PWM_V+_CHANNEL_10" type="NotConnected"/>
+        <pin num="42" name="PWM_CHANNEL_11" type="output"/>
+        <pin num="43" name="PWM_GND_CHANNEL_11" type="NotConnected"/>
+        <pin num="44" name="PWM_V+_CHANNEL_11" type="NotConnected"/>
+        <pin num="45" name="PWM_CHANNEL_12" type="output"/>
+        <pin num="46" name="PWM_GND_CHANNEL_12" type="NotConnected"/>
+        <pin num="47" name="PWM_V+_CHANNEL_12" type="NotConnected"/>
+        <pin num="48" name="PWM_CHANNEL_13" type="output"/>
+        <pin num="49" name="PWM_GND_CHANNEL_13" type="NotConnected"/>
+        <pin num="50" name="PWM_V+_CHANNEL_13" type="NotConnected"/>
+        <pin num="51" name="PWM_CHANNEL_14" type="output"/>
+        <pin num="52" name="PWM_GND_CHANNEL_14" type="NotConnected"/>
+        <pin num="53" name="PWM_V+_CHANNEL_14" type="NotConnected"/>
+        <pin num="54" name="PWM_CHANNEL_15" type="output"/>
+        <pin num="55" name="PWM_GND_CHANNEL_15" type="NotConnected"/>
+        <pin num="56" name="PWM_V+_CHANNEL_15" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="PEC08SAAN">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PEC08SAAN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="PEC10DAAN">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PEC10DAAN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="PPTC021LFBN-RC">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PPTC021LFBN-RC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="PPTC102LFBN-RC">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PPTC102LFBN-RC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="RoboClaw">
+      <fields>
+        <field name="Reference">RC</field>
+        <field name="Value">RoboClaw</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LB+" type="power_in"/>
+        <pin num="2" name="LB-" type="power_in"/>
+        <pin num="3" name="PWR1+" type="power_in"/>
+        <pin num="4" name="PWR1-" type="power_in"/>
+        <pin num="5" name="PWR2+" type="power_in"/>
+        <pin num="6" name="PWR2-" type="power_in"/>
+        <pin num="7" name="EN1A" type="input"/>
+        <pin num="8" name="EN1B" type="input"/>
+        <pin num="9" name="EN2A" type="input"/>
+        <pin num="10" name="EN2B" type="input"/>
+        <pin num="11" name="S1PWR" type="power_in"/>
+        <pin num="12" name="S1GND" type="power_in"/>
+        <pin num="13" name="S2PWR" type="power_in"/>
+        <pin num="14" name="S2GND" type="power_in"/>
+        <pin num="15" name="S3PWR" type="power_in"/>
+        <pin num="16" name="S3GND" type="power_in"/>
+        <pin num="17" name="S4PWR" type="power_in"/>
+        <pin num="18" name="S4GND" type="power_in"/>
+        <pin num="19" name="S5PWR" type="power_in"/>
+        <pin num="20" name="S5GND" type="power_in"/>
+        <pin num="21" name="S1I/O" type="BiDi"/>
+        <pin num="22" name="S2I/0" type="BiDi"/>
+        <pin num="23" name="S3I/O" type="BiDi"/>
+        <pin num="24" name="S4I/O" type="BiDi"/>
+        <pin num="25" name="S5I/O" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="S9175-ND_rpi_breakout">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">S9175-ND_rpi_breakout</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3.3V" type="passive"/>
+        <pin num="2" name="5V" type="power_in"/>
+        <pin num="3" name="SDA1" type="passive"/>
+        <pin num="4" name="5V" type="power_in"/>
+        <pin num="5" name="SCL1" type="passive"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GPIO_GCLK" type="passive"/>
+        <pin num="8" name="TXD0" type="passive"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="RXD0" type="passive"/>
+        <pin num="11" name="GPIO_GEN0" type="passive"/>
+        <pin num="12" name="GPIO_GEN1" type="passive"/>
+        <pin num="13" name="GPIO_GEN2" type="passive"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="GPIO_GEN3" type="passive"/>
+        <pin num="16" name="GPIO_GEN4" type="passive"/>
+        <pin num="17" name="3.3V" type="passive"/>
+        <pin num="18" name="GPIO_GEN5" type="passive"/>
+        <pin num="19" name="SPI_MOSI" type="passive"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="SPI_MISO" type="passive"/>
+        <pin num="22" name="GPIO_GEN6" type="passive"/>
+        <pin num="23" name="SPI_CLK" type="passive"/>
+        <pin num="24" name="SPI_CEO_N" type="passive"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="SPI_CE1_N" type="passive"/>
+        <pin num="27" name="EEPROM_ID_SD" type="passive"/>
+        <pin num="28" name="EEPROM_ID_SC" type="passive"/>
+        <pin num="29" name="GPIO05" type="passive"/>
+        <pin num="30" name="GND" type="power_in"/>
+        <pin num="31" name="GPIO06" type="passive"/>
+        <pin num="32" name="GPIO12" type="passive"/>
+        <pin num="33" name="GPIO13" type="passive"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="GPIO19" type="passive"/>
+        <pin num="36" name="GPIO16" type="passive"/>
+        <pin num="37" name="GPIO26" type="passive"/>
+        <pin num="38" name="GPIO20" type="passive"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GPIO21" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="SSW-104-01-F-T">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SSW-104-01-F-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="TSW-104-07-F-T">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TSW-104-07-F-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="XT60-F">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XT60-F</field>
+        <field name="Footprint">JPL Robotics:AMASS_XT60-F_1x02_P7.20mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="patch_silkscreen">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">patch_silkscreen</field>
+      </fields>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="rover_silkscreen">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">rover_silkscreen</field>
+      </fields>
+    </libpart>
+    <libpart lib="JPL_Robotics_Lib" part="test_point">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">test_point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3906">
+      <aliases>
+        <alias>2N3905</alias>
+      </aliases>
+      <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3906-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3906</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Library/Application Support/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="JPL_Robotics_Lib">
+      <uri>/Users/ktikennedy/git/open-source-rover/electrical/pcb/control_board/JPL_Robotics_Lib.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Library/Application Support/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(RC1-Pad1)">
+      <node ref="RC1" pin="1"/>
+    </net>
+    <net code="2" name="/Motor Board/RC1EN2B">
+      <node ref="RC1" pin="10"/>
+      <node ref="C20" pin="1"/>
+      <node ref="J9" pin="6"/>
+    </net>
+    <net code="3" name="Net-(RC1-Pad11)">
+      <node ref="RC1" pin="11"/>
+    </net>
+    <net code="4" name="Net-(RC1-Pad12)">
+      <node ref="RC1" pin="12"/>
+    </net>
+    <net code="5" name="Net-(RC1-Pad13)">
+      <node ref="RC1" pin="13"/>
+    </net>
+    <net code="6" name="Net-(RC1-Pad14)">
+      <node ref="RC1" pin="14"/>
+    </net>
+    <net code="7" name="Net-(RC1-Pad15)">
+      <node ref="RC1" pin="15"/>
+    </net>
+    <net code="8" name="Net-(RC1-Pad16)">
+      <node ref="RC1" pin="16"/>
+    </net>
+    <net code="9" name="Net-(RC1-Pad17)">
+      <node ref="RC1" pin="17"/>
+    </net>
+    <net code="10" name="Net-(RC1-Pad18)">
+      <node ref="RC1" pin="18"/>
+    </net>
+    <net code="11" name="Net-(RC1-Pad19)">
+      <node ref="RC1" pin="19"/>
+    </net>
+    <net code="12" name="Net-(RC1-Pad2)">
+      <node ref="RC1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(RC1-Pad20)">
+      <node ref="RC1" pin="20"/>
+    </net>
+    <net code="14" name="/Motor Board/TXD">
+      <node ref="RC2" pin="21"/>
+      <node ref="J21" pin="3"/>
+      <node ref="RC1" pin="21"/>
+      <node ref="J20" pin="5"/>
+      <node ref="RC3" pin="21"/>
+    </net>
+    <net code="15" name="/Motor Board/RXD">
+      <node ref="RC3" pin="22"/>
+      <node ref="J20" pin="6"/>
+      <node ref="J21" pin="4"/>
+      <node ref="RC2" pin="22"/>
+      <node ref="RC1" pin="22"/>
+    </net>
+    <net code="16" name="Net-(RC1-Pad3)">
+      <node ref="RC1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(RC1-Pad4)">
+      <node ref="RC1" pin="4"/>
+    </net>
+    <net code="18" name="Net-(RC1-Pad5)">
+      <node ref="RC1" pin="5"/>
+    </net>
+    <net code="19" name="Net-(RC1-Pad6)">
+      <node ref="RC1" pin="6"/>
+    </net>
+    <net code="20" name="/Motor Board/RC1EN1A">
+      <node ref="C13" pin="1"/>
+      <node ref="J8" pin="5"/>
+      <node ref="RC1" pin="7"/>
+    </net>
+    <net code="21" name="/Motor Board/RC1EN2A">
+      <node ref="RC1" pin="9"/>
+      <node ref="J9" pin="5"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="22" name="/Motor Board/RC1EN1B">
+      <node ref="RC1" pin="8"/>
+      <node ref="J8" pin="6"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="23" name="Net-(RC3-Pad1)">
+      <node ref="RC3" pin="1"/>
+    </net>
+    <net code="24" name="/Motor Board/RC3EN2B">
+      <node ref="J14" pin="6"/>
+      <node ref="RC3" pin="10"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="25" name="Net-(RC3-Pad11)">
+      <node ref="RC3" pin="11"/>
+    </net>
+    <net code="26" name="Net-(RC3-Pad12)">
+      <node ref="RC3" pin="12"/>
+    </net>
+    <net code="27" name="Net-(RC3-Pad13)">
+      <node ref="RC3" pin="13"/>
+    </net>
+    <net code="28" name="Net-(RC3-Pad14)">
+      <node ref="RC3" pin="14"/>
+    </net>
+    <net code="29" name="Net-(RC3-Pad15)">
+      <node ref="RC3" pin="15"/>
+    </net>
+    <net code="30" name="Net-(RC3-Pad16)">
+      <node ref="RC3" pin="16"/>
+    </net>
+    <net code="31" name="Net-(RC3-Pad17)">
+      <node ref="RC3" pin="17"/>
+    </net>
+    <net code="32" name="Net-(RC3-Pad18)">
+      <node ref="RC3" pin="18"/>
+    </net>
+    <net code="33" name="Net-(RC3-Pad19)">
+      <node ref="RC3" pin="19"/>
+    </net>
+    <net code="34" name="Net-(RC3-Pad2)">
+      <node ref="RC3" pin="2"/>
+    </net>
+    <net code="35" name="Net-(RC3-Pad20)">
+      <node ref="RC3" pin="20"/>
+    </net>
+    <net code="36" name="Net-(RC3-Pad3)">
+      <node ref="RC3" pin="3"/>
+    </net>
+    <net code="37" name="Net-(RC3-Pad4)">
+      <node ref="RC3" pin="4"/>
+    </net>
+    <net code="38" name="Net-(RC3-Pad5)">
+      <node ref="RC3" pin="5"/>
+    </net>
+    <net code="39" name="Net-(RC3-Pad6)">
+      <node ref="RC3" pin="6"/>
+    </net>
+    <net code="40" name="/Motor Board/RC2EN1A">
+      <node ref="RC2" pin="7"/>
+      <node ref="J10" pin="5"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="41" name="/Motor Board/RC2EN2A">
+      <node ref="C9" pin="1"/>
+      <node ref="J11" pin="5"/>
+      <node ref="RC2" pin="9"/>
+    </net>
+    <net code="42" name="/Motor Board/RC2EN1B">
+      <node ref="C4" pin="1"/>
+      <node ref="J10" pin="6"/>
+      <node ref="RC2" pin="8"/>
+    </net>
+    <net code="43" name="/Motor Board/RC2EN2B">
+      <node ref="C10" pin="1"/>
+      <node ref="J11" pin="6"/>
+      <node ref="RC2" pin="10"/>
+    </net>
+    <net code="44" name="/Motor Board/RC3EN1A">
+      <node ref="C14" pin="1"/>
+      <node ref="J13" pin="5"/>
+      <node ref="RC3" pin="7"/>
+    </net>
+    <net code="45" name="/Motor Board/RC3EN2A">
+      <node ref="C18" pin="1"/>
+      <node ref="RC3" pin="9"/>
+      <node ref="J14" pin="5"/>
+    </net>
+    <net code="46" name="/Motor Board/RC3EN1B">
+      <node ref="C16" pin="1"/>
+      <node ref="J13" pin="6"/>
+      <node ref="RC3" pin="8"/>
+    </net>
+    <net code="47" name="/Motor Board/E_STOP">
+      <node ref="R12" pin="1"/>
+      <node ref="J21" pin="19"/>
+      <node ref="R2" pin="1"/>
+      <node ref="RC1" pin="23"/>
+      <node ref="RC2" pin="23"/>
+      <node ref="RC3" pin="23"/>
+    </net>
+    <net code="48" name="Net-(RC2-Pad3)">
+      <node ref="RC2" pin="3"/>
+    </net>
+    <net code="49" name="Net-(RC2-Pad5)">
+      <node ref="RC2" pin="5"/>
+    </net>
+    <net code="50" name="Net-(RC2-Pad11)">
+      <node ref="RC2" pin="11"/>
+    </net>
+    <net code="51" name="Net-(RC2-Pad13)">
+      <node ref="RC2" pin="13"/>
+    </net>
+    <net code="52" name="Net-(RC2-Pad15)">
+      <node ref="RC2" pin="15"/>
+    </net>
+    <net code="53" name="Net-(RC2-Pad17)">
+      <node ref="RC2" pin="17"/>
+    </net>
+    <net code="54" name="Net-(RC2-Pad19)">
+      <node ref="RC2" pin="19"/>
+    </net>
+    <net code="55" name="Net-(RC2-Pad4)">
+      <node ref="RC2" pin="4"/>
+    </net>
+    <net code="56" name="Net-(RC2-Pad6)">
+      <node ref="RC2" pin="6"/>
+    </net>
+    <net code="57" name="Net-(RC2-Pad12)">
+      <node ref="RC2" pin="12"/>
+    </net>
+    <net code="58" name="Net-(RC2-Pad14)">
+      <node ref="RC2" pin="14"/>
+    </net>
+    <net code="59" name="Net-(RC2-Pad16)">
+      <node ref="RC2" pin="16"/>
+    </net>
+    <net code="60" name="Net-(RC2-Pad18)">
+      <node ref="RC2" pin="18"/>
+    </net>
+    <net code="61" name="Net-(RC2-Pad20)">
+      <node ref="RC2" pin="20"/>
+    </net>
+    <net code="62" name="PWR">
+      <node ref="R30" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U3" pin="3"/>
+      <node ref="T6" pin="1"/>
+      <node ref="T12" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="J16" pin="3"/>
+      <node ref="J17" pin="3"/>
+      <node ref="J18" pin="3"/>
+    </net>
+    <net code="63" name="GND_motor">
+      <node ref="C15" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="10"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J9" pin="3"/>
+      <node ref="J10" pin="3"/>
+      <node ref="J11" pin="3"/>
+      <node ref="J13" pin="3"/>
+      <node ref="J14" pin="3"/>
+      <node ref="J15" pin="9"/>
+      <node ref="J15" pin="6"/>
+      <node ref="J15" pin="3"/>
+      <node ref="J18" pin="4"/>
+      <node ref="J15" pin="12"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J17" pin="4"/>
+      <node ref="J16" pin="4"/>
+      <node ref="C19" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J12" pin="9"/>
+      <node ref="J12" pin="6"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J12" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J12" pin="12"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="J7" pin="9"/>
+      <node ref="C18" pin="2"/>
+      <node ref="J7" pin="6"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J7" pin="12"/>
+      <node ref="J21" pin="5"/>
+      <node ref="J21" pin="6"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J20" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J19" pin="9"/>
+      <node ref="J19" pin="6"/>
+      <node ref="J19" pin="3"/>
+      <node ref="J19" pin="12"/>
+      <node ref="U5" pin="11"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U5" pin="14"/>
+      <node ref="U5" pin="15"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U5" pin="17"/>
+      <node ref="U5" pin="18"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U5" pin="19"/>
+      <node ref="U5" pin="20"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="T7" pin="1"/>
+    </net>
+    <net code="64" name="+5V_motor">
+      <node ref="T9" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U4" pin="12"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="J8" pin="4"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="J9" pin="4"/>
+      <node ref="J19" pin="11"/>
+      <node ref="J19" pin="2"/>
+      <node ref="J19" pin="5"/>
+      <node ref="J10" pin="4"/>
+      <node ref="J19" pin="8"/>
+      <node ref="J11" pin="4"/>
+      <node ref="J20" pin="3"/>
+      <node ref="J13" pin="4"/>
+      <node ref="J14" pin="4"/>
+      <node ref="J15" pin="8"/>
+      <node ref="J15" pin="5"/>
+      <node ref="J15" pin="2"/>
+      <node ref="J15" pin="11"/>
+      <node ref="J7" pin="11"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J21" pin="2"/>
+      <node ref="J7" pin="8"/>
+      <node ref="J21" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="J12" pin="8"/>
+      <node ref="J12" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J12" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J12" pin="11"/>
+    </net>
+    <net code="65" name="+12V_motor">
+      <node ref="T10" pin="1"/>
+      <node ref="J21" pin="9"/>
+      <node ref="U3" pin="5"/>
+      <node ref="J20" pin="4"/>
+      <node ref="J6" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J21" pin="10"/>
+    </net>
+    <net code="66" name="/Motor Board/E_STOP2">
+      <node ref="R13" pin="1"/>
+      <node ref="J21" pin="20"/>
+      <node ref="RC2" pin="24"/>
+      <node ref="RC3" pin="24"/>
+      <node ref="RC1" pin="24"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="67" name="/Motor Board/SCL_rpi">
+      <node ref="U2" pin="4"/>
+      <node ref="J21" pin="7"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J20" pin="7"/>
+    </net>
+    <net code="68" name="/Motor Board/SDA_rpi">
+      <node ref="U2" pin="3"/>
+      <node ref="J21" pin="8"/>
+      <node ref="J20" pin="8"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="69" name="/Motor Board/alert">
+      <node ref="U1" pin="5"/>
+      <node ref="J21" pin="17"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="70" name="/Motor Board/RC3M1A">
+      <node ref="J18" pin="1"/>
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="71" name="/Motor Board/RC3M1B">
+      <node ref="J18" pin="2"/>
+      <node ref="J13" pin="2"/>
+    </net>
+    <net code="72" name="/Motor Board/RC3M2A">
+      <node ref="J18" pin="5"/>
+      <node ref="J14" pin="1"/>
+    </net>
+    <net code="73" name="/Motor Board/RC3M2B">
+      <node ref="J18" pin="6"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="74" name="/Motor Board/RC2M1A">
+      <node ref="J17" pin="1"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="75" name="/Motor Board/RC2M1B">
+      <node ref="J17" pin="2"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="76" name="/Motor Board/RC2M2A">
+      <node ref="J17" pin="5"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="77" name="/Motor Board/RC2M2B">
+      <node ref="J17" pin="6"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="78" name="/Motor Board/RC1M1A">
+      <node ref="J8" pin="1"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="79" name="/Motor Board/RC1M1B">
+      <node ref="J8" pin="2"/>
+      <node ref="J16" pin="2"/>
+    </net>
+    <net code="80" name="/Motor Board/RC1M2A">
+      <node ref="J16" pin="5"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="81" name="/Motor Board/RC1M2B">
+      <node ref="J9" pin="2"/>
+      <node ref="J16" pin="6"/>
+    </net>
+    <net code="82" name="Net-(RC2-Pad1)">
+      <node ref="RC2" pin="1"/>
+    </net>
+    <net code="83" name="/Motor Board/E_STOP3">
+      <node ref="RC1" pin="25"/>
+      <node ref="RC3" pin="25"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="J21" pin="16"/>
+      <node ref="RC2" pin="25"/>
+    </net>
+    <net code="84" name="Net-(RC2-Pad2)">
+      <node ref="RC2" pin="2"/>
+    </net>
+    <net code="85" name="Net-(J21-Pad11)">
+      <node ref="J21" pin="11"/>
+    </net>
+    <net code="86" name="Net-(J21-Pad12)">
+      <node ref="J21" pin="12"/>
+    </net>
+    <net code="87" name="/Motor Board/OEservos">
+      <node ref="U2" pin="5"/>
+      <node ref="J21" pin="18"/>
+    </net>
+    <net code="88" name="+3.3V_motor">
+      <node ref="T8" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J21" pin="13"/>
+      <node ref="J21" pin="14"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J20" pin="2"/>
+    </net>
+    <net code="89" name="Net-(R6-Pad1)">
+      <node ref="U5" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="90" name="/Motor Board/BATT+">
+      <node ref="T11" pin="1"/>
+      <node ref="T1" pin="1"/>
+      <node ref="F1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="91" name="Net-(R7-Pad1)">
+      <node ref="U5" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="92" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="93" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="94" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="95" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="96" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="97" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="98" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="99" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="100" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="101" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="102" name="Net-(U2-Pad20)">
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="103" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="104" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="105" name="Net-(U2-Pad25)">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="106" name="Net-(U2-Pad26)">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="107" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="108" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="109" name="Net-(U2-Pad31)">
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="110" name="Net-(U2-Pad32)">
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="111" name="Net-(U2-Pad34)">
+      <node ref="U2" pin="34"/>
+    </net>
+    <net code="112" name="Net-(U2-Pad35)">
+      <node ref="U2" pin="35"/>
+    </net>
+    <net code="113" name="Net-(U2-Pad37)">
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="114" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="115" name="Net-(U2-Pad40)">
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="116" name="Net-(U2-Pad41)">
+      <node ref="U2" pin="41"/>
+    </net>
+    <net code="117" name="Net-(U2-Pad43)">
+      <node ref="U2" pin="43"/>
+    </net>
+    <net code="118" name="Net-(U2-Pad44)">
+      <node ref="U2" pin="44"/>
+    </net>
+    <net code="119" name="Net-(U2-Pad46)">
+      <node ref="U2" pin="46"/>
+    </net>
+    <net code="120" name="Net-(U2-Pad47)">
+      <node ref="U2" pin="47"/>
+    </net>
+    <net code="121" name="Net-(U2-Pad49)">
+      <node ref="U2" pin="49"/>
+    </net>
+    <net code="122" name="Net-(U2-Pad50)">
+      <node ref="U2" pin="50"/>
+    </net>
+    <net code="123" name="Net-(U2-Pad52)">
+      <node ref="U2" pin="52"/>
+    </net>
+    <net code="124" name="Net-(U2-Pad53)">
+      <node ref="U2" pin="53"/>
+    </net>
+    <net code="125" name="Net-(U2-Pad55)">
+      <node ref="U2" pin="55"/>
+    </net>
+    <net code="126" name="Net-(U2-Pad56)">
+      <node ref="U2" pin="56"/>
+    </net>
+    <net code="127" name="/Motor Board/servo_pwm_ch0">
+      <node ref="U2" pin="9"/>
+      <node ref="J19" pin="1"/>
+    </net>
+    <net code="128" name="/Motor Board/servo_pwm_ch1">
+      <node ref="U2" pin="12"/>
+      <node ref="J19" pin="4"/>
+    </net>
+    <net code="129" name="/Motor Board/servo_pwm_ch2">
+      <node ref="J19" pin="7"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="130" name="/Motor Board/servo_pwm_ch3">
+      <node ref="J19" pin="10"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="131" name="/Motor Board/servo_pwm_ch4">
+      <node ref="U2" pin="21"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="132" name="/Motor Board/servo_pwm_ch5">
+      <node ref="J7" pin="4"/>
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="133" name="/Motor Board/servo_pwm_ch6">
+      <node ref="U2" pin="27"/>
+      <node ref="J7" pin="7"/>
+    </net>
+    <net code="134" name="/Motor Board/servo_pwm_ch7">
+      <node ref="U2" pin="30"/>
+      <node ref="J7" pin="10"/>
+    </net>
+    <net code="135" name="/Motor Board/servo_pwm_ch8">
+      <node ref="U2" pin="33"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="136" name="/Motor Board/servo_pwm_ch9">
+      <node ref="J12" pin="4"/>
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="137" name="/Motor Board/servo_pwm_ch10">
+      <node ref="U2" pin="39"/>
+      <node ref="J12" pin="7"/>
+    </net>
+    <net code="138" name="/Motor Board/servo_pwm_ch11">
+      <node ref="U2" pin="42"/>
+      <node ref="J12" pin="10"/>
+    </net>
+    <net code="139" name="/Motor Board/servo_pwm_ch12">
+      <node ref="U2" pin="45"/>
+      <node ref="J15" pin="1"/>
+    </net>
+    <net code="140" name="/Motor Board/servo_pwm_ch13">
+      <node ref="U2" pin="48"/>
+      <node ref="J15" pin="4"/>
+    </net>
+    <net code="141" name="/Motor Board/servo_pwm_ch14">
+      <node ref="U2" pin="51"/>
+      <node ref="J15" pin="7"/>
+    </net>
+    <net code="142" name="/Motor Board/servo_pwm_ch15">
+      <node ref="U2" pin="54"/>
+      <node ref="J15" pin="10"/>
+    </net>
+    <net code="143" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="144" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="145" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="146" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="147" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="148" name="/Motor Board/BATT-">
+      <node ref="J1" pin="1"/>
+      <node ref="T2" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="149" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="150" name="/Motor Board/MMLOAD+">
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="7"/>
+      <node ref="T5" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="151" name="/Motor Board/switch_in">
+      <node ref="T3" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="152" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="153" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="154" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="155" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="156" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="157" name="Net-(U5-Pad9)">
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="158" name="Net-(R21-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="159" name="/Motor Board/12V_EN">
+      <node ref="J21" pin="15"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="160" name="/Motor Board/switch_out">
+      <node ref="J3" pin="2"/>
+      <node ref="T4" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="161" name="Net-(Q1-Pad2)">
+      <node ref="R15" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="162" name="Net-(Q1-Pad3)">
+      <node ref="R24" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="163" name="/Motor Board/ALERT_LED">
+      <node ref="R24" pin="1"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="164" name="/Brain Board/TXD">
+      <node ref="J22" pin="8"/>
+      <node ref="J23" pin="8"/>
+      <node ref="D8" pin="1"/>
+      <node ref="J30" pin="5"/>
+      <node ref="J26" pin="3"/>
+    </net>
+    <net code="165" name="GND_brain">
+      <node ref="U6" pin="12"/>
+      <node ref="U6" pin="11"/>
+      <node ref="J24" pin="3"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U6" pin="19"/>
+      <node ref="J25" pin="9"/>
+      <node ref="J25" pin="6"/>
+      <node ref="J25" pin="3"/>
+      <node ref="J25" pin="12"/>
+      <node ref="J26" pin="5"/>
+      <node ref="J26" pin="6"/>
+      <node ref="C32" pin="2"/>
+      <node ref="J22" pin="14"/>
+      <node ref="J29" pin="2"/>
+      <node ref="J22" pin="20"/>
+      <node ref="J22" pin="25"/>
+      <node ref="J22" pin="30"/>
+      <node ref="J22" pin="34"/>
+      <node ref="J27" pin="2"/>
+      <node ref="J22" pin="39"/>
+      <node ref="J22" pin="6"/>
+      <node ref="J22" pin="9"/>
+      <node ref="J23" pin="14"/>
+      <node ref="J23" pin="20"/>
+      <node ref="J23" pin="25"/>
+      <node ref="J23" pin="30"/>
+      <node ref="J23" pin="34"/>
+      <node ref="J23" pin="39"/>
+      <node ref="J23" pin="6"/>
+      <node ref="J23" pin="9"/>
+      <node ref="U6" pin="20"/>
+      <node ref="J30" pin="1"/>
+      <node ref="J28" pin="2"/>
+    </net>
+    <net code="166" name="+12V_brain">
+      <node ref="J30" pin="4"/>
+      <node ref="J26" pin="9"/>
+      <node ref="J26" pin="10"/>
+      <node ref="J24" pin="1"/>
+    </net>
+    <net code="167" name="/Brain Board/SDA_rpi">
+      <node ref="J25" pin="7"/>
+      <node ref="J25" pin="4"/>
+      <node ref="J25" pin="10"/>
+      <node ref="J25" pin="1"/>
+      <node ref="J26" pin="8"/>
+      <node ref="J22" pin="3"/>
+      <node ref="J23" pin="3"/>
+      <node ref="J24" pin="5"/>
+      <node ref="J30" pin="8"/>
+    </net>
+    <net code="168" name="Net-(J24-Pad6)">
+      <node ref="J24" pin="6"/>
+    </net>
+    <net code="169" name="/Brain Board/SCL_rpi">
+      <node ref="J30" pin="7"/>
+      <node ref="J25" pin="8"/>
+      <node ref="J25" pin="5"/>
+      <node ref="J25" pin="2"/>
+      <node ref="J25" pin="11"/>
+      <node ref="J26" pin="7"/>
+      <node ref="J24" pin="4"/>
+      <node ref="J23" pin="5"/>
+      <node ref="J22" pin="5"/>
+    </net>
+    <net code="170" name="/Brain Board/E_STOP">
+      <node ref="T13" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="J26" pin="19"/>
+      <node ref="R36" pin="2"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="171" name="Net-(J26-Pad11)">
+      <node ref="J26" pin="11"/>
+    </net>
+    <net code="172" name="Net-(J26-Pad12)">
+      <node ref="J26" pin="12"/>
+    </net>
+    <net code="173" name="/Brain Board/12V_EN">
+      <node ref="J22" pin="18"/>
+      <node ref="J23" pin="18"/>
+      <node ref="J26" pin="15"/>
+    </net>
+    <net code="174" name="/Brain Board/E_STOP3">
+      <node ref="R38" pin="2"/>
+      <node ref="SW1" pin="11"/>
+      <node ref="SW1" pin="9"/>
+      <node ref="T15" pin="1"/>
+      <node ref="J26" pin="16"/>
+    </net>
+    <net code="175" name="/Brain Board/OEservos">
+      <node ref="J26" pin="18"/>
+      <node ref="J29" pin="1"/>
+      <node ref="J22" pin="15"/>
+      <node ref="J23" pin="15"/>
+    </net>
+    <net code="176" name="/Brain Board/E_STOP2">
+      <node ref="R37" pin="2"/>
+      <node ref="J26" pin="20"/>
+      <node ref="SW1" pin="7"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="T14" pin="1"/>
+    </net>
+    <net code="177" name="/Brain Board/ESTOP_in_2">
+      <node ref="SW1" pin="6"/>
+      <node ref="J27" pin="1"/>
+    </net>
+    <net code="178" name="/Brain Board/alert">
+      <node ref="J22" pin="13"/>
+      <node ref="J26" pin="17"/>
+      <node ref="J23" pin="13"/>
+    </net>
+    <net code="179" name="/Brain Board/ESTOP_in_3">
+      <node ref="J28" pin="1"/>
+      <node ref="SW1" pin="10"/>
+    </net>
+    <net code="180" name="+3.3V_brain">
+      <node ref="U6" pin="7"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U6" pin="3"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="J30" pin="2"/>
+      <node ref="SW1" pin="8"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="SW1" pin="12"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="J26" pin="13"/>
+      <node ref="J26" pin="14"/>
+      <node ref="R33" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="181" name="Net-(C34-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="182" name="Net-(Q2-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="183" name="Net-(C33-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="C33" pin="2"/>
+    </net>
+    <net code="184" name="Net-(Q3-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="185" name="+5V_brain">
+      <node ref="C32" pin="1"/>
+      <node ref="J23" pin="2"/>
+      <node ref="J26" pin="2"/>
+      <node ref="J22" pin="4"/>
+      <node ref="J23" pin="4"/>
+      <node ref="J30" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="J22" pin="2"/>
+      <node ref="J26" pin="1"/>
+      <node ref="J24" pin="2"/>
+    </net>
+    <net code="186" name="Net-(SW1-Pad13)">
+      <node ref="SW1" pin="13"/>
+    </net>
+    <net code="187" name="Net-(SW1-Pad14)">
+      <node ref="SW1" pin="14"/>
+    </net>
+    <net code="188" name="Net-(SW1-Pad15)">
+      <node ref="SW1" pin="15"/>
+    </net>
+    <net code="189" name="Net-(SW1-Pad16)">
+      <node ref="SW1" pin="16"/>
+    </net>
+    <net code="190" name="/Brain Board/ESTOP_in_1_pi">
+      <node ref="SW1" pin="2"/>
+      <node ref="J23" pin="16"/>
+      <node ref="J22" pin="16"/>
+    </net>
+    <net code="191" name="/Brain Board/ESTOP_LED_1">
+      <node ref="U6" pin="8"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="192" name="/Brain Board/TXD_LED">
+      <node ref="R22" pin="1"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="193" name="/Brain Board/ESTOP_LED_2">
+      <node ref="R19" pin="1"/>
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="194" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="195" name="/Brain Board/RXD_LED">
+      <node ref="R23" pin="1"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="196" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="197" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="198" name="Net-(R26-Pad2)">
+      <node ref="U6" pin="17"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="199" name="Net-(R27-Pad2)">
+      <node ref="U6" pin="16"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="200" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2"/>
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="201" name="/Brain Board/X_RPI_GPIO_GCLK">
+      <node ref="J22" pin="7"/>
+      <node ref="J23" pin="7"/>
+    </net>
+    <net code="202" name="/Brain Board/RPI_LED_1">
+      <node ref="J23" pin="22"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="J22" pin="22"/>
+    </net>
+    <net code="203" name="/Brain Board/X_RPI_SPI_MOSI">
+      <node ref="J23" pin="19"/>
+      <node ref="J22" pin="19"/>
+    </net>
+    <net code="204" name="/Brain Board/X_RPI_SPI_MISO">
+      <node ref="J23" pin="21"/>
+      <node ref="J22" pin="21"/>
+    </net>
+    <net code="205" name="/Brain Board/X_RPI_EEPROM_IDSD">
+      <node ref="J23" pin="27"/>
+      <node ref="J22" pin="27"/>
+    </net>
+    <net code="206" name="/Brain Board/X_RPI_GPIO13">
+      <node ref="J23" pin="33"/>
+      <node ref="J22" pin="33"/>
+    </net>
+    <net code="207" name="/Brain Board/X_RPI_GPIO19">
+      <node ref="J23" pin="35"/>
+      <node ref="J22" pin="35"/>
+    </net>
+    <net code="208" name="/Brain Board/X_RPI_GPIO_GEN1">
+      <node ref="J22" pin="12"/>
+      <node ref="J23" pin="12"/>
+    </net>
+    <net code="209" name="/Brain Board/X_RPI_GPIO12">
+      <node ref="J23" pin="32"/>
+      <node ref="J22" pin="32"/>
+    </net>
+    <net code="210" name="/Brain Board/X_RPI_GPIO16">
+      <node ref="J23" pin="36"/>
+      <node ref="J22" pin="36"/>
+    </net>
+    <net code="211" name="/Brain Board/X_RPI_GPIO20">
+      <node ref="J23" pin="38"/>
+      <node ref="J22" pin="38"/>
+    </net>
+    <net code="212" name="/Brain Board/X_RPI_GPIO21">
+      <node ref="J23" pin="40"/>
+      <node ref="J22" pin="40"/>
+    </net>
+    <net code="213" name="/Brain Board/X_RPI_SPI_CLK">
+      <node ref="J22" pin="23"/>
+      <node ref="J23" pin="23"/>
+    </net>
+    <net code="214" name="/Brain Board/X_RPI_EEPROM_IDSC">
+      <node ref="J23" pin="28"/>
+      <node ref="J22" pin="28"/>
+    </net>
+    <net code="215" name="/Brain Board/X_RPI_SPI_CE0_N">
+      <node ref="J23" pin="24"/>
+      <node ref="J22" pin="24"/>
+    </net>
+    <net code="216" name="/Brain Board/X_RPI_SPI_CE1_N">
+      <node ref="J23" pin="26"/>
+      <node ref="J22" pin="26"/>
+    </net>
+    <net code="217" name="Net-(Q4-Pad3)">
+      <node ref="R18" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="218" name="Net-(Q4-Pad2)">
+      <node ref="R36" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="219" name="/Brain Board/3.3V_rpi">
+      <node ref="J23" pin="1"/>
+      <node ref="J22" pin="17"/>
+      <node ref="J22" pin="1"/>
+      <node ref="J23" pin="17"/>
+    </net>
+    <net code="220" name="/Brain Board/RPI_LED_4">
+      <node ref="R28" pin="1"/>
+      <node ref="J23" pin="31"/>
+      <node ref="J22" pin="31"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="221" name="/Brain Board/RPI_LED_3">
+      <node ref="J23" pin="29"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="J22" pin="29"/>
+    </net>
+    <net code="222" name="/Brain Board/RPI_LED_2">
+      <node ref="J22" pin="37"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="J23" pin="37"/>
+    </net>
+    <net code="223" name="/Brain Board/RPI_LED_5">
+      <node ref="J22" pin="11"/>
+      <node ref="R32" pin="1"/>
+      <node ref="J23" pin="11"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="224" name="Net-(R29-Pad2)">
+      <node ref="U6" pin="14"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="225" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="226" name="Net-(Q5-Pad3)">
+      <node ref="R19" pin="2"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="227" name="/Brain Board/ESTOP_LED_3">
+      <node ref="R20" pin="1"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="228" name="Net-(Q6-Pad3)">
+      <node ref="R20" pin="2"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="229" name="Net-(Q6-Pad2)">
+      <node ref="R38" pin="1"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="230" name="/Brain Board/RXD">
+      <node ref="J23" pin="10"/>
+      <node ref="J30" pin="6"/>
+      <node ref="D9" pin="1"/>
+      <node ref="J22" pin="10"/>
+      <node ref="J26" pin="4"/>
+      <node ref="R11" pin="1"/>
+    </net>
+  </nets>
+</export>
