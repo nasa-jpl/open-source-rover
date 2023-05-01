@@ -3058,7 +3058,7 @@ AR Path="/60A5279E/6406B9AF" Ref="Q?"  Part="1"
 AR Path="/60A51BAC/6406B9AF" Ref="Q1"  Part="1" 
 F 0 "Q1" H 13740 5954 50  0000 L CNN
 F 1 "2N3906" H 13740 6045 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 13750 5925 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 13750 5925 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 13550 6000 50  0001 L CNN
 	1    13550 6000
 	1    0    0    1   
