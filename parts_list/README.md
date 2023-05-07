@@ -21,7 +21,7 @@ please join the Slack workspace and enquire about any discounts.
 | D-Hub clamp | [6mm Bore Clamping D-Hub (Tapped), 0.770" Pattern - ServoCity](https://www.servocity.com/6mm-bore-clamping-d-hub-tapped-0-770-pattern/) | $7.99 | 6 | $47.94 |
 | 2 Hole U channel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 6 | $29.94 |
 
-Cost to build these assemblies: $87.23 * 6.0 assemblies = $523.38
+Cost to build these assemblies: $87.23 * 6 assemblies = $523.38
 
 
 ## Parts for corner assembly
@@ -31,7 +31,7 @@ Cost to build these assemblies: $87.23 * 6.0 assemblies = $523.38
 | 144mm goRail | [1109 Series goRAIL (144mm Length) - goBILDA](https://www.gobilda.com/1109-series-gorail-144mm-length/) | $5.49 | 4 | $21.96 |
 | 4 Hole U channel | [1121 Series Low-Side U-Channel (4 Hole, 120mm Length) - goBILDA](https://www.gobilda.com/1121-series-low-side-u-channel-4-hole-120mm-length/) | $5.99 | 4 | $23.96 |
 
-Cost to build these assemblies: $11.48 * 4.0 assemblies = $45.92
+Cost to build these assemblies: $11.48 * 4 assemblies = $45.92
 
 
 ## Parts for rocker bogie assembly
@@ -57,7 +57,7 @@ Cost to build these assemblies: $11.48 * 4.0 assemblies = $45.92
 | control arm | [Plastic Hub-Mount Control Arm (72mm Length) - goBILDA](https://www.gobilda.com/plastic-hub-mount-control-arm-72mm-length/) | $4.99 | 4 | $19.96 |
 | 8mm ID Spacer (10mm OD, 8mm Length) | [1514 Series 8mm ID Spacer (10mm OD, 8mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1514-series-8mm-id-spacer-10mm-od-8mm-length-4-pack/) | $2.39 | 2 | $4.78 |
 
-Cost to build these assemblies: $206.07 * 2.0 assemblies = $412.15
+Cost to build these assemblies: $206.07 * 2 assemblies = $412.15
 
 
 ## Parts for body assembly
