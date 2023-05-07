@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull_requests: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v3
       - name: generate_parts_list_md
