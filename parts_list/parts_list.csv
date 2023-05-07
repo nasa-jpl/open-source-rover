@@ -1,0 +1,44 @@
+assembly,short name,part #,long name,link,cost pp ,# req in assy,assembly multiplier
+drive wheel,wheel,,"Traxxas 5374X Talon Tires, Gemini Wheels, Black Chrome – Dollar Hobbyz",https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x,$25.27,1,6
+drive wheel,clamping mount,1401-0043-0032,"1401 Series 2-Side, 2-Post Clamping Mount (43mm Width, 32mm Bore) - goBILDA",https://www.gobilda.com/1401-series-2-side-2-post-clamping-mount-43mm-width-32mm-bore/,$5.99,1,6
+drive wheel,motor,5202-2402-0027,"5202 Series Yellow Jacket Planetary Gear Motor (26.9:1 Ratio, 24mm Length 6mm D-Shaft, 223 RPM, ⌀36mm Gearbox, 3.3 - 5V Encoder) - goBILDA",https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-24mm-length-6mm-d-shaft-223-rpm-36mm-gearbox-3-3-5v-encoder/,$42.99,1,6
+drive wheel,D-Hub clamp,545618,"6mm Bore Clamping D-Hub (Tapped), 0.770"" Pattern - ServoCity",https://www.servocity.com/6mm-bore-clamping-d-hub-tapped-0-770-pattern/,$7.99,1,6
+drive wheel,2 Hole U channel,1120-0002-0072,"1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA",https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/,$4.99,1,6
+corner,144mm goRail,1109-0024-0144,1109 Series goRAIL (144mm Length) - goBILDA,https://www.gobilda.com/1109-series-gorail-144mm-length/,$5.49,1,4
+corner,4 Hole U channel,1121-0004-0120,"1121 Series Low-Side U-Channel (4 Hole, 120mm Length) - goBILDA",https://www.gobilda.com/1121-series-low-side-u-channel-4-hole-120mm-length/,$5.99,1,4
+rocker bogie,1hole uchannel,1120-0001-0048,"1120 Series U-Channel (1 Hole, 48mm Length) - goBILDA",https://www.gobilda.com/1120-series-u-channel-1-hole-48mm-length/,$3.69,1,2
+rocker bogie,servoblock,3202-0001-2501,"ServoBlock™ (Standard Size, 25 Tooth Spline, Hub Shaft) - goBILDA",https://www.gobilda.com/servoblock-standard-size-25-tooth-spline-hub-shaft/,$29.99,2,2
+rocker bogie,servo,2000-0025-0002,"2000 Series Dual Mode Servo (25-2, Torque) - goBILDA",https://www.gobilda.com/2000-series-dual-mode-servo-25-2-torque/,$31.99,2,2
+rocker bogie,8mm Sonic Hub,1309-0016-0008,1309 Series Sonic Hub (8mm Bore) - goBILDA,https://www.gobilda.com/1309-series-sonic-hub-8mm-bore/,$6.99,1,2
+rocker bogie,flanged bearing 2pack,1611-0514-0008,"1611 Series Flanged Ball Bearing (8mm ID x 14mm OD, 5mm Thickness) - 2 Pack - goBILDA",https://www.gobilda.com/1611-series-flanged-ball-bearing-8mm-id-x-14mm-od-5mm-thickness-2-pack/,$3.99,1,2
+rocker bogie,joint pattern spacer,1504-0032-0020,1504 Series 32mm OD Pattern Spacer (2mm Length) - goBILDA,https://www.gobilda.com/1504-series-32mm-od-pattern-spacer-2mm-length/,$1.99,2,2
+rocker bogie,joint 8mm tube,4100-0608-0050,"4100 Series Aluminum Tube (6mm ID x 8mm OD, 50mm Length) - goBILDA",https://www.gobilda.com/4100-series-aluminum-tube-6mm-id-x-8mm-od-50mm-length/,$2.49,1,2
+rocker bogie,joint 3hole flat beam 2pack,1102-0003-0024,"1102 Series Flat Beam (3 Hole, 24mm Length) - 2 Pack - goBILDA",https://www.gobilda.com/1102-series-flat-beam-3-hole-24mm-length-2-pack/,$1.89,2,2
+rocker bogie,joint pattern mount,1221-0032-0002,"1221 Series 2-Side, 2-Post Pattern Mount (32-2) - goBILDA",https://www.gobilda.com/1221-series-2-side-2-post-pattern-mount-32-2/,$4.99,2,2
+rocker bogie,steel flat bracket,1126-0001-0001,1126 Series Steel Flat Bracket (1-1) - 2 Pack - goBILDA,https://www.gobilda.com/1126-series-steel-flat-bracket-1-1-2-pack/,$2.49,1,2
+rocker bogie,3x5 grid plate,1116-0024-0040,"1116 Series Grid Plate (3 x 5 Hole, 24 x 40mm) - goBILDA",https://www.gobilda.com/1116-series-grid-plate-3-x-5-hole-24-x-40mm/,$1.29,2,2
+rocker bogie,angle bracket,1111-0003-0001,1111 Series Angle Pattern Bracket (3-1) - goBILDA,https://www.gobilda.com/1111-series-angle-pattern-bracket-3-1/,$5.99,1,2
+rocker bogie,96mm open goRail,1118-0024-0096,1118 Series Open goRAIL (96mm Length) - goBILDA,https://www.gobilda.com/1118-series-open-gorail-96mm-length/,$3.39,3,2
+rocker bogie,288mm open goRail,1118-0024-0288,1118 Series Open goRAIL (288mm Length) - goBILDA,https://www.gobilda.com/1118-series-open-gorail-288mm-length/,$5.89,1,2
+rocker bogie,45deg bracket,1111-0001-0001,1111 Series Angle Pattern Bracket (1-1) - goBILDA,https://www.gobilda.com/1111-series-angle-pattern-bracket-1-1/,$2.99,2,2
+rocker bogie,90deg steel bracket 2pack,1137-0001-0001,1137 Series Steel Flat Grid Bracket (1-1) - 2 Pack - goBILDA,https://www.gobilda.com/1137-series-steel-flat-grid-bracket-1-1-2-pack/,$3.49,0.5,2
+rocker bogie,control arm,1916-0014-0072,Plastic Hub-Mount Control Arm (72mm Length) - goBILDA,https://www.gobilda.com/plastic-hub-mount-control-arm-72mm-length/,$4.99,2,2
+rocker bogie,"8mm ID Spacer (10mm OD, 8mm Length)",1514-0010-0080,"1514 Series 8mm ID Spacer (10mm OD, 8mm Length) - 4 Pack - goBILDA",https://www.gobilda.com/1514-series-8mm-id-spacer-10mm-od-8mm-length-4-pack/,$2.39,1,2
+body,120mm open goRail,1118-0024-0120,1118 Series Open goRAIL (120mm Length) - goBILDA,https://www.gobilda.com/1118-series-open-gorail-120mm-length/,$4.99,2,1
+body,2hole Uchannel,1120-0002-0072,"1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA",https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/,$4.99,2,1
+body,32mm bearing,1604-0043-0032,"1604 Series 2-Side, 2-Post Pillow Block (32mm Bore) - goBILDA",https://www.gobilda.com/1604-series-2-side-2-post-pillow-block-32mm-bore/,$12.99,4,1
+body,32mm 6mm spacer 2 pack,1506-0032-0006,"1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA",https://www.gobilda.com/1506-series-32mm-id-spacer-36mm-od-6mm-length-2-pack/,$3.49,1,1
+body,goTube endcap,1519-0014-0400,"goTUBE Endcap (14mm Bore, 36mm OD, 4mm Thick) - 4 Pack - goBILDA",https://www.gobilda.com/gotube-endcap-14mm-bore-36mm-od-4mm-thick-4-pack/,$5.99,1,1
+body,29 hole beam,1106-0029-0232,"1106 Series Square Beam (29 Hole, 232mm Length) - goBILDA",https://www.gobilda.com/1106-series-square-beam-29-hole-232mm-length/,$5.09,5,1
+body,41 hole beam,1106-0041-0328,"1106 Series Square Beam (41 Hole, 328mm Length) - goBILDA",https://www.gobilda.com/1106-series-square-beam-41-hole-328mm-length/,$6.99,6,1
+body,12 hole beam,1106-0012-0096,"1106 Series Square Beam (12 Hole, 96mm Length) - goBILDA",https://www.gobilda.com/1106-series-square-beam-12-hole-96mm-length/,$2.99,8,1
+body,41 hole u-beam beam,1101-0041-0328,"1101 Series U-Beam (41 Hole, 328mm Length) - goBILDA",https://www.gobilda.com/1101-series-u-beam-41-hole-328mm-length/,$3.89,1,1
+body,7 hole flat beam 2pack,1102-0007-0056,"1102 Series Flat Beam (7 Hole, 56mm Length) - 2 Pack - goBILDA",https://www.gobilda.com/1102-series-flat-beam-7-hole-56mm-length-2-pack/,$2.49,2,1
+body,dual block mount,1205-0001-0004,1205 Series Dual Block Mount (1-4) - 2 Pack - goBILDA,https://www.gobilda.com/1205-series-dual-block-mount-1-4-2-pack/,$5.99,2,1
+body,90deg threaded gusset 4pack,1203-0001-0001,1203 Series Block Mount (1-1) - 4 Pack - goBILDA,https://www.gobilda.com/1203-series-block-mount-1-1-4-pack/,$4.99,1,1
+body,50mm threaded rod,2808-0004-0050,"2808 Series Stainless Steel Threaded Rod (M4 x 0.7mm, 50mm Length) - 2 Pack - goBILDA",https://www.gobilda.com/2808-series-stainless-steel-threaded-rod-m4-x-0-7mm-50mm-length-2-pack/,$1.49,1,1
+body,ball linkage 2pack,2913-0004-0241,"2913 Series Steel Ball Linkage (Female M4 x 0.7mm, 24.1mm Length) - 2 Pack - goBILDA",https://www.gobilda.com/2913-series-steel-ball-linkage-female-m4-x-0-7mm-24-1mm-length-2-pack/,$4.99,2,1
+body,Idler Bearing Hub,1608-0001-0001,"Idler Bearing-Hub (32mm OD, 16mm Height) - goBILDA",https://www.gobilda.com/idler-bearing-hub-32mm-od-16mm-height/,$12.99,1,1
+body,plastic hinges,2902-0003-0001,Plastic Hinge - 2 Pack - goBILDA,https://www.gobilda.com/plastic-hinge-2-pack/,$4.99,2,1
+general,hurricane nuts,2805-0004-0108,Hurricane Nut for goRAIL - 25 Pack - goBILDA,https://www.gobilda.com/hurricane-nut-for-gorail-25-pack/,$9.99,1,1
+general,wire grommets,2911-0014-0001,Plastic Grommet (14-1) - 12 Pack - goBILDA,https://www.gobilda.com/plastic-grommet-14-1-12-pack/,$1.99,1,1
