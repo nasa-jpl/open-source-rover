@@ -40,7 +40,7 @@ with open('parts_list.csv') as csvfile:
         short_name = row[1]
         link = f"[{row[3]}]({row[4]})"
         costpp = float(row[5].replace('$', ''))
-        nb_subassy_req = int(row[7])
+        nb_subassy_req = float(row[7])
         total_req = float(row[6]) * nb_subassy_req
         total_cost = costpp * total_req
         total_sub_assembly_cost += total_cost
