@@ -19,7 +19,7 @@ def assembly_cost(total_sub_assembly_cost, nb_subassy_req):
         return f"\nCost to build this assembly: ${round(total_sub_assembly_cost, 2)}"
     else:
         return f"\nCost to build these assemblies: ${round(total_sub_assembly_cost / nb_subassy_req, 2)} "\
-               f"* {nb_subassy_req} assemblies = ${round(total_sub_assembly_cost, 2)}\n"
+               f"* {int(nb_subassy_req)} assemblies = ${round(total_sub_assembly_cost, 2)}\n"
 
 # parse mechanical parts list
 with open('parts_list.csv') as csvfile:
