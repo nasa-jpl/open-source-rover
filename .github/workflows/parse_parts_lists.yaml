@@ -1,6 +1,9 @@
 name: Parse parts lists
 
-on: [push]
+on: 
+  pull_request:
+  push:
+    branches: [master, v2]
 
 jobs:
   generate_md:
@@ -9,11 +12,6 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      # - name: Install dependencies
-      #   run: |
-      #     python -m pip install --upgrade pip
-      #     pip install ruff pytest
-      #     if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: generate_parts_list_md
         run: |
           cd parts_list
