@@ -99,12 +99,7 @@ NOTE: A major mechanical and electrical revision of the OSR is due for June 2023
 
 ### Online 3D Model
 
-<img src="images/onshape/rover.png" width="100%"/>
-<p><img src="images/onshape/body.png" width="32%"/>
-<img src="images/onshape/rocker-bogie.png" width="32%"/>
-<img src="images/onshape/pcb.png" width="32%"/></p>
-
-You can view a 3D model of the latest version of the rover in your browser [at OnShape](https://cad.onshape.com/documents/e4f00b1a3d2edb1a84bbba1c/w/8ab8f394324bcc586236ef5d/e/9191e5ad2a70f387b419bc55?renderMode=0&uiState=64230e5ee4bd8b4062d16ab5).
+You can view a 3D model of the latest version of the rover in your browser [at OnShape](https://cad.onshape.com/documents/e4f00b1a3d2edb1a84bbba1c/w/8ab8f394324bcc586236ef5d/e/9191e5ad2a70f387b419bc55?renderMode=0&uiState=645ede92f3a1a9205158b296).
 
 ---
 
