@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1317.22** without discounts. If you are an educational builder,
+The total cost comes out to be **$1324.2** without discounts. If you are an educational builder,
 please join the Slack workspace and enquire about any discounts.
 
 
@@ -67,7 +67,7 @@ Cost to build these assemblies: $206.07 * 2 assemblies = $412.15
 | 120mm open goRail | [1118 Series Open goRAIL (120mm Length) - goBILDA](https://www.gobilda.com/1118-series-open-gorail-120mm-length/) | $4.99 | 2 | $9.98 |
 | 2hole Uchannel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 2 | $9.98 |
 | 32mm bearing | [1604 Series 2-Side, 2-Post Pillow Block (32mm Bore) - goBILDA](https://www.gobilda.com/1604-series-2-side-2-post-pillow-block-32mm-bore/) | $12.99 | 4 | $51.96 |
-| 32mm 6mm spacer 2 pack | [1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA](https://www.gobilda.com/1506-series-32mm-id-spacer-36mm-od-6mm-length-2-pack/) | $3.49 | 1 | $3.49 |
+| 32mm 6mm spacer 2 pack | [1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA](https://www.gobilda.com/1506-series-32mm-id-spacer-36mm-od-6mm-length-2-pack/) | $3.49 | 3 | $10.47 |
 | goTube endcap | [goTUBE Endcap (14mm Bore, 36mm OD, 4mm Thick) - 4 Pack - goBILDA](https://www.gobilda.com/gotube-endcap-14mm-bore-36mm-od-4mm-thick-4-pack/) | $5.99 | 1 | $5.99 |
 | 29 hole beam | [1106 Series Square Beam (29 Hole, 232mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-29-hole-232mm-length/) | $5.09 | 5 | $25.45 |
 | 41 hole beam | [1106 Series Square Beam (41 Hole, 328mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-41-hole-328mm-length/) | $6.99 | 6 | $41.94 |
@@ -81,7 +81,7 @@ Cost to build these assemblies: $206.07 * 2 assemblies = $412.15
 | Idler Bearing Hub | [Idler Bearing-Hub (32mm OD, 16mm Height) - goBILDA](https://www.gobilda.com/idler-bearing-hub-32mm-od-16mm-height/) | $12.99 | 1 | $12.99 |
 | plastic hinges | [Plastic Hinge - 2 Pack - goBILDA](https://www.gobilda.com/plastic-hinge-2-pack/) | $4.99 | 2 | $9.98 |
 
-Cost to build this assembly: $232.99
+Cost to build this assembly: $239.97
 
 ## Parts for general assembly
 
