@@ -95,7 +95,7 @@ For the power system of the rover, there is also ample spare power which can be 
 
 As an open-source hardware project, the rover is continuously improving. Please check ongoing [projects](https://github.com/nasa-jpl/open-source-rover/projects), [issues](https://github.com/nasa-jpl/open-source-rover/issues), [pull requests](https://github.com/nasa-jpl/open-source-rover/projects), and the forum (see below) to see if any big changes are expected soon.
 
-NOTE: A major mechanical and electrical revision of the OSR is due for June 2023. While the current version of the rover will remain supported, consider waiting for this new version. For details on this new version and its status, please join the Slack group and look for the `#osr-upgrade` channel.
+NOTE: A major mechanical and electrical revision of the OSR is due for July 2023. While the current version of the rover will remain supported, consider waiting for this new version. For details on this new version and its status, please join the Slack group and look for the `#osr-upgrade` channel. You can also see the latest documentation on [the v2 branch](https://github.com/nasa-jpl/open-source-rover/tree/v2).
 
 ### Online 3D Model
 
