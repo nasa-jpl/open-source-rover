@@ -1,5 +1,7 @@
 # Mechanical Integration Assembly Instructions
 
+**NOT YET UPDATED FOR V2**
+
 At this point we have every major sub assembly created and they just need to be attached together to create the rover! In the steps in this document, we will attach all the corner motors and wheels, the rocker-bogie, the differential pivot, and the head.
 
 ![](../../images/mechanical_integration/final_title.png)

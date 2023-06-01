@@ -1,5 +1,7 @@
 # Wheel Assembly
 
+**NOT YET UPDATED FOR V2**
+
 The wheel assembly attaches the wheels to the motors and mounts the motors to the rest of the rocker-bogie suspension system that makes up the robot chassis.
 
 ![Wheels picture](../../images/wheels/wheels_title.png)
