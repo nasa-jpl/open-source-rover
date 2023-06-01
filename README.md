@@ -2,7 +2,7 @@
 
 **NOTE**: You are looking at the next generation OSR. Instructions and parts are under construction. Build at your own risk!
 
-The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed almost entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, robotics but is also an excellent research platform for rugged terrain.
+The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, robotics but is also an excellent research platform for rugged terrain.
 
 <table>
  <tr>
@@ -17,15 +17,13 @@ The JPL Open Source Rover is an open source, build it yourself, scaled down vers
  </tr>
 </table>
 
-A gallery of some community builds can be found [here](examples/README.md). Drive a simulated rover around straight from your browser: [opensourcerover.jpl.nasa.gov](https://opensourcerover.jpl.nasa.gov)
+A gallery of some community builds including previous versions of the rover can be found [here](examples/README.md). Drive a simulated rover around straight from your browser: [opensourcerover.jpl.nasa.gov](https://opensourcerover.jpl.nasa.gov)
 
 ## About the Project
 
 ### Motivation
 
 JPL is always looking to inspire the next generation of scientists, engineers, and roboticists to help us explore and learn about our solar system (and beyond!). We release the plans for this rover as a way to try and give budding enthusiasts a fun robotics project that will help teach them and get them involved in robotics sooner and at a lower cost.
-
----
 
 ### Specifications & Technical Attributes
 
@@ -49,10 +47,7 @@ Again, the above statistics depend on which components you select when buying pa
 
 (*) Other open-source, cheaper alternatives exist but are slower, less strong, and are more fragile. See [Additional Projects](#additional-projects).
 
----
-
 ### Communication
-
 
 The best way to ask questions, reach maintainers, learn about modifications, and join the community of Open Source Rover builders is to join our Slack group:
 
@@ -60,9 +55,7 @@ The best way to ask questions, reach maintainers, learn about modifications, and
   <center><img src="images/slack_logo.png" height="80")/></center>
 </a>
 
-****Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.**** On these you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted so that this project and community can grow.
-
----
+**Note: JPL and Caltech have no official affiliation with this forum; it is run by individuals of the general public.** On these you can ask questions if you need help or clarification on any aspects of the project.  Additionally, you can post and promote any modifications or addons that you have created on this project. We highly encourage additions and modifications to be posted so that this project and community can grow.
 
 ### Features
 
@@ -87,21 +80,15 @@ In addition, here are the open communication ports and hardware on the Raspberry
 
 Using the above ports, you could theoretically drive the rover autonomously from the camera, via a USB dongle attached to anything (your own video game controller, a USB microphone, or many others... be creative!), or through any interface using the Pi's GPIO ports (distance sensors, accelerometers, and much more).  We've only given you two simple ways to control the rover to start... we want you to come up with even more!
 
-For the power system of the rover, there is also ample spare power which can be used for your own addons and upgrades.  See the [Electrical subsystem documentation](electrical/) for more specific details.
-
----
+For the power system of the rover, there is also ample spare power which can be used for your own addons and upgrades. See the [Electrical subsystem documentation](electrical/) for more specific details.
 
 ### Maintenance Status
 
 As an open-source hardware project, the rover is continuously improving. Please check ongoing [projects](https://github.com/nasa-jpl/open-source-rover/projects), [issues](https://github.com/nasa-jpl/open-source-rover/issues), [pull requests](https://github.com/nasa-jpl/open-source-rover/projects), and the forum (see below) to see if any big changes are expected soon.
 
-NOTE: A major mechanical and electrical revision of the OSR is due for July 2023. While the current version of the rover will remain supported, consider waiting for this new version. For details on this new version and its status, please join the Slack group and look for the `#osr-upgrade` channel. You can also see the latest documentation on [the v2 branch](https://github.com/nasa-jpl/open-source-rover/tree/v2).
-
 ### Online 3D Model
 
 You can view a 3D model of the latest version of the rover in your browser [at OnShape](https://cad.onshape.com/documents/e4f00b1a3d2edb1a84bbba1c/w/8ab8f394324bcc586236ef5d/e/9191e5ad2a70f387b419bc55?renderMode=0&uiState=645ede92f3a1a9205158b296).
-
----
 
 ### Rover Mission Patch
 
@@ -110,8 +97,6 @@ You can view a 3D model of the latest version of the rover in your browser [at O
 Thank you to Lauren Schooley for creating a mission patch for the project. The patch is free for use as a team patch, for stickers, or decorating your rover. The design is released under the Creative Commons Attribution-NoDerivatives public license. A variety of file formats is available.
 
 * [Mission Patch](https://github.com/lschooley/open-source-rover-mission-patch)
-
----
 
 ### Skills Necessary
 
@@ -131,16 +116,13 @@ This project has elements in mechanical assembly/fabrication, uses a host of ele
 
 Most of the above are skills that you can learn and pick up fairly quickly from watching videos and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well. See the build documents for more information.
 
----
-
 ### Tools Necessary
 
 This project assumes you have some standard tools to help assemble the project. If you do not have any of the optional tools, we provide examples of online services that you can use to have the parts fabricated and sent to you.
 
 #### Mandatory tools
 
-* SAE Hex Key set
-* SAE Wrench set
+* Metric hex keys
 * Pliers
 * Wire Snips
 * Wire Strippers
@@ -155,11 +137,10 @@ This project assumes you have some standard tools to help assemble the project. 
 * Laser Cutter
 * Benchtop Power Supply (to test without using battery)
 * Items for operating a Raspberry Pi (Keyboard, mouse, monitor, 5V micro USB power adapter)
----
 
 ### Expected time commitment
 
-In our experience, this project takes no less than 200 person-hours to build, and depending on the familiarity and skill level of those involved could be significantly more. Experienced builders may be able to build this project in this amount of time.  However, this project is generally meant to be a teaching and learning tool.  Throughout the documentation, we try to give supplemental information for those who might be new to this kind of project.
+In our experience, this project takes no less than 100 person-hours to build, and depending on the familiarity and skill level of those involved could be significantly more. Experienced builders may be able to build this project in this amount of time.  However, this project is generally meant to be a teaching and learning tool.  Throughout the documentation, we try to give supplemental information for those who might be new to this kind of project.
 
 # Disclaimer
 
@@ -169,13 +150,11 @@ In our experience, this project takes no less than 200 person-hours to build, an
 
 ## Getting Started
 
----
-
 ### Ordering parts
 
 #### Parts Lists
 
-The [Parts List Readme](parts_list/README.md) contains all the parts necessary to build the entirety of the robot as it is listed in our documentation. We recognize that you may want to change, add, and redesign some sections, so each of the individual build sections also contain a parts list for that corresponding section of the project. *Note that these individual parts list recommend buying quantities necessary **only for that section**.  Be sure to assess the quantities you need for common items (particularly screws, nuts, bolts, and other common hardware) if you are changing subassemblies.*
+The [Parts List Readme](parts_list/README.md) contains all the parts necessary to build the entirety of the robot as it is listed in our documentation.
 
 ##### Cart Share
 
@@ -187,13 +166,11 @@ TODO
 
 #### Printed Circuit Boards (PCBs)
 
-The main electrical system of this rover relies on a custom printed circuit board (PCB) that handles the routing between the majority of the electrical components. This board greatly simplifies the build process and eliminates the need for you to route all the wires yourself. You can find the PCB board files at [PCB Files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcb/).
+The main electrical system of this rover relies on a custom printed circuit board (PCB) that handles the routing between the majority of the electrical components. This board greatly simplifies the build process and eliminates the need for you to route all the wires yourself. You can find the PCB board files at [PCB Files](Electrical/pcb/README.md).
 
 TODO
 
 You can also download the "Gerber" files there (a typical file format for PCBs) and upload them to any other PCB service that doesn't have a direct link on Kitspace.
-
----
 
 ### Rover Build Roadmap
 
@@ -217,29 +194,9 @@ Above is an example roadmap of how you can build the rover and which parts of th
 
 * **Stage 7:** Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
 
----
-
 ## Getting help / joining the community
 
 If you have any questions or run into problems during your build, please search for answers and/or reach out on [Github Discussions](https://github.com/nasa-jpl/open-source-rover/discussions). Please also take a look at the list of [open issues](https://github.com/nasa-jpl/open-source-rover/issues). If you think there is an error or a part is missing, please create a new issue.
-
----
-
-## Project Team
-
-These were the original creators of this project. Now, this open-source repository is run by volunteer maintainers from the community.
-
-### Project Lead
-
-Michael (Mik) Cox
-
-### Development Team
-
-Eric Junkins and Olivia Lofaro
-
-### Special Thanks To
-
-Magdy Bareh, Michelle Viotti, Tom Soderstrom, Dave Gallagher, Jim Rinaldi, Molly Bittner, Christine Fuller, Billy Allen, and Charles Dandino
 
 ## Additional Projects
 
