@@ -1,5 +1,7 @@
 ![title](../images/electronics/electronics_title.png)
 
+**OUTDATED FOR V2**
+
 # Open Source Rover: Electrical Assembly Instructions
 <!--Authors: Michael Cox, Eric Junkins, Olivia Lofaro
 

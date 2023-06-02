@@ -4,26 +4,16 @@ The mechanical subsystem makes up the physical rover without any of its brains o
 
 <img src="../images/rover.png" width="70%">
 
-# Disclaimer
+## Disclaimer
 
 **By downloading, cloning, or otherwise using the contents of this repository, you agree to the terms specified in the attached [DISCLAIMER.txt file](/DISCLAIMER.txt).**
 
-# Getting Started with the Mechanical build
+## Getting Started with the Mechanical build
 
-## Folder organization
+### Mechanical Subsystem Roadmap
 
-The image below shows the folder organization for the mechanical subsystem. This folder (Mechanical) contains all of the documentation and information necessary to build the mechanical section of the project. It is broken down here into different subassemblies, followed by a single Mechanical Integration of all of the assemblies to create the finalized rover body. Each of these subassemblies contains three things:
+The image below shows our suggested progression through the mechanical build process for this project. All individual subassemblies are meant to be completely parallelizable, so each individual subassembly could be built on its own at the same time. Once all the subassemblies are finished, there is one mechanical integration process where each of the subassemblies is integrated together to create the final rover body. Click on the images to get started on a subassembly!
 
-* The parts list required for the subassembly
-* A document outlining how to build the assembly
-* A README.md that displays some information about the subassembly (cost, estimated time to build, its mechanical mates to the rest of the robot, etc).
-* A 3D .pdf file to help visualize the subassembly
-* Source CAD files to help visualize or modify the subassembly
-
-Note that some subassemblies also include files that can be used to laser cut or 3D print certain parts required for that assembly.
-
-## Mechanical Subsystem Roadmap
-
-The image below shows our suggested progression through the mechanical build process for this project. All individual subassemblies are meant to be completely parallelizable, so each individual subassembly could be built on its own at the same time. Once all the subassemblies are finished, there is one mechanical integration process where each of the subassemblies is integrated together to create the final rover body. Note that the mechanical integration instructions are meant only for the base assemblies that were originally released with the project, and may differ when using other modules/subassemblies that were not originally included in the base assembly.
-
-<img src="../images/mechanical_integration/mech_roadmap.png" width="100%">
+| ![[wheel assy](wheel_assembly/README.md)](wheel_assembly/images/wheels.png) | ![[body](body_assembly/README.md)](body_assembly/images/body.png) |
+| --- | --- |
+| ![[diff pivot](differential_pivot/README.md)](differential_pivot/images/diff_pivot.png) | ![[rocker bogie](rocker_bogie/README.md)](rocker_bogie/images/rocker_bogie.png) |
