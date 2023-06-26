@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1324.2** without discounts. If you are an educational builder,
+The total cost comes out to be **$1344.11** without discounts. If you are an educational builder,
 please join the Slack workspace and enquire about any discounts.
 
 
@@ -80,8 +80,12 @@ Cost to build these assemblies: $206.07 * 2 assemblies = $412.15
 | ball linkage 2pack | [2913 Series Steel Ball Linkage (Female M4 x 0.7mm, 24.1mm Length) - 2 Pack - goBILDA](https://www.gobilda.com/2913-series-steel-ball-linkage-female-m4-x-0-7mm-24-1mm-length-2-pack/) | $4.99 | 2 | $9.98 |
 | Idler Bearing Hub | [Idler Bearing-Hub (32mm OD, 16mm Height) - goBILDA](https://www.gobilda.com/idler-bearing-hub-32mm-od-16mm-height/) | $12.99 | 1 | $12.99 |
 | plastic hinges | [Plastic Hinge - 2 Pack - goBILDA](https://www.gobilda.com/plastic-hinge-2-pack/) | $4.99 | 2 | $9.98 |
+| 8mm standoffs | [1501 Series M4 x 0.7mm Standoff (6mm OD, 8mm Length) - 4 Pack](https://www.gobilda.com/1501-series-m4-x-0-7mm-standoff-6mm-od-8mm-length-4-pack/) | $2.49 | 2 | $4.98 |
+| 20mm standoffs | [1501 Series M4 x 0.7mm Standoff (6mm OD, 20mm Length) - 4 Pack](https://www.gobilda.com/1501-series-m4-x-0-7mm-standoff-6mm-od-20mm-length-4-pack/) | $3.49 | 2 | $6.98 |
+| plastic spacer | [1500 Series Plastic Spacer (6mm ID x 8mm OD, 1mm Thickness) - 12 Pack](https://www.gobilda.com/1500-series-plastic-spacer-6mm-id-x-8mm-od-1mm-thickness-12-pack/) | $2.79 | 1 | $2.79 |
+| 3x5 grid plate | [1116 Series Grid Plate (3 x 5 Hole, 24 x 40mm)](https://www.gobilda.com/1116-series-grid-plate-3-x-5-hole-24-x-40mm/) | $1.29 | 4 | $5.16 |
 
-Cost to build this assembly: $239.97
+Cost to build this assembly: $259.88
 
 ## Parts for general assembly
 
