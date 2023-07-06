@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1344.11** without discounts. If you are an educational builder,
+The total cost comes out to be **$1341.7** without discounts. If you are an educational builder,
 please join the Slack workspace and enquire about any discounts.
 
 
@@ -68,7 +68,6 @@ Cost to build these assemblies: $206.07 * 2 assemblies = $412.15
 | 2hole Uchannel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 2 | $9.98 |
 | 32mm bearing | [1604 Series 2-Side, 2-Post Pillow Block (32mm Bore) - goBILDA](https://www.gobilda.com/1604-series-2-side-2-post-pillow-block-32mm-bore/) | $12.99 | 4 | $51.96 |
 | 32mm 6mm spacer 2 pack | [1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA](https://www.gobilda.com/1506-series-32mm-id-spacer-36mm-od-6mm-length-2-pack/) | $3.49 | 3 | $10.47 |
-| goTube endcap | [goTUBE Endcap (14mm Bore, 36mm OD, 4mm Thick) - 4 Pack - goBILDA](https://www.gobilda.com/gotube-endcap-14mm-bore-36mm-od-4mm-thick-4-pack/) | $5.99 | 1 | $5.99 |
 | 29 hole beam | [1106 Series Square Beam (29 Hole, 232mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-29-hole-232mm-length/) | $5.09 | 5 | $25.45 |
 | 41 hole beam | [1106 Series Square Beam (41 Hole, 328mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-41-hole-328mm-length/) | $6.99 | 6 | $41.94 |
 | 12 hole beam | [1106 Series Square Beam (12 Hole, 96mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-12-hole-96mm-length/) | $2.99 | 8 | $23.92 |
@@ -84,8 +83,9 @@ Cost to build these assemblies: $206.07 * 2 assemblies = $412.15
 | 20mm standoffs | [1501 Series M4 x 0.7mm Standoff (6mm OD, 20mm Length) - 4 Pack](https://www.gobilda.com/1501-series-m4-x-0-7mm-standoff-6mm-od-20mm-length-4-pack/) | $3.49 | 2 | $6.98 |
 | plastic spacer | [1500 Series Plastic Spacer (6mm ID x 8mm OD, 1mm Thickness) - 12 Pack](https://www.gobilda.com/1500-series-plastic-spacer-6mm-id-x-8mm-od-1mm-thickness-12-pack/) | $2.79 | 1 | $2.79 |
 | 3x5 grid plate | [1116 Series Grid Plate (3 x 5 Hole, 24 x 40mm)](https://www.gobilda.com/1116-series-grid-plate-3-x-5-hole-24-x-40mm/) | $1.29 | 4 | $5.16 |
+| 2 hole flat beam | [1102 Series Flat Beam (2 Hole, 16mm Length) - 2 Pack](https://www.gobilda.com/1102-series-flat-beam-2-hole-16mm-length-2-pack/) | $1.79 | 2 | $3.58 |
 
-Cost to build this assembly: $259.88
+Cost to build this assembly: $257.47
 
 ## Parts for general assembly
 
