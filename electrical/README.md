@@ -21,7 +21,7 @@ To order these boards we suggest that you order from [JLCPCB](https://jlcpcb.com
 
 This is a soft prerequisite for assembling some of the mechanical assemblies. If you have wiring ready, you will be able to route the wires through the rover once and for all.
 
-Follow the instructions at [wiring](wiring.md)
+Follow the instructions at [wiring](wiring/README.md)
 
 ## Soldering the PCBs
 

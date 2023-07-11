@@ -116,21 +116,21 @@ In our experience, this project takes no less than 100 person-hours to build, an
 
 **TODO**: add build map overview
 
-Above is an example roadmap of how you can build the rover and which parts of the build are dependent on the other sections. It is broken down into 5 stages. If you're working on the OSR in team, many steps can be done in parallel. For example, soldering the PCB can be done at the same time as the mechanical assembly.
+Above is an example roadmap of how you can build the rover and which parts of the build are dependent on the other sections. It is broken down into several stages. If you're working on the OSR in team, many steps can be done in parallel. For example, soldering the PCB can be done at the same time as the mechanical assembly.
 
-* **Stage 1:** [Order parts.](#ordering-parts)
+* **Stage 1:** [Order parts](#ordering-parts). You'll want to get started on this ASAP!
 
-* **Stage 2:** Create the cabling. The cables connect the Printed Circuit Board (PCB) in the body to each motor and integrate into the rocker-bogie and corner assemblies so they need to be built first.
+* **Stage 2:** [Create the cabling](electrical/cabling/README.md). The cables connect the Printed Circuit Board (PCB) in the body to each motor and integrate into the rocker-bogie and corner assemblies so they need to be built first.
 
-* **Stage 3:** Make the mechanical subassemblies: the body, the two rocker-bogies, the drive and corner motor assemblies. The instructions will guide you through how to do these step by step while integrating the cabling from Stage 2.
+* **Stage 3:** [Make the mechanical subassemblies](mechanical/README.md): the body, the two rocker-bogies, the drive and corner motor assemblies. The instructions will guide you through how to do these step by step while integrating the cabling from Stage 2. You'll then attach them into something that will start to look like a rover!
 
-* **Stage 4:** Assembling the subassemblies and attaching body plates. Now it will look like an actual rover!
+* **Stage 4:** [Make the electronics](electrical/pcb/README.md): Soldering the PCB and installing into the rover along with peripheral connections. You can do this step at any point.
 
-* **Stage 5:** Soldering the PCB and installing into the rover.
+* **Stage 5:** [Calibration and testing](integration/README.md). You will have to have completed Stage 3 and 4 for this.
 
-* **Stage 6:** Calibration and testing and setting up the software to run the rover.
+* **Stage 6:** Setting up and configuring the operating system rover code. The [Rover Code repo](https://github.com/nasa-jpl/osr-rover-code)'s README files will walk you through all necessary steps for getting the rover software up and running on the Raspberry Pi. These steps can be completed at any point during the project, all the way up to when all the electronics and mechanical parts are completed and you are ready to start driving and controlling the robot.
 
-* **Stage 7:** Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
+* **What's next?** Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
 
 ### Ordering parts
 
@@ -140,6 +140,8 @@ The [Parts List Readme](parts_list/README.md) contains all the parts necessary t
 
 You can select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [GoBilda - 5203 series](https://www.gobilda.com/yellow-jacket-planetary-gear-motors/).
 The rover design and the software can accommodate different wheel sizes if you find wheels you like better.
+
+The body plates that attach to all sides of the body are designed to be made from laser cut acrylic, MDF, hardwood, or similar. The 2D cutout files  are the .DXF files in the [laser cut parts folder](mechanical/body/dxf). They were designed to be around 3mm thick (1/8"). You can choose a material and cut them at your local makerspace's laser cutter or order them from an online service like [Sculpteo](https://www.sculpteo.com) or [SendCutSend](https://sendcutsend.com/). See also the cart shares below.
 
 TODO:
 
