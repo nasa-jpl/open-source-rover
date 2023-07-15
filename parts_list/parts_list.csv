@@ -1,5 +1,5 @@
 assembly,short name,part #,long name,link,cost pp ,# req in assy,assembly multiplier
-drive wheel,wheel,,"Traxxas 5374X Talon Tires, Gemini Wheels, Black Chrome – Dollar Hobbyz",https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x,$25.27,1,6
+drive wheel,wheel,,"Traxxas 5374X Talon Tires, Gemini Wheels, Black Chrome - Dollar Hobbyz",https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x,$25.27,1,6
 drive wheel,clamping mount,1401-0043-0032,"1401 Series 2-Side, 2-Post Clamping Mount (43mm Width, 32mm Bore) - goBILDA",https://www.gobilda.com/1401-series-2-side-2-post-clamping-mount-43mm-width-32mm-bore/,$5.99,1,6
 drive wheel,motor,5202-2402-0027,"5202 Series Yellow Jacket Planetary Gear Motor (26.9:1 Ratio, 24mm Length 6mm D-Shaft, 223 RPM, ⌀36mm Gearbox, 3.3 - 5V Encoder) - goBILDA",https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-24mm-length-6mm-d-shaft-223-rpm-36mm-gearbox-3-3-5v-encoder/,$42.99,1,6
 drive wheel,D-Hub clamp,545618,"6mm Bore Clamping D-Hub (Tapped), 0.770"" Pattern - ServoCity",https://www.servocity.com/6mm-bore-clamping-d-hub-tapped-0-770-pattern/,$7.99,1,6
@@ -46,3 +46,14 @@ body,3x5 grid plate,1116-0024-0040,"1116 Series Grid Plate (3 x 5 Hole, 24 x 40m
 body,2 hole flat beam,1102-0002-0016,"1102 Series Flat Beam (2 Hole, 16mm Length) - 2 Pack",https://www.gobilda.com/1102-series-flat-beam-2-hole-16mm-length-2-pack/,$1.79,2,1
 general,hurricane nuts,2805-0004-0108,Hurricane Nut for goRAIL - 25 Pack - goBILDA,https://www.gobilda.com/hurricane-nut-for-gorail-25-pack/,$9.99,1,1
 general,wire grommets,2911-0014-0001,Plastic Grommet (14-1) - 12 Pack - goBILDA,https://www.gobilda.com/plastic-grommet-14-1-12-pack/,$1.99,1,1
+general,M4 washers,2801-0004-0008,Zinc Plates Steel Washer (M4 x 8mm OD) - 25 Pack - goBILDA,https://www.gobilda.com/2801-series-zinc-plated-steel-washer-4mm-id-x-8mm-od-25-pack/,$1.99,1,1
+general,M4 nuts,2811-0004-0007,Zinc Plates Steel Hex Nut (M4 x 7) - 25 Pack - goBILDA,https://www.gobilda.com/2811-series-zinc-plated-steel-hex-nut-m4-x-0-7mm-7mm-hex-25-pack/,$2.49,1,1
+general,M4 locknuts,2812-0004-0007,Zinc Plates Steel Locknut (M4 x 7) - 25 Pack - goBILDA,https://www.gobilda.com/2812-series-zinc-plated-steel-nylon-insert-locknut-m4-x-0-7mm-7mm-hex-25-pack/,$2.99,1,1
+general,M4x6 button screws,2802-0004-0006,M4x6 Button Screw 25-pack,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-6mm-length-25-pack/,$2.99,2,1
+general,M4x6 button screws,2802-0004-0010,M4x10 Button Screw 25-pack,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/,$3.39,3,1
+general,M4x6 button screws,2802-0004-0016,M4x16 Button Screw 25-pack,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-16mm-length-25-pack/,$3.79,2,1
+general,M4x6 socket screws,2800-0004-0008,M4x8 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/,$3.19,2,1
+general,M4x8 socket screws,2800-0004-0010,M4x10 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/,$3.19,3,1
+general,M4x10 socket screws,2800-0004-0012,M4x12 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/,$3.19,1,1
+general,M4x12 socket screws,2800-0004-0016,M4x16 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/,$3.19,2,1
+general,M4x20 socket screws,2800-0004-0020,M4x20 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/,$3.09,1,1
