@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1341.7** without discounts. If you are an educational builder,
+The total cost comes out to be **$1401.51** without discounts. If you are an educational builder,
 please join the Slack workspace and enquire about any discounts.
 
 
@@ -15,7 +15,7 @@ please join the Slack workspace and enquire about any discounts.
 
 | short name | link | cost per part | total # req | total cost |
 |---|---|---|---|---|
-| wheel | [Traxxas 5374X Talon Tires, Gemini Wheels, Black Chrome – Dollar Hobbyz](https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x) | $25.27 | 6 | $151.62 |
+| wheel | [Traxxas 5374X Talon Tires, Gemini Wheels, Black Chrome - Dollar Hobbyz](https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x) | $25.27 | 6 | $151.62 |
 | clamping mount | [1401 Series 2-Side, 2-Post Clamping Mount (43mm Width, 32mm Bore) - goBILDA](https://www.gobilda.com/1401-series-2-side-2-post-clamping-mount-43mm-width-32mm-bore/) | $5.99 | 6 | $35.94 |
 | motor | [5202 Series Yellow Jacket Planetary Gear Motor (26.9:1 Ratio, 24mm Length 6mm D-Shaft, 223 RPM, ⌀36mm Gearbox, 3.3 - 5V Encoder) - goBILDA](https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-24mm-length-6mm-d-shaft-223-rpm-36mm-gearbox-3-3-5v-encoder/) | $42.99 | 6 | $257.94 |
 | D-Hub clamp | [6mm Bore Clamping D-Hub (Tapped), 0.770" Pattern - ServoCity](https://www.servocity.com/6mm-bore-clamping-d-hub-tapped-0-770-pattern/) | $7.99 | 6 | $47.94 |
@@ -93,8 +93,19 @@ Cost to build this assembly: $257.47
 |---|---|---|---|---|
 | hurricane nuts | [Hurricane Nut for goRAIL - 25 Pack - goBILDA](https://www.gobilda.com/hurricane-nut-for-gorail-25-pack/) | $9.99 | 1 | $9.99 |
 | wire grommets | [Plastic Grommet (14-1) - 12 Pack - goBILDA](https://www.gobilda.com/plastic-grommet-14-1-12-pack/) | $1.99 | 1 | $1.99 |
+| M4 washers | [Zinc Plates Steel Washer (M4 x 8mm OD) - 25 Pack - goBILDA](https://www.gobilda.com/2801-series-zinc-plated-steel-washer-4mm-id-x-8mm-od-25-pack/) | $1.99 | 1 | $1.99 |
+| M4 nuts | [Zinc Plates Steel Hex Nut (M4 x 7) - 25 Pack - goBILDA](https://www.gobilda.com/2811-series-zinc-plated-steel-hex-nut-m4-x-0-7mm-7mm-hex-25-pack/) | $2.49 | 1 | $2.49 |
+| M4 locknuts | [Zinc Plates Steel Locknut (M4 x 7) - 25 Pack - goBILDA](https://www.gobilda.com/2812-series-zinc-plated-steel-nylon-insert-locknut-m4-x-0-7mm-7mm-hex-25-pack/) | $2.99 | 1 | $2.99 |
+| M4x6 button screws | [M4x6 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-6mm-length-25-pack/) | $2.99 | 2 | $5.98 |
+| M4x6 button screws | [M4x10 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.39 | 3 | $10.17 |
+| M4x6 button screws | [M4x16 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.79 | 2 | $7.58 |
+| M4x6 socket screws | [M4x8 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/) | $3.19 | 2 | $6.38 |
+| M4x8 socket screws | [M4x10 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.19 | 3 | $9.57 |
+| M4x10 socket screws | [M4x12 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/) | $3.19 | 1 | $3.19 |
+| M4x12 socket screws | [M4x16 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.19 | 2 | $6.38 |
+| M4x20 socket screws | [M4x20 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/) | $3.09 | 1 | $3.09 |
 
-Cost to build this assembly: $11.98
+Cost to build this assembly: $71.79
 
 ## Parts for electrical assembly
 
