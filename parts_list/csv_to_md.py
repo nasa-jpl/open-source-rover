@@ -80,8 +80,12 @@ Before you place an order, please double check that you have all parts in the ri
 The total cost comes out to be **${round(all_assemblies_cost, 2)}** without discounts. If you are an educational builder,
 please join the Slack workspace and enquire about any discounts.
 
-{text}
 """
+
+with open('extra_parts.md', 'r') as ifile:
+    extra_parts = ifile.readlines()
 
 with open('README.md', 'w') as ofile:
     ofile.writelines(md_text)
+    ofile.writelines(text)
+    ofile.writelines(extra_parts)
