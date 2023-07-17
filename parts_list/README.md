@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1401.51** without discounts. If you are an educational builder,
+The total cost comes out to be **$1354.74** without discounts. If you are an educational builder,
 please join the Slack workspace and enquire about any discounts.
 
 
@@ -15,13 +15,13 @@ please join the Slack workspace and enquire about any discounts.
 
 | short name | link | cost per part | total # req | total cost |
 |---|---|---|---|---|
-| wheel | [Traxxas 5374X Talon Tires, Gemini Wheels, Black Chrome - Dollar Hobbyz](https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x) | $25.27 | 6 | $151.62 |
+| wheel | [Traxxas 5374X Talon Tires, Gemini Wheels, Black Chrome - Dollar Hobbyz](https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x) | $34.95 | 3 | $104.85 |
 | clamping mount | [1401 Series 2-Side, 2-Post Clamping Mount (43mm Width, 32mm Bore) - goBILDA](https://www.gobilda.com/1401-series-2-side-2-post-clamping-mount-43mm-width-32mm-bore/) | $5.99 | 6 | $35.94 |
 | motor | [5202 Series Yellow Jacket Planetary Gear Motor (26.9:1 Ratio, 24mm Length 6mm D-Shaft, 223 RPM, ⌀36mm Gearbox, 3.3 - 5V Encoder) - goBILDA](https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-24mm-length-6mm-d-shaft-223-rpm-36mm-gearbox-3-3-5v-encoder/) | $42.99 | 6 | $257.94 |
 | D-Hub clamp | [6mm Bore Clamping D-Hub (Tapped), 0.770" Pattern - ServoCity](https://www.servocity.com/6mm-bore-clamping-d-hub-tapped-0-770-pattern/) | $7.99 | 6 | $47.94 |
 | 2 Hole U channel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 6 | $29.94 |
 
-Cost to build these assemblies: $87.23 * 6 assemblies = $523.38
+Cost to build these assemblies: $79.44 * 6 assemblies = $476.61
 
 
 ## Parts for corner assembly

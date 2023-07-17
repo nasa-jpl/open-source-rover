@@ -42,7 +42,7 @@ with open('parts_list.csv') as csvfile:
         costpp = float(row[5].replace('$', ''))
         nb_subassy_req = float(row[7])
         total_req = float(row[6]) * nb_subassy_req
-        total_cost = costpp * total_req
+        total_cost = round(costpp * total_req, 2)
         total_sub_assembly_cost += total_cost
         text += f"| {' | '.join([short_name, link, f'${costpp}', str(int(total_req)), f'${total_cost}'])} |\n"
     text += assembly_cost(total_sub_assembly_cost, nb_subassy_req)
