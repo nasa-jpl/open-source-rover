@@ -20,14 +20,16 @@ The Rocker-Bogie is the suspension system that enables the rover to climb aggres
 
 ## Assembly
 
-You will be creating two identical assemblies. Below instructions are for one side. We recommend building one side first rather than trying to build both sides in parallel, that way you'll be able to make the other side faster.
+You will be creating two identical assemblies. Below instructions are for one side. We recommend building one side first rather than trying to build both sides in parallel, that way you'll be able to make the other side faster. Before you start building, familiarize yourself with the details of this assembly, in particular because you'll be building two assemblies that are mirrorred. Specifically, you'll want the open slits on the bogie to be facing the same side:
+
+![](images/slit_direction_closeup.png)
 
 ### Creating the rocker-bogie joint
 
 Assemble the joint following the steps below. Since the clamp in the middle isn't symmetric and protrudes on one side, a spacer is added to the other, flat side. You can see this in the top left image.
 
-| ![](images/pivot_start.png) | ![](images/pivot_almost.png) |
-| --- | --- |
+| ![](images/pivot_start.png)            | ![](images/pivot_almost.png)        |
+| -------------------------------------- | ----------------------------------- |
 | ![](images/pivot_complete_inplace.png) | ![](images/pivot_complete_side.png) |
 
 Wait with the yellow and orange (ball bearing) parts. The bearing should first be inserted into the yellow hub.
@@ -60,4 +62,10 @@ Slide one of the servo arms with bearing and hub you made in an earlier step ove
 
 Attach the 1-channel U bracket to the long extruded shaft using 3 or 4 M4 screws. Assemble another servo block as you did before. Insert this into the 1-channel bracket.
 
-You have completed this subassembly when you have 2 rocker bogies, each consisting of 2 smaller assemblies.
+### Attach the front and back of the rocker-bogie
+
+Use 4 hurricane nuts and the 45 degree bracket to connect the back and the front of the rocker-bogie using M4 socket screws of length 8mm as in the image below.
+
+![bottom view](images/connect45bracket.png)
+
+Repeat these steps for the other rocker-bogie, making sure the slit in the extruded channel and the part of the 45 degree bracket sticking out face the opposite way. Once you're done, you're ready with these very important subassemblies!

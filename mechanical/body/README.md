@@ -6,20 +6,34 @@ The body is the housing of all the electronics for the rover and acts as the att
 
 ![](images/body.png)
 
-## Assemble the body skeleton
+## Assemble the body frame
 
-Use M4 screws and pay close attention to the placement of the beams using the image below and the online OnShape model.
+Use socket M4 screws of 16mm length and pay close attention to the placement of the beams using the image below and the online OnShape model.
 
 ## Assemble the axes that connect to the rocker-bogie
 
-![](images/body_axial_clamp.png)
+| ![](images/body_axial_clamp.png) | ![](images/body_axial_clamp_exploded.png) |
+| -------------------------------- | ----------------------------------------- |
 
-Make two of these and connect them to the sides of the body.
+Make two of these and connect them to the sides of the body. They should be installed exactly in the middle, which means that you're going to connect each side to the 17th hole on the long 41-hole beams on the top and bottom of the body frame. Use the M4 16mm socket screws.
+
+The bearings have a flat side and a 'hollow' side. The hollow sides should both be pointing to the same side, as shown in the image.
 
 ## Install the hinges for the top body plates
 
-![](images/hinge_assy.jpg)
-![](images/hinges.jpg)
+You will need the 20 or 22mm M4 standoffs, the 3x5 hole plate, the hinge assembly (assemble following the [instructions on GoBilda](https://www.gobilda.com/plastic-hinge-2-pack/), orientation matters).
+
+| ![](images/hinge_assy.jpg) | ![](images/hinges.jpg) |
+| -------------------------- | ---------------------- |
+| ![](images/hinges.png)     | ![](images/hinges2.png) |
+
+## Make the differential pivot
+
+The Differential Pivot helps to offload forces from one side of the rover to the other while climbing. The differential pivot is crucial in the rocker-bogie suspension system and is designed to help keep all 6 wheels on the ground at all times. It also allows a second attachment point for the body so that it does not freely rotate about the center axes that run through it and connects the two rocker-bogies.
+
+Construct the parts as in the image below, using the appropriate M4 screws where necessary. Use locking M4 hex nuts to fasten the screw passing through the turnbuckles (in blue).
+
+![Differential Pivot](images/diff_pivot.png)
 
 ## Install the laser cut body plates
 

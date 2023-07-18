@@ -2,9 +2,9 @@
 
 **NOTE**: You are looking at the next generation OSR. While the design is tested and working, documentation is under construction.
 
-![](images/lit_up_shot.jpg)
-![](images/osr_outside.jpg)
-![](images/rover.png)
+| ![](images/lit_up_shot.jpg) | ![](images/osr_outside.jpg) |
+| --------------------------- | --------------------------- |
+| ![](images/rover.png)       | ![](images/osr_onshape.png) |
 
 The JPL Open Source Rover is an open source, build it yourself, scaled down version of the 6 wheel rover design that JPL uses to explore the surface of Mars. The Open Source Rover is designed entirely out of consumer off the shelf (COTS) parts. This project is intended to be a teaching and learning experience for those who want to get involved in mechanical engineering, software, electronics, robotics but is also an excellent research platform for rugged terrain. No prior skills or knowledge is required.
 
@@ -25,12 +25,12 @@ JPL is always looking to inspire the next generation of scientists, engineers, a
 
 The OSR has been around since 2017 and has undergone many iterations. It is a premium and robust robot with a unique look, high customizability, and powerful abilities. The hardware and electronics were designed with expansions like a head display and robot arm in mind.
 
-| spec | value |
-| --- | --- |
-| top speed | ~1.6m/s (~slow running, subject to motor selection |
-| nb motors | 10 |
-| structural material | aluminum |
-| total cost | [~$1600](parts_list/README.md) (about the cost of a TurtleBot 3 Waffle) |
+| spec                | value                                                                   |
+| ------------------- | ----------------------------------------------------------------------- |
+| top speed           | ~1.6m/s (~slow running, subject to motor selection                      |
+| nb motors           | 10                                                                      |
+| structural material | aluminum                                                                |
+| total cost          | [~$1600](parts_list/README.md) (about the cost of a TurtleBot 3 Waffle) |
 
 ![](images/rover.png)
 
@@ -126,7 +126,7 @@ Above is an example roadmap of how you can build the rover and which parts of th
 
 * **Stage 4:** [Make the electronics](electrical/pcb/README.md): Soldering the PCB and installing into the rover along with peripheral connections. You can do this step at any point.
 
-* **Stage 5:** [Calibration and testing](integration/README.md). You will have to have completed Stage 3 and 4 for this.
+* **Stage 5:** [Integration, calibration, and testing](integration/README.md). You will have to have completed Stage 3 and 4 for this.
 
 * **Stage 6:** Setting up and configuring the operating system rover code. The [Rover Code repo](https://github.com/nasa-jpl/osr-rover-code)'s README files will walk you through all necessary steps for getting the rover software up and running on the Raspberry Pi. These steps can be completed at any point during the project, all the way up to when all the electronics and mechanical parts are completed and you are ready to start driving and controlling the robot.
 

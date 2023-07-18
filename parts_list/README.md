@@ -16,9 +16,9 @@ please join the Slack workspace and enquire about any discounts.
 | short name | link | cost per part | total # req | total cost |
 |---|---|---|---|---|
 | wheel | [Traxxas 5374X Talon Tires, Gemini Wheels, Black Chrome - Dollar Hobbyz](https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x) | $34.95 | 3 | $104.85 |
-| clamping mount | [1401 Series 2-Side, 2-Post Clamping Mount (43mm Width, 32mm Bore) - goBILDA](https://www.gobilda.com/1401-series-2-side-2-post-clamping-mount-43mm-width-32mm-bore/) | $5.99 | 6 | $35.94 |
-| motor | [5202 Series Yellow Jacket Planetary Gear Motor (26.9:1 Ratio, 24mm Length 6mm D-Shaft, 223 RPM, ⌀36mm Gearbox, 3.3 - 5V Encoder) - goBILDA](https://www.gobilda.com/5202-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-24mm-length-6mm-d-shaft-223-rpm-36mm-gearbox-3-3-5v-encoder/) | $42.99 | 6 | $257.94 |
-| D-Hub clamp | [6mm Bore Clamping D-Hub (Tapped), 0.770" Pattern - ServoCity](https://www.servocity.com/6mm-bore-clamping-d-hub-tapped-0-770-pattern/) | $7.99 | 6 | $47.94 |
+| clamping mount | [1401 Series 2-Side, 2-Post Clamping Mount (43mm Width, 36mm Bore) - goBILDA](https://www.gobilda.com/1401-series-2-side-2-post-clamping-mount-43mm-width-36mm-bore/) | $6.99 | 6 | $41.94 |
+| motor | [5203 Series Yellow Jacket Planetary Gear Motor (26.9:1 Ratio, 24mm Length 8mm REX™ Shaft, 223 RPM, 3.3 - 5V Encoder)](https://www.gobilda.com/5203-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-24mm-length-8mm-rex-shaft-223-rpm-3-3-5v-encoder/) | $42.99 | 6 | $257.94 |
+| REX bore hub | [1309 Series Sonic Hub (8mm REX™ Bore)](https://www.gobilda.com/1309-series-sonic-hub-8mm-rex-bore/) | $6.99 | 6 | $41.94 |
 | 2 Hole U channel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 6 | $29.94 |
 
 Cost to build these assemblies: $79.44 * 6 assemblies = $476.61
