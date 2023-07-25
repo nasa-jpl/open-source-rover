@@ -120,7 +120,7 @@ Above is an example roadmap of how you can build the rover and which parts of th
 
 * **Stage 1:** [Order parts](#ordering-parts). You'll want to get started on this ASAP!
 
-* **Stage 2:** [Create the cabling](electrical/cabling/README.md). The cables connect the Printed Circuit Board (PCB) in the body to each motor and integrate into the rocker-bogie and corner assemblies so they need to be built first.
+* **Stage 2:** [Create the wiring](electrical/wiring/README.md). The cables connect the Printed Circuit Board (PCB) in the body to each motor and integrate into the rocker-bogie and corner assemblies so they need to be built first.
 
 * **Stage 3:** [Make the mechanical subassemblies](mechanical/README.md): the body, the two rocker-bogies, the drive and corner motor assemblies. The instructions will guide you through how to do these step by step while integrating the cabling from Stage 2. You'll then attach them into something that will start to look like a rover!
 
