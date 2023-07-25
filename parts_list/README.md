@@ -162,4 +162,19 @@ You'll want these to mount the PCBs to the rover body. Many options exist here, 
 
 ## Wiring
 
-We recommend getting 18AWG and 20AWG wire.
+We recommend getting spools of 18AWG (red and black), 20AWG (white, red, black) and 22AWG wire (4 colors). The wire has to be stranded and not solid core as it will bend during operation. For each wire type, if possible, get ribbon cable where each wire is attached to another one which will help with keeping wiring clean and manageable.
+
+To protect the cables from chafing against the sharp aluminum parts, we recommend [cable sleeves](https://www.amazon.com/Best-Sellers-Cable-Sleeves/zgbs/electronics/6577542011).
+You can also use [grommets](https://www.gobilda.com/plastic-grommet-14-1-12-pack/), filing down the sharp edges or burs, applying tape to the edges, or using expandable wire sleeving.
+
+Heat shrink is a must have for keeping cables nice and snug.
+
+## Threadlocker
+
+You will want threadlocker for several screws so that they don't unscrew themselves while driving. You can find this everywhere, for example at [Gobilda](https://www.gobilda.com/loctite-threadlocker-blue-242-6ml/). Make sure you get blue as opposed to red so it's not permanent.
+
+## Tools
+
+* A [combination nut driver](https://www.gobilda.com/7mm-combination-nut-driver/) will save you time screwing and unscrewing (lock)nuts inside the body.
+* You'll need 2.5mm and 3mm hex keys for the button and socket M4 screws respectively. For example [Gobilda 2.5](https://www.gobilda.com/wera-tools-2-5mm-ball-end-hex-plus-l-key/) and [Gobilda 3](https://www.gobilda.com/wera-tools-3mm-ball-end-hex-plus-l-key/).
+* A crimping tool for Molex, JST, DuPont connectors. A regular crimping tool should be able to handle all of these without issue. While you can technically complete a crimp without a crimping tool, it often won't be as consistent or strong as with a proper crimper.
