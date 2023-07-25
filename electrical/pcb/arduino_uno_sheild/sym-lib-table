@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Arduino_uno_sheild-rescue)(type Legacy)(uri ${KIPRJMOD}/Arduino_uno_sheild-rescue.lib)(options "")(descr ""))
-)

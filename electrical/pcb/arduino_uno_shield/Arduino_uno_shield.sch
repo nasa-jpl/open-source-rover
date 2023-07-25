@@ -38,7 +38,7 @@ F 3 "" H 2300 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_uno_sheild-rescue:6posheader-JPL_Robotics_Lib J5
+L Arduino_uno_shield-rescue:6posheader-JPL_Robotics_Lib J5
 U 1 1 5CFE8BE4
 P 3900 3400
 F 0 "J5" H 4006 3823 50  0000 C CNN
@@ -152,12 +152,12 @@ G2
 Text Label 3450 2700 2    30   ~ 0
 B2
 $Comp
-L Arduino_uno_sheild-rescue:Arduino_UNO_R3-JPL_Robotics_Lib A1
+L Arduino_uno_shield-rescue:Arduino_UNO_R3-JPL_Robotics_Lib A1
 U 1 1 5D0266BD
 P 2350 3250
 F 0 "A1" H 2975 4718 30  0000 C CNN
 F 1 "Arduino_UNO_R3" H 2975 4658 30  0000 C CNN
-F 2 "JPL Robotics:Arduino Uno Sheild" H 2350 3250 30  0001 C CNN
+F 2 "JPL Robotics:Arduino Uno Shield" H 2350 3250 30  0001 C CNN
 F 3 "" H 2350 3250 30  0001 C CNN
 	1    2350 3250
 	1    0    0    -1  
@@ -175,7 +175,7 @@ OE
 Text Label 3450 2500 2    30   ~ 0
 CLK
 $Comp
-L Arduino_uno_sheild-rescue:ED2580-ND-JPL_Robotics_Lib J6
+L Arduino_uno_shield-rescue:ED2580-ND-JPL_Robotics_Lib J6
 U 1 1 5D02F3BE
 P 4900 3300
 F 0 "J6" H 4956 3568 30  0000 C CNN
@@ -216,7 +216,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 3250 5200 3350
 $Comp
-L Arduino_uno_sheild-rescue:ED10523-ND-JPL_Robotics_Lib J1
+L Arduino_uno_shield-rescue:ED10523-ND-JPL_Robotics_Lib J1
 U 1 1 5D03196E
 P 2550 3750
 F 0 "J1" H 2975 4293 20  0000 C CNN
@@ -291,7 +291,7 @@ LAT
 Text Label 3400 3700 2    30   ~ 0
 GND
 $Comp
-L Arduino_uno_sheild-rescue:6posheader-JPL_Robotics_Lib J2
+L Arduino_uno_shield-rescue:6posheader-JPL_Robotics_Lib J2
 U 1 1 5D037B9E
 P 3900 1800
 F 0 "J2" H 3850 2100 50  0000 C CNN
@@ -314,7 +314,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 1750 4200 1750
 $Comp
-L Arduino_uno_sheild-rescue:6posheader-JPL_Robotics_Lib J3
+L Arduino_uno_shield-rescue:6posheader-JPL_Robotics_Lib J3
 U 1 1 5D04118C
 P 3900 2200
 F 0 "J3" H 3850 2500 50  0000 C CNN
@@ -333,7 +333,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2150 4200 2150
 $Comp
-L Arduino_uno_sheild-rescue:6posheader-JPL_Robotics_Lib J4
+L Arduino_uno_shield-rescue:6posheader-JPL_Robotics_Lib J4
 U 1 1 5D0426DF
 P 3900 2600
 F 0 "J4" H 3850 2900 50  0000 C CNN
@@ -560,7 +560,7 @@ Wire Wire Line
 Connection ~ 5200 3200
 Connection ~ 4400 3150
 $Comp
-L Arduino_uno_sheild-rescue:rover_silkscreen y1
+L Arduino_uno_shield-rescue:rover_silkscreen y1
 U 1 1 5D3EF344
 P 2500 4050
 F 0 "y1" H 2578 4075 50  0001 L CNN
