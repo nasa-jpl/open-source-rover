@@ -54,6 +54,7 @@ Note that the sides of the rover are mirrored and so you'll be building 2 pairs 
 
 Start by laying out the pieces for each corner so you end up with the 2 mirrored pairs. Take the PCIE to 4-pin JST encoder pins you created before and route them through the top low-profile U-channel, the extruded aluminum, and finally through the motor bracket. The PCIE connector should be at the top with the 4-pin JST connector at the bottom, ready to be connected to the motor encoder pins. Route the two motor power cables through the same parts in the opposite direction. Insert the PCIE pins into the connector. 
 
-**Tip**: Since the aluminum parts may be sharp and thus damage the wires, consider using [grommets](https://www.gobilda.com/plastic-grommet-14-1-12-pack/), filing down the sharp edges or burs, applying tape to the edges, and/or using (expandable) wire sleeving / shielding. Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
+Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges!
+Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
 
 Now that the wiring is in place, use 3 or 4 button screws to attach the motor channel to the extruded aluminum and finally the low-profile U-channel to the extruded aluminum at the top. Repeat this for the other corner assemblies.
