@@ -1,8 +1,6 @@
 # Wheel Assembly
 
-**IN PROGRESS**
-
-The wheel assembly attaches the wheels to the motors and mounts the motors to the rest of the rocker-bogie suspension system that makes up the robot chassis.
+The wheel assembly attaches the wheels to the motors and mounts the motors to the rest of the rocker-bogie suspension system that makes up the robot chassis. These are relatively simple to assemble.
 
 ![Wheels](images/wheels.png)
 
@@ -35,11 +33,13 @@ Drill at least 2 holes in the wheels such that they can be mounted to the [Sonic
 
 ## Assembly
 
+You will need all the parts in the [drive wheel assembly parts list](../../parts_list/README.md#Parts-for-drive-wheel-assembly).
+
 ### Assembling the base wheel mounts
 
 Next, we will build the wheel assemblies which are divided into the middle wheels and corner wheel assemblies. We will build 6 identical base wheels and then add slightly more complexity onto 4 of those which will eventually become the corner wheels.
 
-Let the motor + motor clamp sit in the U-channel without inserting the screws. We'll need to attach these U-channels to the Aluminum extrusions and can only do so if the motor is not in the way. Repeat this assembly 5 more times. We'll also attach the wheels the the motors at a later stage.
+Attach the clamping mount and REX bore hub to the motor. We will adjust their positioning later.
 
 ## Four corner assemblies
 
@@ -52,9 +52,8 @@ The result excluding wiring should look as follows:
 
 Note that the sides of the rover are mirrored and so you'll be building 2 pairs of similar but not exactly the same subassemblies, as shown in the right image above.
 
-Start by laying out the pieces for each corner so you end up with the 2 mirrored pairs. Take the PCIE to 4-pin JST encoder pins you created before and route them through the top low-profile U-channel, the extruded aluminum, and finally through the motor bracket. The PCIE connector should be at the top with the 4-pin JST connector at the bottom, ready to be connected to the motor encoder pins. Route the two motor power cables through the same parts in the opposite direction. Insert the PCIE pins into the connector. 
+Start by laying out the pieces for each corner so you end up with the 2 mirrored pairs. Take the DuPont to 4-pin JST encoder pins you created in [wiring](../electrical/wiring/README.md) and route them through the top low-profile U-channel, the extruded aluminum, and finally through the motor bracket. The DuPont connector should be at the top with the 4-pin JST connector at the bottom, ready to be connected to the motor encoder pins. Route the two motor power cables through the same parts in the opposite direction. Finally, screw the parts together using 3 or 4 button screws inside the U-channel and using 3 or 4 socket screws at the top. Don't tighten the screws too much yet as this will allow you to adjust wiring.
 
-Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges!
-Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
+Adjust the wiring so there is minimal wiring inside the channel. Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges! Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
 
-Now that the wiring is in place, use 3 or 4 button screws to attach the motor channel to the extruded aluminum and finally the low-profile U-channel to the extruded aluminum at the top. Repeat this for the other corner assemblies.
+Repeat this for the 3 other corner assemblies.

@@ -13,6 +13,7 @@ We will be building several cables, all visualized in the above diagram. Make su
    * We'll use these to connect the drive motor encoders at the corners to the top of each corner
    * Having an intermediate connection allows us to swap out motors, perform testing, and route the wires through the parts much easier.
    * These are all of length **35cm** (all lengths excluding connector length)
+   * You can also buy 4 premade cables [from Gobilda](https://www.gobilda.com/encoder-breakout-cable-4-pos-jst-xh-mh-fc-to-4-x-1-pos-tjc8-mh-fc-300mm-length/). They are a bit shorter so you can make the wires in Step (2) 5cm longer without any issue.
 2. 4x: Dupont male 4pin &harr; 4x female Molex connectors
    * These will connect the drive motor encoders for each corner to the PCB through the rocker-bogie. The DuPont male side will plug into (1)
    * The Molex connectors will be inserted in the 6-pin PCI-E connector

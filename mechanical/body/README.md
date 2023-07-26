@@ -8,6 +8,8 @@ The body is the housing of all the electronics for the rover and acts as the att
 
 ## Assemble the body frame
 
+Gather the pieces from the [parts list for the body](../../parts_list/README.md/#parts-for-body-assembly).
+
 Use socket M4 screws of 16mm length and pay close attention to the placement of the beams using the image below and the online OnShape model.
 
 ## Assemble the axes that connect to the rocker-bogie
@@ -35,6 +37,8 @@ Construct the parts as in the image below, using the appropriate M4 screws where
 
 ![Differential Pivot](images/diff_pivot.png)
 
+Finally attach the differential pivot to the top of the body using 4 socketed M4 screws. The differential pivot should be able to freely rotate around the body. We'll attach the side of the differential pivot to the rocker-bogies later.
+
 ## Install the laser cut body plates
 
-Use button screws because of their lower profile.
+Use button screws because of their lower profile along with nuts on the inside so the screws don't fall out while driving. If you've completed the PCB assemblies yet, you can attach them to the bottom body plate already, but you can also do this later.

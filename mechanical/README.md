@@ -10,9 +10,8 @@ The image below shows our suggested progression through the mechanical build pro
 
 Click on the images to get started on a subassembly!
 
-| [![wheel assy](wheel_assembly/images/wheels.png)](wheel_assembly/README.md)             | [![body](body/images/body.png)](body/README.md)                                 |
-| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| [![diff pivot](differential_pivot/images/diff_pivot.png)](differential_pivot/README.md) | [![rocker bogie](rocker_bogie/images/rocker_bogie.png)](rocker_bogie/README.md) |
+| [![wheel assy](wheel_assembly/images/wheels.png)](wheel_assembly/README.md) | [![body](body/images/body.png)](body/README.md) | [![rocker bogie](rocker_bogie/images/rocker_bogie.png)](rocker_bogie/README.md) |
+| --------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------- |
 
 ## Putting it all together
 

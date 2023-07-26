@@ -21,6 +21,8 @@ You can also use [grommets](https://www.gobilda.com/plastic-grommet-14-1-12-pack
 
 Heat shrink is a must have for keeping cables nice and snug.
 
+Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to get an idea of what you will be building. If you want to spend a bit less time on making the wires yourself, you can buy 4 premade [JST to jumper wires](https://www.gobilda.com/encoder-breakout-cable-4-pos-jst-xh-mh-fc-to-4-x-1-pos-tjc8-mh-fc-300mm-length/).
+
 ## Threadlocker
 
 You will want threadlocker for several screws so that they don't unscrew themselves while driving. You can find this everywhere, for example at [Gobilda](https://www.gobilda.com/loctite-threadlocker-blue-242-6ml/). Make sure you get blue as opposed to red so it's not permanent.
