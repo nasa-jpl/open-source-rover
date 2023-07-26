@@ -2,7 +2,7 @@
 
 **NOTE**: You are looking at the next generation OSR. While the design is tested and working, documentation is under construction.
 
-| ![](images/lit_up_shot.jpg) | ![](images/osr_outside.jpg) |
+| ![](images/lit_up_shot.jpg) | ![](images/osr-side-outside.jpg) |
 | --------------------------- | --------------------------- |
 | ![](images/rover.png)       | ![](images/osr_onshape.png) |
 
