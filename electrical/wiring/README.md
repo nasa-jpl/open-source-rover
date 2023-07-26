@@ -57,6 +57,7 @@ As can be seen on the diagram, we'll have three color coded types:
 Optional but recommended: put two pieces of heat shrink on each set of wires. This allows you to securely remove a connection without accidentally stressing one wire/crimp too much. It also prevents the wires from detaching from one another.
 
 ![finished JST connectors for the drive motor encoders](images/drive_motor_encoders.jpg)
+Heat shrink around a female 4p JST connector.
 
 ## Step (1) 4x: JST female 4pin &harr; Dupont female 4pin
 
@@ -68,8 +69,9 @@ On the other side of the cable, you will attach 4 Dupont female crimps. You now 
 
 Now we'll insert each crimped cable into the appropriate connectors. Start by writing the pinout on each of the connectors for easy troubleshooting using a sharpie: B, A, G, 5 for channel B, channel A, ground, and +5V respectively. Copy over the annotations from the images below to your connectors, paying close attention to the orientation of each connector.
 
-TODO insert images here of annotated JST and DuPont connectors
-
+| ![DuPont 4pin connector](images/4p-DuPont.jpg) | ![JST 4pin connector](images/4p-JST.jpg) |
+| ---------------------------------------------- | ------------------------------------------------- |
+| Dupont 4p connector. From top to bottom: VCC/5V (white) &rarr; GND (yellow) &rarr; enA (blue) &rarr; enB (green) | female 4p JST connector. From top to bottom: enB &rarr; enA &rarr; GND &rarr; VCC/5V |
 Finally insert the crimps into the connectors. Repeat for all cables, using the same coloring for each connector hole. If you used heat shrink, use a heat gun to secure the connection.
 
 > **Tip**: When you finish a cable, use the connection testing setting on your multimeter so verify that your cables work. This will save you a lot of time debugging in the future!
@@ -78,12 +80,14 @@ Finally insert the crimps into the connectors. Repeat for all cables, using the 
 
 These cables will connect the Dupont side of the cables we made in step (1) to the PCB via a 6pin PCI-E connector with female Molex connectors.
 
-This process is very similar to the steps we did in (1), except we'll use male DuPont crimps on one side and female Molex crimps on the other side.
+This process is very similar to the steps we did in (1), except we'll use male DuPont crimps on one side and female Molex crimps on the other side. For the male DuPont connector side, make sure the wires match the female DuPont connector you made in Step (1).
 
 Grab the 2 pieces of **encoder wire** of 53cm and 2 pieces of 46cm and prepare the wire ends for crimping. Attach the crimps to each wire and repeat for each set of wires.
 As before, mark the connectors as in the images below, then insert the wires into the connectors. 
 
-TODO insert images here of annotated DuPont and Molex connectors
+| ![Molex PCI-E connector top](images/pcie-top.jpg) | ![Molex PCI-E connector bottom](images/pcie-bottom.jpg) |
+| ------------------------------------------------- | ------------------------------------------------------- |
+| Top of PCI-E connector. 5V &rarr; enA &rarr; enB | bottom of PCI-E connector. M+/A &rarr; Mi/B &rarr; GND |
 
 Mark the PCI-E connector with on each of the two longer cables with 'F' for front and the two connectors attached to the shorter cables with 'B' for back. This will prevent inserting the cables into the wrong slot on the PCB since all cables arrive into the body through the same goRail. The remaining two slots for M+ (A) and M- (B) on each of these connectors will be filled in step (4).
 
