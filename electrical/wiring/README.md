@@ -32,6 +32,8 @@ We will be building several cables, all visualized in the above diagram. Make su
    * 2 of these are **53cm** long for the front corner servos
    * 2 of these are **35cm** long for the back corner servos
 
+In total: 24 JST female crimps, 6 JST female connectors, 36 female DuPont crimps, 6 MH-FC PCI-E connectors, 28 male DuPont crimps, 16 female DuPont crimps, 4 3pin DuPont connectors, 8 4pin DuPont connectors, and 12x bullet connectors+crimps.
+
 > **Tip**: Rather than crimp each wire yourself, you can buy premade connectors, cut the wires, and then solder them to the other side. For soldering using a heat gun, you could get something like the following: [heat gun solder seal wire](https://www.amazon.com/Amliber-Connectors-Solderstick-Waterproof-Electrical/dp/B0BXKHBDFB/ref=sr_1_3?keywords=heat%2Bgun%2Bsolder%2Bseal%2Bwire&qid=1690233825&s=industrial&sprefix=heat%2Bgun%2Bsolder%2Cindustrial%2C159&sr=1-3&th=1). This depends on your preferences. When using premade connectors, be extra careful of the pinouts so you connect the correct wire ends together.
 
 > **Tip**: For the thinner (AWG20 and AWG22) wiring we strongly recommend using ribbon cable (where each wire strand is attached to the next) to keep wires clean and strong. Alternatively you can twist the wires which also helps reduce interference from electrical noise.

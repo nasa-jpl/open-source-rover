@@ -1,6 +1,6 @@
 ## Extra Parts
 
-These parts you may either already have, depend on where you're located for a good deal, depend on personal preference, or are optional.
+These parts you may either already have, depend on where you're located for a good deal, depend on personal preference, or are optional. As a result they are not accounted for in the total price.
 
 ### A gamepad or remote controller
 
@@ -21,7 +21,25 @@ You can also use [grommets](https://www.gobilda.com/plastic-grommet-14-1-12-pack
 
 Heat shrink is a must have for keeping cables nice and snug.
 
-Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to get an idea of what you will be building. If you want to spend a bit less time on making the wires yourself, you can buy 4 premade [JST to jumper wires](https://www.gobilda.com/encoder-breakout-cable-4-pos-jst-xh-mh-fc-to-4-x-1-pos-tjc8-mh-fc-300mm-length/).
+Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to get an idea of what you will be building. You'll need crimps and connectors for DuPont, Bullet, XT30, and JST styles. Crimping doesn't have a 100% success rate, so we recommend getting extras or buying a kit if you're planning on using them for other projects as well. Here are some options for each set you need:
+
+* A RPi ribbon cable, e.g. from [Adafruit](https://www.adafruit.com/product/1988) but available in many places. While you could use header pins for this connection, the cable is the cleanest solution
+* XT30 connectors for the power connections on the motor PCB.
+  * DIY options, either:
+    * [5 pairs M/F from Gobilda](https://www.gobilda.com/xt30-connector-pack-fh-mc-x-5-mh-fc-x-5/)
+    * [20 pairs M/F from Amazon](https://www.amazon.com/gp/product/B0875MBLNH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+  * premade from GoBilda: 2x [male leads](https://www.gobilda.com/xt30-lead-fh-mc-300mm-length/), 2x [female leads](https://www.gobilda.com/xt30-lead-mh-fc-300mm-length/)
+* 6 4-pin JST connections:
+  * 6x [premade JST to jumper wires from GoBilda](https://www.gobilda.com/encoder-breakout-cable-4-pos-jst-xh-mh-fc-to-4-x-1-pos-tjc8-mh-fc-300mm-length/)
+  * [JST connector kit](https://www.amazon.com/460PCS-XH2-54-Connector-Terminal-Connectors/dp/B09DBGVX5C/ref=sr_1_1_sspa?crid=2NX4ZXCFZGOCK&keywords=jst+connector+kit+4+pin&qid=1690482910&sprefix=jst+connector+kit+4+pin%2Caps%2C140&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+* 4 3pin DuPont and 8 4pin DuPont connectors
+  * [DuPont connector kit](https://www.amazon.com/Twidec-Connector-Terminals-Crimping-Connectors/dp/B0B152WRSW/ref=sr_1_1_sspa?keywords=dupont+connector+kit&qid=1690482984&sprefix=DUPont%2Caps%2C190&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
+  * Buy precrimped wires+connectors from various sources
+* 12 female 3.5mm Bullet connectors. Make sure you're getting the right size connectors and ones that come insulated.
+  * GoBilda has [various combinations](https://www.gobilda.com/connector-style-3-5mm-bullet/) available that you can cut/solder/crimp. They use 16AWG wire which is on the thicker side. Make sure you're getting the Female connector type.
+  * Buy a DIY kit
+    * The GoBilda [connector pack](https://www.gobilda.com/3-5mm-bullet-connector-pack-mh-fc-x-5-fh-mc-x-5/) is good quality but only has 5 female connectors so you would need 3 of them.
+    * [from Amazon](https://www.amazon.com/Davitu-Electrical-Equipments-Supplies-Transparent/dp/B089W96QW1/ref=sr_1_6?keywords=3.5mm+bullet+connector+kit&qid=1690483474&sprefix=bullet+connector+kit%2Caps%2C152&sr=8-6) (insulators are flimsy but ok)
 
 ## Threadlocker
 
@@ -31,4 +49,13 @@ You will want threadlocker for several screws so that they don't unscrew themsel
 
 * A [combination nut driver](https://www.gobilda.com/7mm-combination-nut-driver/) will save you time screwing and unscrewing (lock)nuts inside the body.
 * You'll need 2.5mm and 3mm hex keys for the button and socket M4 screws respectively. For example [Gobilda 2.5](https://www.gobilda.com/wera-tools-2-5mm-ball-end-hex-plus-l-key/) and [Gobilda 3](https://www.gobilda.com/wera-tools-3mm-ball-end-hex-plus-l-key/).
-* A crimping tool for Molex, JST, DuPont connectors. A regular crimping tool should be able to handle all of these without issue. While you can technically complete a crimp without a crimping tool, it often won't be as consistent or strong as with a proper crimper.
+* A crimping tool for Molex, JST, DuPont connectors. A regular crimping tool should be able to handle all of these without issue. While you can technically complete a crimp without a crimping tool, it often won't be as consistent or strong as with a proper crimper. Various connector sets come with a decent crimper.
+
+## Electrical
+
+* batteries: many options available here. We recommend getting LiPo batteries. You'll need a battery that can provide over 12V, so a 4s battery works well. You can get batteries with various mAh ratings (how many milliAmperes the battery can output for 1 hour). We recommend any option over 4000mAh. Higher capacity comes at a higher cost. You can also get more than one battery and swap them out. The rover can carry them as well.
+  * Zeee sells many options [on Amazon](https://www.amazon.com/stores/page/25B7018D-26CC-4E43-BC6D-EFAF737D8F5E?ingress=2&visitId=1b4115fa-2240-424d-a0e6-a466830819ce&ref_=ast_bln) 
+  * You'll also need a charger for the battery. Make sure it can support the battery you bought. For the Zeee options, [this model from Amazon](https://www.amazon.com/Hobby-Fans-Professional-Balance-Discharger/dp/B09XC91BWJ/ref=sr_1_6?keywords=LiPo+charger&qid=1690484744&sr=8-6) will work.
+  * Consider getting a fireproof battery bag. LiPo batteries are extremely flammable/explosive and a fire caused by a battery is extremely difficult to put out.
+  * You'll also need a way to connect your battery to the PCB via a XT30 connector (MH-FC) which depends on the battery you get. Often these come with the charger for the battery
+* A Raspberry Pi 3 or 4. Other options may work as well, but we recommend starting here.
