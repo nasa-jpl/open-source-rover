@@ -146,7 +146,8 @@ Cost to build this assembly: $71.79
 | A9: TERM BLOCK HDR 6POS VERT 3.5MM | [WM25701-ND](https://www.digikey.com/en/products/result?keywords=WM25701-ND) | $2.02 | 3 | $6.06 |
 | B2: TERM BLOCK PLUG 6POS STR 3.5MM | [WM13033-ND](https://www.digikey.com/en/products/result?keywords=WM13033-ND) | $2.59 | 3 | $7.77 |
 
-Cost to build this assembly: $90.8## Extra Parts
+Cost to build this assembly: $90.8
+## Extra Parts
 
 These parts you may either already have, depend on where you're located for a good deal, depend on personal preference, or are optional. As a result they are not accounted for in the total price.
 
