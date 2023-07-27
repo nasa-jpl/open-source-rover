@@ -147,6 +147,7 @@ Cost to build this assembly: $71.79
 | B2: TERM BLOCK PLUG 6POS STR 3.5MM | [WM13033-ND](https://www.digikey.com/en/products/result?keywords=WM13033-ND) | $2.59 | 3 | $7.77 |
 
 Cost to build this assembly: $90.8
+
 ## Extra Parts
 
 These parts you may either already have, depend on where you're located for a good deal, depend on personal preference, or are optional. As a result they are not accounted for in the total price.
@@ -177,6 +178,7 @@ Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to
   * DIY options, either:
     * [5 pairs M/F from Gobilda](https://www.gobilda.com/xt30-connector-pack-fh-mc-x-5-mh-fc-x-5/)
     * [20 pairs M/F from Amazon](https://www.amazon.com/gp/product/B0875MBLNH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+    * [1 pair M/F from Digikey](https://www.digikey.com/en/products/detail/dfrobot/FIT0586/9559255)
   * premade from GoBilda: 2x [male leads](https://www.gobilda.com/xt30-lead-fh-mc-300mm-length/), 2x [female leads](https://www.gobilda.com/xt30-lead-mh-fc-300mm-length/)
 * 6 4-pin JST connections:
   * 6x [premade JST to jumper wires from GoBilda](https://www.gobilda.com/encoder-breakout-cable-4-pos-jst-xh-mh-fc-to-4-x-1-pos-tjc8-mh-fc-300mm-length/)
