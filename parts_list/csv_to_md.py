@@ -67,6 +67,7 @@ with open('digikey_bom.csv') as csvfile:
         total_ext_price += extended_price
 text += assembly_cost(total_ext_price, 1)
 all_assemblies_cost += total_ext_price
+text += "\n"
 
 md_text = \
 f"""
