@@ -62,27 +62,13 @@ You will want threadlocker for several screws so that they don't unscrew themsel
 
 ## Electrical
 
-___
-(Some of these items below can be put into a separate spreadsheet of misc electronics)
-
 * Voltage Regulators:
-
-  - **1 X** 5V Regulator: [Pololu]https://www.pololu.com/product/2855 (In Limited Supply)
-  - **1 X** 12V Regulator: [Pololu](https://www.pololu.com/product/2858)
-
+  * **1 X** 5V Regulator: [Pololu]https://www.pololu.com/product/2855 (In Limited Supply)
+  * **1 X** 12V Regulator: [Pololu](https://www.pololu.com/product/2858)
 * **1 X** PCA9685 corner: [Mouser](https://www.mouser.com/ProductDetail/Adafruit/815?qs=GURawfaeGuCGKbWyy9179Q%3D%3D)
-
 * **3 X** Roboclaw 2x7A Motor Controller [Basic Micro](https://www.basicmicro.com/Roboclaw-2x7A-Motor-Controller_p_55.html)
-
 * **1 X** Power Measurement Unit INA260: Sold out on DigiKey, possible replacements are on [Adafruit](https://www.adafruit.com/product/4226?gclid=CjwKCAjw5dqgBhBNEiwA7PryaLOm_zC9GhlzRH1NwN4bSRwDg84sIhSh3LEqTOrIvQ3j_kRBscTAYhoCBOQQAvD_BwE)
-
 * **1 X** PCA9685 corner motor driver [Mouser](https://www.mouser.com/ProductDetail/Adafruit/815?qs=GURawfaeGuCGKbWyy9179Q%3D%3D)
-
-
-
-___
-
-
 
 * DC power meter: [Amazon](https://www.amazon.com/gp/product/B017FSED9I/). This LCD display reads out current, voltage, power, and energy, and can be put on the back where the rectangular hole is in the laser cut cover. 
 
