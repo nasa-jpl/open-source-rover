@@ -18,15 +18,6 @@ You'll want these to mount the PCBs to the rover body. Many options exist here, 
 
 We recommend getting spools of 18AWG (red and black), 20AWG (white, red, black) and 22AWG wire (4 colors). The wire has to be stranded and not solid core as it will bend during operation. For each wire type, if possible, get ribbon cable where each wire is attached to another one which will help with keeping wiring clean and manageable.
 
-Links for the wire can be found below on Amazon:
-
-- [18AWG](https://www.amazon.com/Silicone-Electrical-Conductor-Parallel-Flexible/dp/B07FMRDP87/)
-
-- [20AWG](https://www.amazon.com/Gauge-Electrical-Wire-Conductor-Cable/dp/B0B3MGD254)
-
-- [22AWG](https://www.amazon.com/22AWG-UL2464-Power-Yellow-Conductors/dp/B07TLB9VYX/)
-
-
 To protect the cables from chafing against the sharp aluminum parts, we recommend [cable sleeves](https://www.amazon.com/Best-Sellers-Cable-Sleeves/zgbs/electronics/6577542011).
 You can also use [grommets](https://www.gobilda.com/plastic-grommet-14-1-12-pack/), filing down the sharp edges or burs, applying tape to the edges, or using expandable wire sleeving.
 
