@@ -247,3 +247,9 @@ ___
   * Consider getting a fireproof battery bag. LiPo batteries are extremely flammable/explosive and a fire caused by a battery is extremely difficult to put out.
   * You'll also need a way to connect your battery to the PCB via a XT30 connector (MH-FC) which depends on the battery you get. Often these come with the charger for the battery
 * A Raspberry Pi 3 or 4. Other options may work as well, but we recommend starting here.
+
+
+
+# Maintaining the Parts List
+
+Parts can become out of stock or discontinued in the future. In this case, the part list can be modified by editing `parts_list.csv`, which covers all the mechanical parts, `digikey_bom.csv`, which covers most of the electrical part, and `extra_parts.md` to cover the rest. After doing so, you can compile to update the `README.md` file using `csv_to_md.py` (The compilation will also happen automatically with a merge). **Do not** edit `README.md` directly, as it will be overwritten by the compilation process. 
