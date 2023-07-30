@@ -116,19 +116,17 @@ In our experience, this project takes no less than 100 person-hours to build, an
 
 **TODO**: add build map overview
 
-Above is an example roadmap of how you can build the rover and which parts of the build are dependent on the other sections. It is broken down into several stages. If you're working on the OSR in team, many steps can be done in parallel. For example, soldering the PCB can be done at the same time as the mechanical assembly.
+Above is an example roadmap of how you can build the rover and which parts of the build are dependent on the other sections. It is broken down into several stages.
 
 * **Stage 1:** [Order parts](#ordering-parts). You'll want to get started on this ASAP!
 
 * **Stage 2:** [Create the wiring](electrical/wiring/README.md). The cables connect the Printed Circuit Board (PCB) in the body to each motor and integrate into the rocker-bogie and corner assemblies so they need to be built first.
 
-* **Stage 3:** [Make the mechanical subassemblies](mechanical/README.md): the body, the two rocker-bogies, the drive and corner motor assemblies. The instructions will guide you through how to do these step by step while integrating the cabling from Stage 2. You'll then attach them into something that will start to look like a rover!
+* **Stage 3:** [Make the electronics](electrical/pcb/README.md): Soldering the PCB and installing into the rover along with peripheral connections. We'll also use the wiring to test your PCBs.
 
-* **Stage 4:** [Make the electronics](electrical/pcb/README.md): Soldering the PCB and installing into the rover along with peripheral connections. You can do this step at any point.
+* **Stage 4:** [Make the mechanical assemblies](mechanical/README.md): the body, the two rocker-bogies, the drive and corner motor assemblies. The instructions will guide you through how to do these step by step while integrating the cabling from Stage 2. You'll then attach them into something that will start to look like a rover!
 
-* **Stage 5:** [Integration, calibration, and testing](integration/README.md). You will have to have completed Stage 3 and 4 for this.
-
-* **Stage 6:** Setting up and configuring the operating system rover code. The [Rover Code repo](https://github.com/nasa-jpl/osr-rover-code)'s README files will walk you through all necessary steps for getting the rover software up and running on the Raspberry Pi. These steps can be completed at any point during the project, all the way up to when all the electronics and mechanical parts are completed and you are ready to start driving and controlling the robot.
+* **Stage 5:** Setting up and configuring the operating system rover code. The [Rover Code repo](https://github.com/nasa-jpl/osr-rover-code)'s README files will walk you through all necessary steps for getting the rover software up and running on the Raspberry Pi. These steps can be completed at any point during the project, all the way up to when all the electronics and mechanical parts are completed and you are ready to start driving and controlling the robot.
 
 * **What's next?** Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
 
