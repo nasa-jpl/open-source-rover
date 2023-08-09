@@ -9,25 +9,25 @@ Wiring diagram for one side of the rover. The other side is identical.
 
 We will be building several cables, all visualized in the above diagram. Make sure you have all wire types and connectors and understand the routing of the cabling as it will save you time down the line.
 
-1. 4x: JST female 4pin &harr; Dupont female 4pin (connects to (2))
+1. **4x**: JST female 4pin &harr; Dupont female 4pin (**connects to (2)**)
    * We'll use these to connect the drive motor encoders at the corners to the top of each corner
    * Having an intermediate connection allows us to swap out motors, perform testing, and route the wires through the parts much easier.
    * These are all of length **35cm** (all lengths excluding connector length)
    * You can also buy 4 premade cables [from Gobilda](https://www.gobilda.com/encoder-breakout-cable-4-pos-jst-xh-mh-fc-to-4-x-1-pos-tjc8-mh-fc-300mm-length/). They are a bit shorter so you can make the wires in Step (2) 5cm longer without any issue.
-2. 4x: Dupont male 4pin &harr; 4x female Molex connectors
+2. **4x**: Dupont male 4pin &harr; 4-pins of female Molex connectors
    * These will connect the drive motor encoders for each corner to the PCB through the rocker-bogie. The DuPont male side will plug into (1)
    * The Molex connectors will be inserted in the 6-pin PCI-E connector
    * 2 of these should be **52cm** long for the front, the other 2 should be **45cm** long for the back
-3. 2x: JST female 4pin &harr; 4x female Molex connectors
+3. **2x**: JST female 4pin &harr; 4-pins of female Molex connectors
    * These will connect the drive motor encoders for the two middle wheels to the PCB
    * The Molex connectors will be inserted in the 6-pin PCI-E connector that plugs into the PCB
    * These will both be **53cm** long
-4. 6x: 2x female bullet connector &harr; 2x female Molex connector
+4. **6x**: 2-pin female bullet connector &harr; 2-pin female Molex connector
    * These will connect the two drive motor power supplies (M+ and M-) to the PCB
    * 2 of these are **2cm** long for the middle wheels
    * 2 of these are **53cm** long for the front wheels
    * 2 of these are **40cm** long for the back wheels
-5. 4x: Dupont male 3pin &harr; DuPont female 3pin connectors
+5. **4x**: Dupont male 3pin &harr; DuPont female 3pin connectors
    * These will connect the corner servo motors to the PCB
    * 2 of these are **53cm** long for the front corner servos
    * 2 of these are **35cm** long for the back corner servos
@@ -79,7 +79,7 @@ Finally insert the crimps into the connectors. Repeat for all cables, using the 
 
 > **Tip**: When you finish a cable, use the connection testing setting on your multimeter so verify that your cables work. This will save you a lot of time debugging in the future!
 
-## Step (2) 4x: Dupont male 4pin &harr; 4x female Molex connectors
+## Step (2) 4x: Dupont male 4pin &harr; 4-pins of female Molex connectors
 
 These cables will connect the Dupont side of the cables we made in step (1) to the PCB via a 6pin PCI-E connector with female Molex connectors.
 
@@ -94,11 +94,11 @@ As before, mark the connectors as in the images below, then insert the wires int
 
 Mark the PCI-E connector with on each of the two longer cables with 'F' for front and the two connectors attached to the shorter cables with 'B' for back. This will prevent inserting the cables into the wrong slot on the PCB since all cables arrive into the body through the same goRail. The remaining two slots for M+ (A) and M- (B) on each of these connectors will be filled in step (4).
 
-## Step (3) 2x: JST female 4pin &harr; 4x female Molex connectors
+## Step (3) 2x: JST female 4pin &harr; 4-pins of female Molex connectors
 
 These 2 wires that connect the drive motor encoders for the middle wheels to the PCB directly are a combination of cables (1) and (2), skipping the intermediate DuPont connector. Mark the PCI-E connector for each of the two cables with 'M' for middle.
 
-## Step (4) 6x: 2x female bullet connector &harr; 2x female Molex connector
+## Step (4) 6x: 2-pin female bullet connector &harr; 2x female Molex connector
 
 Grab the 6 pairs of red and black *power wire*. On each wire side attach a female bullet connector on one side and a female Molex connector on the other. 
 
