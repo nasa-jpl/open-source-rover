@@ -1,10 +1,9 @@
 # Main Body Assembly
 
-**Note**: documentation is a work in progress.
-
 The body is the housing of all the electronics for the rover and acts as the attachment point for the differential pivot and the body axis that the rocker-bogies on either side connect to.
 
-![](images/body.png)
+![finished body](images/body.png)
+View of the body without PCB and with some of the body plates made transparent.
 
 ## Assemble the body frame
 
@@ -12,10 +11,11 @@ Gather the pieces from the [parts list for the body](../../parts_list/README.md/
 
 Use socket M4 screws of 16mm length and pay close attention to the placement of the beams using the image below and the online OnShape model.
 
+![body frame](images/body_frame.png)
+
 ## Assemble the axes that connect to the rocker-bogie
 
-| ![](images/body_axial_clamp.png) | ![](images/body_axial_clamp_exploded.png) |
-| -------------------------------- | ----------------------------------------- |
+
 
 Make two of these and connect them to the sides of the body. They should be installed exactly in the middle, which means that you're going to connect each side to the 17th hole on the long 41-hole beams on the top and bottom of the body frame. Use the M4 16mm socket screws.
 

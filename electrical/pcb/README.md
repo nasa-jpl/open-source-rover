@@ -8,41 +8,36 @@ This document goes through the process of assembling and testing the custom Prin
 ![brain board top view](images/brain_board_iso.jpg)
 ![brain board bottom view](images/brain_board_bottom.jpg)
 
+TODO: build instructions go here
+
 **work in progress below**
 
-### 6.2 RoboClaw Testing and Verification
+## Testing the PCB and wiring for the drive motos
 
-In this section you will be going one by one and and testing the operation of
-the RoboClaw Motor controllers. You will be doing this by using the GUI provided
-by the manufacturer of the motor controllers. The GUI can be found at
-[this link](https://www.basicmicro.com/downloads), under general downloads, then
-BasicMicro Motion Studio.
+Before we insert the wiring and PCBs into the mechanical assemblies, we'll test and configure the drive motors, wiring, and PCB. This allows us to fix these critical parts if something doesn't look right and allows us to move to running the software as soon as the rover is assembled.
+
+For this you will need:
+
+* wiring you made earlier
+* 6 drive motors
+* completed PCBs
+* a power source: a benchtop power supply or a charged battery
+
+Secure the PCB assembly so it doesn't fall or move while it's on. You can attach it to the bottom body plate already. Avoid contact with any surfaces that can generate high-voltage sparks like carpets as that can destroy the electrical components.
+
+Arrange the drive motors around the PCB and connect them using the wiring. Since we'll be calibrating them, make sure you connect the right motors to the right PCB receptacles. It helps to mark them using a sticky note or marker. The silk screen lettering should help here.
+
+Connect a power source to your board as you did before. Verify that the roboclaws all receive power. A green light should be on on each roboclaw.
+
+### RoboClaw Testing and Verification
+
+In this section you will be going one by one and and testing the operation of the RoboClaw Motor controllers. You will be doing this by using the GUI provided by the manufacturer of the motor controllers. The GUI can be found at [the BasicMicro website](https://www.basicmicro.com/downloads), under general downloads, then BasicMicro Motion Studio.
 
 You'll also need the `USB RoboClaw Windows Driver` from the RoboClaw General
 Downloads section of the page. This should be installed before you run the
 Motion Studio.
 
-To use the GUI, insert a USB to Micro USB cable from your computer to the motor
-controller you are going to be testing.
-
-#### Connect Wires
-
-First, connect the wires in the following manner:
-
-**todo, outdated**
-
-| Signal    | Terminal Block Label | Motor Connector Wire Color |
-| --------- | -------------------- | -------------------------- |
-| Motor (+) | M+                   | Red                        |
-| Motor (-) | M-                   | Black                      |
-| Ground    | GND                  | Green                      |
-| +5V       | +5V                  | Blue                       |
-| Encoder A | ENA                  | Yellow                     |
-| Encoder   | B                    | ENB White                  |
-
-#### Power on
-
-Power on the board. After a minute or so, in the Basic Motion GUI you should see an available device appear. It might require an update to proceed. Install the latest firmware update and then connect to the device.
+To use the GUI, insert a USB to Micro USB cable from your computer to the motor controller you are going to be testing. In the Basic Motion GUI you should see an available device appear. It might require an update to proceed. Install the latest firmware update and then connect to the device.
 
 #### Prepare PWM signal
 
@@ -60,15 +55,6 @@ previous as well. If these are not happening or are backwards, go back and
 check that you are using the correct motor controller, terminal block, etc.
 If all your connections are correct, you may have to test your solder
 contact between the components on the board itself.
-
-#### 6.4.1 Connect wires
-
-Connect the wires to the motor in the following manner
-
-| Signal    | Terminal Block Label | Motor Connector Wire Color |
-| --------- | -------------------- | -------------------------- |
-| Motor (+) | M+                   | Red                        |
-| Motor (-) | M-                   | Black                      |
 
 #### Test PWM signal
 
