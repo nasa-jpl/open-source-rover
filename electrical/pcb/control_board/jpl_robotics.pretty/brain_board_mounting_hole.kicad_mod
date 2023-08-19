@@ -1,0 +1,9 @@
+(module brain_board_mounting_hole (layer F.Cu) (tedit 63F710E7)
+  (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value brain_board_mounting_hole (at -8.128 -3.302) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 4.6 4.6) (drill 2.9) (layers *.Cu *.Mask))
+)
