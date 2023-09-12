@@ -1,6 +1,6 @@
 # JPL Open Source Rover Project
 
-**NOTE**: You are looking at the next generation OSR. While the design is tested and working, documentation is under construction.
+**NOTE**: For the previous major version of the OSR, please see [v3.1.0](https://github.com/nasa-jpl/open-source-rover/tree/v3.0.0).
 
 | ![](images/lit_up_shot.jpg) | ![](images/osr-side-outside.jpg) |
 | --------------------------- | --------------------------- |
@@ -70,7 +70,7 @@ You can view a 3D model of the latest version of the rover in your browser [at O
 
 This project has elements in mechanical assembly/fabrication, uses a host of electrical components, and has software that will run it all. In order to complete this project, you will need to have some experience in the following:
 
-* **Fabrication/Machining:** All parts are Consumer Off-The-Shelf (COTS) parts and no metal machining should be required to complete the 'base' version of the rover. However for any optional expansions, it may be useful to have access to the following skills/tools:
+* **Fabrication/Machining:** All parts are Consumer Off-The-Shelf (COTS) parts and **no metal machining should be required** to complete the 'base' version of the rover. However for any optional expansions, it may be useful to have access to the following skills/tools:
   * Metal cutting using band saw/dremel
   * Drilling using drill press/hand drill
   * Filing and sanding for part cleanup
@@ -80,7 +80,7 @@ This project has elements in mechanical assembly/fabrication, uses a host of ele
   * Electrical debugging
   * Wiring
   * Electrical Safety
-* **Software:** The rover's brain is a Raspberry Pi. All code can be found in the [osr-rover-code](https://github.com/nasa-jpl/osr-rover-code) repository along with step-by-step instructions to set it up. Basic familiarity with Linux, ROS, and Python will be helpful though.
+* **Software:** The rover's brain is a Raspberry Pi. All code can be found in the [osr-rover-code](https://github.com/nasa-jpl/osr-rover-code) repository along with step-by-step instructions to set it up. Basic familiarity with Linux, ROS, Git, and Python will be helpful though.
 
 Most of the above are skills that you can learn and pick up fairly quickly from watching videos and doing research on the internet, and throughout the project we try to give supplemental information on some of these as well. See the build documents for more information.
 
@@ -114,8 +114,6 @@ In our experience, this project takes no less than 100 person-hours to build, an
 
 ### Rover Build Roadmap
 
-Above is an example roadmap of how you can build the rover and which parts of the build are dependent on the other sections. It is broken down into several stages.
-
 * **Stage 1:** [Order parts](#ordering-parts). You'll want to get started on this ASAP!
 
 * **Stage 2:** [Create the wiring](electrical/wiring/README.md). The cables connect the Printed Circuit Board (PCB) in the body to each motor and integrate into the rocker-bogie and corner assemblies so they need to be built first.
@@ -137,15 +135,7 @@ The [Parts List Readme](parts_list/README.md) contains all the parts necessary t
 You can select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [GoBilda - 5203 series](https://www.gobilda.com/yellow-jacket-planetary-gear-motors/).
 The rover design and the software can accommodate different wheel sizes if you find wheels you like better.
 
-The body plates that attach to all sides of the body are designed to be made from laser cut acrylic, MDF, hardwood, or similar. The 2D cutout files  are the .DXF files in the [laser cut parts folder](mechanical/body/dxf). They were designed to be around 3mm thick (1/8"). You can choose a material and cut them at your local makerspace's laser cutter or order them from an online service like [Sculpteo](https://www.sculpteo.com) or [SendCutSend](https://sendcutsend.com/). See also the cart shares below.
-
-TODO:
-
-* cart shares:
-  * body plates
-  * GoBilda parts
-  * electrical parts
-  * PCBs
+The body plates that attach to all sides of the body are designed to be made from laser cut acrylic, MDF, hardwood, or similar. The 2D cutout files  are the .DXF files in the [laser cut parts folder](mechanical/body/dxf). They were designed to be around 3mm thick (1/8"). You can choose a material and cut them at your local makerspace's laser cutter or order them from an online service like [Sculpteo](https://www.sculpteo.com) or [SendCutSend](https://sendcutsend.com/).
 
 ## Additional Projects
 
