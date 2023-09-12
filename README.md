@@ -114,8 +114,6 @@ In our experience, this project takes no less than 100 person-hours to build, an
 
 ### Rover Build Roadmap
 
-**TODO**: add build map overview
-
 Above is an example roadmap of how you can build the rover and which parts of the build are dependent on the other sections. It is broken down into several stages.
 
 * **Stage 1:** [Order parts](#ordering-parts). You'll want to get started on this ASAP!
