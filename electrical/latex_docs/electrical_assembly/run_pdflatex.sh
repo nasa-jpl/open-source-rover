@@ -1,1 +1,0 @@
-pdflatex Electrical\ Build.tex

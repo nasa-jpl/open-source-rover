@@ -1,0 +1,5 @@
+References,Qty,Description,Manufacturer,MPN,Digikey,Mouser,RS,Newark,Farnell
+J1,1,Connector Header 16P 2x8,On Shore Technology Inc.,302-S161,ED10523-ND,,,,
+"J2, J3, J4",1,Connector Header pin 40P 40x1,Sullins,PRPC040SAAN-RC,S1011EC-40-ND,,,,
+J5,1,Connector Header 6P 6x1,JST,B6B-PH-K-S(LF)(SN),455-1708-ND,,8201447,,9492453
+J6,1,Term block 2P side entry,Phoenix Contact,1984617,277-1721-ND,6511984617,6488484,,2776442

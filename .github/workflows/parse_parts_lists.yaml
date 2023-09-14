@@ -1,0 +1,21 @@
+name: Parse parts lists
+
+on: 
+  pull_request:
+  push:
+    branches: [master, v2]
+
+jobs:
+  generate_md:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: generate_parts_list_md
+        run: |
+          cd parts_list
+          python3 csv_to_md.py
+      # push the changes if any
+      - uses: int128/update-generated-files-action@v2

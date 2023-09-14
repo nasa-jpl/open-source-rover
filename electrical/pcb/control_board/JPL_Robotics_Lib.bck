@@ -1,0 +1,76 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V_brain
+D Power symbol creates a global label with name "+12V_brain"
+K power-flag
+$ENDCMP
+#
+$CMP +12V_motor
+D Power symbol creates a global label with name "+12V_motor"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_brain
+D Power symbol creates a global label with name "+3.3V_brain"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_motor
+D Power symbol creates a global label with name "+3.3V_motor"
+K power-flag
+$ENDCMP
+#
+$CMP +5V_brain
+D Power symbol creates a global label with name "+5V_brain"
+K power-flag
+$ENDCMP
+#
+$CMP +5V_motor
+D Power symbol creates a global label with name "+5V_motor"
+K power-flag
+$ENDCMP
+#
+$CMP +Power
+D Power symbol creates a global label with name "PWR"
+K power-flag board power
+$ENDCMP
+#
+$CMP GND_brain
+D Power symbol creates a global label with name "GND_brain" , ground
+K power-flag
+$ENDCMP
+#
+$CMP GND_motor
+D Power symbol creates a global label with name "GND_motor" , ground
+K power-flag
+$ENDCMP
+#
+$CMP MIC29302WT
+D 3A low dropout linear regulator, adjustable output, TO-220
+K 3A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC2937A-3.3WT
+D 1.5A low dropout linear regulator, adjustable output, TO-220
+K 1.5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29502WT
+D 5A low dropout linear regulator, adjustable output, TO-220
+K 5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP PWR
+D Power symbol creates a global label with name "PWR"
+K power-flag board power
+$ENDCMP
+#
+$CMP test2
+D Power symbol creates a global label with name "+12V_motor"
+K power-flag
+$ENDCMP
+#
+#End Doc Library
