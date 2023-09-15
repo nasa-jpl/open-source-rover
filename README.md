@@ -34,7 +34,7 @@ The OSR has been around since 2017 and has undergone many iterations. It is a pr
 
 ![](images/rover.png)
 
-The OSR mostly uses parts from [GoBilda](www.gobilda.com) for the mechanical assembly. For GoBilda's (international) shipping options, see [here](https://www.gobilda.com/shipping-policy/).
+The OSR mostly uses parts from [GoBilda](https://www.gobilda.com) for the mechanical assembly. For GoBilda's (international) shipping options, see [here](https://www.gobilda.com/shipping-policy/).
 
 Other open-source, cheaper alternatives exist but are slower, less strong, and are more fragile. See [Additional Projects](#additional-projects).
 
