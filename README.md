@@ -10,7 +10,7 @@ The JPL Open Source Rover is an open source, build it yourself, scaled down vers
 
 [![Youtube video of OSR2 in action](images/youtube-thumbnail.png)](https://youtu.be/exHqc_Vuifw)
 
-A gallery of some community builds including previous versions of the rover can be found [here](examples/README.md). Drive a simulated rover around straight from your browser: [opensourcerover.jpl.nasa.gov](https://opensourcerover.jpl.nasa.gov)
+A gallery of some community builds including previous versions of the rover can be found [here](examples/README.md).
 
 ## About the OSR
 
