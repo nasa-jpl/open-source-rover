@@ -4,6 +4,13 @@ These parts you may either already have, depend on where you're located for a go
 
 **Note**: Make sure to go through the list below to make sure you have everything you need.
 
+### The PCBs
+
+The electronics of the rover consist of two boards: the brain board and the motor board. To order these boards we suggest that you order from [JLCPCB](https://jlcpcb.com/), this PCB fabrication company is quite inexpensive for this board size and has good turnaround time. You'll either have to order the required minimum of 10 pieces or you can ask on the Slack group whether someone wants to put in a group order or already has some extras.
+Upload the [.zip files](../electrical/pcb/control_board/gerbers/v2.0.2/) individually and make sure the following settings are set:
+
+![jlcpcb settings](../electrical/pcb/control_board/gerbers/jlcpcb_ordering.png)
+
 ### A gamepad or remote controller
 
 This is technically not a requirement, especially if you're planning on making the rover autonomous, but is highly recommended. Any USB based option should work here.
