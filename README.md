@@ -148,4 +148,4 @@ Take a look at these alternative Mars rover replicas:
 
 Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. Government sponsorship acknowledged.
 
-By downloading, cloning, or otherwise using the contents of this repository, you agree to the terms specified in the attached [DISCLAIMER.txt file](/DISCLAIMER.txt).
+Licensed under [Apache License 2.0](LICENSE.txt).
