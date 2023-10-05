@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1360.74** without discounts. If you are an educational builder,
+The total cost comes out to be **$1346.76** without discounts. If you are an educational builder,
 please join the Slack workspace and enquire about any discounts.
 
 
@@ -69,7 +69,7 @@ Cost to build these assemblies: $206.07 * 2 assemblies = $412.15
 | 32mm bearing | [1604 Series 2-Side, 2-Post Pillow Block (32mm Bore) - goBILDA](https://www.gobilda.com/1604-series-2-side-2-post-pillow-block-32mm-bore/) | $12.99 | 4 | $51.96 |
 | 32mm 6mm spacer 2 pack | [1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA](https://www.gobilda.com/1506-series-32mm-id-spacer-36mm-od-6mm-length-2-pack/) | $3.49 | 3 | $10.47 |
 | 29 hole beam | [1106 Series Square Beam (29 Hole, 232mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-29-hole-232mm-length/) | $5.09 | 5 | $25.45 |
-| 41 hole beam | [1106 Series Square Beam (41 Hole, 328mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-41-hole-328mm-length/) | $6.99 | 6 | $41.94 |
+| 41 hole beam | [1106 Series Square Beam (41 Hole, 328mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-41-hole-328mm-length/) | $6.99 | 4 | $27.96 |
 | 12 hole beam | [1106 Series Square Beam (12 Hole, 96mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-12-hole-96mm-length/) | $2.99 | 8 | $23.92 |
 | 41 hole u-beam beam | [1101 Series U-Beam (41 Hole, 328mm Length) - goBILDA](https://www.gobilda.com/1101-series-u-beam-41-hole-328mm-length/) | $3.89 | 1 | $3.89 |
 | 7 hole flat beam 2pack | [1102 Series Flat Beam (7 Hole, 56mm Length) - 2 Pack - goBILDA](https://www.gobilda.com/1102-series-flat-beam-7-hole-56mm-length-2-pack/) | $2.49 | 2 | $4.98 |
@@ -85,7 +85,7 @@ Cost to build these assemblies: $206.07 * 2 assemblies = $412.15
 | 3x5 grid plate | [1116 Series Grid Plate (3 x 5 Hole, 24 x 40mm)](https://www.gobilda.com/1116-series-grid-plate-3-x-5-hole-24-x-40mm/) | $1.29 | 4 | $5.16 |
 | 2 hole flat beam | [1102 Series Flat Beam (2 Hole, 16mm Length) - 2 Pack](https://www.gobilda.com/1102-series-flat-beam-2-hole-16mm-length-2-pack/) | $1.79 | 2 | $3.58 |
 
-Cost to build this assembly: $257.47
+Cost to build this assembly: $243.49
 
 ## Parts for general assembly
 
