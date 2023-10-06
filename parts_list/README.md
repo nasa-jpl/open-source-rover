@@ -161,6 +161,10 @@ Upload the [.zip files](../electrical/pcb/control_board/gerbers/v2.0.2/) individ
 
 ![jlcpcb settings](../electrical/pcb/control_board/gerbers/jlcpcb_ordering.png)
 
+### The body plates
+
+The body plates that attach to all sides of the body are designed to be made from laser cut acrylic, MDF, hardwood, or similar. The 2D cutout files are the `.dxf` files in the [laser cut parts folder](mechanical/body/laser_cut_parts/README.md). They were designed to be around 3mm thick (1/8"). You can choose a material and cut them at your local makerspace's laser cutter or order them from an online service like [Sculpteo](https://www.sculpteo.com) or [SendCutSend](https://sendcutsend.com/). Check the README in that folder for more details.
+
 ### A gamepad or remote controller
 
 This is technically not a requirement, especially if you're planning on making the rover autonomous, but is highly recommended. Any USB based option should work here.
