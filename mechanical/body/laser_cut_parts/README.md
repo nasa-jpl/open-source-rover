@@ -2,12 +2,23 @@
 
 Contains the files required to cut the body plates.
 
-> **note**: The side plates are identical and so only one file is included. Make sure you include two side panels when you get it laser cut!
+> **Note**: The side plates are identical and so only one file is included. Make sure you include **two side panels** when you get it laser cut!
+
+## Ordering
+
+Various companies will allow you to order laser cut parts with them with fast turnaround times. Some options:
+
+* [SendCutSend](https://sendcutsend.com/)
+* [Sculpteo](https://www.sculpteo.com)
 
 Formats provided:
 
 * 2D: DXF and SVG
 * Engrave: PDF
+
+You are free to pick different materials and colors. Using SendCutSend, your cart should look something like this:
+
+![sencutsend cart](osr_sendcutsend_cart.png)
 
 ## Optional: Engrave the mission patch
 
