@@ -2,7 +2,7 @@
 
 Contains the files required to cut the body plates.
 
-> **Note**: The side plates are identical and so only one file is included. Make sure you include **two side panels** when you get it laser cut!
+> **Note**: The side plates and 'gap slats' are identical and so only one file is included. Make sure you include **two side plates and two gap slats** when you get it laser cut!
 
 ## Ordering
 
