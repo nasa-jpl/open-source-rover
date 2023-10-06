@@ -80,7 +80,7 @@ Cost to build these assemblies: $206.07 * 2 assemblies = $412.15
 | Idler Bearing Hub | [Idler Bearing-Hub (32mm OD, 16mm Height) - goBILDA](https://www.gobilda.com/idler-bearing-hub-32mm-od-16mm-height/) | $12.99 | 1 | $12.99 |
 | plastic hinges | [Plastic Hinge - 2 Pack - goBILDA](https://www.gobilda.com/plastic-hinge-2-pack/) | $4.99 | 2 | $9.98 |
 | 8mm standoffs | [1501 Series M4 x 0.7mm Standoff (6mm OD, 8mm Length) - 4 Pack](https://www.gobilda.com/1501-series-m4-x-0-7mm-standoff-6mm-od-8mm-length-4-pack/) | $2.49 | 2 | $4.98 |
-| 20mm standoffs | [1501 Series M4 x 0.7mm Standoff (6mm OD, 20mm Length) - 4 Pack](https://www.gobilda.com/1501-series-m4-x-0-7mm-standoff-6mm-od-20mm-length-4-pack/) | $3.49 | 2 | $6.98 |
+| 22mm standoffs | [1501 Series M4 x 0.7mm Standoff (6mm OD, 22mm Length) - 4 Pack](https://www.gobilda.com/1501-series-m4-x-0-7mm-standoff-6mm-od-22mm-length-4-pack/) | $3.49 | 2 | $6.98 |
 | plastic spacer | [1500 Series Plastic Spacer (6mm ID x 8mm OD, 1mm Thickness) - 12 Pack](https://www.gobilda.com/1500-series-plastic-spacer-6mm-id-x-8mm-od-1mm-thickness-12-pack/) | $2.79 | 1 | $2.79 |
 | 3x5 grid plate | [1116 Series Grid Plate (3 x 5 Hole, 24 x 40mm)](https://www.gobilda.com/1116-series-grid-plate-3-x-5-hole-24-x-40mm/) | $1.29 | 4 | $5.16 |
 | 2 hole flat beam | [1102 Series Flat Beam (2 Hole, 16mm Length) - 2 Pack](https://www.gobilda.com/1102-series-flat-beam-2-hole-16mm-length-2-pack/) | $1.79 | 2 | $3.58 |
