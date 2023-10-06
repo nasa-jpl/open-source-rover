@@ -132,6 +132,8 @@ In our experience, this project takes no less than 100 person-hours to build, an
 
 The [Parts List Readme](parts_list/README.md) contains all the parts necessary to build the entirety of the robot as it is listed in our documentation.
 
+Note that educational builders may apply for a 15% discount at GoBilda by filling out [this form](https://form.123formbuilder.com/6143945/open-source-rover-edu-form). Make sure you do this on time as processing times may vary. 
+
 You can select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [GoBilda - 5203 series](https://www.gobilda.com/yellow-jacket-planetary-gear-motors/).
 The rover design and the software can accommodate different wheel sizes if you find wheels you like better.
 
