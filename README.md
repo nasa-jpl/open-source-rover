@@ -135,8 +135,6 @@ The [Parts List Readme](parts_list/README.md) contains all the parts necessary t
 You can select higher RPM motors (to drive your rover faster) at the sacrifice of max stall torque. A selection of motors that would integrate easily with the rest of the suggested rover design can be found at [GoBilda - 5203 series](https://www.gobilda.com/yellow-jacket-planetary-gear-motors/).
 The rover design and the software can accommodate different wheel sizes if you find wheels you like better.
 
-The body plates that attach to all sides of the body are designed to be made from laser cut acrylic, MDF, hardwood, or similar. The 2D cutout files  are the .DXF files in the [laser cut parts folder](mechanical/body/dxf). They were designed to be around 3mm thick (1/8"). You can choose a material and cut them at your local makerspace's laser cutter or order them from an online service like [Sculpteo](https://www.sculpteo.com) or [SendCutSend](https://sendcutsend.com/).
-
 ## Additional Projects
 
 Take a look at these alternative Mars rover replicas:

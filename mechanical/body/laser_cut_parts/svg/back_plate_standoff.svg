@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="259.08mm" height="120.08mm" viewBox="0 0 259.08 120.08" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Sketch009" transform="translate(129.540000,58.540000) scale(1,-1)">
+<path id="Sketch009_w0000"  d="M 83.5 56.0 L 127.0 56.0 L 127.0 -59.0 L -127.0 -59.0 L -127.0 56.0 L -83.5 56.0 L -83.5 49.5 A 1 1 0 0 1 -82.5 48.5L -76.2 48.5 L -76.2 44.0 A 4.2 4.2 0 0 1 -67.8 44L -60.2 44.0 A 4.2 4.2 0 1 1 -51.8 44L -51.8 48.49999999999998 L -45.5 48.49999999999998 A 1 1 0 0 1 -44.5 49.5L -44.5 56.0 L 44.49999999999999 56.0 L 44.49999999999999 49.49999999999998 A 1 1 0 0 1 45.5 48.5L 51.79999999999999 48.49999999999998 L 51.79999999999999 43.99999999999998 A 4.2 4.2 0 0 1 60.2 44L 67.8 43.99999999999998 A 4.2 4.2 0 1 1 76.2 44L 76.2 48.49999999999998 L 82.5 48.49999999999998 A 1 1 0 0 1 83.5 49.5L 83.5 56.0 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<circle cx="-120.0" cy="36.0" r="2.2" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="-120.0" cy="-36.0" r="2.2" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="120.0" cy="36.0" r="2.2" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="120.0" cy="-36.0" r="2.2" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<path id="Sketch009_w0005"  d="M 25.25 32.0 L 112.0 32.0 L 112.0 -14.0 L 25.25 -14.0 L 25.25 32.0 " stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<circle cx="-96.0" cy="36.0" r="13.40625" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="0.0" cy="52.0" r="2.2" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="0.0" cy="-52.0" r="2.2" stroke="#000000" stroke-width="0.35 px" style="stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<title>b'Back_Plate_Standoff'</title>
+</g>
+</svg>
