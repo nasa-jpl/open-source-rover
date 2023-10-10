@@ -18,6 +18,10 @@ Formats provided:
 
 You are free to pick different materials and colors. Using SendCutSend, your cart should look something like this:
 
+### Shareable carts
+
+You can skip the DXF upload steps when using SendCutSend by using [this premade cart](https://cart.sendcutsend.com/eagotwf9yciz). 
+
 ![sencutsend cart](osr_sendcutsend_cart.png)
 
 ## Optional: Engrave the mission patch
