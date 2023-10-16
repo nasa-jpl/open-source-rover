@@ -60,7 +60,9 @@ Considering building one yourself? The best way to ask questions, reach maintain
 
 ### Maintenance Status
 
-As an open-source hardware project, the rover is continuously improving. Please check [issues](https://github.com/nasa-jpl/open-source-rover/issues), [pull requests](https://github.com/nasa-jpl/open-source-rover/projects), and the Slack forum to see if any big changes are expected soon.
+As an open-source hardware project, the rover is continuously improving. Please check [issues](https://github.com/nasa-jpl/open-source-rover/issues), [pull requests](https://github.com/nasa-jpl/open-source-rover/projects), and the Slack forum to see if any big changes are expected soon. The OSR project is proud to be Open-Source Hardware certified!
+
+[![OSHW certification US002551](images/OSHWA_mark.png)](https://certification.oshwa.org/us002551.html)
 
 ### Online 3D Model
 
