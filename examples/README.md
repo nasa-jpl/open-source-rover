@@ -2,6 +2,25 @@
 
 OSRs in the wild and under construction! Please [add your rover](#Instructions-for-adding-your-build) and add updates and pictures here as it evolves.
 
+## Raf the Rover ([Achille](https://github.com/Achllle))
+
+| <image src="images/raf/raf_roof_rack.jpg" height="150"> <image src="images/raf/osr_outside.jpg" height="150"> |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+  
+### background
+
+* This is my second rover! I built the first one [Robert the Rover](#robert-the-rover-achille) in 2019. This version is the original v2 of the OSR, which I lead the mechanical design of.
+* It was featured on [Hackaday](https://hackaday.com/2023/09/16/open-source-rover-gets-an-update-for-easier-building/)
+
+### modifications
+
+* I built a roof rack for it so that it could carry stuff around. As you can see from my first rover's mods, I switched to a roof payload holder instead of a trailer cart since that makes doing autonomy easier and lowers the chance of slipping.
+
+</details>
+
 ## JPL Rover
 
 | <image src="images/jpl_rover/rover_at_open_house_1.jpg" height="350"> <image src="images/jpl_rover/rover_at_open_house_2.jpg" height="350"> |
