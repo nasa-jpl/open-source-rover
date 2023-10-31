@@ -1,0 +1,58 @@
+templates:
+  Molex-to-PCB: &molex
+    type: Molex Mini-Fit Jr.
+    subtype: female
+    pinlabels: [M+, M-, G, 5V, EnA, EnB]
+    show_pincount: true
+    image:
+      src: ./images/Molex-Mini-Fit-Jr-6-pin.png
+      caption: Molex Pinout
+      width: 165
+  Motor-to-Molex: &bullet
+    type: Bullet
+    show_pincount: false
+    #image: images/Bullet_Connector.jpg
+  Male-DuPont-4pin: &maleDP4
+    type: DuPont
+    subtype: male
+    pinlabels: [5V, GND, EnA, EnB]
+    show_pincount: true
+    image:
+      src: ./images/dupont.png
+      caption: Dupont Pinout
+      width: 500
+      height: 200
+  Female-DuPont-4pin: &femDP4
+    type: DuPont
+    subtype: female
+    pinlabels: [5V, GND, EnA, EnB]
+    show_pincount: true
+  Male-DuPont-3pin: &maleDP3
+    type: DuPont
+    subtype: male
+    pinlabels: [PWM, +, GND]
+    show_pincount: true
+  Female-DuPont-3pin: &femDP3
+    type: DuPont
+    subtype: female
+    pinlabels: [PWM, +, GND]
+    show_pincount: true
+  JST-XH: &jst_xh4
+    type: JST-XH
+    subtype: female
+    pinlabels: [EnB, EnA, GND, 5V]
+    image:
+      src: ./images/JST-XH.png
+      caption: JST-XH Pinout
+      width: 231
+      height: 202
+  Encoder: &enc
+    colors: [RD, BK, BU, WH]
+    gauge: 22 awg
+  Servo: &servo
+    colors: [WH, RD, BK]
+    gauge: 20 awg
+  Motor: &motor
+    colors: [RD, BK]
+    gauge: 18 awg 
+
