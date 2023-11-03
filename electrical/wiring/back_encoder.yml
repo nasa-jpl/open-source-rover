@@ -1,0 +1,37 @@
+connectors:
+  Molex-to-PCB:
+    <<: *molex
+  M+-to-Molex:
+    <<: *bullet
+    pinlabels: [M+]
+  M--to-Molex:
+    <<: *bullet
+    pinlabels: [M-]
+  Encoder-to-Molex: 
+    <<: *jst_xh4
+
+cables:
+  W1: 
+    <<: *motor
+    length: 41 cm
+
+  W2: 
+    <<: *enc
+    length: 46 cm
+
+connections:
+  - 
+    - Molex-to-PCB: [1]
+    - W1: [1]
+    - M+-to-Molex: [1]
+  - 
+    - Molex-to-PCB: [2]
+    - W1: [2] 
+    - M--to-Molex: [1]
+  -
+    - Molex-to-PCB: [4, 3, 5, 6]
+    - W2: [1-4]
+    - Encoder-to-Molex: [4, 3, 2, 1]
+
+metadata:
+  title: Back Encoder Cable (x2)
