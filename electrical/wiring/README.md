@@ -72,6 +72,8 @@ On the other side of the cable, you will attach 4 Dupont female crimps. You now 
 
 Now we'll insert each crimped cable into the appropriate connectors. Start by writing the pinout on each of the connectors for easy troubleshooting using a sharpie: B, A, G, 5 for channel B, channel A, ground, and +5V respectively. Copy over the annotations from the images below to your connectors, paying close attention to the orientation of each connector.
 
+![Encoder Extension Harness Diagram](images/encoder_extension.jpg)
+
 | ![DuPont 4pin connector](images/4p-DuPont.jpg) | ![JST 4pin connector](images/4p-JST.jpg) |
 | ---------------------------------------------- | ------------------------------------------------- |
 | Dupont 4p connector. From top to bottom: VCC/5V (white) &rarr; GND (yellow) &rarr; enA (blue) &rarr; enB (green) | female 4p JST connector. From top to bottom: enB &rarr; enA &rarr; GND &rarr; VCC/5V |
@@ -87,6 +89,10 @@ This process is very similar to the steps we did in (1), except we'll use male D
 
 Grab the 2 pieces of **encoder wire** of 53cm and 2 pieces of 46cm and prepare the wire ends for crimping. Attach the crimps to each wire and repeat for each set of wires.
 As before, mark the connectors as in the images below, then insert the wires into the connectors. 
+
+![Front Encoder Harness Diagram](images/front_encoder.jpg)
+![Middle Encoder Harness Diagram](images/middle_encoder.jpg)
+![Back Encoder Harness Diagram](images/back_encoder.jpg)
 
 | ![Molex PCI-E connector top](images/pcie-top.jpg) | ![Molex PCI-E connector bottom](images/pcie-bottom.jpg) |
 | ------------------------------------------------- | ------------------------------------------------------- |
@@ -109,6 +115,9 @@ Grab the 6 pairs of red and black *power wire*. On each wire side attach a femal
 You now how all the wiring completed for the drive motors!
 
 ## Step (5) 4x: Dupont male 3pin &harr; DuPont female 3pin connectors
+
+![Front Servo Harness](images/front_servo.jpg)
+![Back Servo Harness](images/back_servo.jpg)
 
 All that's left are the servo ribbon cables. The red and black wires are (+) and (-) voltage to the motor and the white cable carries the PWM signal to command the on-board controller to command the motor to the desired angle, using the built-in absolute encoder. The PCB header pins for the servo motors are wired in the same order (PWM, (+), (-)) so we're essentially building an extension cord in this step. One one side you'll be using male DuPont crimps while on the other you'll use female DuPont crimps. The connectors for both sides are identical.
 
