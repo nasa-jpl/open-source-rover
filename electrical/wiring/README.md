@@ -5,6 +5,8 @@ The wiring is what connects each of the 10 motors to the motor board carrying po
 ![wiring diagram](images/wiring_diagram.png)
 Wiring diagram for one side of the rover. The other side is identical.
 
+Harness diagrams further below were generated with [WireViz](https://github.com/wireviz/WireViz/) and can be re-generated with the *generateHarness.bat/.sh* scripts.
+
 ## Overview
 
 We will be building several cables, all visualized in the above diagram. Make sure you have all wire types and connectors and understand the routing of the cabling as it will save you time down the line.
