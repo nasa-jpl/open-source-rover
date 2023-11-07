@@ -15,7 +15,7 @@ nav:
   - Home: README.md
   - Electrical:
       - Overview: electrical/README.md
-      - PCB assembly: electrical/pcb_assembly/README.md
+      - PCB assembly: electrical/pcb/README.md
       - Build: electrical/electrical_build.md
       - Calibration: electrical/calibration.md
   - Mechanical:
