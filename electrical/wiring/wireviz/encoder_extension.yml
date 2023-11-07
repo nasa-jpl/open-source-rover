@@ -1,0 +1,19 @@
+connectors:
+  DuPont:
+    <<: *maleDP4
+  Encoder-JST: 
+    <<: *jst_xh4
+
+cables:
+  W1: 
+    <<: *enc
+    length: 36 cm
+
+connections:
+  - 
+    - DuPont: [1-4]
+    - W1: [1-4]
+    - Encoder-JST: [4-1]
+
+metadata:
+  title: Corner Encoder Extension Cable (x4)

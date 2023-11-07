@@ -1,0 +1,19 @@
+connectors:
+  Dupont-to-Board:
+    <<: *femDP3
+  Dupont-to-Servo:
+    <<: *maleDP3
+
+cables:
+  W1: 
+    <<: *servo
+    length: 41 cm
+
+connections:
+  - 
+    - Dupont-to-Board: [1-3]
+    - W1: [1-3]
+    - Dupont-to-Servo: [1-3]
+
+metadata:
+  title: Front Servo Cable (x2)
