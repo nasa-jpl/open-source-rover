@@ -5,44 +5,58 @@ templates:
     pinlabels: [M+, M-, G, 5V, EnA, EnB]
     show_pincount: true
     image:
-      src: ./images/Molex-Mini-Fit-Jr-6-pin.png
+      src: ./connector_images/Molex-Mini-Fit-Jr-6.png
       caption: Molex Pinout
       width: 165
   Motor-to-Molex: &bullet
     type: Bullet
     show_pincount: false
-    #image: images/Bullet_Connector.jpg
   Male-DuPont-4pin: &maleDP4
     type: DuPont
     subtype: male
     pinlabels: [5V, GND, EnA, EnB]
     show_pincount: true
     image:
-      src: ./images/dupont.png
+      src: ./connector_images/DuPont-4.png
       caption: Dupont Pinout
-      width: 500
+      width: 300
       height: 200
   Female-DuPont-4pin: &femDP4
     type: DuPont
     subtype: female
     pinlabels: [5V, GND, EnA, EnB]
     show_pincount: true
+    image:
+      src: ./connector_images/DuPont-4.png
+      caption: Dupont Pinout
+      width: 300
+      height: 200
   Male-DuPont-3pin: &maleDP3
     type: DuPont
     subtype: male
     pinlabels: [PWM, +, GND]
     show_pincount: true
+    image:
+      src: ./connector_images/DuPont-3.png
+      caption: Dupont Pinout
+      width: 300
+      height: 200    
   Female-DuPont-3pin: &femDP3
     type: DuPont
     subtype: female
     pinlabels: [PWM, +, GND]
     show_pincount: true
+    image:
+      src: ./connector_images/DuPont-3.png
+      caption: Dupont Pinout
+      width: 300
+      height: 200
   JST-XH: &jst_xh4
     type: JST-XH
     subtype: female
     pinlabels: [EnB, EnA, GND, 5V]
     image:
-      src: ./images/JST-XH.png
+      src: ./connector_images/JST-XH4.png
       caption: JST-XH Pinout
       width: 231
       height: 202

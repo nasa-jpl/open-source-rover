@@ -5,4 +5,4 @@ wireviz middle_encoder.yml --prepend-file templates.yml
 wireviz back_encoder.yml --prepend-file templates.yml
 wireviz encoder_extension.yml --prepend-file templates.yml
 rm *.svg *.tsv *.gv
-mv *.jpg ./images
+mv *.jpg ../images

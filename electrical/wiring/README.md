@@ -7,6 +7,14 @@ Wiring diagram for one side of the rover. The other side is identical.
 
 Harness diagrams further below were generated with [WireViz](https://github.com/wireviz/WireViz/) and can be re-generated with the *generateHarness.bat/.sh* scripts.
 
+>**Some notes on terminology:**
+
+>***Wiring harness*** *(also called **cable harness** or **wire assembly**)*: the collective term for all the wiring and cables that are run through a system to connect power sources, sensors, data lines, etc. In the case of the rover, this means the cables that feed power to the motors, the control signals to the servos, and the encoder data back to the control boards. 
+
+>***Cable***: A group of wires/conductors, usually with an outer sheath.
+
+>***Wire***: A single conductor, solid or stranded core, of any gauge.
+
 ## Overview
 
 We will be building several cables, all visualized in the above diagram. Make sure you have all wire types and connectors and understand the routing of the cabling as it will save you time down the line.
@@ -35,6 +43,8 @@ We will be building several cables, all visualized in the above diagram. Make su
    * 2 of these are **35cm** long for the back corner servos
 
 In total: 24 JST female crimps, 6 JST female connectors, 36 female DuPont crimps, 6 MH-FC PCI-E connectors, 28 male DuPont crimps, 16 female DuPont crimps, 4 3pin DuPont connectors, 8 4pin DuPont connectors, and 12x bullet connectors+crimps.
+
+The harness diagrams in this README also contain an integrated bill-of-materials (BOM) for each cable so you can organize the parts appropriately.
 
 > **Tip**: Rather than crimp each wire yourself, you can buy premade connectors, cut the wires, and then solder them to the other side. For soldering using a heat gun, you could get something like the following: [heat gun solder seal wire](https://www.amazon.com/Amliber-Connectors-Solderstick-Waterproof-Electrical/dp/B0BXKHBDFB/ref=sr_1_3?keywords=heat%2Bgun%2Bsolder%2Bseal%2Bwire&qid=1690233825&s=industrial&sprefix=heat%2Bgun%2Bsolder%2Cindustrial%2C159&sr=1-3&th=1). This depends on your preferences. When using premade connectors, be extra careful of the pinouts so you connect the correct wire ends together.
 
@@ -72,7 +82,9 @@ Use the 4 pieces of 36cm *encoder wire*. Separate the wire ends from the ribbon 
 
 On the other side of the cable, you will attach 4 Dupont female crimps. You now have one of 4 crimped wires, so repeat the process for the 3 other wires.
 
-Now we'll insert each crimped cable into the appropriate connectors. Start by writing the pinout on each of the connectors for easy troubleshooting using a sharpie: B, A, G, 5 for channel B, channel A, ground, and +5V respectively. Copy over the annotations from the images below to your connectors, paying close attention to the orientation of each connector.
+Now we'll insert each crimped cable into the appropriate connectors. Start by writing the pinout on each of the connectors for easy troubleshooting using a sharpie: B, A, G, 5 for channel B, channel A, ground, and +5V respectively. Copy over the annotations from the images below to your connectors, paying close attention to the orientation of each connector. Use the harness diagram below as a guide to make sure that each connector is in the right position in its housing. 
+
+> **Tip**: On single row connectors like the JST-XH and the DuPont, there is usually a mark on the connector housing (like a triangle or a cutout) that indicates position 1. These are more visible in the harness diagrams.
 
 ![Encoder Extension Harness Diagram](images/encoder_extension.jpg)
 
