@@ -12,7 +12,7 @@ rocker bogie,servo,2000-0025-0002,"2000 Series Dual Mode Servo (25-2, Torque) - 
 rocker bogie,8mm Sonic Hub,1309-0016-0008,1309 Series Sonic Hub (8mm Bore) - goBILDA,https://www.gobilda.com/1309-series-sonic-hub-8mm-bore/,$6.99,1,2
 rocker bogie,flanged bearing 2pack,1611-0514-0008,"1611 Series Flanged Ball Bearing (8mm ID x 14mm OD, 5mm Thickness) - 2 Pack - goBILDA",https://www.gobilda.com/1611-series-flanged-ball-bearing-8mm-id-x-14mm-od-5mm-thickness-2-pack/,$3.99,1,2
 rocker bogie,joint pattern spacer,1504-0032-0020,1504 Series 32mm OD Pattern Spacer (2mm Length) - goBILDA,https://www.gobilda.com/1504-series-32mm-od-pattern-spacer-2mm-length/,$1.99,2,2
-rocker bogie,joint 8mm tube,4100-0608-0050,"4100 Series Aluminum Tube (6mm ID x 8mm OD, 50mm Length) - goBILDA",https://www.gobilda.com/4100-series-aluminum-tube-6mm-id-x-8mm-od-50mm-length/,$2.49,1,2
+rocker bogie,joint 8mm shaft,2100-0008-0050,"2100 Series Stainless Steel Round Shaft (8mm Diameter, 50mm Length)",https://www.gobilda.com/2100-series-stainless-steel-round-shaft-8mm-diameter-50mm-length/,$1.49,1,2
 rocker bogie,joint 3hole flat beam 2pack,1102-0003-0024,"1102 Series Flat Beam (3 Hole, 24mm Length) - 2 Pack - goBILDA",https://www.gobilda.com/1102-series-flat-beam-3-hole-24mm-length-2-pack/,$1.89,2,2
 rocker bogie,joint pattern mount,1221-0032-0002,"1221 Series 2-Side, 2-Post Pattern Mount (32-2) - goBILDA",https://www.gobilda.com/1221-series-2-side-2-post-pattern-mount-32-2/,$4.99,2,2
 rocker bogie,steel flat bracket,1126-0001-0001,1126 Series Steel Flat Bracket (1-1) - 2 Pack - goBILDA,https://www.gobilda.com/1126-series-steel-flat-bracket-1-1-2-pack/,$2.49,1,2
@@ -23,7 +23,8 @@ rocker bogie,288mm open goRail,1118-0024-0288,1118 Series Open goRAIL (288mm Len
 rocker bogie,45deg bracket,1111-0001-0001,1111 Series Angle Pattern Bracket (1-1) - goBILDA,https://www.gobilda.com/1111-series-angle-pattern-bracket-1-1/,$2.99,2,2
 rocker bogie,90deg steel bracket 2pack,1137-0001-0001,1137 Series Steel Flat Grid Bracket (1-1) - 2 Pack - goBILDA,https://www.gobilda.com/1137-series-steel-flat-grid-bracket-1-1-2-pack/,$3.49,0.5,2
 rocker bogie,control arm,1916-0014-0072,Plastic Hub-Mount Control Arm (72mm Length) - goBILDA,https://www.gobilda.com/plastic-hub-mount-control-arm-72mm-length/,$4.99,2,2
-rocker bogie,"8mm ID Spacer (10mm OD, 8mm Length)",1514-0010-0080,"1514 Series 8mm ID Spacer (10mm OD, 8mm Length) - 4 Pack - goBILDA",https://www.gobilda.com/1514-series-8mm-id-spacer-10mm-od-8mm-length-4-pack/,$2.39,1,2
+rocker bogie,"8mm ID Spacer (10mm OD, 6mm Length)",1514-0010-0060,"1514 Series 8mm ID Spacer (10mm OD, 6mm Length) - 4 Pack - goBILDA",https://www.gobilda.com/1514-series-8mm-id-spacer-10mm-od-6mm-length-4-pack/,$2.19,0.5,2
+rocker bogie,"8mm ID Spacer (10mm OD, 4mm Length)",1522-0010-0040,"1522 Series 8mm ID Spacer (10mm OD, 4mm Length) - 4 Pack - goBILDA",https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-4mm-length-4-pack/,$2.99,0.5,2
 body,120mm open goRail,1118-0024-0120,1118 Series Open goRAIL (120mm Length) - goBILDA,https://www.gobilda.com/1118-series-open-gorail-120mm-length/,$4.99,2,1
 body,2hole Uchannel,1120-0002-0072,"1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA",https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/,$4.99,2,1
 body,32mm bearing,1604-0043-0032,"1604 Series 2-Side, 2-Post Pillow Block (32mm Bore) - goBILDA",https://www.gobilda.com/1604-series-2-side-2-post-pillow-block-32mm-bore/,$12.99,4,1

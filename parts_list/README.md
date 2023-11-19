@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1346.76** without discounts. If you are an educational builder,
+The total cost comes out to be **$1345.16** without discounts. If you are an educational builder,
 please join the Slack workspace and enquire about any discounts.
 
 
@@ -44,7 +44,7 @@ Cost to build these assemblies: $11.48 * 4 assemblies = $45.92
 | 8mm Sonic Hub | [1309 Series Sonic Hub (8mm Bore) - goBILDA](https://www.gobilda.com/1309-series-sonic-hub-8mm-bore/) | $6.99 | 2 | $13.98 |
 | flanged bearing 2pack | [1611 Series Flanged Ball Bearing (8mm ID x 14mm OD, 5mm Thickness) - 2 Pack - goBILDA](https://www.gobilda.com/1611-series-flanged-ball-bearing-8mm-id-x-14mm-od-5mm-thickness-2-pack/) | $3.99 | 2 | $7.98 |
 | joint pattern spacer | [1504 Series 32mm OD Pattern Spacer (2mm Length) - goBILDA](https://www.gobilda.com/1504-series-32mm-od-pattern-spacer-2mm-length/) | $1.99 | 4 | $7.96 |
-| joint 8mm tube | [4100 Series Aluminum Tube (6mm ID x 8mm OD, 50mm Length) - goBILDA](https://www.gobilda.com/4100-series-aluminum-tube-6mm-id-x-8mm-od-50mm-length/) | $2.49 | 2 | $4.98 |
+| joint 8mm shaft | [2100 Series Stainless Steel Round Shaft (8mm Diameter, 50mm Length)](https://www.gobilda.com/2100-series-stainless-steel-round-shaft-8mm-diameter-50mm-length/) | $1.49 | 2 | $2.98 |
 | joint 3hole flat beam 2pack | [1102 Series Flat Beam (3 Hole, 24mm Length) - 2 Pack - goBILDA](https://www.gobilda.com/1102-series-flat-beam-3-hole-24mm-length-2-pack/) | $1.89 | 4 | $7.56 |
 | joint pattern mount | [1221 Series 2-Side, 2-Post Pattern Mount (32-2) - goBILDA](https://www.gobilda.com/1221-series-2-side-2-post-pattern-mount-32-2/) | $4.99 | 4 | $19.96 |
 | steel flat bracket | [1126 Series Steel Flat Bracket (1-1) - 2 Pack - goBILDA](https://www.gobilda.com/1126-series-steel-flat-bracket-1-1-2-pack/) | $2.49 | 2 | $4.98 |
@@ -55,9 +55,10 @@ Cost to build these assemblies: $11.48 * 4 assemblies = $45.92
 | 45deg bracket | [1111 Series Angle Pattern Bracket (1-1) - goBILDA](https://www.gobilda.com/1111-series-angle-pattern-bracket-1-1/) | $2.99 | 4 | $11.96 |
 | 90deg steel bracket 2pack | [1137 Series Steel Flat Grid Bracket (1-1) - 2 Pack - goBILDA](https://www.gobilda.com/1137-series-steel-flat-grid-bracket-1-1-2-pack/) | $3.49 | 1 | $3.49 |
 | control arm | [Plastic Hub-Mount Control Arm (72mm Length) - goBILDA](https://www.gobilda.com/plastic-hub-mount-control-arm-72mm-length/) | $4.99 | 4 | $19.96 |
-| 8mm ID Spacer (10mm OD, 8mm Length) | [1514 Series 8mm ID Spacer (10mm OD, 8mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1514-series-8mm-id-spacer-10mm-od-8mm-length-4-pack/) | $2.39 | 2 | $4.78 |
+| 8mm ID Spacer (10mm OD, 6mm Length) | [1514 Series 8mm ID Spacer (10mm OD, 6mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1514-series-8mm-id-spacer-10mm-od-6mm-length-4-pack/) | $2.19 | 1 | $2.19 |
+| 8mm ID Spacer (10mm OD, 4mm Length) | [1522 Series 8mm ID Spacer (10mm OD, 4mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-4mm-length-4-pack/) | $2.99 | 1 | $2.99 |
 
-Cost to build these assemblies: $206.07 * 2 assemblies = $412.15
+Cost to build these assemblies: $205.27 * 2 assemblies = $410.55
 
 
 ## Parts for body assembly

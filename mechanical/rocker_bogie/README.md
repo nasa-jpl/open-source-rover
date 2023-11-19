@@ -26,7 +26,7 @@ You will be creating two almost identical assemblies. Below instructions are for
 
 ### Creating the rocker-bogie joint
 
-Assemble the joint following the steps below. Since the clamp in the middle isn't symmetric and protrudes on one side, a spacer is added to the other, flat side. You can see this in the top left image.
+Assemble the joint following the steps below. Since the clamp in the middle isn't symmetric and protrudes on one side, two spacers of different lengths are used. You can see this in the top left image. You'll use spacer `1522-0010-0040` of length 4mm on the side of the clamp that has the protrusion, while on the other, flat side, you'll use spacer `1514-0010-0060` of length 6mm. This creates a tight assembly that prevents the joint from flexing from side to side.
 
 | ![](images/pivot_start.png)            | ![](images/pivot_almost.png)        |
 | -------------------------------------- | ----------------------------------- |
@@ -34,7 +34,7 @@ Assemble the joint following the steps below. Since the clamp in the middle isn'
 
 Wait with the yellow and orange (ball bearing) parts. The bearing should first be inserted into the yellow hub.
 
-TODO: improve images, refer to 3D model.
+> **Tip**: Use the OnShape model and navigate to the tab 'rocker-bogie' in the bottom to isolate this assembly. Then right click on various parts to temporarily hide them so you can see how the assembly works in 3D.
 
 ### Attach the joint bearings to the servo arms
 
@@ -46,7 +46,7 @@ Pay attention to direction of the slits for the cabling
 
 ### Attach the front servo
 
-First attach the bracket to the shaft you just attached to the joint using 3 or 4 M4 screws. Then assemble the servo block to the servo. Insert the set screw that came with the servo inside the hollow shaft that fits onto the spline profile on the servo output, but don't tighten it yet as we'll have to readjust later when calibrating the corner motors. This screw prevents the corner assembly from falling off the rocker-bogie while driving.
+First attach the bracket to the shaft you just attached to the joint using three or four M4 screws. Then assemble the servo block to the servo. Insert the set screw that came with the servo inside the hollow shaft that fits onto the spline profile on the servo output, but don't tighten it yet as we'll have to readjust later when calibrating the corner motors. This screw prevents the corner assembly from falling off the rocker-bogie while driving.
 
 Route the wiring from the servo motor through the hole and into the extruded shaft, then attach the servo motor and block to the front rocker-bogie bracket.
 
