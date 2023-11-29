@@ -144,7 +144,8 @@ The rover design and the software can accommodate different wheel sizes if you f
 Take a look at these alternative Mars rover replicas:
 
 * [Sawppy Rover](https://hackaday.io/project/158208-sawppy-the-rover)
-* [ESA ExoMy](https://github.com/esa-prl/ExoMy)
+* [ESA ExoMy](https://github.com/0xD0M1M0/ExoMy)
+* [3D printed and driveable Curiosity/Perseverance inspired Rover](https://github.com/jakkra/Mars-Rover)
 
 ## Disclaimer
 
