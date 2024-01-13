@@ -26,7 +26,7 @@ rocker bogie,control arm,1916-0014-0072,Plastic Hub-Mount Control Arm (72mm Leng
 rocker bogie,"8mm ID Spacer (10mm OD, 6mm Length)",1514-0010-0060,"1514 Series 8mm ID Spacer (10mm OD, 6mm Length) - 4 Pack - goBILDA",https://www.gobilda.com/1514-series-8mm-id-spacer-10mm-od-6mm-length-4-pack/,$2.19,0.5,2
 rocker bogie,"8mm ID Spacer (10mm OD, 4mm Length)",1522-0010-0040,"1522 Series 8mm ID Spacer (10mm OD, 4mm Length) - 4 Pack - goBILDA",https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-4mm-length-4-pack/,$2.99,0.5,2
 body,120mm open goRail,1118-0024-0120,1118 Series Open goRAIL (120mm Length) - goBILDA,https://www.gobilda.com/1118-series-open-gorail-120mm-length/,$4.99,2,1
-body,2hole Uchannel,1120-0002-0072,"1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA",https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/,$4.99,2,1
+body,2 Hole U channel,1120-0002-0072,"1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA",https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/,$4.99,2,1
 body,32mm bearing,1604-0043-0032,"1604 Series 2-Side, 2-Post Pillow Block (32mm Bore) - goBILDA",https://www.gobilda.com/1604-series-2-side-2-post-pillow-block-32mm-bore/,$12.99,4,1
 body,32mm 6mm spacer 2 pack,1506-0032-0006,"1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA",https://www.gobilda.com/1506-series-32mm-id-spacer-36mm-od-6mm-length-2-pack/,$3.49,3,1
 body,29 hole beam,1106-0029-0232,"1106 Series Square Beam (29 Hole, 232mm Length) - goBILDA",https://www.gobilda.com/1106-series-square-beam-29-hole-232mm-length/,$5.09,5,1
@@ -51,10 +51,10 @@ general,M4 washers,2801-0004-0008,Zinc Plates Steel Washer (M4 x 8mm OD) - 25 Pa
 general,M4 nuts,2811-0004-0007,Zinc Plates Steel Hex Nut (M4 x 7) - 25 Pack - goBILDA,https://www.gobilda.com/2811-series-zinc-plated-steel-hex-nut-m4-x-0-7mm-7mm-hex-25-pack/,$2.49,1,1
 general,M4 locknuts,2812-0004-0007,Zinc Plates Steel Locknut (M4 x 7) - 25 Pack - goBILDA,https://www.gobilda.com/2812-series-zinc-plated-steel-nylon-insert-locknut-m4-x-0-7mm-7mm-hex-25-pack/,$2.99,1,1
 general,M4x6 button screws,2802-0004-0006,M4x6 Button Screw 25-pack,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-6mm-length-25-pack/,$2.99,2,1
-general,M4x6 button screws,2802-0004-0010,M4x10 Button Screw 25-pack,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/,$3.39,3,1
-general,M4x6 button screws,2802-0004-0016,M4x16 Button Screw 25-pack,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-16mm-length-25-pack/,$3.79,2,1
-general,M4x6 socket screws,2800-0004-0008,M4x8 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/,$3.19,2,1
-general,M4x8 socket screws,2800-0004-0010,M4x10 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/,$3.19,3,1
-general,M4x10 socket screws,2800-0004-0012,M4x12 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/,$3.19,1,1
-general,M4x12 socket screws,2800-0004-0016,M4x16 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/,$3.19,2,1
+general,M4x10 button screws,2802-0004-0010,M4x10 Button Screw 25-pack,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/,$3.39,3,1
+general,M4x16 button screws,2802-0004-0016,M4x16 Button Screw 25-pack,https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-16mm-length-25-pack/,$3.79,2,1
+general,M4x8 socket screws,2800-0004-0008,M4x8 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/,$3.19,2,1
+general,M4x10 socket screws,2800-0004-0010,M4x10 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/,$3.19,3,1
+general,M4x1２ socket screws,2800-0004-0012,M4x12 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/,$3.19,1,1
+general,M4x16 socket screws,2800-0004-0016,M4x16 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/,$3.19,2,1
 general,M4x20 socket screws,2800-0004-0020,M4x20 Socket Screw 25-pack,https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/,$3.09,1,1
