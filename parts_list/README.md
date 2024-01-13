@@ -66,7 +66,7 @@ Cost to build these assemblies: $205.27 * 2 assemblies = $410.55
 | short name | link | cost per part | total # req | total cost |
 |---|---|---|---|---|
 | 120mm open goRail | [1118 Series Open goRAIL (120mm Length) - goBILDA](https://www.gobilda.com/1118-series-open-gorail-120mm-length/) | $4.99 | 2 | $9.98 |
-| 2hole Uchannel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 2 | $9.98 |
+| 2 Hole U channel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 2 | $9.98 |
 | 32mm bearing | [1604 Series 2-Side, 2-Post Pillow Block (32mm Bore) - goBILDA](https://www.gobilda.com/1604-series-2-side-2-post-pillow-block-32mm-bore/) | $12.99 | 4 | $51.96 |
 | 32mm 6mm spacer 2 pack | [1506 Series 32mm ID Spacer (36mm OD, 6mm Length) - 2 Pack - goBILDA](https://www.gobilda.com/1506-series-32mm-id-spacer-36mm-od-6mm-length-2-pack/) | $3.49 | 3 | $10.47 |
 | 29 hole beam | [1106 Series Square Beam (29 Hole, 232mm Length) - goBILDA](https://www.gobilda.com/1106-series-square-beam-29-hole-232mm-length/) | $5.09 | 5 | $25.45 |
@@ -98,12 +98,12 @@ Cost to build this assembly: $243.49
 | M4 nuts | [Zinc Plates Steel Hex Nut (M4 x 7) - 25 Pack - goBILDA](https://www.gobilda.com/2811-series-zinc-plated-steel-hex-nut-m4-x-0-7mm-7mm-hex-25-pack/) | $2.49 | 1 | $2.49 |
 | M4 locknuts | [Zinc Plates Steel Locknut (M4 x 7) - 25 Pack - goBILDA](https://www.gobilda.com/2812-series-zinc-plated-steel-nylon-insert-locknut-m4-x-0-7mm-7mm-hex-25-pack/) | $2.99 | 1 | $2.99 |
 | M4x6 button screws | [M4x6 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-6mm-length-25-pack/) | $2.99 | 2 | $5.98 |
-| M4x6 button screws | [M4x10 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.39 | 3 | $10.17 |
-| M4x6 button screws | [M4x16 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.79 | 2 | $7.58 |
-| M4x6 socket screws | [M4x8 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/) | $3.19 | 2 | $6.38 |
-| M4x8 socket screws | [M4x10 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.19 | 3 | $9.57 |
-| M4x10 socket screws | [M4x12 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/) | $3.19 | 1 | $3.19 |
-| M4x12 socket screws | [M4x16 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.19 | 2 | $6.38 |
+| M4x10 button screws | [M4x10 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.39 | 3 | $10.17 |
+| M4x16 button screws | [M4x16 Button Screw 25-pack](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.79 | 2 | $7.58 |
+| M4x8 socket screws | [M4x8 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/) | $3.19 | 2 | $6.38 |
+| M4x10 socket screws | [M4x10 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | $3.19 | 3 | $9.57 |
+| M4x1２ socket screws | [M4x12 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/) | $3.19 | 1 | $3.19 |
+| M4x16 socket screws | [M4x16 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | $3.19 | 2 | $6.38 |
 | M4x20 socket screws | [M4x20 Socket Screw 25-pack](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/) | $3.09 | 1 | $3.09 |
 
 Cost to build this assembly: $71.79
