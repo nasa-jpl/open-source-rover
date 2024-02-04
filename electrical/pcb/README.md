@@ -13,7 +13,7 @@ Note that the images in these instructions are taken from an assembly of the v2.
 
 ## 1. Part References 
 
-All parts referenced in these instructions use the schematic "reference designator" from the silk screen on the pcbs. E.g. "C1", "J2", and "R28". You should look up the details of these parts within [the v2.0.3 BOM](../pcb/control_board/BOM/v2.0.3/BOM v2.0.3.xlsx) spreadsheet. This will tell you the unique ID of the part that we use for ordering from Digikey + elsewhere, and will also link to pictures of the part on the relevant website.
+All parts referenced in these instructions use the schematic "reference designator" from the silk screen on the pcbs. E.g. "C1", "J2", and "R28". You should look up the details of these parts within [the v2.0.3 BOM](control_board/BOM/v2.0.3/bom_v2.0.3.xlsx) spreadsheet. This will tell you the unique ID of the part that we use for ordering from Digikey + elsewhere, and will also link to pictures of the part on the relevant website.
 
 Generally these instructions have enough images to clearly show and identify the parts, but whenever in doubt the best thing to do is to look up the reference in the BOM spreadsheet.
 
