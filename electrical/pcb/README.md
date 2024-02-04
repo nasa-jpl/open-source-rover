@@ -1,51 +1,25 @@
-#  PCB Assembly, v2.0.3
+# Control Board Assembly, v2.0.3
 
-TODO: update these instructions for v2.0.2 or v2.0.3
 TODO: renumber images and sections as necessary
-TODO: make a note that some of the images are from my v2.0.1 assembly, but the instructions are for v2.0.3
+
+The overall Control Board consists of a Motor Board with a Brain Board mounted on top. These are the instructions to assemble these two separate pcbs and mount them together as the unified control board.
 
 <img src="../../images/pcb_assembly/v2_0_1/assembly/assembled/IMG_0848.jpeg" width="50%">
 
 This document goes through the process of assembling and testing the custom
 Printed Circuit Boards for the project. 
 
-<!-- TODO is this still valid ? -->
-<!-- One thing you might notice is the boards have reference designators on them that do not match the reference designators
-used in the parts lists. The board components mapping between these can be found
-below:
+Note that the images in these instructions are taken from an assembly of the v2.0.1 board. There are minimal differences between v2.0.1 and v2.0.3 - such that it wasn't worth doing another photoshoot for v2.0.3. Make sure to follow the written instructions when in doubt.
 
+## 1. Part References 
 
-## 1. Control Board References
+All parts referenced in these instructions use the schematic "reference designator" from the silk screen on the pcbs. E.g. "C1", "J2", and "R28". You should look up the details of these parts within [the v2.0.3 BOM](../pcb/control_board/BOM/v2.0.3/BOM v2.0.3.xlsx) spreadsheet. This will tell you the unique ID of the part that we use for ordering from Digikey + elsewhere, and will also link to pictures of the part on the relevant website.
 
-| **Component**                     | **Parts list Ref** | **Schematic Ref** |
-| --------------------------------- | ------------------ | ----------------- |
-| Terminal block 6 pos top entry    | E4                 | J1-5              |
-| Terminal block 6 pos side entry   | E3                 | J17-26            |
-| Term block 2p side entry (5.08mm) | E12                | J13,15,16         |
-| Connector Header pin 40P 40x1     | E15                | J8,9,11           |
-| Connector Header pin 6P 6x1       | E14                | J10               |
-| Connector Header socket 5P 5x1    | E6                 | RC1-5             |
-| Connector Header socket 40P 2x20  | E13                | J6,7              |
-| Connector Header socket 20 2x10   | E5                 | RC1-5             |
-| Capacitor 100nF                   | E11                | C1-17             |
-| Resistor 4.7K 1/4 Watt            | E7                 | R1                |
-| Resistor 10K 1/4 Watt             | E8                 | R4,6,8,10         |
-| Resistor 22K 1/4 Watt             | E9                 | R3,5,7,9          |
-| Resistor 10K 1/2 Watt             | E10                | R2                |
-| LM358 Op Amp                      | E25                | U1,2              |
-| DIP IC socket 8 Pos               | E33                | U1,2              |
-| Power Diode                       | E17                | D1                |
-| 10A Fuse                          | E16                | F1                |
-| USB A Connector                   | E34                | J12,14            | -->
+Generally these instructions have enough images to clearly show and identify the parts, but whenever in doubt the best thing to do is to look up the reference in the BOM spreadsheet.
 
-<!-- ## 2. Arduino Board References
+## 2. Schematic and Layout Documentation
 
-| **Component**                 | **Parts list Ref** | **Schematic Ref** |
-| ----------------------------- | ------------------ | ----------------- |
-| Term block 2P side entry      | E16                | J6                |
-| Connector Header pin 40P 40x1 | E15                | J2,3,4            |
-| Connector Header 16P 2x8      | E30                | J1                |
-| Connector Header 6P 6x1       | E14                | J5                | -->
+todo: link to these
 
 ## 3. Motor Board Assembly
 
@@ -510,84 +484,8 @@ TODO: identify the parts for the standoffs
 |:-:|
 | Figure 4.7: Mating the brain board to the motor board  |
 
-And now you're done with the assembly! Finally, we'll move on to testing and configuration.
+And now you're done with the assembly! Enjoy your completed Control Board!
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0849.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0850.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0851.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0852.jpeg" height="300">|
 |:-:|
 | Figure 4.8: Completed control board  |
-
-## 6. Testing the PCB and wiring for the drive motos
-
-Before we insert the wiring and PCBs into the mechanical assemblies, we'll test and configure the drive motors, wiring, and PCB. This allows us to fix these critical parts if something doesn't look right and allows us to move to running the software as soon as the rover is assembled.
-
-For this you will need:
-
-- wiring you made earlier in [wiring readme](../wiring/README.md)
-- 6 drive motors
-- completed PCBs
-- a power source: a benchtop power supply or a charged battery
-
-Secure the PCB assembly so it doesn't fall or move while it's on. You can attach it to the bottom body plate already. Avoid contact with any surfaces that can generate high-voltage sparks like carpets as that can destroy the electrical components.
-
-Arrange the drive motors around the PCB and connect them using the wiring. Since we'll be calibrating them, make sure you connect the right motors to the right PCB receptacles. It helps to mark them using a sticky note or marker. The silk screen lettering should help here.
-
-Connect a power source to your board as you did before. Verify that the roboclaws all receive power. A green light should be on on each roboclaw.
-
-### 6.1 RoboClaw Testing and Verification
-
-In this section you will be going one by one and and testing the operation of the RoboClaw Motor controllers. You will be doing this by using the GUI provided by the manufacturer of the motor controllers. The GUI can be found at [the BasicMicro website](https://www.basicmicro.com/downloads), under general downloads, then BasicMicro Motion Studio.
-
-You'll also need the `USB RoboClaw Windows Driver` from the RoboClaw General Downloads section of the page. This should be installed before you run the Motion Studio.
-
-To use the GUI, insert a USB to Micro USB cable from your computer to the motor controller you are going to be testing. In the Basic Motion GUI you should see an available device appear. It might require an update to proceed. Install the latest firmware update and then connect to the device.
-
-Verify that all status lights are green and that the following values are shown at the top:
-
-Temperature1: ~30
-M1/M2 Amps: 0.00
-M1/M2 Encoder: 0
-M1/M2 Speed: 0
-Main Battery: Between 11.5-16.7V
-Logic Battery: 5V
-Model: 2x7a
-
-#### 6.2 Configuring general settings
-
-The addresses for each Roboclaw unit by default are `128` which we want to change such that the Raspberry Pi can distinguish between Roboclaws and thus motors. We'll leave Roboclaw 1 at 128 and set Roboclaw 2 and 3 to 129 and 130 respectively.
-
-In the `General Settings` tab:
-
-- under `Setup`, set `Control Mode` to `Packet Serial`
-- Enable the `Multi-Unit` mode flag
-- Under `Serial`, set the `Packet Serial Address` to either 128, 129, or 130 depending on which roboclaw is plugged in
-- set the `Baudrate` to `115200`
-- Under `I/O`, make sure `Encoder 1 Mode` and `Encoder 2 Mode` are both set to `Quadrature`
-- Under `Battery`, set `Max Main Battery` to `18.5V` and `Min Main Battery` to `11.5V`
-
-Next, we'll check the correct direction and calibrate velocity before we repeat the process for the other roboclaws and motors.
-
-#### Prepare PWM signal
-
-Click on the PWM tab. We will now send a PWM signal to the motor and test that connections are all made correctly to the motor and encoder. Start by selecting the `Enable Space Bar Stop All` button in the bottom left which allows you to set velocity to zero when you hit the space bar.
-
-#### Vary PWM signal
-
-Slowly move the slider bar for the corresponding motor output channel. Verify that the right motor is spinning and that the encoder value is also changing.
-
-- If there is no movement, the motors aren't getting current through the MA and MB wires. Check your wiring and look for red status lights within the Motion Studio GUI to troubleshoot.
-- If the motor spins but the encoder value for that same motor/channel (M1 or M2) isn't changing, there likely is an issue with your encoder cabling. Use a multi-meter to verify connectivity.
-- If all your connections are correct, you may have to test your solder contact between the components on the board itself.
-
-> **Note**: When troubleshooting electrical connections, always remove power to the PCB to prevent shorting and injury.
-
-Switch direction of the slide bar and verify that it spins the other direction and the encoder value does the opposite of previous as well.
-
-Once you've verified this, we'll focus on the direction. We want the motor to spin as in the diagram below when we send a positive PWM:
-
-![motor direction diagram](images/motor_direction_diagram.png)
-
-For both motors check that the direction matches the diagram. If it doesn't, for that motor in the `General Settings` tab, select `M1 Reverse`. Check again to verify it matches. Now verify that the encoder value increases when you send a positive PWM for each motor. If it doesn't, select the `invert` checkbox in `General Settings` and verify again.
-
-> **Important**: Make sure to save these settings to each Roboclaw's non-volatile memory by clicking on the `Device` menu > `Write Settings`.
-
-Repeat starting from Section [6.1](6.1-RoboClaw-Testing-and-Verification) for the other two roboclaws.
