@@ -3,4 +3,4 @@
 
 "digikey_bom_4-20-2023.csv" is the BOM to order from digikey. Must be kept in sync with the other files.
 
-Use the "upload a file" option in digikey to upload the bom csv
+Use the "upload a file" option in digikey to upload the bom csv - see the image in this dir [digikey_upload_bom.png](./digikey_upload_bom.png)
