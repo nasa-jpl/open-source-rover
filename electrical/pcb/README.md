@@ -1,7 +1,5 @@
 # Control Board Assembly, v2.0.3
 
-TODO: renumber images and sections as necessary
-
 The overall Control Board consists of a Motor Board with a Brain Board mounted on top. These are the instructions to assemble these two separate pcbs and mount them together as the unified control board.
 
 <img src="../../images/pcb_assembly/v2_0_1/assembly/assembled/IMG_0848.jpeg" width="50%">
@@ -21,19 +19,11 @@ Generally these instructions have enough images to clearly show and identify the
 
 ## 2. Schematic and Layout Documentation
 
-todo: link to these
+TODO: add versions for v2.0.3
+
+There's documentation of both the schematics (how all the electrical parts logically connect to one another) and the layout (how the parts are physically placed on the boards) in the [control_board/documentation](control_board/documentation) directory
 
 ## 3. Motor Board Assembly
-
-
-<!-- ### 3.1 Motor & RoboClaw Connectors -->
-
-<!-- TODO update this table -->
-<!-- | **Item**              | **Ref** | **Qty** | **Image**                                                                        | **Item**              | **Ref** | **Qty** | **Image**                                                           |
-| --------------------- | ------- | ------- | --------------------------------------------------------------------             | --------------------- | ------- | ------- | --------------------------------------------------------------------|
-| OSR Motor Board       | E1      | 1       | <img src="../../images/pcb_assembly/v2_0_1/assembly/bare_board.png" width="100"> |  10 Pos Header Socket  | E5      | 5       | <img src="../../images/components/electronics/E5.png" width="100">     |
-| 6 Pos Side Term Block | E3      | 10      | <img src="../../images/components/electronics/E3.png" width="100">               |  5 Pos Header Socket   | E6      | 5       | <img src="../../images/components/electronics/E6.png" width="100">     |
-| 6 Pos Top Term Block  | E4      | 5       | <img src="../../images/components/electronics/E4.png" width="100">               |  Soldering Iron        | N/A     |         |                                                                    | -->
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_1493.jpeg" height="300">  <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_1494.jpeg" height="300"> |
 |:-:|
@@ -384,7 +374,7 @@ Make sure to align the slightly "chipped"/beveled corner of the LED array with t
 |:-:|
 | Figure 3.40: LED array U5 installed |
 
-### 3.20 Install drive motor headers J8,J9,J10,J11,J13,J14
+### 3.21 Install drive motor headers J8,J9,J10,J11,J13,J14
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0827.jpeg" height="300"> |
 |:-:|
