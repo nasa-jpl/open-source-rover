@@ -1,0 +1,17 @@
+﻿UID,Name,Quantity,Number to Order,Value,Digi-Key Part,URL,Availability,Notes
+B1,Fuse,1,2,Medium Blow Fuse,F3631-ND,https://www.digikey.com/en/products/detail/littelfuse-inc/0233010-MXP/2024797,,
+B2,roboclaw terminal block connector,3,3,WM13033-ND,WM13033-ND,https://www.digikey.com/en/products/detail/molex/0395005006/2735121,,"Alternates:
+- https://www.arrow.com/en/products/5434586/phoenix-contact?q=5434586
+- https://www.digikey.com/en/products/detail/phoenix-contact/5434586/4389762?s=N4IgTCBcDa4OxwLQEZlgMwBZEDkAiIAugL5A "
+B3,power connectors,4,"1 pack (same as J1,J5,J3,J4)",xt30 connectors,,https://www.amazon.com/gp/product/B0875MBLNH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1,,
+B4,drive motor connectors,6,1 pack,Molex 6 pin connector with cables prepopulated,WM16239-ND,https://www.amazon.com/Amangny-Extension-Power-Express-Adapter/dp/B09NBRQ9CC/ref=d_pd_di_sccai_cn_sccl_1_2/132-2870541-3760859?pd_rd_w=i3aLM&content-id=amzn1.sym.e13de93e-5518-4644-8e6b-4ee5f2e0b062&pf_rd_p=e13de93e-5518-4644-8e6b-4ee5f2e0b062&pf_rd_r=Q8SBJZE0EGHXM3JQYA35&pd_rd_wg=zYt5h&pd_rd_r=3c7ef091-e8a3-4ba3-908b-bf7ee00aae2f&pd_rd_i=B09NBRQ9CC&psc=1,,just cut the wires and use the 6 pin connector side
+B5,rpi ribbon cable,1,2,,,https://www.adafruit.com/product/1988,,
+B6,solder seal wire connectors kit,1,1,,,https://www.amazon.com/Connectors-Connector-Waterproof-Insulated-Electrical/dp/B0BP812YSK/ref=sr_1_1_sspa?crid=IR0ZMDB6RTQ9&keywords=wire+solder+splice&qid=1679025380&sprefix=wire+solder+splice%2Caps%2C120&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyVlY5Sk5aMEJXMEJOJmVuY3J5cHRlZElkPUEwOTg2MzcwM1FIWElPQlU0SEw0NSZlbmNyeXB0ZWRBZElkPUEwODYyMzE0MUxDRU5SWFo4SkVIOSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=,,
+B7,rpi 4B,1,1,,,https://www.raspberrypi.com/products/raspberry-pi-4-model-b/,,
+B8,assorted header kit,1,1,,,https://www.amazon.com/Glarks-1191Pcs-Housing-Connector-Compatible/dp/B07TB8QXMC/ref=sr_1_2?crid=1DA4PF0GMP8FO&keywords=Glarks+header+kit&qid=1679269444&sprefix=glarks+header+kit%2Caps%2C155&sr=8-2,,"For 5V&12v regs, roboclaws, ina260"
+B9,external switch,1,1,,708-3060-ND,https://www.digikey.com/en/products/detail/bulgin/C3920BAAAA/9598416,,Old version: https://www.digikey.com/product-detail/en/bulgin/C3900BA/1091-1026-ND/2747857
+B10,DC Multimeter,,,,,https://www.amazon.com/gp/product/B017FSED9I/,,
+B11,pca9685 and ina260 power pins header,1,1,5mm pitch terminal block header,ED1682-24-ND,https://www.digikey.com/en/products/detail/on-shore-technology-inc./EDSTL130%2F24/133461?utm_adgroup=Terminal%20Blocks%20-%20Headers%2C%20Plugs%20and%20Sockets&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Connectors%2C%20Interconnects_NEW&utm_term=&utm_content=Terminal%20Blocks%20-%20Headers%2C%20Plugs%20and%20Sockets&gclid=CjwKCAjw5dqgBhBNEiwA7PryaDqziVb_gg6-eZDJirwOd0KriQbT5WwNHeIwejqHC7o9JZ8nbu_RyRoCldcQAvD_BwE,,Will need to break this in pieces to use for pca9685 and ina260
+B12,board standoffs kit - metric,1,1,,,https://www.amazon.com/HELIFOUNER-Spacers-Standoffs-Assortment-Tweezers/dp/B0B25BKNKK/ref=sr_1_8?crid=368EQQU16L7YW&keywords=m2.5+spacer+standoff+kit&qid=1679272746&sprefix=m2.5+spacer+standoff+kit%2Caps%2C159&sr=8-8,,
+B13,20 AWG wire,,,,,,,
+B14,16 AWG wire,,,,,,,
