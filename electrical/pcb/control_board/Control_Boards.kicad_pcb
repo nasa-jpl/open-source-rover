@@ -17739,7 +17739,7 @@
   (gr_text "RC2 \nMotor \nSupply" (at 216.3826 64.9478 90) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00006411f51a)
     (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
   )
-  (gr_text "Open Source Rover\nRobotic Breakout Boards\nBrain Board\nv2.0.2" (at 125.0442 -196.2404) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00006412c623)
+  (gr_text "Open Source Rover\nRobotic Breakout Boards\nBrain Board\nv2.0.3" (at 125.0442 -196.2404) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00006412c623)
     (effects (font (size 1.25 1.25) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Motor Board Interconnect" (at 115.5446 -215.6714) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00006412f86d)
