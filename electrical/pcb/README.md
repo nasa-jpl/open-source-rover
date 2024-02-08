@@ -19,9 +19,7 @@ Generally these instructions have enough images to clearly show and identify the
 
 ## 2. Schematic and Layout Documentation
 
-TODO: add versions for v2.0.3
-
-There's documentation of both the schematics (how all the electrical parts logically connect to one another) and the layout (how the parts are physically placed on the boards) in the [control_board/documentation](control_board/documentation) directory
+There's documentation of both the schematics (how all the electrical parts logically connect to one another) and the layout (how the parts are physically placed on the boards) in the [control_board/documentation/v2.0.3](control_board/documentation/v2.0.3) directory
 
 ## 3. Motor Board Assembly
 
