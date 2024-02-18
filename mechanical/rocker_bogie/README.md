@@ -56,7 +56,11 @@ Make sure the slit in the extruded shaft `1118-0024-0096` (same as the other two
 
 > **NOTE**: the OnShape model may represent the orientation of the slits incorrectly. In order to make the model nimble, the same rocker-bogie assembly is used on both sides of the rover which has the side-effect that the two assemblies aren't mirrorred like they are supposed to be. Always stop to think about what you're building to avoid having to take things apart later.
 
-Slide one of the servo arms with bearing and hub you made in an earlier step over one side of the rocker-bogie joint such that the hub faces the inside and the black servo arm faces the outside. Now take a steel bracket, two hurricane nuts, and attach the black servo arm to the extruded shaft using two M4 screws and the nuts. If the screws don't slide through the holes in the black servo arm, it might help to drill them out a bit. Tighten such that you can still slide the servo arm relative to the channel. Flip the assembly over and repeat on the other side, making sure the setup is symmetric.
+Take one of the servo arms with bearing and hub you made in an earlier step amd attach the steel bracket, two hurricane nuts, and 4x socket screws like in the image. Repeat for the other servo arm. If the screws don't slide through the holes in the black servo arm, it might help to drill the holes out a bit.
+
+![picture of the servo arm assembly](images/servo_arm_assembly.jpg)
+
+Place one servo arm assembly over one side of the rocker-bogie joint such that the hurricane nuts fit all the way in the channel. Tighten such that you can still slide the servo arm relative to the channel. Flip the assembly over and repeat on the other side, making sure the setup is symmetric. Now tighten the screws all the way.
 
 ![attaching the shaft from the rocker to the bogie joint](images/rocker_extr_to_bogie_joint.png)
 
