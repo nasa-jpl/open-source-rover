@@ -45,6 +45,23 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
   
 </details>
 
+## Bobert ([Adriel](https://github.com/abust005/open-source-rover))
+| <image src="images/bobert/bobert_front.jpg" height="175"> <image src="images/bobert/bobert_side.jpg" height="175"> <image src="images/bobert/bobert_back.jpg" height="175"> |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+* Construction started in October 2023 as a first personal dive into robotics 
+* Intended as a learning experience, and as a general robotics platform for exploring computer vision and navigation algorithms
+
+### modifications
+* **OAK-D + mount**: Bobert has an original run OAK-D from the first Kickstarter for his eyes, plus a custom pan-tilt mount I designed and had printed in nylon with multi-jet fusion (MJF). The mount uses two pancake stepper motors driven my a SPI-controlled stepper driver board
+* **Tool rack**: For field maintenance and repair, I've added a small rack using some wooden dowels and some 3D-printed brackets to hold my Wera ratchet in place on Bobert
+* **On/off switch mount**: To prevent the on/off switch just flopping around, I've added a small 3D-printed switch mount
+
+</details>
+
 ## Robert the Rover ([Achille](https://github.com/Achllle))
 
 | <image src="images/robert/robert1.png" height="150"> <image src="images/robert/robert2.jpg" height="150"> |
