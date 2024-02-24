@@ -50,6 +50,8 @@ A Raspberry Pi acts as the "brain" of this rover for its versatility, accessibil
 
 For a 7.2Ah battery and with some driving on rough terrain, expect to get at least 3 hours of drive time. Below chart was recorded while driving on rocky terrain and plots voltage, current draw, and commanded velocity over time. When the voltage drops below 13-14V, the rover will power down. You can increase drive time by getting a bigger battery and/or by having the rover carry a second battery that can be swapped out.
 
+> *WARNING*: Be careful to not discharge a LiPo battery too far as that drastically lowers the lifetime of your battery and can potentially make it hard or impossible to recharge.
+
 ![power usage chart](images/power_usage_osr.png)
 
 ## Join a community of hundreds of builders
