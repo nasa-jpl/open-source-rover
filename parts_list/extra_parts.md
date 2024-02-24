@@ -75,12 +75,14 @@ You will want threadlocker for several screws so that they don't unscrew themsel
 * **1 X** Power Measurement Unit INA260: Sold out on DigiKey, possible replacements are on [Adafruit](https://www.adafruit.com/product/4226?gclid=CjwKCAjw5dqgBhBNEiwA7PryaLOm_zC9GhlzRH1NwN4bSRwDg84sIhSh3LEqTOrIvQ3j_kRBscTAYhoCBOQQAvD_BwE)
 * **1 X** PCA9685 corner motor driver [Mouser](https://www.mouser.com/ProductDetail/Adafruit/815?qs=GURawfaeGuCGKbWyy9179Q%3D%3D)
 * DC power meter: [Amazon](https://www.amazon.com/gp/product/B017FSED9I/). This LCD display reads out current, voltage, power, and energy, and can be put on the back where the rectangular hole is in the laser cut cover. 
-* batteries: many options available here. We recommend getting LiPo batteries. You'll need a battery that can provide over 12V, so a 4s battery works well. You can get batteries with various mAh ratings (how many milliAmperes the battery can output for 1 hour). We recommend any option over 4000mAh. Higher capacity comes at a higher cost. You can also get more than one battery and swap them out. The rover can carry them as well.
+* batteries: many options available here. We recommend getting LiPo batteries. You'll need a battery that can provide over 14V(*), so a 4s battery works well. You can get batteries with various mAh ratings (how many milliAmperes the battery can output for 1 hour). We recommend any option over 4000mAh. Higher capacity comes at a higher cost. You can also get more than one battery and swap them out. The rover can carry them as well.
   * Zeee sells many options [on Amazon](https://www.amazon.com/stores/page/25B7018D-26CC-4E43-BC6D-EFAF737D8F5E?ingress=2&visitId=1b4115fa-2240-424d-a0e6-a466830819ce&ref_=ast_bln) 
   * You'll also need a charger for the battery. Make sure it can support the battery you bought. For the Zeee options, [this model from Amazon](https://www.amazon.com/Hobby-Fans-Professional-Balance-Discharger/dp/B09XC91BWJ/ref=sr_1_6?keywords=LiPo+charger&qid=1690484744&sr=8-6) will work.
   * Consider getting a fireproof battery bag. LiPo batteries are extremely flammable/explosive and a fire caused by a battery is extremely difficult to put out.
   * You'll also need a way to connect your battery to the PCB via a XT30 connector (MH-FC) which depends on the battery you get. Often these come with the charger for the battery
 * A Raspberry Pi 3 or 4. Other options may work as well, but we recommend starting here.
+
+> (*) The reason you need 14V is that the 12V regulator needs a [dropout voltage](https://www.pololu.com/product/2855#dropout) on top of the output voltage in order to provide 12V. A 12V battery will not work adequately.
 
 # Maintaining the Parts List
 
