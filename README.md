@@ -48,6 +48,12 @@ This rover is designed to function similarly to the 6 wheel rover designs on Mar
 
 A Raspberry Pi acts as the "brain" of this rover for its versatility, accessibility, simplicity, and ability to add and upgrade your own modifications. Any method with which you can communicate with a Raspberry Pi (bluetooth, WiFi, USB devices, etc) can be interfaced into the control system of the robot.
 
+For a 7.2Ah battery and with some driving on rough terrain, expect to get at least 3 hours of drive time. Below chart was recorded while driving on rocky terrain and plots voltage, current draw, and commanded velocity over time. When the voltage drops below 13-14V, the rover will power down. You can increase drive time by getting a bigger battery and/or by having the rover carry a second battery that can be swapped out.
+
+> *WARNING*: Be careful to not discharge a LiPo battery too far as that drastically lowers the lifetime of your battery and can potentially make it hard or impossible to recharge.
+
+![power usage chart](images/power_usage_osr.png)
+
 ## Join a community of hundreds of builders
 
 Considering building one yourself? The best way to ask questions, reach maintainers, learn about modifications, and join the community of Open Source Rover builders is to join our Slack group:
@@ -152,3 +158,5 @@ Take a look at these alternative Mars rover replicas:
 Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. Government sponsorship acknowledged.
 
 Licensed under [Apache License 2.0](LICENSE.txt).
+
+![OSR on the beach at night](images/beach_osr.jpg)
