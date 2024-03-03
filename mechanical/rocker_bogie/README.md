@@ -46,9 +46,11 @@ Attach 2x length 96mm aluminum extrusions `1118-0024-0096` to the bogie joint. P
 
 ### Attach the front servo
 
-First attach bracket `1111-0003-0001` to the extruded shaft you just attached to the joint using three or four M4 screws, routing the wiring for the front servo and front motor from the servo motor through the hole and into the extruded shaft. Then assemble the servo block to the servo motor. Insert the set screw that came with the servo inside the hollow shaft that fits onto the spline profile on the servo output, but don't tighten it yet as we'll have to readjust later when calibrating the corner motors. This screw prevents the corner assembly from falling off the rocker-bogie while driving. Finally, attach the servo motor and block to the front rocker-bogie bracket. The image below shows the resulting assembly. The red line indicates where the wiring should go.
+First attach bracket `1111-0003-0001` to the extruded shaft you just attached to the joint using three or four M4 screws, routing the wiring for the front servo and front motor from the servo motor through the hole and into the extruded shaft. Then assemble the servo block to the servo motor. Insert the set screw that came with the servo inside the hollow shaft that fits onto the spline profile on the servo output, but don't tighten it yet as we'll have to readjust later when calibrating the corner motors. This screw prevents the corner assembly from falling off the rocker-bogie while driving. Finally, attach the servo motor and block to the front rocker-bogie bracket. The image below shows the resulting assembly.
 
-![bracket and bogie joint and wiring indication](images/front_servo_to_rb.png)
+| ![bracket and bogie joint](images/front_servo_to_rb.png) |
+| --- |
+|![wiring closeup](images/wiring_detail.png) |
 
 ### Connect the servo arms and shaft to the joint
 
@@ -56,11 +58,13 @@ Make sure the slit in the extruded shaft `1118-0024-0096` (same as the other two
 
 > **NOTE**: the OnShape model may represent the orientation of the slits incorrectly. In order to make the model nimble, the same rocker-bogie assembly is used on both sides of the rover which has the side-effect that the two assemblies aren't mirrorred like they are supposed to be. Always stop to think about what you're building to avoid having to take things apart later.
 
-Take one of the servo arms with bearing and hub you made in an earlier step amd attach the steel bracket, two hurricane nuts, and 4x socket screws like in the image. Repeat for the other servo arm. If the screws don't slide through the holes in the black servo arm, it might help to drill the holes out a bit.
+Take one of the servo arms with bearing and hub you made in an earlier step amd attach the steel bracket, two hurricane nuts, and 4x socket screws like in the image. Repeat for the other servo arm. If the screws don't slide freely through the holes in the black servo arm, drill the holes out to make sure the hurricane nuts rotate and lock in place in the rail.
 
 ![picture of the servo arm assembly](images/servo_arm_assembly.jpg)
 
 Place one servo arm assembly over one side of the rocker-bogie joint such that the hurricane nuts fit all the way in the channel. Tighten such that you can still slide the servo arm relative to the channel. Flip the assembly over and repeat on the other side, making sure the setup is symmetric. Now tighten the screws all the way.
+
+> **NOTE**: Consider using an extra screw and hurricane nut in the middle to strengthen the joint further
 
 ![attaching the shaft from the rocker to the bogie joint](images/rocker_extr_to_bogie_joint.png)
 
