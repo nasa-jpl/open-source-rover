@@ -153,6 +153,10 @@ Take a look at these alternative Mars rover replicas:
 * [ESA ExoMy](https://github.com/0xD0M1M0/ExoMy)
 * [3D printed and driveable Curiosity/Perseverance inspired Rover](https://github.com/jakkra/Mars-Rover)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=nasa-jpl/open-source-rover&type=Date)](https://star-history.com/#nasa-jpl/open-source-rover&Date)
+
 ## Disclaimer
 
 Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology. Government sponsorship acknowledged.
