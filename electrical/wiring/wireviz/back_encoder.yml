@@ -8,7 +8,7 @@ connectors:
     <<: *bullet
     pinlabels: [M-]
   Encoder-to-Molex: 
-    <<: *jst_xh4
+    <<: *femDP4
 
 cables:
   W1: 
@@ -31,7 +31,7 @@ connections:
   -
     - Molex-to-PCB: [4, 3, 5, 6]
     - W2: [1-4]
-    - Encoder-to-Molex: [4, 3, 2, 1]
+    - Encoder-to-Molex: [1, 2, 3, 4]
 
 metadata:
   title: Back Encoder Cable (x2)
