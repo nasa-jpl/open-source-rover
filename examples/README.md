@@ -40,6 +40,57 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 </details>
 
+## Samwise ([Eric](https://github.com/ericjunkins))
+
+| <image src="images/samwise/samwise_front.jpg" height="150"> <image src="images/samwise/samwise_side.jpg" height="150"> <image src="images/samwise/ring_bearing.jpg" height="150">|
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+  
+### Background
+
+* This is a custom spin-off of the OSR V2 design, utilizing mostly the same electronics and software stack, but made out of a combination of laser cut aluminum and 3D printing technologies such as MJF, SLA, and SLS. It was inspired by my partner who asked for a ring bearer robot at our wedding, and this project was particularly special to us as I was working on designing the very first Open Source Rover at JPL when we met. 
+
+### Modifications
+
+<table>
+  <tr>
+    <td width="50%">
+      Custom channels, creating the structure and allowing cables to be routed through the interior of the robot, sealing from elements, and keeping cables well protected. 
+    </td>
+    <td>
+      <image src="images/samwise/rocker_bogie_inside.PNG" >
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      Added a servo and servo mounting block + gears in order to give the head an articulated axis, making it so I could make the head rotate around. Hollow tube supports mounts the head to run cables, and mounts an LCD screen at the top. 
+    </td>
+    <td>
+      <image src="images/samwise/head_pivot_mechanism.PNG">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      Wrote a ROS backend + FastAPI, and React frontend to display either a cute face, or diagnostic information about what's happening on the robot. Gui shows things like wheel speeds, servo positions, battery voltage level, and a few error/faults.
+    </td>
+    <td>
+      <image src="images/samwise/gui.PNG">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      Added corner latches that swing up/down and attach via magnets, allowing me to lock out the corners so they can't move for transportation. 
+    </td>
+    <td>
+      <image src="images/samwise/corner_stops.jpg">
+    </td>
+  </tr>
+</table>
+
+</details>
+
 # <ins>V1 Rovers</ins>
 
 ## JPL Rover
