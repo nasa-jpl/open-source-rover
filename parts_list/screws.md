@@ -6,6 +6,7 @@ All of the below are included in the [parts list](parts_list/README.md). This do
 
 | subassembly  | nb  | length           | type   | purpose                        | multiplier | total |
 | ------------ | --- | ---------------- | ------ | ------------------------------ | ---------- | ----- |
+| wheel        | 3   | **16** or 18     | socket | wheel - motor                  | 6          | 18    |
 | wheel        | 4   | 10               | either | motor - channel                | 6          | 24    |
 | wheel        | 3   | 10               | button | bracket - vert. extrusion      | 6          | 18    |
 | corner       | 3   | 10               | button | vert. extrusion - low channel  | 4          | 12    |
@@ -44,7 +45,7 @@ Total per category and length:
 | socket | [8](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/)   | 30 (+8)      | 2                     |
 | socket | [10](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | 24 (+48)     | 3                     |
 | socket | [12](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/) | 20           | 1                     |
-| socket | [16](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | 28 (+8)      | 2                     |
+| socket | [16](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | 46 (+8)      | 2                     |
 | socket | [20](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/) | 12           | 1                     |
 
 Values between parentheses are the additional screws that would need to be ordered if all 'either' types with same length are used in that type. In general, socket screws are preferred because of their resistance to stripping and use of a larger hex key.
