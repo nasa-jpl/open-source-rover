@@ -21,6 +21,11 @@ Image paths should be relative so they display correctly in a local preview.
 
 The site is build with [MkDocs](https://www.mkdocs.org/) and the
 [readthedocs](https://www.mkdocs.org/user-guide/choosing-your-theme/#readthedocs) theme.
+
+Clone the git repo. The `--depth 1` flag will clone just the most recent revision.
+
+    git clone --depth 1 https://github.com/nasa-jpl/open-source-rover.git
+
 You may build the site locally to preview your changes.
 
     python -m venv .venv
