@@ -15,25 +15,19 @@ nav:
   - Home: README.md
   - Electrical:
       - Overview: electrical/README.md
+      - Wiring: electrical/wiring/README.md
       - PCB assembly: electrical/pcb/README.md
-      - Build: electrical/electrical_build.md
-      - Calibration: electrical/calibration.md
   - Mechanical:
-      - Subsystem: mechanical/README.md
-      - Body assembly: mechanical/body_assembly/README.md
-      - Corner steering: mechanical/corner_steering/README.md
-      - Differential pivot: mechanical/differential_pivot/README.md
-      - Head assembly: mechanical/head_assembly/README.md
-      - Integration: mechanical/mechanical_integration/README.md
-      - Rocker bogie: mechanical/rocker_bogie/README.md
+      - Overview: mechanical/README.md
       - Wheel assembly: mechanical/wheel_assembly/README.md
+      - Body: mechanical/body/README.md
+      - Rocker bogie: mechanical/rocker_bogie/README.md
   - Parts:
       - Parts list: parts_list/README.md
-      - Optional parts: optional_cad_parts/README.md
+      - Optional parts: mechanical/optional_cad_parts/README.md
   - Software:
-      - software/README.md
       - Software on GitHub: https://github.com/nasa-jpl/osr-rover-code
-  - OSR@JPL: https://opensourcerover.jpl.nasa.gov
+  - OSR@JPL: https://jplopensourcerover.com/
 
 plugins:
   - same-dir
