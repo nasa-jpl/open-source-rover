@@ -78,8 +78,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **${round(all_assemblies_cost, 2)}** without discounts. If you are an educational builder,
-please join the Slack workspace and enquire about any discounts.
+The total cost comes out to be **${round(all_assemblies_cost, 2)}** without the GoBilda educational discount (15%) and excluding shipping. **note**: GoBilda may change its pricing without notice.
 
 """
 
