@@ -13,3 +13,5 @@ _site
 *.out
 *.toc
 .DS_Store
+
+*.code-workspace

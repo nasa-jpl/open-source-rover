@@ -1,0 +1,52 @@
+﻿UID,Reference,Name,Quantity,Number to Order,Value,Digi-Key Part,URL,Availability,Notes,Footprint,Datasheet
+A1,C2 C4 C9 C10 C13 C14 C15 C16 C17 C18 C20 C21 C33 C34,,14,20,10nf,399-9865-1-ND,https://www.digikey.com/en/products/detail/kemet/C317C103K5R5TA7301/3726019,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+A2,C19 C25 C27 C28,,4,10,100uF,399-18272-1-ND,https://www.digikey.com/en/products/detail/kemet/ESK107M050AG3EA/9448269,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+A3,C1 C3 C5 C6 C32,,5,10,100nf,399-14065-1-ND,https://www.digikey.com/en/products/detail/kemet/C322C104K5R5TA7317/6562476,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+A4,C7,,1,3,10uf,399-ESK106M050AC3DACT-ND,https://www.digikey.com/en/products/detail/kemet/ESK106M050AC3DA/13176616,,,Capacitor_THT:CP_Radial_D8.0mm_P3.80mm,
+A5,D1,motor power return diode,1,2,,497-2738-5-ND,https://www.digikey.com/en/products/detail/stmicroelectronics/STPS10L25D/603763?s=N4IgTCBcDaICwE4DsBaMSDMAOFBWFAcgCIgC6AvkA,,,JPL Robotics:497-2738-5-ND,~
+A6,D8 D9,led diode,2,10,1N4148,1655-1N4148CT-ND,https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148/6022448,,,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+A7,F1,fuse holder,1,1,Fuse Holder,732-11376-ND,https://www.digikey.com/en/products/detail/würth-elektronik/696108003002/7244560?s=N4IgTCBcDaIGwE44EYAMAOVqDMWIF0BfIA,,,JPL Robotics:696108003002_5x20_fuseholder,~
+A8,J1 J5,male power header,2,"1 pack (J1,J5,J3,J4)",XT30-M,n/a,https://www.amazon.com/gp/product/B0875MBLNH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1,,"needs mate, see other page",JPL Robotics:AMASS_XT30U-M_1x02_P5.0mm_Vertical,
+A9,J16 J17 J18,phoenix contact header,3,3,WM25701-ND,WM25701-ND,https://www.digikey.com/en/products/detail/molex/0395016006/2735254,,"needs mate, see other page
+
+alternative suppliers: 
+- https://www.arrow.com/en/products/5452096/phoenix-contact 
+- https://www.digikey.com/en/products/detail/phoenix-contact/5452096/5186808?s=N4IgTCBcDa4OxwLQEZkBYAMbEDkAiIAugL5A",JPL Robotics:277-11404-ND,
+A10,J7 J12 J15 J19,pwm header,3,4,TSW-104-07-F-T,TSW-104-07-F-T,https://www.digikey.com/en/products/detail/samtec-inc/TSW-104-07-F-T/6691937,,,JPL Robotics:SSW-104-01-F-T,
+A11,J20 J30,test pin header,2,4,PEC08SAAN,S1012E-08-ND,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC08SAAN/859161?s=N4IgTCBcDaIAoFEDCAGAHAZQIJYHIgF0BfIA,,,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+A12,J21,interconnect header,1,1,PPTC102LFBN-RC,PPTC102LFBN-RC,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC102LFBN-RC/810216?s=N4IgTCBcDaIApwCoGECMAGMAZAYgIQDkBaAJWRAF0BfIA,,,JPL Robotics:PPTC102LFBN-RC,
+A13,J22 J23,rpi header,2,2,S9175-ND_rpi_breakout,S9175-ND,https://www.digikey.com/en/products/detail/sullins-connector-solutions/SBH11-PBPC-D20-ST-BK/1990068?s=N4IgTCBcDaIMoE4CMB2ArAWgHIBEQF0BfIA,,,JPL Robotics:S9175-ND,
+A14,J24,arduino header,1,2,6posheader,455-1708-ND,https://www.digikey.com/en/products/detail/jst-sales-america-inc/B6B-PH-K-S-LF-SN/926615?s=N4IgTCBcDaICwFYEFoCMB2ADADmQOQBEQBdAXyA,,,JPL Robotics:455-1708-ND,
+A15,J25,rpi i2c header,1,0,SSW-104-01-F-T,SSW-104-01-F-T-ND,https://www.digikey.com/en/products/detail/samtec-inc/SSW-104-01-F-T/7873826?s=N4IgTCBcDaIMpwOoFoCMAGALM9rkDFkAVEAXQF8g,,Added +1 of TSW-104-07-F-T. Needs cleanup in kicad files,JPL Robotics:SSW-104-01-F-T,
+A16,J26,"board interconnect header, brain board side",1,1,kk      ,WM6548-ND,https://www.digikey.com/en/products/detail/molex/0702462001/760170?s=N4IgTCBcDaIOoFkBsBWALADgLQDkAiIAugL5A,,,JPL Robotics:WM6548-ND,
+A17,J27 J28 J29,brain board other breakout header,3,5,PPTC021LFBN-RC,S7000-ND,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC021LFBN-RC/810142?s=N4IgTCBcDaIApwCoGEAMYCMAZAYgIQDkBaAJWRAF0BfIA,,,JPL Robotics:PPTC021LFBN-RC,
+A18,J3 J4,female power header,2,"1 pack (J1,J5,J3,J4)",XT30-F,n/a,https://www.amazon.com/gp/product/B0875MBLNH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1,,"needs mate, see other page",JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical,
+A19,J2 J6,power breakout terminal block,2,2,ED2580-ND,ED2580-ND,https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTA024163/614529?s=N4IgTCBcDaIKIBEwFYAcAGAtAOQSAugL5A,,,JPL Robotics:ED2580-ND,
+A20,J8 J9 J10 J11 J13 J14,drive motor header,6,6,Molex_172675-0613,172675-0613,https://www.digikey.com/en/products/detail/molex/1726750613/5116933?s=N4IgTCBcDaIIwHYwDYEFYC0AGZcDMIAugL5A,,"needs mate, see other page",JPL Robotics:Molex_172675-0613,
+A21,Q1 Q2 Q3 Q4 Q5 Q6,led bjt transistor,6,10,2N3906,2N3906TAFSCT-ND,https://www.digikey.com/en/products/detail/onsemi/2N3906TA/975255,,,Package_TO_SOT_THT:TO-92_Inline,https://www.onsemi.com/pub/Collateral/2N3906-D.PDF
+A22,R10,,1,10,100,CF14JT100RCT-ND,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT100R/1741261?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXADYBWAFgGYQBdfABwBcoQBlFgJwEsA7AOYgAvvjrQQSSGix5CJEDAoAGOoxCt2XPkNH4wAdirwpKDDnxFIpGjEp2GzNpE48BwseACcADm%2Bm0rKWCjYgKgxeMCq%2BFIHmclaKYCoqAAQA8gAWALaYTpouIACq-LwsGcgAstiomACu3Nj6IAC0cJLSPPXy1qRx9F6tEJ0JIX0ghjS%2BkfitJqMyFr2KNN5%2BkSIiQA,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+A23,R15 R16 R17 R36 R37 R38,,6,10,10k,CF14JT10K0CT-ND,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+A24,R2 R3 R4 R5 R11 R12 R13 R14 R31 R32 R33 R34 R35,,13,25,4.7k,CF14JT4K70CT-ND,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT4K70/1741428?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXADYBWAFgGYQBdfABwBcoQBlFgJwEsA7AOYgAvvjrQQSSGix5CJEDAoAGOoxCt2XPkNH4wATgAch%2BFJQYc%2BIpFIqGYpSuMVz02dYV2QVAHQA7AAEANYA8gAWALaYDMxskCAAqvy8LGHIALLYqJgArtzY%2BiAAtBCSHlbytqQBNMaO%2BCVU7pZyNoo0hiaNpW4VbV41So4iIkA,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+A25,R21 R30,,2,10,0,CD14ZT0R00CT-ND,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CD14ZT0R00/1741230,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+A26,R18 R19 R20 R22 R23 R24,,6,10,68,CF14JT68R0CT-ND,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT68R0/1741487,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+A27,R25 R26 R27 R28 R29,,5,10,82,CF14JT82R0CT-ND,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT82R0/1741513,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+A28,R1 R6 R7,,3,10,1k,CF14JT1K00CT-ND,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+A29,R8,,1,10,680,CF14JT680RCT-ND,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT680R/1741489?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXADYBWAFgGYQBdfABwBcoQBlFgJwEsA7AOYgAvvjrQQSSGix5CJEDAoAGOoxCt2XPkNH4wZeFJQYc%2BIpFI0wAdjABOFQ2ZtInHgOFilKgBwUxtKy5gpWIGR%2BKgAEALYA8gAWsZgg%2BJExSSkumm4gAKr8vCzxyACy2KiYAK7c2PogALQQksFm8paktjR%2BDD6NVEGmchaKNA4OvfT9ga3DoZ1KfSIiQA,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+A30,R9,,1,10,220,CF14JT220RCT-ND,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT220R/1741346,,,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+A31,RC1 RC2 RC3,roboclaw,3,3,RoboClaw,n/a,https://www.basicmicro.com/Roboclaw-2x7A-Motor-Controller_p_55.html,Available,appears to be sold out everywhere but basicmicro,JPL Robotics:roboclaw_mount,
+A32,SW1,estop switches,1,1,CT206124-ND,CT206124-ND,https://www.digikey.com/en/products/detail/cts-electrocomponents/206-124/20816?s=N4IgTCBcDaIMIBUwAYBsBGMAWAtAOQBEQBdAXyA,Available,,JPL Robotics:CTS-206-124,
+A33,U1,ina260 power measurement unit,1,1,INA260,1528-2955-ND,https://www.digikey.com/en/products/detail/adafruit-industries-llc/4226/10130492,Not available. Use bypass resistor or build breakout board yourself.,"Appears to be sold out everywhere right now. 
+
+Can bypass on the motor board using 0 ohm resistor (R30)
+
+Alternative is to buy the TI chip itself and assemble the adafruit breakout board separately yourself. EagleCAD files here",JPL Robotics:INA260,
+A34,U2,pca9685 corner motor driver,1,1,PCA9685,n/a,https://www.mouser.com/ProductDetail/Adafruit/815?qs=GURawfaeGuCGKbWyy9179Q%3D%3D,Available,"Alternative sellers:
+- rs-online
+- https://www.digikey.com/en/products/detail/adafruit-industries-llc/815/4990757 ",JPL Robotics:PCA9685_servo_controller,
+A35,U3,12v regulator,1,1,D24V22F12,n/a,https://www.pololu.com/product/2855,Available,,JPL Robotics:D24V22Fx_regulator,
+A36,U4,5v regulator,1,1,D24V150F5,2183-2881-ND,https://www.pololu.com/product/2881,Limited availability. Look for other suppliers if you can't find.,"Alternative sellers:
+- https://www.digikey.com/en/products/detail/pololu-corporation/2881/10451196 
+- https://opencircuit.shop/product/5v-15a-step-down-voltage-regulator-d24v150f5 
+- https://www.solarbotics.com/product/51017/ ",JPL Robotics:D24V150Fx,
+A37,U5 U6,LED array,2,2,DC10CGKWA,DC7G3HWA,https://www.digikey.com/en/products/detail/kingbright/DC10CGKWA/4098422?lang=en&s=N4IgTCBcDaICIGECMAGBBxA0gdQIIgF0BfIA&site=US,Available,Used DC7G3HWA originally for v2.0.1 . That's obsolete now.,JPL Robotics:DC7G3HWA_led_array,
+A38,U7,3.3v regulator,1,2,MIC2937A-3.3WT,576-2235-ND,https://www.digikey.com/en/products/detail/microchip-technology/MIC2937A-3-3WT/1029168,Available,,Package_TO_SOT_THT:TO-220-3_Vertical,

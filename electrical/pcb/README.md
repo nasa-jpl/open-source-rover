@@ -1,63 +1,29 @@
-#  PCB Assembly, v2.0.3
+# Control Board Assembly, v2.0.3
 
-TODO: update these instructions for v2.0.2 or v2.0.3
-TODO: renumber images and sections as necessary
-TODO: make a note that some of the images are from my v2.0.1 assembly, but the instructions are for v2.0.3
+The overall Control Board consists of a Motor Board with a Brain Board mounted on top. These are the instructions to assemble these two separate pcbs and mount them together as the unified control board.
 
 <img src="../../images/pcb_assembly/v2_0_1/assembly/assembled/IMG_0848.jpeg" width="50%">
 
 This document goes through the process of assembling and testing the custom
 Printed Circuit Boards for the project. 
 
-<!-- TODO is this still valid ? -->
-<!-- One thing you might notice is the boards have reference designators on them that do not match the reference designators
-used in the parts lists. The board components mapping between these can be found
-below:
+Note that the images in these instructions are taken from an assembly of the v2.0.1 board. There are minimal differences between v2.0.1 and v2.0.3 - such that it wasn't worth doing another photoshoot for v2.0.3. Make sure to follow the written instructions when in doubt.
 
+## 1. Part References 
 
-## 1. Control Board References
+Check out the [BOM documents](control_board/BOM/v2.0.3)
 
-| **Component**                     | **Parts list Ref** | **Schematic Ref** |
-| --------------------------------- | ------------------ | ----------------- |
-| Terminal block 6 pos top entry    | E4                 | J1-5              |
-| Terminal block 6 pos side entry   | E3                 | J17-26            |
-| Term block 2p side entry (5.08mm) | E12                | J13,15,16         |
-| Connector Header pin 40P 40x1     | E15                | J8,9,11           |
-| Connector Header pin 6P 6x1       | E14                | J10               |
-| Connector Header socket 5P 5x1    | E6                 | RC1-5             |
-| Connector Header socket 40P 2x20  | E13                | J6,7              |
-| Connector Header socket 20 2x10   | E5                 | RC1-5             |
-| Capacitor 100nF                   | E11                | C1-17             |
-| Resistor 4.7K 1/4 Watt            | E7                 | R1                |
-| Resistor 10K 1/4 Watt             | E8                 | R4,6,8,10         |
-| Resistor 22K 1/4 Watt             | E9                 | R3,5,7,9          |
-| Resistor 10K 1/2 Watt             | E10                | R2                |
-| LM358 Op Amp                      | E25                | U1,2              |
-| DIP IC socket 8 Pos               | E33                | U1,2              |
-| Power Diode                       | E17                | D1                |
-| 10A Fuse                          | E16                | F1                |
-| USB A Connector                   | E34                | J12,14            | -->
+All parts referenced in these instructions use the schematic "reference designator" from the silk screen on the pcbs. E.g. "C1", "J2", and "R28". You should look up the details of these parts within the [v2.0.3 BOM the board ref parts spreadsheet](control_board/BOM/v2.0.3/bom_v2.0.3_board_ref_parts.csv) or the [v2.0.3 BOM other parts spreadsheet](control_board/BOM/v2.0.3/bom_v2.0.3_other_parts.csv). This will tell you the unique ID of the part that we use for ordering from Digikey + elsewhere, and will also link to pictures of the part on the relevant website.
 
-<!-- ## 2. Arduino Board References
+Generally these instructions have enough images to clearly show and identify the parts, but whenever in doubt the best thing to do is to look up the reference in the BOM spreadsheet.
 
-| **Component**                 | **Parts list Ref** | **Schematic Ref** |
-| ----------------------------- | ------------------ | ----------------- |
-| Term block 2P side entry      | E16                | J6                |
-| Connector Header pin 40P 40x1 | E15                | J2,3,4            |
-| Connector Header 16P 2x8      | E30                | J1                |
-| Connector Header 6P 6x1       | E14                | J5                | -->
+## 2. Schematic and Layout Documentation
+
+TODO: add versions for v2.0.3
+
+There's documentation of both the schematics (how all the electrical parts logically connect to one another) and the layout (how the parts are physically placed on the boards) in the [control_board/documentation](control_board/documentation) directory
 
 ## 3. Motor Board Assembly
-
-
-<!-- ### 3.1 Motor & RoboClaw Connectors -->
-
-<!-- TODO update this table -->
-<!-- | **Item**              | **Ref** | **Qty** | **Image**                                                                        | **Item**              | **Ref** | **Qty** | **Image**                                                           |
-| --------------------- | ------- | ------- | --------------------------------------------------------------------             | --------------------- | ------- | ------- | --------------------------------------------------------------------|
-| OSR Motor Board       | E1      | 1       | <img src="../../images/pcb_assembly/v2_0_1/assembly/bare_board.png" width="100"> |  10 Pos Header Socket  | E5      | 5       | <img src="../../images/components/electronics/E5.png" width="100">     |
-| 6 Pos Side Term Block | E3      | 10      | <img src="../../images/components/electronics/E3.png" width="100">               |  5 Pos Header Socket   | E6      | 5       | <img src="../../images/components/electronics/E6.png" width="100">     |
-| 6 Pos Top Term Block  | E4      | 5       | <img src="../../images/components/electronics/E4.png" width="100">               |  Soldering Iron        | N/A     |         |                                                                    | -->
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_1493.jpeg" height="300">  <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_1494.jpeg" height="300"> |
 |:-:|
@@ -293,6 +259,7 @@ You **may** use larger headers to fill all the holes in the U2 footprint, but it
 You will need to attach male headers to the PCA9685 daughter board, as shown in figure 3.23. Also, 5v power is provided to the PCA9685 through the two holes at the top of the U2 header. To connect these, I soldered 2 small wire leads on the PCA9685 daughter board, and then soldered them on to the motor board once I installed the PCA9685.
 
 TODO: update instructions with alternative to janky wire leads for PCA9685
+
 TODO: figure 3.28 is not very good
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_053133239.jpg" height="300"> |
@@ -372,7 +339,8 @@ Make sure to orient the connector in the proper direction, as indicated in the i
 First, wire the 6pos terminal block headers to the roboclaw boards, as indicated in figure 3.36.
 
 TODO: update the below and make sure it's correct
-FOR v2.0.3, you should wire the pins in the J16,J17,J18 headers directly to the pins on the corresponding side of the roboclaw - it is a direct 1-to-1 mapping all the way down, with no wires crossed.
+
+For v2.0.3, you should wire the pins in the J16,J17,J18 headers directly to the pins on the corresponding side of the roboclaw - it is a direct 1-to-1 mapping all the way down, with no wires crossed.
 
 Do this for all three roboclaws. 
 
@@ -408,7 +376,7 @@ Make sure to align the slightly "chipped"/beveled corner of the LED array with t
 |:-:|
 | Figure 3.40: LED array U5 installed |
 
-### 3.20 Install drive motor headers J8,J9,J10,J11,J13,J14
+### 3.21 Install drive motor headers J8,J9,J10,J11,J13,J14
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0827.jpeg" height="300"> |
 |:-:|
@@ -516,7 +484,7 @@ And now you're done with the assembly! Finally, we'll move on to testing and con
 |:-:|
 | Figure 4.8: Completed control board  |
 
-## 6. Testing the PCB and wiring for the drive motos
+## 6. Testing the PCB and wiring for the drive motors
 
 Before we insert the wiring and PCBs into the mechanical assemblies, we'll test and configure the drive motors, wiring, and PCB. This allows us to fix these critical parts if something doesn't look right and allows us to move to running the software as soon as the rover is assembled.
 
@@ -566,11 +534,11 @@ In the `General Settings` tab:
 
 Next, we'll check the correct direction and calibrate velocity before we repeat the process for the other roboclaws and motors.
 
-#### Prepare PWM signal
+#### 6.3 Prepare PWM signal
 
 Click on the PWM tab. We will now send a PWM signal to the motor and test that connections are all made correctly to the motor and encoder. Start by selecting the `Enable Space Bar Stop All` button in the bottom left which allows you to set velocity to zero when you hit the space bar.
 
-#### Vary PWM signal
+#### 6.4 Vary PWM signal
 
 Slowly move the slider bar for the corresponding motor output channel. Verify that the right motor is spinning and that the encoder value is also changing.
 
@@ -579,7 +547,6 @@ Slowly move the slider bar for the corresponding motor output channel. Verify th
 - If all your connections are correct, you may have to test your solder contact between the components on the board itself.
 
 > **Note**: When troubleshooting electrical connections, always remove power to the PCB to prevent shorting and injury.
-
 Switch direction of the slide bar and verify that it spins the other direction and the encoder value does the opposite of previous as well.
 
 Once you've verified this, we'll focus on the direction. We want the motor to spin as in the diagram below when we send a positive PWM:
@@ -589,5 +556,4 @@ Once you've verified this, we'll focus on the direction. We want the motor to sp
 For both motors check that the direction matches the diagram. If it doesn't, for that motor in the `General Settings` tab, select `M1 Reverse`. Check again to verify it matches. Now verify that the encoder value increases when you send a positive PWM for each motor. If it doesn't, select the `invert` checkbox in `General Settings` and verify again.
 
 > **Important**: Make sure to save these settings to each Roboclaw's non-volatile memory by clicking on the `Device` menu > `Write Settings`.
-
 Repeat starting from Section [6.1](6.1-RoboClaw-Testing-and-Verification) for the other two roboclaws.
