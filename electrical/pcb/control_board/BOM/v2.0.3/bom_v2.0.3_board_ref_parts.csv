@@ -14,7 +14,7 @@ alternative suppliers:
 - https://www.digikey.com/en/products/detail/phoenix-contact/5452096/5186808?s=N4IgTCBcDa4OxwLQEZkBYAMbEDkAiIAugL5A",JPL Robotics:277-11404-ND,
 A10,J7 J12 J15 J19,pwm header,3,4,TSW-104-07-F-T,TSW-104-07-F-T,https://www.digikey.com/en/products/detail/samtec-inc/TSW-104-07-F-T/6691937,,,JPL Robotics:SSW-104-01-F-T,
 A11,J20 J30,test pin header,2,4,PEC08SAAN,S1012E-08-ND,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PEC08SAAN/859161?s=N4IgTCBcDaIAoFEDCAGAHAZQIJYHIgF0BfIA,,,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
-A12,J21,test pin header,1,1,PPTC102LFBN-RC,PPTC102LFBN-RC,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC102LFBN-RC/810216?s=N4IgTCBcDaIApwCoGECMAGMAZAYgIQDkBaAJWRAF0BfIA,,,JPL Robotics:PPTC102LFBN-RC,
+A12,J21,interconnect header,1,1,PPTC102LFBN-RC,PPTC102LFBN-RC,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC102LFBN-RC/810216?s=N4IgTCBcDaIApwCoGECMAGMAZAYgIQDkBaAJWRAF0BfIA,,,JPL Robotics:PPTC102LFBN-RC,
 A13,J22 J23,rpi header,2,2,S9175-ND_rpi_breakout,S9175-ND,https://www.digikey.com/en/products/detail/sullins-connector-solutions/SBH11-PBPC-D20-ST-BK/1990068?s=N4IgTCBcDaIMoE4CMB2ArAWgHIBEQF0BfIA,,,JPL Robotics:S9175-ND,
 A14,J24,arduino header,1,2,6posheader,455-1708-ND,https://www.digikey.com/en/products/detail/jst-sales-america-inc/B6B-PH-K-S-LF-SN/926615?s=N4IgTCBcDaICwFYEFoCMB2ADADmQOQBEQBdAXyA,,,JPL Robotics:455-1708-ND,
 A15,J25,rpi i2c header,1,0,SSW-104-01-F-T,SSW-104-01-F-T-ND,https://www.digikey.com/en/products/detail/samtec-inc/SSW-104-01-F-T/7873826?s=N4IgTCBcDaIMpwOoFoCMAGALM9rkDFkAVEAXQF8g,,Added +1 of TSW-104-07-F-T. Needs cleanup in kicad files,JPL Robotics:SSW-104-01-F-T,

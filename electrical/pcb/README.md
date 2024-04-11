@@ -259,6 +259,7 @@ You **may** use larger headers to fill all the holes in the U2 footprint, but it
 You will need to attach male headers to the PCA9685 daughter board, as shown in figure 3.23. Also, 5v power is provided to the PCA9685 through the two holes at the top of the U2 header. To connect these, I soldered 2 small wire leads on the PCA9685 daughter board, and then soldered them on to the motor board once I installed the PCA9685.
 
 TODO: update instructions with alternative to janky wire leads for PCA9685
+
 TODO: figure 3.28 is not very good
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_053133239.jpg" height="300"> |
@@ -338,7 +339,8 @@ Make sure to orient the connector in the proper direction, as indicated in the i
 First, wire the 6pos terminal block headers to the roboclaw boards, as indicated in figure 3.36.
 
 TODO: update the below and make sure it's correct
-FOR v2.0.3, you should wire the pins in the J16,J17,J18 headers directly to the pins on the corresponding side of the roboclaw - it is a direct 1-to-1 mapping all the way down, with no wires crossed.
+
+For v2.0.3, you should wire the pins in the J16,J17,J18 headers directly to the pins on the corresponding side of the roboclaw - it is a direct 1-to-1 mapping all the way down, with no wires crossed.
 
 Do this for all three roboclaws. 
 
@@ -482,7 +484,7 @@ And now you're done with the assembly! Finally, we'll move on to testing and con
 |:-:|
 | Figure 4.8: Completed control board  |
 
-## 6. Testing the PCB and wiring for the drive motos
+## 6. Testing the PCB and wiring for the drive motors
 
 Before we insert the wiring and PCBs into the mechanical assemblies, we'll test and configure the drive motors, wiring, and PCB. This allows us to fix these critical parts if something doesn't look right and allows us to move to running the software as soon as the rover is assembled.
 
