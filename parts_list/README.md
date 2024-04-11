@@ -6,7 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1345.16** without discounts. If you are an educational builder,
+The total cost comes out to be **$1346.46** without discounts. If you are an educational builder,
 please join the Slack workspace and enquire about any discounts.
 
 
@@ -55,10 +55,10 @@ Cost to build these assemblies: $11.48 * 4 assemblies = $45.92
 | 45deg bracket | [1111 Series Angle Pattern Bracket (1-1) - goBILDA](https://www.gobilda.com/1111-series-angle-pattern-bracket-1-1/) | $2.99 | 4 | $11.96 |
 | 90deg steel bracket 2pack | [1137 Series Steel Flat Grid Bracket (1-1) - 2 Pack - goBILDA](https://www.gobilda.com/1137-series-steel-flat-grid-bracket-1-1-2-pack/) | $3.49 | 1 | $3.49 |
 | control arm | [Plastic Hub-Mount Control Arm (72mm Length) - goBILDA](https://www.gobilda.com/plastic-hub-mount-control-arm-72mm-length/) | $4.99 | 4 | $19.96 |
-| 8mm ID Spacer (10mm OD, 6mm Length) | [1514 Series 8mm ID Spacer (10mm OD, 6mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1514-series-8mm-id-spacer-10mm-od-6mm-length-4-pack/) | $2.19 | 1 | $2.19 |
+| 8mm ID Spacer (10mm OD, 6mm Length) | [1522 Series 8mm ID Spacer (10mm OD, 6mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-6mm-length-4-pack/) | $3.49 | 1 | $3.49 |
 | 8mm ID Spacer (10mm OD, 4mm Length) | [1522 Series 8mm ID Spacer (10mm OD, 4mm Length) - 4 Pack - goBILDA](https://www.gobilda.com/1522-series-8mm-id-spacer-10mm-od-4mm-length-4-pack/) | $2.99 | 1 | $2.99 |
 
-Cost to build these assemblies: $205.27 * 2 assemblies = $410.55
+Cost to build these assemblies: $205.92 * 2 assemblies = $411.85
 
 
 ## Parts for body assembly
