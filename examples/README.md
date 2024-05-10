@@ -4,6 +4,21 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 # <ins>V2 Rovers</ins>
 
+## TMUMechE ([TMUMechE](https://github.com/TMUMechE/open-source-rover))
+| <image src="images/TMUMechE/RoverPic1.png" height="175"> <image src="images/TMUMechE/RoverPic2.png" height="175"> |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+* Project began in January 2024 with a team of 3 seniors studying mechanical engineering at The Master's University, and the help of a senior in computer science
+* Intended to be a platform for future classes at The Master's University to build on the work we have started
+
+### modifications
+* Check back here for modifications coming soon!
+
+</details>
+
 ## Bobert ([Adriel](https://github.com/abust005/open-source-rover))
 | <image src="images/bobert/bobert_front.jpg" height="175"> <image src="images/bobert/bobert_side.jpg" height="175"> <image src="images/bobert/bobert_back.jpg" height="175"> |
 |:-:|
