@@ -9,19 +9,17 @@ Printed Circuit Boards for the project.
 
 Note that the images in these instructions are taken from an assembly of the v2.0.1 board. There are minimal differences between v2.0.1 and v2.0.3 - such that it wasn't worth doing another photoshoot for v2.0.3. Make sure to follow the written instructions when in doubt.
 
-## 1. Part References 
+## 1. Part References
 
 Check out the [BOM documents](control_board/BOM/v2.0.3)
 
-All parts referenced in these instructions use the schematic "reference designator" from the silk screen on the pcbs. E.g. "C1", "J2", and "R28". You should look up the details of these parts within the [v2.0.3 BOM the board ref parts spreadsheet](control_board/BOM/v2.0.3/bom_v2.0.3_board_ref_parts.csv) or the [v2.0.3 BOM other parts spreadsheet](control_board/BOM/v2.0.3/bom_v2.0.3_other_parts.csv). This will tell you the unique ID of the part that we use for ordering from Digikey + elsewhere, and will also link to pictures of the part on the relevant website.
+All parts referenced in these instructions use the schematic "reference designator" from the silk screen on the pcbs. E.g. "C1", "J2", and "R28". You should look up the details of these parts within the [v2.0.3 BOM the board ref parts spreadsheet](control_board/BOM/v2.0.3/bom_v2.0.3_board_ref_parts.csv), using the "Reference" column. There are additional parts in the [v2.0.3 BOM other parts spreadsheet](control_board/BOM/v2.0.3/bom_v2.0.3_other_parts.csv), which do not correspond to reference designators on the board. These spreadsheets also have unique IDs (UIDs) that we use for ordering from Digikey + elsewhere, and link to details of the parts on the relevant websites.
 
 Generally these instructions have enough images to clearly show and identify the parts, but whenever in doubt the best thing to do is to look up the reference in the BOM spreadsheet.
 
 ## 2. Schematic and Layout Documentation
 
-TODO: add versions for v2.0.3
-
-There's documentation of both the schematics (how all the electrical parts logically connect to one another) and the layout (how the parts are physically placed on the boards) in the [control_board/documentation](control_board/documentation) directory
+There's documentation of both the schematics (how all the electrical parts logically connect to one another) and the layout (how the parts are physically placed on the boards) in the [control_board/documentation/v2.0.3](control_board/documentation/v2.0.3) directory
 
 ## 3. Motor Board Assembly
 
@@ -142,8 +140,6 @@ TODO: update parts here
 | Figure 3.11: INA260 installed |
 
 **Option 2*: If you don't have one, you will need to bypass U1**
-
-TODO: need to update this discussion of bypassing U1 once the layout has been updated
 
 Install a 0 ohm resistor in footprint R30, on the top side of the board
 
