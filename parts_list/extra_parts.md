@@ -87,6 +87,13 @@ You will want threadlocker for several screws so that they don't unscrew themsel
 
 > (*) The reason you need 14V is that the 12V regulator needs a [dropout voltage](https://www.pololu.com/product/2855#dropout) on top of the output voltage in order to provide 12V. A 12V battery will not work adequately.
 
+## Different wheels
+
+* The wheels we previously included as the default from [DollarHobbyz](https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x) are $34.95 per pair of two for a total of $104.85 (excl. shipping), saving ~$135 compared to the default Wasteland wheels. They are a perfectly fine choice but require some drilling to fit to the motor hubs.
+* Gobilda also sells a larger version of the [Wasteland Wheel at 192mm diameter](https://www.gobilda.com/wasteland-wheel-192mm-diameter-72mm-width/). This adds $90 total compared to the default Wasteland wheels. No drilling is required.
+
+There is a software parameter where you can easily modify the size of the wheels to account for speed differences.
+
 # Maintaining the Parts List
 
 Parts can become out of stock or discontinued in the future. In this case, the part list can be modified by editing `parts_list.csv`, which covers all the mechanical parts, `digikey_bom.csv`, which covers most of the electrical part, and `extra_parts.md` to cover the rest. After doing so, you can compile to update the `README.md` file using `csv_to_md.py` (The compilation will also happen automatically with a merge). **Do not** edit `README.md` directly, as it will be overwritten by the compilation process. 
