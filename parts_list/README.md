@@ -6,8 +6,7 @@ and should consist of the same parts, just presented in a more readable format. 
 to Digikey.com directly to create a shopping cart.
 Before you place an order, please double check that you have all parts in the right quantities.
 
-The total cost comes out to be **$1346.46** without discounts. If you are an educational builder,
-please join the Slack workspace and enquire about any discounts.
+The total cost comes out to be **$1391.55** without the GoBilda educational discount (15%) and excluding shipping. **note**: GoBilda may change its pricing without notice.
 
 
 
@@ -15,13 +14,13 @@ please join the Slack workspace and enquire about any discounts.
 
 | short name | link | cost per part | total # req | total cost |
 |---|---|---|---|---|
-| wheel | [Traxxas 5374X Talon Tires, Gemini Wheels, Black Chrome - Dollar Hobbyz](https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x) | $34.95 | 3 | $104.85 |
+| wheel | [Wasteland Wheel (144mm Diameter, 52mm Width)](https://www.gobilda.com/wasteland-wheel-144mm-diameter-52mm-width/) | $24.99 | 6 | $149.94 |
 | clamping mount | [1401 Series 2-Side, 2-Post Clamping Mount (43mm Width, 36mm Bore) - goBILDA](https://www.gobilda.com/1401-series-2-side-2-post-clamping-mount-43mm-width-36mm-bore/) | $6.99 | 6 | $41.94 |
 | motor | [5203 Series Yellow Jacket Planetary Gear Motor (26.9:1 Ratio, 24mm Length 8mm REX™ Shaft, 223 RPM, 3.3 - 5V Encoder)](https://www.gobilda.com/5203-series-yellow-jacket-planetary-gear-motor-26-9-1-ratio-24mm-length-8mm-rex-shaft-223-rpm-3-3-5v-encoder/) | $42.99 | 6 | $257.94 |
 | REX bore hub | [1310 Series Hyper Hub (8mm REX™ Bore)](https://www.gobilda.com/1310-series-hyper-hub-8mm-rex-bore/) | $7.99 | 6 | $47.94 |
 | 2 Hole U channel | [1120 Series U-Channel (2 Hole, 72mm Length) - goBILDA](https://www.gobilda.com/1120-series-u-channel-2-hole-72mm-length/) | $4.99 | 6 | $29.94 |
 
-Cost to build these assemblies: $80.44 * 6 assemblies = $482.61
+Cost to build these assemblies: $87.95 * 6 assemblies = $527.7
 
 
 ## Parts for corner assembly
@@ -237,6 +236,13 @@ You will want threadlocker for several screws so that they don't unscrew themsel
 * A Raspberry Pi 3 or 4. Other options may work as well, but we recommend starting here.
 
 > (*) The reason you need 14V is that the 12V regulator needs a [dropout voltage](https://www.pololu.com/product/2855#dropout) on top of the output voltage in order to provide 12V. A 12V battery will not work adequately.
+
+## Different wheels
+
+* The wheels we previously included as the default from [DollarHobbyz](https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x) are $34.95 per pair of two for a total of $104.85 (excl. shipping), saving ~$135 compared to the default Wasteland wheels. They are a perfectly fine choice but require some drilling to fit to the motor hubs.
+* Gobilda also sells a larger version of the [Wasteland Wheel at 192mm diameter](https://www.gobilda.com/wasteland-wheel-192mm-diameter-72mm-width/). This adds $90 total compared to the default Wasteland wheels. No drilling is required.
+
+There is a software parameter where you can easily modify the size of the wheels to account for speed differences.
 
 # Maintaining the Parts List
 
