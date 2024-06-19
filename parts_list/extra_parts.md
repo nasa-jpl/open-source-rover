@@ -86,8 +86,8 @@ You will want threadlocker for several screws so that they don't unscrew themsel
 
 ## Different wheels
 
-* The wheels we previously included as the default from [DollarHobbyz](https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x) are $34.95 per pair of two for a total of $104.85 (excl. shipping), saving ~$135 compared to the default Wasteland wheels. They are a perfectly fine choice but are significantly smaller and require some drilling to fit to the motor hubs.
-* Gobilda also sells a smaller version of the [Wasteland Wheel at 144mm diameter](https://www.gobilda.com/wasteland-wheel-144mm-diameter-52mm-width/). This shaves off $90 compared to the default Wasteland wheels. No drilling is required and these are the same size as the DollarHobbyz wheels.
+* The wheels we previously included as the default from [DollarHobbyz](https://www.dollarhobbyz.com/collections/all/products/traxxas-2-talon-tires-gemini-black-chrome-wheels-5374x) are $34.95 per pair of two for a total of $104.85 (excl. shipping), saving ~$135 compared to the default Wasteland wheels. They are a perfectly fine choice but require some drilling to fit to the motor hubs.
+* Gobilda also sells a larger version of the [Wasteland Wheel at 192mm diameter](https://www.gobilda.com/wasteland-wheel-192mm-diameter-72mm-width/). This adds $90 total compared to the default Wasteland wheels. No drilling is required.
 
 There is a software parameter where you can easily modify the size of the wheels to account for speed differences.
 
