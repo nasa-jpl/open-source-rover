@@ -2,34 +2,18 @@
 
 The wheel assembly attaches the wheels to the motors and mounts the motors to the rest of the rocker-bogie suspension system that makes up the robot chassis. These are relatively simple to assemble.
 
-![Wheels](images/wheels.png)
+<img src="images/wheels.png" width=900/>
 
-## Features
+## [DollarHobbyz Traxxas Wheels only] Drilling the wheels
 
-* The flexible wheels allow for high traction as they deform around objects, improving climbing performance
-* Drive motors chosen to handle the high torque that the system sees, achieving both speed and climbing performance
+If you bought the DollarHobbyz Wheels, you will need to drill some holes through the plastic to allow attaching them to the hubs that fit onto the motor axes. If you have the smaller or bigger Wasteland Wheels from GoBilda, you can skip this step.
 
-### Mechanical Interface/Attachments to Rover
+The wheel is normally meant to be mounted using one bolt through the middle of the rim. This will not work well in our case as the rover sees very high torque at the wheel and the one-bolt system would be difficult to attach to any part of our system without the wheel slipping. To attach more firmly, we will drill two holes on either side of the original hole where we will mount the motor hub clamp
 
-* The 4 corner assemblies connect directly to the servo blocks on the rocker-bogies.
-* The 2 middle drive wheels attach directly to the rocker bogie
+Drill at least 2 holes in the wheels such that they can be mounted to the [Hyper Hub](https://www.gobilda.com/1310-series-hyper-hub-8mm-rex-bore/) that attaches to the motor shaft. You'll want to make sure the holes you drill are centered, otherwise the wheel will wobble while driving. Once you've found where to drill the holes, consider using a center punch or small drill bit first before drilling to ensure your drill bit doesn't start 'wandering' before it locks into position. The distance from each hole center to the center of the wheel is  
+$$\sqrt(8^2 + 8^2) \approx 11.3mm$$
 
-## Machining/Fabrication
-
-**NOTE:** While the following approach is valid for v2, it is not ideal as it requires drilling. There may be better ways to attach to these wheels (or other wheels) without drilling. The only requirement is that the middle of the corner wheels aligns with the axis of rotation of the servo output shaft.
-
-**NOTE**: These instructions are a work in progress. Please ask for assistance on Slack.
-
-
-| item                              | ref | qty |                                                                 img |
-| --------------------------------- | --- | --- | ------------------------------------------------------------------: |
-| wheels                            | S30 | 6   | <img src="../../images/components/structural/S30.png" height="100"> |
-| hand drill or drill press         | D3  |     |       <img src="../../images/components/tools/D3.png" height="100"> |
-| center punch or starter drill bit | D7  |     |       <img src="../../images/components/tools/D7.png" height="100"> |
-
-> The wheel is normally meant to be mounted using one bolt through the middle of the rim. This will not work well in our case as the rover sees very high torque at the wheel and the one-bolt system would be difficult to attach to any part of our system without the wheel slipping. To attach more firmly, we will drill two holes on either side of the original hole where we will mount the motor hub clamp as shown in Figure 1
-
-Drill at least 2 holes in the wheels such that they can be mounted to the [Sonic Hub](https://www.gobilda.com/1309-series-sonic-hub-8mm-rex-bore/) that attaches to the motor shaft. 
+<img src="https://cdn11.bigcommerce.com/s-x56mtydx1w/images/stencil/original/products/1228/11873/1310-0016-4008-Schematic__25024.1715800139.png?c=1" height=500>
 
 ## Assembly
 
@@ -47,8 +31,9 @@ Attach the clamping mount and REX bore hub to the motor. We will adjust their po
 
 The result excluding wiring should look as follows:
 
-| ![corner assembly](images/corner_side.png) | ![corner mirroring](images/corner_mirror.png) |
-| ------------------------------------------ | --------------------------------------------- |
+| side view without wiring                       | one of two pairs of corner assemblies            |
+| ---------------------------------------------- | ------------------------------------------------ |
+| <img src="images/corner_side.png" height=400/> | <img src="images/corner_mirror.png" height=400/> |
 
 Note that the sides of the rover are mirrored and so you'll be building 2 pairs of similar but not exactly the same subassemblies, as shown in the right image above.
 
