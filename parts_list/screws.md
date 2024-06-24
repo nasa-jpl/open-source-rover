@@ -1,13 +1,14 @@
-## Screws tally
+# Screws tally
 
 All of the below are included in the [parts list](parts_list/README.md). This document is for maintenance only.
 
-### M4
+## M4
 
 | subassembly  | nb  | length           | type   | purpose                        | multiplier | total |
 | ------------ | --- | ---------------- | ------ | ------------------------------ | ---------- | ----- |
 | wheel        | 4   | 10               | either | motor - channel                | 6          | 24    |
 | wheel        | 3   | 10               | button | bracket - vert. extrusion      | 6          | 18    |
+| wheel        | 3   | **10** or 12     | socket | wheel - motor axis clamp       | 6          | 18    |
 | corner       | 3   | 10               | button | vert. extrusion - low channel  | 4          | 12    |
 | corner       | 3   | 10               | button | low channel - servo shaft      | 4          | 12    |
 | corner       | 3   | 10               | either | servo bracket - rocker         | 4          | 12    |
@@ -42,7 +43,7 @@ Total per category and length:
 | button | [10](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | 70 (+48)     | 3                     |
 | button | [16](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | 34           | 2                     |
 | socket | [8](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/)   | 30 (+8)      | 2                     |
-| socket | [10](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | 24 (+48)     | 3                     |
+| socket | [10](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | 42 (+48)     | 4                     |
 | socket | [12](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/) | 20           | 1                     |
 | socket | [16](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | 28 (+8)      | 2                     |
 | socket | [20](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/) | 12           | 1                     |
