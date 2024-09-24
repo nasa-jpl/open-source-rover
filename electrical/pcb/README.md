@@ -444,12 +444,17 @@ Ignore the resistors and figure 4.4 for the moment
 
 ### 4.5 Install ESTOP and Serial TXD/RXD LED logic circuit components
 
-Here we install all the components used for: 
-1. the E_STOP,E_STOP2,E_STOP3 logic signals and (BJT transistors Q4,Q5,Q6)
-2. the LED indicators for E_STOP,E_STOP2,E_STOP3 states (BJTs Q4,Q5,Q6 again)
-3. The LED indicators for serial TXD/RXD activity (BJTs Q2,Q3)
+Here we install all the components used for the E_STOP, E_STOP2, E_STOP3 logic signals and LED indicators, and also the LED indicators for serial TXD/RXD activity.
 
-Install all of these as indicated in figure 4.5. Note that polarity/installation direction matters for both the BJTs and the diodes (D8,D9). Make sure to match these with the image correctly! (note the black band on one side of the diodes faces to the right in figure 4.5)
+Install all of these as indicated in figure 4.5:
+- Q2, Q3, Q4, Q5, Q6 (BJT transistors) (**Polarity Warning!**)
+- R18, R19, R20, R22, R23 (68 Ohms ±5% resistors)
+- R16, R17, R36, R37, R38 (10k Ohms ±5% resistors)
+- C33, C34 (10k pF ±10% 50V Ceramic Capacitors)
+- D8, D9 (75V 300mA Diodes) (**Polarity Warning!**)
+- Note: T13, T14, T15 should be left empty for probing.
+
+ Note that polarity/installation direction matters for both the BJTs and the diodes (D8,D9). Make sure to match these with the image correctly! (note the black band on one side of the diodes faces to the right in figure 4.5)
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0841.jpeg" height="300"> |
 |:-:|
