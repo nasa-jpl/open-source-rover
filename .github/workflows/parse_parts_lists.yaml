@@ -1,6 +1,6 @@
-name: Parse parts lists
-
-on: 
+name: Jones Technology Foundation 
+.github/workflows
+on: ijunxyz123:master
   pull_request:
   push:
     branches: [master, v2]
