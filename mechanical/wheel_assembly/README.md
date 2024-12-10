@@ -39,13 +39,13 @@ The result excluding wiring should look as follows:
 
 Note that the sides of the rover are mirrored and so you'll be building 2 pairs of similar but not exactly the same subassemblies, as shown in the right image above.
 
-## Assembled corners
-<img src="images/two_corners_assembled.png">
-Mirror image corner wheel assemblies without the wheels attached yet. Wiring with sleeves is visible.
-
 
 Start by laying out the pieces for each corner so you end up with the 2 mirrored pairs. Take the DuPont to 4-pin JST encoder pins you created in [wiring](../electrical/wiring/README.md) and route them through the top low-profile U-channel, the extruded aluminum, and finally through the motor bracket. The DuPont connector should be at the top with the 4-pin JST connector at the bottom, ready to be connected to the motor encoder pins. Route the two motor power cables through the same parts in the opposite direction. Finally, screw the parts together using 3 or 4 button screws inside the U-channel and using 3 or 4 socket screws at the top. Don't tighten the screws too much yet as this will allow you to adjust wiring.
 
 Adjust the wiring so there is minimal wiring inside the channel. Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges! Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
 
 Repeat this for the 3 other corner assemblies.
+
+## Assembled corners
+<img src="images/two_corners_assembled.png">
+Mirror image corner wheel assemblies without the wheels attached yet. Wiring with sleeves is visible.
