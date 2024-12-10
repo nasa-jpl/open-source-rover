@@ -1,8 +1,10 @@
 # Wheel Assembly
 
 The wheel assembly attaches the wheels to the motors and mounts the motors to the rest of the rocker-bogie suspension system that makes up the robot chassis. These are relatively simple to assemble.
+ 
 
 <img src="images/wheels.png" width=900/>
+*If you look carefully at the image above you'll notice that the wheel assemblies aren't actual mirror images of each other. For example, notice that the U brackets for the corner wheels are facing different direction on the left and right sides. This is a defect in the OnShape model. When building your rover, you should make the wheel assembiles to be mirror images of each other.*
 
 ## [DollarHobbyz Traxxas Wheels only] Drilling the wheels
 
