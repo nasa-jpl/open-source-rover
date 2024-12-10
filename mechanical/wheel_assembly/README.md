@@ -4,7 +4,7 @@ The wheel assembly attaches the wheels to the motors and mounts the motors to th
  
 
 <img src="images/wheels.png" width=900/>
-*If you look carefully at the image above you'll notice that the wheel assemblies aren't actual mirror images of each other. For example, notice that the U brackets for the corner wheels are facing different direction on the left and right sides. This is a defect in the OnShape model. When building your rover, you should make the wheel assembiles to be mirror images of each other.*
+_If you look carefully at the image above, you'll notice that the wheel assemblies aren't actual mirror images of each other. For example, notice that the U brackets for the corner wheels are facing different directions on the left and right sides. This is a defect in the OnShape model. When building your rover, you should make the wheel assemblies mirror images of each other._
 
 ## [DollarHobbyz Traxxas Wheels only] Drilling the wheels
 
@@ -39,8 +39,8 @@ The result excluding wiring should look as follows:
 
 Note that the sides of the rover are mirrored and so you'll be building 2 pairs of similar but not exactly the same subassemblies, as shown in the right image above.
 
-## Assemmbled corners
-<img src="images/two_corners_assembled">
+## Assembled corners
+<img src="images/two_corners_assembled.png">
 Mirror image corner wheel assemblies without the wheels attached yet. Wiring with sleeves is visible.
 
 
