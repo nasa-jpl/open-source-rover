@@ -74,7 +74,7 @@ Attach the 1-channel U bracket to the long extruded shaft `11118-0024-0288` usin
 
 ### Attach the front and back of the rocker-bogie
 
-Use 4 hurricane nuts and the 45 degree bracket to connect the back and the front of the rocker-bogie using M4 socket screws of length 8mm as in the image below.
+Use 4 hurricane nuts and the 45-degree bracket to connect the front and back of the rocker-bogie with 6mm M4 socket screws, as shown in the image below. Avoid screws longer than 6mm, as they will hit the goRail before fully tightening.
 
 ![bottom view](images/connect45bracket.png)
 
