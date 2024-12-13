@@ -21,6 +21,8 @@ Make two of these and connect them to the sides of the body. They should be inst
 
 The bearings have a flat side and a 'hollow' side. The hollow sides should both be pointing to the same side, as shown in the image.
 
+![axel sleaves](images/rocker-bogie-sleeves.jpeg)
+
 ## Install the hinges for the top body plates
 
 You will need the 20 or 22mm M4 standoffs, the 3x5 hole plate, the hinge assembly (assemble following the [instructions on GoBilda](https://www.gobilda.com/plastic-hinge-2-pack/), orientation matters).
