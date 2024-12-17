@@ -89,19 +89,25 @@ Make sure to attach D1 in the correct orientation!
 
 Insert a fuse (part# B1) into the fuse holder (as shown in Figure 3.8 below)
 
-Using the appropriate matching XT30 connectors, connect the power headers to a power supply (or your battery), the external switch (part# B9), and the multimeter (part# B10)
+Using the appropriate matching XT30 connectors, connect the power headers to a power supply (or your battery), the main external power switch (part# B9), and the multimeter (part# B10)
 
-Use this diagram to determine to wire things together:
+Use these diagrams to determine how to wire things together:
 
 TODO: add diagram of board / power supply / external switch / multimeter wiring
 
-When testing with a power supply, provide 14.8V DC and current limit to 1.0A.
+When testing with a power supply, provide 14.8V DC and current limit to 1.0A. Just to the left of the main fuse is a XT30 connector labeled "Switch" – this if for the main on/off toggle switch. The XT30 connectors labeled MM Load and MM DC are connect to the multimeter box.
+
+ | <img src="../../images/pcb_assembly/v2_0_1/assembly/controlboard-power-headers.jpeg" height="300"> |
+|:-:|
+| Figure 3.6a: Power headers connected to the power supply, on/off toggle switch (out of view under the PCB) and multimeter box. |
+
+
 
 After testing, make sure to disconnect the power supply.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230413_061454863.jpg" height="300"> |
 |:-:|
-| Figure 3.6: Wires connected to power headers |
+| Figure 3.6b: Wires connected to power headers |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230416_234516660.jpg" height="300"> |
 |:-:|
