@@ -338,9 +338,7 @@ Make sure to orient the connector in the proper direction, as indicated in the i
 
 First, wire the 6pos terminal block headers to the roboclaw boards, as indicated in figure 3.36.
 
-TODO: update the below and make sure it's correct
-
-For v2.0.3, you should wire the pins in the J16,J17,J18 headers directly to the pins on the corresponding side of the roboclaw - it is a direct 1-to-1 mapping all the way down, with no wires crossed.
+Unless you have an older version of the PCB (v2.0.2 or earlier), wire the pins in the J16,J17,J18 headers directly to the pins on the corresponding side of the roboclaw - it is a direct 1-to-1 mapping all the way down, with no wires crossed. Use 16AWG wire (18AWG would also be fine)
 
 Do this for all three roboclaws. 
 
