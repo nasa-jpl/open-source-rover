@@ -89,35 +89,39 @@ Make sure to attach D1 in the correct orientation!
 
 Insert a fuse (part# B1) into the fuse holder (as shown in Figure 3.8 below)
 
-Using the appropriate matching XT30 connectors, connect the power headers to a power supply (or your battery), the external switch (part# B9), and the multimeter (part# B10)
+Using the appropriate matching XT30 connectors, connect the power headers to a power supply (or your battery), the main external power switch (part# B9), and the multimeter (part# B10)
 
-Use this diagram to determine to wire things together:
+Use these diagrams to determine how to wire things together:
 
-TODO: add diagram of board / power supply / external switch / multimeter wiring
+When testing with a power supply, provide 14.8V DC and current limit to 1.0A. Just to the left of the main fuse is a XT30 connector labeled "Switch" – this if for the main on/off toggle switch. The XT30 connectors labeled MM Load and MM DC connect to the multimeter box.
 
-When testing with a power supply, provide 14.8V DC and current limit to 1.0A.
+ | <img src="../../images/pcb_assembly/v2_0_1/assembly/controlboard-power-headers.jpeg" height="300"> |
+|:-:|
+| Figure 3.9: Power headers connected to the power supply, on/off toggle switch (out of view under the PCB) and multimeter box. |
+
+
 
 After testing, make sure to disconnect the power supply.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230413_061454863.jpg" height="300"> |
 |:-:|
-| Figure 3.6: Wires connected to power headers |
+| Figure 3.10: Wires connected to power headers |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230416_234516660.jpg" height="300"> |
 |:-:|
-| Figure 3.7: Power supply providing 14.8V DC and current limited to 1.0A |
+| Figure 3.11: Power supply providing 14.8V DC and current limited to 1.0A |
 
 Use a multimeter to test the voltage between test points T4 ("swt_out") and T2 ("Batt-"). This should read the same value as input from the power supply/battery (14.8V)
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230416_234547696.jpg" height="300"> |
 |:-:|
-| Figure 3.8: Testing the voltage between T4 and T2 |
+| Figure 3.12: Testing the voltage between T4 and T2 |
 
 Also check the voltage shown by the multimeter. This should show the same voltage as well.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230416_234553055.jpg" height="300"> |
 |:-:|
-| Figure 3.9: Testing the power input to the multimeter |
+| Figure 3.13: Testing the power input to the multimeter |
 
 
 ### 3.5 Install the INA 260
@@ -135,11 +139,11 @@ TODO: update parts here
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/ina260_headers.png" height="300"> |
 |:-:|
-| Figure 3.10: INA260 headers installed |
+| Figure 3.14: INA260 headers installed |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_042446722.jpg" height="300"> |
 |:-:|
-| Figure 3.11: INA260 installed |
+| Figure 3.15: INA260 installed |
 
 **Option 2*: If you don't have one, you will need to bypass U1**
 
@@ -159,11 +163,11 @@ Install 3 female headers for the daughter board, into U4. You will need a two 4x
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_044902463.MP.jpg" height="300"> |
 |:-:|
-| Figure 3.12: 5V regulator headers installed |
+| Figure 3.16: 5V regulator headers installed |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_044810169.jpg" height="300"> |
 |:-:|
-| Figure 3.13: 5V regulator installed |
+| Figure 3.17: 5V regulator installed |
 
 ### 3.8 Install 12V bus regulator U3
 
@@ -173,33 +177,33 @@ TODO: specify standoff
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_050503408.jpg" height="300"> |
 |:-:|
-| Figure 3.14: U3 footprint |
+| Figure 3.18: U3 footprint |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_051040927.jpg" height="300"> |
 |:-:|
-| Figure 3.15: 12v regulator installed |
+| Figure 3.19: 12v regulator installed |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_051046001.MP.jpg" height="300"> |
 |:-:|
-| Figure 3.16: 12v regulator installed (2) |
+| Figure 3.20: 12v regulator installed (2) |
 
 ### 3.9 Install 3.3V bus regulator U7 and decoupling capacitor C7
 
-The 3.3V bus regulator is a linear voltage regulator and is physically much smaller - it comes in the same packaging as diode D1. Make sure to install the regulator in the correct direction as shown in figure 3.17.
+The 3.3V bus regulator is a linear voltage regulator and is physically much smaller - it comes in the same packaging as diode D1. Make sure to install the regulator in the correct direction as shown in figure 3.21.
 
 Capacitor C7 is the decoupling capacitor for the 3.3v bus. Make sure to install C7 in the proper direction, as shown in figure 3.19. One side of the capacitor has negative polarity indicators on it, that should be installed opposite the "+" sign on the footprint.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/u7_bare.png" height="300"> |
 |:-:|
-| Figure 3.17: U7 footprint |
+| Figure 3.22: U7 footprint |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/u7_installed.png" height="300"> |
 |:-:|
-| Figure 3.18: 3.3v regulator installed in U7 |
+| Figure 3.23: 3.3v regulator installed in U7 |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_051556901.MP.jpg" height="300"> |
 |:-:|
-| Figure 3.19: Capacitor C7 installed |
+| Figure 3.24: Capacitor C7 installed |
 
 ### 3.10 Install resistors R15, R24, and BJT transistor Q1
 
@@ -207,11 +211,11 @@ These form the circuit for the alert signal LED logic.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_051556901.MP.jpg" height="300"> |
 |:-:|
-| Figure 3.20: R15, R24, and Q1 footprints |
+| Figure 3.25: R15, R24, and Q1 footprints |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/alert_led_components.png" height="300"> |
 |:-:|
-| Figure 3.21: R15, R24, and Q1 installed |
+| Figure 3.26: R15, R24, and Q1 installed |
 
 
 ### 3.11 Test all voltage lines
@@ -225,23 +229,23 @@ The silk screen right of each hole indicates what voltage each test point should
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230424_003614642.jpg" height="300"> |
 |:-:|
-| Figure 3.22: testing the 3.3v bus|
+| Figure 3.27: testing the 3.3v bus|
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230424_003617280.jpg" height="300"> |
 |:-:|
-| Figure 3.23: testing the 5v bus |
+| Figure 3.28: testing the 5v bus |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230424_003620439.jpg" height="300"> |
 |:-:|
-| Figure 3.24: testing the 12v bus |
+| Figure 3.29: testing the 12v bus |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230424_003626769.jpg" height="300"> |
 |:-:|
-| Figure 3.25: testing the Batt+ bus (positive lead from the battery) |
+| Figure 3.30: testing the Batt+ bus (positive lead from the battery) |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230424_003630014.jpg" height="300"> |
 |:-:|
-| Figure 3.26: testing the PWR bus (main board power plane, after battery protection circuitry ) |
+| Figure 3.31: testing the PWR bus (main board power plane, after battery protection circuitry ) |
 
 
 ### 3.12 Install PCA9685 daughter board in U2 footprint and capacitor C3
@@ -260,15 +264,15 @@ You will need to attach male headers to the PCA9685 daughter board, as shown in 
 
 TODO: update instructions with alternative to janky wire leads for PCA9685
 
-TODO: figure 3.28 is not very good
+TODO: figure 3.33 is not very good
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_053133239.jpg" height="300"> |
 |:-:|
-| Figure 3.27: U2 with female headers installed |
+| Figure 3.32: U2 with female headers installed |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_054413269.MP.jpg" height="300"> |
 |:-:|
-| Figure 3.28: Male headers soldered onto PCA9685 daughter board |
+| Figure 3.33: Male headers soldered onto PCA9685 daughter board |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230424_003801047.jpg" height="300"> |
 |:-:|
@@ -309,12 +313,14 @@ Now we'll add the parts for roboclaw footprints RC1, RC2, and RC3.
 
 First, install standoffs for the 3 RC footprints, as shown an figure 3.33 and 3.34. 
 
-Next, solder in the two female headers for each RC footprint. You'll need a 2x10 and a 5x1 for each RC. These should be soldered into the holes on the side of each RC footprint
+Next, solder in the two female headers for each RC footprint. You'll need a 2x10 and a 5x1 for each RC. These should be soldered into the holes on the side of each RC footprint.
 
-Finally, install the following capacitors on the opposite board side from each RC footprint:
-- opposite RC1: capacitors C13,C15,C17,C20 (figure 3.34)
-- opposite RC2: capacitors C2,C4,C9,C10 (figure 3.33)
-- opposite RC3: capacitors C14,C16,C18,C21 (figure 3.34)
+Finally, install the following capacitors for each RC footprint:
+- RC1: capacitors C13,C15,C17,C20 (figure 3.33). Install on the top side of the board.
+- RC2: capacitors C2,C4,C9,C10 (figure 3.34). Install on the underside of the board.
+- RC3: capacitors C14,C16,C18,C21 (figure 3.34). Install on the top side of the board.
+
+Technically, you can install the capacitors on either side of the board, but it makes for a cleaner presentation if you install them where their respecit "C" labels are on the board.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/rc1_pop.png" height="300"> |
 |:-:|
@@ -469,6 +475,10 @@ TODO: identify the parts for the standoffs
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0844.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0845.jpeg" height="300"> |
 |:-:|
 | Figure 4.6: RPi mounted on the brain board  |
+
+__Important Note if you are using a Raspberry Pi 5:__
+The Raspberry Pi (RPi) 5 has different power requirements than previous RPi generations. The two 5v lines attached to the RPi via the ribbon cable are not to enough to adequately power the RPi 5, especially if attaching any peripherals, like a camera. Until further revisions are done to the PCB, it is recommeded to power the RPi 5 through a USB C connector. You can cut a USB C cable and identify the V+ and Ground lines using a digital multimeter, then solder those lines to the 5v and Gnd test connection points on the motorboard. You can then plug the USB C connector into the RPi 5 to power it.
+
 
 
 ## 5. Motor Board and Brain Board Mating

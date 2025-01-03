@@ -13,13 +13,14 @@ Use socket M4 screws of 16mm length and pay close attention to the placement of 
 
 ![body frame](images/body_frame.png)
 
-## Assemble the axes that connect to the rocker-bogie
-
+## Assemble the bearing support structrues that connect to the rocker-bogie
 
 
 Make two of these and connect them to the sides of the body. They should be installed exactly in the middle, which means that you're going to connect each side to the 17th hole on the long 41-hole beams on the top and bottom of the body frame. Use the M4 16mm socket screws.
 
 The bearings have a flat side and a 'hollow' side. The hollow sides should both be pointing to the same side, as shown in the image.
+
+![bearing support structures](images/rocker-bogie-sleeves.jpeg)
 
 ## Install the hinges for the top body plates
 
