@@ -21,7 +21,7 @@ In either case, power down the rover to allow the servos to free spin. Verify th
 
 If your connections are stable, then manually rotate the corner assembly. Rotate it to the extremes slowly, going through this motion a few times. If at any point the gears feel like they are binding or sticking, then there is an issue in the gearset. At this point, it is possible that just the shaft has sheared and the gears themselves are still intact. If you hear any rattling or the binding isn't momentary, then at least one gear has likely been damaged and needs to be replaced.
 
-If the gears bind up, **do not force the rotation any further!!** This could cause more gears to fail if they haven't already!
+If the gears bind up, **do not force the rotation any further!!** This could cause gears to fail if they haven't already!
 
 ## Disassembling the Motor
 
