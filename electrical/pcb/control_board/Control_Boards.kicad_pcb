@@ -1179,7 +1179,7 @@
       (net 118 "/Motor Board/RC1M2A") (tstamp 1edb870e-e68f-49f3-9064-99d8b145de08))
     (pad "6" thru_hole circle locked (at 17.5 0 90) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 117 "/Motor Board/RC1M2B") (tstamp 6c96341d-61e4-49e6-accd-44a8b250d250))
-    (model "../3d_models/277-14404-ND.step"
+    (model "./3d_models/277-14404-ND.step"
       (offset (xyz 8.75 -0.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9908,7 +9908,7 @@
       (net 122 "/Motor Board/RC3M2A") (tstamp 256f42ea-0a37-440b-afab-c7d255398aa2))
     (pad "6" thru_hole circle locked (at 17.5 0 270) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 121 "/Motor Board/RC3M2B") (tstamp d7a7c98f-0c83-4246-a44b-688dc48ebaa8))
-    (model "../3d_models/277-14404-ND.step"
+    (model "./3d_models/277-14404-ND.step"
       (offset (xyz 8.75 -0.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9952,7 +9952,7 @@
       (net 119 "/Motor Board/RC2M2A") (tstamp 094bc438-67d0-4448-80ce-45aeddc97328))
     (pad "6" thru_hole circle locked (at 17.5 0 90) (size 1.67 1.67) (drill 1.02) (layers *.Cu *.Mask)
       (net 120 "/Motor Board/RC2M2B") (tstamp 8ba4f273-c95f-49ea-8441-3befd6564f5c))
-    (model "../3d_models/277-14404-ND.step"
+    (model "./3d_models/277-14404-ND.step"
       (offset (xyz 8.75 -0.6 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -17739,7 +17739,7 @@
   (gr_text "RC2 \nMotor \nSupply" (at 216.3826 64.9478 90) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00006411f51a)
     (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
   )
-  (gr_text "Open Source Rover\nRobotic Breakout Boards\nBrain Board\nv2.0.2" (at 125.0442 -196.2404) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00006412c623)
+  (gr_text "Open Source Rover\nRobotic Breakout Boards\nBrain Board\nv2.0.3" (at 125.0442 -196.2404) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00006412c623)
     (effects (font (size 1.25 1.25) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Motor Board Interconnect" (at 115.5446 -215.6714) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00006412f86d)
