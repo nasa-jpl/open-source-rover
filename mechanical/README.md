@@ -47,6 +47,8 @@ Using 3 socket M4 screws, attach each corner assembly to the output shaft bracke
 
 > **tip**: Now is a good time to do another connectivity check. Using your multimeter, confirm that each wire connects all the way through.
 
+> **Maintenance note**: The corner servo gearset can sometimes be damaged in operation. See [here](servo_gear_replacement/README.md) for a guide on repairing your corner servos.
+
 Finally, insert the PCI-E connectors inside the body and the DuPont connectors for the servo motors into the appropriate receptacles on the PCB. The silk screen lettering on the PCB informs which wire should go where. Once inserted, make sure the rocker-bogies can rotate relatively freely around the body by lifting the wheels up.
 
 If all goes well you're done with the mechanical and electrical stages and you're ready to install the software!
