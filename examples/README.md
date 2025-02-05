@@ -4,6 +4,26 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 # <ins>V2 Rovers</ins>
 
+## Scout ([Scout](https://github.com/igillespie))
+| <image src="images/scout/scout_1.jpeg" height="175"> <image src="images/scout/scout_mast.jpeg" height="175"> <image src="images/scout/website.jpeg" height="175"> |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+### Background
+This was a family project we started in November of 2024. Our goal for this project was to build a rover that we could remotely teleoperate from our house and have the rover drive around our town. 
+
+### Modifications
+* Pan and tilt mast that houses a camera. Pan and tilt controlled by two servos.
+* BNO085 IMU to help improve odometry
+* Currently the rover stays connected to the internet via a Verizon "Jetpack" cellular puck. Stretch goal is to add a more integrated cellular connection with GPS
+* Custom website that allows us to control the rover and its mast and monitor its status
+* Flask and websockets to manager the website and streaming data
+
+
+</details>
+
 ## TMUMechE ([TMUMechE](https://github.com/TMUMechE/open-source-rover))
 | <image src="images/TMUMechE/RoverPic1.png" height="175"> <image src="images/TMUMechE/RoverPic2.png" height="175"> |
 |:-:|
