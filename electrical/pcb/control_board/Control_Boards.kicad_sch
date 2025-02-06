@@ -1,0 +1,790 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid f2ca94e8-e858-4f43-af9a-617678e842d8)
+
+  (paper "A3")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 118.11 104.14) (size 78.74 59.69) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000060a51bac)
+    (property "Sheet name" "Motor Board" (id 0) (at 118.11 101.5615 0)
+      (effects (font (size 5.0038 5.0038)) (justify left bottom))
+    )
+    (property "Sheet file" "Motor_Board.kicad_sch" (id 1) (at 118.11 165.9081 0)
+      (effects (font (size 5.0038 5.0038)) (justify left top))
+    )
+  )
+
+  (sheet (at 223.52 104.14) (size 81.28 59.69) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000060a5279e)
+    (property "Sheet name" "Brain Board" (id 0) (at 223.52 101.5615 0)
+      (effects (font (size 5.0038 5.0038)) (justify left bottom))
+    )
+    (property "Sheet file" "Brain_Board.kicad_sch" (id 1) (at 223.52 165.9081 0)
+      (effects (font (size 5.0038 5.0038)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-000060a51bac" (page "2"))
+    (path "/00000000-0000-0000-0000-000060a5279e" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000064ebf3fa"
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b75584"
+      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006195b322"
+      (reference "#FLG07") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006195cc58"
+      (reference "#FLG08") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000619765a5"
+      (reference "#FLG09") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000625c60c4"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006124b41d"
+      (reference "#PWR01") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000637a1738"
+      (reference "#PWR02") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061bdd784"
+      (reference "#PWR03") (unit 1) (value "+3.3V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000613efe54"
+      (reference "#PWR04") (unit 1) (value "+12V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061347f19"
+      (reference "#PWR05") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006281b3c4"
+      (reference "#PWR06") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061c53c95"
+      (reference "#PWR07") (unit 1) (value "+3.3V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000611f76da"
+      (reference "#PWR08") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060fadcd7"
+      (reference "#PWR09") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060fd7b8d"
+      (reference "#PWR010") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061c87d62"
+      (reference "#PWR011") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061001732"
+      (reference "#PWR012") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000062e82457"
+      (reference "#PWR013") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064276063"
+      (reference "#PWR014") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000641eb53c"
+      (reference "#PWR015") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006102b3a6"
+      (reference "#PWR016") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061054f8d"
+      (reference "#PWR017") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064482bb1"
+      (reference "#PWR018") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000611795e2"
+      (reference "#PWR019") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006107eac9"
+      (reference "#PWR020") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000643e89b6"
+      (reference "#PWR021") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000611a3452"
+      (reference "#PWR022") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000610a8605"
+      (reference "#PWR023") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006114fa33"
+      (reference "#PWR024") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000610d22e0"
+      (reference "#PWR025") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006469b0c7"
+      (reference "#PWR026") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000645f1966"
+      (reference "#PWR027") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061125de1"
+      (reference "#PWR028") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000610fc179"
+      (reference "#PWR029") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000614843d2"
+      (reference "#PWR030") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060c1ac71"
+      (reference "#PWR031") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064ad1c95"
+      (reference "#PWR032") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064ad1d48"
+      (reference "#PWR033") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000063d2c59e"
+      (reference "#PWR034") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006350bd3c"
+      (reference "#PWR035") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060edafab"
+      (reference "#PWR037") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006119eed9"
+      (reference "#PWR039") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000062173e1b"
+      (reference "#PWR041") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061860fe8"
+      (reference "#PWR042") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006180c6bb"
+      (reference "#PWR043") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006112a222"
+      (reference "#PWR044") (unit 1) (value "+12V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061c56c0e"
+      (reference "#PWR045") (unit 1) (value "+3.3V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006132ed86"
+      (reference "#PWR047") (unit 1) (value "+12V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006132f3ba"
+      (reference "#PWR048") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006212cdf3"
+      (reference "#PWR049") (unit 1) (value "+3.3V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006505d451"
+      (reference "#PWR050") (unit 1) (value "+3.3V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000621e576c"
+      (reference "#PWR051") (unit 1) (value "+12V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060fda9f9"
+      (reference "#PWR052") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000610774ee"
+      (reference "#PWR053") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000618b58ee"
+      (reference "#PWR054") (unit 1) (value "+12V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061c597a1"
+      (reference "#PWR055") (unit 1) (value "+3.3V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006132fc0d"
+      (reference "#PWR056") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061374ad1"
+      (reference "#PWR057") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006139a844"
+      (reference "#PWR058") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064f5c35b"
+      (reference "#PWR059") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000614be59a"
+      (reference "#PWR060") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000654a6bd0"
+      (reference "#PWR061") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000614285e9"
+      (reference "#PWR062") (unit 1) (value "GND_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000618ecde5"
+      (reference "#PWR063") (unit 1) (value "+5V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000618ee99b"
+      (reference "#PWR064") (unit 1) (value "GND_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000618f0639"
+      (reference "#PWR065") (unit 1) (value "+12V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064a57b00"
+      (reference "#PWR066") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000065334004"
+      (reference "#PWR067") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000061305b5b"
+      (reference "#PWR072") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000061326349"
+      (reference "#PWR073") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000651689ef"
+      (reference "#PWR074") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000062ca41e0"
+      (reference "#PWR075") (unit 1) (value "GND_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000644c29c4"
+      (reference "#PWR076") (unit 1) (value "+3.3V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000065795117"
+      (reference "#PWR081") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000659512d4"
+      (reference "#PWR082") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000659b310b"
+      (reference "#PWR083") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000641c327e"
+      (reference "#PWR0101") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064227df0"
+      (reference "#PWR0102") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064229634"
+      (reference "#PWR0103") (unit 1) (value "+12V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064224e97"
+      (reference "#PWR0104") (unit 1) (value "+3.3V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064eb4691"
+      (reference "#PWR0105") (unit 1) (value "+5V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064eb5218"
+      (reference "#PWR0106") (unit 1) (value "+3.3V_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064eb6987"
+      (reference "#PWR0107") (unit 1) (value "GND_motor") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000659d3f3b"
+      (reference "#PWR0108") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000065a04ffc"
+      (reference "#PWR0109") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000065a0548d"
+      (reference "#PWR0110") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000065b6a9e2"
+      (reference "#PWR0111") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000065b6abd3"
+      (reference "#PWR0112") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000065b6af00"
+      (reference "#PWR0113") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000065b6b172"
+      (reference "#PWR0114") (unit 1) (value "+3.3V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006441d809"
+      (reference "#PWR0115") (unit 1) (value "+5V_brain") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064530f12"
+      (reference "#PWR0116") (unit 1) (value "PWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064531301"
+      (reference "#PWR0117") (unit 1) (value "PWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006456b4dd"
+      (reference "#PWR0118") (unit 1) (value "PWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006456fbef"
+      (reference "#PWR0119") (unit 1) (value "PWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000645d6482"
+      (reference "#PWR0120") (unit 1) (value "PWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000645d7b4f"
+      (reference "#PWR0121") (unit 1) (value "PWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000646a4465"
+      (reference "#PWR0122") (unit 1) (value "PWR") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061378a2a"
+      (reference "C1") (unit 1) (value "100nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1ccf6"
+      (reference "C2") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061c52423"
+      (reference "C3") (unit 1) (value "100nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cd04"
+      (reference "C4") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cbd0"
+      (reference "C5") (unit 1) (value "100nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cbd7"
+      (reference "C6") (unit 1) (value "100nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064f5b59b"
+      (reference "C7") (unit 1) (value "10uf") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cd12"
+      (reference "C9") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cd20"
+      (reference "C10") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1ccbe"
+      (reference "C13") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cd2e"
+      (reference "C14") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cccc"
+      (reference "C15") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cd3c"
+      (reference "C16") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1ccda"
+      (reference "C17") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cd4a"
+      (reference "C18") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006116b053"
+      (reference "C19") (unit 1) (value "100uf") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cce8"
+      (reference "C20") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cd58"
+      (reference "C21") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064a76773"
+      (reference "C25") (unit 1) (value "100uf") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064a76999"
+      (reference "C27") (unit 1) (value "100uf") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064a76a51"
+      (reference "C28") (unit 1) (value "100uf") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000061420ff3"
+      (reference "C32") (unit 1) (value "100nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006129d299"
+      (reference "C33") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000061326329"
+      (reference "C34") (unit 1) (value "10nf") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b753a5"
+      (reference "D1") (unit 1) (value "D") (footprint "JPL Robotics:497-2738-5-ND")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000612df187"
+      (reference "D8") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000061326335"
+      (reference "D9") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b7539f"
+      (reference "F1") (unit 1) (value "Fuse") (footprint "JPL Robotics:696108003002_5x20_fuseholder")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b75381"
+      (reference "J1") (unit 1) (value "XT30-M") (footprint "JPL Robotics:AMASS_XT30U-M_1x02_P5.0mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b75520"
+      (reference "J2") (unit 1) (value "ED2580-ND") (footprint "JPL Robotics:ED2580-ND")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b75546"
+      (reference "J3") (unit 1) (value "XT30-F") (footprint "JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b75529"
+      (reference "J4") (unit 1) (value "XT30-F") (footprint "JPL Robotics:AMASS_XT30U-F_1x02_P5.0mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b7552f"
+      (reference "J5") (unit 1) (value "XT30-M") (footprint "JPL Robotics:AMASS_XT30U-M_1x02_P5.0mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b75504"
+      (reference "J6") (unit 1) (value "ED2580-ND") (footprint "JPL Robotics:ED2580-ND")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000641eb466"
+      (reference "J7") (unit 1) (value "TSW-104-07-F-T") (footprint "JPL Robotics:SSW-104-01-F-T")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060a58e9d"
+      (reference "J8") (unit 1) (value "Molex_172675-0613") (footprint "JPL Robotics:Molex_172675-0613")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060acadf7"
+      (reference "J9") (unit 1) (value "Molex_172675-0613") (footprint "JPL Robotics:Molex_172675-0613")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060acba13"
+      (reference "J10") (unit 1) (value "Molex_172675-0613") (footprint "JPL Robotics:Molex_172675-0613")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060acc18d"
+      (reference "J11") (unit 1) (value "Molex_172675-0613") (footprint "JPL Robotics:Molex_172675-0613")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000643e88fa"
+      (reference "J12") (unit 1) (value "TSW-104-07-F-T") (footprint "JPL Robotics:SSW-104-01-F-T")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060acddfa"
+      (reference "J13") (unit 1) (value "Molex_172675-0613") (footprint "JPL Robotics:Molex_172675-0613")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060ace52f"
+      (reference "J14") (unit 1) (value "Molex_172675-0613") (footprint "JPL Robotics:Molex_172675-0613")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000645c7cb2"
+      (reference "J15") (unit 1) (value "TSW-104-07-F-T") (footprint "JPL Robotics:SSW-104-01-F-T")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cb0e"
+      (reference "J16") (unit 1) (value "277-11404-ND") (footprint "JPL Robotics:277-11404-ND")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cb18"
+      (reference "J17") (unit 1) (value "277-11404-ND") (footprint "JPL Robotics:277-11404-ND")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b1cb30"
+      (reference "J18") (unit 1) (value "277-11404-ND") (footprint "JPL Robotics:277-11404-ND")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000632c8ad7"
+      (reference "J19") (unit 1) (value "TSW-104-07-F-T") (footprint "JPL Robotics:SSW-104-01-F-T")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006127184f"
+      (reference "J20") (unit 1) (value "PEC08SAAN") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006099fca6"
+      (reference "J21") (unit 1) (value "PPTC102LFBN-RC") (footprint "JPL Robotics:PPTC102LFBN-RC")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000060a8a979"
+      (reference "J22") (unit 1) (value "S9175-ND_rpi_breakout") (footprint "JPL Robotics:S9175-ND")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000060a8a8fc"
+      (reference "J23") (unit 1) (value "S9175-ND_rpi_breakout") (footprint "JPL Robotics:S9175-ND")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000060a8a929"
+      (reference "J24") (unit 1) (value "6posheader") (footprint "JPL Robotics:455-1708-ND")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000061d7ba49"
+      (reference "J25") (unit 1) (value "SSW-104-01-F-T") (footprint "JPL Robotics:SSW-104-01-F-T")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000060ee139b"
+      (reference "J26") (unit 1) (value "WM6548-ND") (footprint "JPL Robotics:WM6548-ND")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000609d84ed"
+      (reference "J27") (unit 1) (value "PPTC021LFBN-RC") (footprint "JPL Robotics:PPTC021LFBN-RC")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000060ed1ae6"
+      (reference "J28") (unit 1) (value "PPTC021LFBN-RC") (footprint "JPL Robotics:PPTC021LFBN-RC")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006103131a"
+      (reference "J29") (unit 1) (value "PPTC021LFBN-RC") (footprint "JPL Robotics:PPTC021LFBN-RC")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000647a8080"
+      (reference "J30") (unit 1) (value "PEC08SAAN") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000643306e5"
+      (reference "LOGO1") (unit 1) (value "patch_silkscreen") (footprint "JPL Robotics:patch_logo_scaled")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006434dd2b"
+      (reference "LOGO2") (unit 1) (value "patch_silkscreen") (footprint "JPL Robotics:patch_logo_scaled")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000061db5332"
+      (reference "M1") (unit 1) (value "Mounting_Holes") (footprint "JPL Robotics:raspberry_pi_3b")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060953101"
+      (reference "MH1") (unit 1) (value "#4THRU-HOLE") (footprint "JPL Robotics:#4THRU-HOLE")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060953107"
+      (reference "MH2") (unit 1) (value "#4THRU-HOLE") (footprint "JPL Robotics:#4THRU-HOLE")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006095310d"
+      (reference "MH3") (unit 1) (value "#4THRU-HOLE") (footprint "JPL Robotics:#4THRU-HOLE")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060953113"
+      (reference "MH4") (unit 1) (value "#4THRU-HOLE") (footprint "JPL Robotics:#4THRU-HOLE")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000063fdb1be"
+      (reference "MH5") (unit 1) (value "#4THRU-HOLE") (footprint "JPL Robotics:#4THRU-HOLE")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000063fdb1c4"
+      (reference "MH6") (unit 1) (value "#4THRU-HOLE") (footprint "JPL Robotics:#4THRU-HOLE")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000063fdb1ca"
+      (reference "MH7") (unit 1) (value "#4THRU-HOLE") (footprint "JPL Robotics:#4THRU-HOLE")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000063fdb1d0"
+      (reference "MH8") (unit 1) (value "#4THRU-HOLE") (footprint "JPL Robotics:#4THRU-HOLE")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000625ac662"
+      (reference "MH9") (unit 1) (value "brain_board_mounting_hole") (footprint "JPL Robotics:brain_board_mounting_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000625ac668"
+      (reference "MH10") (unit 1) (value "brain_board_mounting_hole") (footprint "JPL Robotics:brain_board_mounting_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000625ac66e"
+      (reference "MH11") (unit 1) (value "brain_board_mounting_hole") (footprint "JPL Robotics:brain_board_mounting_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000625ac674"
+      (reference "MH12") (unit 1) (value "brain_board_mounting_hole") (footprint "JPL Robotics:brain_board_mounting_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000626d877c"
+      (reference "MH13") (unit 1) (value "brain_board_mounting_hole") (footprint "JPL Robotics:brain_board_mounting_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000626d8782"
+      (reference "MH14") (unit 1) (value "brain_board_mounting_hole") (footprint "JPL Robotics:brain_board_mounting_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000626d8788"
+      (reference "MH15") (unit 1) (value "brain_board_mounting_hole") (footprint "JPL Robotics:brain_board_mounting_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000626d878e"
+      (reference "MH16") (unit 1) (value "brain_board_mounting_hole") (footprint "JPL Robotics:brain_board_mounting_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064376e06"
+      (reference "MH17") (unit 1) (value "#4THRU-HOLE") (footprint "JPL Robotics:#4THRU-HOLE")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006406b9af"
+      (reference "Q1") (unit 1) (value "2N3906") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006129e305"
+      (reference "Q2") (unit 1) (value "2N3906") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006132632f"
+      (reference "Q3") (unit 1) (value "2N3906") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000064ade81c"
+      (reference "Q4") (unit 1) (value "2N3906") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000658a1fa9"
+      (reference "Q5") (unit 1) (value "2N3906") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000659206d7"
+      (reference "Q6") (unit 1) (value "2N3906") (footprint "Package_TO_SOT_THT:TO-92_Inline_Wide")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060b7545a"
+      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061145ef5"
+      (reference "R2") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006115be1a"
+      (reference "R3") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006115c337"
+      (reference "R4") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000613b820d"
+      (reference "R5") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006139bb6c"
+      (reference "R6") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000613eaeb5"
+      (reference "R7") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000615119dc"
+      (reference "R8") (unit 1) (value "680") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061511e53"
+      (reference "R9") (unit 1) (value "220") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000620f44b3"
+      (reference "R10") (unit 1) (value "100") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000654394e6"
+      (reference "R11") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006498626e"
+      (reference "R12") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064986274"
+      (reference "R13") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006498627a"
+      (reference "R14") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006406b999"
+      (reference "R15") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000613a99a2"
+      (reference "R16") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000613bcb40"
+      (reference "R17") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000613a416d"
+      (reference "R18") (unit 1) (value "68") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000658d7f61"
+      (reference "R19") (unit 1) (value "68") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000659206dd"
+      (reference "R20") (unit 1) (value "68") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000062a1852a"
+      (reference "R21") (unit 1) (value "0") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000062fc3c34"
+      (reference "R22") (unit 1) (value "68") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000062fdc871"
+      (reference "R23") (unit 1) (value "68") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006406b9bb"
+      (reference "R24") (unit 1) (value "68") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000063060529"
+      (reference "R25") (unit 1) (value "82") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000063070ea8"
+      (reference "R26") (unit 1) (value "82") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000630714ef"
+      (reference "R27") (unit 1) (value "82") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000630718bc"
+      (reference "R28") (unit 1) (value "82") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000065763fec"
+      (reference "R29") (unit 1) (value "82") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000063e66b4c"
+      (reference "R30") (unit 1) (value "0") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000065519a0e"
+      (reference "R31") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000655195ef"
+      (reference "R32") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000654a6bd6"
+      (reference "R33") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000652dd0ab"
+      (reference "R34") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006563065f"
+      (reference "R35") (unit 1) (value "4.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000064c0012b"
+      (reference "R36") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000659d0b34"
+      (reference "R37") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-0000659d205c"
+      (reference "R38") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060ab7ab8"
+      (reference "RC1") (unit 1) (value "RoboClaw") (footprint "JPL Robotics:roboclaw_mount")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060ab7b1e"
+      (reference "RC2") (unit 1) (value "RoboClaw") (footprint "JPL Robotics:roboclaw_mount")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060ab7ada"
+      (reference "RC3") (unit 1) (value "RoboClaw") (footprint "JPL Robotics:roboclaw_mount")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000061dfaf04"
+      (reference "SW1") (unit 1) (value "CT206124-ND") (footprint "JPL Robotics:CTS-206-124")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006432d4ac"
+      (reference "T1") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064362ae7"
+      (reference "T2") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006432dc9d"
+      (reference "T3") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000643602c9"
+      (reference "T4") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064361769"
+      (reference "T5") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064361b1f"
+      (reference "T6") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000640d2053"
+      (reference "T7") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006418f375"
+      (reference "T8") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006418f539"
+      (reference "T9") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006418f8ce"
+      (reference "T10") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006418fafc"
+      (reference "T11") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000642c6677"
+      (reference "T12") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point_hole")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006422f604"
+      (reference "T13") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006428de15"
+      (reference "T14") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006428e0d4"
+      (reference "T15") (unit 1) (value "test_point") (footprint "JPL Robotics:test_point")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000061be6bde"
+      (reference "U1") (unit 1) (value "INA260") (footprint "JPL Robotics:INA260")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000062c61d32"
+      (reference "U2") (unit 1) (value "PCA9685") (footprint "JPL Robotics:PCA9685_servo_controller")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006213b507"
+      (reference "U3") (unit 1) (value "D24V22Fx") (footprint "JPL Robotics:D24V22Fx_regulator")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-0000652856e5"
+      (reference "U4") (unit 1) (value "D24V150Fx") (footprint "JPL Robotics:D24V150Fx")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-00006236264e"
+      (reference "U5") (unit 1) (value "DC7G3HWA") (footprint "JPL Robotics:DC7G3HWA_led_array")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-000062c709b3"
+      (reference "U6") (unit 1) (value "DC7G3HWA") (footprint "JPL Robotics:DC7G3HWA_led_array")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000064d3685e"
+      (reference "U7") (unit 1) (value "MIC2937A-3.3WT") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060a51bac/00000000-0000-0000-0000-000060953119"
+      (reference "y1") (unit 1) (value "rover_silkscreen") (footprint "JPL Robotics:rover_image")
+    )
+    (path "/00000000-0000-0000-0000-000060a5279e/00000000-0000-0000-0000-00006436aa72"
+      (reference "y2") (unit 1) (value "rover_silkscreen") (footprint "JPL Robotics:rover_image")
+    )
+  )
+)
