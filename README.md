@@ -134,6 +134,79 @@ In our experience, this project takes no less than 100 person-hours to build, an
 
 * **What's next?** Add your own upgrades! We chose Raspberry Pi as the brain of the project so that it should be easy to add, change, and upgrade to build exciting things on top of this already cool robot.  Some upgrade ideas to get you brainstorming: sonar for collision detection, IMU for orientation / closed-loop driving / obstacle mapping, camera for object identification and tracking, sensor packages (temperature, pressure, humidity), solar panels, or even a robotic arm!
 
+## Quick Start Guide for First-Time Builders
+
+### Prerequisites Checklist
+- [ ] Workspace: Clean, well-lit area of at least 3m x 3m
+- [ ] All tools gathered (see Tools section)
+- [ ] Parts inventory completed and verified
+- [ ] Basic Linux/Raspberry Pi knowledge
+- [ ] Battery charging station setup
+- [ ] Computer with internet connection for Raspberry Pi setup
+
+### Initial Setup Steps
+1. **Parts Organization**
+  - Sort parts by assembly stage
+  - Label motors and electronics
+  - Create a dedicated space for small components
+  - Document any missing/damaged parts immediately
+
+2. **Environment Setup**
+  - Install required software:
+    - Raspberry Pi Imager
+    - Git
+    - Python 3.8+
+    - ROS Noetic (if using Ubuntu)
+  - Set up version control for your build process
+  - Configure your development environment
+
+3. **Safety Preparations**
+  - Review all safety guidelines
+  - Prepare safety equipment
+  - Set up proper ventilation for soldering
+  - Create emergency shutdown procedure
+
+## Common Issues & Troubleshooting
+
+### Mechanical Issues
+1. **Wheel Alignment Problems**
+  - Symptom: Rover pulls to one side
+  - Check: Motor mounting alignment
+  - Solution: Realign wheel modules, verify torque on all bolts
+
+2. **Suspension Stiffness**
+  - Symptom: Uneven movement over obstacles
+  - Check: Rocker-bogie assembly
+  - Solution: Verify all pivot points move freely
+
+### Electrical Issues
+1. **Power Distribution**
+  - Symptom: Components not receiving power
+  - Check: Battery voltage, connections
+  - Solution: Verify wiring diagram, check for loose connections
+
+2. **Motor Control**
+  - Symptom: Erratic motor behavior
+  - Check: Motor controller configuration
+  - Solution: Recalibrate motor controllers, verify wiring
+
+### Software Issues
+1. **Communication Errors**
+  - Symptom: No response from rover
+  - Check: Network connectivity
+  - Solution: Verify IP address, check ROS network configuration
+
+2. **Control System**
+  - Symptom: Unresponsive controls
+  - Check: ROS node status
+  - Solution: Restart ROS nodes, verify topic connections
+
+### General Build Tips
+- Take photos of each assembly step
+- Document any modifications made
+- Create a build log for future reference
+- Join the Slack community early in the build process
+
 ### Ordering parts
 
 #### Parts Lists
