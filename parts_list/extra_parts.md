@@ -1,6 +1,6 @@
 ## Extra Parts
 
-These parts you may either already have, depend on where you're located for a good deal, depend on personal preference, or are optional. As a result they are not accounted for in the total price.
+These parts you may either already have, depend on where you're located for a good deal, depend on personal preference, or are optional. If you do not have any of these, you'll need to add around $500 to the total project cost.
 
 **Note**: Make sure to go through the list below to make sure you have everything you need.
 
@@ -82,7 +82,7 @@ You will want threadlocker for several screws so that they don't unscrew themsel
   * You'll also need a charger for the battery. Make sure it can support the battery you bought. For the Zeee options, [this model from Amazon](https://www.amazon.com/Hobby-Fans-Professional-Balance-Discharger/dp/B09XC91BWJ/ref=sr_1_6?keywords=LiPo+charger&qid=1690484744&sr=8-6) will work.
   * Consider getting a fireproof battery bag. LiPo batteries are extremely flammable/explosive and a fire caused by a battery is extremely difficult to put out.
   * You'll also need a way to connect your battery to the PCB via a XT30 connector (MH-FC) which depends on the battery you get. Often these come with the charger for the battery
-* A Raspberry Pi 3 or 4. Other options may work as well, but we recommend starting here.
+* A Raspberry Pi 3, 4, or 5 and SD card for the operating system. For the 4 or 5, any amount of RAM should work just fine. Note that only the 5 has two full serial interfaces and thus is the only model that can connect to the motor controllers (Roboclaws) and run bluetooth at the same time.
 
 > (*) The reason you need 14V is that the 12V regulator needs a [dropout voltage](https://www.pololu.com/product/2855#dropout) on top of the output voltage in order to provide 12V. A 12V battery will not work adequately.
 
