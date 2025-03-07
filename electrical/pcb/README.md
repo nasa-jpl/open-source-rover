@@ -119,6 +119,8 @@ Use a multimeter to test the voltage between test points T4 ("swt_out") and T2 (
 
 Also check the voltage shown by the multimeter. This should show the same voltage as well.
 
+Note: During continuity testing of power header J5 (MM Load), you may hear a brief beep from the multimeter. This is normal and does not indicate a short circuit.
+
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230416_234553055.jpg" height="300"> |
 |:-:|
 | Figure 3.13: Testing the power input to the multimeter |
