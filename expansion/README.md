@@ -1,10 +1,10 @@
 # Expansion Options
-This page describes various, optional, expansion options for the the rover.
+This page describes various, optional, hardware expansions for the the rover.
 
 ## Mast
-An optional mast can be added to the rover to house a camera, light, screen, environmental sensors or other components. 
+A mast can be added to the rover to house a camera, light, screen, environmental sensors or other components. 
 
-This section describes how to build the pan and tilt mast seen below. Before you get too far along it is recommended to attach two servos to the PCA board and write some basic code that confirms you can control them. Usually the hardest part of this step is getting the channels right. This build information covers the mechanical parts of the build, installing the sensors and the code to integrate them is beyond the scope of these instructions.
+This section describes how to build the pan and tilt mast seen below. Before you get too far along it is recommended to attach two servos to the PCA board and write some basic code that confirms you can control them. This build information covers the mechanical parts of the build, installing the sensors and the code to integrate them is beyond the scope of these instructions.
 
 ![scount mast](images/mast/scout-mast.jpeg)
 
@@ -22,28 +22,31 @@ The following materials are needed to build the main structure of the mast (as s
 
 
 #### Head
-- 3D printed "box" for the head. (STL files to 3D these parts in expanstion/3d_models folder)
-- sensors! you need to put something on the mast (the build above holds a camera)
+- 3D printed "box" for the head. (STL files for these 3D parts are in the expanstion/3d_models folder)
+- sensors! you need to put something on the mast (the build above holds a camera and there is an extra hole for a light)
 
 ### Building It
 Attach both of the servo blocks to the servos.
 
 #### Underside
-Remove the top plate of the rover body because you'll need to drill some holes in it. Drill a hole big enough for the servo hub shaft to fit through. In the example images this hole was placed 50mm back from the front and 50mm offset to the left (when facing the front of the rover). You'll also want to drill 4 holes to mount the block mount (would be good to know exact dimenions and locations for these holes).
+Remove the top plate of the rover body because you'll need to drill some holes in it. Drill a hole big enough for the servo hub shaft to fit through (exact size needed). In the example images this hole was placed 50mm back from the front and 50mm offset to the left (when facing the front of the rover). You'll also want to drill 4 holes to mount the block mount (would be good to know exact dimenions and locations for these holes).
 
-Once the holes are drilled you can proceed with attaching the servo that controls the pan rotation to the _underside_ of the body top plate as seen in the image below. You'll attach the servo block to the servo, then the block mounts to the servo block and finally, the block mounts to the top plate of the body.
+Once the holes are drilled you can proceed with attaching the servo that controls the pan rotation to the _underside_ of the body top plate as seen in the image below. You'll attach the servo with its block to the the block mounts and the block mounts to the top plate of the body.
 
 ![scount mast](images/mast/pan-servo-attachment.jpeg)
 _Underside of the top plate of the rover body. Red arrow points to one of the mount blocks. The other mount block is on the other side but not visible in this picture_
 
+
+
 #### Topside
 Attach the goTube to the servo hub shaft from the top. Using a long hex driver down through the center of the goTube, attach this unit to the servo.
+
 ![scount mast](images/mast/mast-attachment-to-hub.jpeg)
 _Close up image showing goTube attached to servo hub, which is attached to the servo hidden underneath the top plate_.
 
-Attach the second servo to the 1-hole U-Channel. Attach this assembled part to the top of the goTube (the U-channel attached to the goTube is just visible in the image above). Attach the angle bracket to this second servo hub shaft – this will control the tilt of the head.
+Attach the second servo to the 1-hole U-Channel. Place the U-channel so that "U" is facing up. Attach this assembled part to the top of the goTube (the U-channel attached to the goTube is just visible in the image above). Attach the angle bracket to this second servo hub shaft – this will control the tilt of the head.
 
-3D Print the head and attach to the angle bracket.
+3D print the head and attach to the angle bracket.
 
 Re-assemble the top plate to the rover body.
 
