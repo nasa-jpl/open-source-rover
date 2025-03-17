@@ -1,7 +1,5 @@
-# Expansion Options
-This page describes various, optional, hardware expansions for the the rover.
+# Mast Expansion
 
-## Mast
 A mast can be added to the rover to house a camera, light, screen, environmental sensors or other components. 
 
 This section describes how to build the pan and tilt mast seen below. Before you get too far along it is recommended to attach two servos to the PCA board and write some basic code that confirms you can control them. This build information covers the mechanical parts of the build, installing the sensors and the code to integrate them is beyond the scope of these instructions.
