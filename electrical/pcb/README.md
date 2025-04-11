@@ -95,7 +95,8 @@ Use these diagrams to determine how to wire things together:
 
 When testing with a power supply, provide 14.8V DC and current limit to 1.0A. Just to the left of the main fuse is a XT30 connector labeled "Switch" – this if for the main on/off toggle switch. The XT30 connectors labeled MM Load and MM DC connect to the multimeter box.
 
-> **Note**: If you have already installed capacitors on the board, it is normal for power header J5 (MM Load) to briefly beep for less than a second when testing for continuity after soldering the power headers. This occurs because the capacitors momentarily charge. This behavior is expected and does not indicate a short circuit.
+> [!Note]
+> If you have already installed capacitors on the board, it is normal for power header J5 (MM Load) to briefly beep for less than a second when testing for continuity after soldering the power headers. This occurs because the capacitors momentarily charge. This behavior is expected and does not indicate a short circuit.
 
  | <img src="../../images/pcb_assembly/v2_0_1/assembly/controlboard-power-headers.jpeg" height="300"> |
 |:-:|
