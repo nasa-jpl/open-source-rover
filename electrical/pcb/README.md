@@ -525,6 +525,9 @@ You'll also need the `USB RoboClaw Windows Driver` from the RoboClaw General Dow
 
 To use the GUI, insert a USB to Micro USB cable from your computer to the motor controller you are going to be testing. In the Basic Motion GUI you should see an available device appear. It might require an update to proceed. Install the latest firmware update and then connect to the device.
 
+> [!IMPORTANT]
+> There have been reports that version 4.3.6 of the roboclaw firmware causes issues with the Python SDK. Do not update for now. The version that works for now is 4.2.8 which can be installed with an older version of MotionStudio. If you accidentally updated, try rolling back MotionStudioby going to "uninstall apps" in Windows. Select uninstall BasicMicro Motion Studio, and the program will ask you to uninstall or restore a previous version. Click on restore, and then, it will force you to downgrade the firmware version. Another way is to use the Legacy Version, which is always available.
+
 Verify that all status lights are green and that the following values are shown at the top:
 
 Temperature1: ~30
