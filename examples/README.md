@@ -4,7 +4,7 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 # <ins>V2 Rovers</ins>
 
-## Resilience (res) ([Resilience](https://github.com/murphcj)
+## Resilience (res) ([Resilience](https://github.com/murphcj))
 | <image src="images/Resilience/Resilience_Lighthouse.jpeg" height="175"> <image src="images/Resilience/Resilience_Ocean.jpeg" height="175"> <image src="images/Resilience/Resilience_Team" height="175"> <image src="images/Resilience/Resilience_at_School" height="175">
 |:-:|
 
@@ -16,6 +16,8 @@ This was a family project we started in January of 2024 and finished in February
 
 ### Modifications
 * TBD...
+
+</details>
 
 ## Scout ([Scout](https://github.com/igillespie))
 | <image src="images/scout/scout_1.jpeg" height="175"> <image src="images/scout/scout_mast.jpeg" height="175"> <image src="images/scout/website.jpeg" height="175"> |
