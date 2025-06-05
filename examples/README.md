@@ -4,6 +4,21 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 # <ins>V2 Rovers</ins>
 
+## Resilience (res) ([murphcj](https://github.com/murphcj))
+| <image src="images/Resilience/Resilience_Lighthouse.jpeg" height="175"> <image src="images/Resilience/Resilience_Ocean.jpeg" height="175"> <image src="images/Resilience/Resilience_at_School.jpeg" height="175">
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+### Background
+Resilience was our first foray into robotics and has done several show-and-tells at the local elementary schools (driving over kids, Teachers, and the Principal!). The name comes from the book "A Rover's Story" by Jasmine Warga. This was a family project we started in January of 2024 and finished in February 2025. We hope to add more to this build in the future.
+
+### Modifications
+* TBD...
+
+</details>
+
 ## Scout ([Scout](https://github.com/igillespie))
 | <image src="images/scout/scout_1.jpeg" height="175"> <image src="images/scout/scout_mast.jpeg" height="175"> <image src="images/scout/website.jpeg" height="175"> |
 |:-:|
