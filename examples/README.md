@@ -5,7 +5,7 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 # <ins>V2 Rovers</ins>
 
 ## Resilience (res) ([Resilience](https://github.com/murphcj))
-| <image src="images/Resilience/Resilience_Lighthouse.PNG" height="175"> <image src="images/Resilience/Resilience_Ocean.PNG" height="175"> <image src="images/Resilience/Resilience_Team.jpeg" height="175"> <image src="images/Resilience/Resilience_at_School.jpeg" height="175">
+| <image src="images/Resilience/Resilience_Lighthouse.jpeg" height="175"> <image src="images/Resilience/Resilience_Ocean.jpeg" height="175"> <image src="images/Resilience/Resilience_Team.jpeg" height="175"> <image src="images/Resilience/Resilience_at_School.jpeg" height="175">
 |:-:|
 
 <details>
