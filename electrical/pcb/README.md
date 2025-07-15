@@ -510,6 +510,7 @@ For this you will need:
 - 6 drive motors
 - completed PCBs
 - a power source: a benchtop power supply or a charged battery
+- wheel and clamping mount
 
 Secure the PCB assembly so it doesn't fall or move while it's on. You can attach it to the bottom body plate already. Avoid contact with any surfaces that can generate high-voltage sparks like carpets as that can destroy the electrical components.
 
@@ -570,6 +571,13 @@ Once you've verified this, we'll focus on the direction. We want the motor to sp
 ![motor direction diagram](images/motor_direction_diagram.png)
 
 For both motors check that the direction matches the diagram. If it doesn't, for that motor in the `General Settings` tab, select `M1 Reverse`. Check again to verify it matches. Now verify that the encoder value increases when you send a positive PWM for each motor. If it doesn't, select the `invert` checkbox in `General Settings` and verify again.
+
+#### 6.5 Calibrate Velocity Settings
+Click on the Velocity Settings tab. Here we will tune the velocity settings of the motor; these can only be done after setting the PWM direction in the previous step so ensure that those are done first. Furthermore, to get a precise calibration the wheels should be attached to the motors as they add some inertia to the system. Reference the [wheel assembly](../../mechanical/wheel_assembly/) instructions to see how to attach the wheels to the motor.
+
+While the individual parameters can be tuned to precise values, for an initial/minimum setup we can use the Autotune feature. To do this first make sure your motor and wheel can freely spin (i.e. elevated off the ground and not in contact with anything). Then, select `Tune M1` under `Autotune`. The motor will rotate back and forth several times before spinning several times. Once the motor stops, the tuning is complete. Do the same for the second motor by selecting `Tune M2`. The velocity calibration is now complete.
+
+The individual PID values can also be tuned manually after autotuning to tweak the motor performance. Roboclaw has an overview of all of the [velocity settings here](https://resources.basicmicro.com/velocity-settings-in-motion-studio/).
 
 > **Important**: Make sure to save these settings to each Roboclaw's non-volatile memory by clicking on the `Device` menu > `Write Settings`.
 Repeat starting from Section [6.1](6.1-RoboClaw-Testing-and-Verification) for the other two roboclaws.
