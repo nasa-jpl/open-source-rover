@@ -573,6 +573,7 @@ Once you've verified this, we'll focus on the direction. We want the motor to sp
 For both motors check that the direction matches the diagram. If it doesn't, for that motor in the `General Settings` tab, select `M1 Reverse`. Check again to verify it matches. Now verify that the encoder value increases when you send a positive PWM for each motor. If it doesn't, select the `invert` checkbox in `General Settings` and verify again.
 
 #### 6.5 Calibrate Velocity Settings
+
 Click on the Velocity Settings tab. Here we will tune the velocity settings of the motor; these can only be done after setting the PWM direction in the previous step so ensure that those are done first. Furthermore, to get a precise calibration the wheels should be attached to the motors as they add some inertia to the system. Reference the [wheel assembly](../../mechanical/wheel_assembly/) instructions to see how to attach the wheels to the motor.
 
 While the individual parameters can be tuned to precise values, for an initial/minimum setup we can use the Autotune feature. To do this first make sure your motor and wheel can freely spin (i.e. elevated off the ground and not in contact with anything). Then, select `Tune M1` under `Autotune`. The motor will rock back and forth several times slowly and quickly. Once the motor stops, the tuning is complete. Do the same for the second motor by selecting `Tune M2`. The velocity calibration is now complete.
