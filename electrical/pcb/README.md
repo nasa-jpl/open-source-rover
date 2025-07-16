@@ -510,7 +510,7 @@ For this you will need:
 - 6 drive motors
 - completed PCBs
 - a power source: a benchtop power supply or a charged battery
-- wheel and clamping mount
+- wheel and [bore hub](https://www.gobilda.com/1310-series-hyper-hub-8mm-rex-bore/)
 
 Secure the PCB assembly so it doesn't fall or move while it's on. You can attach it to the bottom body plate already. Avoid contact with any surfaces that can generate high-voltage sparks like carpets as that can destroy the electrical components.
 
