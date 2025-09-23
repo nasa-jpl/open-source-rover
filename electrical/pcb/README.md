@@ -135,10 +135,12 @@ The INA260 daughter board is used for digital sensing of voltage and current, me
 
 **Option 1: If you have an INA260 daughter board, you should install that in footprint U1.**
 
-TODO: update parts here
-
 1. Attach an 8x1 female header to the 8 pins on the bottom side of the INA260 / U1 footprint, as seen in Figure 3.10
-2. Attach a 3x1 female header (cut from a longer Nx1 header) to the two pins on the top side of the INA260 / U1 footprint, as seen in Figure 3.10
+2. Solder the 8x1 male header pins to the INA260.
+3. Attach a 3x1 female header (cut from a longer Nx1 header) to the two pins on the top side of the INA260 / U1 footprint, as seen in Figure 3.14. You'll need to manually remove the center pin.
+4. Removce the center pin from a 3x1 male header pins, and solder to the INA260.
+5. Solder across pads A0 and A1 on the INA260 (to set it to use I2C Address 0x45)
+6. Install M2.5 x 12mm + 6mm standoffs to the side of the INA260 opposite the pins as shown in Figure 3.20
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/ina260_headers.png" height="300"> |
 |:-:|
