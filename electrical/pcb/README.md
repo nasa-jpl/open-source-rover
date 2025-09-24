@@ -156,11 +156,7 @@ TODO: need to update this discussion of bypassing U1 once the layout has been up
 
 Install a 0 ohm resistor in footprint R30, on the top side of the board
 
-### 3.6 Test INA260 installation
-
-TODO
-
-### 3.7 Install 5V bus regulator
+### 3.6 Install 5V bus regulator
 
 This is the power regulator for the 5V line, which powers all the motors.
 
@@ -174,7 +170,7 @@ Install 3 female headers for the daughter board, into U4. You will need a two 4x
 |:-:|
 | Figure 3.17: 5V regulator installed |
 
-### 3.8 Install 12V bus regulator U3
+### 3.7 Install 12V bus regulator U3
 
 Solder a 5x1 female header to the U3 footprint, and attach an appropriately sized standoff
 
@@ -192,7 +188,7 @@ TODO: specify standoff
 |:-:|
 | Figure 3.20: 12v regulator installed (2) |
 
-### 3.9 Install 3.3V bus regulator U7 and decoupling capacitor C7
+### 3.8 Install 3.3V bus regulator U7 and decoupling capacitor C7
 
 The 3.3V bus regulator is a linear voltage regulator and is physically much smaller - it comes in the same packaging as diode D1. Make sure to install the regulator in the correct direction as shown in figure 3.21.
 
@@ -210,7 +206,7 @@ Capacitor C7 is the decoupling capacitor for the 3.3v bus. Make sure to install 
 |:-:|
 | Figure 3.24: Capacitor C7 installed |
 
-### 3.10 Install resistors R15, R24, and BJT transistor Q1
+### 3.9 Install resistors R15, R24, and BJT transistor Q1
 
 These form the circuit for the alert signal LED logic.
 
@@ -223,7 +219,7 @@ These form the circuit for the alert signal LED logic.
 | Figure 3.26: R15, R24, and Q1 installed |
 
 
-### 3.11 Test all voltage lines
+### 3.10 Test all voltage lines
 
 Test all the power buses/voltage lines using the test points on the far left side of the top side of the board (T7 through T12).
 
@@ -253,7 +249,7 @@ The silk screen right of each hole indicates what voltage each test point should
 | Figure 3.31: testing the PWR bus (main board power plane, after battery protection circuitry ) |
 
 
-### 3.12 Install PCA9685 daughter board in U2 footprint and capacitor C3
+### 3.11 Install PCA9685 daughter board in U2 footprint and capacitor C3
 
 :exclamation: Before continuing, make sure to disconnect the power supply from the previous step! You should not have the board powered on while installing components. :exclamation:
 
@@ -288,7 +284,7 @@ TODO: figure 3.33 is not very good
 | Figure 3.29.1 : C3 installed |
 
 
-### 3.13 Install resistor R5 and capacitor C1
+### 3.12 Install resistor R5 and capacitor C1
 
 These are aids for the INA260, and can be left out if the IN260 is not used
 
@@ -306,13 +302,27 @@ Use an 8x1 female header for J20.
 |:-:|
 | Figure 3.31: Components installed, as viewed from top of board |
 
-### 3.14 Install resistors R2,R3,R4
+### 3.14 Test INA260 installation
+
+To test the INA260, you will follow https://learn.adafruit.com/adafruit-ina260-current-voltage-power-sensor-breakout/arduino, and connect an Arduino to GND, SCL, and SDA on J20.  You'll change the initalization step to
+```
+ if (!ina260.begin(0x45)) {
+```
+to account for the I2C bus address.  When you turn your power on, you should see something like this:
+```
+Found INA260 chip
+Current: 85.00 mA
+Bus Voltage: 14456.25 mV
+Power: 1230.00 mW
+```
+
+### 3.15 Install resistors R2,R3,R4
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/r2_r3_r4.png" height="300"> |
 |:-:|
 | Figure 3.32: Components installed, as viewed from top of board |
 
-### 3.15 Install Roboclaw standoffs, headers, and capacitors
+### 3.16 Install Roboclaw standoffs, headers, and capacitors
 
 Now we'll add the parts for roboclaw footprints RC1, RC2, and RC3.
 
@@ -335,7 +345,7 @@ Technically, you can install the capacitors on either side of the board, but it 
 |:-:|
 | Figure 3.34: C13,C15,C17,C20 and C14,C16,C18,C21 installed|
 
-### 3.16 Install motor supply headers J16,J17,J18
+### 3.17 Install motor supply headers J16,J17,J18
 
 Figure 3.35 shows how these should be installed. J16 on the top of the board is installed in the same way.
 
@@ -345,7 +355,7 @@ Make sure to orient the connector in the proper direction, as indicated in the i
 |:-:|
 | Figure 3.35: J17 and J18 installed, on bottom of board|
 
-### 3.17 Install 3x Roboclaw boards in footprints RC1, RC2, RC3
+### 3.18 Install 3x Roboclaw boards in footprints RC1, RC2, RC3
 
 First, wire the 6pos terminal block headers to the roboclaw boards, as indicated in figure 3.36.
 
@@ -363,13 +373,13 @@ Then install the 3 roboclaws in the RC1, RC2, and RC3 footprints. It doesn't mat
 |:-:|
 | Figure 3.37: Installing the roboclaw boards |
 
-### 3.18 Install capacitors C5,C6
+### 3.19 Install capacitors C5,C6
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230426_055549256.MP.jpg" height="300"> |
 |:-:|
 | Figure 3.38: Installing capacitors C5, C6|
 
-### 3.19 Install corner servo header J19, and capacitor C19
+### 3.20 Install corner servo header J19, and capacitor C19
 
 Make sure to install C19 in the proper direction, as shown in figure 3.39. One side of the capacitor has negative polarity indicators on it, that should be installed opposite the "+" sign on the footprint.
 
@@ -377,7 +387,7 @@ Make sure to install C19 in the proper direction, as shown in figure 3.39. One s
 |:-:|
 | Figure 3.39: J19 and C19 installed (top of photo) |
 
-### 3.20 Install LED array U5
+### 3.21 Install LED array U5
 
 Make sure to align the slightly "chipped"/beveled corner of the LED array with the beveled corner of the U5 footprint, to have proper LED polarity
 
@@ -385,7 +395,7 @@ Make sure to align the slightly "chipped"/beveled corner of the LED array with t
 |:-:|
 | Figure 3.40: LED array U5 installed |
 
-### 3.21 Install drive motor headers J8,J9,J10,J11,J13,J14
+### 3.22 Install drive motor headers J8,J9,J10,J11,J13,J14
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0827.jpeg" height="300"> |
 |:-:|
