@@ -308,7 +308,7 @@ To test the INA260, you will follow https://learn.adafruit.com/adafruit-ina260-c
 ```
  if (!ina260.begin(0x45)) {
 ```
-to account for the I2C bus address.  When you turn your power on, you should see something like this:
+to account for the I2C bus address.  When you turn your power on, you should see something like this in the Arduino serial terminal:
 ```
 Found INA260 chip
 Current: 85.00 mA
