@@ -259,29 +259,39 @@ First you will need to install female headers on the motor board, for the PCA968
 - 6x1 female header
 - 3x 2x4 female headers
 
-You **may** use larger headers to fill all the holes in the U2 footprint, but it's not really necessary for the normal working configuration of the motor board. Attach these headers to the appropriate spots in the U2 footprint, as shown in figure 3.22.
-
-You will need to attach male headers to the PCA9685 daughter board, as shown in figure 3.23. Also, 5v power is provided to the PCA9685 through the two holes at the top of the U2 header. To connect these, I soldered 2 small wire leads on the PCA9685 daughter board, and then soldered them on to the motor board once I installed the PCA9685.
-
-TODO: update instructions with alternative to janky wire leads for PCA9685
-
-TODO: figure 3.33 is not very good
+You **may** use larger headers to fill all the holes in the U2 footprint, but it's not really necessary for the normal working configuration of the motor board. Attach these headers to the appropriate spots in the U2 footprint, as shown in figure 3.32.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_053133239.jpg" height="300"> |
 |:-:|
 | Figure 3.32: U2 with female headers installed |
 
-| <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_054413269.MP.jpg" height="300"> |
+You will need to attach male headers to the PCA9685 daughter board, as shown in figure 3.33. 
+
+| <img src="../../images/pcb_assembly/v2_0_1/assembly/pca9685_headers.jpg" height="300"> |
 |:-:|
 | Figure 3.33: Male headers soldered onto PCA9685 daughter board |
 
+Also, 5v power is provided to the PCA9685 through the two holes at the top of the U2 header. You have a couple options for this.
+
+** Option 1 - Wires **
+To connect these, I soldered 2 small wire leads on the PCA9685 daughter board, and then soldered them on to the motor board once I installed the PCA9685.
+
+** Option 2 - 1x1 Pins/Headers
+The V+ and GND on the PCA9685 don't exactly line up with the GND_motor and +5V_motor pins on the Motor board, but are close enough you can make them connect with two 1x1 pins on the PCA9685 and two 1x1 headers on the Motor board, as shown in figure 3.34.
+
+| <img src="../../images/pcb_assembly/v2_0_1/assembly/pca9685_headers.jpg" height="300"> |
+|:-:|
+| Figure 3.34: Male headers soldered onto PCA9685 daughter board |
+
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230424_003801047.jpg" height="300"> |
 |:-:|
-| Figure 3.29: PCA9685 installed in motor board |
+| Figure 3.35: PCA9685 installed in motor board |
+
+Finally install capicator C3 as shown in figure 3.36.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/c3_installed.png" height="300"> |
 |:-:|
-| Figure 3.29.1 : C3 installed |
+| Figure 3.36 : C3 installed |
 
 
 ### 3.12 Install resistor R5 and capacitor C1
