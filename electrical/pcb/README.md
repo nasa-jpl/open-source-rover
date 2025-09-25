@@ -345,7 +345,7 @@ Finally, install the following capacitors for each RC footprint:
 - RC2: capacitors C2,C4,C9,C10 (figure 3.34). Install on the underside of the board.
 - RC3: capacitors C14,C16,C18,C21 (figure 3.34). Install on the top side of the board.
 
-Technically, you can install the capacitors on either side of the board, but it makes for a cleaner presentation if you install them where their respecit "C" labels are on the board.
+Technically, you can install the capacitors on either side of the board, but it makes for a cleaner presentation if you install them where their respective "C" labels are on the board.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/rc1_pop.png" height="300"> |
 |:-:|
