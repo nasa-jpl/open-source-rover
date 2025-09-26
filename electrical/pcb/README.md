@@ -367,7 +367,7 @@ Make sure to orient the connector in the proper direction, as indicated in the i
 
 ### 3.18 Install 3x Roboclaw boards in footprints RC1, RC2, RC3
 
-First, wire the 6pos terminal block headers to the roboclaw boards, as indicated in figure 3.36.
+First, wire the 6pos terminal block headers to the roboclaw boards, as indicated in figure 3.36.  Cut the wires to about 5cm and tin the ends.
 
 Unless you have an older version of the PCB (v2.0.2 or earlier), wire the pins in the J16,J17,J18 headers directly to the pins on the corresponding side of the roboclaw - it is a direct 1-to-1 mapping all the way down, with no wires crossed. Use 16AWG wire (18AWG would also be fine)
 
