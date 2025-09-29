@@ -453,7 +453,7 @@ Install these components:
 - U6 LED array
 - J22,J23 raspberry pi ribbon cable headers
 - J25 3x4 male headers - "i2c breakout"
-- J24 3x4 male header (white color) - "arduino comm"
+- J24 1x6 shrouded male header (white color) - "arduino comm"
 - J30 8x1 male header - "signal test header"
 
 Make sure to align the slightly "chipped"/beveled corner of the LED array with the beveled corner of the U6 footprint, to have proper LED polarity
@@ -477,8 +477,11 @@ Ignore the resistors and figure 4.4 for the moment
 |:-:|
 | Figure 4.4: J26 (top) and C32 installed on back side of board |
 
-Install J27,J28,J29 2x1 female headers - "other breakouts" 
+Trim the leads of C32 before you continue.
 
+### Install other breakouts on top of board
+
+Finally, install J27,J28,J29 2x1 female headers in front of the leads of C32
 
 ### 4.5 Install ESTOP and Serial TXD/RXD LED logic circuit components
 
