@@ -135,7 +135,7 @@ The INA260 daughter board is used for digital sensing of voltage and current, me
 
 **Option 1: If you have an INA260 daughter board, you should install that in footprint U1.**
 
-1. Attach an 8x1 female header to the 8 pins on the bottom side of the INA260 / U1 footprint, as seen in Figure 3.10
+1. Attach an 8x1 female header to the 8 pins on the bottom side of the INA260 / U1 footprint, as seen in Figure 3.10.  Note that this is sensing the current on the high side of the power, so PWR on the the Motor Board is connected to Vin+ on the INA260, and Vin- on the INA260 is connected to MMLOAD+, which connects to the main power bus of the rover.
 2. Solder the 8x1 male header pins to the INA260.
 3. Attach a 3x1 female header (cut from a longer Nx1 header) to the two pins on the top side of the INA260 / U1 footprint, as seen in Figure 3.14. You'll need to manually remove the center pin.
 4. Removce the center pin from a 3x1 male header pins, and solder to the INA260.
