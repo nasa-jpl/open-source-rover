@@ -55,7 +55,7 @@ The pins on the XT30 will be slightly smaller than the holes on the board - this
 |:-:|
 | Figure 3.2: Power headers + fuse holder footprints |
 
-| <img src="../../images/pcb_assembly/v2_0_1/assembly/power_headers_attached.png" height="300"> |
+| <img src="../../images/pcb_assembly/v2_0_1/assembly/power_installed.png" height="300"> |
 |:-:|
 | Figure 3.3: Power headers + fuse holder attached |
 
