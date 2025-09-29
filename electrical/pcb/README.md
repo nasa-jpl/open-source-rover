@@ -10,12 +10,12 @@ Printed Circuit Boards for the project.
 Note that the images in these instructions are taken from an assembly of the v2.0.1 board. There are minimal differences between v2.0.1 and v2.0.3 - such that it wasn't worth doing another photoshoot for v2.0.3. Make sure to follow the written instructions when in doubt.
 
 ## 0. Table of Contents
-#1-part-references
-#2-schematic-and-layout-documentation
-#3-motor-board-assembly
-#4-brain-board-assembly
-#5-motor-board-and-brain-board-mating
-#6-testing-the-pcb-and-wiring-for-the-drive-motors
+[1. Part Refernces](#1-part-references
+[2. Schematic and Layout Documentation](#2-schematic-and-layout-documentation)
+[3. Motor Board Assembly](#3-motor-board-assembly)
+[4. Brain Board Assembly](#4-brain-board-assembly)
+[5. Motor Board and Brain Board Mating](#5-motor-board-and-brain-board-mating)
+[Testing tyeh PCB and wiring for the Drive Motors](#6-testing-the-pcb-and-wiring-for-the-drive-motors)
 
 ## 1. Part References 
 
