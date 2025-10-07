@@ -505,9 +505,7 @@ Install all of these as indicated in figure 4.5:
 
 ### 4.6 Mount the Raspberry Pi board
 
-Using appropriate standoffs, attach the raspberry pi to the top of the brain board, as shown in figure 4.6
-
-TODO: identify the parts for the standoffs
+Using appropriate standoffs (M3x6mm+6mm works well, if a bit tight in the Raspberry Pi 5 mounting holes), attach the raspberry pi to the top of the brain board, as shown in figure 4.6.  Attach the ribbon cable from the GPIO on the Pi to J22.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0844.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0845.jpeg" height="300"> |
 |:-:|
