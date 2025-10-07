@@ -180,9 +180,7 @@ Install 3 female headers for the daughter board, into U4. You will need a two 4x
 
 ### 3.7 Install 12V bus regulator U3
 
-Solder a 5x1 female header to the U3 footprint, and attach an appropriately sized standoff
-
-TODO: specify standoff
+Solder a 5x1 female header to the U3 footprint, and attach an appropriately sized standoffs (I used an M3x10mm standoff)
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_050503408.jpg" height="300"> |
 |:-:|
@@ -512,8 +510,7 @@ Using appropriate standoffs (M3x6mm+6mm works well, if a bit tight in the Raspbe
 | Figure 4.6: RPi mounted on the brain board  |
 
 __Important Note if you are using a Raspberry Pi 5:__
-The Raspberry Pi (RPi) 5 has different power requirements than previous RPi generations. The two 5v lines attached to the RPi via the ribbon cable are not to enough to adequately power the RPi 5, especially if attaching any peripherals, like a camera. Until further revisions are done to the PCB, it is recommeded to power the RPi 5 through a USB C connector. You can cut a USB C cable and identify the V+ and Ground lines using a digital multimeter, then solder those lines to the 5v and Gnd test connection points on the motorboard. You can then plug the USB C connector into the RPi 5 to power it.
-
+The Raspberry Pi (RPi) 5 has different power requirements than previous RPi generations. The two 5v lines attached to the RPi via the ribbon cable are not to enough to adequately power the RPi 5, especially if attaching any peripherals, like a camera. Until further revisions are done to the PCB, it is recommeded to power the RPi 5 through a USB C connector. You can cut a USB C cable and identify the V+ and Ground lines using a digital multimeter, then solder those lines to the 5v and Gnd test connection points on the motorboard. You can then plug the USB C connector into the RPi 5 to power it.  You can also order USB-C cables with PWR/GND broken out already (see [Extra Parts List](parts_list/extra_parts.md))
 
 
 ## 5. Motor Board and Brain Board Mating
