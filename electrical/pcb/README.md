@@ -510,7 +510,7 @@ Using appropriate standoffs (M3x6mm+6mm works well, if a bit tight in the Raspbe
 | Figure 4.6: RPi mounted on the brain board  |
 
 __Important Note if you are using a Raspberry Pi 5:__
-The Raspberry Pi (RPi) 5 has different power requirements than previous RPi generations. The two 5v lines attached to the RPi via the ribbon cable are not to enough to adequately power the RPi 5, especially if attaching any peripherals, like a camera. Until further revisions are done to the PCB, it is recommeded to power the RPi 5 through a USB C connector. You can cut a USB C cable and identify the V+ and Ground lines using a digital multimeter, then solder those lines to the 5v and Gnd test connection points on the motorboard. You can then plug the USB C connector into the RPi 5 to power it.  You can also order USB-C cables with PWR/GND broken out already (see [Extra Parts List](parts_list/extra_parts.md))
+The Raspberry Pi (RPi) 5 has different power requirements than previous RPi generations. The two 5v lines attached to the RPi via the ribbon cable are not to enough to adequately power the RPi 5, especially if attaching any peripherals, like a camera. Until further revisions are done to the PCB, it is recommeded to power the RPi 5 through a USB C connector. You can cut a USB C cable and identify the V+ and Ground lines using a digital multimeter, then solder those lines to the 5v and Gnd test connection points on the motorboard. You can then plug the USB C connector into the RPi 5 to power it.  You can also order USB-C cables with PWR/GND broken out already (see [Extra Parts List](../../parts_list/extra_parts.md))
 
 
 ## 5. Motor Board and Brain Board Mating
