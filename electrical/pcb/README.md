@@ -273,10 +273,6 @@ You **may** use larger headers to fill all the holes in the U2 footprint, but it
 
 You will need to attach male headers to the PCA9685 daughter board, as shown in figure 3.33. 
 
-| <img src="../../images/pcb_assembly/v2_0_1/assembly/pca9685_headers.jpg" height="300"> |
-|:-:|
-| Figure 3.33: Male headers soldered onto PCA9685 daughter board |
-
 Also, 5v power is provided to the PCA9685 through the two holes at the top of the U2 header. You have a couple options for this.
 
 ** Option 1 - Wires **
@@ -287,17 +283,17 @@ The V+ and GND on the PCA9685 don't exactly line up with the GND_motor and +5V_m
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/pca9685_headers.jpg" height="300"> |
 |:-:|
-| Figure 3.34: Male headers soldered onto PCA9685 daughter board |
+| Figure 3.33: Male headers soldered onto PCA9685 daughter board |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230424_003801047.jpg" height="300"> |
 |:-:|
-| Figure 3.35: PCA9685 installed in motor board |
+| Figure 3.34: PCA9685 installed in motor board |
 
 Finally install capicator C3 as shown in figure 3.36.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/c3_installed.png" height="300"> |
 |:-:|
-| Figure 3.36 : C3 installed |
+| Figure 3.35 : C3 installed |
 
 
 ### 3.12 Install resistor R5 and capacitor C1
@@ -306,7 +302,7 @@ These are aids for the INA260, and can be left out if the IN260 is not used
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/r5_c1.png" height="300"> |
 |:-:|
-| Figure 3.30: PCA9685 installed in motor board |
+| Figure 3.36: PCA9685 installed in motor board |
 
 ### 3.13 Install J21, J20, and resistors R6,R7,R8,R9,R10
 
@@ -316,7 +312,7 @@ Use an 8x1 female header for J20.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/j20_j21_r6_r10.png" height="300"> |
 |:-:|
-| Figure 3.31: Components installed, as viewed from top of board |
+| Figure 3.37: Components installed, as viewed from top of board |
 
 ### 3.14 Test INA260 installation
 
@@ -336,7 +332,7 @@ Power: 1230.00 mW
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/r2_r3_r4.png" height="300"> |
 |:-:|
-| Figure 3.32: Components installed, as viewed from top of board |
+| Figure 3.38: Components installed, as viewed from top of board |
 
 ### 3.16 Install Roboclaw standoffs, headers, and capacitors
 
@@ -347,33 +343,33 @@ First, install standoffs for the 3 RC footprints, as shown an figure 3.33 and 3.
 Next, solder in the two female headers for each RC footprint. You'll need a 2x10 and a 5x1 for each RC. These should be soldered into the holes on the side of each RC footprint.
 
 Finally, install the following capacitors for each RC footprint:
-- RC1: capacitors C13,C15,C17,C20 (figure 3.33). Install on the top side of the board.
-- RC2: capacitors C2,C4,C9,C10 (figure 3.34). Install on the underside of the board.
-- RC3: capacitors C14,C16,C18,C21 (figure 3.34). Install on the top side of the board.
+- RC1: capacitors C13,C15,C17,C20 (figure 3.40). Install on the top side of the board.
+- RC2: capacitors C2,C4,C9,C10 (figure 3.39). Install on the underside of the board.
+- RC3: capacitors C14,C16,C18,C21 (figure 3.40). Install on the top side of the board.
 
 Technically, you can install the capacitors on either side of the board, but it makes for a cleaner presentation if you install them where their respective "C" labels are on the board.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/rc1_pop.png" height="300"> |
 |:-:|
-| Figure 3.33: C2,C4,C9,C10 installed|
+| Figure 3.39: C2,C4,C9,C10 installed|
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230425_054908018.jpg" height="300"> |
 |:-:|
-| Figure 3.34: C13,C15,C17,C20 and C14,C16,C18,C21 installed|
+| Figure 3.40: C13,C15,C17,C20 and C14,C16,C18,C21 installed|
 
 ### 3.17 Install motor supply headers J16,J17,J18
 
-Figure 3.35 shows how these should be installed. J16 on the top of the board is installed in the same way.
+Figure 3.41 shows how these should be installed. J16 on the top of the board is installed in the same way.
 
 Make sure to orient the connector in the proper direction, as indicated in the images. 
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/motor_supply_headers.png" height="300"> |
 |:-:|
-| Figure 3.35: J17 and J18 installed, on bottom of board|
+| Figure 3.41: J17 and J18 installed, on bottom of board|
 
 ### 3.18 Install 3x Roboclaw boards in footprints RC1, RC2, RC3
 
-First, wire the 6pos terminal block headers to the roboclaw boards, as indicated in figure 3.36.  Cut the wires to about 5cm and tin the ends.
+First, wire the 6pos terminal block headers to the roboclaw boards, as indicated in figure 3.42.  Cut the wires to about 5cm and tin the ends.
 
 Unless you have an older version of the PCB (v2.0.2 or earlier), wire the pins in the J16,J17,J18 headers directly to the pins on the corresponding side of the roboclaw - it is a direct 1-to-1 mapping all the way down, with no wires crossed. Use 16AWG wire (18AWG would also be fine)
 
@@ -381,19 +377,19 @@ Do this for all three roboclaws.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/roboclaw_wired_1.png" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/roboclaw_wired_2.png" height="300">  |
 |:-:|
-| Figure 3.36: Wiring up the roboclaws |
+| Figure 3.42: Wiring up the roboclaws |
 
 Then install the 3 roboclaws in the RC1, RC2, and RC3 footprints. It doesn't matter which roboclaw goes in which footprint - we will later set unique addresses in software for each of them to communicate over the serial bus.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/roboclaws_installed.png" height="300"> |
 |:-:|
-| Figure 3.37: Installing the roboclaw boards |
+| Figure 3.43: Installing the roboclaw boards |
 
 ### 3.19 Install capacitors C5,C6
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230426_055549256.MP.jpg" height="300"> |
 |:-:|
-| Figure 3.38: Installing capacitors C5, C6|
+| Figure 3.44: Installing capacitors C5, C6|
 
 ### 3.20 Install corner servo header J19, and capacitor C19
 
@@ -401,7 +397,7 @@ Make sure to install C19 in the proper direction, as shown in figure 3.39. One s
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/j19_c19.png" height="300"> |
 |:-:|
-| Figure 3.39: J19 and C19 installed (top of photo) |
+| Figure 3.45: J19 and C19 installed (top of photo) |
 
 ### 3.21 Install LED array U5
 
@@ -409,13 +405,13 @@ Make sure to align the slightly "chipped"/beveled corner of the LED array with t
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/u5_installed.png" height="300"> |
 |:-:|
-| Figure 3.40: LED array U5 installed |
+| Figure 3.46: LED array U5 installed |
 
 ### 3.22 Install drive motor headers J8,J9,J10,J11,J13,J14
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0827.jpeg" height="300"> |
 |:-:|
-| Figure 3.41: Drive motor headers installed |
+| Figure 3.47: Drive motor headers installed |
 
 
 
