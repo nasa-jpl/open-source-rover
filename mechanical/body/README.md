@@ -76,7 +76,7 @@ Connect the block mount to the 7-hole linkage using M4x10mm button-head screws. 
 
 ![step 1](images/diff_step1.jpg)
 
-Connect the turnbuckle to the 7-bar linkages with an M4x20 socket head screw and lock nut, and to the second hole from the end of the U channel with an M4x16 button head screw and lock nut.  Repeat for other side.
+Connect the turnbuckle to the 7-hole bar linkages with an M4x20 socket head screw and lock nut, and to the second hole from the end of the U channel with an M4x16 button head screw and lock nut.  Repeat for other side.
 
 ![step 2](images/diff_step2.jpg)
 
