@@ -68,6 +68,8 @@ You'll need the parts shown below.
 
 ![parts](images/diff_parts.jpg)
 
+TODO: update image to show M4x6mm button screws instead of the M4x6mm socket head screws show here (and in the CAD)
+
 Assemble the idler bearing hub following the [instructions on GoBilda](https://www.gobilda.com/idler-bearing-hub-32mm-od-16mm-height/).
 
 Connect the block mount to the 7-hole linkage using M4x10mm button-head screws.  Connect the 20mm threaded rod to a steel ball linkage on each end to create two turnbuckles.
