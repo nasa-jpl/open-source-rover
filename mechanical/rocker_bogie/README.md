@@ -20,9 +20,17 @@ The Rocker-Bogie is the suspension system that enables the rover to climb aggres
 
 You will be creating two almost identical assemblies. Below instructions are for one side. We recommend building one side first rather than trying to build both sides in parallel, that way you'll be able to make the other side faster. Before you start building, familiarize yourself with the details of this assembly, in particular because you'll be building two assemblies that are mirrorred. Specifically, you'll want the open slits on the bogie to be facing the same side:
 
-![](images/slit_direction_closeup.png)
+| close up showing slits                         |
+| ---------------------------------------------- | 
+| <img src="images/slit_direction_closeup.png" height=400/>  |
 
 ### Creating the rocker-bogie joint
+
+First, gather the parts you'll need for the joint.
+
+| Joint Parts |
+| ---------------------------------------------- | 
+| <img src="images/joint_parts.jpg" height=400/>  |
 
 Assemble the joint following the steps below. Since the clamp in the middle isn't symmetric and protrudes on one side, two spacers of different lengths are used. You can see this in the top left image. You'll use spacer `1522-0010-0040` of length 4mm on the side of the clamp that has the protrusion, while on the other, flat side, you'll use spacer `1514-0010-0060` of length 6mm. This creates a tight assembly that prevents the joint from flexing from side to side.
 
