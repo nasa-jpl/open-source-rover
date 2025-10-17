@@ -50,6 +50,14 @@ Start by laying out the pieces for each corner so you end up with the 2 mirrored
 
 Adjust the wiring so there is minimal wiring inside the channel. Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges! Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
 
+### Optional Wiring Arrangement
+When I (knickels) wired according tol the above instructions, I was not happy with the amount of clearance between the U-channel and the motor.  Thus, I cut a notch in the extruded aluminium goRail just above the U-channel, as shown below.
+
+|      goRail notched                            |                   corner assembly step 2         |          corner assembled                      | 
+| ---------------------------------------------- | ------------------------------------------------ | ---------------------------------------------- | 
+| <img src="images/corner_notch.jpg" width=300/> | <img src="images/corner_wnotch_step2.jpg" width=400/> | <img src="images/corner_assembled_wnotch.jpg" width=400/> | 
+
+
 Repeat this for the 3 other corner assemblies.
 
 ## Assembled corners
