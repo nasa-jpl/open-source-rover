@@ -17,7 +17,7 @@ $$\sqrt(8^2 + 8^2) \approx 11.3mm$$
 
 <img src="https://cdn11.bigcommerce.com/s-x56mtydx1w/images/stencil/original/products/1228/11873/1310-0016-4008-Schematic__25024.1715800139.png?c=1" height=500>
 
-You can download a [drill guide](https://cad.onshape.com/documents/4613de44a35fb12512683e12/w/c211c6182fe04b1f4dd7ceab/e/6a53435eaabc9a287f6f180f?renderMode=0&uiState=68ed6ea54b93218d1d0498cb) designed to be laser-cut from 3mm acrylic and assembled as shown below to help you drill.
+You can download a [drill guide](https://cad.onshape.com/documents/4613de44a35fb12512683e12/w/c211c6182fe04b1f4dd7ceab/e/b6566fc4043fba7013bcec85?renderMode=0&uiState=68f932b6ef0aa14fbdc9b460) designed to be laser-cut from 3mm acrylic and assembled as shown below to help you drill.
 
 | drill guide                                          | drill guide in use                                          |
 | ---------------------------------------------------- | ----------------------------------------------------------- |
@@ -35,7 +35,7 @@ Attach the clamping mount and REX bore hub to the motor. We will adjust their po
 
 ## Four corner assemblies
 
-4 of the 6 drive assemblies you just built will become the corner motors. That only requires two mechanical pieces along with some screws but we'll want to route the wiring through the extruded channel.
+Four of the six drive assemblies you just built will become the corner motors. That only requires two mechanical pieces along with some screws but we'll want to route the wiring through the extruded channel.
 
 The result excluding wiring should look as follows:
 
@@ -51,7 +51,7 @@ Start by laying out the pieces for each corner so you end up with the 2 mirrored
 Adjust the wiring so there is minimal wiring inside the channel. Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges! Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
 
 ### Optional Wiring Arrangement
-When I (knickels) wired according tol the above instructions, I was not happy with the amount of clearance between the U-channel and the motor.  Thus, I cut a notch in the extruded aluminium goRail just above the U-channel, as shown below.
+When I (knickels) wired according to the above instructions, I was not happy with the amount of clearance between the U-channel and the motor.  Thus, I cut a notch in the extruded aluminium goRail just above the U-channel, as shown below.
 
 |      goRail notched                            |                   corner assembly step 2         |          corner assembled                      | 
 | ---------------------------------------------- | ------------------------------------------------ | ---------------------------------------------- | 
