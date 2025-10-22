@@ -187,6 +187,7 @@ Heat shrink is a must have for keeping cables nice and snug.
 Take a look at the [wiring overview](../electrical/wiring/README.md#overview) to get an idea of what you will be building. You'll need crimps and connectors for DuPont, Bullet, XT30, JST, and Molex styles. Crimping doesn't have a 100% success rate, so we recommend getting extras or buying a kit if you're planning on using them for other projects as well. Here are some options for each set you need:
 
 * A Raspberry Pi ribbon cable, e.g. from [Adafruit](https://www.adafruit.com/product/1988) but available in many places. While you could use header pins for this connection, the cable is the cleanest solution
+* A USB-C power breakout cable if you're using a Raspberry Pi 5, e.g. from [Amazon](https://www.amazon.com/dp/B0D2C74PLY)
 * XT30 connectors for the power connections on the motor PCB.
   * DIY options, either:
     * [5 pairs M/F from Gobilda](https://www.gobilda.com/xt30-connector-pack-fh-mc-x-5-mh-fc-x-5/)
