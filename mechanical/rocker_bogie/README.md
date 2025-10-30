@@ -66,15 +66,11 @@ First attach bracket `1111-0003-0001` to the extruded shaft you just attached to
 
 | ![bracket and bogie joint](images/front_servo_to_rb.png) |
 | --- |
+|![wiring closeup](images/wiring_detail.png) |
 
 ### Connect the servo arms and shaft to the joint
 
-Make sure the slit in the bogie extruded shaft `1118-0024-0096` (same as the other two shafts you already connected to the bogie joint) faces the inside of the rover (you can also point the slit upwards or downwards if you prefer). 
-
-**(NOTE - this is out of place)**
-Route the wiring going to the front servo and motor through it and route the wiring for the middle drive wheel motor through it before you attach the screws. It helps to temporarily keep the wiring in place with some tape as you attach the shaft to the bogie joint.
-
-|![wiring closeup](images/wiring_detail.png) |
+Make sure the slit in the bogie extruded shaft `1118-0024-0096` (same as the other two shafts you already connected to the bogie joint) faces the inside of the rover (you can also point the slit upwards or downwards if you prefer).  Route the wiring going to the front servo and motor through it and route the wiring for the middle drive wheel motor through it before you attach the screws. It helps to temporarily keep the wiring in place with some tape as you attach the shaft to the bogie joint.
 
 > **NOTE**: the OnShape model may represent the orientation of the slits incorrectly. In order to make the model nimble, the same rocker-bogie assembly is used on both sides of the rover which has the side-effect that the two assemblies aren't mirrorred like they are supposed to be. Always stop to think about what you're building to avoid having to take things apart later.
 
@@ -105,9 +101,6 @@ Flip the assembly over and attach the two brackets like in the picture below, us
 | Wiring snugly fits inside the extruded aluminum channels. Only use this image as an idea of how the wiring should be routed, other parts of this image may not reflect the current state of the rocker-bogie at this stage in the process. |
 
 Secure the channel to the rocker-bogie using 5 hurricane nuts (2 at the bottom) and socket screws, making sure the channel end sits flush to the other channels and the wiring isn't squeezed inbetween.
-
-**THIS IS CONFUSING**
-
 
 | ![top view](images/connect45topbracket.png) | ![screws](images/rocker-body-axis-screws.png) |
 | --- | ---|
