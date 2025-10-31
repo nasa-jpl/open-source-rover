@@ -45,7 +45,7 @@ The result excluding wiring should look as follows:
 
 Note that the sides of the rover are mirrored and so you'll be building 2 pairs of similar but not exactly the same subassemblies, as shown in the right image above.
 
-Start by laying out the pieces for each corner so you end up with the 2 mirrored pairs. Install `2911-0014-0001` grommets at the tyop and bottom of the extruded aluminum goRail, to protect your wires as they go around the corner (not shown in the image below).  
+Start by laying out the pieces for each corner so you end up with the 2 mirrored pairs. Install `2911-0014-0001` grommets at the top and bottom of the extruded aluminum goRail, to protect your wires as they go around the corner (not shown in the image below).  
 
 Take the DuPont to 4-pin JST encoder pins you created in [wiring](../electrical/wiring/README.md) and route them through the top low-profile U-channel, the extruded aluminum goRail, and finally through the motor bracket. The DuPont connector should be at the top with the 4-pin JST connector at the bottom, ready to be connected to the motor encoder pins. 
 
