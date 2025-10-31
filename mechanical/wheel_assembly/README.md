@@ -45,10 +45,13 @@ The result excluding wiring should look as follows:
 
 Note that the sides of the rover are mirrored and so you'll be building 2 pairs of similar but not exactly the same subassemblies, as shown in the right image above.
 
+Start by laying out the pieces for each corner so you end up with the 2 mirrored pairs. Install `2911-0014-0001` grommets at the tyop and bottom of the extruded aluminum goRail, to protect your wires as they go around the corner (not shown in the image below).  
 
-Start by laying out the pieces for each corner so you end up with the 2 mirrored pairs. Take the DuPont to 4-pin JST encoder pins you created in [wiring](../electrical/wiring/README.md) and route them through the top low-profile U-channel, the extruded aluminum goRail, and finally through the motor bracket. The DuPont connector should be at the top with the 4-pin JST connector at the bottom, ready to be connected to the motor encoder pins. Route the two motor power cables through the same parts in the opposite direction. Finally, screw the parts together using 3 or 4 M4x6mm button screws inside the U-channel and using 3 or 4 M4x8mm socket screws at the top. Don't tighten the screws too much yet as this will allow you to adjust wiring. Place a clamping motor mount on the end of the U-channel farthest from the goRail with 4 M4x6mm button screws.
+Take the DuPont to 4-pin JST encoder pins you created in [wiring](../electrical/wiring/README.md) and route them through the top low-profile U-channel, the extruded aluminum goRail, and finally through the motor bracket. The DuPont connector should be at the top with the 4-pin JST connector at the bottom, ready to be connected to the motor encoder pins. 
 
-Adjust the wiring so there is minimal wiring inside the channel. Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges! Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
+Route the two motor power cables through the same parts in the opposite direction. Finally, screw the parts together using 3 or 4 M4x6mm button screws inside the U-channel and using 3 or 4 M4x8mm socket screws at the top. Don't tighten the screws too much yet as this will allow you to adjust wiring. Place a clamping motor mount on the end of the U-channel farthest from the goRail with 4 M4x6mm button screws.
+
+Adjust the wiring so there is minimal wiring inside the channel. Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges with split sleeve or other shielding! Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
 
 ### Optional Wiring Arrangement
 When I (knickels) wired according to the above instructions, I was not happy with the amount of clearance between the U-channel and the motor.  Thus, I cut a notch in the extruded aluminium goRail just above the U-channel, as shown below.
@@ -58,8 +61,8 @@ When I (knickels) wired according to the above instructions, I was not happy wit
 | <img src="images/corner_notch.jpg" width=300/> | <img src="images/corner_wnotch_step2.jpg" width=400/> | <img src="images/corner_assembled_wnotch.jpg" width=400/> | 
 
 
-Repeat this for the 3 other corner assemblies.
+Repeat this for the three other corner assemblies.
 
 ## Assembled corners
-<img src="images/two_corners_assembled.png">
+<img src="images/two_corners_assembled.jpg">
 Mirror image corner wheel assemblies without the wheels attached yet. Wiring with sleeves is visible.
