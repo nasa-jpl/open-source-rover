@@ -54,7 +54,8 @@ Route the two motor power cables through the same parts in the opposite directio
 Adjust the wiring so there is minimal wiring inside the channel. Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges with split sleeve or other shielding! Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
 
 ### Optional Wiring Arrangement
-When I (knickels) wired according to the above instructions, I was not happy with the amount of clearance between the U-channel and the motor.  Thus, I cut a notch in the extruded aluminium goRail just above the U-channel, as shown below.
+
+There is not a lot of clearance between the U-channel and the motor for the wiring to pass through, especially when wrapping the cables in a sleeve. You can choose to cut a notch in the extruded aluminium goRail just above the U-channel, as shown below.
 
 |      goRail notched                            |                   corner assembly step 2         |          corner assembled                      | 
 | ---------------------------------------------- | ------------------------------------------------ | ---------------------------------------------- | 
