@@ -28,7 +28,8 @@ Connect 8x 12 hole beams along the long edges in holes #1, 17, 25, and 41 on bot
 ![body verticals](images/body_vertical.jpg)
 
 ## Assemble the bearing support structures that connect to the rocker-bogie
-Make two of these and connect them to the sides of the body. They should be installed exactly in the middle, which means that you're going to connect each side to the 17th hole on the long 41-hole beams on the top and bottom of the body frame. Use the M4 16mm socket screws.  Use M4x12 screws on the end toward teh outside of the rover and M4x8 screws on the end toward the center of the rover end.
+
+Make two of these and connect them to the sides of the body. They should be installed exactly in the middle, which means that you're going to connect each side to the 17th hole on the long 41-hole beams on the top and bottom of the body frame. Use the M4 16mm socket screws.  Use M4x12 screws on the end toward the outside of the rover and M4x8 screws on the end toward the center of the rover end.
 
 The bearings have a flat side and a 'hollow' side. The hollow sides should both be pointing to the center of the rover side, as shown in the image.
 
