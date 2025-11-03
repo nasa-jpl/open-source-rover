@@ -20,9 +20,17 @@ The Rocker-Bogie is the suspension system that enables the rover to climb aggres
 
 You will be creating two almost identical assemblies. Below instructions are for one side. We recommend building one side first rather than trying to build both sides in parallel, that way you'll be able to make the other side faster. Before you start building, familiarize yourself with the details of this assembly, in particular because you'll be building two assemblies that are mirrorred. Specifically, you'll want the open slits on the bogie to be facing the same side:
 
-![](images/slit_direction_closeup.png)
+| close up showing slits                         |
+| ---------------------------------------------- | 
+| <img src="images/slit_direction_closeup.png" height=400/>  |
 
 ### Creating the rocker-bogie joint
+
+First, gather the parts you'll need for the joint.
+
+| Joint Parts |
+| ---------------------------------------------- | 
+| <img src="images/joint_parts.jpg" height=400/>  |
 
 Assemble the joint following the steps below. Since the clamp in the middle isn't symmetric and protrudes on one side, two spacers of different lengths are used. You can see this in the top left image. You'll use spacer `1522-0010-0040` of length 4mm on the side of the clamp that has the protrusion, while on the other, flat side, you'll use spacer `1514-0010-0060` of length 6mm. This creates a tight assembly that prevents the joint from flexing from side to side.
 
@@ -42,11 +50,19 @@ Connect the hub (yellow) with the inserted bearing to the servo arm using 8x soc
 
 ### Attach the extruded shafts
 
-Attach 2x length 96mm aluminum extrusions `1118-0024-0096` to the bogie joint. Pay attention to direction of the slits for the cabling. You'll want the slit to face the top of the rover so you can route the cabling going to the front servo and motor inside of the channel.
+Attach a 3 hole x 5 hole plate `1116-0024-0040` to each of two length 96mm aluminum extrusions `1118-0024-0096` with 10mm button head screws as shown below.  Pay attention to direction of the slits for the cabling. You'll want the slit to face the short side of the plate.
+
+Now attach the plate to a 3-hole flat beam, and to the bogie joint, with 10mm socket head screws.  You'll want the slits to face the top of the rover (the bogie arm) so you can route the cabling going to the front servo and motor inside of the channel.
+
+| Plate on rocker shaft| Assembled joints |
+| ---------------------------------------------- | ---------------------------------------------- | 
+| <img src="images/rocker_w_plate.jpg" height=400/>  | <img src="images/joints_assembled.jpg" height=400/>  |
+
+So at the end, you should have all of the slits in the rocker assembly pointing up, and the slits in the bogie shaft pointing into the center of the rover.
 
 ### Attach the front servo
 
-First attach bracket `1111-0003-0001` to the extruded shaft you just attached to the joint using three or four M4 screws, routing the wiring for the front servo and front motor from the servo motor through the hole and into the extruded shaft. Then assemble the servo block to the servo motor. Insert the set screw that came with the servo inside the hollow shaft that fits onto the spline profile on the servo output, but don't tighten it yet as we'll have to readjust later when calibrating the corner motors. This screw prevents the corner assembly from falling off the rocker-bogie while driving. Finally, attach the servo motor and block to the front rocker-bogie bracket. The image below shows the resulting assembly.
+First attach bracket `1111-0003-0001` to the extruded shaft you just attached to the joint using three or four M4x10 button head screws, routing the wiring for the front servo and front motor from the servo motor through the hole and into the extruded shaft. Then assemble the servo block to the servo motor per [the manufacturers drawings](https://www.gobilda.com/servoblock-standard-size-25-tooth-spline-hub-shaft/). Insert the set screw that came with the servo inside the hollow shaft that fits onto the spline profile on the servo output, but don't tighten it yet as we'll have to readjust later when calibrating the corner motors. This screw prevents the corner assembly from falling off the rocker-bogie while driving. Finally, attach the servo motor and block to the front rocker-bogie bracket. The image below shows the resulting assembly.
 
 | ![bracket and bogie joint](images/front_servo_to_rb.png) |
 | --- |
@@ -54,7 +70,7 @@ First attach bracket `1111-0003-0001` to the extruded shaft you just attached to
 
 ### Connect the servo arms and shaft to the joint
 
-Make sure the slit in the extruded shaft `1118-0024-0096` (same as the other two shafts you already connected to the bogie joint) faces the inside of the rover (you can also point the slit upwards or downwards if you prefer). Route the wiring going to the front servo and motor through it and route the wiring for the middle drive wheel motor through it before you attach the screws. It helps to temporarily keep the wiring in place with some tape as you attach the shaft to the bogie joint.
+Make sure the slit in the bogie extruded shaft `1118-0024-0096` (same as the other two shafts you already connected to the bogie joint) faces the inside of the rover (you can also point the slit upwards or downwards if you prefer).  Route the wiring going to the front servo and motor through it and route the wiring for the middle drive wheel motor through it before you attach the screws. It helps to temporarily keep the wiring in place with some tape as you attach the shaft to the bogie joint.
 
 > **NOTE**: the OnShape model may represent the orientation of the slits incorrectly. In order to make the model nimble, the same rocker-bogie assembly is used on both sides of the rover which has the side-effect that the two assemblies aren't mirrorred like they are supposed to be. Always stop to think about what you're building to avoid having to take things apart later.
 
@@ -74,7 +90,7 @@ Attach the 1-channel U bracket to the long extruded shaft `11118-0024-0288` usin
 
 ### Attach the front and back of the rocker-bogie
 
-Use 4 hurricane nuts and the 45-degree bracket to connect the front and back of the rocker-bogie with 6mm M4 socket screws, as shown in the image below. Avoid screws longer than 6mm, as they will hit the goRail before fully tightening.
+Use 4 hurricane nuts and the 45-degree bracket to connect the front and back of the rocker-bogie with 6mm M4 socket screws, as shown in the image below, on the underside of the rover. Avoid screws longer than 6mm, as they will hit the goRail before fully tightening.
 
 ![bottom view](images/connect45bracket.png)
 
