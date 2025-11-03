@@ -51,4 +51,4 @@ Total per category and length:
 
 Values between parentheses are the additional screws that would need to be ordered if all 'either' types with same length are used in that type. In general, socket screws are preferred because of their resistance to stripping and use of a larger hex key.
 
-The parts list also includes 1 [25-pack of M4 washers](https://www.gobilda.com/2801-series-zinc-plated-steel-washer-4mm-id-x-8mm-od-25-pack/), 1 [25-pack of M4 hex nuts](https://www.gobilda.com/2811-series-zinc-plated-steel-hex-nut-m4-x-0-7mm-7mm-hex-25-pack/), and 1 [25-pack of M4 locking hex nuts](https://www.gobilda.com/2812-series-zinc-plated-steel-nylon-insert-locknut-m4-x-0-7mm-7mm-hex-25-pack/).
+The parts list also includes 1 [25-pack of M4 washers](https://www.gobilda.com/2801-series-zinc-plated-steel-washer-4mm-id-x-8mm-od-25-pack/), 2 [25-pack of M4 hex nuts](https://www.gobilda.com/2811-series-zinc-plated-steel-hex-nut-m4-x-0-7mm-7mm-hex-25-pack/), and 1 [25-pack of M4 locking hex nuts](https://www.gobilda.com/2812-series-zinc-plated-steel-nylon-insert-locknut-m4-x-0-7mm-7mm-hex-25-pack/).
