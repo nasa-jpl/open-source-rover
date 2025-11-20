@@ -2,20 +2,20 @@
 
 OSRs in the wild and under construction! Please [add your rover](#Instructions-for-adding-your-build) and add updates and pictures here as it evolves.
 
-# <ins>V2 Rovers</ins>
+# <ins>jerryo</ins>
 
-## Resilience (res) ([murphcj](https://github.com/murphcj))
-| <image src="images/Resilience/Resilience_Lighthouse.jpeg" height="175"> <image src="images/Resilience/Resilience_Ocean.jpeg" height="175"> <image src="images/Resilience/Resilience_at_School.jpeg" height="175">
+## jerryo ([jerryoj](https://github.com/jerryok826/rover-monitor))
+| <image src="images/jerryo/outside_testing_2.png" height="175"> <image src="images/jerryo/prototype_1.jpeg" height="175"> 
 |:-:|
 
 <details>
   <summary>Expand to learn more about this build!</summary>
 
 ### Background
-Resilience was our first foray into robotics and has done several show-and-tells at the local elementary schools (driving over kids, Teachers, and the Principal!). The name comes from the book "A Rover's Story" by Jasmine Warga. This was a family project we started in January of 2024 and finished in February 2025. We hope to add more to this build in the future.
+I always wanted to build an outdoor robot. The JPL open source rover was perfect for this task. This project was a fantastic learning experience. Without Loctite the rover would leave a trail of bolts,
 
 ### Modifications
-* TBD...
+* Added a rover monitor panel as convenient way to start/stop, shutdown and monitor the rover for problems.
 
 </details>
 
