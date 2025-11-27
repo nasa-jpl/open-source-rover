@@ -2,20 +2,26 @@
 
 The wheel assembly attaches the wheels to the motors and mounts the motors to the rest of the rocker-bogie suspension system that makes up the robot chassis. These are relatively simple to assemble.
  
-
 <img src="images/wheels.png" width=900/>
-_If you look carefully at the image above, you'll notice that the wheel assemblies aren't actual mirror images of each other. For example, notice that the U brackets for the corner wheels are facing different directions on the left and right sides. This is a defect in the OnShape model. When building your rover, you should make the wheel assemblies mirror images of each other._
+
+__If you look carefully at the image above, you'll notice that the wheel assemblies are identical, instead of mirror images of each other. For example, notice that the U brackets for the corner wheels are facing different directions on the left and right sides. This is a defect in the OnShape model. When building your rover, you should make the wheel assemblies mirror images of each other - all the openings to the U channel should point to the rear of the rover.__
 
 ## [DollarHobbyz Traxxas Wheels only] Drilling the wheels
 
 If you bought the DollarHobbyz Wheels, you will need to drill some holes through the plastic to allow attaching them to the hubs that fit onto the motor axes. If you have the smaller or bigger Wasteland Wheels from GoBilda, you can skip this step.
 
-The wheel is normally meant to be mounted using one bolt through the middle of the rim. This will not work well in our case as the rover sees very high torque at the wheel and the one-bolt system would be difficult to attach to any part of our system without the wheel slipping. To attach more firmly, we will drill two holes on either side of the original hole where we will mount the motor hub clamp
+The wheel is normally meant to be mounted using one bolt through the middle of the rim. This will not work well in our case as the rover sees very high torque at the wheel and the one-bolt system would be difficult to attach to any part of our system without the wheel slipping. To attach more firmly, we will drill two holes on either side of the original hole where we will mount the motor hub clamp.
 
 Drill at least 2 holes in the wheels such that they can be mounted to the [Hyper Hub](https://www.gobilda.com/1310-series-hyper-hub-8mm-rex-bore/) that attaches to the motor shaft. You'll want to make sure the holes you drill are centered, otherwise the wheel will wobble while driving. Once you've found where to drill the holes, consider using a center punch or small drill bit first before drilling to ensure your drill bit doesn't start 'wandering' before it locks into position. The distance from each hole center to the center of the wheel is  
 $$\sqrt(8^2 + 8^2) \approx 11.3mm$$
 
 <img src="https://cdn11.bigcommerce.com/s-x56mtydx1w/images/stencil/original/products/1228/11873/1310-0016-4008-Schematic__25024.1715800139.png?c=1" height=500>
+
+You can download a [drill guide](https://cad.onshape.com/documents/4613de44a35fb12512683e12/w/c211c6182fe04b1f4dd7ceab/e/b6566fc4043fba7013bcec85?renderMode=0&uiState=68f932b6ef0aa14fbdc9b460) designed to be laser-cut from 3mm acrylic and assembled as shown below to help you drill.
+
+| drill guide                                          | drill guide in use                                          |
+| ---------------------------------------------------- | ----------------------------------------------------------- |
+| <img src="images/wheel_drill_guide.jpg" height=400/> | <img src="images/wheel_drill_guide_in_use.jpg" height=400/> |
 
 ## Assembly
 
@@ -29,7 +35,7 @@ Attach the clamping mount and REX bore hub to the motor. We will adjust their po
 
 ## Four corner assemblies
 
-4 of the 6 drive assemblies you just built will become the corner motors. That only requires two mechanical pieces along with some screws but we'll want to route the wiring through the extruded channel.
+Four of the six drive assemblies you just built will become the corner motors. That only requires two mechanical pieces along with some screws but we'll want to route the wiring through the extruded channel.
 
 The result excluding wiring should look as follows:
 
@@ -39,13 +45,25 @@ The result excluding wiring should look as follows:
 
 Note that the sides of the rover are mirrored and so you'll be building 2 pairs of similar but not exactly the same subassemblies, as shown in the right image above.
 
+Start by laying out the pieces for each corner so you end up with the 2 mirrored pairs. Install `2911-0014-0001` grommets at the top and bottom of the extruded aluminum goRail, to protect your wires as they go around the corner (not shown in the image below).  
 
-Start by laying out the pieces for each corner so you end up with the 2 mirrored pairs. Take the DuPont to 4-pin JST encoder pins you created in [wiring](../electrical/wiring/README.md) and route them through the top low-profile U-channel, the extruded aluminum, and finally through the motor bracket. The DuPont connector should be at the top with the 4-pin JST connector at the bottom, ready to be connected to the motor encoder pins. Route the two motor power cables through the same parts in the opposite direction. Finally, screw the parts together using 3 or 4 button screws inside the U-channel and using 3 or 4 socket screws at the top. Don't tighten the screws too much yet as this will allow you to adjust wiring.
+Take the DuPont to 4-pin JST encoder pins you created in [wiring](../electrical/wiring/README.md) and route them through the top low-profile U-channel, the extruded aluminum goRail, and finally through the motor bracket. The DuPont connector should be at the top with the 4-pin JST connector at the bottom, ready to be connected to the motor encoder pins. 
 
-Adjust the wiring so there is minimal wiring inside the channel. Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges! Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
+Route the two motor power cables through the same parts in the opposite direction. Finally, screw the parts together using 3 or 4 M4x6mm button screws inside the U-channel and using 3 or 4 M4x8mm socket screws at the top. Don't tighten the screws too much yet as this will allow you to adjust wiring. Place a clamping motor mount on the end of the U-channel farthest from the goRail with 4 M4x6mm button screws.
 
-Repeat this for the 3 other corner assemblies.
+Adjust the wiring so there is minimal wiring inside the channel. Make sure to protect your wiring from chafing or cutting from the sharp aluminum edges with split sleeve or other shielding! Be careful when adjusting wires so to not damage the plastic shielding and potentially create shorts.
+
+### Optional Wiring Arrangement
+
+There is not a lot of clearance between the U-channel and the motor for the wiring to pass through, especially when wrapping the cables in a sleeve. You can choose to cut a notch in the extruded aluminium goRail just above the U-channel, as shown below.
+
+|      goRail notched                            |                   corner assembly step 2         |          corner assembled                      | 
+| ---------------------------------------------- | ------------------------------------------------ | ---------------------------------------------- | 
+| <img src="images/corner_notch.jpg" width=300/> | <img src="images/corner_wnotch_step2.jpg" width=400/> | <img src="images/corner_assembled_wnotch.jpg" width=400/> | 
+
+
+Repeat this for the three other corner assemblies.
 
 ## Assembled corners
-<img src="images/two_corners_assembled.png">
+<img src="images/two_corners_assembled.jpg">
 Mirror image corner wheel assemblies without the wheels attached yet. Wiring with sleeves is visible.
