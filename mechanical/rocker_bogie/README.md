@@ -102,7 +102,7 @@ Take one of the control arms with bearing and hub you made in an earlier step an
 
 Repeat for the other control arm. If the screws don't slide freely through the holes in the black control arm, drill the holes out to make sure the hurricane nuts rotate and lock in place in the rail.
 
-![picture of the control arm assembly](images/servo_arm_assembly.jpg)
+![picture of the control arm assembly](images/control_arm_assembly.jpg)
 
 Connect the short part of the rocker (shaft `1110-0024-00096`) to the control arm on one side such that the hurricane nuts fit all the way in the channel.  Tighten such that you can still slide the control arm relative to the channel.  Make sure the slit faces the underside/back of the rover (you can also point the slit upwards or downwards if you prefer). 
 
