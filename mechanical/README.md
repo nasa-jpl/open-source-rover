@@ -19,6 +19,7 @@ If you haven't already, now is a good time to attach the PCBs to the bottom body
 
 ![exploded view](images/exploded_mechanical.png)
 Inserting the left rocker-bogie in the body. Note that the 45 angle bracket in blue should already be attached to the rocker-bogie and the wheels should not be attached yet. A 32mm ID round spacer that should be installed below is also not seen on this image.
+**I didn't have space on the outside of the body, just one spacer in the center**
 
 ### Inserting the rocker-bogies in the body
 
@@ -31,9 +32,17 @@ Secure the body axis to the body using another 32mm ID spacer and flat 2-hole br
 
 ### Attaching the differential pivot to the rocker-bogies
 
-Attach the differential legs to the rocker-bogie 45 degree brackets using M4 screws.
+Attach the differential pivot legs to the rocker-bogie 45 degree brackets using M4x8 screws.  It may be easier to unmount the blocks, attach them to the bracket, then attach the pivot legs to them as shown in the sequence below.  A curved pair of needle-nose pliers or a hemostat is helpful to secure the M4x8mm screw while placing the block on the top, as it's hard to reach.  The button head screw that attatches to the inside leg is a bit tight.
 
-> TODO: requires image
+|![](images/dp_reaching_block_screws.jpg)| ![](images/dp_blocks_installed.jpg)|
+| ----------------------------------------------- | ---------------------------------------------------------- |
+| Holding the blocks in place | Blocks Installed |
+
+
+|![](images/dp_tightening_back.jpg)| ![](images/dp_assy_done.jpg)|
+| ----------------------------------------------- | ---------------------------------------------------------- |
+| Tightening the back leg | Differential Pivot Installed.
+
 
 ### Attaching the middle drive motors
 
