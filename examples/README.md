@@ -6,7 +6,7 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 ## Phoenyx-I ([PUCRA](https://github.com/PUCRA/Phoenyx-I))
 
-| <image src="images/Phoenyx-I/Phoenyx-I_1.jpg" height="175"> <image src="images/Phoenyx-I/Phoenyx-I_2.jpg" height="175"> <image src="images/Phoenyx-I/Phoenyx-I_3.png" height="175"> |
+| <image src="images/Phoenyx-I/Phoenyx-I 1.jpg" height="175"> <image src="images/Phoenyx-I/Phoenyx-I 2.jpg" height="175"> <image src="images/Phoenyx-I/Phoenyx-I 3.png" height="175"> |
 |:-:|
 
 <details>
