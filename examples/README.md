@@ -4,6 +4,34 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 # <ins>V2 Rovers</ins>
 
+## Phoenyx-I ([PUCRA](https://github.com/PUCRA/Phoenyx-I))
+
+| <image src="images/Phoenyx-I/Phoenyx-I_1.jpg" height="175"> <image src="images/Phoenyx-I/Phoenyx-I_2.jpg" height="175"> <image src="images/Phoenyx-I/Phoenyx-I_3.png" height="175"> |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+### Background
+We are a robotics association formed by university students.
+
+We decided to participate in the SENER CEA Bot Talent 2025 competition in order to learn and deepen our knowledge in robotics. As a result, we achieved great success, winning both the Design Award and the Overall Award, and successfully completing three challenges: perception, localization, and control. The competition was focused on using the JPL rover to carry out the challenges.
+
+After the competition, we carried out several demonstrations and implemented multiple improvements to both the robot and its software in order to continue learning and improving the system.
+
+### Modifications
+* Added an Orbbec Astra Pro Plus (RGB-D camera)
+* Added a YDLidar X4
+* Added an Adafruit BNO055 IMU
+* Added an Arduino to control a NeoPixel LED to indicate the robot state
+* Added an emergency button
+* Added a ventilation system with dust protection
+* Replaced the RoboClaw 2x7 with the RoboClaw 2x15 motor drivers
+* Added PLA covers for decoration and protection of motors, servos, robot profiles, and sensors
+
+</details>
+
+
 ## jerrys_rover ([jerryok826](https://github.com/jerryok826/rover-monitor  ))
 | <image src="images/jerrys_rover/rover_lawn_1.jpeg" height="175"> <image src="images/jerrys_rover/rover_monitor_pcb.jpg" height="175"> 
 |:-:|
