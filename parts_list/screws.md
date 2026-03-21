@@ -1,6 +1,6 @@
 # Screws tally
 
-All of the below are included in the [parts list](parts_list/README.md). This document is for maintenance only.
+All of the below are included in the [parts list](README.md). This document is for maintenance only.
 
 ## M4
 

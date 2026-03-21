@@ -24,7 +24,7 @@ nav:
       - Rocker bogie: mechanical/rocker_bogie/README.md
   - Parts:
       - Parts list: parts_list/README.md
-      - Optional parts: mechanical/optional_cad_parts/README.md
+      - Optional expansions: expansion/README.md
   - Software:
       - Software on GitHub: https://github.com/nasa-jpl/osr-rover-code
   - OSR@JPL: https://jplopensourcerover.com/

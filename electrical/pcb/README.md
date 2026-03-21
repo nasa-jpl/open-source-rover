@@ -606,4 +606,4 @@ While the individual parameters can be tuned to precise values, for an initial/m
 The individual PID values can also be tuned manually after autotuning to tweak the motor performance. Roboclaw has an overview of all of the [velocity settings here](https://resources.basicmicro.com/velocity-settings-in-motion-studio/).
 
 > **Important**: Make sure to save these settings to each Roboclaw's non-volatile memory by clicking on the `Device` menu > `Write Settings`.
-Repeat starting from Section [6.1](6.1-RoboClaw-Testing-and-Verification) for the other two roboclaws.
+Repeat starting from Section [6.1](#61-roboclaw-testing-and-verification) for the other two roboclaws.

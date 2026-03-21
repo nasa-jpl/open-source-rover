@@ -13,7 +13,7 @@ The Rocker-Bogie is the suspension system that enables the rover to climb aggres
 ## Mechanical Interface/Attachments to Rover
 
 * Servo block output shafts connect to corner motor assemblies
-* rocker-bogie connects to the body axis clamp via two brackets that are detailed in the [integration readme](../../integration/README.md)
+* rocker-bogie connects to the body axis clamp via two brackets that are detailed in the [body assembly section](../body/README.md#assemble-the-bearing-support-structures-that-connect-to-the-rocker-bogie)
 * middle drive motor connects to the extruded shaft at the bottom
 
 ## Assembly
