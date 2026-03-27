@@ -17,5 +17,15 @@ jobs:
         run: |
           cd parts_list
           python3 csv_to_md.py
-      # push the changes if any
-      - uses: int128/update-generated-files-action@v2
+      # On pull requests: check the generated file is up to date and fail with a clear message if not
+      - name: Check for outdated generated files
+        if: github.event_name == 'pull_request'
+        run: |
+          if ! git diff --exit-code -- parts_list/README.md; then
+            echo ""
+            echo "::error::parts_list/README.md is out of date. Please run 'cd parts_list && python3 csv_to_md.py' locally and commit the result."
+            exit 1
+          fi
+      # On direct pushes to repo branches: auto-commit the generated files if changed
+      - if: github.event_name == 'push'
+        uses: int128/update-generated-files-action@v2
