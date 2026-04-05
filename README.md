@@ -1,6 +1,6 @@
 # JPL Open Source Rover Project
 
-**NOTE**: For the previous major version of the OSR, please see [v3.1.0](https://github.com/nasa-jpl/open-source-rover/tree/v3.0.0).
+**NOTE**: For the previous major version of the OSR, please see [v3.1.0](https://github.com/nasa-jpl/open-source-rover/tree/v3.1.0).
 
 | ![](images/lit_up_shot.jpg) | ![](images/osr-side-outside.jpg) |
 | --------------------------- | --------------------------- |
