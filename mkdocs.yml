@@ -34,6 +34,9 @@ plugins:
   - search:
       prebuild_index: true
 
+extra_javascript:
+  - "javascript/init_kapa_widget.js"
+
 markdown_extensions:
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_alt
