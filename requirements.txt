@@ -10,7 +10,7 @@ mkdocs-get-deps==0.2.2
 mkdocs-same-dir==0.1.2
 packaging==21.3
 pathspec==1.1.1
-pymdown-extensions==10.16.1
+pymdown-extensions==10.21.3
 pyparsing==3.0.7
 python-dateutil==2.8.2
 PyYAML==6.0.3
