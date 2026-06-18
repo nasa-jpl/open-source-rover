@@ -25,6 +25,12 @@ All parts referenced in these instructions use the schematic "reference designat
 
 Generally these instructions have enough images to clearly show and identify the parts, but whenever in doubt the best thing to do is to look up the reference in the BOM spreadsheet.
 
+Header terminology used in this guide:
+- `female header` means 2.54 mm socket header strips.
+- `male header` means 2.54 mm pin header strips.
+
+For these generic breakaway headers (used for INA260, regulators, and Roboclaw wiring), see BOM item `B8` in [`bom_v2.0.3_other_parts.csv`](control_board/BOM/v2.0.3/bom_v2.0.3_other_parts.csv).
+
 ## 2. Schematic and Layout Documentation
 
 TODO: add versions for v2.0.3
@@ -143,10 +149,10 @@ The INA260 daughter board is used for digital sensing of voltage and current, me
 
 **Option 1: If you have an INA260 daughter board, you should install that in footprint U1.**
 
-1. Attach an 8x1 female header to the 8 pins on the bottom side of the INA260 / U1 footprint, as seen in Figure 3.10.  Note that this is sensing the current on the high side of the power, so PWR on the the Motor Board is connected to Vin+ on the INA260, and Vin- on the INA260 is connected to MMLOAD+, which connects to the main power bus of the rover.
-2. Solder the 8x1 male header pins to the INA260.
-3. Attach a 3x1 female header (cut from a longer Nx1 header) to the two pins on the top side of the INA260 / U1 footprint, as seen in Figure 3.14. You'll need to manually remove the center pin.
-4. Remove the center pin from a 3x1 male header pins, and solder to the INA260.
+1. Attach an 8x1 female socket header (2.54 mm pitch, from header kit `B8`) to the 8 pins on the bottom side of the INA260 / U1 footprint, as seen in Figure 3.10. Note that this is sensing the current on the high side of the power, so PWR on the Motor Board is connected to Vin+ on the INA260, and Vin- on the INA260 is connected to MMLOAD+, which connects to the main power bus of the rover.
+2. Solder an 8x1 male pin header (2.54 mm pitch, from header kit `B8`) to the INA260.
+3. Attach a 3x1 female socket header (cut from a longer 2.54 mm strip from header kit `B8`) to the two pins on the top side of the INA260 / U1 footprint, as seen in Figure 3.14. You'll need to manually remove the center pin.
+4. Remove the center pin from a 3x1 male pin header (2.54 mm pitch, from header kit `B8`) and solder it to the INA260.
 5. Solder across pads A0 and A1 on the INA260 (to set it to use I2C Address 0x45)
 6. Install M2.5 x 12mm + 6mm standoffs to the side of the INA260 opposite the pins as shown in Figure 3.20
 
