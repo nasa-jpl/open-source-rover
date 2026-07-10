@@ -125,7 +125,7 @@ Flip the assembly over and repeat on the other side, making sure the setup is sy
 | Running wiring through short shaft of rocker | Joint installed. |
 
 > [!CAUTION]
-> the OnShape model may represent the orientation of the slits incorrectly. In order to make the model nimble, the same rocker-bogie assembly is used on both sides of the rover which has the side-effect that the two assemblies aren't mirrorred like they are supposed to be. Always stop to think about what you're building to avoid having to take things apart later.
+> the OnShape model may represent the orientation of the slits incorrectly. In order to make the model nimble, the same rocker-bogie assembly is used on both sides of the rover which has the side-effect that the two assemblies aren't mirrored like they are supposed to be. Always stop to think about what you're building to avoid having to take things apart later.
 
 ### Assemble the back servo
 
