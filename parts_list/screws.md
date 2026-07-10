@@ -20,7 +20,7 @@ All of the below are included in the [parts list](README.md). This document is f
 | rocker-bogie | 13  | 8                | socket | rocker-bogie - body-axis       | 2          | 26    |
 | rocker-bogie | 2   | 6 or **8**       | socket | rocker-bogie - diff pivot      | 2          | 4     |
 | rocker-bogie | 8   | 8                | socket | rocker-bogie joint             | 2          | 16    |
-| rocker-bogie | 4   | 10               | socket | rocker-bogie joint             | 2          | 8     |
+| rocker-bogie | 6   | 10               | socket | rocker-bogie joint             | 2          | 12    |
 | rocker-bogie | 4   | 10 or **12**     | socket | diff pivot - rocker-bogie      | 1          | 4     |
 | rocker-bogie | 4   | **20** or 22     | socket | turnbuckles                    | 1          | 4     |
 | rocker-bogie | 2   | 6                | button | diff pivot shaft - bearing     | 1          | 2     |
@@ -44,7 +44,7 @@ Total per category and length:
 | button | [10](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | 70 (+48)     | 3                     |
 | button | [16](https://www.gobilda.com/2802-series-zinc-plated-steel-button-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | 34           | 2                     |
 | socket | [8](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-8mm-length-25-pack/)   | 30 (+8)      | 2                     |
-| socket | [10](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | 42 (+48)     | 4                     |
+| socket | [10](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-10mm-length-25-pack/) | 46 (+52)     | 4                     |
 | socket | [12](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-12mm-length-25-pack/) | 20           | 1                     |
 | socket | [16](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-16mm-length-25-pack/) | 46 (+8)      | 2                     |
 | socket | [20](https://www.gobilda.com/2800-series-zinc-plated-steel-socket-head-screw-m4-x-0-7mm-20mm-length-25-pack/) | 12           | 1                     |
