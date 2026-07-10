@@ -112,7 +112,7 @@ If the screws don't slide freely through the holes in the black control arm, dri
 Unlike the image, use 3 hurricane nuts instead of 2. Connect the short part of the rocker (shaft `1110-0024-00096`) to the control arm on one side such that the hurricane nuts fit all the way in the channel.  Tighten such that you can still slide the control arm relative to the channel.  Make sure the slit faces the underside/back of the rover (you can also point the slit upwards or downwards if you prefer). The hurricane nuts have a tendency to seem stuck without actually getting their small 'wings' locked in the channel. If they're not properly inserted, the assembly will not have the required rigidity.
 
 </details>
-<br></br>
+<br />
 
 Repeat for the other control arm.
 
