@@ -511,19 +511,17 @@ The Raspberry Pi (RPi) 5 has different power requirements than previous RPi gene
 
 ## 5. Motor Board and Brain Board Mating
 
-Using appropriate standoffs, attach the brain board to the top of the motor board, as shown in figure 5.0
-
-TODO: identify the parts for the standoffs
+Using appropriate standoffs, such as [M3x10mm](https://www.digikey.com/en/products/detail/keystone-electronics/25501/1532180) though you'll likely be using from a kit, attach the brain board to the top of the motor board, as shown in figure 5.0
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0847.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0848.jpeg" height="300"> |
 |:-:|
-| Figure 4.7: Mating the brain board to the motor board  |
+| Figure 5.0: Mating the brain board to the motor board  |
 
 And now you're done with the assembly! Finally, we'll move on to testing and configuration.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0849.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0850.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0851.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0852.jpeg" height="300">|
 |:-:|
-| Figure 4.8: Completed control board  |
+| Figure 5.1: Completed control board  |
 
 ## 6. Testing the PCB and wiring for the drive motors
 
