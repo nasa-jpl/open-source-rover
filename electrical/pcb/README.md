@@ -40,7 +40,7 @@ There's documentation of both the schematics (how all the electrical parts logic
 
 ### 3.1 Attach standoffs
 
-Attach standoffs to the bare board, for ease of future soldering work.
+Attach M2.5 x 30mm standoffs to the bare board, for ease of future soldering work.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230413_052035126.jpg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230413_052039855.jpg" height="300"> |
 |:-:|
@@ -148,7 +148,7 @@ The INA260 daughter board is used for digital sensing of voltage and current, me
 3. Attach a 3x1 female header (cut from a longer Nx1 header) to the two pins on the top side of the INA260 / U1 footprint, as seen in Figure 3.14. You'll need to manually remove the center pin.
 4. Remove the center pin from a 3x1 male header pins, and solder to the INA260.
 5. Solder across pads A0 and A1 on the INA260 (to set it to use I2C Address 0x45)
-6. Install M2.5 x 12mm + 6mm standoffs to the side of the INA260 opposite the pins as shown in Figure 3.20
+6. Install M2.5 x 10mm standoffs to the side of the INA260 opposite the pins as shown in Figure 3.20
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/ina260_headers.png" height="300"> |
 |:-:|
@@ -180,7 +180,7 @@ Install 3 female headers for the daughter board, into U4. You will need a two 4x
 
 ### 3.7 Install 12V bus regulator U3
 
-Solder a 5x1 female header to the U3 footprint, and attach an appropriately sized standoffs (I used an M3x10mm standoff)
+Solder a 5x1 female header to the U3 footprint, and attach M2.5 x 10mm standoffs between the regulator and motor board
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_050503408.jpg" height="300"> |
 |:-:|
@@ -338,7 +338,7 @@ Power: 1230.00 mW
 
 Now we'll add the parts for roboclaw footprints RC1, RC2, and RC3.
 
-First, install standoffs for the 3 RC footprints, as shown an figure 3.33 and 3.34. 
+First, install M2.5 x 15mm standoffs for the 3 RC footprints, as shown an figure 3.33 and 3.34. 
 
 Next, solder in the two female headers for each RC footprint. You'll need a 2x10 and a 5x1 for each RC. These should be soldered into the holes on the side of each RC footprint.
 
@@ -499,7 +499,7 @@ Install all of these as indicated in figure 4.5:
 
 ### 4.6 Mount the Raspberry Pi board
 
-Using appropriate standoffs (M3x6mm+6mm works well, if a bit tight in the Raspberry Pi 5 mounting holes), attach the raspberry pi to the top of the brain board, as shown in figure 4.6.  Attach the ribbon cable from the GPIO on the Pi to J22.
+Using M2.5 x 20mm standoffs, attach the raspberry pi to the top of the brain board, as shown in figure 4.6.  Attach the ribbon cable from the GPIO on the Pi to J22.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0844.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0845.jpeg" height="300"> |
 |:-:|
@@ -511,7 +511,7 @@ The Raspberry Pi (RPi) 5 has different power requirements than previous RPi gene
 
 ## 5. Motor Board and Brain Board Mating
 
-Using appropriate standoffs, such as [M3x10mm](https://www.digikey.com/en/products/detail/keystone-electronics/25501/1532180) though you'll likely be using from a kit, attach the brain board to the top of the motor board, as shown in figure 5.0
+Using M2.5 x 10mm standoffs, attach the brain board to the top of the motor board, as shown in figure 5.0
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0847.jpeg" height="300"> <img src="../../images/pcb_assembly/v2_0_1/assembly/IMG_0848.jpeg" height="300"> |
 |:-:|
