@@ -141,22 +141,31 @@ Also check the voltage shown by the multimeter. This should show the same voltag
 
 The INA260 daughter board is used for digital sensing of voltage and current, measurements that the raspberry pi can query over an I2C connection. Unfortunately, it can be hard to find these INA260 parts nowadays - if you can't find one you will need to bypass U1, because it is in the path of the battery positive side supply.
 
-**Option 1: If you have an INA260 daughter board, you should install that in footprint U1.**
+**Option 1: If you have an INA260 daughter board, you should install that in footprint U1 on the bottom side of the motor board.**
 
-1. Attach an 8x1 female header to the 8 pins on the bottom side of the INA260 / U1 footprint, as seen in Figure 3.10.  Note that this is sensing the current on the high side of the power, so PWR on the the Motor Board is connected to Vin+ on the INA260, and Vin- on the INA260 is connected to MMLOAD+, which connects to the main power bus of the rover.
-2. Solder the 8x1 male header pins to the INA260.
-3. Attach a 3x1 female header (cut from a longer Nx1 header) to the two pins on the top side of the INA260 / U1 footprint, as seen in Figure 3.14. You'll need to manually remove the center pin.
-4. Remove the center pin from a 3x1 male header pins, and solder to the INA260.
-5. Solder across pads A0 and A1 on the INA260 (to set it to use I2C Address 0x45)
-6. Install M2.5 x 10mm standoffs to the side of the INA260 opposite the pins as shown in Figure 3.20
+See [control_board/README.md](control_board/readme.md) for part numbers for inter-board pins and sockets.
+
+1. Attach 8x1 female header sockets to the eight pads on the bottom side of the INA260 / U1 footprint, as seen in Figure 3.14.  This is sensing the current on the high side of the power, so PWR on the the Motor Board is connected to Vin+ on the INA260, and Vin- on the INA260 is connected to MMLOAD+, which connects to the main power bus of the rover.
+2. Attach 3x1 female header socket (cut from a longer Nx1 header) to the two pads on the bottom side of the INA260 / U1 footprint, as seen in Figure 3.14. You'll need to manually remove the center pin, as there is no hole/pad on the brain board.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/ina260_headers.png" height="300"> |
 |:-:|
-| Figure 3.14: INA260 headers installed |
+| Figure 3.14: Sockets on U1 footprint installed |
 
-| <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_042446722.jpg" height="300"> |
+3. Attach 8x1 male header pins to the underside of the INA260, as seen in Figure 3.15
+4. Remove the center pin from a 3x1 male header pins, and solder to the INA260.
+
+| <img src="images/INA260_Bottom.jpg" height="300"> <img src="images/INA260_Top.jpg" height="300"> |
 |:-:|
-| Figure 3.15: INA260 installed |
+| Figure 3.15: INA260 Pins installed |
+
+5. Solder across pads A0 and A1 on the INA260 (to set it to use I2C Address 0x45)
+6. Insert the INA260 male pins into the U1 female sockets, as shown in Figure 3.16
+6. Optionally, install M2.5 x 12mm + 6mm standoffs between the motor board and the INA260.
+
+| <img src="images/INA260_Installed.jpg" height="300"> |
+|:-:|
+| Figure 3.16: Headers on INA260 installed |
 
 **Option 2: If you don't have one, you will need to bypass U1**
 
@@ -172,11 +181,11 @@ Install 3 female headers for the daughter board, into U4. You will need a two 4x
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_044902463.MP.jpg" height="300"> |
 |:-:|
-| Figure 3.16: 5V regulator headers installed |
+| Figure 3.17: 5V regulator headers installed |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_044810169.jpg" height="300"> |
 |:-:|
-| Figure 3.17: 5V regulator installed |
+| Figure 3.18: 5V regulator installed |
 
 ### 3.7 Install 12V bus regulator U3
 
@@ -184,21 +193,21 @@ Solder a 5x1 female header to the U3 footprint, and attach M2.5 x 10mm standoffs
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_050503408.jpg" height="300"> |
 |:-:|
-| Figure 3.18: U3 footprint |
+| Figure 3.19: U3 footprint |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_051040927.jpg" height="300"> |
 |:-:|
-| Figure 3.19: 12v regulator installed |
+| Figure 3.20: 12v regulator installed |
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/PXL_20230418_051046001.MP.jpg" height="300"> |
 |:-:|
-| Figure 3.20: 12v regulator installed (2) |
+| Figure 3.21: 12v regulator installed (2) |
 
 ### 3.8 Install 3.3V bus regulator U7 and decoupling capacitor C7
 
-The 3.3V bus regulator is a linear voltage regulator and is physically much smaller - it comes in the same packaging as diode D1. Make sure to install the regulator in the correct direction as shown in figure 3.21.
+The 3.3V bus regulator is a linear voltage regulator and is physically much smaller - it comes in the same packaging as diode D1. Make sure to install the regulator in the correct direction as shown in figure 3.23.
 
-Capacitor C7 is the decoupling capacitor for the 3.3v bus. Make sure to install C7 in the proper direction, as shown in figure 3.19. One side of the capacitor has negative polarity indicators on it, that should be installed opposite the "+" sign on the footprint.
+Capacitor C7 is the decoupling capacitor for the 3.3v bus. Make sure to install C7 in the proper direction, as shown in figure 3.24. One side of the capacitor has negative polarity indicators on it, that should be installed opposite the "+" sign on the footprint.
 
 | <img src="../../images/pcb_assembly/v2_0_1/assembly/u7_bare.png" height="300"> |
 |:-:|
