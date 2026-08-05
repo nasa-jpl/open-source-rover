@@ -94,17 +94,27 @@ Then assemble the servo block to the servo motor. Insert the set screw that came
 
 ### Connect the control arms and rocker to the joint
 
-Take one of the control arms with bearing and hub you made in an earlier step and attach the steel bracket, two hurricane nuts, and 4x socket screws like in the image. 
-
-> **NOTE**: Consider using an extra screw and hurricane nut in the middle to strengthen the joint further
+Take one of the control arms (black plastic piece) with bearing and hub you made in an earlier step and attach the steel bracket, a [goRail Nut (5 Hole)](https://www.gobilda.com/gorail-nut-5-hole-2-pack/), and 7x socket screws with washers like in the image.
 
 ![attaching the shaft from the rocker to the bogie joint](images/rocker_extr_to_bogie_joint.png)
 
-Repeat for the other control arm. If the screws don't slide freely through the holes in the black control arm, drill the holes out to make sure the hurricane nuts rotate and lock in place in the rail.
+> [!NOTE]
+> If you don't have the goRail nut (5 Hole) which was introduced July 2026, use three hurricane nuts instead. See the collapsed section below.
+
+<details>
+
+<summary>Instructions for when you don't have the goRail nuts</summary>
+
+If the screws don't slide freely through the holes in the black control arm, drill the holes out to make sure the hurricane nuts rotate and lock in place in the rail.
 
 ![picture of the control arm assembly](images/control_arm_assembly.jpg)
 
-Connect the short part of the rocker (shaft `1110-0024-00096`) to the control arm on one side such that the hurricane nuts fit all the way in the channel.  Tighten such that you can still slide the control arm relative to the channel.  Make sure the slit faces the underside/back of the rover (you can also point the slit upwards or downwards if you prefer). 
+Unlike the image, use 3 hurricane nuts instead of 2. Connect the short part of the rocker (shaft `1110-0024-00096`) to the control arm on one side such that the hurricane nuts fit all the way in the channel.  Tighten such that you can still slide the control arm relative to the channel.  Make sure the slit faces the underside/back of the rover (you can also point the slit upwards or downwards if you prefer). The hurricane nuts have a tendency to seem stuck without actually getting their small 'wings' locked in the channel. If they're not properly inserted, the assembly will not have the required rigidity.
+
+</details>
+<br />
+
+Repeat for the other control arm.
 
 Route the wiring coming from the front, middle, and rear motors and servos through the slit (see left image below). It helps to temporarily keep the wiring in place with some tape as you attach the shaft to the bogie joint.
 
@@ -112,10 +122,10 @@ Flip the assembly over and repeat on the other side, making sure the setup is sy
 
 | ![wiring for bogie joint](images/wiring_bogiejoint.jpg) | ![wiring for bogie joint](images/wiring_bogiejoint_done.jpg) |
 | --- | --- |
-| Running wiring through short shaft of rocker | Joint installed. | 
+| Running wiring through short shaft of rocker | Joint installed. |
 
-
-> **NOTE**: the OnShape model may represent the orientation of the slits incorrectly. In order to make the model nimble, the same rocker-bogie assembly is used on both sides of the rover which has the side-effect that the two assemblies aren't mirrorred like they are supposed to be. Always stop to think about what you're building to avoid having to take things apart later.
+> [!CAUTION]
+> the OnShape model may represent the orientation of the slits incorrectly. In order to make the model nimble, the same rocker-bogie assembly is used on both sides of the rover which has the side-effect that the two assemblies aren't mirrored like they are supposed to be. Always stop to think about what you're building to avoid having to take things apart later.
 
 ### Assemble the back servo
 
