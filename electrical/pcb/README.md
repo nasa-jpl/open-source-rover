@@ -27,8 +27,6 @@ Generally these instructions have enough images to clearly show and identify the
 
 ## 2. Schematic and Layout Documentation
 
-TODO: add versions for v2.0.3
-
 There's documentation of both the schematics (how all the electrical parts logically connect to one another) and the layout (how the parts are physically placed on the boards) in the [control_board/documentation](control_board/documentation) directory
 
 ## 3. Motor Board Assembly
@@ -169,9 +167,7 @@ See [control_board/README.md](control_board/readme.md) for part numbers for inte
 
 **Option 2: If you don't have one, you will need to bypass U1**
 
-TODO: need to update this discussion of bypassing U1 once the layout has been updated
-
-Install a 0 ohm resistor in footprint R30, on the top side of the board
+Install a 0 ohm resistor in footprint R30, on the top side of the board, to bypass the INA260 function. You lose the ability to observe motor current, but everything else should function the same.
 
 ### 3.6 Install 5V bus regulator
 
