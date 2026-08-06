@@ -4,6 +4,42 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 # <ins>V2 Rovers</ins>
 
+## Coast-Ex
+
+| <image src="images/coast-ex/coast-ex-cliff-view.jpg" height="150"> <image src="images/coast-ex/coast-ex-waterfront.jpg" height="150"> <image src="images/coast-ex/coast-ex-lidar.jpg" height="150"> <image src="images/coast-ex/coast-ex-side-view.jpg" height="150"> [<image src="images/coast-ex/coast-ex-video-thumbnail.jpg" height="150">](https://youtube.com/playlist?list=PLEVE4pbtqQmY) |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+### Background
+
+COAST-EX was built in 2026 as a collaborative internship project involving SCIENTEAMA, the M2C laboratory (CNRS) and ESIX Normandie.
+
+Our objective is to investigate how the JPL Open Source Rover can be adapted into a low-cost, modular platform for the digital surveying of beaches and coastal environments. The rover is intended to support repeatable field acquisitions for terrain mapping, LiDAR-based localization, photogrammetry, and, in future developments, other scientific sensors such as ground-penetrating radar.
+
+The first prototype was assembled and integrated by engineering student Théo Etheve at ESIX, under the joint supervision of Xavier Pellerin Le Bas at SCIENTEAMA and Laurent Froideval at CNRS.
+
+Initial field trials were conducted on sand, gravel, and uneven terrain to evaluate the rover's mobility and its suitability for coastal fieldwork. Real-time LiDAR SLAM was also successfully tested while the rover was moving.
+
+### Modifications
+
+* Replace Polulu 5V D24V150F5 by a cheaper ANGEEK 200W 15A XF0374 (https://www.amazon.fr/-/en/dp/B07ZH5QDSS?ref=ppx_yo2ov_dt_b_fed_asin_title)
+* Added a top-mounted LiDAR sensor
+* Integrated real-time LiDAR SLAM for mapping and localization
+* Adapted the onboard software configuration to operate the LiDAR and SLAM system
+
+### Current development
+
+Future developments will focus on autonomous navigation, repeatable surveying trajectories, terrain mapping, camera-based acquisition, and the integration of additional coastal monitoring sensors.
+
+### Media
+
+* [Field test videos](https://youtube.com/playlist?list=PLEVE4pbtqQmY)
+
+</details>
+
+
 ## Phoenyx-I ([PUCRA](https://github.com/PUCRA/Phoenyx-I))
 
 | <image src="images/Phoenyx-I/Phoenyx-I 1.jpg" height="175"> <image src="images/Phoenyx-I/Phoenyx-I 2.jpg" height="175"> <image src="images/Phoenyx-I/Phoenyx-I 3.png" height="175"> |
