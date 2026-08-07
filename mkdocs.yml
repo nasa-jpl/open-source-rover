@@ -27,6 +27,34 @@ nav:
       - Optional expansions: expansion/README.md
   - Software:
       - Software on GitHub: https://github.com/nasa-jpl/osr-rover-code
+  - Systems Engineering:
+      - Overview: systems_engineering/README.md
+      - Operational Analysis:
+          - Overview: systems_engineering/01_operational_analysis/README.md
+          - Stakeholders: systems_engineering/01_operational_analysis/stakeholders.md
+          - Operational Entities: systems_engineering/01_operational_analysis/operational_entities.md
+          - Operational Activities: systems_engineering/01_operational_analysis/operational_activities.md
+          - Operational Capabilities: systems_engineering/01_operational_analysis/operational_capabilities.md
+      - System Analysis:
+          - Overview: systems_engineering/02_system_analysis/README.md
+          - System Functions: systems_engineering/02_system_analysis/system_functions.md
+          - Capabilities: systems_engineering/02_system_analysis/capabilities.md
+          - Missions: systems_engineering/02_system_analysis/missions.md
+          - Interfaces: systems_engineering/02_system_analysis/interfaces.md
+      - Logical Architecture:
+          - Overview: systems_engineering/03_logical_architecture/README.md
+          - Logical Components: systems_engineering/03_logical_architecture/logical_components.md
+          - Logical Functions: systems_engineering/03_logical_architecture/logical_functions.md
+          - Interfaces: systems_engineering/03_logical_architecture/interfaces.md
+      - Physical Architecture:
+          - Overview: systems_engineering/04_physical_architecture/README.md
+          - Physical Components: systems_engineering/04_physical_architecture/physical_components.md
+          - Physical Functions: systems_engineering/04_physical_architecture/physical_functions.md
+          - Interfaces: systems_engineering/04_physical_architecture/interfaces.md
+      - EPBS Architecture:
+          - Overview: systems_engineering/05_epbs/README.md
+          - Configuration Items: systems_engineering/05_epbs/configuration_items.md
+      - Capella Model: systems_engineering/MBSE_workspace/README.md
   - OSR@JPL: https://jplopensourcerover.com/
 
 plugins:

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:description="http://www.eclipse.org/sirius/description/1.1.0"
+    xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0"
+    uid="_9RCFoOlFEe6ZgIZX90rCwQ"
+    selectedViews="_9uI4YOlFEe6ZgIZX90rCwQ _9ve8MOlFEe6ZgIZX90rCwQ _92-rUOlFEe6ZgIZX90rCwQ _93isAOlFEe6ZgIZX90rCwQ _94QdsOlFEe6ZgIZX90rCwQ _96WvcOlFEe6ZgIZX90rCwQ _97f-8OlFEe6ZgIZX90rCwQ"
+    version="15.1.0.202211301600">
+  <semanticResources>OSR_capella_model.afm</semanticResources>
+  <semanticResources>OSR_capella_model.capella</semanticResources>
+  <ownedViews uid="_9uI4YOlFEe6ZgIZX90rCwQ">
+    <viewpoint href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']"/>
+  </ownedViews>
+  <ownedViews uid="_9ve8MOlFEe6ZgIZX90rCwQ">
+    <viewpoint href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']"/>
+  </ownedViews>
+  <ownedViews uid="_92-rUOlFEe6ZgIZX90rCwQ">
+    <viewpoint href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/EPBS.odesign#//@ownedViewpoints[name='EPBS%20architecture']"/>
+  </ownedViews>
+  <ownedViews uid="_93isAOlFEe6ZgIZX90rCwQ">
+    <viewpoint href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
+  </ownedViews>
+  <ownedViews uid="_94QdsOlFEe6ZgIZX90rCwQ">
+    <viewpoint href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']"/>
+  </ownedViews>
+  <ownedViews uid="_96WvcOlFEe6ZgIZX90rCwQ">
+    <viewpoint href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
+  </ownedViews>
+  <ownedViews uid="_97f-8OlFEe6ZgIZX90rCwQ">
+    <viewpoint href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
