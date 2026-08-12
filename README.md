@@ -155,7 +155,7 @@ Take a look at these alternative Mars rover replicas:
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=nasa-jpl/open-source-rover&type=Date)](https://star-history.com/#nasa-jpl/open-source-rover&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=nasa-jpl/open-source-rover&type=Date)](https://star-history.dera.page/#nasa-jpl/open-source-rover&Date)
 
 ## Disclaimer
 
