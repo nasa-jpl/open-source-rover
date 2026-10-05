@@ -30,6 +30,7 @@ Front plates with the Rover patch logo as an engraving have been included as PDF
 
 ## Changelog
 
+* **Cutout tolerance fix (fixes #525):** the U-shaped hinge/standoff cutouts in the front/back standoff plates were enlarged by 1 mm in every dimension (walls, fillet radii, and semicircular lobes), and the small semicircular edge cutouts on the side/bottom/top plates were enlarged by ~1 mm as well. There should now be enough clearance no matter whether 20 mm or 22 mm M4 standoffs are used. Previously either standoff length caused the cutout to collide with the standoff corner socket heads.
 * Use 22mm standoffs.
 * All holes have been made slightly larger to better accomodate the M3 screws. The size of the switch hole on the rear plate is also slightly larger. 
 * Some of the holes on the side and bottom plates have been moved to simplify assembly.
