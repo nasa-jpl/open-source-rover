@@ -8799,7 +8799,7 @@
 				)
 			)
 		)
-		(property "Value" "DC7G3HWA"
+		(property "Value" "DC10CGKWA"
 			(at -10.16 -7.5 90)
 			(layer "F.Fab")
 			(uuid "269438e5-a122-493f-8fb5-8d9a77d112e0")
@@ -15840,7 +15840,7 @@
 				)
 			)
 		)
-		(property "Value" "DC7G3HWA"
+		(property "Value" "DC10CGKWA"
 			(at -10.16 -7.5 180)
 			(layer "F.Fab")
 			(uuid "515b4db2-052a-4afc-ad22-c7861323f2e9")
