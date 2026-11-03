@@ -4,6 +4,70 @@ OSRs in the wild and under construction! Please [add your rover](#Instructions-f
 
 # <ins>V2 Rovers</ins>
 
+## Mon-D ([Aiden](https://github.com/TogaTheGreat/Mon-D))
+
+| <image src="images/Mon-D/Mon-D Front.jpg" height="175"> <image src="images/Mon-D/Mon-D Back.jpg" height="175"> <image src="images/Mon-D/Mon-D Side.png" height="175"> |
+|:-:|
+
+<details>
+  <summary>Expand to learn more about this build!</summary>
+
+### Background
+
+I started Mon-D during my Sophomore year of high school. I started researching this project and its parts September 2024, recieved all parts by December 2024, and finished the base JPL-OSR by March, 2025. Since then I have occasionally added improvements, below are those I've finished up to September, 2026.
+I had no prior robotics, or really electronics experience. I've had to redo every single wire crimp I did the first time, put locktite into many screws that fell out, and redo all of my first attempts of custom code. 
+Gradually, though, I've learned through this project and hope to continue growing with it.
+
+### Modifications
+
+#### v1 (Finished March, 2025)
+* Raspberry Pi 5 instead of 4 (With extra power USB)
+* 3D-Printed panels rather than laser cut
+* Small code edits to work better with an Rpi5
+
+#### v2 (Finished September, 2025)
+* Oak-D Pro depth camera with RTAB-Map for mapping and localization
+* Camera pitch/pan gimbal
+* Website interface for driving the rover with the camera feed remotely
+* Adaptive torque per-wheel to climb long stairs without putting as much pressure on the joints (ankles, persay)
+* Modified software to accept a SocketIO as well as direct Bluetooth connection to feed joystick and button data
+
+#### v3 (Finished September, 2026)
+* Nav2 combined with Oak-D pointcloud for local obstacle avoidance
+* Ro-Arm m3 robotic arm mounted to the front
+* 12v golf cart power supply for the robotic arm
+* Waveshare ESP-32-S3 Smart Speaker, with modified firmware and custom TinyUSB stack for mic/speaker/custom cdc with Wifi AP
+* Integrated the speaker's LEDs to indicate rover state
+* Used the dual microphones to (roughly) indicate the direction a sound came from based on volume differential
+* Modified software including Luxonis and Waveshare drivers, along with creating a custom cdc driver for the speaker
+* Speech recognition and wake-word through the Waveshare speaker
+* Local ROS2 connection to an external server to handle RTAB-Map
+* MoveIt2 inverse kinematics planning to pick up target objects with the robotic arm.
+
+### Current development
+
+I'm currently working on autonomy- the hardware is in place, but a good system with ChatGPT 4o voice through the mirophone and speaker along with Nav2 and MoveIt2 could make the rover a capable and intelligent assistant or explorer.
+Additionally, the stock claw on the Ro-arm m3 is only good at picking up soft objects- it fails on nearly every stiff object. I want to integrate a design I found from the Yale OpenHand project with tendon-actuated compliant fingers instead of a stiff claw.
+At the same time, I'd like to add a small camera into the palm of the new hand- that would let objects be located with much higher precision before pickup and could let the rover see about 1 1/2 feet higher, for whatever taller observation needs come up in a household or outside.
+
+### Media
+
+https://github.com/user-attachments/assets/02db45e6-44d9-485f-98a2-c51e0701594f
+
+Mon-D's website for control
+
+https://github.com/user-attachments/assets/c6e7f31f-64cd-40b2-a67c-022861539069
+
+Rover arm and navigation work
+
+https://github.com/user-attachments/assets/c46e0ed9-d2d0-446c-9388-d5762c6ee5e2
+
+Rover stairs test
+<image src="images/Mon-D/Mon-D Cover off.jpg" height="175">
+The baseplate I used to mount the arm
+
+</details>
+
 ## Coast-Ex
 
 | <image src="images/coast-ex/coast-ex-cliff-view.jpg" height="150"> <image src="images/coast-ex/coast-ex-waterfront.jpg" height="150"> <image src="images/coast-ex/coast-ex-lidar.jpg" height="150"> <image src="images/coast-ex/coast-ex-side-view.jpg" height="150"> [<image src="images/coast-ex/coast-ex-video-thumbnail.jpg" height="150">](https://youtube.com/playlist?list=PLEVE4pbtqQmY) |
