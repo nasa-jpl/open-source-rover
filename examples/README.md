@@ -63,7 +63,9 @@ Rover arm and navigation work
 https://github.com/user-attachments/assets/c46e0ed9-d2d0-446c-9388-d5762c6ee5e2
 
 Rover stairs test
+
 <image src="images/Mon-D/Mon-D Cover off.jpg" height="175">
+
 The baseplate I used to mount the arm
 
 </details>
